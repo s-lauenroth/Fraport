@@ -1,0 +1,731 @@
+{
+  "url": "http://localhost:8791/de-proposed.html",
+  "width": 1440,
+  "headerTimeline": [
+    {
+      "y": 0,
+      "cls": "header",
+      "position": "relative",
+      "height": "153px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header",
+      "position": "relative",
+      "height": "153px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header is-sticky is-animating",
+      "position": "sticky",
+      "height": "153px",
+      "transform": "matrix(1, 0, 0, 1, 0, -153)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header is-sticky is-animating",
+      "position": "sticky",
+      "height": "153px",
+      "transform": "matrix(1, 0, 0, 1, 0, -153)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 3600,
+      "cls": "header is-sticky is-animating",
+      "position": "sticky",
+      "height": "153px",
+      "transform": "matrix(1, 0, 0, 1, 0, -153)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4800,
+      "cls": "header is-sticky is-animating",
+      "position": "sticky",
+      "height": "153px",
+      "transform": "matrix(1, 0, 0, 1, 0, -153)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6000,
+      "cls": "header is-sticky is-animating",
+      "position": "sticky",
+      "height": "153px",
+      "transform": "matrix(1, 0, 0, 1, 0, -153)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 7185,
+      "cls": "header is-sticky is-animating",
+      "position": "sticky",
+      "height": "153px",
+      "transform": "matrix(1, 0, 0, 1, 0, -153)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 6093,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "109.25px",
+      "transform": "matrix(1, 0, 0, 1, 0, -83.8947)",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 4607,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 2400,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 1200,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 800,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 500,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 300,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 200,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 150,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 120,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 90,
+      "cls": "header is-sticky is-animating is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "transform 0.25s ease-in-out",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 60,
+      "cls": "header is-sticky is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 30,
+      "cls": "header is-sticky is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    },
+    {
+      "y": 0,
+      "cls": "header is-sticky is-collapsed is-visible",
+      "position": "sticky",
+      "height": "79px",
+      "transform": "none",
+      "transition": "all",
+      "mainPadTop": "0px",
+      "bodyPadTop": "0px",
+      "headerCount": 1
+    }
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".teaser-slider--quicklinks .slider__next",
+      "frames": [
+        {
+          "t": 11617.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 11825.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12030.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 12235.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".sticky-patch__open",
+      "frames": [
+        {
+          "t": 13251.699999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13455.199999999255,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13659,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 13862.899999999441,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".teaser__image",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "img.",
+            "transform": "none",
+            "color": "rgb(0, 0, 0)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.5s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".header__nav-link",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 145)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.icon.icon-chevron-right",
+            "transform": "none",
+            "color": "rgb(0, 0, 145)",
+            "background": "rgb(0, 0, 145)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 145)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "span.icon.icon-chevron-right",
+            "transform": "none",
+            "color": "rgb(0, 0, 145)",
+            "background": "rgb(0, 0, 145)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "all"
+          }
+        ]
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "appear-right",
+        "el": "main > div.section.key-figures-container.grey > div.key-figures-wrapper > div.key-figures.key-figures--many.key-figures--stock > div.container.is-animating",
+        "txt": "66,00 € XETRA (Fraport AG)",
+        "y": 1600
+      },
+      {
+        "name": "appear-right",
+        "el": "main > div.section.key-figures-container > div.key-figures-wrapper > div.key-figures.key-figures--many > div.container.is-animating",
+        "txt": "80.000Beschäftigte aus 114 Nationen sind am Flugha",
+        "y": 1600
+      },
+      {
+        "name": "appear-right",
+        "el": "main > div.section.related-content-container > div.related-content-wrapper > div.teaser-slider.related-content > div.teaser-slider__container.is-animating",
+        "txt": "Konzern, Image, Nachhaltigkeit, Innovation, Frapor",
+        "y": 1948
+      },
+      {
+        "name": "ribbon-wipe",
+        "el": "div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--secondary.h3 > span.ribbon__line",
+        "txt": "DAS UNTERNEHMEN",
+        "y": 2400
+      },
+      {
+        "name": "fade-in",
+        "el": "div > div.section-title.section-title--nested > h2.ribbon.ribbon--secondary.h3 > span.ribbon__line > span.ribbon__text",
+        "txt": "DAS UNTERNEHMEN",
+        "y": 2800
+      },
+      {
+        "name": "ribbon-wipe",
+        "el": "div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--primary.h3 > span.ribbon__line",
+        "txt": "KLARE STRATEGIE FÜR UMWELT UND KLIMASCHUTZ",
+        "y": 3200
+      },
+      {
+        "name": "fade-in",
+        "el": "div > div.section-title.section-title--nested > h2.ribbon.ribbon--primary.h3 > span.ribbon__line > span.ribbon__text",
+        "txt": "KLARE STRATEGIE FÜR UMWELT UND KLIMASCHUTZ",
+        "y": 3600
+      },
+      {
+        "name": "ribbon-wipe",
+        "el": "div.row > div > div.section-title > h2.ribbon.ribbon--primary.h3 > span.ribbon__line",
+        "txt": "KARRIERE",
+        "y": 4000
+      },
+      {
+        "name": "fade-in",
+        "el": "div > div.section-title > h2.ribbon.ribbon--primary.h3 > span.ribbon__line > span.ribbon__text",
+        "txt": "KARRIERE",
+        "y": 4400
+      },
+      {
+        "name": "ribbon-wipe",
+        "el": "div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--primary.h3 > span.ribbon__line",
+        "txt": "FLUGHAFEN FRANKFURT",
+        "y": 4800
+      },
+      {
+        "name": "fade-in",
+        "el": "div > div.section-title.section-title--nested > h2.ribbon.ribbon--primary.h3 > span.ribbon__line > span.ribbon__text",
+        "txt": "FLUGHAFEN FRANKFURT",
+        "y": 5200
+      },
+      {
+        "name": "appear-right",
+        "el": "main > div.section.related-content-container > div.related-content-wrapper > div.teaser-slider.related-content > div.teaser-slider__container.is-animating",
+        "txt": "Digitalisierung und Digital FactoryFraport setzt a",
+        "y": 6400
+      },
+      {
+        "name": "ribbon-wipe",
+        "el": "div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--gradient.h3 > span.ribbon__line",
+        "txt": "NOCH MEHR FRAPORT",
+        "y": 6400
+      },
+      {
+        "name": "fade-in",
+        "el": "div > div.section-title.section-title--nested > h2.ribbon.ribbon--gradient.h3 > span.ribbon__line > span.ribbon__text",
+        "txt": "NOCH MEHR FRAPORT",
+        "y": 7185
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "width",
+        "el": "header.header.is-sticky.is-animating > div.header__bar > div.container > div.header__inner > a.header__logo",
+        "y": 6137,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "height",
+        "el": "body > header.header.is-sticky.is-animating > div.header__bar > div.container > div.header__inner",
+        "y": 6137,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > header.header.is-sticky.is-animating",
+        "y": 6137,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.row > div > div.slider > div.slider__viewport > div.slider__slides",
+        "y": 456,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "transform",
+        "el": "main > div.section.sticky-patch-container > div.sticky-patch-wrapper > aside.sticky-patch.is-open > div.sticky-patch__card",
+        "y": 456,
+        "dur": "0.7s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "main > div.section.sticky-patch-container > div.sticky-patch-wrapper > aside.sticky-patch.is-open > div.sticky-patch__card",
+        "y": 456,
+        "dur": "0.7s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body > header.header.is-sticky.is-collapsed",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "width",
+        "el": "div.header__nav > nav.header__menu > ul.header__list > li.header__item > a.header__nav-link",
+        "y": 0,
+        "dur": "0s"
+      },
+      {
+        "prop": "width",
+        "el": "div.header__nav > nav.header__menu > ul.header__list > li.header__item > a.header__nav-link",
+        "y": 0,
+        "dur": "0s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "is-sticky"
+        ],
+        "el": "html > body > header.header.is-sticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-sticky"
+        ],
+        "el": "html > body > header.header.is-sticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "html > body > header.header.is-sticky.is-animating",
+        "y": 400
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "main > div.section.key-figures-container.grey > div.key-figures-wrapper > div.key-figures.key-figures--many.key-figures--stock > div.container.is-animating",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "main > div.section.key-figures-container > div.key-figures-wrapper > div.key-figures.key-figures--many > div.container.is-animating",
+        "y": 1600
+      },
+      {
+        "added": [
+          "is-collapsed"
+        ],
+        "el": "div.anchor-list-wrapper > div.container > div.row > div > nav.anchor-list.is-collapsed",
+        "y": 1948
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div.container > div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--secondary.h3",
+        "y": 1948
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "main > div.section.related-content-container > div.related-content-wrapper > div.teaser-slider.related-content > div.teaser-slider__container.is-animating",
+        "y": 1948
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div.container > div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--primary.h3",
+        "y": 2800
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div.container > div.row > div > div.section-title > h2.ribbon.ribbon--primary.h3",
+        "y": 3600
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div.container > div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--primary.h3",
+        "y": 4400
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "div.container > div.row > div > div.section-title.section-title--nested > h2.ribbon.ribbon--gradient.h3",
+        "y": 6000
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "main > div.section.related-content-container > div.related-content-wrapper > div.teaser-slider.related-content > div.teaser-slider__container.is-animating",
+        "y": 6400
+      },
+      {
+        "added": [
+          "is-collapsed",
+          "is-visible"
+        ],
+        "el": "html > body > header.header.is-sticky.is-animating",
+        "y": 6137
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > header.header.is-sticky.is-animating",
+        "y": 6137
+      },
+      {
+        "added": [
+          "is-animating"
+        ],
+        "el": "html > body > header.header.is-sticky.is-collapsed",
+        "y": 456
+      },
+      {
+        "added": [
+          "is-off"
+        ],
+        "el": "div > div.slider > div.slider__viewport > div.slider__slides > div.slider__slide.is-off",
+        "y": 456
+      },
+      {
+        "added": [
+          "is-off"
+        ],
+        "el": "div > div.slider > div.slider__viewport > div.slider__slides > div.slider__slide.is-off",
+        "y": 456
+      },
+      {
+        "added": [
+          "is-off"
+        ],
+        "el": "div > div.slider > div.slider__viewport > div.slider__slides > div.slider__slide.is-off",
+        "y": 456
+      },
+      {
+        "added": [
+          "is-active"
+        ],
+        "el": "div.row > div > div.slider > div.slider__pagination > span.slider__dot.is-active",
+        "y": 456
+      },
+      {
+        "added": [
+          "is-open"
+        ],
+        "el": "body > main > div.section.sticky-patch-container > div.sticky-patch-wrapper > aside.sticky-patch.is-open",
+        "y": 456
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > header.header.is-sticky.is-collapsed",
+        "y": 0
+      },
+      {
+        "added": [
+          "is-visible"
+        ],
+        "el": "html > body > header.header.is-sticky.is-collapsed",
+        "y": 0
+      }
+    ]
+  }
+}

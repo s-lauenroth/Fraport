@@ -1,0 +1,4224 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T23:35:02.239Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom/servicenews.html",
+  "at": "2026-11-19T23:34:44.771Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3575,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a#header-8614be18a8-logo",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "logo homepage link",
+    "href": "/de.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-1f65d396dc-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-1f65d396dc-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-1f65d396dc-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "sprache"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-1f65d396dc-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "sprache",
+    "value": "sprache",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-search#searchResults-379e5c05c1-search > form.frach-m-search__form > button.frach-e-button.frach-e-button--icon-only",
+    "x": 296,
+    "y": 120,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.frach-m-tab-navigation__tabs.frach-state-animating > li.frach-m-tab-navigation__tab-item > a#press",
+    "x": 0,
+    "y": 218,
+    "w": 81,
+    "h": 36,
+    "text": "presse",
+    "href": "/de/newsroom/servicenews.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fparken > button.frach-e-tag__label",
+    "x": 17,
+    "y": 280,
+    "w": 52,
+    "h": 34,
+    "text": "parken"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fpassagiere > button.frach-e-tag__label",
+    "x": 87,
+    "y": 280,
+    "w": 73,
+    "h": 34,
+    "text": "passagiere"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups > button.frach-e-tag__label",
+    "x": 178,
+    "y": 280,
+    "w": 81,
+    "h": 34,
+    "text": "zielgruppen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fresponsibility > button.frach-e-tag__label",
+    "x": 276,
+    "y": 280,
+    "w": 96,
+    "h": 34,
+    "text": "verantwortung"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12 > p.frach-m-search-results__summary",
+    "x": 16,
+    "y": 339,
+    "w": 328,
+    "h": 24,
+    "text": "Ergebnisse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 405,
+    "w": 297,
+    "h": 45,
+    "text": "Services, 2026, Frankfurt Airport, Standort, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 132,
+    "y": 429,
+    "w": 81,
+    "h": 21,
+    "text": "24.06.2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 460,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flughafen frankfurt sucht neue heimat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-0-72",
+    "x": 16,
+    "y": 460,
+    "w": 328,
+    "h": 78,
+    "text": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flughafen frankfurt sucht ",
+    "href": "/de/newsroom/service-news/2026/terminal-2---mobiliar-vom-flughafen-frankfurt-sucht-neue-heimat.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 596,
+    "w": 297,
+    "h": 45,
+    "text": "Services, 2026, Frankfurt Airport, Standort, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 132,
+    "y": 620,
+    "w": 81,
+    "h": 21,
+    "text": "03.06.2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 651,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "frankfurt airport im fußballfieber: alle spiele live verfolgen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-1-72",
+    "x": 16,
+    "y": 651,
+    "w": 328,
+    "h": 52,
+    "text": "frankfurt airport im fußballfieber: alle spiele live verfolgen",
+    "href": "/de/newsroom/service-news/2026/frankfurt-airport-im-fussballfieber.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 761,
+    "w": 307,
+    "h": 21,
+    "text": "2025, Standort, Pressearchiv, Passagiere"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 16,
+    "y": 785,
+    "w": 81,
+    "h": 21,
+    "text": "10.12.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 816,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "winterliche reisefreude ohne barrieren: entspannt in den urlaub ab fra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-2-72",
+    "x": 16,
+    "y": 816,
+    "w": 328,
+    "h": 52,
+    "text": "winterliche reisefreude ohne barrieren: entspannt in den urlaub ab fra",
+    "href": "/de/newsroom/service-news/2025/winterliche-reisefreude-ohne-barrieren--entspannt-in-den-urlaub-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 926,
+    "w": 285,
+    "h": 21,
+    "text": "Presse, Fluggäste, 2025, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 16,
+    "y": 950,
+    "w": 81,
+    "h": 21,
+    "text": "29.09.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 981,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "gut vorbereitet in die herbstferien: reisetipps für den abflug ab frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-3-72",
+    "x": 16,
+    "y": 981,
+    "w": 328,
+    "h": 52,
+    "text": "gut vorbereitet in die herbstferien: reisetipps für den abflug ab frankfurt",
+    "href": "/de/newsroom/service-news/2025/gut-vorbereitet-in-die-herbstferien--reisetipps-fuer-den-abflug-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 1091,
+    "w": 269,
+    "h": 69,
+    "text": "Services, Partner, 2025, Region, Presse, Besucher, Nachhaltigkeit, Standort, Pre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 132,
+    "y": 1139,
+    "w": 81,
+    "h": 21,
+    "text": "25.08.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 1170,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "jetzt gratis anmelden: airport-touren mit besonderen einblicken in klima- und umweltschutz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-4-72",
+    "x": 16,
+    "y": 1170,
+    "w": 328,
+    "h": 78,
+    "text": "jetzt gratis anmelden: airport-touren mit besonderen einblicken in klima- und um",
+    "href": "/de/newsroom/service-news/2025/jetzt-gratis-anmelden--airport-touren-mit-besonderen-einblicken-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 1306,
+    "w": 281,
+    "h": 45,
+    "text": "Presse, Verantwortung, 2025, Sicherheit, Region, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 188,
+    "y": 1330,
+    "w": 81,
+    "h": 21,
+    "text": "12.08.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 1361,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "strikte maßnahmen gegen drohnensichtungen am flughafen frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-5-72",
+    "x": 16,
+    "y": 1361,
+    "w": 328,
+    "h": 78,
+    "text": "strikte maßnahmen gegen drohnensichtungen am flughafen frankfurt",
+    "href": "/de/newsroom/service-news/2025/strikte-massnahmen-gegen-drohnensichtungen-am-flughafen-frankfur.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 1497,
+    "w": 290,
+    "h": 45,
+    "text": "2025, Presse, E-Mobilität, Nachhaltigkeit, Besucher, Standort, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 16,
+    "y": 1545,
+    "w": 81,
+    "h": 21,
+    "text": "22.05.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 1576,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "ladepark nord: neue e-infrastruktur in terminalnähe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-6-72",
+    "x": 16,
+    "y": 1576,
+    "w": 328,
+    "h": 52,
+    "text": "ladepark nord: neue e-infrastruktur in terminalnähe",
+    "href": "/de/newsroom/service-news/2025/ladepark-nord--neue-e-infrastruktur-in-terminalnaehe.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 1686,
+    "w": 287,
+    "h": 69,
+    "text": "Check-in, Services, Parken, 2025, Gepäck, Sicherheitskontrolle, Presse, Fluggäst"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 132,
+    "y": 1734,
+    "w": 81,
+    "h": 21,
+    "text": "28.03.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 1765,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "countdown in den urlaub: tipps für den perfekten start vom flughafen frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-7-72",
+    "x": 16,
+    "y": 1765,
+    "w": 328,
+    "h": 78,
+    "text": "countdown in den urlaub: tipps für den perfekten start vom flughafen frankfurt",
+    "href": "/de/newsroom/service-news/2025/countdown-in-den-urlaub--tipps-fuer-den-perfekten-start-vom-flug.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 1901,
+    "w": 254,
+    "h": 45,
+    "text": "Services, 2025, Besucher, Terminal 1, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 132,
+    "y": 1925,
+    "w": 81,
+    "h": 21,
+    "text": "13.03.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 1956,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "apron control: spielend rollverkehr dirigieren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-8-72",
+    "x": 16,
+    "y": 1956,
+    "w": 328,
+    "h": 52,
+    "text": "apron control: spielend rollverkehr dirigieren",
+    "href": "/de/newsroom/service-news/2025/apron-control--spielend-rollverkehr-dirigieren-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 2066,
+    "w": 307,
+    "h": 45,
+    "text": "Presse, Fluggäste, 2025, Retail, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 42,
+    "y": 2090,
+    "w": 81,
+    "h": 21,
+    "text": "20.02.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 2121,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "rewe to go: snacks und getränke rund um die uhr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-9-72",
+    "x": 16,
+    "y": 2121,
+    "w": 328,
+    "h": 52,
+    "text": "rewe to go: snacks und getränke rund um die uhr",
+    "href": "/de/newsroom/service-news/2025/rewe-to-go--snacks-und-getraenke-rund-um-die-uhr.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 2231,
+    "w": 307,
+    "h": 45,
+    "text": "Presse, Fluggäste, 2025, Retail, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 42,
+    "y": 2255,
+    "w": 81,
+    "h": 21,
+    "text": "18.02.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 2286,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "spannende aussichten: restaurants wechseln, vorfeldblick bleibt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-10-72",
+    "x": 16,
+    "y": 2286,
+    "w": 328,
+    "h": 52,
+    "text": "spannende aussichten: restaurants wechseln, vorfeldblick bleibt",
+    "href": "/de/newsroom/service-news/2025/spannende-aussichten--restaurants-wechseln--vorfeldblick-bleibt-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > p.frach-e-search-result__meta > span",
+    "x": 16,
+    "y": 2396,
+    "w": 251,
+    "h": 45,
+    "text": "Presse, Fluggäste, 2024, Passagiere, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p.frach-e-search-result__meta > span > time",
+    "x": 132,
+    "y": 2420,
+    "w": 81,
+    "h": 21,
+    "text": "16.12.2024"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6",
+    "x": 16,
+    "y": 2451,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "es weihnachtet sehr: reise- und servicetipps für den urlaubsstart vom flughafen frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-search-result__wrapper > h2.frach-h6 > a#searchResults-379e5c05c1-result-item-0-11-72",
+    "x": 16,
+    "y": 2451,
+    "w": 328,
+    "h": 78,
+    "text": "es weihnachtet sehr: reise- und servicetipps für den urlaubsstart vom flughafen ",
+    "href": "/de/newsroom/service-news/2024/es-weihnachtet-sehr--reise--und-servicetipps-fuer-den-urlaubssta.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12 > button.frach-e-button.frach-e-button--secondary",
+    "x": 98,
+    "y": 2562,
+    "w": 164,
+    "h": 52,
+    "text": "mehr anzeigen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h6.frach-m-cta__headline.frach-h6",
+    "x": 16,
+    "y": 2671,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "archiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 2721,
+    "w": 328,
+    "h": 48,
+    "text": "Pressemitteilungen und Services News der Fraport AG der vergangenen Jahre."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-ad1fce29ee",
+    "x": 16,
+    "y": 2809,
+    "w": 328,
+    "h": 52,
+    "text": "pressemitteilungen",
+    "href": "/de/newsroom/pressemitteilungen.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-8107cd4b41",
+    "x": 16,
+    "y": 2877,
+    "w": 328,
+    "h": 52,
+    "text": "service news",
+    "href": "/de/newsroom/service-news.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 3017,
+    "w": 126,
+    "h": 24,
+    "text": "Ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 3090,
+    "w": 95,
+    "h": 24,
+    "text": "Fraport Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 3163,
+    "w": 53,
+    "h": 24,
+    "text": "Aktuell"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 3236,
+    "w": 53,
+    "h": 24,
+    "text": "Service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 3333,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 3367,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 80,
+    "y": 3367,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 144,
+    "y": 3367,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 208,
+    "y": 3367,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 3419,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 3453,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-page-footer__copyright > div.frach-grid-col-mq1-12 > p.frach-meta",
+    "x": 16,
+    "y": 3525,
+    "w": 328,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.fCuhKw",
+    "x": 24,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "öffnen datenschutz einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 70,
+    "textNodes": 90,
+    "controls": 67,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "frach-e-tag#fraport-company:topics~2Fresponsibility",
+     "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fresponsibility > button.frach-e-tag__label",
+     "text": "verantwortung",
+     "cutMin": 12,
+     "cutMax": 12
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "button.frach-e-tag__label",
+     "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fresponsibility > button.frach-e-tag__label",
+     "text": "verantwortung",
+     "cutMin": 4,
+     "cutMax": 4
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews",
+  "at": "2026-11-19T23:35:02.044Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3571,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "startseite",
+    "href": "/de"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "suche",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "menü"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "menü",
+    "value": "menü",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-search-col > form.news-list-form > button.news-list-search-btn.news-list-search-btn-submit",
+    "x": 296,
+    "y": 120,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > strong > a",
+    "x": 16,
+    "y": 219,
+    "w": 49,
+    "h": 21,
+    "text": "presse",
+    "href": "/de/newsroom/servicenews"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.news-list-tag-label",
+    "x": 17,
+    "y": 280,
+    "w": 52,
+    "h": 34,
+    "text": "parken"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.news-list-tag-label",
+    "x": 87,
+    "y": 280,
+    "w": 73,
+    "h": 34,
+    "text": "passagiere"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.news-list-tag-label",
+    "x": 178,
+    "y": 280,
+    "w": 81,
+    "h": 34,
+    "text": "zielgruppen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > span.news-list-tag-label",
+    "x": 276,
+    "y": 280,
+    "w": 96,
+    "h": 34,
+    "text": "verantwortung"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.news-list-summary > p",
+    "x": 16,
+    "y": 339,
+    "w": 328,
+    "h": 24,
+    "text": "Ergebnisse"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 405,
+    "w": 297,
+    "h": 45,
+    "text": "Services, 2026, Frankfurt Airport, Standort, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 132,
+    "y": 429,
+    "w": 81,
+    "h": 21,
+    "text": "24.06.2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#vom-gate-in-die-gut-stubb-terminal-2-mobiliar-vom-flughafen-frankfurt-sucht-neue-heimat",
+    "x": 16,
+    "y": 460,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flughafen frankfurt sucht neue heimat"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#vom-gate-in-die-gut-stubb-terminal-2-mobiliar-vom-flughafen-frankfurt-sucht-neue-heimat > a",
+    "x": 16,
+    "y": 460,
+    "w": 328,
+    "h": 78,
+    "text": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flughafen frankfurt sucht ",
+    "href": "/de/newsroom/service-news/2026/terminal-2---mobiliar-vom-flughafen-frankfurt-sucht-neue-heimat.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 596,
+    "w": 297,
+    "h": 45,
+    "text": "Services, 2026, Frankfurt Airport, Standort, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 132,
+    "y": 620,
+    "w": 81,
+    "h": 21,
+    "text": "03.06.2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#frankfurt-airport-im-fußballfieber-alle-spiele-live-verfolgen",
+    "x": 16,
+    "y": 651,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "frankfurt airport im fußballfieber: alle spiele live verfolgen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#frankfurt-airport-im-fußballfieber-alle-spiele-live-verfolgen > a",
+    "x": 16,
+    "y": 651,
+    "w": 328,
+    "h": 52,
+    "text": "frankfurt airport im fußballfieber: alle spiele live verfolgen",
+    "href": "/de/newsroom/service-news/2026/frankfurt-airport-im-fussballfieber.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 761,
+    "w": 307,
+    "h": 21,
+    "text": "2025, Standort, Pressearchiv, Passagiere"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 785,
+    "w": 81,
+    "h": 21,
+    "text": "10.12.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#winterliche-reisefreude-ohne-barrieren-entspannt-in-den-urlaub-ab-fra",
+    "x": 16,
+    "y": 816,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "winterliche reisefreude ohne barrieren: entspannt in den urlaub ab fra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#winterliche-reisefreude-ohne-barrieren-entspannt-in-den-urlaub-ab-fra > a",
+    "x": 16,
+    "y": 816,
+    "w": 328,
+    "h": 52,
+    "text": "winterliche reisefreude ohne barrieren: entspannt in den urlaub ab fra",
+    "href": "/de/newsroom/service-news/2025/winterliche-reisefreude-ohne-barrieren--entspannt-in-den-urlaub-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 926,
+    "w": 285,
+    "h": 21,
+    "text": "Presse, Fluggäste, 2025, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 950,
+    "w": 81,
+    "h": 21,
+    "text": "29.09.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#gut-vorbereitet-in-die-herbstferien-reisetipps-für-den-abflug-ab-frankfurt",
+    "x": 16,
+    "y": 981,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "gut vorbereitet in die herbstferien: reisetipps für den abflug ab frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#gut-vorbereitet-in-die-herbstferien-reisetipps-für-den-abflug-ab-frankfurt > a",
+    "x": 16,
+    "y": 981,
+    "w": 328,
+    "h": 52,
+    "text": "gut vorbereitet in die herbstferien: reisetipps für den abflug ab frankfurt",
+    "href": "/de/newsroom/service-news/2025/gut-vorbereitet-in-die-herbstferien--reisetipps-fuer-den-abflug-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 1091,
+    "w": 269,
+    "h": 69,
+    "text": "Services, Partner, 2025, Region, Presse, Besucher, Nachhaltigkeit, Standort, Pre"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 132,
+    "y": 1139,
+    "w": 81,
+    "h": 21,
+    "text": "25.08.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#jetzt-gratis-anmelden-airport-touren-mit-besonderen-einblicken-in-klima--und-umweltschutz",
+    "x": 16,
+    "y": 1170,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "jetzt gratis anmelden: airport-touren mit besonderen einblicken in klima- und umweltschutz"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#jetzt-gratis-anmelden-airport-touren-mit-besonderen-einblicken-in-klima--und-umweltschutz > a",
+    "x": 16,
+    "y": 1170,
+    "w": 328,
+    "h": 78,
+    "text": "jetzt gratis anmelden: airport-touren mit besonderen einblicken in klima- und um",
+    "href": "/de/newsroom/service-news/2025/jetzt-gratis-anmelden--airport-touren-mit-besonderen-einblicken-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 1306,
+    "w": 281,
+    "h": 45,
+    "text": "Presse, Verantwortung, 2025, Sicherheit, Region, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 188,
+    "y": 1330,
+    "w": 81,
+    "h": 21,
+    "text": "12.08.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#strikte-maßnahmen-gegen-drohnensichtungen-am-flughafen-frankfurt",
+    "x": 16,
+    "y": 1361,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "strikte maßnahmen gegen drohnensichtungen am flughafen frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#strikte-maßnahmen-gegen-drohnensichtungen-am-flughafen-frankfurt > a",
+    "x": 16,
+    "y": 1361,
+    "w": 328,
+    "h": 78,
+    "text": "strikte maßnahmen gegen drohnensichtungen am flughafen frankfurt",
+    "href": "/de/newsroom/service-news/2025/strikte-massnahmen-gegen-drohnensichtungen-am-flughafen-frankfur.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 1497,
+    "w": 290,
+    "h": 45,
+    "text": "2025, Presse, E-Mobilität, Nachhaltigkeit, Besucher, Standort, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 1545,
+    "w": 81,
+    "h": 21,
+    "text": "22.05.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#ladepark-nord-neue-e-infrastruktur-in-terminalnähe",
+    "x": 16,
+    "y": 1576,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "ladepark nord: neue e-infrastruktur in terminalnähe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#ladepark-nord-neue-e-infrastruktur-in-terminalnähe > a",
+    "x": 16,
+    "y": 1576,
+    "w": 328,
+    "h": 52,
+    "text": "ladepark nord: neue e-infrastruktur in terminalnähe",
+    "href": "/de/newsroom/service-news/2025/ladepark-nord--neue-e-infrastruktur-in-terminalnaehe.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 1686,
+    "w": 287,
+    "h": 69,
+    "text": "Check-in, Services, Parken, 2025, Gepäck, Sicherheitskontrolle, Presse, Fluggäst"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 132,
+    "y": 1734,
+    "w": 81,
+    "h": 21,
+    "text": "28.03.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#countdown-in-den-urlaub-tipps-für-den-perfekten-start-vom-flughafen-frankfurt",
+    "x": 16,
+    "y": 1765,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "countdown in den urlaub: tipps für den perfekten start vom flughafen frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#countdown-in-den-urlaub-tipps-für-den-perfekten-start-vom-flughafen-frankfurt > a",
+    "x": 16,
+    "y": 1765,
+    "w": 328,
+    "h": 78,
+    "text": "countdown in den urlaub: tipps für den perfekten start vom flughafen frankfurt",
+    "href": "/de/newsroom/service-news/2025/countdown-in-den-urlaub--tipps-fuer-den-perfekten-start-vom-flug.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 1901,
+    "w": 254,
+    "h": 45,
+    "text": "Services, 2025, Besucher, Terminal 1, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 132,
+    "y": 1925,
+    "w": 81,
+    "h": 21,
+    "text": "13.03.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#apron-control-spielend-rollverkehr-dirigieren",
+    "x": 16,
+    "y": 1956,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "apron control: spielend rollverkehr dirigieren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#apron-control-spielend-rollverkehr-dirigieren > a",
+    "x": 16,
+    "y": 1956,
+    "w": 328,
+    "h": 52,
+    "text": "apron control: spielend rollverkehr dirigieren",
+    "href": "/de/newsroom/service-news/2025/apron-control--spielend-rollverkehr-dirigieren-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 2066,
+    "w": 307,
+    "h": 45,
+    "text": "Presse, Fluggäste, 2025, Retail, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 42,
+    "y": 2090,
+    "w": 81,
+    "h": 21,
+    "text": "20.02.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#rewe-to-go-snacks-und-getränke-rund-um-die-uhr",
+    "x": 16,
+    "y": 2121,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "rewe to go: snacks und getränke rund um die uhr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#rewe-to-go-snacks-und-getränke-rund-um-die-uhr > a",
+    "x": 16,
+    "y": 2121,
+    "w": 328,
+    "h": 52,
+    "text": "rewe to go: snacks und getränke rund um die uhr",
+    "href": "/de/newsroom/service-news/2025/rewe-to-go--snacks-und-getraenke-rund-um-die-uhr.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 2231,
+    "w": 307,
+    "h": 45,
+    "text": "Presse, Fluggäste, 2025, Retail, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 42,
+    "y": 2255,
+    "w": 81,
+    "h": 21,
+    "text": "18.02.2025"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#spannende-aussichten-restaurants-wechseln-vorfeldblick-bleibt",
+    "x": 16,
+    "y": 2286,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "spannende aussichten: restaurants wechseln, vorfeldblick bleibt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#spannende-aussichten-restaurants-wechseln-vorfeldblick-bleibt > a",
+    "x": 16,
+    "y": 2286,
+    "w": 328,
+    "h": 52,
+    "text": "spannende aussichten: restaurants wechseln, vorfeldblick bleibt",
+    "href": "/de/newsroom/service-news/2025/spannende-aussichten--restaurants-wechseln--vorfeldblick-bleibt-.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 16,
+    "y": 2396,
+    "w": 251,
+    "h": 45,
+    "text": "Presse, Fluggäste, 2024, Passagiere, Pressearchiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-meta > p",
+    "x": 132,
+    "y": 2420,
+    "w": 81,
+    "h": 21,
+    "text": "16.12.2024"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-body > div.news-list-headline > h2#es-weihnachtet-sehr-reise--und-servicetipps-für-den-urlaubsstart-vom-flughafen-frankfurt",
+    "x": 16,
+    "y": 2451,
+    "w": 328,
+    "h": 78,
+    "level": 2,
+    "text": "es weihnachtet sehr: reise- und servicetipps für den urlaubsstart vom flughafen frankfurt"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.news-list-headline > h2#es-weihnachtet-sehr-reise--und-servicetipps-für-den-urlaubsstart-vom-flughafen-frankfurt > a",
+    "x": 16,
+    "y": 2451,
+    "w": 328,
+    "h": 78,
+    "text": "es weihnachtet sehr: reise- und servicetipps für den urlaubsstart vom flughafen ",
+    "href": "/de/newsroom/service-news/2024/es-weihnachtet-sehr--reise--und-servicetipps-fuer-den-urlaubssta.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.news-list-more > div.button.secondary",
+    "x": 100,
+    "y": 2562,
+    "w": 160,
+    "h": 48,
+    "text": "mehr anzeigen"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h6 > h2#archiv",
+    "x": 16,
+    "y": 2667,
+    "w": 328,
+    "h": 26,
+    "level": 2,
+    "text": "archiv"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 2717,
+    "w": 328,
+    "h": 48,
+    "text": "Pressemitteilungen und Services News der Fraport AG der vergangenen Jahre."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 2805,
+    "w": 328,
+    "h": 52,
+    "text": "pressemitteilungen",
+    "href": "/de/newsroom/pressemitteilungen.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.secondary",
+    "x": 16,
+    "y": 2873,
+    "w": 328,
+    "h": 52,
+    "text": "service news",
+    "href": "/de/newsroom/service-news.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#ansprechpartner",
+    "x": 16,
+    "y": 3013,
+    "w": 126,
+    "h": 24,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 3089,
+    "w": 328,
+    "h": 48,
+    "text": "Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 3147,
+    "w": 328,
+    "h": 24,
+    "text": "60547 Frankfurt am Main"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3181,
+    "w": 180,
+    "h": 24,
+    "text": "anfahrtsbeschreibung",
+    "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 3266,
+    "w": 272,
+    "h": 21,
+    "text": "Fragen, Lob, Kritik und Anregungen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3289,
+    "w": 144,
+    "h": 24,
+    "text": "01806 372-4636",
+    "href": "+4918063724636"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3323,
+    "w": 141,
+    "h": 24,
+    "text": "kontaktformular",
+    "href": "/de/konzern/ueber-uns/kontaktformular-fraport-ag.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > em",
+    "x": 16,
+    "y": 3358,
+    "w": 314,
+    "h": 45,
+    "text": "*20 Cent pro Anruf aus dem deutschen Festnetz, maximal 50 Cent aus dem Mobilfunk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 3466,
+    "w": 199,
+    "h": 21,
+    "text": "Mailadresse für Feedback:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3489,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "feedback@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 3524,
+    "w": 316,
+    "h": 21,
+    "text": "Mailadresse für Passagier-Informationen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3547,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "info@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 3632,
+    "w": 299,
+    "h": 21,
+    "text": "Fluglärm und Maßnahmenprogramme:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3655,
+    "w": 295,
+    "h": 24,
+    "text": "kontaktformulare zum themenbereich",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 3689,
+    "w": 328,
+    "h": 72,
+    "text": "(für Reisende und Beschäftige)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 3713,
+    "w": 224,
+    "h": 24,
+    "text": "kontakt zum medical center",
+    "href": "medizin@fraport.de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#fraport-sites",
+    "x": 16,
+    "y": 3086,
+    "w": 95,
+    "h": 24,
+    "level": 2,
+    "text": "fraport sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3158,
+    "w": 57,
+    "h": 40,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3198,
+    "w": 110,
+    "h": 40,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3238,
+    "w": 73,
+    "h": 40,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3278,
+    "w": 104,
+    "h": 40,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#aktuell",
+    "x": 16,
+    "y": 3159,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3231,
+    "w": 75,
+    "h": 40,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3271,
+    "w": 118,
+    "h": 40,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3311,
+    "w": 138,
+    "h": 40,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#service",
+    "x": 16,
+    "y": 3232,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3304,
+    "w": 89,
+    "h": 40,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3344,
+    "w": 76,
+    "h": 40,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3384,
+    "w": 74,
+    "h": 40,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 3424,
+    "w": 269,
+    "h": 40,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-airport",
+    "x": 16,
+    "y": 3329,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 3363,
+    "w": 28,
+    "h": 28,
+    "text": "facebook",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 76,
+    "y": 3363,
+    "w": 28,
+    "h": 28,
+    "text": "instagram",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 136,
+    "y": 3363,
+    "w": 28,
+    "h": 28,
+    "text": "youtube",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 196,
+    "y": 3363,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-cargohub",
+    "x": 16,
+    "y": 3415,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 3449,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-copyright > p",
+    "x": 16,
+    "y": 3521,
+    "w": 326,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 70,
+    "textNodes": 121,
+    "controls": 88,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "li",
+     "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+     "text": "verantwortung",
+     "cutMin": 12,
+     "cutMax": 12
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "li",
+     "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+     "text": "verantwortung",
+     "cutMin": 4,
+     "cutMax": 4
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 12,
+     "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+     "text": "verantwortung",
+     "clipper": "li",
+     "rect": {
+      "l": 276,
+      "t": 280,
+      "r": 372,
+      "b": 314,
+      "w": 96,
+      "h": 34
+     },
+     "clip": {
+      "l": 276,
+      "t": 280,
+      "r": 372,
+      "b": 314,
+      "w": 96,
+      "h": 34
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 4,
+     "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+     "text": "verantwortung",
+     "clipper": "li",
+     "rect": {
+      "l": 284,
+      "t": 289,
+      "r": 364,
+      "b": 305,
+      "w": 80,
+      "h": 16
+     },
+     "clip": {
+      "l": 276,
+      "t": 280,
+      "r": 372,
+      "b": 314,
+      "w": 96,
+      "h": 34
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 5,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 5,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flughafen frankfurt sucht neue heimat",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "frankfurt airport im fußballfieber: alle spiele live verfolgen",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "winterliche reisefreude ohne barrieren: entspannt in den urlaub ab fra",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "gut vorbereitet in die herbstferien: reisetipps für den abflug ab frankfurt",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "jetzt gratis anmelden: airport-touren mit besonderen einblicken in klima- und umweltschutz",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "strikte maßnahmen gegen drohnensichtungen am flughafen frankfurt",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "ladepark nord: neue e-infrastruktur in terminalnähe",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "countdown in den urlaub: tipps für den perfekten start vom flughafen frankfurt",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "apron control: spielend rollverkehr dirigieren",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "rewe to go: snacks und getränke rund um die uhr",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "spannende aussichten: restaurants wechseln, vorfeldblick bleibt",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "es weihnachtet sehr: reise- und servicetipps für den urlaubsstart vom flughafen frankfurt",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"archiv\" (y 2667) has no origin heading",
+   "text": "archiv"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 1,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 16,
+    "y": 219,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 25,
+    "y": 289,
+    "w": 36,
+    "h": 16
+   },
+   {
+    "x": 95,
+    "y": 289,
+    "w": 57,
+    "h": 16
+   },
+   {
+    "x": 186,
+    "y": 289,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 284,
+    "y": 289,
+    "w": 80,
+    "h": 16
+   },
+   {
+    "x": 16,
+    "y": 340,
+    "w": 18,
+    "h": 21
+   },
+   {
+    "x": 34,
+    "y": 340,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 405,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 429,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 429,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 461,
+    "w": 317,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 487,
+    "w": 297,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 513,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 596,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 620,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 620,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 652,
+    "w": 323,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 678,
+    "w": 166,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 761,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 785,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 817,
+    "w": 327,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 843,
+    "w": 265,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 926,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 950,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 982,
+    "w": 287,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1008,
+    "w": 316,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1091,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1115,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1139,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 1139,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1171,
+    "w": 308,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1197,
+    "w": 297,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1223,
+    "w": 154,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1306,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1330,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 188,
+    "y": 1330,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1362,
+    "w": 220,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1388,
+    "w": 282,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1414,
+    "w": 77,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1497,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1521,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1545,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1577,
+    "w": 319,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1603,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1686,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1710,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1734,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 1734,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1766,
+    "w": 294,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1792,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1818,
+    "w": 77,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1901,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1925,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 1925,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1957,
+    "w": 293,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1983,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2066,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 2090,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2122,
+    "w": 324,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2148,
+    "w": 91,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2231,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 2255,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2287,
+    "w": 293,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2313,
+    "w": 237,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2396,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2420,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 2420,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2452,
+    "w": 258,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2478,
+    "w": 311,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2504,
+    "w": 166,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 2577,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2672,
+    "w": 51,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2722,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2746,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 95,
+    "y": 2824,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 119,
+    "y": 2892,
+    "w": 100,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3018,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3091,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3164,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3237,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3334,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3420,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3526,
+    "w": 326,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 16,
+    "y": 219,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 25,
+    "y": 289,
+    "w": 36,
+    "h": 16
+   },
+   {
+    "x": 95,
+    "y": 289,
+    "w": 57,
+    "h": 16
+   },
+   {
+    "x": 186,
+    "y": 289,
+    "w": 65,
+    "h": 16
+   },
+   {
+    "x": 284,
+    "y": 289,
+    "w": 80,
+    "h": 16
+   },
+   {
+    "x": 16,
+    "y": 340,
+    "w": 18,
+    "h": 21
+   },
+   {
+    "x": 34,
+    "y": 340,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 405,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 429,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 429,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 461,
+    "w": 317,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 487,
+    "w": 297,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 513,
+    "w": 155,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 596,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 620,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 620,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 652,
+    "w": 323,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 678,
+    "w": 166,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 761,
+    "w": 282,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 785,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 817,
+    "w": 327,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 843,
+    "w": 265,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 926,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 950,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 982,
+    "w": 287,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1008,
+    "w": 316,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1091,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1115,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1139,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 1139,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1171,
+    "w": 308,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1197,
+    "w": 297,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1223,
+    "w": 154,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1306,
+    "w": 281,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1330,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 188,
+    "y": 1330,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1362,
+    "w": 220,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1388,
+    "w": 282,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1414,
+    "w": 77,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1497,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1521,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1545,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1577,
+    "w": 319,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1603,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1686,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1710,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1734,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 1734,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1766,
+    "w": 294,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1792,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1818,
+    "w": 77,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1901,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1925,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 1925,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1957,
+    "w": 293,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1983,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2066,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 2090,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2122,
+    "w": 324,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2148,
+    "w": 91,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2231,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 42,
+    "y": 2255,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2287,
+    "w": 293,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2313,
+    "w": 237,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2396,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2420,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 132,
+    "y": 2420,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2452,
+    "w": 258,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2478,
+    "w": 311,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2504,
+    "w": 166,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 2575,
+    "w": 115,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2668,
+    "w": 51,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2718,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2742,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 95,
+    "y": 2820,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 119,
+    "y": 2888,
+    "w": 100,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3014,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3090,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3114,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3148,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3182,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3266,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3290,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 160,
+    "y": 3290,
+    "w": 8,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3324,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3358,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3382,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3466,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3490,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3524,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3548,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3632,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3656,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3690,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 3714,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 3714,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3738,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3087,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3175,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3215,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3255,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3295,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3160,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3248,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3288,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3328,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3233,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3321,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3361,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3401,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3441,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3330,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3416,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3522,
+    "w": 326,
+    "h": 16
+   }
+  ]
+ }
+}

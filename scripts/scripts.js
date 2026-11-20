@@ -160,7 +160,8 @@ export function decorateMain(main) {
  * @param {Element} doc The container element
  */
 async function loadEager(doc) {
-  document.documentElement.lang = 'en';
+  import('./martech.js').then((m) => m.loadConsent());
+  document.documentElement.lang = window.location.pathname.startsWith('/en') ? 'en' : 'de';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
   if (main) {

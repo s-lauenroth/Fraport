@@ -1,0 +1,98 @@
+unit-geometry @ 360px, tol 4px — https://www.fraport.com/de.html vs http://localhost:8791/de-proposed.html
+unit 1 of quicklink-teaser (required) frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser: origin 16,404 328×106 vs served 16,404 328×106 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "betrieb" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "75 jahre flughafenfeuerwehr" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "75 jahre flughafenfeuerwehr" | 0,57 242×24 | 0,57 242×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of quicklink-teaser (required) frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser: origin 16,510 328×132 vs served 16,510 328×132 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "ausbau und entwicklung flughafen" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "terminal 3: ein neues kapitel für de" | 0,56 328×52 | 0,56 328×52 | 0 | 0 | 0 | 0 | ✓ |
+| link "terminal 3: ein neues kapitel für de" | 0,57 302×50 | 0,57 302×50 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of quicklink-teaser (required) frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser: origin 16,642 328×106 vs served 16,642 328×106 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "digitalisierung" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "ai@fraport" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "ai@fraport" | 0,57 95×24 | 0,57 95×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,2484 328×387 vs served 16,2484 328×387 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 5 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "rising sun behind the planet. create" | 0,24 329×185 | 0,24 328×185 | 0 | 0 | -1 | 0 | ✓ |
+| text "konzern, image, nachhaltigkeit, inno" | 0,233 328×48 | 0,233 328×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "konzernstrategie" | 0,289 328×26 | 0,289 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "konzernstrategie" | 0,290 141×24 | 0,290 141×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,339 65×24 | 0,339 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,343 16×16 | — | | | | | ✗ missing |
+unit 2 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,2871 328×363 vs served 16,2871 328×363 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 5 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "unternehmenszentrale" | 0,24 329×185 | 0,24 328×185 | 0 | 0 | -1 | 0 | ✓ |
+| text "historie, zahlen, daten und fakten, " | 0,233 328×24 | 0,233 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "über uns" | 0,265 328×26 | 0,265 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "über uns" | 0,266 73×24 | 0,266 73×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,315 65×24 | 0,315 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,319 16×16 | — | | | | | ✗ missing |
+unit 3 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,3233 328×154 vs served 16,3233 328×154 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "investoren, konzern" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "verkehrszahlen" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "verkehrszahlen" | 0,57 126×24 | 0,57 126×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 1 of image-text-tile (required) #standort_flughafen .frach-grid-col-mq3-4=.tiles__col: origin 16,6241 328×513 vs served 16,6240 328×512 → Δx 0 Δy -1 Δw 0 Δh -1; 7 elements: 6 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link#1" | 0,0 328×185 | 0,0 328×184 | 0 | 0 | 0 | -1 | ✓ |
+| image "terminal 3 außenansicht" | 0,0 329×185 | 0,0 328×184 | 0 | 0 | -1 | -1 | ✓ |
+| text "ausbau, baufortschritt" | 0,217 328×24 | 0,216 328×24 | 0 | -1 | 0 | 0 | ✓ |
+| heading "terminal 3" | 0,257 328×30 | 0,256 328×30 | 0 | -1 | 0 | 0 | ✓ |
+| link "terminal 3" | 0,258 121×27 | 0,256 121×30 | 0 | -2 | 0 | +3 | ✓ |
+| text "am 23. april 2026 geht das neue term" | 0,303 328×168 | 0,302 328×168 | 0 | -1 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,261 16×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,256 16×24 | | | | | 🟡 extra |
+unit 2 of image-text-tile (required) #standort_flughafen .frach-grid-col-mq3-4=.tiles__col: origin 16,6754 328×441 vs served 16,6753 328×440 → Δx 0 Δy -1 Δw 0 Δh -1; 7 elements: 6 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link#1" | 0,0 328×185 | 0,0 328×184 | 0 | 0 | 0 | -1 | ✓ |
+| image "familie auf aussichtsplattform" | 0,0 329×185 | 0,0 328×184 | 0 | 0 | -1 | -1 | ✓ |
+| text "engagement, sponsoring" | 0,217 328×24 | 0,216 328×24 | 0 | -1 | 0 | 0 | ✓ |
+| heading "der flughafen in der region" | 0,257 328×30 | 0,256 328×30 | 0 | -1 | 0 | 0 | ✓ |
+| link "der flughafen in der region" | 0,258 280×27 | 0,256 280×30 | 0 | -2 | 0 | +3 | ✓ |
+| text "wir unterstützen und fördern insbeso" | 0,303 328×96 | 0,302 328×96 | 0 | -1 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,261 16×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,256 16×24 | | | | | 🟡 extra |
+unit 3 of image-text-tile (required) #standort_flughafen .frach-grid-col-mq3-4=.tiles__col: origin 16,7194 328×453 vs served 16,7193 328×446 → Δx 0 Δy -1 Δw 0 Δh -7  ✗ unit size; 8 elements: 3 within 4px, 4 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link#1" | 0,0 328×185 | 0,0 328×184 | 0 | 0 | 0 | -1 | ✓ |
+| image "offshore windpark" | 0,0 329×185 | 0,0 328×184 | 0 | 0 | -1 | -1 | ✓ |
+| text "umwelt, klimaschutz" | 0,217 328×24 | 0,216 328×24 | 0 | -1 | 0 | 0 | ✓ |
+| heading "co 2 -emissionen konzernweit reduzie" | 0,257 328×66 | 0,256 328×60 | 0 | -1 | 0 | -6 | ✗ |
+| link "co 2 -emissionen konzernweit reduzie" | 0,258 287×63 | 0,256 328×60 | 0 | -2 | +41 | -3 | ✗ |
+| text "2" | 51,266 10×23 | 51,257 10×30 | 0 | -9 | 0 | +7 | ✗ |
+| text "mit dem berichtsjahr 2024 hat der fr" | 0,339 328×72 | 0,332 328×72 | 0 | -7 | 0 | 0 | ✗ |
+| image "image:svg#1" | 0,261 16×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,256 16×24 | | | | | 🟡 extra |
+unit 1 of key-figure (advisory) .frach-m-key-figures__number=.key-figures__number: origin 28,1943 304×104 vs served 28,1943 304×104 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "65,60 €" ≈ "66,00 €" (by position) | 66,25 136×54 | 66,24 136×56 | 0 | -1 | 0 | +2 | ✓ |
+| text "xetra (fraport ag)" | 0,80 304×24 | 0,80 304×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 198,29 45×45 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 198,29 45×45 | | | | | 🟡 extra |
+unit 2 of key-figure (advisory) .frach-m-key-figures__number=.key-figures__number: origin 16,2111 328×128 vs served 16,2111 328×128 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "80.000" | 102,25 124×54 | 102,24 124×56 | 0 | -1 | 0 | +2 | ✓ |
+| text "beschäftigte aus 114 nationen sind a" | 0,80 328×48 | 0,80 328×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of key-figure (advisory) .frach-m-key-figures__number=.key-figures__number: origin 16,2263 328×105 vs served 16,2263 328×105 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "450" | 129,26 69×54 | 129,25 69×56 | 0 | -1 | 0 | +2 | ✓ |
+| text "firmen sind am und für den flughafen" | 0,81 328×24 | 0,81 328×24 | 0 | 0 | 0 | 0 | ✓ |
+Units: 12 compared; elements within 44, off 4, hidden 0, missing 7 → FAIL
+json → stardust/replica/gates/de-360/units-iter3.json

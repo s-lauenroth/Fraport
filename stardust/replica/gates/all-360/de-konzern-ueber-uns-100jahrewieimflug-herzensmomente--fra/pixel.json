@@ -1,0 +1,112 @@
+{
+  "a": "stardust/replica/gates/all-360/de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra/origin.png",
+  "b": "stardust/replica/gates/all-360/de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2245,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 7406,
+  "pct": 0.92,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.41,
+  "textBoxes": 34,
+  "textPixels": 160007,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.1
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0
+    },
+    {
+      "y0": 2000,
+      "y1": 2245,
+      "pct": 2.9
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.92,
+    "differingPixels": 7406,
+    "compared": {
+      "width": 360,
+      "height": 2245,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2000,
+        "y1": 2245,
+        "pct": 2.9,
+        "unaligned": 2.9
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.92,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra"
+  }
+}

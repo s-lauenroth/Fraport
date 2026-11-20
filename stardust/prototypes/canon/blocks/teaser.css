@@ -1,0 +1,24 @@
+/* teaser (frach-m-teaser): repeated unit of teaser-slider / related-content — optional 16:9 image, theme line, h6 link headline, clamped text, "Lesen" link */
+.teaser { padding: 24px 0; }
+.teaser > :first-child { margin-top: 0; }
+.teaser > :last-child { margin-bottom: 0; }
+.teaser__image { margin: 0 0 24px; overflow: hidden; }
+.teaser__image img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; transform: scale(1); transition: transform .5s ease; }
+.teaser__image:hover img { transform: scale(1.2); }
+.teaser__theme { margin: 8px 0; color: var(--grey-600); }
+.teaser__headline { display: block; margin: 8px 0; color: #000; }
+.teaser__headline a { display: inline; color: var(--primary-500); }
+.teaser__text { display: none; color: var(--grey-600); }
+.teaser__link { display: inline-flex; margin: 16px 0 0; }
+@media (min-width: 720px) {
+  .teaser { padding: 48px 0; }
+  .teaser__text { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 4; line-clamp: 4; overflow: hidden; margin: 12px 0; }
+  .teaser__text + .teaser__link { margin-top: 12px; }
+}
+@media (min-width: 1280px) {
+  .teaser { padding: 64px 0; }
+  .teaser__headline { margin: 16px 0; }
+  .teaser__text { -webkit-line-clamp: 3; line-clamp: 3; margin: 15px 0; }
+  .teaser__link { margin-top: 19px; }
+  .teaser__text + .teaser__link { margin-top: 20px; }
+}

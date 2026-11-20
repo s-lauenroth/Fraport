@@ -1,0 +1,435 @@
+/* milestones (frach-m-milestones): a one-slide-at-a-time slider of text-media panels steered by
+   a ruled marker timeline (coloured ring markers + labels). Timeline above the slides below 960,
+   below them from 960. grey: grey slide band and timeline. */
+.milestones {
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.milestones .milestones-slider {
+  position: relative;
+}
+
+.milestones .milestones-viewport {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.milestones .milestones-slides {
+  display: flex;
+  transition: transform 0.5s cubic-bezier(0.6, 0.15, 0.6, 0.95);
+}
+
+.milestones .milestones-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 0;
+}
+
+.milestones .milestones-controls {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.milestones .milestones-controls .button {
+  position: absolute;
+  top: calc(50% - 28px);
+  z-index: 2;
+  display: none;
+}
+
+.milestones .milestones-prev {
+  left: 0;
+}
+
+.milestones .milestones-next {
+  right: 0;
+}
+
+.milestones .milestones-controls .button:disabled {
+  display: none !important;
+}
+
+.milestones .milestones-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 75px;
+  width: 100%;
+  padding: 36px calc(50% - 44px) 16px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  background: var(--white);
+}
+
+.milestones .milestones-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.milestones .milestones-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 16px;
+  width: 88px;
+  cursor: pointer;
+}
+
+.milestones .milestones-label {
+  margin: 0;
+  color: var(--grey-800);
+  text-align: center;
+}
+
+.milestones .milestones-label :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.milestones .milestones-marker {
+  position: relative;
+  box-sizing: border-box;
+  width: 34px;
+  height: 34px;
+  background: var(--white);
+  border: 4px solid var(--primary-500);
+  border-radius: 100%;
+  transition: border-width 0.2s ease-in-out;
+}
+
+.milestones .milestones-marker::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--primary-500);
+  transform: translate(-4px, -50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.milestones .milestones-marker::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 162px;
+  height: 4px;
+  transform: translate(-2px, -50%);
+  background-image: linear-gradient(90deg, var(--grey-200) 14%, rgb(255 255 255 / 0%) 0);
+  background-position: 0;
+  background-repeat: repeat-x;
+  background-size: 20%;
+}
+
+.milestones .milestones-item:last-child .milestones-marker::after {
+  background-repeat: no-repeat;
+}
+
+.milestones .milestones-marker-aubergine {
+  border-color: var(--secondary-500);
+}
+
+.milestones .milestones-marker-aubergine::before {
+  background-color: var(--secondary-500);
+}
+
+.milestones .milestones-marker-orange {
+  border-color: #e4821a;
+}
+
+.milestones .milestones-marker-orange::before {
+  background-color: #e4821a;
+}
+
+.milestones .milestones-marker-green {
+  border-color: #82af32;
+}
+
+.milestones .milestones-marker-green::before {
+  background-color: #82af32;
+}
+
+.milestones .milestones-item.is-active .milestones-label,
+.milestones .milestones-item:hover .milestones-label {
+  color: var(--primary-500);
+}
+
+.milestones .milestones-item.is-active .milestones-marker,
+.milestones .milestones-item:hover .milestones-marker {
+  border-width: 6px;
+}
+
+.milestones .milestones-item.is-active .milestones-marker::before,
+.milestones .milestones-item:hover .milestones-marker::before {
+  opacity: 1;
+  visibility: visible;
+}
+
+.milestones .milestones-item.is-active::after {
+  content: "";
+  position: absolute;
+  top: 32px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid var(--primary-500);
+}
+
+.milestones .milestones-item.is-active:has(.milestones-marker-orange)::after {
+  border-top-color: #e4821a;
+}
+
+.milestones .milestones-item.is-active:has(.milestones-marker-green)::after {
+  border-top-color: #82af32;
+}
+
+.milestones .milestones-item.is-active:has(.milestones-marker-aubergine)::after {
+  border-top-color: var(--secondary-500);
+}
+
+.milestones.grey .milestones-nav,
+.milestones.grey .milestones-slider {
+  background-color: var(--grey-050);
+}
+
+/* panel = text-media (left 33/66, right 66/33): floated media beside the text column, the h3
+   headline across the row */
+.milestones .milestones-panel {
+  max-height: 150vh;
+  overflow: hidden scroll;
+}
+
+.milestones .milestones-panel .row {
+  display: block;
+  min-width: 0;
+  margin: 0 16px;
+}
+
+.milestones .milestones-panel .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.milestones .milestones-panel .row > * {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+.milestones .milestones-headline {
+  margin-bottom: 24px;
+  color: var(--grey-600);
+}
+
+.milestones .milestones-headline :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.milestones .milestones-media {
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.milestones .milestones-media p {
+  margin: 0;
+}
+
+.milestones .milestones-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.milestones .milestones-text .rte > :first-child {
+  margin-top: 0;
+}
+
+.milestones .buttons p {
+  display: contents;
+}
+
+.milestones .buttons a .milestones-button-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  fill: currentcolor;
+}
+
+/* foundation .buttons .button spacing, restated: a.button:any-link (0,2,1) resets the margin */
+.milestones .buttons a.button:any-link {
+  flex: 1 1 100%;
+  max-width: calc(100% - 24px);
+  margin: 0 24px 24px 0;
+}
+
+@media (width >= 720px) {
+  .milestones .milestones-nav {
+    overflow-x: hidden;
+  }
+
+  .milestones .milestones-slide {
+    justify-content: center;
+  }
+
+  .milestones .milestones-panel {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .milestones .milestones-panel .row > .milestones-headline {
+    max-width: calc(100% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+    margin-right: calc(var(--gutter) / 2);
+    margin-bottom: 30px;
+  }
+
+  .milestones .milestones-panel .row > .milestones-media {
+    width: calc(33.3333% - 24px);
+  }
+
+  .milestones .milestones-panel.left .row > .milestones-media {
+    float: left;
+    margin: 0 24px 24px 0;
+  }
+
+  .milestones .milestones-panel.right .row > .milestones-media {
+    float: right;
+    margin: 0 0 24px 24px;
+  }
+
+  .milestones .milestones-panel .row > .milestones-text {
+    max-width: calc(100% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+  }
+
+  .milestones .buttons a.button:any-link {
+    flex: 0 1 auto;
+    max-width: none;
+    margin-top: 14px;
+  }
+}
+
+@media (width >= 960px) {
+  .milestones {
+    flex-direction: column;
+  }
+
+  .milestones .milestones-controls,
+  .milestones .milestones-controls .button {
+    display: block;
+  }
+
+  .milestones .milestones-slide {
+    padding: 35px 0;
+  }
+
+  .milestones .milestones-nav {
+    align-items: baseline;
+    gap: 150px;
+    padding: 40px calc(50% - 87.5px) 76px;
+  }
+
+  .milestones .milestones-item {
+    gap: 26px;
+    width: 175px;
+  }
+
+  .milestones .milestones-marker::after {
+    background-size: 10%;
+    width: 324px;
+  }
+}
+
+@media (width >= 960px) {
+  .milestones .milestones-panel .row {
+    padding: 0 30px;
+  }
+}
+
+@media (width >= 1280px) {
+  .milestones .milestones-nav {
+    padding-top: 42px;
+  }
+
+  .milestones .milestones-panel .row > .milestones-media {
+    width: calc(33.3333% - 32px);
+  }
+
+  .milestones .milestones-panel.left .row > .milestones-media {
+    margin: 0 32px 32px 0;
+  }
+
+  .milestones .milestones-panel.right .row > .milestones-media {
+    margin: 0 0 32px 32px;
+  }
+}
+
+@media (width >= 1280px) {
+  .milestones .milestones-panel .row {
+    padding: 0 15px;
+  }
+}
+
+@media (width >= 1440px) {
+  .milestones .milestones-panel .row {
+    padding: 0;
+  }
+
+  .milestones .milestones-panel .row > .milestones-media {
+    width: calc(27.775% - 32px);
+  }
+
+  .milestones .milestones-panel.left .row > .milestones-media {
+    margin-left: calc(8.3333% + 16px);
+  }
+
+  .milestones .milestones-panel.right .row > .milestones-media {
+    margin-right: calc(8.3333% + 16px);
+  }
+
+  .milestones .milestones-panel .row > :is(.milestones-text, .milestones-headline) {
+    max-width: calc(66.6667% - 32px);
+    margin-left: calc(16.6667% + 16px);
+  }
+}
+
+/* mail link icon: an inline element in the inline link, as on the source */
+.milestones .rte a:any-link .milestones-mail-icon {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 24px;
+  margin: 0 8px -7px 0;
+  fill: currentcolor;
+}

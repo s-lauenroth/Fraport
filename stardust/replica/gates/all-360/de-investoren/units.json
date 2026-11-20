@@ -1,0 +1,1889 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:16:35.961Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/investoren.html",
+  "at": "2026-11-19T21:55:23.350Z",
+  "docH": 7669
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/investoren",
+  "at": "2026-11-19T23:16:35.850Z",
+  "docH": 7677
+ },
+ "results": [
+  {
+   "sel": "frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider.quicklinks .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:geschäftsentwicklung",
+       "role": "text",
+       "text": "geschäftsentwicklung",
+       "edsText": "geschäftsentwicklung",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-aktienkurs",
+       "role": "heading",
+       "text": "fraport-aktienkurs",
+       "edsText": "fraport-aktienkurs",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h2#fraport-aktienkurs",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-aktienkurs",
+       "role": "link",
+       "text": "fraport-aktienkurs",
+       "edsText": "fraport-aktienkurs",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 154,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 154,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 357,
+       "w": 328,
+       "h": 106
+      },
+      "eds": {
+       "x": 16,
+       "y": 357,
+       "w": 328,
+       "h": 106
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:verkehrszahlen",
+       "role": "text",
+       "text": "verkehrszahlen",
+       "edsText": "verkehrszahlen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:standort fra, konzern und luftverkehr",
+       "role": "heading",
+       "text": "standort fra, konzern und luftverkehr",
+       "edsText": "standort fra, konzern und luftverkehr",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h2#standort-fra-konzern-und-luftverkehr",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:standort fra, konzern und luftverkehr",
+       "role": "link",
+       "text": "standort fra, konzern und luftverkehr",
+       "edsText": "standort fra, konzern und luftverkehr",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 321,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 321,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 463,
+       "w": 328,
+       "h": 106
+      },
+      "eds": {
+       "x": 16,
+       "y": 463,
+       "w": 328,
+       "h": 106
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:teildisziplin der investor relations",
+       "role": "text",
+       "text": "teildisziplin der investor relations",
+       "edsText": "teildisziplin der investor relations",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:creditor relations",
+       "role": "heading",
+       "text": "creditor relations",
+       "edsText": "creditor relations",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h2#creditor-relations",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:creditor relations",
+       "role": "link",
+       "text": "creditor relations",
+       "edsText": "creditor relations",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 149,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 149,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 569,
+       "w": 328,
+       "h": 106
+      },
+      "eds": {
+       "x": 16,
+       "y": 569,
+       "w": 328,
+       "h": 106
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 16,
+   "edsMatches": 16,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:globe with economic growth lines, abstra",
+       "role": "image",
+       "text": "globe with economic growth lines, abstract background",
+       "edsText": "globe with economic growth lines, abstract background",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:digitalisierung und digital factory",
+       "role": "heading",
+       "text": "digitalisierung und digital factory",
+       "edsText": "digitalisierung und digital factory",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#digitalisierung-und-digital-factory",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:digitalisierung und digital factory",
+       "role": "link",
+       "text": "digitalisierung und digital factory",
+       "edsText": "digitalisierung und digital factory",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 286,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 286,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 185,
+       "absY": 5946,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 233,
+       "w": 328,
+       "h": 24,
+       "absY": 6154,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 5914,
+       "w": 328,
+       "h": 363
+      },
+      "eds": {
+       "x": 16,
+       "y": 5922,
+       "w": 328,
+       "h": 363
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:hero.png",
+       "role": "image",
+       "text": "hero.png",
+       "edsText": "hero.png",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:flughafen ljubljana",
+       "role": "heading",
+       "text": "flughafen ljubljana",
+       "edsText": "flughafen ljubljana",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#flughafen-ljubljana",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:flughafen ljubljana",
+       "role": "link",
+       "text": "flughafen ljubljana",
+       "edsText": "flughafen ljubljana",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 167,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 167,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 185,
+       "absY": 6308,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 233,
+       "w": 328,
+       "h": 24,
+       "absY": 6517,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 6276,
+       "w": 328,
+       "h": 363
+      },
+      "eds": {
+       "x": 16,
+       "y": 6284,
+       "w": 328,
+       "h": 363
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:fraport passenger services gmbh",
+       "role": "heading",
+       "text": "fraport passenger services gmbh",
+       "edsText": "fraport passenger services gmbh",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#fraport-passenger-services-gmbh",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport passenger services gmbh",
+       "role": "link",
+       "text": "fraport passenger services gmbh",
+       "edsText": "fraport passenger services gmbh",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 276,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 276,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 24,
+       "absY": 6671,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 6639,
+       "w": 328,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 6647,
+       "w": 328,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:luftqualität",
+       "role": "heading",
+       "text": "luftqualität",
+       "edsText": "luftqualität",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#luftqualität",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:luftqualität",
+       "role": "link",
+       "text": "luftqualität",
+       "edsText": "luftqualität",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 101,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 101,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 24,
+       "absY": 6825,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 6793,
+       "w": 328,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 6801,
+       "w": 328,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-640dde3eba > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:ansprechpartner",
+       "role": "text",
+       "text": "ansprechpartner",
+       "edsText": "ansprechpartner",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 132,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 132,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 5629,
+       "w": 328,
+       "h": 73
+      },
+      "eds": {
+       "x": 16,
+       "y": 5637,
+       "w": 328,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 8,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-download-list__item=.download-list .download-list-items li",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-download-list > ul > li.frach-m-download-list__item"
+     },
+     "eds": {
+      "path": "div.download-list-items > ul > li"
+     },
+     "rows": [
+      {
+       "key": "link:veröffentlichungskalender 2026/2027 pdf,",
+       "role": "link",
+       "text": "veröffentlichungskalender 2026/2027 pdf, 113 kb",
+       "edsText": "veröffentlichungskalender 2026/2027 pdf, 113 kb",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 9,
+        "w": 310,
+        "h": 70
+       },
+       "eds": {
+        "x": 9,
+        "y": 9,
+        "w": 310,
+        "h": 70,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "text:veröffentlichungskalender 2026/2027",
+       "role": "text",
+       "text": "veröffentlichungskalender 2026/2027",
+       "edsText": "veröffentlichungskalender 2026/2027",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 9,
+        "w": 266,
+        "h": 52
+       },
+       "eds": {
+        "x": 9,
+        "y": 9,
+        "w": 266,
+        "h": 52,
+        "sel": "span.download-list-name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:pdf, 113 kb",
+       "role": "text",
+       "text": "pdf, 113 kb",
+       "edsText": "pdf, 113 kb",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 62,
+        "w": 63,
+        "h": 16
+       },
+       "eds": {
+        "x": 9,
+        "y": 62,
+        "w": 63,
+        "h": 16,
+        "sel": "span.download-list-meta",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1643,
+       "w": 328,
+       "h": 88
+      },
+      "eds": {
+       "x": 16,
+       "y": 1643,
+       "w": 328,
+       "h": 88
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-h-bg--grey .frach-m-contact > .frach-m-contact=.contact-list.aside .contact-list-card",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.contact-list-wrapper > div.contact-list.aside > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:unternehmenszentrale bei nacht *** local",
+       "role": "image",
+       "text": "unternehmenszentrale bei nacht *** local caption ***",
+       "edsText": "unternehmenszentrale bei nacht *** local caption ***",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:postadresse",
+       "role": "heading",
+       "text": "postadresse",
+       "edsText": "postadresse",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26
+       },
+       "eds": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26,
+        "sel": "h3#postadresse",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:fraport ag frankfurt airport services wo",
+       "role": "text",
+       "text": "fraport ag frankfurt airport services worldwide finance and ",
+       "edsText": "fraport ag frankfurt airport services worldwide finance and ",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 120
+       },
+       "eds": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 120,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 5182,
+       "w": 328,
+       "h": 391
+      },
+      "eds": {
+       "x": 16,
+       "y": 5182,
+       "w": 328,
+       "h": 391
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-key-figures--has-text=.key-figures.text",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn > frach-m-key-figures.frach-m-key-figures.frach-m-key-figures--has-text"
+     },
+     "eds": {
+      "path": "div.section.key-figures-container > div.key-figures-wrapper > div.key-figures.stock"
+     },
+     "rows": [
+      {
+       "key": "heading:kursentwicklung heute",
+       "role": "heading",
+       "text": "kursentwicklung heute",
+       "edsText": "kursentwicklung heute",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 0,
+        "w": 328,
+        "h": 44
+       },
+       "eds": {
+        "x": 16,
+        "y": 0,
+        "w": 328,
+        "h": 44,
+        "sel": "h3#kursentwicklung-heute",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "28/44/400",
+        "eds": "28/44/400"
+       }
+      },
+      {
+       "key": "text:die fraport-aktie ist teil der dax-index",
+       "role": "text",
+       "text": "die fraport-aktie ist teil der dax-indexfamilie der deutsche",
+       "edsText": "die fraport-aktie ist teil der dax-indexfamilie der deutsche",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 60,
+        "w": 328,
+        "h": 264
+       },
+       "eds": {
+        "x": 16,
+        "y": 60,
+        "w": 328,
+        "h": 264,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:65,60 €",
+       "role": "text",
+       "text": "65,60 €",
+       "edsText": "65,60 €",
+       "byPosition": false,
+       "origin": {
+        "x": 94,
+        "y": 397,
+        "w": 136,
+        "h": 54
+       },
+       "eds": {
+        "x": 94,
+        "y": 396,
+        "w": 136,
+        "h": 56,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 226,
+        "y": 401,
+        "w": 45,
+        "h": 45
+       },
+       "eds": {
+        "x": 226,
+        "y": 401,
+        "w": 45,
+        "h": 45,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:xetra (fraport ag)",
+       "role": "text",
+       "text": "xetra (fraport ag)",
+       "edsText": "xetra (fraport ag)",
+       "byPosition": false,
+       "origin": {
+        "x": 28,
+        "y": 452,
+        "w": 304,
+        "h": 24
+       },
+       "eds": {
+        "x": 28,
+        "y": 452,
+        "w": 304,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2733,
+       "w": 360,
+       "h": 476
+      },
+      "eds": {
+       "x": 0,
+       "y": 2733,
+       "w": 360,
+       "h": 476
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 11,
+  "within": 40,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

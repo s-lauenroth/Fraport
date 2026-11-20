@@ -1,0 +1,266 @@
+{
+  "a": "stardust/replica/gates/all-1440/de-konzern-digitalisierung/origin.png",
+  "b": "stardust/replica/gates/all-1440/de-konzern-digitalisierung/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 8919,
+    "mode": "overlap"
+  },
+  "heightDelta": 46,
+  "differingPixels": 1318561,
+  "pct": 10.27,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/de-konzern-digitalisierung/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 11.5,
+  "textBoxes": 223,
+  "textPixels": 1963106,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.7
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 6.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 2.6
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2.4
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5.2
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 8.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 8.6
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 10.2
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 6.2
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 26.9
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 25.4
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 12.3
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 12.9
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 27.3
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 11.3
+    },
+    {
+      "y0": 8500,
+      "y1": 8919,
+      "pct": 4
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 1.72,
+    "differingPixels": 222736,
+    "compared": {
+      "width": 1440,
+      "height": 8967,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1676,
+        "shift": 2,
+        "cumulative": 2
+      },
+      {
+        "y": 3038,
+        "shift": -24,
+        "cumulative": -22
+      },
+      {
+        "y": 3970,
+        "shift": -24,
+        "cumulative": -46
+      }
+    ],
+    "maxOffset": 46,
+    "totalShift": 50,
+    "insertedRows": 2,
+    "deletedRows": 48,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 6.9,
+        "unaligned": 6.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 6.5,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1,
+        "unaligned": 2.6
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.6,
+        "unaligned": 5.2
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 5.3,
+        "unaligned": 6
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 5,
+        "unaligned": 8.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 8.6
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 10.2
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.2,
+        "unaligned": 6.2
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.2,
+        "unaligned": 26.9
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.5,
+        "unaligned": 25.4
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.4,
+        "unaligned": 12.3
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.5,
+        "unaligned": 12.9
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.6,
+        "unaligned": 27.3
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0.8,
+        "unaligned": 11.3
+      },
+      {
+        "y0": 8500,
+        "y1": 8965,
+        "pct": 0.5,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/de-konzern-digitalisierung/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 90,
+    "totalShift": 50,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung"
+  }
+}

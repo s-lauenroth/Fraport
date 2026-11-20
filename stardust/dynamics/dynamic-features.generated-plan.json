@@ -1,0 +1,1205 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-19T16:29:52.252Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--340a2135--aemcoder.aem.page",
+  "migrated": null,
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-charts3-equitystory-com",
+   "class": "A",
+   "feature": "unknown third-party host charts3.equitystory.com",
+   "pages": 2,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "charts3.equitystory.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-app-walls-io",
+   "class": "A",
+   "feature": "unknown third-party host app.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "app.walls.io"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "a-unknown-third-party-host-jnn-pa-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host jnn-pa.googleapis.com",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "jnn-pa.googleapis.com"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-js-re",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+   "pages": 7,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "WIR SIND WELTWEIT AKTIV UND SETZEN STANDARDS",
+    "Betrieb 75 Jahre Flughafenfeuerwehr Ausbau und Entwicklung F",
+    "Über uns Vorstand und Management Konzernstrategie Connecting",
+    "Connecting the world with tomorrow als einer der weltweit fü"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-m-tex",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-m-text frach-js-refresh-root",
+   "pages": 6,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "FRA History Die Fraport AG, Besitzer und Betreiber des größt",
+    "Wachstum und Nachhaltigkeit Im Jahr 2030 ...​ …sind wir fina",
+    "Effizienz und Innovation Im Jahr 2030...​ …überzeugen wir un",
+    "Top-Arbeitgeber Im Jahr 2030...​ …sind wir ein international"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-slides-frach-js-slide",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__slides frach-js-slider__slides",
+   "pages": 4,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "Betrieb 75 Jahre Flughafenfeuerwehr Ausbau und Entwicklung F",
+    "Über uns Vorstand und Management Konzernstrategie Connecting",
+    "Digitalisierung und Digital Factory Fraport setzt auf zukunf",
+    "Bilddatenbank / Wallpapers@FRA In unserer Bilddatenbank stel"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-slide-frach-js-slider",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__slide frach-js-slider__slide",
+   "pages": 4,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "Betrieb 75 Jahre Flughafenfeuerwehr",
+    "Ausbau und Entwicklung Flughafen Terminal 3: Ein neues Kapit",
+    "Digitalisierung AI@Fraport",
+    "Über uns Vorstand und Management"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-slide-frach-js-slider",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+   "pages": 3,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "Betrieb Willkommen am Frankfurt CargoHub",
+    "Konzernstrategie Connecting the world with tomorrow",
+    "Service Flughafenausweise",
+    "Geschäftsfelder International Activities"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-controls-frach-js-sli",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__controls frach-js-slider__controls",
+   "pages": 3,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "Previous Slide Next Slide"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-js-re",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-js-refresh-root section",
+   "pages": 2,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "Die Luftfahrtindustrie ist aufgrund politischer, wirtschaftl",
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+    "Mit der Konzernstrategie Fraport.2030 verfolgen wir drei kla",
+    "Beachten Sie bitte: Die vorliegenden Inhalte sind vor dem In"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-image-link-frach-js-image-ga",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-image__link frach-js-image__gallery-overlay-opener",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-image-link-frach-js-image-ov",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-image__link frach-js-image__overlay-opener",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-js-re",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-js-refresh-root",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "AKTUELLES 12.11.2026 Cargo , Betrieb , 2026 , Verkehrszahlen",
+    "Frankfurt Airport Retail Retail News – für einen abwechslung",
+    "AKTIENKURS FRAPORT AG",
+    "GEMEINSAM DURCHSTARTEN"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-e-button-frach-e-button-icon-o",
+   "class": "CR",
+   "feature": "client-rendered slot frach-e-button frach-e-button--icon-only frach-e-button--tertiary",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "frach.component.search.reset <img src=\"/etc.clientlibs/frapo"
+   ],
+   "pattern": "settled-dom-snapshot",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "capture",
+   "decision": "inspect the consumer"
+  },
+  {
+   "id": "d-first-party-data-file-get-darksite-alerts-de-json",
+   "class": "D",
+   "feature": "first-party data file GET /darksite-alerts/de.json",
+   "pages": 8,
+   "probed": 8,
+   "reach": {
+    "pages": 25,
+    "of": 25
+   },
+   "evidence": [
+    "GET /darksite-alerts/de.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-traffic-alerts-de-json",
+   "class": "D",
+   "feature": "first-party data file GET /traffic-alerts/de.json",
+   "pages": 8,
+   "probed": 8,
+   "reach": {
+    "pages": 25,
+    "of": 25
+   },
+   "evidence": [
+    "GET /traffic-alerts/de.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-passenger-alerts-de-json",
+   "class": "D",
+   "feature": "first-party data file GET /passenger-alerts/de.json",
+   "pages": 8,
+   "probed": 8,
+   "reach": {
+    "pages": 25,
+    "of": 25
+   },
+   "evidence": [
+    "GET /passenger-alerts/de.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-jcr-content-fra-model-json",
+   "class": "D",
+   "feature": "first-party data file GET /de/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 2,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-konzern-jcr-content-fra-model",
+   "class": "D",
+   "feature": "first-party data file GET /de/konzern/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/konzern/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-konzern-konzernstrategie-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /de/konzern/konzernstrategie/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/konzern/konzernstrategie/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-geschaeftsfelder-service-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /de/geschaeftsfelder/service/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/geschaeftsfelder/service/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-newsroom-jcr-content-fra-mode",
+   "class": "D",
+   "feature": "first-party data file GET /de/newsroom/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/newsroom/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-investoren-publikationen-term",
+   "class": "D",
+   "feature": "first-party data file GET /de/investoren/publikationen-termine/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/investoren/publikationen-termine/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-newsroom-pressemitteilung-jcr",
+   "class": "D",
+   "feature": "first-party data file GET /de/newsroom/pressemitteilung/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/newsroom/pressemitteilung/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "d-first-party-data-file-get-de-newsroom-ansprechpartner-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /de/newsroom/ansprechpartner/_jcr_content.fra_model.json",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 1,
+    "of": 25
+   },
+   "evidence": [
+    "GET /de/newsroom/ansprechpartner/_jcr_content.fra_model.json → 200"
+   ],
+   "pattern": "sheet-sync",
+   "disposition": "data-fed",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "data",
+   "decision": "none (sync from the source origin)",
+   "hostBound": "dead on target (404)"
+  },
+  {
+   "id": "i18n-locale-variants-en-en-en-en-en",
+   "class": "I18N",
+   "feature": "locale variants en,en,en,en,en",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "https://fortaleza-airport.com.br/en",
+    "https://portoalegre-airport.com.br/en",
+    "https://www.tradeport-logistics.com/en/home/index.php"
+   ],
+   "pattern": "locale-tree",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "locale wave",
+   "decision": "scope of the locale trees"
+  },
+  {
+   "id": "l-listing-candidate-frach-m-slider-slides-frach-js-slider-sl",
+   "class": "L",
+   "feature": "listing candidate frach-m-slider__slides frach-js-slider__slides (12 cards)",
+   "pages": 5,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-frach-m-slider-slides-frach-js-slider-sl",
+   "class": "L",
+   "feature": "listing candidate frach-m-slider__slides frach-js-slider__slides (6 cards)",
+   "pages": 2,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-frach-grid-row-3-cards",
+   "class": "L",
+   "feature": "listing candidate frach-grid-row (3 cards)",
+   "pages": 2,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-5-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (5 cards)",
+   "pages": 2,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-frach-m-slider-slides-frach-js-slider-sl",
+   "class": "L",
+   "feature": "listing candidate frach-m-slider__slides frach-js-slider__slides (11 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-frach-m-image-gallery-tiles-container-fr",
+   "class": "L",
+   "feature": "listing candidate frach-m-image-gallery-tiles__container frach-grid-col-mq1-12 (9 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-7-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (7 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-ul-26-cards",
+   "class": "L",
+   "feature": "listing candidate ul (26 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-ul-25-cards",
+   "class": "L",
+   "feature": "listing candidate ul (25 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-6-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (6 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-ul-3-cards",
+   "class": "L",
+   "feature": "listing candidate ul (3 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-3-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (3 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "l-listing-candidate-frach-m-search-results-results-container",
+   "class": "L",
+   "feature": "listing candidate frach-m-search-results__results-container (21 cards)",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [],
+   "pattern": "listing-index-backed",
+   "disposition": "index-backed",
+   "target": "block",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "listings",
+   "decision": "index-driven or editorially curated?"
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → button:content",
+   "pages": 8,
+   "probed": 8,
+   "reach": {
+    "pages": 217,
+    "of": 25
+   },
+   "evidence": [
+    "Meldung",
+    "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+    "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+    "International <img src=\"/etc.clientlibs/fraport-company/clie"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "m-modal-trigger-frach-js-image-gallery-overlay-opener-target",
+   "class": "M",
+   "feature": "modal trigger frach-js-image__gallery-overlay-opener → target outside DOM at capture",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "https://www.fraport.com/de/konzern.html#"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "m-modal-trigger-frach-js-image-overlay-opener-target-outside",
+   "class": "M",
+   "feature": "modal trigger frach-js-image__overlay-opener → target outside DOM at capture",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "https://www.fraport.com/de/konzern/konzernstrategie.html#"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "s-site-search-form-de-search-html",
+   "class": "S",
+   "feature": "site search form → /de/search.html",
+   "pages": 8,
+   "probed": 8,
+   "reach": {
+    "pages": 2,
+    "of": 25
+   },
+   "evidence": [
+    "search:q"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "s-site-search-form-de-newsroom-pressemitteilung-html",
+   "class": "S",
+   "feature": "site search form → /de/newsroom/pressemitteilung.html",
+   "pages": 1,
+   "probed": 8,
+   "reach": {
+    "pages": 2,
+    "of": 25
+   },
+   "evidence": [
+    "search:q"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-consent-usercentrics",
+   "class": "T",
+   "feature": "consent: Usercentrics",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "CMP domain script reuse on the new host"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-frankfurt-airport-com",
+   "class": "T",
+   "feature": "unknown third-party host www.frankfurt-airport.com",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "www.frankfurt-airport.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "dpm.demdex.net",
+    "fraport.demdex.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "smetrics.fraport.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 8,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "cm.everesttech.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-my-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host my.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "my.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host cdn.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "cdn.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-fonts-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host fonts-cdn.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "fonts-cdn.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-mtm-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host mtm.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "mtm.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-com",
+   "class": "T",
+   "feature": "unknown third-party host www.google.com",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "www.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-img-li-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host img-li-cdn.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "img-li-cdn.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-img-ig-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host img-ig-cdn.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "img-ig-cdn.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-img-fb-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host img-fb-cdn.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "img-fb-cdn.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-d3pelj80y5v5k4-cloudfront-net",
+   "class": "T",
+   "feature": "unknown third-party host d3pelj80y5v5k4.cloudfront.net",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "d3pelj80y5v5k4.cloudfront.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-emoji-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host emoji.walls.io",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "emoji.walls.io"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-scontent-fra3-1-xx-fbcdn-net",
+   "class": "T",
+   "feature": "unknown third-party host scontent-fra3-1.xx.fbcdn.net",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "scontent-fra3-1.xx.fbcdn.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "pages": 1,
+   "probed": 8,
+   "reach": null,
+   "evidence": [
+    "www.youtube-nocookie.com",
+    "i.ytimg.com",
+    "https://www.youtube-nocookie.com/embed/kH7xDtYOxwk?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+    "https://www.youtube-nocookie.com/embed/HapG52fvFyw?origin=http%3A%2F%2Fwww.fraport.com&hl=de"
+   ],
+   "pattern": "media-as-url",
+   "disposition": "embed-passthrough",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "media",
+   "decision": "none (player ids are public)"
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+/* key-figures (frach-m-key-figures): centred animated numbers (h2 ramp, aubergine) with
+   captions; the stock variant adds a trend indicator */
+.key-figures {
+  display: block;
+  overflow: hidden;
+}
+
+main .section.grey .key-figures {
+  padding-bottom: 32px;
+}
+
+.key-figures .key-figures-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.key-figures .key-figures-numbers > .row {
+  margin: 0 calc(var(--gutter) / -2);
+}
+
+.key-figures .key-figures-number {
+  margin-bottom: 24px;
+  color: var(--secondary-500);
+  text-align: center;
+}
+
+.key-figures .key-figures-number:last-child {
+  margin-bottom: 0;
+}
+
+.key-figures .key-figures-value {
+  position: relative;
+  display: inline-block;
+  margin: 24px 0 0;
+  font-family: var(--ff-regular);
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.key-figures .key-figures-value p,
+.key-figures .key-figures-caption p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.key-figures .key-figures-value.is-counting p {
+  visibility: hidden;
+}
+
+.key-figures .key-figures-count {
+  position: absolute;
+  inset: 0;
+  white-space: nowrap;
+}
+
+.key-figures .key-figures-caption {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.key-figures .key-figures-indicator {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  color: var(--grey-400);
+  transform: translateY(2px);
+  vertical-align: baseline;
+  fill: currentcolor;
+}
+
+.key-figures .key-figures-indicator-down {
+  color: var(--negative);
+  transform: rotate(45deg) translateY(2px);
+}
+
+.key-figures .key-figures-indicator-up {
+  color: #9bbf5b;
+  transform: rotate(-45deg) translateY(2px);
+}
+
+.key-figures .key-figures-number::before {
+  content: " ";
+  display: block;
+  width: 24px;
+  height: 1px;
+  margin: 0 auto;
+  background-color: var(--rule-color);
+}
+
+.key-figures .key-figures-number:first-child::before {
+  display: none;
+}
+
+@media (width >= 720px) {
+  .key-figures .key-figures-number::before {
+    content: none;
+  }
+
+  .key-figures .key-figures-number {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+    margin-bottom: 0;
+  }
+}
+
+@media (width >= 960px) {
+  main .section.grey .key-figures {
+    padding-bottom: 64px;
+  }
+
+  .key-figures .key-figures-value {
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  .key-figures .key-figures-indicator {
+    width: 48px;
+    height: 48px;
+    transform: translateY(5px);
+  }
+
+  .key-figures .key-figures-indicator-down {
+    transform: rotate(45deg) translateY(5px);
+  }
+
+  .key-figures .key-figures-indicator-up {
+    transform: rotate(-45deg) translateY(5px);
+  }
+}
+
+@media (width >= 1280px) {
+  .key-figures .container > .row > .key-figures-numbers {
+    flex-basis: calc(83.3333% - var(--gutter));
+    max-width: calc(83.3333% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+
+  .key-figures .key-figures-indicator-down {
+    transform: rotate(45deg) translateY(8px);
+  }
+
+  .key-figures .key-figures-indicator-up {
+    transform: rotate(-45deg) translateY(8px);
+  }
+}
+
+/* variant text (source frach-m-key-figures--has-text): grey headline + copy column beside the
+   numbers — full width < 720, 9/12 from 720, 3/12 offset 1 beside 6/12 numbers offset 1 >= 1280 */
+.key-figures.text .key-figures-text {
+  margin-bottom: 48px;
+  color: var(--grey-600);
+}
+
+.key-figures.text .key-figures-text :is(h2, h3, h4) {
+  margin: 0 0 16px;
+  color: inherit;
+}
+
+.key-figures.text .key-figures-text p {
+  margin: 0;
+}
+
+.key-figures.text .key-figures-numbers {
+  justify-content: flex-start;
+}
+
+.key-figures.text .key-figures-numbers > .row {
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+.key-figures.text .key-figures-number {
+  margin-bottom: 0;
+}
+
+@media (width >= 720px) {
+  .key-figures.text .container > .row > .key-figures-text {
+    flex-basis: calc(75% - var(--gutter));
+    max-width: calc(75% - var(--gutter));
+  }
+}
+
+@media (width >= 960px) {
+  .key-figures.text .key-figures-text :is(h2, h3, h4) {
+    margin-bottom: 32px;
+  }
+}
+
+@media (width >= 1280px) {
+  .key-figures.text .container > .row {
+    align-items: stretch;
+  }
+
+  .key-figures.text .container > .row > .key-figures-text {
+    flex-basis: calc(25% - var(--gutter));
+    max-width: calc(25% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+
+  .key-figures.text .container > .row > .key-figures-numbers {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+}

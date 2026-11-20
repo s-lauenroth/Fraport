@@ -1,0 +1,6716 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T23:31:45.370Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom.html",
+  "at": "2026-11-19T23:31:14.301Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 12819,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a#header-40eb6aeb8c-logo",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "logo homepage link",
+    "href": "/de.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-6ed2a18c36-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-6ed2a18c36-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-6ed2a18c36-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "sprache"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-6ed2a18c36-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "sprache",
+    "value": "sprache",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > nav.frach-m-breadcrumb-navigation__nav > a.frach-m-breadcrumb-navigation__link.frach-m-breadcrumb-navigation__link--back",
+    "x": 16,
+    "y": 105,
+    "w": 104,
+    "h": 24,
+    "text": "fraport ag",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--21-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 0,
+    "y": 150,
+    "w": 360,
+    "h": 154,
+    "text": "newsroom der fraport ag",
+    "file": "cc_PV_StarbahnWest_A3-0601"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline",
+    "x": 16,
+    "y": 261,
+    "w": 328,
+    "h": 128,
+    "level": 1,
+    "text": "newsroom der fraport ag"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h1.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 281,
+    "w": 95,
+    "h": 24,
+    "text": "NEWSROOM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h1.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 345,
+    "w": 130,
+    "h": 24,
+    "text": "DER FRAPORT AG"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-anchor-list__label > a#anchorList-36d2b52298-anchorItem-0",
+    "x": 16,
+    "y": 421,
+    "w": 328,
+    "h": 64,
+    "text": "06 ansprechpartner",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-36d2b52298-anchorItem-0",
+    "x": 16,
+    "y": 485,
+    "w": 328,
+    "h": 64,
+    "text": "01 aktuelles",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-36d2b52298-anchorItem-1",
+    "x": 16,
+    "y": 549,
+    "w": 328,
+    "h": 64,
+    "text": "02 social media",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-36d2b52298-anchorItem-2",
+    "x": 16,
+    "y": 613,
+    "w": 328,
+    "h": 64,
+    "text": "03 welt der möglichkeiten",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-36d2b52298-anchorItem-3",
+    "x": 16,
+    "y": 677,
+    "w": 328,
+    "h": 64,
+    "text": "04 medien & publikationen",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-36d2b52298-anchorItem-4",
+    "x": 16,
+    "y": 741,
+    "w": 328,
+    "h": 64,
+    "text": "05 dokuserien und reportagen",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 838,
+    "w": 328,
+    "h": 60,
+    "level": 2,
+    "text": "aktuelles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 849,
+    "w": 131,
+    "h": 37,
+    "text": "AKTUELLES"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 922,
+    "w": 328,
+    "h": 628,
+    "text": "12.11.2026 cargo , betrieb , 2026 , verkehrszahlen , frankfurt airport , investo",
+    "href": "/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport-verkehrszahlen-im-oktober-2026--cargo-waechst---passagie.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 922,
+    "w": 328,
+    "h": 328,
+    "text": "frachtbeladung tuerkish airlines",
+    "file": "2026_11_12_PM_Fraport-Verkehrszahlen%20i"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 1400,
+    "w": 296,
+    "h": 120,
+    "level": 5,
+    "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passagierzahlen auf vorjahresniveau"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 1550,
+    "w": 328,
+    "h": 592,
+    "text": "05.11.2026 airport retail , gastronomie , terminal 1 , 2026 , indien , diwali , ",
+    "href": "/de/newsroom/retail-news/2026/diwali--kampagne-am-flughafen-frankfurt.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 1550,
+    "w": 328,
+    "h": 328,
+    "text": "diwali am flughafen frankfurt: indisches lichterfest",
+    "file": "2026_11_05_FARN_Diwali-ohne%20Logo"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 2052,
+    "w": 296,
+    "h": 60,
+    "level": 5,
+    "text": "diwali-kampagne schafft besondere einkaufserlebnisse"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box.frach-m-teaser-collection__link-box > div.frach-m-link-box__editorial > h6.frach-h6",
+    "x": 40,
+    "y": 2210,
+    "w": 280,
+    "h": 26,
+    "level": 6,
+    "text": "weitere meldungen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box.frach-m-teaser-collection__link-box > div.frach-m-link-box__editorial > a.frach-m-teaser-collection__link-box-item",
+    "x": 16,
+    "y": 2244,
+    "w": 328,
+    "h": 121,
+    "text": "04.11.2026 07:00 uhr neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+    "href": "/de/newsroom/pressemitteilungen/2026/bpk/neunmonatsbilanz-starkes-auslandsgeschaeft.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box.frach-m-teaser-collection__link-box > div.frach-m-link-box__editorial > a.frach-m-teaser-collection__link-box-item",
+    "x": 16,
+    "y": 2365,
+    "w": 328,
+    "h": 121,
+    "text": "27.10.2026 14:00 uhr gate a16 wird zum testfeld für die zukunft",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/gate-of-the-future-am-flughafen-frankfurt-eroeffnet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box.frach-m-teaser-collection__link-box > div.frach-m-link-box__editorial > a.frach-m-teaser-collection__link-box-item",
+    "x": 16,
+    "y": 2486,
+    "w": 328,
+    "h": 121,
+    "text": "20.10.2026 10:00 uhr neue ziele im winterflugplan ab frankfurt",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/winterflugplan-2026-2027--231-ziele-ab-frankfurt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box.frach-m-teaser-collection__link-box > div.frach-m-link-box__editorial > a.frach-m-teaser-collection__link-box-item",
+    "x": 16,
+    "y": 2607,
+    "w": 328,
+    "h": 121,
+    "text": "16.10.2026 07:00 uhr bund fördert emissionsfreie bodenstromversorgung",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/-fraport-erhaelt-weitere-foerdermittel-fuer--emissionsfreie-bode.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box.frach-m-teaser-collection__link-box > div.frach-m-link-box__editorial > a.frach-m-teaser-collection__link-box-item",
+    "x": 16,
+    "y": 2728,
+    "w": 328,
+    "h": 145,
+    "text": "13.10.2026 07:00 uhr fraport-verkehrszahlen im september 2026: anstieg bei passa",
+    "href": "/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport---verkehrszahlen-im-september-2026.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box__editorial > div.frach-m-link-box__cta-button-container > a#button-7124c4177b",
+    "x": 40,
+    "y": 2889,
+    "w": 280,
+    "h": 52,
+    "text": "alle pressemitteilungen",
+    "href": "/de/newsroom/pressemitteilung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-link-box__editorial > div.frach-m-link-box__cta-button-container > a#button-1064d0f9fd",
+    "x": 40,
+    "y": 2957,
+    "w": 280,
+    "h": 52,
+    "text": "alle service-news",
+    "href": "/de/newsroom/servicenews.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h6.frach-m-cta__headline.frach-h6",
+    "x": 16,
+    "y": 3090,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "frankfurt airport retail"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 3140,
+    "w": 328,
+    "h": 72,
+    "text": "Retail News – für einen abwechslungsreichen und unvergesslichen Aufenthalt in de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-8eac866ac4",
+    "x": 16,
+    "y": 3252,
+    "w": 328,
+    "h": 52,
+    "text": "alle retail news",
+    "href": "/de/newsroom/retailnews.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-7b9865943b > h3",
+    "x": 16,
+    "y": 3400,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "pressemappen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-7b9865943b > h6",
+    "x": 16,
+    "y": 3460,
+    "w": 328,
+    "h": 78,
+    "level": 6,
+    "text": "thematische zusammenstellungen von pressetexten, bildmaterial und infografiken zu verschiedenen inhalten."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a#button-16d728d667",
+    "x": 16,
+    "y": 3554,
+    "w": 304,
+    "h": 52,
+    "text": "zu den pressemappen",
+    "href": "/de/newsroom/pressemappe.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-531805cb47 > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 16,
+    "y": 3662,
+    "w": 328,
+    "h": 185,
+    "text": "",
+    "href": "/de/newsroom/pressemappe.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 3662,
+    "w": 329,
+    "h": 185,
+    "text": "adobestock_332568276_publikationen.jpg",
+    "file": "AdobeStock_332568276_Publikationen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 3910,
+    "w": 328,
+    "h": 104,
+    "level": 1,
+    "text": "aktienkurs fraport ag"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 3921,
+    "w": 265,
+    "h": 81,
+    "text": "AKTIENKURS FRAPORT AG"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-key-figures__exchange-data-wrapper > frach-e-animated-number.frach-e-animated-number.frach-m-key-figures__number-value > span.frach-e-animated-number__value",
+    "x": 94,
+    "y": 4071,
+    "w": 136,
+    "h": 54,
+    "text": "65,60 €"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stock.frach-m-key-figures__number > div.frach-m-key-figures__exchange-data-wrapper > span.frach-m-key-figures__number-text",
+    "x": 28,
+    "y": 4126,
+    "w": 304,
+    "h": 24,
+    "text": "XETRA (Fraport AG)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 4182,
+    "w": 328,
+    "h": 60,
+    "level": 1,
+    "text": "social media"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 4193,
+    "w": 171,
+    "h": 37,
+    "text": "SOCIAL MEDIA"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 5113,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "gemeinsam durchstarten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 5124,
+    "w": 191,
+    "h": 81,
+    "text": "GEMEINSAM DURCHSTARTEN"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 4,
+    "y": 5249,
+    "w": 352,
+    "h": 198,
+    "text": "pascal geber - vice president talent acquisition hub",
+    "file": "Pascal%20Geber%20-%20Vice%20President%20"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__content-container > div.frach-e-audio-player__content > h6.frach-e-audio-player__headline",
+    "x": 20,
+    "y": 5471,
+    "w": 320,
+    "h": 52,
+    "level": 6,
+    "text": "ausbildung bei fraport: du fragst dich, wo du beruflich hingehörst?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__content-container > div.frach-e-audio-player__content > h6.frach-e-audio-player__sub-headline",
+    "x": 20,
+    "y": 5523,
+    "w": 320,
+    "h": 120,
+    "level": 6,
+    "text": "rund 100 neue auszubildende und dual studierende haben ihre antwort gefunden: zur fraport ag. erfahre im podcast mit pas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__content-container > div.frach-e-audio-player__content > span.frach-e-audio-player__metainfo",
+    "x": 20,
+    "y": 5660,
+    "w": 300,
+    "h": 69,
+    "text": "Thomas Christian Söcker, Media Relations and Brand Management mit Pascal Geber, "
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__content-container > div.frach-e-audio-player__player > frach-e-icon.frach-e-icon.frach-e-audio-player__play-icon",
+    "x": 20,
+    "y": 5759,
+    "w": 320,
+    "h": 60,
+    "text": "play"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__player > div.frach-e-audio-player__player-data > span.frach-e-audio-player__current-time",
+    "x": 20,
+    "y": 5846,
+    "w": 24,
+    "h": 18,
+    "text": "0:00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__player > div.frach-e-audio-player__player-data > span.frach-e-audio-player__duration",
+    "x": 220,
+    "y": 5846,
+    "w": 24,
+    "h": 18,
+    "text": "8:11"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__player > div.frach-e-audio-player__volume-control > frach-e-icon.frach-e-icon.frach-e-audio-player__volume-icon",
+    "x": 268,
+    "y": 5843,
+    "w": 24,
+    "h": 24,
+    "text": "change volume"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__content-container > div.frach-e-audio-player__player > a.frach-e-audio-player__download",
+    "x": 316,
+    "y": 5843,
+    "w": 24,
+    "h": 24,
+    "text": "",
+    "href": "/uploadtool/CH/karriere/Audio/Podcast_Ausbildungsstart_LinkedIN_1_.mp3"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-e-audio-player__player > a.frach-e-audio-player__download > frach-e-icon.frach-e-icon.frach-e-audio-player__download-icon",
+    "x": 316,
+    "y": 5843,
+    "w": 24,
+    "h": 24,
+    "text": "download audio"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h3.frach-m-cta__headline.frach-h3",
+    "x": 16,
+    "y": 5936,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "welt der möglichkeiten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 6004,
+    "w": 328,
+    "h": 48,
+    "text": "Jetzt die vielfältigen Jobangebote bei Fraport entdecken."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-1df8918aaa",
+    "x": 16,
+    "y": 6092,
+    "w": 328,
+    "h": 52,
+    "text": "jobbörse",
+    "href": "/jobs/search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-232079f71f",
+    "x": 16,
+    "y": 6160,
+    "w": 328,
+    "h": 52,
+    "text": "fraport job terminal",
+    "href": "/de/fraport-job-terminal.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 6244,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "medien & publikationen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 6255,
+    "w": 194,
+    "h": 81,
+    "text": "MEDIEN & PUBLIKATIONEN"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-m-text-media__row > h3.frach-m-text-media__headline",
+    "x": 32,
+    "y": 6534,
+    "w": 296,
+    "h": 88,
+    "level": 3,
+    "text": "bilddatenbank / wallpapers@fra"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 6646,
+    "w": 297,
+    "h": 167,
+    "text": "wallpaper newsroom",
+    "file": "Wallpaper%20Newsroom"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-7308353f74 > h5",
+    "x": 32,
+    "y": 6837,
+    "w": 296,
+    "h": 90,
+    "level": 5,
+    "text": "in unserer bilddatenbank stellen wir ihnen kostenlos bildmaterial zur verfügung"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-7308353f74 > p",
+    "x": 32,
+    "y": 6943,
+    "w": 296,
+    "h": 192,
+    "text": "Unsere Bilddatenbank bietet Ihnen Bildvorlagen in geeigneter Auflösung für Ihre "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-7308353f74 > p",
+    "x": 32,
+    "y": 7145,
+    "w": 296,
+    "h": 72,
+    "text": "Können Sie kein passendes Bildmaterial finden, dann wenden Sie sich an das ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-7308353f74 > p > a.frach-e-link",
+    "x": 32,
+    "y": 7170,
+    "w": 288,
+    "h": 45,
+    "text": "fraport-fototeam",
+    "href": "fototeam@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text-media__copy.frach-m-text > div.frach-m-text__buttons > a#button-8cd80daacc",
+    "x": 32,
+    "y": 7227,
+    "w": 272,
+    "h": 52,
+    "text": "zur bilddatenbank",
+    "href": "/de/newsroom/bilddatenbank.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > h6.frach-h6",
+    "x": 156,
+    "y": 6466,
+    "w": 49,
+    "h": 26,
+    "level": 6,
+    "text": "bilder"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-milestones__container > div.frach-m-milestones__item > h6.frach-h6",
+    "x": 299,
+    "y": 6466,
+    "w": 87,
+    "h": 26,
+    "level": 6,
+    "text": "tv & filme"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 7513,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "dokuserien und reportagen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 7524,
+    "w": 217,
+    "h": 81,
+    "text": "DOKUSERIEN UND REPORTAGEN"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-m-text-media__row > h3.frach-m-text-media__headline",
+    "x": 16,
+    "y": 7649,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "mittendrin (hr fernsehen)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-907dc2603c > p",
+    "x": 16,
+    "y": 7717,
+    "w": 328,
+    "h": 144,
+    "text": "Die Doku-Reihe wirft einen Blick hinter die Kulissen des Flughafen Frankfurts. S"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-5869492cbc > h3",
+    "x": 16,
+    "y": 8390,
+    "w": 328,
+    "h": 132,
+    "level": 3,
+    "text": "terminal 3 startet – mehr platz, mehr flüge, mehr frankfurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-5869492cbc > p",
+    "x": 16,
+    "y": 8538,
+    "w": 328,
+    "h": 312,
+    "text": "Europas größtes privatfinanziertes Infrastrukturprojekt wurde erfolgreich abgesc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h3.frach-m-cta__headline.frach-h3",
+    "x": 16,
+    "y": 9968,
+    "w": 328,
+    "h": 88,
+    "level": 3,
+    "text": "frankfurt airport – einsatz rund um die uhr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 10080,
+    "w": 328,
+    "h": 216,
+    "text": "Was passiert hinter den Kulissen des größten deutschen Flughafens? Die ZDF-Repor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-02825ee0ad",
+    "x": 16,
+    "y": 10336,
+    "w": 328,
+    "h": 52,
+    "text": "zdf reportage",
+    "href": "/reportagen/frankfurt-airport-einsatz-rund-um-die-uhr-100"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 10468,
+    "w": 328,
+    "h": 60,
+    "level": 1,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 10479,
+    "w": 237,
+    "h": 37,
+    "text": "ANSPRECHPARTNER"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-68a3972505 > h6",
+    "x": 16,
+    "y": 10568,
+    "w": 328,
+    "h": 104,
+    "level": 6,
+    "text": "bei medien- und presseanfragen stehen wir ihnen gerne zur verfügung. bitte wenden sie sich an ihren jeweiligen ansprechp"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a#button-e90c4d5753",
+    "x": 16,
+    "y": 10688,
+    "w": 304,
+    "h": 52,
+    "text": "pressekontakt",
+    "href": "/de/newsroom/ansprechpartner.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 10796,
+    "w": 329,
+    "h": 185,
+    "text": "",
+    "file": "reb_20240131_1786%20(1)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 11044,
+    "w": 328,
+    "h": 60,
+    "level": 1,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 11055,
+    "w": 268,
+    "h": 37,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 16,
+    "y": 11128,
+    "w": 328,
+    "h": 72,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 16,
+    "y": 11248,
+    "w": 328,
+    "h": 24,
+    "text": "Standort , Beratung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 11280,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "aerodrome manual fraport ag"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 11281,
+    "w": 254,
+    "h": 24,
+    "text": "aerodrome manual fraport ag",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 11330,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 11402,
+    "w": 329,
+    "h": 185,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "AdobeStock_738523483_1920px"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 16,
+    "y": 11611,
+    "w": 328,
+    "h": 48,
+    "text": "Betrieb , Partner , Konzern , Unternehmen , Digitalisierung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 11667,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 11668,
+    "w": 286,
+    "h": 24,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 11717,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 16,
+    "y": 11789,
+    "w": 328,
+    "h": 48,
+    "text": "Konzern , Unsere Flughäfen , International , Beteiligungen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 11845,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "flughafen ljubljana"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 11846,
+    "w": 167,
+    "h": 24,
+    "text": "flughafen ljubljana",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 11895,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 16,
+    "y": 11967,
+    "w": 328,
+    "h": 24,
+    "text": "Betrieb , Besucher , Anwohner"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 11999,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 12000,
+    "w": 101,
+    "h": 24,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 12049,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-teaser-slider__load-more-row > div.frach-grid-col-mq1-12 > button#relatedContent-1271ff6cee-load-more-button",
+    "x": 16,
+    "y": 12121,
+    "w": 328,
+    "h": 52,
+    "text": "mehr news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 12261,
+    "w": 126,
+    "h": 24,
+    "text": "Ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 12334,
+    "w": 95,
+    "h": 24,
+    "text": "Fraport Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 12407,
+    "w": 53,
+    "h": 24,
+    "text": "Aktuell"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 12480,
+    "w": 53,
+    "h": 24,
+    "text": "Service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 12577,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 80,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 144,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 208,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 12663,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 12697,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-page-footer__copyright > div.frach-grid-col-mq1-12 > p.frach-meta",
+    "x": 16,
+    "y": 12769,
+    "w": 328,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.fCuhKw",
+    "x": 24,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "öffnen datenschutz einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 29,
+    "textNodes": 126,
+    "controls": 55,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.frach-m-milestones__container",
+     "path": "frach-m-milestones.frach-m-milestones.frach-m-milestones--grey > div.frach-m-milestones__container > div.frach-m-milestones__item > h6.frach-h6",
+     "text": "tv & filme",
+     "cutMin": 27,
+     "cutMax": 27
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom",
+  "at": "2026-11-19T23:31:45.195Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 12819,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "startseite",
+    "href": "/de"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "suche",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "menü"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "menü",
+    "value": "menü",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > nav.breadcrumb-nav > a.breadcrumb-back",
+    "x": 12,
+    "y": 105,
+    "w": 106,
+    "h": 24,
+    "text": "fraport ag",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-frame > picture > img",
+    "x": 0,
+    "y": 150,
+    "w": 360,
+    "h": 154,
+    "text": "newsroom der fraport ag",
+    "file": "media_1b63c952b9e8ebc711aff3086f04415692"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.hero-headline.ribbon > h1#newsroomder-fraport-ag",
+    "x": 16,
+    "y": 261,
+    "w": 162,
+    "h": 128,
+    "level": 1,
+    "text": "newsroom der fraport ag"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#newsroomder-fraport-ag > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 281,
+    "w": 95,
+    "h": 24,
+    "text": "NEWSROOM"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#newsroomder-fraport-ag > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 345,
+    "w": 130,
+    "h": 24,
+    "text": "DER FRAPORT AG"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.anchor-list-section > div.anchor-list-label > a",
+    "x": 16,
+    "y": 421,
+    "w": 328,
+    "h": 64,
+    "text": "06 ansprechpartner",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 501,
+    "w": 328,
+    "h": 32,
+    "text": "01 aktuelles",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 566,
+    "w": 328,
+    "h": 30,
+    "text": "02 social media",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 630,
+    "w": 328,
+    "h": 30,
+    "text": "03 welt der möglichkeiten",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 694,
+    "w": 328,
+    "h": 30,
+    "text": "04 medien & publikationen",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 758,
+    "w": 328,
+    "h": 30,
+    "text": "05 dokuserien und reportagen",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#aktuelles",
+    "x": 16,
+    "y": 838,
+    "w": 163,
+    "h": 60,
+    "level": 2,
+    "text": "aktuelles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#aktuelles > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 849,
+    "w": 131,
+    "h": 37,
+    "text": "AKTUELLES"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 922,
+    "w": 328,
+    "h": 628,
+    "text": "12.11.2026 cargo , betrieb , 2026 , verkehrszahlen , frankfurt airport , investo",
+    "href": "/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport-verkehrszahlen-im-oktober-2026--cargo-waechst---passagie.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 922,
+    "w": 328,
+    "h": 328,
+    "text": "frachtbeladung tuerkish airlines",
+    "file": "media_11b925ca157308ecea1bdae39546918bac"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h3#fraport-verkehrszahlen-im-oktober-2026-cargo-wächst--passagierzahlen-auf-vorjahresniveau",
+    "x": 32,
+    "y": 1400,
+    "w": 296,
+    "h": 120,
+    "level": 3,
+    "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passagierzahlen auf vorjahresniveau"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 1550,
+    "w": 328,
+    "h": 592,
+    "text": "05.11.2026 airport retail , gastronomie , terminal 1 , 2026 , indien , diwali , ",
+    "href": "/de/newsroom/retail-news/2026/diwali--kampagne-am-flughafen-frankfurt.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 1550,
+    "w": 328,
+    "h": 328,
+    "text": "diwali am flughafen frankfurt: indisches lichterfest",
+    "file": "media_187f8af1113adcb893ad6ebc3027be031e"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h3#diwali-kampagne-schafft-besondere-einkaufserlebnisse",
+    "x": 32,
+    "y": 2052,
+    "w": 296,
+    "h": 60,
+    "level": 3,
+    "text": "diwali-kampagne schafft besondere einkaufserlebnisse"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.newsroom-feed.block > div.newsroom-feed-title.h6 > h3#weitere-meldungen",
+    "x": 40,
+    "y": 2210,
+    "w": 280,
+    "h": 26,
+    "level": 3,
+    "text": "weitere meldungen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.newsroom-feed-list > li.newsroom-feed-item > a.newsroom-feed-link",
+    "x": 16,
+    "y": 2244,
+    "w": 328,
+    "h": 121,
+    "text": "04.11.2026 07:00 uhr neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+    "href": "/de/newsroom/pressemitteilungen/2026/bpk/neunmonatsbilanz-starkes-auslandsgeschaeft.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.newsroom-feed-list > li.newsroom-feed-item > a.newsroom-feed-link",
+    "x": 16,
+    "y": 2365,
+    "w": 328,
+    "h": 121,
+    "text": "27.10.2026 14:00 uhr gate a16 wird zum testfeld für die zukunft",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/gate-of-the-future-am-flughafen-frankfurt-eroeffnet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.newsroom-feed-list > li.newsroom-feed-item > a.newsroom-feed-link",
+    "x": 16,
+    "y": 2486,
+    "w": 328,
+    "h": 121,
+    "text": "20.10.2026 10:00 uhr neue ziele im winterflugplan ab frankfurt",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/winterflugplan-2026-2027--231-ziele-ab-frankfurt.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.newsroom-feed-list > li.newsroom-feed-item > a.newsroom-feed-link",
+    "x": 16,
+    "y": 2607,
+    "w": 328,
+    "h": 121,
+    "text": "16.10.2026 07:00 uhr bund fördert emissionsfreie bodenstromversorgung",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/-fraport-erhaelt-weitere-foerdermittel-fuer--emissionsfreie-bode.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.newsroom-feed-list > li.newsroom-feed-item > a.newsroom-feed-link",
+    "x": 16,
+    "y": 2728,
+    "w": 328,
+    "h": 145,
+    "text": "13.10.2026 07:00 uhr fraport-verkehrszahlen im september 2026: anstieg bei passa",
+    "href": "/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport---verkehrszahlen-im-september-2026.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.newsroom-feed-ctas > p.button-wrapper > a.button.primary",
+    "x": 40,
+    "y": 2889,
+    "w": 280,
+    "h": 52,
+    "text": "alle pressemitteilungen",
+    "href": "/de/newsroom/pressemitteilung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.newsroom-feed-ctas > p.button-wrapper > a.button.secondary",
+    "x": 40,
+    "y": 2957,
+    "w": 280,
+    "h": 52,
+    "text": "alle service-news",
+    "href": "/de/newsroom/servicenews.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h6 > h3#frankfurt-airport-retail",
+    "x": 16,
+    "y": 3090,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "frankfurt airport retail"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 3140,
+    "w": 328,
+    "h": 72,
+    "text": "Retail News – für einen abwechslungsreichen und unvergesslichen Aufenthalt in de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 3252,
+    "w": 328,
+    "h": 52,
+    "text": "alle retail news",
+    "href": "/de/newsroom/retailnews.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h3#pressemappen",
+    "x": 16,
+    "y": 3400,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "pressemappen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h6#thematische-zusammenstellungen-von-pressetexten-bildmaterial-und-infografiken-zu-verschiedenen-inhalten",
+    "x": 16,
+    "y": 3460,
+    "w": 328,
+    "h": 78,
+    "level": 6,
+    "text": "thematische zusammenstellungen von pressetexten, bildmaterial und infografiken zu verschiedenen inhalten."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.buttons > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 3554,
+    "w": 304,
+    "h": 52,
+    "text": "zu den pressemappen",
+    "href": "/de/newsroom/pressemappe.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > picture > img",
+    "x": 16,
+    "y": 3662,
+    "w": 328,
+    "h": 185,
+    "text": "adobestock_332568276_publikationen.jpg",
+    "file": "media_1e6ec4d00feb97443c30777ab3fcc0e219"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#aktienkurs-fraport-ag",
+    "x": 16,
+    "y": 3910,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "aktienkurs fraport ag"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#aktienkurs-fraport-ag > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 3921,
+    "w": 265,
+    "h": 81,
+    "text": "AKTIENKURS FRAPORT AG"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.key-figures-number > div.key-figures-value > p",
+    "x": 94,
+    "y": 4070,
+    "w": 136,
+    "h": 56,
+    "text": "65,60 €"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.key-figures-number > div.key-figures-caption > p",
+    "x": 28,
+    "y": 4126,
+    "w": 304,
+    "h": 24,
+    "text": "XETRA (Fraport AG)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#social-media",
+    "x": 16,
+    "y": 4182,
+    "w": 203,
+    "h": 60,
+    "level": 2,
+    "text": "social media"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#social-media > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 4193,
+    "w": 171,
+    "h": 37,
+    "text": "SOCIAL MEDIA"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#gemeinsam-durchstarten",
+    "x": 16,
+    "y": 5113,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "gemeinsam durchstarten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#gemeinsam-durchstarten > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 5124,
+    "w": 191,
+    "h": 81,
+    "text": "GEMEINSAM DURCHSTARTEN"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 4,
+    "y": 5249,
+    "w": 352,
+    "h": 198,
+    "text": "pascal geber - vice president talent acquisition hub",
+    "file": "media_16a1fdb45ba31f88f4d073bdc1303843ba"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-content > div.audio-player-headline.h6 > h3#ausbildung-bei-fraport-du-fragst-dich-wo-du-beruflich-hingehörst",
+    "x": 20,
+    "y": 5472,
+    "w": 320,
+    "h": 52,
+    "level": 3,
+    "text": "ausbildung bei fraport: du fragst dich, wo du beruflich hingehörst?"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-content > div.audio-player-sub-headline.body > h4#rund-100-neue-auszubildende-und-dual-studierende-haben-ihre-antwort-gefunden-zur-fraport-ag-erfahre-im-podcast-mit-pascal-geber-was-unsere-nachwuchskräfte-am-flughafen-frankfurt-erwartet",
+    "x": 20,
+    "y": 5524,
+    "w": 320,
+    "h": 120,
+    "level": 4,
+    "text": "rund 100 neue auszubildende und dual studierende haben ihre antwort gefunden: zur fraport ag. erfahre im podcast mit pas"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-content > div.audio-player-metainfo > p",
+    "x": 20,
+    "y": 5660,
+    "w": 320,
+    "h": 72,
+    "text": "Thomas Christian Söcker, Media Relations and Brand Management mit Pascal Geber, "
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-body > div.audio-player-player > button.audio-player-play",
+    "x": 20,
+    "y": 5760,
+    "w": 320,
+    "h": 60,
+    "text": "play"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-player > div.audio-player-data > span.audio-player-time",
+    "x": 20,
+    "y": 5844,
+    "w": 32,
+    "h": 24,
+    "text": "0:00"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-player > div.audio-player-data > span.audio-player-duration",
+    "x": 212,
+    "y": 5844,
+    "w": 32,
+    "h": 24,
+    "text": "8:11"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-player > div.audio-player-volume > button.audio-player-volume-btn",
+    "x": 268,
+    "y": 5844,
+    "w": 24,
+    "h": 24,
+    "text": "change volume"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.audio-player-player > p.audio-player-download-row > a.audio-player-download",
+    "x": 316,
+    "y": 5844,
+    "w": 24,
+    "h": 24,
+    "text": "download audio",
+    "href": "/uploadtool/CH/karriere/Audio/Podcast_Ausbildungsstart_LinkedIN_1_.mp3"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h3 > h3#welt-der-möglichkeiten",
+    "x": 16,
+    "y": 5937,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "welt der möglichkeiten"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 6005,
+    "w": 328,
+    "h": 48,
+    "text": "Jetzt die vielfältigen Jobangebote bei Fraport entdecken."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 6093,
+    "w": 328,
+    "h": 52,
+    "text": "jobbörse",
+    "href": "/jobs/search"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.secondary",
+    "x": 16,
+    "y": 6161,
+    "w": 328,
+    "h": 52,
+    "text": "fraport job terminal",
+    "href": "/de/fraport-job-terminal.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#medien--publikationen",
+    "x": 16,
+    "y": 6245,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "medien & publikationen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#medien--publikationen > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 6256,
+    "w": 194,
+    "h": 81,
+    "text": "MEDIEN & PUBLIKATIONEN"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.milestones-headline.h3 > h3#bilddatenbank--wallpapersfra",
+    "x": 32,
+    "y": 6535,
+    "w": 296,
+    "h": 88,
+    "level": 3,
+    "text": "bilddatenbank / wallpapers@fra"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 32,
+    "y": 6647,
+    "w": 296,
+    "h": 167,
+    "text": "wallpaper newsroom",
+    "file": "media_15049ebaaf35833b017e6ad30104cc9174"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones-text > div.rte > h5#in-unserer-bilddatenbank-stellen-wir-ihnen-kostenlos-bildmaterial-zur-verfügung",
+    "x": 32,
+    "y": 6837,
+    "w": 296,
+    "h": 90,
+    "level": 5,
+    "text": "in unserer bilddatenbank stellen wir ihnen kostenlos bildmaterial zur verfügung"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones-text > div.rte > p",
+    "x": 32,
+    "y": 6943,
+    "w": 296,
+    "h": 192,
+    "text": "Unsere Bilddatenbank bietet Ihnen Bildvorlagen in geeigneter Auflösung für Ihre "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones-text > div.rte > p",
+    "x": 32,
+    "y": 7145,
+    "w": 296,
+    "h": 72,
+    "text": "Können Sie kein passendes Bildmaterial finden, dann wenden Sie sich an das ."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 32,
+    "y": 7170,
+    "w": 288,
+    "h": 45,
+    "text": "fraport-fototeam",
+    "href": "fototeam@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.buttons > p.button-wrapper > a.button.primary",
+    "x": 32,
+    "y": 7227,
+    "w": 272,
+    "h": 52,
+    "text": "zur bilddatenbank",
+    "href": "/de/newsroom/bilddatenbank.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones.grey > div.milestones-nav > div.milestones-item.is-active",
+    "x": 136,
+    "y": 6417,
+    "w": 88,
+    "h": 102,
+    "text": "bilder"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones-item.is-active > div.milestones-label.h6 > h4#bilder",
+    "x": 156,
+    "y": 6467,
+    "w": 49,
+    "h": 26,
+    "level": 4,
+    "text": "bilder"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones.grey > div.milestones-nav > div.milestones-item",
+    "x": 299,
+    "y": 6417,
+    "w": 88,
+    "h": 102,
+    "text": "tv & filme"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.milestones-item > div.milestones-label.h6 > h4#tv--filme",
+    "x": 299,
+    "y": 6467,
+    "w": 87,
+    "h": 26,
+    "level": 4,
+    "text": "tv & filme"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#dokuserien-und-reportagen",
+    "x": 16,
+    "y": 7513,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "dokuserien und reportagen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#dokuserien-und-reportagen > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 7524,
+    "w": 217,
+    "h": 81,
+    "text": "DOKUSERIEN UND REPORTAGEN"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.text-media-headline > h3#mittendrin-hr-fernsehen",
+    "x": 16,
+    "y": 7649,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "mittendrin (hr fernsehen)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 7717,
+    "w": 328,
+    "h": 144,
+    "text": "Die Doku-Reihe wirft einen Blick hinter die Kulissen des Flughafen Frankfurts. S"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.embed-text > div.rte > h3#terminal-3-startet--mehr-platz-mehr-flüge-mehr-frankfurt",
+    "x": 16,
+    "y": 8390,
+    "w": 328,
+    "h": 132,
+    "level": 3,
+    "text": "terminal 3 startet – mehr platz, mehr flüge, mehr frankfurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.embed-text > div.rte > p",
+    "x": 16,
+    "y": 8538,
+    "w": 328,
+    "h": 312,
+    "text": "Europas größtes privatfinanziertes Infrastrukturprojekt wurde erfolgreich abgesc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h3 > h3#frankfurt-airport--einsatz-rund-um-die-uhr",
+    "x": 16,
+    "y": 9968,
+    "w": 328,
+    "h": 88,
+    "level": 3,
+    "text": "frankfurt airport – einsatz rund um die uhr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 10080,
+    "w": 328,
+    "h": 216,
+    "text": "Was passiert hinter den Kulissen des größten deutschen Flughafens? Die ZDF-Repor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 10336,
+    "w": 328,
+    "h": 52,
+    "text": "zdf reportage",
+    "href": "/reportagen/frankfurt-airport-einsatz-rund-um-die-uhr-100"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#ansprechpartner",
+    "x": 16,
+    "y": 10468,
+    "w": 269,
+    "h": 60,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#ansprechpartner > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 10479,
+    "w": 237,
+    "h": 37,
+    "text": "ANSPRECHPARTNER"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h6#bei-medien--und-presseanfragen-stehen-wir-ihnen-gerne-zur-verfügung-bitte-wenden-sie-sich-an-ihren-jeweiligen-ansprechpartner",
+    "x": 16,
+    "y": 10568,
+    "w": 328,
+    "h": 104,
+    "level": 6,
+    "text": "bei medien- und presseanfragen stehen wir ihnen gerne zur verfügung. bitte wenden sie sich an ihren jeweiligen ansprechp"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.buttons > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 10688,
+    "w": 304,
+    "h": 52,
+    "text": "pressekontakt",
+    "href": "/de/newsroom/ansprechpartner.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > picture > img",
+    "x": 16,
+    "y": 10796,
+    "w": 328,
+    "h": 185,
+    "text": "",
+    "file": "media_1db6566527b62f6f05dde075a3583e6674"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#noch-mehr-fraport",
+    "x": 16,
+    "y": 11045,
+    "w": 300,
+    "h": 60,
+    "level": 2,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#noch-mehr-fraport > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 11056,
+    "w": 268,
+    "h": 37,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 16,
+    "y": 11129,
+    "w": 328,
+    "h": 72,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 16,
+    "y": 11249,
+    "w": 328,
+    "h": 24,
+    "text": "Standort , Beratung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#aerodrome-manual-fraport-ag",
+    "x": 16,
+    "y": 11281,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "aerodrome manual fraport ag"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#aerodrome-manual-fraport-ag > a",
+    "x": 16,
+    "y": 11282,
+    "w": 254,
+    "h": 24,
+    "text": "aerodrome manual fraport ag",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 11331,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-image > picture > img",
+    "x": 16,
+    "y": 11403,
+    "w": 328,
+    "h": 185,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "media_196f3c7faf7cc1695c155b29362b49e994"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 16,
+    "y": 11611,
+    "w": 328,
+    "h": 48,
+    "text": "Betrieb , Partner , Konzern , Unternehmen , Digitalisierung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory",
+    "x": 16,
+    "y": 11667,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory > a",
+    "x": 16,
+    "y": 11668,
+    "w": 286,
+    "h": 24,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 11717,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 16,
+    "y": 11789,
+    "w": 328,
+    "h": 48,
+    "text": "Konzern , Unsere Flughäfen , International , Beteiligungen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#flughafen-ljubljana",
+    "x": 16,
+    "y": 11845,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "flughafen ljubljana"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#flughafen-ljubljana > a",
+    "x": 16,
+    "y": 11846,
+    "w": 167,
+    "h": 24,
+    "text": "flughafen ljubljana",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 11895,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 16,
+    "y": 11967,
+    "w": 328,
+    "h": 24,
+    "text": "Betrieb , Besucher , Anwohner"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#luftqualität",
+    "x": 16,
+    "y": 11999,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#luftqualität > a",
+    "x": 16,
+    "y": 12000,
+    "w": 101,
+    "h": 24,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 12049,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div > button.button.secondary",
+    "x": 12,
+    "y": 12121,
+    "w": 336,
+    "h": 52,
+    "text": "mehr news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#ansprechpartner",
+    "x": 16,
+    "y": 12261,
+    "w": 126,
+    "h": 24,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 12337,
+    "w": 328,
+    "h": 48,
+    "text": "Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 12395,
+    "w": 328,
+    "h": 24,
+    "text": "60547 Frankfurt am Main"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12429,
+    "w": 180,
+    "h": 24,
+    "text": "anfahrtsbeschreibung",
+    "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 12514,
+    "w": 272,
+    "h": 21,
+    "text": "Fragen, Lob, Kritik und Anregungen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12537,
+    "w": 144,
+    "h": 24,
+    "text": "01806 372-4636",
+    "href": "+4918063724636"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12571,
+    "w": 141,
+    "h": 24,
+    "text": "kontaktformular",
+    "href": "/de/konzern/ueber-uns/kontaktformular-fraport-ag.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > em",
+    "x": 16,
+    "y": 12606,
+    "w": 314,
+    "h": 45,
+    "text": "*20 Cent pro Anruf aus dem deutschen Festnetz, maximal 50 Cent aus dem Mobilfunk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 12714,
+    "w": 199,
+    "h": 21,
+    "text": "Mailadresse für Feedback:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12737,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "feedback@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 12772,
+    "w": 316,
+    "h": 21,
+    "text": "Mailadresse für Passagier-Informationen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12795,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "info@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 12880,
+    "w": 299,
+    "h": 21,
+    "text": "Fluglärm und Maßnahmenprogramme:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12903,
+    "w": 295,
+    "h": 24,
+    "text": "kontaktformulare zum themenbereich",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 12937,
+    "w": 328,
+    "h": 72,
+    "text": "(für Reisende und Beschäftige)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 12961,
+    "w": 224,
+    "h": 24,
+    "text": "kontakt zum medical center",
+    "href": "medizin@fraport.de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#fraport-sites",
+    "x": 16,
+    "y": 12334,
+    "w": 95,
+    "h": 24,
+    "level": 2,
+    "text": "fraport sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12406,
+    "w": 57,
+    "h": 40,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12446,
+    "w": 110,
+    "h": 40,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12486,
+    "w": 73,
+    "h": 40,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12526,
+    "w": 104,
+    "h": 40,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#aktuell",
+    "x": 16,
+    "y": 12407,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12479,
+    "w": 75,
+    "h": 40,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12519,
+    "w": 118,
+    "h": 40,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12559,
+    "w": 138,
+    "h": 40,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#service",
+    "x": 16,
+    "y": 12480,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12552,
+    "w": 89,
+    "h": 40,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12592,
+    "w": 76,
+    "h": 40,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12632,
+    "w": 74,
+    "h": 40,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 12672,
+    "w": 269,
+    "h": 40,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-airport",
+    "x": 16,
+    "y": 12577,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "facebook",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 76,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "instagram",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 136,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "youtube",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 196,
+    "y": 12611,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-cargohub",
+    "x": 16,
+    "y": 12663,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 12697,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-copyright > p",
+    "x": 16,
+    "y": 12769,
+    "w": 326,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 2,
+    "offPage": 32,
+    "textNodes": 156,
+    "controls": 79,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.milestones-nav",
+     "path": "div.milestones-wrapper > div.milestones.grey > div.milestones-nav > div.milestones-item",
+     "text": "tv & filmeaubergine",
+     "cutMin": 27,
+     "cutMax": 27
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "div.milestones-nav",
+     "path": "div.milestones-nav > div.milestones-item > div.milestones-label.h6 > h4#tv--filme",
+     "text": "tv & filme",
+     "cutMin": 27,
+     "cutMax": 27
+    }
+   ],
+   "findings": [
+    {
+     "kind": "CONTROL X-CUT",
+     "advisory": true,
+     "cut": 27,
+     "path": "div.milestones-wrapper > div.milestones.grey > div.milestones-nav > div.milestones-item",
+     "text": "tv & filmeaubergine",
+     "clipper": "div.milestones-nav",
+     "rect": {
+      "l": 299,
+      "t": 6417,
+      "r": 387,
+      "b": 6519,
+      "w": 88,
+      "h": 102
+     },
+     "clip": {
+      "l": 0,
+      "t": 6381,
+      "r": 360,
+      "b": 6535,
+      "w": 360,
+      "h": 154
+     }
+    },
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 27,
+     "path": "div.milestones-nav > div.milestones-item > div.milestones-label.h6 > h4#tv--filme",
+     "text": "tv & filme",
+     "clipper": "div.milestones-nav",
+     "rect": {
+      "l": 299,
+      "t": 6468,
+      "r": 387,
+      "b": 6492,
+      "w": 87,
+      "h": 24
+     },
+     "clip": {
+      "l": 0,
+      "t": 6381,
+      "r": 360,
+      "b": 6535,
+      "w": 360,
+      "h": 154
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "newsroom der fraport ag",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "aktuelles",
+   "variable": false,
+   "origin": {
+    "link": 10,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 10,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "pressemappen",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "aktienkurs fraport ag",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "social media",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "gemeinsam durchstarten",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 3,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "welt der möglichkeiten",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "medien & publikationen",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 9,
+   "heading": "bilddatenbank / wallpapers@fra",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "dokuserien und reportagen",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "mittendrin (hr fernsehen)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "terminal 3 startet – mehr platz, mehr flüge, mehr frankfurt",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "frankfurt airport – einsatz rund um die uhr",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "ansprechpartner",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "noch mehr fraport",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 1,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"fraport-verkehrszahlen im oktober 2026: cargo wächst – passagierzahlen auf vorjahresniveau\" (y 1400) has no origin heading",
+   "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passagierzahlen auf vorjahresniveau"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"diwali-kampagne schafft besondere einkaufserlebnisse\" (y 2052) has no origin heading",
+   "text": "diwali-kampagne schafft besondere einkaufserlebnisse"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"weitere meldungen\" (y 2210) has no origin heading",
+   "text": "weitere meldungen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"frankfurt airport retail\" (y 3090) has no origin heading",
+   "text": "frankfurt airport retail"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"ausbildung bei fraport: du fragst dich, wo du beruflich hingehörst?\" (y 5472) has no origin heading",
+   "text": "ausbildung bei fraport: du fragst dich, wo du beruflich hingehörst?"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"aerodrome manual fraport ag\" (y 11281) has no origin heading",
+   "text": "aerodrome manual fraport ag"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"digitalisierung und digital factory\" (y 11667) has no origin heading",
+   "text": "digitalisierung und digital factory"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"flughafen ljubljana\" (y 11845) has no origin heading",
+   "text": "flughafen ljubljana"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"luftqualität\" (y 11999) has no origin heading",
+   "text": "luftqualität"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"bilder\" served in band \"medien & publikationen\", no origin link or button",
+   "band": 8,
+   "n": 1,
+   "text": "bilder"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"tv & filme\" served in band \"medien & publikationen\", no origin link or button",
+   "band": 8,
+   "n": 1,
+   "text": "tv & filme"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 9,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 2,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 11,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 38,
+    "y": 106,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 281,
+    "w": 95,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 345,
+    "w": 130,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 439,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 442,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 507,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 506,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 567,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 570,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 631,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 634,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 695,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 698,
+    "w": 168,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 759,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 762,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 849,
+    "w": 131,
+    "h": 37
+   },
+   {
+    "x": 48,
+    "y": 1227,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1305,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1329,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1353,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1401,
+    "w": 242,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1431,
+    "w": 279,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1461,
+    "w": 186,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1491,
+    "w": 148,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 1855,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1933,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1957,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1981,
+    "w": 210,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2005,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2053,
+    "w": 236,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 2083,
+    "w": 270,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 2211,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2261,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2261,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2301,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2325,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2382,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2382,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2422,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2446,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2503,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2503,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2543,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2567,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2624,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2624,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2664,
+    "w": 201,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2688,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2745,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2745,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2785,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2809,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2833,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 77,
+    "y": 2904,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 101,
+    "y": 2972,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3091,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 3141,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3165,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3189,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 106,
+    "y": 3267,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3403,
+    "w": 174,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 3461,
+    "w": 323,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 3487,
+    "w": 252,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 3513,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 72,
+    "y": 3569,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3921,
+    "w": 265,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 3965,
+    "w": 33,
+    "h": 37
+   },
+   {
+    "x": 94,
+    "y": 4071,
+    "w": 136,
+    "h": 54
+   },
+   {
+    "x": 112,
+    "y": 4127,
+    "w": 136,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4193,
+    "w": 171,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 5124,
+    "w": 148,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 5168,
+    "w": 191,
+    "h": 37
+   },
+   {
+    "x": 20,
+    "y": 5472,
+    "w": 277,
+    "h": 24
+   },
+   {
+    "x": 20,
+    "y": 5498,
+    "w": 274,
+    "h": 24
+   },
+   {
+    "x": 20,
+    "y": 5524,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5548,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5572,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5596,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5620,
+    "w": 208,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5660,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5684,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5708,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5847,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 220,
+    "y": 5847,
+    "w": 24,
+    "h": 16
+   },
+   {
+    "x": 16,
+    "y": 5939,
+    "w": 277,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6005,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6029,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 135,
+    "y": 6107,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 88,
+    "y": 6175,
+    "w": 162,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6255,
+    "w": 121,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6299,
+    "w": 194,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6537,
+    "w": 195,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6581,
+    "w": 205,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6838,
+    "w": 232,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6868,
+    "w": 241,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6898,
+    "w": 249,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6944,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6968,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6992,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7016,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7040,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7064,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7088,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7112,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7146,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7170,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7194,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 158,
+    "y": 7194,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 7242,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 156,
+    "y": 6467,
+    "w": 49,
+    "h": 24
+   },
+   {
+    "x": 299,
+    "y": 6467,
+    "w": 87,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 7524,
+    "w": 217,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 7568,
+    "w": 158,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 7652,
+    "w": 305,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 7718,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7742,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7766,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7790,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7814,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7838,
+    "w": 93,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8393,
+    "w": 305,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 8437,
+    "w": 285,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 8481,
+    "w": 126,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 8539,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8563,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8587,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8611,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8635,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8659,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8683,
+    "w": 238,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8707,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8731,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8755,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8779,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8803,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8827,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9971,
+    "w": 318,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 10015,
+    "w": 196,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 10081,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10105,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10129,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10153,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10177,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10201,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10225,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10249,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10273,
+    "w": 143,
+    "h": 21
+   },
+   {
+    "x": 111,
+    "y": 10351,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 10479,
+    "w": 237,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 10569,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10595,
+    "w": 297,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10621,
+    "w": 291,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10647,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 103,
+    "y": 10703,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 11055,
+    "w": 268,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 11129,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11153,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11177,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11249,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11281,
+    "w": 254,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11331,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11612,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11636,
+    "w": 103,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11668,
+    "w": 286,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11718,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11790,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11814,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11846,
+    "w": 167,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11896,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11968,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12000,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 12050,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 12136,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12262,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12335,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12408,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12481,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12578,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12664,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12770,
+    "w": 326,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 34,
+    "y": 106,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 281,
+    "w": 95,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 345,
+    "w": 130,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 439,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 442,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 503,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 510,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 567,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 570,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 631,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 634,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 695,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 698,
+    "w": 168,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 759,
+    "w": 23,
+    "h": 27
+   },
+   {
+    "x": 71,
+    "y": 762,
+    "w": 197,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 849,
+    "w": 131,
+    "h": 37
+   },
+   {
+    "x": 48,
+    "y": 1227,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1305,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1329,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1353,
+    "w": 155,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1401,
+    "w": 242,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1431,
+    "w": 279,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1461,
+    "w": 186,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1491,
+    "w": 148,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 1855,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1933,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1957,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1981,
+    "w": 210,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2005,
+    "w": 87,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2053,
+    "w": 236,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 2083,
+    "w": 270,
+    "h": 27
+   },
+   {
+    "x": 40,
+    "y": 2211,
+    "w": 162,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2261,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2261,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2301,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2325,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2382,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2382,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2422,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2446,
+    "w": 58,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2503,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2503,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2543,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2567,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2624,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2624,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2664,
+    "w": 201,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2688,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2745,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 151,
+    "y": 2745,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2785,
+    "w": 277,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2809,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 2833,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 77,
+    "y": 2904,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 101,
+    "y": 2972,
+    "w": 137,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3091,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 3141,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3165,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3189,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 106,
+    "y": 3267,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3403,
+    "w": 174,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 3461,
+    "w": 323,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 3487,
+    "w": 252,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 3513,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 72,
+    "y": 3569,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3921,
+    "w": 265,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 3965,
+    "w": 33,
+    "h": 37
+   },
+   {
+    "x": 94,
+    "y": 4071,
+    "w": 136,
+    "h": 54
+   },
+   {
+    "x": 112,
+    "y": 4127,
+    "w": 136,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4193,
+    "w": 171,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 5124,
+    "w": 148,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 5168,
+    "w": 191,
+    "h": 37
+   },
+   {
+    "x": 20,
+    "y": 5473,
+    "w": 277,
+    "h": 24
+   },
+   {
+    "x": 20,
+    "y": 5499,
+    "w": 274,
+    "h": 24
+   },
+   {
+    "x": 20,
+    "y": 5525,
+    "w": 283,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5549,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5573,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5597,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5621,
+    "w": 208,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5661,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5685,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5709,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 20,
+    "y": 5845,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 212,
+    "y": 5845,
+    "w": 32,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5940,
+    "w": 277,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6006,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6030,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 135,
+    "y": 6108,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 88,
+    "y": 6176,
+    "w": 162,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6256,
+    "w": 121,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6300,
+    "w": 194,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6538,
+    "w": 195,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6582,
+    "w": 205,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6838,
+    "w": 232,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6868,
+    "w": 241,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6898,
+    "w": 249,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6944,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6968,
+    "w": 285,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6992,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7016,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7040,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7064,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7088,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7112,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7146,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7170,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7194,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 158,
+    "y": 7194,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 84,
+    "y": 7242,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 156,
+    "y": 6468,
+    "w": 49,
+    "h": 24
+   },
+   {
+    "x": 299,
+    "y": 6468,
+    "w": 87,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 7524,
+    "w": 217,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 7568,
+    "w": 158,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 7652,
+    "w": 305,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 7718,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7742,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7766,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7790,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7814,
+    "w": 232,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7838,
+    "w": 93,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8393,
+    "w": 305,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 8437,
+    "w": 285,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 8481,
+    "w": 112,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 8539,
+    "w": 242,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8563,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8587,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8611,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8635,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8659,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8683,
+    "w": 238,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8707,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8731,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8755,
+    "w": 305,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8779,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8803,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8827,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9971,
+    "w": 318,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 10015,
+    "w": 196,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 10081,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10105,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10129,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10153,
+    "w": 244,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10177,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10201,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10225,
+    "w": 311,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10249,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10273,
+    "w": 143,
+    "h": 21
+   },
+   {
+    "x": 111,
+    "y": 10351,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 10479,
+    "w": 237,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 10569,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10595,
+    "w": 297,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10621,
+    "w": 291,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10647,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 103,
+    "y": 10703,
+    "w": 109,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 11056,
+    "w": 268,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 11130,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11154,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11178,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11250,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11282,
+    "w": 254,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11332,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11612,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11636,
+    "w": 103,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11668,
+    "w": 286,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11718,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11790,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11814,
+    "w": 98,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11846,
+    "w": 167,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11896,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11968,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12000,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 12050,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 12136,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12262,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12338,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12362,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12396,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12430,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12514,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12538,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 160,
+    "y": 12538,
+    "w": 8,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12572,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12606,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12630,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12714,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12738,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12772,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12796,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12880,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12904,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12938,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 12962,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 12962,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12986,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12335,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12423,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12463,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12503,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12543,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12408,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12496,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12536,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12576,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12481,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12569,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12609,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12649,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12689,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12578,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12664,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 12770,
+    "w": 326,
+    "h": 16
+   }
+  ]
+ }
+}

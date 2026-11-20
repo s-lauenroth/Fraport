@@ -1,0 +1,10 @@
+/* columns (AEM responsive grid, 2 x 6 cols): each column stacks components (image figure, rich text + buttons),
+   every component carrying the component margin. */
+.columns .row { align-items: flex-start; }
+.columns__col > * { margin-bottom: var(--component-margin); }
+.columns__figure { position: relative; margin: 0 0 var(--component-margin); }
+.columns__figure img { display: block; width: 100%; height: auto; }
+.columns__figure a { display: block; overflow: hidden; position: relative; }
+@media (min-width: 720px) {
+  .columns--halves .row > .columns__col { flex-basis: calc(50% - var(--gutter)); max-width: calc(50% - var(--gutter)); }
+}

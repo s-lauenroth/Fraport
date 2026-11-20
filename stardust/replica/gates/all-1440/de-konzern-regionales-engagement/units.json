@@ -1,0 +1,1496 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:25:57.996Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/konzern/regionales-engagement.html",
+  "at": "2026-11-19T21:32:12.086Z",
+  "docH": 3220
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement",
+  "at": "2026-11-19T23:25:57.871Z",
+  "docH": 3204
+ },
+ "results": [
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 16,
+   "edsMatches": 16,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:aerodrome manual fraport ag",
+       "role": "heading",
+       "text": "aerodrome manual fraport ag",
+       "edsText": "aerodrome manual fraport ag",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 395,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 395,
+        "h": 30,
+        "sel": "h3#aerodrome-manual-fraport-ag",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:aerodrome manual fraport ag",
+       "role": "link",
+       "text": "aerodrome manual fraport ag",
+       "edsText": "aerodrome manual fraport ag",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 283,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 283,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 169,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 169,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 173,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 173,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 395,
+       "h": 24,
+       "absY": 2007,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 64,
+       "y": 1959,
+       "w": 395,
+       "h": 257
+      },
+      "eds": {
+       "x": 64,
+       "y": 1943,
+       "w": 395,
+       "h": 257
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:rollverkehr united airlines",
+       "role": "image",
+       "text": "rollverkehr united airlines",
+       "edsText": "rollverkehr united airlines",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 222
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 221,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:luftqualität",
+       "role": "heading",
+       "text": "luftqualität",
+       "edsText": "luftqualität",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 349,
+        "w": 394,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 349,
+        "w": 394,
+        "h": 30,
+        "sel": "h3#luftqualität",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:luftqualität",
+       "role": "link",
+       "text": "luftqualität",
+       "edsText": "luftqualität",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 350,
+        "w": 112,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 350,
+        "w": 112,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fraport überwacht die luftqualität am fl",
+       "role": "text",
+       "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+       "edsText": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 395,
+        "w": 394,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 395,
+        "w": 394,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 502,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 502,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 506,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 506,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 221,
+       "absY": 2007,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 309,
+       "w": 394,
+       "h": 24,
+       "absY": 2252,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 524,
+       "y": 1959,
+       "w": 394,
+       "h": 590
+      },
+      "eds": {
+       "x": 524,
+       "y": 1943,
+       "w": 394,
+       "h": 590
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:rechnung für sponsoring und spenden an f",
+       "role": "heading",
+       "text": "rechnung für sponsoring und spenden an fraport richtigstelle",
+       "edsText": "rechnung für sponsoring und spenden an fraport richtigstelle",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 60
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 60,
+        "sel": "h3#rechnung-für-sponsoring-und-spenden-an-fraport-richtigstellen",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:rechnung für sponsoring und spenden an f",
+       "role": "link",
+       "text": "rechnung für sponsoring und spenden an fraport richtigstelle",
+       "edsText": "rechnung für sponsoring und spenden an fraport richtigstelle",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 385,
+        "h": 57
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 385,
+        "h": 57,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:sie haben eine sponsoring- oder spendenz",
+       "role": "text",
+       "text": "sie haben eine sponsoring- oder spendenzusage von fraport er",
+       "edsText": "sie haben eine sponsoring- oder spendenzusage von fraport er",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 394,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 180,
+        "w": 394,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 263,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 263,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 267,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 267,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 24,
+       "absY": 2007,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 982,
+       "y": 1959,
+       "w": 394,
+       "h": 351
+      },
+      "eds": {
+       "x": 982,
+       "y": 1943,
+       "w": 394,
+       "h": 351
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:sicher unterwegs auf vorfeld und rollfel",
+       "role": "heading",
+       "text": "sicher unterwegs auf vorfeld und rollfeld",
+       "edsText": "sicher unterwegs auf vorfeld und rollfeld",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 30,
+        "sel": "h3#sicher-unterwegs-auf-vorfeld-und-rollfeld",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:sicher unterwegs auf vorfeld und rollfel",
+       "role": "link",
+       "text": "sicher unterwegs auf vorfeld und rollfeld",
+       "edsText": "sicher unterwegs auf vorfeld und rollfeld",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 381,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 381,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:ob vorfeld-, rollfeld- oder gabelstapler",
+       "role": "text",
+       "text": "ob vorfeld-, rollfeld- oder gabelstaplerführerschein: frapor",
+       "edsText": "ob vorfeld-, rollfeld- oder gabelstaplerführerschein: frapor",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 150,
+        "w": 394,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 150,
+        "w": 394,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 233,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 233,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 237,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 237,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 24,
+       "absY": 2358,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 982,
+       "y": 2310,
+       "w": 394,
+       "h": 321
+      },
+      "eds": {
+       "x": 982,
+       "y": 2294,
+       "w": 394,
+       "h": 321
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-b58a2d6469 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:bildung und soziales: kitas und schulen ",
+       "role": "text",
+       "text": "bildung und soziales: kitas und schulen fördern",
+       "edsText": "bildung und soziales: kitas und schulen fördern",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 375,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 375,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:fraport hat in den vergangenen jahren me",
+       "role": "text",
+       "text": "fraport hat in den vergangenen jahren mehr als 130 projekte ",
+       "edsText": "fraport hat in den vergangenen jahren mehr als 130 projekte ",
+       "byPosition": false,
+       "origin": {
+        "x": 82,
+        "y": 80,
+        "w": 978,
+        "h": 48
+       },
+       "eds": {
+        "x": 82,
+        "y": 80,
+        "w": 978,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:zukünftig engagieren wir uns verstärkt i",
+       "role": "text",
+       "text": "zukünftig engagieren wir uns verstärkt im bereich der umwelt",
+       "edsText": "zukünftig engagieren wir uns verstärkt im bereich der umwelt",
+       "byPosition": false,
+       "origin": {
+        "x": 82,
+        "y": 138,
+        "w": 978,
+        "h": 48
+       },
+       "eds": {
+        "x": 82,
+        "y": 138,
+        "w": 978,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:hier erfahren sie mehr über unser engage",
+       "role": "text",
+       "text": "hier erfahren sie mehr über unser engagement im bereich und ",
+       "edsText": "hier erfahren sie mehr über unser engagement im bereich und ",
+       "byPosition": false,
+       "origin": {
+        "x": 82,
+        "y": 196,
+        "w": 978,
+        "h": 24
+       },
+       "eds": {
+        "x": 82,
+        "y": 196,
+        "w": 978,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 492,
+        "y": 196,
+        "w": 16,
+        "h": 24
+       },
+       "eds": {
+        "x": 492,
+        "y": 196,
+        "w": 16,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:bildung und soziales",
+       "role": "link",
+       "text": "bildung und soziales",
+       "edsText": "bildung und soziales",
+       "byPosition": false,
+       "origin": {
+        "x": 492,
+        "y": 197,
+        "w": 171,
+        "h": 21
+       },
+       "eds": {
+        "x": 492,
+        "y": 197,
+        "w": 171,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1220,
+       "w": 1141,
+       "h": 295
+      },
+      "eds": {
+       "x": 149,
+       "y": 1204,
+       "w": 1141,
+       "h": 295
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 7,
+      "within": 7,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-accordion#accordion-b58a2d6469 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:kultur: lebenswerte region gestalten",
+       "role": "text",
+       "text": "kultur: lebenswerte region gestalten",
+       "edsText": "kultur: lebenswerte region gestalten",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 289,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 289,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1515,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 1499,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-accordion#accordion-b58a2d6469 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:natur- und umweltschutz: biodiversität e",
+       "role": "text",
+       "text": "natur- und umweltschutz: biodiversität erhalten und klima sc",
+       "edsText": "natur- und umweltschutz: biodiversität erhalten und klima sc",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 538,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 538,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1588,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 1572,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "frach-m-accordion#accordion-b58a2d6469 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:flughafen-rundfahrt",
+       "role": "text",
+       "text": "flughafen-rundfahrt",
+       "edsText": "flughafen-rundfahrt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 166,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 166,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1661,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 1645,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -16,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 33,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

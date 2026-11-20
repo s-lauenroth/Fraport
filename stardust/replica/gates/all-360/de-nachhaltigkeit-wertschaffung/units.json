@@ -1,0 +1,1210 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:30:44.140Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html",
+  "at": "2026-11-19T21:31:06.947Z",
+  "docH": 5865
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung",
+  "at": "2026-11-19T23:30:44.019Z",
+  "docH": 5865
+ },
+ "results": [
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 16,
+   "edsMatches": 16,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:aerodrome manual fraport ag",
+       "role": "heading",
+       "text": "aerodrome manual fraport ag",
+       "edsText": "aerodrome manual fraport ag",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#aerodrome-manual-fraport-ag",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:aerodrome manual fraport ag",
+       "role": "link",
+       "text": "aerodrome manual fraport ag",
+       "edsText": "aerodrome manual fraport ag",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 254,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 254,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 24,
+       "absY": 4343,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4319,
+       "w": 328,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 4319,
+       "w": 328,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:globe with economic growth lines, abstra",
+       "role": "image",
+       "text": "globe with economic growth lines, abstract background",
+       "edsText": "globe with economic growth lines, abstract background",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:digitalisierung und digital factory",
+       "role": "heading",
+       "text": "digitalisierung und digital factory",
+       "edsText": "digitalisierung und digital factory",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#digitalisierung-und-digital-factory",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:digitalisierung und digital factory",
+       "role": "link",
+       "text": "digitalisierung und digital factory",
+       "edsText": "digitalisierung und digital factory",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 286,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 286,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 185,
+       "absY": 4497,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 233,
+       "w": 328,
+       "h": 24,
+       "absY": 4705,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4473,
+       "w": 328,
+       "h": 363
+      },
+      "eds": {
+       "x": 16,
+       "y": 4473,
+       "w": 328,
+       "h": 363
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:flughafen ljubljana",
+       "role": "heading",
+       "text": "flughafen ljubljana",
+       "edsText": "flughafen ljubljana",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#flughafen-ljubljana",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:flughafen ljubljana",
+       "role": "link",
+       "text": "flughafen ljubljana",
+       "edsText": "flughafen ljubljana",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 167,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 167,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 24,
+       "absY": 4859,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 4835,
+       "w": 328,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 4835,
+       "w": 328,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "main .frach-m-card=.cards .cards-card",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6 > section.frach-h-component-margin > div.frach-m-card"
+     },
+     "eds": {
+      "path": "div.row > div.cards-col > div.cards-card"
+     },
+     "rows": [
+      {
+       "key": "link:konzern konzernstrategie",
+       "role": "link",
+       "text": "konzern konzernstrategie",
+       "edsText": "konzern konzernstrategie",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 490,
+        "sel": "a.cards-card-link.is-animating",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:rising sun behind the planet. created wi",
+       "role": "image",
+       "text": "rising sun behind the planet. created with generative ai tec",
+       "edsText": "rising sun behind the planet. created with generative ai tec",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:konzern",
+       "role": "text",
+       "text": "konzern",
+       "edsText": "konzern",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 382,
+        "w": 57,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 382,
+        "w": 57,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:konzernstrategie",
+       "role": "heading",
+       "text": "konzernstrategie",
+       "edsText": "konzernstrategie",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 430,
+        "w": 296,
+        "h": 30
+       },
+       "eds": {
+        "x": 16,
+        "y": 430,
+        "w": 296,
+        "h": 30,
+        "sel": "h2#konzernstrategie",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 328,
+       "h": 328,
+       "absY": 943,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 943,
+       "w": 328,
+       "h": 490
+      },
+      "eds": {
+       "x": 16,
+       "y": 943,
+       "w": 328,
+       "h": 490
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6 > section.frach-h-component-margin > div.frach-m-card"
+     },
+     "eds": {
+      "path": "div.row > div.cards-col > div.cards-card"
+     },
+     "rows": [
+      {
+       "key": "link:verantwortung stakeholder-dialog",
+       "role": "link",
+       "text": "verantwortung stakeholder-dialog",
+       "edsText": "verantwortung stakeholder-dialog",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 490,
+        "sel": "a.cards-card-link.is-animating",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:rollverkehr",
+       "role": "image",
+       "text": "rollverkehr",
+       "edsText": "rollverkehr",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:verantwortung",
+       "role": "text",
+       "text": "verantwortung",
+       "edsText": "verantwortung",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 382,
+        "w": 107,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 382,
+        "w": 107,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:stakeholder-dialog",
+       "role": "heading",
+       "text": "stakeholder-dialog",
+       "edsText": "stakeholder-dialog",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 430,
+        "w": 296,
+        "h": 30
+       },
+       "eds": {
+        "x": 16,
+        "y": 430,
+        "w": 296,
+        "h": 30,
+        "sel": "h2#stakeholder-dialog",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 328,
+       "h": 328,
+       "absY": 1465,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1465,
+       "w": 328,
+       "h": 490
+      },
+      "eds": {
+       "x": 16,
+       "y": 1465,
+       "w": 328,
+       "h": 490
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6 > section.frach-h-component-margin > div.frach-m-card"
+     },
+     "eds": {
+      "path": "div.row > div.cards-col > div.cards-card"
+     },
+     "rows": [
+      {
+       "key": "link:verantwortung selbstverpflichtungen",
+       "role": "link",
+       "text": "verantwortung selbstverpflichtungen",
+       "edsText": "verantwortung selbstverpflichtungen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 490
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 490,
+        "sel": "a.cards-card-link.is-animating",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:rollwegmarkierung",
+       "role": "image",
+       "text": "rollwegmarkierung",
+       "edsText": "rollwegmarkierung",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 328,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:verantwortung",
+       "role": "text",
+       "text": "verantwortung",
+       "edsText": "verantwortung",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 382,
+        "w": 107,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 382,
+        "w": 107,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:selbstverpflichtungen",
+       "role": "heading",
+       "text": "selbstverpflichtungen",
+       "edsText": "selbstverpflichtungen",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 430,
+        "w": 296,
+        "h": 30
+       },
+       "eds": {
+        "x": 16,
+        "y": 430,
+        "w": 296,
+        "h": 30,
+        "sel": "h2#selbstverpflichtungen",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 0,
+       "w": 328,
+       "h": 328,
+       "absY": 1987,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1987,
+       "w": 328,
+       "h": 490
+      },
+      "eds": {
+       "x": 16,
+       "y": 1987,
+       "w": 328,
+       "h": 490
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 6,
+  "within": 25,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

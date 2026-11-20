@@ -1,0 +1,448 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:18:35.830Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/investoren/fraport-aktie.html",
+  "at": "2026-11-19T21:32:13.590Z",
+  "docH": 3269
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie",
+  "at": "2026-11-19T23:18:35.651Z",
+  "docH": 3262
+ },
+ "results": [
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-87a984c8ef > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:basisdaten & aktionärsstruktur",
+       "role": "text",
+       "text": "basisdaten & aktionärsstruktur",
+       "edsText": "basisdaten & aktionärsstruktur",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 242,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 242,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 2412,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 2405,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-accordion#accordion-87a984c8ef > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:kennzahlen",
+       "role": "text",
+       "text": "kennzahlen",
+       "edsText": "kennzahlen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 91,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 91,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 2485,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 2478,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-accordion#accordion-87a984c8ef > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:dividende",
+       "role": "text",
+       "text": "dividende",
+       "edsText": "dividende",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 79,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 79,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 2558,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 2551,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "frach-m-accordion#accordion-87a984c8ef > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:aktienprogramm",
+       "role": "text",
+       "text": "aktienprogramm",
+       "edsText": "aktienprogramm",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 133,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 133,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 2631,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 2624,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -7,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 4,
+  "within": 8,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

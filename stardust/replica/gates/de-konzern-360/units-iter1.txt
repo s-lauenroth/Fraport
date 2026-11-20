@@ -1,0 +1,122 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 14602 ms
+unit-geometry @ 360px, tol 4px — https://www.fraport.com/de/konzern.html vs http://localhost:8791/de-konzern-proposed.html
+unit 1 of quicklink-teaser (required) frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser: origin 16,357 328×106 vs served 16,357 328×106 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "über uns" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "vorstand und management" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "vorstand und management" | 0,57 228×24 | 0,57 228×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of quicklink-teaser (required) frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser: origin 16,463 328×106 vs served 16,463 328×106 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "konzernstrategie" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "connecting the world with tomorrow" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "connecting the world with tomorrow" | 0,57 305×24 | 0,57 305×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of quicklink-teaser (required) frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser: origin 16,569 328×106 vs served 16,569 328×106 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 3 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "internationale flughäfen und beteili" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "fraport weltweit" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "fraport weltweit" | 0,57 137×24 | 0,57 137×24 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,4697 328×363 vs served 16,5521 328×363 → Δx 0 Δy +824 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "globe with economic growth lines, ab" | 0,24 329×185 | 0,24 328×185 | 0 | 0 | -1 | 0 | ✓ |
+| heading "digitalisierung und digital factory" | 0,265 328×26 | 0,265 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "digitalisierung und digital factory" | 0,266 286×24 | 0,266 286×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,315 65×24 | 0,315 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,319 16×16 | — | | | | | ✗ missing |
+unit 2 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,5060 328×363 vs served 16,5884 328×363 → Δx 0 Δy +824 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "hero.png" | 0,24 329×185 | 0,24 328×185 | 0 | 0 | -1 | 0 | ✓ |
+| heading "flughafen ljubljana" | 0,265 328×26 | 0,265 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "flughafen ljubljana" | 0,266 167×24 | 0,266 167×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,315 65×24 | 0,315 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,319 16×16 | — | | | | | ✗ missing |
+unit 3 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,5422 328×154 vs served 16,6246 328×154 → Δx 0 Δy +824 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "fraport passenger services gmbh" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "fraport passenger services gmbh" | 0,57 276×24 | 0,57 276×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 4 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,5576 328×154 vs served 16,6400 328×154 → Δx 0 Δy +824 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "publikationen & termine" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "publikationen & termine" | 0,57 202×24 | 0,57 202×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 1 of image-card (required) main .frach-m-card=.cards .card: origin 16,783 328×490 vs served 16,783 328×490 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 3 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "unternehmen über uns" | 0,0 328×490 | 0,0 328×490 | 0 | 0 | 0 | 0 | ✓ |
+| image "unternehmenszentrale" | 0,0 328×328 | 0,0 328×328 | 0 | 0 | 0 | 0 | ✓ |
+| text "unternehmen" | 16,382 96×24 | 0,328 328×102 | -16 | -54 | +232 | +78 | ✗ |
+| heading "über uns" | 16,430 296×30 | 16,430 296×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of image-card (required) main .frach-m-card=.cards .card: origin 16,1305 328×490 vs served 16,1305 328×490 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 3 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "nachhaltigkeit unternehmensführung" | 0,0 328×490 | 0,0 328×490 | 0 | 0 | 0 | 0 | ✓ |
+| image "unternehmenszentrale" | 0,0 328×328 | 0,0 328×328 | 0 | 0 | 0 | 0 | ✓ |
+| text "nachhaltigkeit" | 16,382 104×24 | 0,328 328×102 | -16 | -54 | +224 | +78 | ✗ |
+| heading "unternehmensführung" | 16,430 296×30 | 16,430 296×30 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of link-box-link (required) .frach-m-link-box .frach-m-link-list__item=.link-box__item: origin 40,1927 280×24 vs served 40,1927 280×24 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "betrieb" | 0,0 75×24 | 0,0 75×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,4 16×16 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,0 16×24 | | | | | 🟡 extra |
+unit 2 of link-box-link (required) .frach-m-link-box .frach-m-link-list__item=.link-box__item: origin 40,1967 280×24 vs served 40,1967 280×24 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "international activities" | 0,0 183×24 | 0,0 183×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,4 16×16 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,0 16×24 | | | | | 🟡 extra |
+unit 3 of link-box-link (required) .frach-m-link-box .frach-m-link-list__item=.link-box__item: origin 40,2007 280×24 vs served 40,2007 280×24 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "service" | 0,0 73×24 | 0,0 73×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,4 16×16 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,0 16×24 | | | | | 🟡 extra |
+unit 4 of link-box-link (required) .frach-m-link-box .frach-m-link-list__item=.link-box__item: origin 40,2047 280×24 vs served 40,2047 280×24 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "bau" | 0,0 52×24 | 0,0 52×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 0,4 16×16 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-arrow-right#1" | — | 0,0 16×24 | | | | | 🟡 extra |
+unit 1 of gallery-tile (required) .frach-m-image-gallery-tiles__image.frach-state-loaded=.image-gallery-tiles__item.is-loaded: origin 16,3623 328×185 vs served 16,3645 328×185 → Δx 0 Δy +22 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link.frach-js-" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| image "1972- neues terminal und tiefbahnhof" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.frach-m-image__icon-overlay." ≈ "" (by position) | 288,145 40×40 | 288,145 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,153 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-zoom-in#1" | — | 296,153 24×24 | | | | | 🟡 extra |
+unit 2 of gallery-tile (required) .frach-m-image-gallery-tiles__image.frach-state-loaded=.image-gallery-tiles__item.is-loaded: origin 16,3824 328×185 vs served 16,3846 328×185 → Δx 0 Δy +22 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link.frach-js-" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| image "2002-beginn ausbau frankfurt flughaf" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.frach-m-image__icon-overlay." ≈ "" (by position) | 288,145 40×40 | 288,145 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,153 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-zoom-in#1" | — | 296,153 24×24 | | | | | 🟡 extra |
+unit 3 of gallery-tile (required) .frach-m-image-gallery-tiles__image.frach-state-loaded=.image-gallery-tiles__item.is-loaded: origin 16,4024 328×185 vs served 16,4046 328×185 → Δx 0 Δy +22 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link.frach-js-" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| image "abgestellte maschine vor dem alten e" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.frach-m-image__icon-overlay." ≈ "" (by position) | 288,145 40×40 | 288,145 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,153 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-zoom-in#1" | — | 296,153 24×24 | | | | | 🟡 extra |
+unit 4 of gallery-tile (required) .frach-m-image-gallery-tiles__image.frach-state-loaded=.image-gallery-tiles__item.is-loaded: origin 16,4225 328×185 vs served 16,4247 328×185 → Δx 0 Δy +22 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "link:a.frach-m-image__link.frach-js-" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| image "super constellation der dhl bei abfe" | 0,0 328×185 | 0,0 328×185 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.frach-m-image__icon-overlay." ≈ "" (by position) | 288,145 40×40 | 288,145 40×40 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,153 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-zoom-in#1" | — | 296,153 24×24 | | | | | 🟡 extra |
+Units: 17 compared; elements within 45, off 2, hidden 0, missing 12 → FAIL
+json → stardust/replica/gates/de-konzern-360/units-iter1.json

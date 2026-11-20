@@ -1,0 +1,244 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:28:08.350Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+  "at": "2026-11-19T22:39:31.893Z",
+  "docH": 2259
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra",
+  "at": "2026-11-19T23:28:08.223Z",
+  "docH": 2259
+ },
+ "results": [
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 2,
+   "edsMatches": 2,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-8238b30fdc > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:teilnahmebedingungen",
+       "role": "text",
+       "text": "teilnahmebedingungen",
+       "edsText": "teilnahmebedingungen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 185,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 185,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1548,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 1548,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-accordion#accordion-8238b30fdc > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:datenschutz",
+       "role": "text",
+       "text": "datenschutz",
+       "edsText": "datenschutz",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 98,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 98,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1621,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 1621,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 2,
+  "within": 4,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,1053 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-19T17:50:15.424Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+      "http://localhost:8791/de-newsroom-pressemitteilung-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+    "http://localhost:8791/de-newsroom-pressemitteilung-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 212,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-page > frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed > frach-m-page-header.frach-m-page-header > div.frach-grid",
+        "tier": 6,
+        "share": 0,
+        "section": -1,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn > div > div.frach-grid",
+        "tier": 5,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#searchResults-c3d8abe0eb-results > div > frach-m-tab-navigation.frach-m-tab-navigation > ul.frach-m-tab-navigation__tabs.frach-state-animating",
+        "tier": 7,
+        "share": 0,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-m-search-results__tags",
+        "tier": 6,
+        "share": 0.53,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#searchResults-c3d8abe0eb-results > div.frach-grid",
+        "tier": 5,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#searchResults-c3d8abe0eb-results > div",
+        "tier": 5,
+        "share": 0.4,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 869,
+        "via": "fixed",
+        "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+        "tier": 7,
+        "share": 0.02,
+        "section": 0,
+        "w1": 869,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 491,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 491,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 392,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 392,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 470,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 470,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 841,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 841,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 560,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 560,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 957,
+        "via": "fixed",
+        "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+        "tier": 7,
+        "share": 0.02,
+        "section": 0,
+        "w1": 957,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 925,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 925,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 861,
+        "via": "fixed",
+        "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+        "tier": 7,
+        "share": 0.02,
+        "section": 0,
+        "w1": 861,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 825,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 825,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 793,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 793,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 860,
+        "via": "fixed",
+        "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+        "tier": 7,
+        "share": 0.02,
+        "section": 0,
+        "w1": 860,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 772,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 772,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 496,
+        "via": "fixed",
+        "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+        "tier": 7,
+        "share": 0.02,
+        "section": 0,
+        "w1": 496,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 476,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 476,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 870,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 870,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 979,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 979,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 594,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 594,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 565,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 828,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 828,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 743,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 743,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 766,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 766,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 723,
+        "via": "fixed",
+        "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+        "tier": 9,
+        "share": 0,
+        "section": 0,
+        "w1": 723,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#searchResults-c3d8abe0eb-results > div.frach-grid",
+        "tier": 5,
+        "share": 0,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.aem-Grid.aem-Grid--12 > div.frach-h-component-margin.frach-js-refresh-root > div.frach-m-cta > div.frach-grid",
+        "tier": 7,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+        "px": 1648,
+        "capSelector": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn > div > div.frach-grid"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+        "px": 1648,
+        "capSelector": "div.aem-Grid.aem-Grid--12 > div.frach-h-component-margin.frach-js-refresh-root > div.frach-m-cta > div.frach-grid"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1648,
+    "contentFrom": "module",
+    "maxCap": 1648,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 267
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 211,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.news-list-wrapper > div.news-list > div.news-list__search > div.container",
+        "tier": 5,
+        "share": 0,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.news-list-wrapper > div.news-list > div.news-list__types > ul.news-list__tabs.news-list__rail",
+        "tier": 5,
+        "share": 0,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.news-list-wrapper > div.news-list > div.news-list__filter > div.news-list__tags.news-list__rail",
+        "tier": 5,
+        "share": 0.54,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.news-list-container > div.news-list-wrapper > div.news-list > div.container",
+        "tier": 4,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.news-list-container > div.news-list-wrapper > div.news-list > ul.news-list__items.news-list__rail",
+        "tier": 4,
+        "share": 0.4,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 869,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__body",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 869,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 491,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 491,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 392,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 392,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 391,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 391,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 470,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 470,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 841,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 841,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 560,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 560,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 957,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__body",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 957,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 925,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 925,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 861,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__body",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 861,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 825,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 825,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 793,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 793,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 860,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__body",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 860,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 772,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 772,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 496,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__body",
+        "tier": 6,
+        "share": 0.02,
+        "section": 0,
+        "w1": 496,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 476,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 476,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 870,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 870,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 979,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 979,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 594,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 594,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 565,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 565,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 828,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 828,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 743,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 743,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 766,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 766,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 723,
+        "via": "fixed",
+        "selector": "li.news-list__item > div.news-list__body > h2.h6 > a",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 723,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 240,
+        "via": "fixed",
+        "selector": "div.news-list > ul.news-list__items.news-list__rail > li.news-list__item > div.news-list__image",
+        "tier": 6,
+        "share": 0,
+        "section": 0,
+        "w1": 240,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.news-list-container > div.news-list-wrapper > div.news-list > div.container",
+        "tier": 4,
+        "share": 0,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.cta-container > div.cta-wrapper > div.cta > div.container",
+        "tier": 4,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.section.news-list-container",
+        "px": 1648,
+        "capSelector": "div.news-list-wrapper > div.news-list > div.news-list__search > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.section.sticky-patch-container",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.section.cta-container",
+        "px": 1648,
+        "capSelector": "div.section.cta-container > div.cta-wrapper > div.cta > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1648,
+    "contentFrom": "module",
+    "maxCap": 1648,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 265
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1648px = build 1648px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/de-newsroom-pressemitteilung-2560/cap-iter.json"
+}

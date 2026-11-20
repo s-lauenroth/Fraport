@@ -1,0 +1,115 @@
+/* figure (frach-m-image): figure with optional link (hover zoom), caption, and the media-gallery
+   opener badge (icon + count) */
+.figure {
+  position: relative;
+  margin: 0;
+}
+
+.figure .figure-frame {
+  overflow: hidden;
+}
+
+.figure p {
+  margin: 0;
+}
+
+.figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.figure .figure-link {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.figure .figure-link:focus-visible {
+  outline: 0;
+  box-shadow: 0 6px 0 0 var(--white), 0 8px 0 0 var(--primary-500);
+}
+
+.figure.hover-fx img {
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s;
+}
+
+.figure.hover-fx .figure-link:hover img {
+  transform: scale(1.2);
+}
+
+.figure .figure-caption {
+  margin-top: 8px;
+  color: var(--grey-700);
+}
+
+.figure .figure-overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px 0 0;
+  color: var(--white);
+  background: color-mix(in srgb, var(--primary-800) 50%, transparent);
+}
+
+.figure .figure-overlay-files .icon {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-color: currentcolor;
+  mask: url("/icons/files.svg") center / contain no-repeat;
+}
+
+.figure .figure-overlay-files .figure-overlay-label {
+  position: relative;
+  margin-top: 6px;
+}
+
+.figure.gallery .figure-link {
+  min-height: 40px;
+}
+
+/* adopted as the media of a text-media block: no component margin of its own */
+.text-media .text-media-media > .figure-wrapper {
+  margin: 0;
+}
+
+/* variant zoom: lightbox-opener badge (frach-m-image__icon-overlay--zoom) */
+.figure .figure-overlay-zoom .icon {
+  width: 24px;
+  height: 24px;
+  background-color: currentcolor;
+  mask: url("/icons/zoom-in.svg") center / contain no-repeat;
+}
+
+/* variant aside (content-page ueber-uns): padded white band, figure 8 cols + link-box 4 cols */
+.figure.aside {
+  padding-top: var(--component-padding);
+}
+
+.figure.aside .figure-col-aside > .link-box-wrapper {
+  margin: var(--component-margin) 0 0;
+}
+
+@media (width >= 960px) {
+  .figure.aside .row > .figure-col {
+    flex-basis: calc(66.6667% - var(--gutter));
+    max-width: calc(66.6667% - var(--gutter));
+  }
+
+  .figure.aside .row > .figure-col-aside {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+
+  .figure.aside .figure-col-aside > .link-box-wrapper {
+    margin-top: 0;
+  }
+}

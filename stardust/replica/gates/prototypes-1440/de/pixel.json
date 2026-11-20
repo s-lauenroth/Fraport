@@ -1,0 +1,240 @@
+{
+  "a": "stardust/replica/gates/prototypes-1440/de/origin.png",
+  "b": "stardust/replica/gates/prototypes-1440/de/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 8011,
+    "mode": "overlap"
+  },
+  "heightDelta": 6,
+  "differingPixels": 95565,
+  "pct": 0.83,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/prototypes-1440/de/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.7
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.2
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 0.2
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 0.5
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 0.2
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 0.5
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 0.9
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 1.4
+    },
+    {
+      "y0": 8000,
+      "y1": 8011,
+      "pct": 0
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.83,
+    "differingPixels": 95565,
+    "compared": {
+      "width": 1440,
+      "height": 8011,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 6.3,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.7,
+        "unaligned": 1.7
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 1.4,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 8000,
+        "y1": 8011,
+        "pct": 0,
+        "unaligned": 0
+      }
+    ],
+    "diff": null,
+    "reason": "aligned number not lower than the unaligned one",
+    "candidate": {
+      "pct": 0.89,
+      "steps": 1,
+      "totalShift": 6
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null
+}

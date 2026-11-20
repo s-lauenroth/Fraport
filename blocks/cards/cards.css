@@ -1,27 +1,164 @@
-.cards > ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+/* cards (frach-m-card grid): 1:1 image cards (gradient veil, theme meta, h5 title), 12 / 6 / 4
+   cols. with-link-box: the last column (.cards-col-aside) holds a link-box — full width
+   720-1279, 4 cols >= 1280. */
+.cards .row {
+  align-items: flex-start;
 }
 
-.cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+.cards .cards-col > * {
+  margin-bottom: var(--component-margin);
 }
 
-.cards .cards-card-body {
-  margin: 16px;
+@media (width >= 720px) {
+  .cards .row > .cards-col {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+  }
+
+  .cards .row > .cards-col-aside {
+    flex-basis: calc(100% - var(--gutter));
+    max-width: calc(100% - var(--gutter));
+  }
+}
+
+@media (width >= 1280px) {
+  .cards .row > .cards-col,
+  .cards .row > .cards-col-aside {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+.cards .cards-card {
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+.cards .cards-card-link {
+  display: block;
+  padding-bottom: 30px;
+  background: var(--grey-050);
+  text-decoration: none;
+}
+
+.cards .cards-card-link:focus-visible {
+  outline: none;
+}
+
+/* < 720 the card sits on a grey (white in grey sections) ground; >= 720 it shows on hover */
+
+.grey .cards .cards-card-link {
+  background: var(--white);
+}
+
+@media (width >= 720px) {
+  .cards .cards-card-link,
+  .grey .cards .cards-card-link {
+    background: none;
+  }
+
+  .cards .cards-card-link:hover {
+    background: var(--grey-050);
+  }
+
+  .grey .cards .cards-card-link:hover {
+    background: var(--grey-100);
+  }
 }
 
 .cards .cards-card-image {
-  line-height: 0;
+  position: relative;
+  overflow: hidden;
 }
 
-.cards > ul > li img {
+.cards .cards-card-image p {
+  margin: 0;
+}
+
+.cards .cards-card-image::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: var(--gradient-brand);
+  opacity: 0.1;
+}
+
+.cards .cards-card-image img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: auto;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s;
+}
+
+.cards .cards-card-link:hover .cards-card-image img {
+  transform: scale(1.2);
+}
+
+.cards .cards-card-text {
+  position: relative;
+}
+
+.cards .cards-card-meta {
+  display: flex;
+  justify-content: space-between;
+  padding: 46px 16px 16px;
+  color: var(--grey-600);
+}
+
+.cards .cards-card-meta p {
+  margin: 8px 0;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards .cards-card-title {
+  margin: 0 16px;
+  color: var(--primary-500);
+}
+
+.cards .cards-card-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* scroll-in: cards slide in from the right, staggered (source delays 500 / 750 ms) */
+.cards .cards-card-link[data-animate].is-animating {
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+}
+
+.cards .cards-col:nth-child(2) .cards-card-link[data-animate].is-animating {
+  animation-delay: 0.75s;
+}
+
+.cards .cards-col:nth-child(3) .cards-card-link[data-animate].is-animating {
+  animation-delay: 1s;
+}
+
+/* dated variant (newsroom news cards): floating date badge over the image edge, no column
+   margin (the section margin closes the band) */
+.cards.dated .cards-col > * {
+  margin-bottom: 0;
+}
+
+.cards.dated .cards-card-date {
+  position: absolute;
+  top: -40px;
+  left: 16px;
+  z-index: 3;
+  padding: 16px;
+  background: var(--white);
+  box-shadow: 0 0 16px 0 var(--grey-300);
+  color: var(--grey-600);
+}
+
+.cards.dated .cards-card-date p {
+  margin: 0;
 }

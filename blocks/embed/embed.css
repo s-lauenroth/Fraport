@@ -1,0 +1,59 @@
+/* embed (frach-m-embed / third-party iframe): YouTube players inside grid columns (halves /
+   thirds, every component carrying the component margin), the walls.io wall full width (800px).
+   Iframes stay inline as on the source (descender gap below). */
+.embed iframe {
+  max-width: 100%;
+  border: 0;
+}
+
+.embed .embed-wall iframe {
+  width: 100%;
+}
+
+.embed .row {
+  align-items: flex-start;
+}
+
+.embed .embed-col > * {
+  margin-bottom: var(--component-margin);
+}
+
+.embed .buttons p {
+  display: contents;
+}
+
+.embed .buttons a.button:is(.primary, .secondary)::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+/* foundation .buttons .button spacing, restated: a.button:any-link (0,2,1) resets the margin */
+.embed .buttons a.button:any-link {
+  flex: 1 1 100%;
+  max-width: calc(100% - 24px);
+  margin: 0 24px 24px 0;
+}
+
+@media (width >= 720px) {
+  .embed.embed-2-cols .row > .embed-col {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+  }
+
+  .embed.embed-3-cols .row > .embed-col {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+
+  .embed .buttons a.button:any-link {
+    flex: 0 1 auto;
+    max-width: none;
+    margin-top: 14px;
+  }
+}

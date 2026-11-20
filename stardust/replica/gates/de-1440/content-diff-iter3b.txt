@@ -1,0 +1,420 @@
+
+Content diff @ 1440px (profile "eds", roots: #main-content, header, footer)
+root "#main-content"
+  proto: 172 text nodes — 7 headings, 0 eyebrows, 77 CTAs, 88 body; 0 img
+  EDS: 173 text nodes — 7 headings, 0 eyebrows, 77 CTAs, 89 body; 20 img
+  editable texts (outermost h*/p/ul/ol): proto 117 / EDS 145
+  attributes (placeholder/aria-label/title): proto 2 / EDS 3; icons: proto 10 / EDS 18
+  accepted (invisible, nothing lost): 1 SAME ICON — "glyph ↔ mask:frach-icon-arrow-right.svg"
+root "header" — proto: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  proto: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  EDS: 265 text nodes — 0 headings, 0 eyebrows, 165 CTAs, 100 body; 10 img
+  editable texts (outermost h*/p/ul/ol): proto 0 / EDS 3
+  attributes (placeholder/aria-label/title): proto 0 / EDS 1; icons: proto 0 / EDS 47
+root "footer" — proto: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  proto: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  EDS: 41 text nodes — 3 headings, 0 eyebrows, 23 CTAs, 15 body; 0 img
+  editable texts (outermost h*/p/ul/ol): proto 0 / EDS 17
+  attributes (placeholder/aria-label/title): proto 0 / EDS 0; icons: proto 0 / EDS 16
+
+Findings: 395 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 2 · accepted 🟢 5 (owner 4, auto 1) · advisory 393
+  🟠 EXTRA [header]: EDS cta "Bulgarien" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Brasilien (Flughafen Fortaleza)" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Brasilien (Flughafen Porto Alegre)" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Hong Kong (China)" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Griechenland" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Peru" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Slowenien" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Türkei" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "USA" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Karriere bei Fraport" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "English" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Startseite" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzern" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Konzern" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Über uns" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Über uns" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Vorstand" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Aufsichtsrat" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Compliance" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Diversity" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Zahlen, Daten und Fakten" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "100 Jahre wie im Flug" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Historie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzernstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Unsere internationalen Flughäfen und Beteiligung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Managementsysteme" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Managementsysteme" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Arbeitsschutzmanagement" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Qualitätsmanagement" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Safety Management System" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Aktiv für die Region" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Aktiv für die Region" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Kultur" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Bildung und Soziales" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Sponsoring und Spenden" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "J. P. Morgan Lauf Results" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Rundfahrten für Vereine & Institutionen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Fraport Politikbrief" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Digitalisierung und Digital Factory" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Digitalisierung und Digital Factory" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Open Pitch Day" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "AI@Fraport" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Robotikstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Karriere" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flughäfen und Beteiligungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzernstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Geschäftsfelder" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Geschäftsfelder" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Betrieb" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Betrieb" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flug- und Terminalbetrieb" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Ground Handling" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flughafenlieferungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flughafenfeuerwehr" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Ground Services Equipment" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Unternehmenssicherheit" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flughafenentgelte" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Medical Center" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Frankfurt CargoHub" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "International Activities" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Service" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Service" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flughafenausweise" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Fahrerausbildung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Parken & Mobilität" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Personalbuslinien" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Geschäftspartner" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Real Estate" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Retailing and Advertising" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "VIP-Services" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "IT-Services" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Schließanlagenverwaltung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Energiemanagement" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "FRA Locations" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Bau" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Bau" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flughafenausbau" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Wirtschaftsfaktor Flughafen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Hessens Tor zur Welt" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "International Activities" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Betrieb" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Investoren" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Investoren" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Fraport Aktie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Publikationen & Termine" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Verkehrszahlen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Hauptversammlung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Creditor Relations" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Corporate Governance" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Ansprechpartner" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Newsletter Bestellservice" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Indizes und Ratings" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Ansprechpartner" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Publikationen & Termine" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Nachhaltigkeit" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Nachhaltigkeit" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Umwelt und Klimaschutz" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Unternehmensführung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Unternehmensführung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Corporate Governance" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzernstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Compliance" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Verantwortung in Lieferketten" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Wertschaffung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Wertschaffung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzernstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Stakeholder-Dialog" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Selbstverpflichtungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Managementsysteme" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Indizes und Ratings" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Mobilitätsstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Gesellschaft" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Gesellschaft" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzernstrategie" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Regionales Engagement" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Beschäftigte" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Beschäftigte" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Arbeitsmedizin, Prävention und Gesundheitsmanage" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Konzernarbeitsschutz" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Arbeitsschutzmanagement" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Bildung und Soziales" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Diversity" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Karriere" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Nachbarschaftsdialog" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Nachbarschaftsdialog" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Aktuelles" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Interaktive Karten" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Mein Anliegen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lärm und Luft" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Umwelt und Klimaschutz" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Nachbarschaftsdialog" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Newsroom" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Newsroom" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Ansprechpartner Presse" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Pressemitteilungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Service News" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Retail News" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Pressemappen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Bilddatenbank" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Bilddatenbank" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Desktop Wallpapers" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Smartphone Wallpapers" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Nutzungsbedingungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Infofilme" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Infofilme" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Flugzeugabfertigung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Sicherer Flugbetrieb" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Infografiken FRAFacts" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Videomaterial" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Überblick Videomaterial" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Nutzungsbedingungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Publikationen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Filmen & Fotografieren am Flughafen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Infofilme" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Pressemitteilungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [header]: EDS cta "Lesen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Anfahrtsbeschreibung" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "01806 372-4636" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Kontaktformular" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "E-Mail" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "E-Mail" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Kontaktformulare zum Themenbereich" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Kontakt zum Medical Center" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Konzern" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Geschäftsfelder" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Investoren" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Nachhaltigkeit" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Newsroom" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Frankfurt Airport" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Karriere bei Fraport" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Datenschutz" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Impressum" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Disclaimer" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Richtlinien und Zahlungsbedingungen" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS heading "Social Media" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS heading "Frankfurt Airport" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Facebook" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "Instagram" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "YouTube" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "LinkedIn" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS heading "Frankfurt CargoHub" has no proto source — Unexpected node with no proto source.
+  🟠 EXTRA [footer]: EDS cta "LinkedIn" has no proto source — Unexpected node with no proto source.
+  🟡 MISSING BODY [#main-content]: proto body "50.954"… not found in EDS. Often fine (a prototype placeholder rewritten to real copy) — confirm it is not dropped prose.
+  🟡 MISSING BODY [#main-content]: proto body "287"… not found in EDS. Often fine (a prototype placeholder rewritten to real copy) — confirm it is not dropped prose.
+  🟡 EXTRA [#main-content]: EDS body "75 Jahre Flughafenfeuerwehr" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 MISSING ARIA-LABEL [#main-content]: proto <button> aria-label="Closes popup" has no EDS <button> with that aria-label (EDS <button> aria-labels: "Schließen"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: proto <button> aria-label="Opens popup" has no EDS <button> with that aria-label (EDS <button> aria-labels: "Schließen"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: EDS <aside> aria-label="75 Jahre Flughafenfeuerwehr" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: EDS <button> aria-label="Schließen" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: EDS <nav> aria-label="Auf dieser Seite" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON MOVED [#main-content]: proto empty icon box (25×25) at "opens popup" is at "75 jahre flughafenfeuerwehr" in the EDS — same icon, paired by order. Same icon, different anchor — usually a text-less host (a <button> with no label anchors as button#n) or moved anchor text; confirm it sits on the right element, and give an unlabeled interactive host an aria-label.
+  🟡 ICON KIND [#main-content]: proto empty icon box (0×0) vs EDS css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (24×24) vs EDS css icon mask:frach-icon-arrow-right.svg (0×0) at "next slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (0×0) vs EDS css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (0×0) vs EDS css icon mask:frach-icon-arrow-right.svg (24×24) at "next slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (0×0) vs EDS css icon mask:frach-icon-chevron-down.svg (0×0) at "standort flughafen frankfurt". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (0×0) vs EDS css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (24×24) vs EDS css icon mask:frach-icon-arrow-right.svg (24×24) at "next slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: proto empty icon box (0×0) vs EDS css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (68×68) at "66,00 € xetra (fraport ag)" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-download.svg (16×24) at "masterplan dekarbonisierung" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "terminal 3" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "der flughafen in der region" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "co 2 -emissionen konzernweit reduzieren" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "digitalisierung" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "lärm und luft" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "services" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [header]: EDS body "0" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Meldung" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Suche" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "International" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Deutsch" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Menü" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Menü" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Konzern" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Über uns" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Fraport AG zählt zu den weltweit führenden U" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Konzernstrategie" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "„Connecting the world with tomorrow“ – Fraport A" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Unsere internationalen Flughäfen und Beteiligung" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Fraport AG ist an 30 internationalen Flughäf" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Konzern" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Managementsysteme" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Fraport AG setzt zahlreiche Managementsystem" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Konzern" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Aktiv für die Region" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Fraport engagiert sich auch außerhalb des Flugha" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Konzern" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Digitalisierung und Digital Factory" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Digitalisierung bei Fraport: Effizienz, Innovati" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Karriere" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Weiteres zum Thema Konzern" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Menü" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Geschäftsfelder" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Betrieb" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Ob im Terminal oder auf dem Vorfeld: Fraport org" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "International Activities" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Der Geschäftsbereich "Akquisitionen und Beteilig" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Geschäftsfelder" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Service" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Vielseitige Shops, Restaurants und Bars: Der Flu" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Geschäftsfelder" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Bau" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Erfahren Sie mehr über die vielfältigen Bauproje" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Weiteres zum Thema Geschäftsfelder" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Menü" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Fraport Aktie" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Entdecken Sie alle wichtigen Informationen zur F" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Publikationen & Termine" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Gesammelt können hier für Investoren relevante P" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Verkehrszahlen" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Entdecken Sie die aktuellen Verkehrszahlen des F" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Hauptversammlung" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Alle Informationen, Unterlagen und Links zur akt" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Creditor Relations" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Alle Informationen zu Finanzierungsstrategie, -P" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Corporate Governance" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Der Begriff „Corporate Governance“ steht bei Fra" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Ansprechpartner" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body ": Wir unterstützen unsere auf nachhaltige Wertst" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Newsletter Bestellservice" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Indizes und Ratings" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Fraport AG wird in zahlreichen Indizes und R" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Weiteres zum Thema Investoren" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Menü" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Umwelt und Klimaschutz" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Fraport verfolgt das Ziel, bis spätestens 2045 a" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Nachhaltigkeit" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Unternehmensführung" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Unternehmensführung ist geprägt von einem we" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Nachhaltigkeit" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Wertschaffung" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Fraport AG versteht Wertschaffung als ganzhe" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Nachhaltigkeit" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Gesellschaft" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Fraport AG setzt sich aktiv zur Gestaltung e" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Nachhaltigkeit" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Beschäftigte" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Mitarbeitenden stehen im Mittelpunkt der Nac" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Nachhaltigkeit" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Nachbarschaftsdialog" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Der Austausch zwischen Flughafenbetreiber und Re" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Weiteres zum Thema Nachhaltigkeit" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Menü" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Ansprechpartner Presse" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Pressekontakte der Fraport AG: Finden Sie Anspre" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Pressemitteilungen" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Entdecken Sie alle aktuellen Pressemitteilungen " has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Service News" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Retail News" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Pressemappen" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Hier können Pressemappen mit Informationen zu di" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Newsroom" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Bilddatenbank" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Unsere Bilddatenbank bietet Bildvorlagen in geei" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Newsroom" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Infofilme" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Erleben Sie, wie zehntausende Menschen täglich a" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Infografiken FRAFacts" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Die Infografiken der Fraport AG erklären mit Bil" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Newsroom" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Videomaterial" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Hier sehen Sie eine Auswahl an TV-Aufnahmen zu v" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Publikationen" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Filmen & Fotografieren am Flughafen" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Weiteres zum Thema Newsroom" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [header]: EDS body "Suche" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA ARIA-LABEL [header]: EDS <nav> aria-label="Hauptnavigation" has no proto source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 458 198 / 1 shape(s) (91×39) at "startseite" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 24 24 / 1 shape(s) (0×0) at "suche" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 24 24 / 1 shape(s) (16×16) at "international" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 24 24 / 1 shape(s) (24×24) at "deutsch" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 24 24 / 1 shape(s) (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 24 24 / 1 shape(s) (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "konzern" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "über uns" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "managementsysteme" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "aktiv für die region" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "digitalisierung und digital factory" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "geschäftsfelder" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "betrieb" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "geschäftsfelder" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "service" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "geschäftsfelder" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "bau" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "geschäftsfelder" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "investoren" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "nachhaltigkeit" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "unternehmensführung" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "wertschaffung" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "gesellschaft" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "beschäftigte" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "nachbarschaftsdialog" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "newsroom" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "bilddatenbank" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "newsroom" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "infofilme" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "newsroom" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-right.svg (0×0) at "videomaterial" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS css icon mask:frach-icon-chevron-left.svg (0×0) at "newsroom" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: EDS inline svg 0 0 24 24 / 1 shape(s) (24×24) at "suche" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Ansprechpartner" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Fraport AG Frankfurt Airport Services Worldwide" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "60547 Frankfurt am Main" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "*" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Fragen, Lob, Kritik und Anregungen:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "*20 Cent pro Anruf aus dem deutschen Festnetz, m" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Mailadresse für Feedback:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Mailadresse für Passagier-Informationen:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Fluglärm und Maßnahmenprogramme:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "(für Reisende und Beschäftige)" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Medizinische Anfragen:" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Fraport Sites" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Aktuell" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "Service" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA [footer]: EDS body "©2004-2026 Fraport AG Frankfurt Airport Services" has no proto source — Invented / placeholder-filled copy; confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-chevron-down.svg (24×24) at "ansprechpartner" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-download.svg (16×24) at "anfahrtsbeschreibung" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-phone.svg (16×24) at "01806 372-4636" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "kontaktformular" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-mail.svg (16×24) at "e-mail" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-mail.svg (16×24) at "e-mail" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-arrow-right.svg (16×24) at "kontaktformulare zum themenbereich" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-mail.svg (16×24) at "kontakt zum medical center" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-chevron-down.svg (0×0) at "fraport sites" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-chevron-down.svg (0×0) at "aktuell" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-chevron-down.svg (0×0) at "service" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-social-facebook.svg (28×28) at "facebook" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-social-instagram.svg (28×28) at "instagram" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-social-youtube.svg (28×28) at "youtube" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-social-linkedin.svg (28×28) at "linkedin" has no proto source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: EDS css icon mask:frach-icon-social-linkedin.svg (28×28) at "linkedin" has no proto source. Build-only icon — confirm it is intended.
+  🟢 MISSING BODY [#main-content] accepted (stardust/replica/accepted.json): de: live XETRA quote (key-figures stock, fetched from /chartjson/ and counted up at runtime) — value differs per capture; build shows the captured 66,00 € (captureState)
+  🟢 EXTRA [#main-content] accepted (stardust/replica/accepted.json): de: captured XETRA quote 66,00 € vs the live runtime quote (dynamic data, captureState)
+  🟢 EXTRA [#main-content] accepted (stardust/replica/accepted.json): de: key-figure final value; live counts up from 0 on scroll-in, the capture reads a mid-animation number
+  🟢 EXTRA [#main-content] accepted (stardust/replica/accepted.json): de: key-figure final value; live counts up from 0 on scroll-in, the capture reads a mid-animation number

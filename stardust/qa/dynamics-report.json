@@ -1,0 +1,191 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-19T23:53:37.090Z",
+  "origin": "https://main--340a2135--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json",
+  "contract": "stardust/martech-contract.json"
+ },
+ "results": [
+  {
+   "feature": "teaser / news slider (prev/next, pagination, show-more)",
+   "id": "teaser-slider",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "11 × .teaser-slider .slider-slide (min 4)",
+   "thirdParty": "",
+   "ms": 2532,
+   "environmentLimit": null
+  },
+  {
+   "feature": "teaser / news slider (prev/next, pagination, show-more)",
+   "id": "teaser-slider",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .teaser-slider .slider-controls .slider-next (min 1)",
+   "thirdParty": "",
+   "ms": 2082,
+   "environmentLimit": null
+  },
+  {
+   "feature": "teaser / news slider (prev/next, pagination, show-more)",
+   "id": "teaser-slider",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "6 × .teaser-slider .slider-slide (min 3)",
+   "thirdParty": "",
+   "ms": 2164,
+   "environmentLimit": null
+  },
+  {
+   "feature": "accordion (checkbox toggles, labelled regions)",
+   "id": "accordion",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .accordion .accordion-item input[aria-controls] (min 1)",
+   "thirdParty": "",
+   "ms": 2152,
+   "environmentLimit": null
+  },
+  {
+   "feature": "accordion (checkbox toggles, labelled regions)",
+   "id": "accordion",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .accordion .accordion-panel[role=region] (min 2)",
+   "thirdParty": "",
+   "ms": 2089,
+   "environmentLimit": null
+  },
+  {
+   "feature": "tabbed content (tablist, arrow-key navigation)",
+   "id": "tabbed-content",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "5 × .tabbed-content [role=tab][aria-selected] (min 2)",
+   "thirdParty": "",
+   "ms": 2184,
+   "environmentLimit": null
+  },
+  {
+   "feature": "image gallery tiles + lightbox overlay",
+   "id": "image-gallery-lightbox",
+   "class": "M",
+   "status": "done",
+   "type": "click-dialog",
+   "pass": false,
+   "detail": "dialog 1440px · heading \"1972 - Neues Terminal und Tiefbahnhof\" · 0 fields · Escape closes: false",
+   "thirdParty": "",
+   "ms": 4229,
+   "environmentLimit": null
+  },
+  {
+   "feature": "image gallery tiles + lightbox overlay",
+   "id": "image-gallery-lightbox",
+   "class": "M",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "8 × .image-gallery-tiles .image-gallery-tiles-item .image-gallery-tiles-link[aria-haspopup] (min 8)",
+   "thirdParty": "",
+   "ms": 2130,
+   "environmentLimit": null
+  },
+  {
+   "feature": "key figures count-up (in-view animation)",
+   "id": "key-figures-countup",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "3 × .key-figures .key-figures-number (min 3)",
+   "thirdParty": "",
+   "ms": 2042,
+   "environmentLimit": null
+  },
+  {
+   "feature": "key figures count-up (in-view animation)",
+   "id": "key-figures-countup",
+   "class": "CR",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .pictogram-key-figures > * (min 1)",
+   "thirdParty": "",
+   "ms": 2055,
+   "environmentLimit": null
+  },
+  {
+   "feature": "YouTube videos (nocookie embeds)",
+   "id": "video-youtube",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": false,
+   "detail": "iframe/video: true · no <video> · playback requests 0 (none ok) · no playback request to googlevideo\\.com with status < 400 (0 seen)",
+   "thirdParty": "www.fraport.com:206×1 my.walls.io:200×1 fonts-cdn.walls.io:200×4 cdn.walls.io:200×8 mtm.walls.io:200×1 mtm.walls.io:204×1 app.walls.io:200×2 img-ig-cdn.walls.io:200×16 img-li-cdn.walls.io:200×6 img-fb-cdn.walls.io:200×12 emoji.walls.io:200×8",
+   "ms": 7707,
+   "environmentLimit": "dynamics-check records at most 60 third-party responses per page; the walls.io wall on the same page (/de/newsroom) fills all 60 before the player is clicked, so the replay sees 0 playback requests. Probe limit, not a site defect."
+  },
+  {
+   "feature": "walls.io social wall iframe",
+   "id": "walls-io-wall",
+   "class": "A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .embed.wall iframe[src*='walls.io'] (min 1)",
+   "thirdParty": "my.walls.io:200×1 www.fraport.com:206×1 fonts-cdn.walls.io:200×3 cdn.walls.io:200×8 mtm.walls.io:200×1 app.walls.io:200×2 mtm.walls.io:204×1 emoji.walls.io:200×24 img-li-cdn.walls.io:200×2 d3pelj80y5v5k4.cloudfront.net:200×1 img-ig-cdn.walls.io:200×10 img-fb-cdn.walls.io:200×6",
+   "ms": 2833,
+   "environmentLimit": null
+  },
+  {
+   "feature": "share-price chart iframe (charts3.equitystory.com)",
+   "id": "equitystory-chart",
+   "class": "A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "1 × .iframe iframe[src*='charts3.equitystory.com'] (min 1)",
+   "thirdParty": "charts3.equitystory.com:200×46",
+   "ms": 3607,
+   "environmentLimit": null
+  },
+  {
+   "feature": "all delivered pages run without uncaught exceptions",
+   "id": "page-runtime",
+   "class": "CR",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 25 page(s)",
+   "thirdParty": "",
+   "ms": 52186,
+   "environmentLimit": null
+  },
+  {
+   "feature": "martech: consent + tag routing",
+   "id": "martech",
+   "class": "T",
+   "status": "scaffolded-off",
+   "type": "martech",
+   "pass": true,
+   "detail": "no tag host requested (1 gated · 0 cross-site host(s) blocked)",
+   "thirdParty": "",
+   "ms": 6209,
+   "environmentLimit": null
+  }
+ ]
+}

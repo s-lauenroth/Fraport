@@ -1,0 +1,6 @@
+/* iframe (AEM iframe component): full-bleed frame of the authored height, no border */
+.iframe iframe {
+  display: block;
+  width: 100%;
+  border: 0;
+}

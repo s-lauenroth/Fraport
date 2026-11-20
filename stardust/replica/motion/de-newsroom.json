@@ -1,0 +1,1603 @@
+{
+  "url": "https://www.fraport.com/de/newsroom.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": ".frach-m-milestones .frach-js-slider__next",
+      "frames": [
+        {
+          "t": 19384.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19589.5,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19793.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 19997.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".frach-m-milestones__item:nth-child(3)",
+      "frames": [
+        {
+          "t": 21033.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21237,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21442.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 21646.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": "frach-m-anchor-list .frach-js-slider__next",
+      "frames": [
+        {
+          "t": 22660.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 22867.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23072.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 23276.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".frach-e-sticky-patch__open-button",
+      "frames": [
+        {
+          "t": 24298.39999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24501.700000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24705.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 24909.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".frach-e-audio-player__play-icon",
+      "frames": [
+        {
+          "t": 25927.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26134.200000000186,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26340.39999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 26543.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".frach-m-card__link",
+      "changed": [
+        "self.background"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgb(237, 238, 239)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".frach-m-teaser-collection__link-box-item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 238)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    },
+    {
+      "sel": ".frach-m-milestones__item",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 0)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline.frach-h-bg--secondary > span.frach-e-headline__line",
+        "txt": "AKTUELLES",
+        "y": 843
+      },
+      {
+        "name": "frach-appear-right__animation",
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx.frach-state-animating",
+        "txt": "12.11.2026\n\n\n        \n          \n          \n      ",
+        "y": 1599
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline.frach-h-bg--secondary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "AKTUELLES",
+        "y": 2000
+      },
+      {
+        "name": "frach-appear-right__animation",
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx.frach-state-animating",
+        "txt": "05.11.2026\n\n\n        \n          \n          \n      ",
+        "y": 2000
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line",
+        "txt": "AKTIENKURS FRAPORT AG",
+        "y": 2800
+      },
+      {
+        "name": "frach-appear-right__animation",
+        "el": "div > div.cmp-container > section.frach-h-component-margin > frach-m-key-figures.frach-m-key-figures.frach-m-key-figures--has-many > div.frach-grid.frach-state-animating",
+        "txt": "65,60 €\n\n  \n\t\n\t  \n\t    <img src=\"/etc.clientlibs/f",
+        "y": 2800
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line",
+        "txt": "SOCIAL MEDIA",
+        "y": 2800
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "AKTIENKURS FRAPORT AG",
+        "y": 3200
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "SOCIAL MEDIA",
+        "y": 3600
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line",
+        "txt": "GEMEINSAM DURCHSTARTEN",
+        "y": 4000
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "GEMEINSAM DURCHSTARTEN",
+        "y": 4800
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line",
+        "txt": "MEDIEN & PUBLIKATIONEN",
+        "y": 4800
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "MEDIEN & PUBLIKATIONEN",
+        "y": 5600
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line",
+        "txt": "DOKUSERIEN UND REPORTAGEN",
+        "y": 6000
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "DOKUSERIEN UND REPORTAGEN",
+        "y": 6400
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line",
+        "txt": "ANSPRECHPARTNER",
+        "y": 7200
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--primary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "ANSPRECHPARTNER",
+        "y": 8000
+      },
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--gradient-primary-to-secondary > span.frach-e-headline__line",
+        "txt": "NOCH MEHR FRAPORT",
+        "y": 8000
+      },
+      {
+        "name": "frach-appear-right__animation",
+        "el": "div > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > frach-m-teaser-slider.frach-m-related-content.frach-m-teaser-slider > div.frach-m-teaser-slider__container.frach-state-animating",
+        "txt": "Standort\n  \n    , \n    Beratung\n  \n  \n  \n\n\n    \n  ",
+        "y": 8000
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--gradient-primary-to-secondary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "NOCH MEHR FRAPORT",
+        "y": 8344
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 400,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "max-height",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content",
+        "y": 1070,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1113,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "height",
+        "el": "frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating > frach-m-page-header.frach-m-page-header > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container",
+        "y": 1113,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "frach-m-page-header.frach-m-page-header > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a.frach-e-logo",
+        "y": 1113,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button.frach-e-button.frach-e-button--tertiary.frach-e-button--icon-left",
+        "y": 1113,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper.frach-m-meta-navigation__menu-wrapper--international > button.frach-e-button.frach-e-button--tertiary.frach-e-button--icon-right",
+        "y": 1113,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > a.frach-e-button.frach-e-button--tertiary.frach-m-meta-navigation__direct-link",
+        "y": 1113,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1059,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 905,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1520,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1599,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.frach-h-component-margin.aem-GridColumn.aem-GridColumn--default--12 > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > a.frach-m-image__link > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 1599,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1599,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4000,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 8344,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > section.frach-h-component-margin.aem-GridColumn.aem-GridColumn--default--12 > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 8344,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 7449,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "max-height",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-m-anchor-list__unstuck-desktop-view > div.frach-m-accordion__section > div.frach-m-accordion__section-content",
+        "y": 477,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "max-height",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content",
+        "y": 4720,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4656,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4656,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4656,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4483,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides",
+        "y": 4415,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "border-top-color",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary.frach-e-button--icon-only",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "background-color",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary.frach-e-button--icon-only",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-color",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary.frach-e-button--icon-only",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-color",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary.frach-e-button--icon-only",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "color",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary.frach-e-button--icon-only",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-color",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary.frach-e-button--icon-only",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 4415,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4415,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4886,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4965,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker.frach-m-milestones__item--marker-aubergine",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active > div.frach-m-milestones__item--marker",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides",
+        "y": 4965,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "opacity",
+        "el": "frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4965,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickyPatch.aem-GridColumn.aem-GridColumn--default--12 > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue.frach-e-sticky-patch--image > div.frach-e-sticky-patch__content > button.frach-e-button.frach-e-sticky-patch__close-button.frach-e-button--primary",
+        "y": 4965,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickyPatch.aem-GridColumn.aem-GridColumn--default--12 > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue.frach-e-sticky-patch--image > div.frach-e-sticky-patch__content",
+        "y": 4965,
+        "dur": "0.7s, 0.3s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickyPatch.aem-GridColumn.aem-GridColumn--default--12 > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue.frach-e-sticky-patch--image > div.frach-e-sticky-patch__content",
+        "y": 4965,
+        "dur": "0.7s, 0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx.frach-state-animating > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 945,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx.frach-state-animating > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 945,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "max-height",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-m-anchor-list__unstuck-desktop-view > div.frach-m-accordion__section > div.frach-m-accordion__section-content",
+        "y": 545,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 564,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 661,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 661,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "max-height",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content",
+        "y": 5351,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5366,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5287,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5287,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5287,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5114,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "border-top-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-top-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-bottom-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-left-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "border-right-width",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item > div.frach-m-milestones__item--marker",
+        "y": 5046,
+        "dur": "0.2s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "frach-state-sticky"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-sticky"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__image-wrapper > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-collapsed"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed",
+        "y": 1070
+      },
+      {
+        "added": [
+          "frach-state-collapsed"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed",
+        "y": 1070
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline.frach-h-bg--secondary",
+        "y": 1070
+      },
+      {
+        "added": [
+          "frach-state-collapsed",
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1113
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1113
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 905
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 905
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx.frach-state-animating",
+        "y": 845
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "section.frach-h-component-margin.aem-GridColumn.aem-GridColumn--default--12 > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > a.frach-m-image__link > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 1520
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1599
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1599
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "section.frach-h-component-margin.aem-GridColumn.aem-GridColumn--default--12 > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > a.frach-m-image__link > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 1599
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-6.frach-grid-col-mq5-4 > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx.frach-state-animating",
+        "y": 2000
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline.frach-h-bg--primary",
+        "y": 2400
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline.frach-h-bg--primary",
+        "y": 2400
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 2800
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div > div.cmp-container > section.frach-h-component-margin > frach-m-key-figures.frach-m-key-figures.frach-m-key-figures--has-many > div.frach-grid.frach-state-animating",
+        "y": 2800
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "frach-e-audio-player.frach-e-audio-player > div.frach-grid > div.frach-grid-row > div.frach-e-audio-player__image-container > frach-e-lazy-image.frach-e-audio-player__image-container--desktop.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 3200
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "frach-e-audio-player.frach-e-audio-player > div.frach-grid > div.frach-grid-row > div.frach-e-audio-player__image-container > frach-e-lazy-image.frach-e-audio-player__image-container--desktop.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 3200
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary",
+        "y": 3600
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4000
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 4000
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4000
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary",
+        "y": 4400
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 4800
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline.frach-h-bg--primary",
+        "y": 5200
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 5600
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > section.frach-h-component-margin.aem-GridColumn.aem-GridColumn--default--12 > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 6800
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--primary",
+        "y": 6800
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 7200
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 7200
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--gradient-primary-to-secondary",
+        "y": 7600
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > frach-m-teaser-slider.frach-m-related-content.frach-m-teaser-slider > div.frach-m-teaser-slider__container.frach-state-animating",
+        "y": 8000
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 8344
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > section.frach-h-component-margin.aem-GridColumn.aem-GridColumn--default--12 > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 8344
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 7449
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 7449
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 5870
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 2400
+      },
+      {
+        "added": [
+          "frach-m-anchor-list__unstuck-desktop-view"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-m-anchor-list__unstuck-desktop-view",
+        "y": 477
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-m-anchor-list__unstuck-desktop-view > div.frach-m-accordion__section > label.frach-m-anchor-list__label > a.frach-m-anchor-list__anchor.frach-m-anchor-list__anchor--toggle-item.frach-state-hidden",
+        "y": 477
+      },
+      {
+        "added": [
+          "frach-state-collapsed"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed",
+        "y": 4720
+      },
+      {
+        "added": [
+          "frach-state-collapsed"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed",
+        "y": 4720
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 4656
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4735
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4735
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4735
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4735
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4735
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4483
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4483
+      },
+      {
+        "added": [
+          "frach-state-active"
+        ],
+        "el": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.container.responsivegrid.aem-GridColumn > div > div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-m-slider__pagination-item--active"
+        ],
+        "el": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider__pagination.frach-js-slider__pagination > span.frach-m-slider__pagination-item.frach-js-slider__pagination-item.frach-m-slider__pagination-item--active",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-m-slider__pagination-item--active"
+        ],
+        "el": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider__pagination.frach-js-slider__pagination > span.frach-m-slider__pagination-item.frach-js-slider__pagination-item.frach-m-slider__pagination-item--active",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-state-invisible"
+        ],
+        "el": "frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4415
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 4886
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-state-active"
+        ],
+        "el": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-milestones__container > div.frach-m-milestones__item.frach-state-active",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-m-slider__pagination-item--active"
+        ],
+        "el": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider__pagination.frach-js-slider__pagination > span.frach-m-slider__pagination-item.frach-js-slider__pagination-item.frach-m-slider__pagination-item--active",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-m-slider__pagination-item--active"
+        ],
+        "el": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider__pagination.frach-js-slider__pagination > span.frach-m-slider__pagination-item.frach-js-slider__pagination-item.frach-m-slider__pagination-item--active",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-state-invisible"
+        ],
+        "el": "frach-m-milestones.frach-m-milestones.frach-m-milestones--grey.frach-state-animating > div.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image.frach-m-image--hover-fx > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-e-sticky-patch__open"
+        ],
+        "el": "main.frach-m-page-main > div.root.responsivegrid > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.stickyPatch.aem-GridColumn.aem-GridColumn--default--12 > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue.frach-e-sticky-patch--image",
+        "y": 4965
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 3909
+      },
+      {
+        "added": [
+          "frach-state-playing"
+        ],
+        "el": "div.container.responsivegrid.aem-GridColumn > div > div.cmp-container > div.frach-h-component-margin > frach-e-audio-player.frach-e-audio-player.frach-state-playing",
+        "y": 3909
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 945
+      },
+      {
+        "added": [
+          "frach-m-anchor-list__unstuck-desktop-view"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-m-anchor-list__unstuck-desktop-view",
+        "y": 545
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-m-anchor-list__unstuck-desktop-view > div.frach-m-accordion__section > label.frach-m-anchor-list__label > a.frach-m-anchor-list__anchor.frach-m-anchor-list__anchor--toggle-item.frach-state-hidden",
+        "y": 545
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 647
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 647
+      },
+      {
+        "added": [
+          "frach-state-collapsed"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed",
+        "y": 5351
+      },
+      {
+        "added": [
+          "frach-state-collapsed"
+        ],
+        "el": "section.frach-h-position-sticky.frach-h-component-margin.aem-GridColumn > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed",
+        "y": 5351
+      },
+      {
+        "added": [
+          "frach-state-hidden"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list.frach-state-collapsed > div.frach-m-accordion__section > div.frach-m-accordion__section-content > a.frach-m-anchor-list__anchor.frach-state-hidden",
+        "y": 5287
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5366
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5366
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5366
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5366
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5114
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 5114
+      }
+    ]
+  }
+}

@@ -1,0 +1,1762 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:21:08.858Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/konzern/digitalisierung.html",
+  "at": "2026-11-19T21:58:50.415Z",
+  "docH": 14734
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung",
+  "at": "2026-11-19T23:21:08.696Z",
+  "docH": 14702
+ },
+ "results": [
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 16,
+   "edsMatches": 16,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:globe with economic growth lines, abstra",
+       "role": "image",
+       "text": "globe with economic growth lines, abstract background",
+       "edsText": "globe with economic growth lines, abstract background",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:digitalisierung und digital factory",
+       "role": "heading",
+       "text": "digitalisierung und digital factory",
+       "edsText": "digitalisierung und digital factory",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#digitalisierung-und-digital-factory",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:digitalisierung und digital factory",
+       "role": "link",
+       "text": "digitalisierung und digital factory",
+       "edsText": "digitalisierung und digital factory",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 286,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 286,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 185,
+       "absY": 13201,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 233,
+       "w": 328,
+       "h": 24,
+       "absY": 13409,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 13209,
+       "w": 328,
+       "h": 363
+      },
+      "eds": {
+       "x": 16,
+       "y": 13177,
+       "w": 328,
+       "h": 363
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:rollverkehr united airlines",
+       "role": "image",
+       "text": "rollverkehr united airlines",
+       "edsText": "rollverkehr united airlines",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:luftqualität",
+       "role": "heading",
+       "text": "luftqualität",
+       "edsText": "luftqualität",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#luftqualität",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:luftqualität",
+       "role": "link",
+       "text": "luftqualität",
+       "edsText": "luftqualität",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 101,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 101,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 319,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 185,
+       "absY": 13563,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 233,
+       "w": 328,
+       "h": 24,
+       "absY": 13772,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 13572,
+       "w": 328,
+       "h": 363
+      },
+      "eds": {
+       "x": 16,
+       "y": 13539,
+       "w": 328,
+       "h": 363
+      },
+      "dx": 0,
+      "dy": -33,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:publikationen & termine",
+       "role": "heading",
+       "text": "publikationen & termine",
+       "edsText": "publikationen & termine",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h3#publikationen--termine",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:publikationen & termine",
+       "role": "link",
+       "text": "publikationen & termine",
+       "edsText": "publikationen & termine",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 202,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 202,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 110,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 24,
+       "w": 328,
+       "h": 24,
+       "absY": 13926,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 13934,
+       "w": 328,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 13902,
+       "w": 328,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-pictogram-key-figures__item=.pictogram-key-figures .pictogram-key-figures-item",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section"
+     },
+     "eds": {
+      "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-items > div.pictogram-key-figures-item"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-m-pictogram-key-figures__item-pictogram#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 16,
+        "w": 200,
+        "h": 146
+       },
+       "eds": {
+        "x": 52,
+        "y": 16,
+        "w": 200,
+        "h": 146,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:95",
+       "role": "text",
+       "text": "95",
+       "edsText": "95",
+       "byPosition": false,
+       "origin": {
+        "x": 129,
+        "y": 179,
+        "w": 46,
+        "h": 54
+       },
+       "eds": {
+        "x": 129,
+        "y": 179,
+        "w": 46,
+        "h": 54,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "box:hr.frach-m-pictogram-key-figures__separator#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 4,
+        "y": 250,
+        "w": 296,
+        "h": 1
+       },
+       "eds": {
+        "x": 4,
+        "y": 250,
+        "w": 296,
+        "h": 1,
+        "sel": "div.pictogram-key-figures-separator",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:projekte gestartet",
+       "role": "text",
+       "text": "projekte gestartet",
+       "edsText": "projekte gestartet",
+       "byPosition": false,
+       "origin": {
+        "x": 4,
+        "y": 267,
+        "w": 296,
+        "h": 24
+       },
+       "eds": {
+        "x": 4,
+        "y": 267,
+        "w": 296,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 52,
+       "y": 16,
+       "w": 200,
+       "h": 146,
+       "absY": 6956,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 28,
+       "y": 6972,
+       "w": 304,
+       "h": 351
+      },
+      "eds": {
+       "x": 28,
+       "y": 6940,
+       "w": 304,
+       "h": 351
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section"
+     },
+     "eds": {
+      "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-items > div.pictogram-key-figures-item"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-m-pictogram-key-figures__item-pictogram#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 16,
+        "w": 200,
+        "h": 146
+       },
+       "eds": {
+        "x": 52,
+        "y": 16,
+        "w": 200,
+        "h": 146,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:74",
+       "role": "text",
+       "text": "74",
+       "edsText": "74",
+       "byPosition": false,
+       "origin": {
+        "x": 129,
+        "y": 179,
+        "w": 46,
+        "h": 54
+       },
+       "eds": {
+        "x": 129,
+        "y": 179,
+        "w": 46,
+        "h": 54,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "box:hr.frach-m-pictogram-key-figures__separator#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 4,
+        "y": 250,
+        "w": 296,
+        "h": 1
+       },
+       "eds": {
+        "x": 4,
+        "y": 250,
+        "w": 296,
+        "h": 1,
+        "sel": "div.pictogram-key-figures-separator",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:mvps erfolgreich entwickelt",
+       "role": "text",
+       "text": "mvps erfolgreich entwickelt",
+       "edsText": "mvps erfolgreich entwickelt",
+       "byPosition": false,
+       "origin": {
+        "x": 4,
+        "y": 267,
+        "w": 296,
+        "h": 24
+       },
+       "eds": {
+        "x": 4,
+        "y": 267,
+        "w": 296,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 52,
+       "y": 16,
+       "w": 200,
+       "h": 146,
+       "absY": 7339,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 28,
+       "y": 7355,
+       "w": 304,
+       "h": 351
+      },
+      "eds": {
+       "x": 28,
+       "y": 7323,
+       "w": 304,
+       "h": 351
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section"
+     },
+     "eds": {
+      "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-items > div.pictogram-key-figures-item"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-m-pictogram-key-figures__item-pictogram#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 52,
+        "y": 16,
+        "w": 200,
+        "h": 146
+       },
+       "eds": {
+        "x": 52,
+        "y": 16,
+        "w": 200,
+        "h": 146,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:47",
+       "role": "text",
+       "text": "47",
+       "edsText": "47",
+       "byPosition": false,
+       "origin": {
+        "x": 129,
+        "y": 179,
+        "w": 46,
+        "h": 54
+       },
+       "eds": {
+        "x": 129,
+        "y": 179,
+        "w": 46,
+        "h": 54,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "box:hr.frach-m-pictogram-key-figures__separator#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 4,
+        "y": 250,
+        "w": 296,
+        "h": 1
+       },
+       "eds": {
+        "x": 4,
+        "y": 250,
+        "w": 296,
+        "h": 1,
+        "sel": "div.pictogram-key-figures-separator",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:projekte in roll-out begleitet",
+       "role": "text",
+       "text": "projekte in roll-out begleitet",
+       "edsText": "projekte in roll-out begleitet",
+       "byPosition": false,
+       "origin": {
+        "x": 4,
+        "y": 267,
+        "w": 296,
+        "h": 24
+       },
+       "eds": {
+        "x": 4,
+        "y": 267,
+        "w": 296,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 52,
+       "y": 16,
+       "w": 200,
+       "h": 146,
+       "absY": 7722,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 28,
+       "y": 7738,
+       "w": 304,
+       "h": 351
+      },
+      "eds": {
+       "x": 28,
+       "y": 7706,
+       "w": 304,
+       "h": 351
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-teaser-collection__list-item=.teaser-collection .teaser-collection-item",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-wrapper > a.frach-m-teaser-collection__list-item"
+     },
+     "eds": {
+      "path": "div.teaser-collection-col > div.teaser-collection-list > a.teaser-collection-item"
+     },
+     "rows": [
+      {
+       "key": "text:27.10.2026",
+       "role": "text",
+       "text": "27.10.2026",
+       "edsText": "27.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 25,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 32,
+        "y": 25,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:14:00 uhr",
+       "role": "text",
+       "text": "14:00 uhr",
+       "edsText": "14:00 uhr",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 25,
+        "w": 70,
+        "h": 21
+       },
+       "eds": {
+        "x": 143,
+        "y": 25,
+        "w": 70,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:gate a16 wird zum testfeld für die zukun",
+       "role": "text",
+       "text": "gate a16 wird zum testfeld für die zukunft",
+       "edsText": "gate a16 wird zum testfeld für die zukunft",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 64,
+        "w": 264,
+        "h": 60
+       },
+       "eds": {
+        "x": 32,
+        "y": 64,
+        "w": 264,
+        "h": 60,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:digitale echtzeitinformationen, mobile b",
+       "role": "text",
+       "text": "digitale echtzeitinformationen, mobile betreuung und neue au",
+       "edsText": "digitale echtzeitinformationen, mobile betreuung und neue au",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 140,
+        "w": 264,
+        "h": 168
+       },
+       "eds": {
+        "x": 32,
+        "y": 140,
+        "w": 264,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 11730,
+       "w": 328,
+       "h": 333
+      },
+      "eds": {
+       "x": 16,
+       "y": 11698,
+       "w": 328,
+       "h": 333
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-wrapper > a.frach-m-teaser-collection__list-item"
+     },
+     "eds": {
+      "path": "div.teaser-collection-col > div.teaser-collection-list > a.teaser-collection-item"
+     },
+     "rows": [
+      {
+       "key": "text:24.07.2025",
+       "role": "text",
+       "text": "24.07.2025",
+       "edsText": "24.07.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 25,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 32,
+        "y": 25,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:11:00 uhr",
+       "role": "text",
+       "text": "11:00 uhr",
+       "edsText": "11:00 uhr",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 25,
+        "w": 70,
+        "h": 21
+       },
+       "eds": {
+        "x": 143,
+        "y": 25,
+        "w": 70,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:ki-revolution am flughafen frankfurt: so",
+       "role": "text",
+       "text": "ki-revolution am flughafen frankfurt: so optimieren lufthans",
+       "edsText": "ki-revolution am flughafen frankfurt: so optimieren lufthans",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 64,
+        "w": 264,
+        "h": 120
+       },
+       "eds": {
+        "x": 32,
+        "y": 64,
+        "w": 264,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:erleben sie, wie künstliche intelligenz ",
+       "role": "text",
+       "text": "erleben sie, wie künstliche intelligenz und innovative kamer",
+       "edsText": "erleben sie, wie künstliche intelligenz und innovative kamer",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 200,
+        "w": 264,
+        "h": 216
+       },
+       "eds": {
+        "x": 32,
+        "y": 200,
+        "w": 264,
+        "h": 216,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 12063,
+       "w": 328,
+       "h": 441
+      },
+      "eds": {
+       "x": 16,
+       "y": 12031,
+       "w": 328,
+       "h": 441
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-wrapper > a.frach-m-teaser-collection__list-item"
+     },
+     "eds": {
+      "path": "div.teaser-collection-col > div.teaser-collection-list > a.teaser-collection-item"
+     },
+     "rows": [
+      {
+       "key": "text:25.04.2024",
+       "role": "text",
+       "text": "25.04.2024",
+       "edsText": "25.04.2024",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 25,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 32,
+        "y": 25,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13:00 uhr",
+       "role": "text",
+       "text": "13:00 uhr",
+       "edsText": "13:00 uhr",
+       "byPosition": false,
+       "origin": {
+        "x": 143,
+        "y": 25,
+        "w": 70,
+        "h": 21
+       },
+       "eds": {
+        "x": 143,
+        "y": 25,
+        "w": 70,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:masterplan cargohub: fraport plant umfas",
+       "role": "text",
+       "text": "masterplan cargohub: fraport plant umfassendes investitionsp",
+       "edsText": "masterplan cargohub: fraport plant umfassendes investitionsp",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 64,
+        "w": 264,
+        "h": 120
+       },
+       "eds": {
+        "x": 32,
+        "y": 64,
+        "w": 264,
+        "h": 120,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:strategische weiterentwicklung entlang d",
+       "role": "text",
+       "text": "strategische weiterentwicklung entlang der steigenden nachfr",
+       "edsText": "strategische weiterentwicklung entlang der steigenden nachfr",
+       "byPosition": false,
+       "origin": {
+        "x": 32,
+        "y": 200,
+        "w": 264,
+        "h": 168
+       },
+       "eds": {
+        "x": 32,
+        "y": 200,
+        "w": 264,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 12504,
+       "w": 328,
+       "h": 393
+      },
+      "eds": {
+       "x": 16,
+       "y": 12472,
+       "w": 328,
+       "h": 393
+      },
+      "dx": 0,
+      "dy": -32,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 9,
+  "within": 38,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

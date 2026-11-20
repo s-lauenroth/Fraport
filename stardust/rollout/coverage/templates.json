@@ -1,0 +1,233 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-19T18:16:11.846Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-20T00:19:52.071Z",
+  "templates": [
+    {
+      "id": "content-page",
+      "representativeSlug": "de-investoren-fraport-aktie",
+      "pages": [
+        "de-investoren-fraport-aktie",
+        "de-investoren-publikationen-termine",
+        "de-konzern-regionales-engagement",
+        "de-konzern-ueber-uns",
+        "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+        "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+        "de-nachhaltigkeit",
+        "de-nachhaltigkeit-umwelt-und-klimaschutz",
+        "de-nachhaltigkeit-unternehmensfuehrung",
+        "de-newsroom-ansprechpartner"
+      ],
+      "pageCount": 10,
+      "blocks": [],
+      "delivery": {
+        "verified": 10,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de",
+      "representativeSlug": "de",
+      "pages": [
+        "de"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "anchor-list",
+        "columns",
+        "cta",
+        "hero",
+        "key-figures",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "text-media",
+        "tiles"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-konzern",
+      "representativeSlug": "de-konzern",
+      "pages": [
+        "de-konzern"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "breadcrumb",
+        "cards",
+        "columns",
+        "hero",
+        "image-gallery-tiles",
+        "link-box",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "testimonial"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-konzern-konzernstrategie",
+      "representativeSlug": "de-konzern-konzernstrategie",
+      "pages": [
+        "de-konzern-konzernstrategie"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "accordion",
+        "breadcrumb",
+        "columns",
+        "cta",
+        "hero",
+        "image",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "text-media"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-newsroom",
+      "representativeSlug": "de-newsroom",
+      "pages": [
+        "de-newsroom"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "anchor-list",
+        "audio-player",
+        "breadcrumb",
+        "cards",
+        "columns",
+        "cta",
+        "embed",
+        "hero",
+        "image",
+        "key-figures",
+        "link-box",
+        "milestones",
+        "newsroom-feed",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "text-media"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "de-newsroom-pressemitteilung",
+      "representativeSlug": "de-newsroom-pressemitteilung",
+      "pages": [
+        "de-newsroom-pressemitteilung"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cta",
+        "news-list"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "feature-hub",
+      "representativeSlug": "de-geschaeftsfelder-international-activities",
+      "pages": [
+        "de-geschaeftsfelder-international-activities",
+        "de-konzern-digitalisierung"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "home",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "news-listing",
+      "representativeSlug": "de-newsroom-servicenews",
+      "pages": [
+        "de-newsroom-servicenews"
+      ],
+      "pageCount": 1,
+      "blocks": [],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "section-landing",
+      "representativeSlug": "de-geschaeftsfelder",
+      "pages": [
+        "de-geschaeftsfelder",
+        "de-geschaeftsfelder-betrieb",
+        "de-geschaeftsfelder-service",
+        "de-investoren",
+        "de-konzern-managementsysteme",
+        "de-nachhaltigkeit-wertschaffung"
+      ],
+      "pageCount": 6,
+      "blocks": [],
+      "delivery": {
+        "verified": 6,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

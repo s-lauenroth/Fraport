@@ -1,0 +1,19 @@
+{
+  "runtime": "vanilla-eds",
+  "detectedFrom": ["scripts/scripts.js", "scripts/aem.js"],
+  "detectedAt": "2026-11-19",
+  "blockWrapperClass": "block",
+  "blockDom": "div.section.<name>-container > div.<name>-wrapper > div.<name>.block[data-block-name]; default content in div.default-content-wrapper",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "buttonMapping": "strong = primary (frach-e-button--primary), em = secondary (--secondary), strong+em = accent (--tertiary with arrow); canon .button--* classes kept for block JS",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionMetadata": "server-rendered (aem.js decorateSections reads no section-metadata table); style values arrive as section classes",
+  "cellNormalization": "wrapTextNodes folds non-block-level first children into one <p>",
+  "autoBlocks": ["fragments (/fragments/ links)", "widget (/widgets/ links)"],
+  "chrome": "header/footer blocks load /nav and /footer fragments (nav/footer metadata override)",
+  "fonts": "styles/fonts.css via loadFonts() (desktop >= 900px eager, always in loadLazy); metric fallbacks in styles/styles.css",
+  "breakpoints": [480, 720, 960, 1280, 1440],
+  "documentLang": "de (en for /en paths), set in loadEager"
+}

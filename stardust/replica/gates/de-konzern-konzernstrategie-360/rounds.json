@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:18:44.696Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:22:12.077Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T17:28:11.632Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 confirmation: pixel PASS, content-diff 0/0, clip 0, overflow ok; residuals = arrow/chevron icons are CSS masks vs live inline svg (unit-geometry 'missing' svg), shared-canon header icon/footer region chrome-parity deltas identical to home",
+          "at": "2026-11-19T17:28:46.929Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T20-53-00-200Z",
+          "at": "2026-11-19T20:53:00.200Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T20-55-31-845Z",
+          "at": "2026-11-19T20:55:31.846Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

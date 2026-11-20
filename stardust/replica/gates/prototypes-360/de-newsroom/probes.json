@@ -1,0 +1,56 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T18:13:15.920Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 32,
+   "textNodes": 155,
+   "controls": 79,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.milestones__nav",
+    "path": "div.milestones-wrapper > div.milestones.milestones--grey > div.milestones__nav > div.milestones__item",
+    "text": "tv & filme",
+    "cutMin": 27,
+    "cutMax": 27
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.milestones__nav",
+    "path": "div.milestones.milestones--grey > div.milestones__nav > div.milestones__item > h4.milestones__label.h6",
+    "text": "tv & filme",
+    "cutMin": 27,
+    "cutMax": 27
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 18,
+   "within": 58,
+   "off": 1,
+   "hidden": 0,
+   "missing": 6,
+   "errors": 0,
+   "requiredOff": 7
+  },
+  "required": true
+ }
+}

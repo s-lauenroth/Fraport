@@ -1,0 +1,811 @@
+[live-session] waiting to pace live navigations to www.fraport.com (7500 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/de-newsroom-pressemitteilung-1440/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE: <h2> "Fraport-Verkehrszahlen im Oktobe" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Neunmonatsbilanz: Auslandsgeschä" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Gate A16 wird zum Testfeld für d" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Neue Ziele im Winterflugplan ab " is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Bund fördert emissionsfreie Bode" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport-Verkehrszahlen im Septem" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Herbstferien sorgen für mehr Bet" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport-Verkehrszahlen im August" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Bau des Multi-Tenant-Neubaus „Lo" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport Brasil S.A. Aeroporto de" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "EcoTow: Fraport nimmt vollelektr" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport-Verkehrszahlen im Juli 2" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport-Konzern legt operativ im" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport-Verkehrszahlen im Juni 2" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Start der Sommerferien in Hessen" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Wechsel an der Spitze der Frapor" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Neue Sky Line-Bahn am Flughafen " is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport-Verkehrszahlen im Mai 20" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fluglärmkommission Frankfurt bef" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Terminal 2 am Flughafen Frankfur" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h2> "Fraport öffnet Bewerbungsportal:" is 20px Liberation Sans in build vs 20px fraport-sans-semi-bold in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Bitte entschuldigen Sie!" is 40px Liberation Sans in build vs 40px fraport-sans-semi-bold-italic in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • HEADING FACE: <h3> "Wir bitten um Entschuldigung!" is 40px Liberation Sans in build vs 40px fraport-sans-semi-bold-italic in source. A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5508,
+  "textLen": 9982,
+  "images": [],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Oktobe",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Neunmonatsbilanz: Auslandsgeschä",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gate A16 wird zum Testfeld für d",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Neue Ziele im Winterflugplan ab ",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bund fördert emissionsfreie Bode",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Septem",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Herbstferien sorgen für mehr Bet",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im August",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bau des Multi-Tenant-Neubaus „Lo",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport Brasil S.A. Aeroporto de",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "EcoTow: Fraport nimmt vollelektr",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Juli 2",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Konzern legt operativ im",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Juni 2",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Start der Sommerferien in Hessen",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wechsel an der Spitze der Frapor",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Neue Sky Line-Bahn am Flughafen ",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Mai 20",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fluglärmkommission Frankfurt bef",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Terminal 2 am Flughafen Frankfur",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport öffnet Bewerbungsportal:",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "fraport-sans-semi-bold",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bitte entschuldigen Sie!",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wir bitten um Entschuldigung!",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "frach-grid-col-mq1-12",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 869,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 957,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   },
+   {
+    "sel": "frach-e-search-result",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "frach-e-search-result__wrapper",
+    "width": 1038,
+    "left": 65
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5413,
+  "textLen": 9943,
+  "images": [
+   {
+    "src": "adobestock_820224120_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "keyvisual_connecting-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_859160446_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb_20220228_02901-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "fraport-verkehrszahlen-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb290615_007-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_03_2023_m__1020-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_494618834_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "infofilme-687x386.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_20170614__m__9773-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-01-2026_11_12_pm_fraport-verkehrszahlen-im-oktober-20-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-02-2026_11_04_pm_fraport-konzern-zwischenbericht-9m-2-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-03-261027_a16_0101-16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-04-flight-information-screen-terminal-3-16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-05-emissionsfreie-bodenstromversorgung_1920x1080-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-06-2026_10_13_pm_fraport-verkehrszahlen-im-september--478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-07-terminal-3-16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-08-2026_09_11_pm_fraport-verkehrszahlen-im-august-202-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-09-2026_09_04_pm_update-logispace-im-taubengrund_16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-10-jericoacoara-airport-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-11-2026_08_21_pm_ecotow1-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-12-2026_08_13_pm_fraport-verkehrszahlen-im-juli-2026--478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-13-2025_05_13_pr_fraport-interim-release_first-quarte-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-14-2026_07_13_pm_fraport-verkehrszahlen-im-juni-2026-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-15-2026_06_22_pm_start-der-sommerferien-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-16-reb_20240131_1783-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-17-sky_line_bahn_fra-16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-18-2026_06_12_pm_fraport-verkehrszahlen-im-juni-2026--478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-19-2026_05_06_pm_weiterentwickeltes-betriebskonzept-a-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-20-terminal-2_au-enansicht-16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nl-21-ausbildung-technik-16-9-478.jpg",
+    "natural": "474x267",
+    "rendered": "240x135",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "75_jahre_feuerwehr_1920x1080-orig.jpg",
+    "natural": "1920x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Oktobe",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Neunmonatsbilanz: Auslandsgeschä",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Gate A16 wird zum Testfeld für d",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Neue Ziele im Winterflugplan ab ",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bund fördert emissionsfreie Bode",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Septem",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Herbstferien sorgen für mehr Bet",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im August",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bau des Multi-Tenant-Neubaus „Lo",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport Brasil S.A. Aeroporto de",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "EcoTow: Fraport nimmt vollelektr",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Juli 2",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Konzern legt operativ im",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Juni 2",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Start der Sommerferien in Hessen",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Wechsel an der Spitze der Frapor",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Neue Sky Line-Bahn am Flughafen ",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport-Verkehrszahlen im Mai 20",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fluglärmkommission Frankfurt bef",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Terminal 2 am Flughafen Frankfur",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport öffnet Bewerbungsportal:",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Bitte entschuldigen Sie!",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Wir bitten um Entschuldigung!",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "75 Jahre Flughafenfeuerwehr",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "news-list__body",
+    "width": 869,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 957,
+    "left": 33
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   },
+   {
+    "sel": "news-list__item",
+    "width": 1408,
+    "left": 0
+   },
+   {
+    "sel": "news-list__body",
+    "width": 1070,
+    "left": 33
+   }
+  ]
+ }
+}

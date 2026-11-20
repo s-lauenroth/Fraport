@@ -1,0 +1,350 @@
+{
+  "a": "stardust/replica/gates/de-newsroom-360/live.png",
+  "b": "stardust/replica/gates/de-newsroom-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 12499,
+    "mode": "overlap"
+  },
+  "heightDelta": -41,
+  "differingPixels": 934085,
+  "pct": 20.82,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/de-newsroom-360/diff-iter2.png",
+  "masks": [
+    {
+      "yA": 5512,
+      "h": 36,
+      "yB": 5512
+    }
+  ],
+  "maskedRows": 36,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 48.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.5
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.7
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 0.9
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 0.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 0
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 6.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 22.4
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 26.5
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 20.1
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 22.6
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 54.1
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 19.1
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 62.4
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 74.7
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 19.7
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 42.2
+    },
+    {
+      "y0": 10500,
+      "y1": 11000,
+      "pct": 37.8
+    },
+    {
+      "y0": 11000,
+      "y1": 11500,
+      "pct": 38.5
+    },
+    {
+      "y0": 11500,
+      "y1": 12000,
+      "pct": 11.5
+    },
+    {
+      "y0": 12000,
+      "y1": 12499,
+      "pct": 7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.33,
+    "differingPixels": 149935,
+    "compared": {
+      "width": 360,
+      "height": 12515,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 5559,
+        "shift": 36,
+        "cumulative": 36
+      },
+      {
+        "y": 6524,
+        "shift": 16,
+        "cumulative": 52
+      },
+      {
+        "y": 8552,
+        "shift": -10,
+        "cumulative": 42
+      },
+      {
+        "y": 11170,
+        "shift": -1,
+        "cumulative": 41
+      }
+    ],
+    "maxOffset": 52,
+    "totalShift": 63,
+    "insertedRows": 52,
+    "deletedRows": 11,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 48.9,
+        "unaligned": 48.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 6.7,
+        "unaligned": 6.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 7.2,
+        "unaligned": 22.4
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 1.3,
+        "unaligned": 26.5
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 3.3,
+        "unaligned": 20.1
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.8,
+        "unaligned": 22.6
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 0.5,
+        "unaligned": 54.1
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 0.8,
+        "unaligned": 19.1
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 3.3,
+        "unaligned": 62.4
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 0.7,
+        "unaligned": 74.7
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 1.2,
+        "unaligned": 19.7
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 0,
+        "unaligned": 42.2
+      },
+      {
+        "y0": 10500,
+        "y1": 11000,
+        "pct": 1.1,
+        "unaligned": 37.8
+      },
+      {
+        "y0": 11000,
+        "y1": 11500,
+        "pct": 1.4,
+        "unaligned": 38.5
+      },
+      {
+        "y0": 11500,
+        "y1": 12000,
+        "pct": 0,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 12000,
+        "y1": 12499,
+        "pct": 1.4,
+        "unaligned": 7
+      }
+    ],
+    "diff": "stardust/replica/gates/de-newsroom-360/diff-iter2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 63,
+    "pass": false
+  },
+  "reason": "offsets: 4 step(s), 63px total — +36px at y=5559, +16px at y=6524, −10px at y=8552, −1px at y=11170 (bound 8px)"
+}

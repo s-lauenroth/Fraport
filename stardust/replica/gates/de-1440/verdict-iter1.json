@@ -1,0 +1,108 @@
+{
+  "round": "iter1",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/de-1440/diff-iter1.png",
+    "json": "stardust/replica/gates/de-1440/pixel-iter1.json",
+    "pct": 21.63,
+    "alignedPct": 9.22,
+    "alignedUsed": true,
+    "totalShift": 425,
+    "steps": [
+      {
+        "y": 852,
+        "shift": -15,
+        "cumulative": -15
+      },
+      {
+        "y": 1829,
+        "shift": 46,
+        "cumulative": 31
+      },
+      {
+        "y": 2585,
+        "shift": 64,
+        "cumulative": 95
+      },
+      {
+        "y": 3564,
+        "shift": 34,
+        "cumulative": 129
+      },
+      {
+        "y": 3968,
+        "shift": -34,
+        "cumulative": 95
+      },
+      {
+        "y": 5255,
+        "shift": 64,
+        "cumulative": 159
+      },
+      {
+        "y": 5501,
+        "shift": -64,
+        "cumulative": 95
+      },
+      {
+        "y": 5829,
+        "shift": -10,
+        "cumulative": 85
+      },
+      {
+        "y": 6745,
+        "shift": -10,
+        "cumulative": 75
+      },
+      {
+        "y": 7080,
+        "shift": -40,
+        "cumulative": 35
+      },
+      {
+        "y": 7261,
+        "shift": -38,
+        "cumulative": -3
+      },
+      {
+        "y": 7929,
+        "shift": -6,
+        "cumulative": -9
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 12 step(s), 425px total — −15px at y=852, +46px at y=1829, +64px at y=2585, +34px at y=3564, −34px at y=3968, +64px at y=5255, … 6 more (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T16:53:46.171Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-1440/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 1,
+      "evidence": "stardust/replica/gates/de-1440/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/de-1440/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-1440/clip-iter1.txt"
+    }
+  },
+  "structural": 3,
+  "nothingLost": 3,
+  "at": "2026-11-19T16:55:42.253Z"
+}

@@ -1,0 +1,124 @@
+origin: cached de-newsroom-360-units (2026-11-19T18:04:54.315Z)
+unit-geometry @ 360px, tol 4px — https://www.fraport.com/de/newsroom.html vs http://localhost:8791/de-newsroom-proposed.html
+unit 1 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,11224 328×154 vs served 16,11224 328×154 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "standort , beratung" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "aerodrome manual fraport ag" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "aerodrome manual fraport ag" | 0,57 254×24 | 0,57 254×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 2 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,11378 328×387 vs served 16,11378 328×387 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 5 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "globe with economic growth lines, ab" | 0,24 329×185 | 0,24 328×185 | 0 | 0 | -1 | 0 | ✓ |
+| text "betrieb , partner , konzern , untern" | 0,233 328×48 | 0,233 328×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "digitalisierung und digital factory" | 0,289 328×26 | 0,289 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "digitalisierung und digital factory" | 0,290 286×24 | 0,290 286×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,339 65×24 | 0,339 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,343 16×16 | — | | | | | ✗ missing |
+unit 3 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,11765 328×178 vs served 16,11764 328×178 → Δx 0 Δy -1 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "konzern , unsere flughäfen , interna" | 0,24 328×48 | 0,24 328×48 | 0 | 0 | 0 | 0 | ✓ |
+| heading "flughafen ljubljana" | 0,80 328×26 | 0,80 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "flughafen ljubljana" | 0,81 167×24 | 0,81 167×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,130 65×24 | 0,130 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,134 16×16 | — | | | | | ✗ missing |
+unit 4 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,11943 328×154 vs served 16,11942 328×154 → Δx 0 Δy -1 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "betrieb , besucher , anwohner" | 0,24 328×24 | 0,24 328×24 | 0 | 0 | 0 | 0 | ✓ |
+| heading "luftqualität" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "luftqualität" | 0,57 101×24 | 0,57 101×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 1 of image-card (required) main .frach-m-card=.cards .card: origin 16,922 328×628 vs served 16,922 328×628 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "12.11.2026 cargo , betrieb , 2026 , " | 0,0 328×628 | 0,0 328×628 | 0 | 0 | 0 | 0 | ✓ |
+| image "frachtbeladung tuerkish airlines" | 0,0 328×328 | 0,0 328×328 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.frach-m-card__date#1" | 16,288 113×56 | 16,288 113×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "12.11.2026" | 32,305 81×21 | 32,305 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "cargo , betrieb , 2026 , verkehrszah" | 16,382 296×72 | 16,382 296×72 | 0 | 0 | 0 | 0 | ✓ |
+| heading "fraport-verkehrszahlen im oktober 20" | 16,478 296×120 | 16,478 296×120 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of image-card (required) main .frach-m-card=.cards .card: origin 16,1550 328×592 vs served 16,1550 328×592 → Δx 0 Δy 0 Δw 0 Δh 0; 6 elements: 6 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| link "05.11.2026 airport retail , gastrono" | 0,0 328×592 | 0,0 328×592 | 0 | 0 | 0 | 0 | ✓ |
+| image "diwali am flughafen frankfurt: indis" | 0,0 328×328 | 0,0 328×328 | 0 | 0 | 0 | 0 | ✓ |
+| box "box:div.frach-m-card__date#1" | 16,288 113×56 | 16,288 113×56 | 0 | 0 | 0 | 0 | ✓ |
+| text "05.11.2026" | 32,305 81×21 | 32,305 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "airport retail , gastronomie , termi" | 16,382 296×96 | 16,382 296×96 | 0 | 0 | 0 | 0 | ✓ |
+| heading "diwali-kampagne schafft besondere ei" | 16,502 296×60 | 16,502 296×60 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of newsroom-feed-item (required) .frach-m-teaser-collection__link-box-item=.newsroom-feed__link: origin 16,2244 328×121 vs served 16,2244 328×121 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "04.11.2026" | 24,17 81×21 | 24,17 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "07:00 uhr" | 135,17 70×21 | 127,17 70×21 | -8 | 0 | 0 | 0 | ✗ |
+| text "neunmonatsbilanz: auslandsgeschäft s" | 24,56 280×48 | 24,56 280×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of newsroom-feed-item (required) .frach-m-teaser-collection__link-box-item=.newsroom-feed__link: origin 16,2365 328×121 vs served 16,2365 328×121 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "27.10.2026" | 24,17 81×21 | 24,17 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "14:00 uhr" | 135,17 70×21 | 127,17 70×21 | -8 | 0 | 0 | 0 | ✗ |
+| text "gate a16 wird zum testfeld für die z" | 24,56 280×48 | 24,56 280×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of newsroom-feed-item (required) .frach-m-teaser-collection__link-box-item=.newsroom-feed__link: origin 16,2486 328×121 vs served 16,2486 328×121 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "20.10.2026" | 24,17 81×21 | 24,17 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "10:00 uhr" | 135,17 70×21 | 127,17 70×21 | -8 | 0 | 0 | 0 | ✗ |
+| text "neue ziele im winterflugplan ab fran" | 24,56 280×48 | 24,56 280×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of newsroom-feed-item (required) .frach-m-teaser-collection__link-box-item=.newsroom-feed__link: origin 16,2607 328×121 vs served 16,2607 328×121 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "16.10.2026" | 24,17 81×21 | 24,17 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "07:00 uhr" | 135,17 70×21 | 127,17 70×21 | -8 | 0 | 0 | 0 | ✗ |
+| text "bund fördert emissionsfreie bodenstr" | 24,56 280×48 | 24,56 280×48 | 0 | 0 | 0 | 0 | ✓ |
+unit 5 of newsroom-feed-item (required) .frach-m-teaser-collection__link-box-item=.newsroom-feed__link: origin 16,2728 328×145 vs served 16,2728 328×145 → Δx 0 Δy 0 Δw 0 Δh 0; 3 elements: 2 within 4px, 1 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "13.10.2026" | 24,17 81×21 | 24,17 81×21 | 0 | 0 | 0 | 0 | ✓ |
+| text "07:00 uhr" | 135,17 70×21 | 127,17 70×21 | -8 | 0 | 0 | 0 | ✗ |
+| text "fraport-verkehrszahlen im september " | 24,56 280×72 | 24,56 280×72 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of milestone-marker (required) .frach-m-milestones__item=.milestones__item: origin 136,6416 88×102 vs served 136,6416 88×102 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.frach-m-milestones__item--ma" ≈ "" (by position) | 27,0 34×34 | 27,0 34×34 | 0 | 0 | 0 | 0 | ✓ |
+| heading "bilder" | 20,50 49×26 | 20,50 49×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of milestone-marker (required) .frach-m-milestones__item=.milestones__item: origin 299,6416 88×102 vs served 299,6416 88×102 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 2 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| box "box:div.frach-m-milestones__item--ma" ≈ "" (by position) | 27,0 34×34 | 27,0 34×34 | 0 | 0 | 0 | 0 | ✓ |
+| heading "tv & filme" | 0,50 87×26 | 0,50 87×26 | 0 | 0 | 0 | 0 | ✓ |
+unit 1 of milestone-slide (required) frach-m-milestones .frach-m-slider__slide=.milestones__slide: origin 0,6534 360×947 vs served 0,6534 360×947 → Δx 0 Δy 0 Δw 0 Δh 0; 9 elements: 6 within 4px, 1 off, 0 hidden, 2 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "bilddatenbank / wallpapers@fra" | 32,0 296×88 | 32,0 296×88 | 0 | 0 | 0 | 0 | ✓ |
+| image "wallpaper newsroom" | 32,112 297×167 | 32,112 296×167 | 0 | 0 | -1 | 0 | ✓ |
+| heading "in unserer bilddatenbank stellen wir" | 32,303 296×90 | 32,303 296×90 | 0 | 0 | 0 | 0 | ✓ |
+| text "unsere bilddatenbank bietet ihnen bi" | 32,409 296×192 | 32,409 296×192 | 0 | 0 | 0 | 0 | ✓ |
+| text "können sie kein passendes bildmateri" | 32,611 296×72 | 32,611 296×72 | 0 | 0 | 0 | 0 | ✓ |
+| link "fraport-fototeam" | 32,636 288×45 | 32,659 150×24 | 0 | +23 | -138 | -21 | ✗ |
+| link "zur bilddatenbank" | 32,693 272×52 | 32,693 272×52 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,635 16×24 | — | | | | | ✗ missing |
+| image "image:svg#2" | 236,711 16×16 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-mail#1" | — | 32,659 16×24 | | | | | 🟡 extra |
+unit 1 of video-embed (required) #dokuserien_und_reportagen frach-m-embed=.embed--video: origin 16,7935 328×407 vs served 16,7935 328×407 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "youtube video" | 0,0 328×400 | 0,0 328×400 | 0 | 0 | 0 | 0 | ✓ |
+unit 2 of video-embed (required) #dokuserien_und_reportagen frach-m-embed=.embed--video: origin 16,8924 328×297 vs served 16,8924 328×297 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "youtube video" | 0,0 328×290 | 0,0 328×290 | 0 | 0 | 0 | 0 | ✓ |
+unit 3 of video-embed (required) #dokuserien_und_reportagen frach-m-embed=.embed--video: origin 16,9253 328×297 vs served 16,9253 328×297 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "youtube video" | 0,0 328×290 | 0,0 328×290 | 0 | 0 | 0 | 0 | ✓ |
+unit 4 of video-embed (required) #dokuserien_und_reportagen frach-m-embed=.embed--video: origin 16,9582 328×297 vs served 16,9582 328×297 → Δx 0 Δy 0 Δw 0 Δh 0; 1 elements: 1 within 4px, 0 off, 0 hidden, 0 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "youtube video" | 0,0 328×290 | 0,0 328×290 | 0 | 0 | 0 | 0 | ✓ |
+Units: 18 compared; elements within 53, off 6, hidden 0, missing 6 → FAIL
+json → stardust/replica/gates/de-newsroom-360/units-iter4.json

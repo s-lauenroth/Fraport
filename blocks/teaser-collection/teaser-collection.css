@@ -1,0 +1,114 @@
+/* teaser-collection (frach-m-teaser-collection card-view): shadowed list of linked news rows */
+.teaser-collection .teaser-collection-list {
+  position: relative;
+  background-color: var(--white);
+  box-shadow: 0 0 16px 0 #b5babd;
+}
+
+.teaser-collection .teaser-collection-item {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 32px;
+  border-bottom: 1px solid var(--grey-200);
+  color: inherit;
+  text-decoration: none;
+}
+
+.teaser-collection .teaser-collection-item:hover {
+  background: #edeeef;
+}
+
+.teaser-collection .teaser-collection-image {
+  display: none;
+}
+
+.teaser-collection .teaser-collection-image :is(p, picture) {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.teaser-collection .teaser-collection-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teaser-collection .teaser-collection-text {
+  display: flex;
+  flex-direction: column;
+  color: var(--grey-600);
+}
+
+.teaser-collection .teaser-collection-text p {
+  margin: 0;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.teaser-collection .teaser-collection-date {
+  margin-bottom: 16px;
+  color: var(--grey-600);
+}
+
+.teaser-collection .teaser-collection-date p {
+  display: inline;
+}
+
+.teaser-collection .teaser-collection-sep::before {
+  content: "•";
+  margin: 0 8px;
+}
+
+.teaser-collection .teaser-collection-headline p {
+  color: var(--primary-500);
+  font-family: var(--ff-semibold);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.teaser-collection .teaser-collection-description {
+  margin-top: 16px;
+}
+
+.teaser-collection .teaser-collection-ctas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.teaser-collection .teaser-collection-ctas p {
+  margin: 0 0 16px;
+}
+
+.teaser-collection .teaser-collection-ctas a.button:any-link {
+  margin: 0;
+}
+
+@media (width >= 720px) {
+  .teaser-collection .teaser-collection-ctas {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .teaser-collection .teaser-collection-ctas p:not(:last-child) {
+    margin-right: 24px;
+  }
+}
+
+@media (width >= 960px) {
+  .teaser-collection .teaser-collection-image {
+    display: block;
+    flex-shrink: 0;
+    width: 134px;
+    height: 134px;
+    margin-right: 32px;
+  }
+
+  .teaser-collection .teaser-collection-headline p {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}

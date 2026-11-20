@@ -1,0 +1,1918 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:14:42.788Z",
+  "tol": 4,
+  "n": 5,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+  "at": "2026-11-19T21:58:23.096Z",
+  "docH": 5638
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities",
+  "at": "2026-11-19T23:14:42.658Z",
+  "docH": 5638
+ },
+ "results": [
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 4,
+   "edsMatches": 4,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:memoria lap 2025-650.jpg",
+       "role": "image",
+       "text": "memoria lap 2025-650.jpg",
+       "edsText": "memoria lap 2025-650.jpg",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 395,
+        "h": 222
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 395,
+        "h": 222,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:flughafen lima",
+       "role": "heading",
+       "text": "flughafen lima",
+       "edsText": "flughafen lima",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 350,
+        "w": 395,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 350,
+        "w": 395,
+        "h": 30,
+        "sel": "h3#flughafen-lima-1",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:flughafen lima",
+       "role": "link",
+       "text": "flughafen lima",
+       "edsText": "flughafen lima",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 351,
+        "w": 144,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 351,
+        "w": 144,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:erfahren sie mehr über das wachsende und",
+       "role": "text",
+       "text": "erfahren sie mehr über das wachsende und preisgekrönte perua",
+       "edsText": "erfahren sie mehr über das wachsende und preisgekrönte perua",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 396,
+        "w": 395,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 396,
+        "w": 395,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 503,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 503,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 507,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 507,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 395,
+       "h": 222,
+       "absY": 4441,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 310,
+       "w": 395,
+       "h": 24,
+       "absY": 4687,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 64,
+       "y": 4377,
+       "w": 395,
+       "h": 591
+      },
+      "eds": {
+       "x": 64,
+       "y": 4377,
+       "w": 395,
+       "h": 591
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:microsoftteams-image (66).png",
+       "role": "image",
+       "text": "microsoftteams-image (66).png",
+       "edsText": "microsoftteams-image (66).png",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 222
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 221,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:flughafen antalya",
+       "role": "heading",
+       "text": "flughafen antalya",
+       "edsText": "flughafen antalya",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 349,
+        "w": 394,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 349,
+        "w": 394,
+        "h": 30,
+        "sel": "h3#flughafen-antalya-1",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:flughafen antalya",
+       "role": "link",
+       "text": "flughafen antalya",
+       "edsText": "flughafen antalya",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 350,
+        "w": 170,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 350,
+        "w": 170,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die türkische riviera, die zum verweilen",
+       "role": "text",
+       "text": "die türkische riviera, die zum verweilen einlädt: erfahren s",
+       "edsText": "die türkische riviera, die zum verweilen einlädt: erfahren s",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 395,
+        "w": 394,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 395,
+        "w": 394,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 502,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 502,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 506,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 506,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 221,
+       "absY": 4441,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 309,
+       "w": 394,
+       "h": 24,
+       "absY": 4686,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 524,
+       "y": 4377,
+       "w": 394,
+       "h": 590
+      },
+      "eds": {
+       "x": 524,
+       "y": 4377,
+       "w": 394,
+       "h": 590
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:consulting",
+       "role": "text",
+       "text": "consulting",
+       "edsText": "consulting",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:orat – operational readiness and airport",
+       "role": "heading",
+       "text": "orat – operational readiness and airport transfer",
+       "edsText": "orat – operational readiness and airport transfer",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 60
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 60,
+        "sel": "h3#orat--operational-readiness-and-airport-transfer",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:orat – operational readiness and airport",
+       "role": "link",
+       "text": "orat – operational readiness and airport transfer",
+       "edsText": "orat – operational readiness and airport transfer",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 391,
+        "h": 57
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 391,
+        "h": 57,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die eröffnung eines neuen flughafens, ei",
+       "role": "text",
+       "text": "die eröffnung eines neuen flughafens, eines terminals oder e",
+       "edsText": "die eröffnung eines neuen flughafens, eines terminals oder e",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 394,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 180,
+        "w": 394,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 263,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 263,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 267,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 267,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 982,
+       "y": 4377,
+       "w": 394,
+       "h": 351
+      },
+      "eds": {
+       "x": 982,
+       "y": 4377,
+       "w": 394,
+       "h": 351
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:bau",
+       "role": "text",
+       "text": "bau",
+       "edsText": "bau",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:terminal 3",
+       "role": "heading",
+       "text": "terminal 3",
+       "edsText": "terminal 3",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 30,
+        "sel": "h3#terminal-3",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:terminal 3",
+       "role": "link",
+       "text": "terminal 3",
+       "edsText": "terminal 3",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 97,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 97,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:am frankfurter flughafen wird ein neues ",
+       "role": "text",
+       "text": "am frankfurter flughafen wird ein neues stück zukunft gebaut",
+       "edsText": "am frankfurter flughafen wird ein neues stück zukunft gebaut",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 150,
+        "w": 394,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 150,
+        "w": 394,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 233,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 233,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 237,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 237,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 982,
+       "y": 4728,
+       "w": 394,
+       "h": 321
+      },
+      "eds": {
+       "x": 982,
+       "y": 4728,
+       "w": 394,
+       "h": 321
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-pictogram-key-figures__item=.pictogram-key-figures .pictogram-key-figures-item",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section"
+     },
+     "eds": {
+      "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-items > div.pictogram-key-figures-item"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-m-pictogram-key-figures__item-pictogram#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 16,
+        "w": 200,
+        "h": 146
+       },
+       "eds": {
+        "x": 113,
+        "y": 16,
+        "w": 200,
+        "h": 146,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:120.698.214",
+       "role": "text",
+       "text": "120.698.214",
+       "edsText": "120.698.214",
+       "byPosition": false,
+       "origin": {
+        "x": 55,
+        "y": 176,
+        "w": 316,
+        "h": 76
+       },
+       "eds": {
+        "x": 55,
+        "y": 176,
+        "w": 316,
+        "h": 76,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "56/72/400",
+        "eds": "56/72/400"
+       }
+      },
+      {
+       "key": "box:hr.frach-m-pictogram-key-figures__separator#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 16,
+        "y": 266,
+        "w": 394,
+        "h": 1
+       },
+       "eds": {
+        "x": 16,
+        "y": 266,
+        "w": 394,
+        "h": 1,
+        "sel": "div.pictogram-key-figures-separator",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:passagiere in 2025 (exkl. fra)",
+       "role": "text",
+       "text": "passagiere in 2025 (exkl. fra)",
+       "edsText": "passagiere in 2025 (exkl. fra)",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 283,
+        "w": 394,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 283,
+        "w": 394,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:div.frach-m-pictogram-key-figures__percentage#1",
+       "role": "button",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 323,
+        "w": 394,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 323,
+        "w": 394,
+        "h": 16,
+        "sel": "div.pictogram-key-figures-percentage",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 323,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 26,
+        "y": 323,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 113,
+       "y": 16,
+       "w": 200,
+       "h": 146,
+       "absY": 1142,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 48,
+       "y": 1126,
+       "w": 426,
+       "h": 377
+      },
+      "eds": {
+       "x": 48,
+       "y": 1126,
+       "w": 426,
+       "h": 377
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section"
+     },
+     "eds": {
+      "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-items > div.pictogram-key-figures-item"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-m-pictogram-key-figures__item-pictogram#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 16,
+        "w": 200,
+        "h": 146
+       },
+       "eds": {
+        "x": 113,
+        "y": 16,
+        "w": 200,
+        "h": 146,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:29",
+       "role": "text",
+       "text": "29",
+       "edsText": "29",
+       "byPosition": false,
+       "origin": {
+        "x": 181,
+        "y": 176,
+        "w": 65,
+        "h": 76
+       },
+       "eds": {
+        "x": 181,
+        "y": 176,
+        "w": 65,
+        "h": 76,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "56/72/400",
+        "eds": "56/72/400"
+       }
+      },
+      {
+       "key": "box:hr.frach-m-pictogram-key-figures__separator#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 16,
+        "y": 266,
+        "w": 394,
+        "h": 1
+       },
+       "eds": {
+        "x": 16,
+        "y": 266,
+        "w": 394,
+        "h": 1,
+        "sel": "div.pictogram-key-figures-separator",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:internationale flughäfen (exkl. fra)",
+       "role": "text",
+       "text": "internationale flughäfen (exkl. fra)",
+       "edsText": "internationale flughäfen (exkl. fra)",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 283,
+        "w": 394,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 283,
+        "w": 394,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "button:div.frach-m-pictogram-key-figures__percentage#1",
+       "role": "button",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 323,
+        "w": 394,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 323,
+        "w": 394,
+        "h": 16,
+        "sel": "div.pictogram-key-figures-percentage",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 26,
+        "y": 323,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 26,
+        "y": 323,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 113,
+       "y": 16,
+       "w": 200,
+       "h": 146,
+       "absY": 1142,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 506,
+       "y": 1126,
+       "w": 426,
+       "h": 377
+      },
+      "eds": {
+       "x": 506,
+       "y": 1126,
+       "w": 426,
+       "h": 377
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section"
+     },
+     "eds": {
+      "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-items > div.pictogram-key-figures-item"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-m-pictogram-key-figures__item-pictogram#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 113,
+        "y": 16,
+        "w": 200,
+        "h": 146
+       },
+       "eds": {
+        "x": 113,
+        "y": 16,
+        "w": 200,
+        "h": 146,
+        "sel": "picture",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:0",
+       "role": "text",
+       "text": "0",
+       "edsText": "0",
+       "byPosition": false,
+       "origin": {
+        "x": 197,
+        "y": 176,
+        "w": 32,
+        "h": 76
+       },
+       "eds": {
+        "x": 197,
+        "y": 176,
+        "w": 32,
+        "h": 76,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "56/72/400",
+        "eds": "56/72/400"
+       }
+      },
+      {
+       "key": "box:hr.frach-m-pictogram-key-figures__separator#1",
+       "role": "box",
+       "text": "",
+       "edsText": "",
+       "byPosition": true,
+       "origin": {
+        "x": 16,
+        "y": 266,
+        "w": 394,
+        "h": 1
+       },
+       "eds": {
+        "x": 16,
+        "y": 266,
+        "w": 394,
+        "h": 1,
+        "sel": "div.pictogram-key-figures-separator",
+        "role": "box"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:treibhausgas-emissionen bis 2045 (net ze",
+       "role": "text",
+       "text": "treibhausgas-emissionen bis 2045 (net zero)",
+       "edsText": "treibhausgas-emissionen bis 2045 (net zero)",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 283,
+        "w": 394,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 283,
+        "w": 394,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "img",
+       "sel": "img",
+       "text": "",
+       "boxed": false,
+       "x": 113,
+       "y": 16,
+       "w": 200,
+       "h": 146,
+       "absY": 1142,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:img#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 964,
+       "y": 1126,
+       "w": 426,
+       "h": 377
+      },
+      "eds": {
+       "x": 964,
+       "y": 1126,
+       "w": 426,
+       "h": 377
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-tab-navigation__tab=.tabbed-content .tabbed-content-tab",
+   "family": null,
+   "required": true,
+   "originMatches": 5,
+   "edsMatches": 5,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "ul.frach-m-tab-navigation__tabs.frach-state-animating > li.frach-m-tab-navigation__tab-item > a#tab-Wer_sind_wir"
+     },
+     "eds": {
+      "path": "ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-wer_sind_wir"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 1567,
+       "w": 127,
+       "h": 36
+      },
+      "eds": {
+       "x": 149,
+       "y": 1567,
+       "w": 127,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "ul.frach-m-tab-navigation__tabs.frach-state-animating > li.frach-m-tab-navigation__tab-item > a#tab-unsere-flughaefen"
+     },
+     "eds": {
+      "path": "ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-unsere-flughaefen"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 278,
+       "y": 1567,
+       "w": 169,
+       "h": 36
+      },
+      "eds": {
+       "x": 278,
+       "y": 1567,
+       "w": 169,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "ul.frach-m-tab-navigation__tabs.frach-state-animating > li.frach-m-tab-navigation__tab-item > a#tab-consulting"
+     },
+     "eds": {
+      "path": "ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-consulting"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 448,
+       "y": 1567,
+       "w": 116,
+       "h": 36
+      },
+      "eds": {
+       "x": 448,
+       "y": 1567,
+       "w": 116,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "ul.frach-m-tab-navigation__tabs.frach-state-animating > li.frach-m-tab-navigation__tab-item > a#tab-News"
+     },
+     "eds": {
+      "path": "ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-news"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 565,
+       "y": 1567,
+       "w": 73,
+       "h": 36
+      },
+      "eds": {
+       "x": 565,
+       "y": 1567,
+       "w": 73,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "ul.frach-m-tab-navigation__tabs.frach-state-animating > li.frach-m-tab-navigation__tab-item > a#tab-Kontakt"
+     },
+     "eds": {
+      "path": "ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-kontakt"
+     },
+     "rows": [],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 639,
+       "y": 1567,
+       "w": 94,
+       "h": 36
+      },
+      "eds": {
+       "x": 639,
+       "y": 1567,
+       "w": 94,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 0,
+      "within": 0,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 40,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

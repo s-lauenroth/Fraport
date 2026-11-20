@@ -1,0 +1,46 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T18:12:43.818Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 5,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 108,
+   "textNodes": 202,
+   "controls": 118,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 5,
+    "clipper": "p.teaser__text",
+    "path": "div.slider__slides > div.slider__slide > div.teaser > p.teaser__text",
+    "text": "die fraport ag gehört zu den international führenden unterne",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 12,
+   "within": 47,
+   "off": 4,
+   "hidden": 0,
+   "missing": 7,
+   "errors": 0,
+   "requiredOff": 11
+  },
+  "required": true
+ }
+}

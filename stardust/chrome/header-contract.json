@@ -1,0 +1,2656 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://www.fraport.com/de.html",
+ "at": "2026-11-19T18:19:55.622Z",
+ "shots": "stardust/.work/chrome/header-contract",
+ "widths": {
+  "390": {
+   "root": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container",
+   "controls": [
+    {
+     "name": "Startseite",
+     "key": "startseite",
+     "role": "link",
+     "kind": "link",
+     "sel": "#header-f8e5e8ed6f-logo",
+     "href": "https://www.fraport.com/de.html",
+     "expanded": null,
+     "rect": [
+      16,
+      0,
+      104,
+      85
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i",
+     "key": "suche img srcetcclientlibsfraportcompanyclientlibsfrachappresourcesi",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#metaNavigation-1fb21bd210-search-button",
+     "expanded": "false",
+     "rect": [
+      254,
+      0,
+      24,
+      85
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Zurücksetzen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/reso",
+         "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i"
+        ],
+        "options": 0,
+        "rect": [
+         4,
+         85,
+         382,
+         80
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 0,
+         "easing": "ease",
+         "target": "frach-m-search.frach-m-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "frach-m-search.frach-m-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 150,
+         "easing": "cubic-bezier(0.2, 0.8, 0.3, 2)",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 150,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        }
+       ],
+       "shot": "390-001-Suche-img-src-etc-clientlibs-fraport-com.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Zurücksetzen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/reso",
+         "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i"
+        ],
+        "options": 0,
+        "rect": [
+         4,
+         85,
+         382,
+         80
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 100,
+         "delay": 0,
+         "easing": "ease",
+         "target": "frach-m-search.frach-m-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 0,
+         "easing": "ease",
+         "target": "frach-m-search.frach-m-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 150,
+         "easing": "cubic-bezier(0.2, 0.8, 0.3, 2)",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 150,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        }
+       ],
+       "shot": "390-002-Suche-img-src-etc-clientlibs-fraport-com.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "input",
+       "kind": "search",
+       "sel": "#search-8e72f11d76>form>input:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        16,
+        105,
+        358,
+        60
+       ],
+       "actions": {},
+       "search": {
+        "probe": "hauptinhalt",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.fraport.com/de/search.html?q={q}&_charset_=UTF-8"
+       }
+      },
+      {
+       "name": "Zurücksetzen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/reso",
+       "key": "zurücksetzen img srcetcclientlibsfraportcompanyclientlibsfrachappreso",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#search-8e72f11d76>form>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        286,
+        115,
+        40,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "hides": 3
+        }
+       }
+      },
+      {
+       "name": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i",
+       "key": "suche img srcetcclientlibsfraportcompanyclientlibsfrachappresourcesi",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#search-8e72f11d76>form>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        326,
+        115,
+        40,
+        40
+       ],
+       "actions": {
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.fraport.com/de/search.html?q=&_charset_=UTF-8"
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+     "key": "deutsch img srcetcclientlibsfraportcompanyclientlibsfrachappresources",
+     "role": "toggle",
+     "kind": "locale",
+     "sel": "#metaNavigation-1fb21bd210-language-switch",
+     "expanded": "false",
+     "rect": [
+      302,
+      0,
+      24,
+      85
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "English",
+          "href": "https://www.fraport.com/en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         86,
+         390,
+         758
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-meta-navigation__link"
+        }
+       ],
+       "shot": "390-003-Deutsch-img-src-etc-clientlibs-fraport-c.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "English",
+          "href": "https://www.fraport.com/en.html"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [],
+        "options": 0,
+        "rect": [
+         0,
+         86,
+         390,
+         758
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-meta-navigation__link"
+        }
+       ],
+       "shot": "390-004-Deutsch-img-src-etc-clientlibs-fraport-c.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": []
+    },
+    {
+     "name": "Menü <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/ic",
+     "key": "menü img srcetcclientlibsfraportcompanyclientlibsfrachappresourcesic",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>button:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      350,
+      0,
+      24,
+      85
+     ],
+     "actions": {
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Startseite",
+          "href": "https://www.fraport.com/de.html"
+         },
+         {
+          "text": "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.svg\" alt",
+          "href": "https://www.fraport.com/de/konzern.html"
+         },
+         {
+          "text": "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.",
+          "href": "https://www.fraport.com/de/geschaeftsfelder.html"
+         },
+         {
+          "text": "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.svg\" ",
+          "href": "https://www.fraport.com/de/investoren.html"
+         },
+         {
+          "text": "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.s",
+          "href": "https://www.fraport.com/de/nachhaltigkeit.html"
+         },
+         {
+          "text": "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.svg\" al",
+          "href": "https://www.fraport.com/de/newsroom.html"
+         },
+         {
+          "text": "Karriere bei Fraport <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-career.sv",
+          "href": "https://www.jobs-fraport.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+         "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r",
+         "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour",
+         "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re",
+         "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource",
+         "International <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/res"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         85,
+         390,
+         759
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        }
+       ],
+       "shot": "390-005-Men-img-src-etc-clientlibs-fraport-compa.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [
+         {
+          "text": "Startseite",
+          "href": "https://www.fraport.com/de.html"
+         },
+         {
+          "text": "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.svg\" alt",
+          "href": "https://www.fraport.com/de/konzern.html"
+         },
+         {
+          "text": "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.",
+          "href": "https://www.fraport.com/de/geschaeftsfelder.html"
+         },
+         {
+          "text": "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.svg\" ",
+          "href": "https://www.fraport.com/de/investoren.html"
+         },
+         {
+          "text": "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.s",
+          "href": "https://www.fraport.com/de/nachhaltigkeit.html"
+         },
+         {
+          "text": "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-chevron-right.svg\" al",
+          "href": "https://www.fraport.com/de/newsroom.html"
+         },
+         {
+          "text": "Karriere bei Fraport <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/icons/frach-icon-career.sv",
+          "href": "https://www.jobs-fraport.com/"
+         }
+        ],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+         "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r",
+         "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour",
+         "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re",
+         "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource",
+         "International <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/res"
+        ],
+        "options": 0,
+        "rect": [
+         0,
+         85,
+         390,
+         759
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-m-main-navigation__menu-btn"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 300,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "frach-e-icon.frach-e-icon"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        }
+       ],
+       "shot": "390-006-Men-img-src-etc-clientlibs-fraport-compa.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": null,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+       "key": "konzern img srcetcclientlibsfraportcompanyclientlibsfrachappresources",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(1)>a",
+       "expanded": "false",
+       "rect": [
+        16,
+        159,
+        358,
+        50
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      },
+      {
+       "name": "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r",
+       "key": "geschäftsfelder img srcetcclientlibsfraportcompanyclientlibsfrachappr",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(2)>a",
+       "expanded": "false",
+       "rect": [
+        16,
+        209,
+        358,
+        50
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      },
+      {
+       "name": "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour",
+       "key": "investoren img srcetcclientlibsfraportcompanyclientlibsfrachappresour",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(3)>a",
+       "expanded": "false",
+       "rect": [
+        16,
+        259,
+        358,
+        50
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      },
+      {
+       "name": "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re",
+       "key": "nachhaltigkeit img srcetcclientlibsfraportcompanyclientlibsfrachappre",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(4)>a",
+       "expanded": "false",
+       "rect": [
+        16,
+        309,
+        358,
+        50
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      },
+      {
+       "name": "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource",
+       "key": "newsroom img srcetcclientlibsfraportcompanyclientlibsfrachappresource",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(5)>a",
+       "expanded": "false",
+       "rect": [
+        16,
+        359,
+        358,
+        50
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      },
+      {
+       "name": "International <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/res",
+       "key": "international img srcetcclientlibsfraportcompanyclientlibsfrachappres",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#mobile-1fb21bd210-company-switch",
+       "expanded": "false",
+       "rect": [
+        0,
+        425,
+        146,
+        56
+       ],
+       "actions": {
+        "click": null,
+        "key": {
+         "opened": false,
+         "hides": 8
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 86,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": -86,
+     "height": 86,
+     "position": "sticky",
+     "inView": false
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 86,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 86,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 6,
+   "truncated": null,
+   "loads": 1,
+   "requests": 66,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container",
+   "controls": [
+    {
+     "name": "Startseite",
+     "key": "startseite",
+     "role": "link",
+     "kind": "link",
+     "sel": "#header-f8e5e8ed6f-logo",
+     "href": "https://www.fraport.com/de.html",
+     "expanded": null,
+     "rect": [
+      32,
+      0,
+      115,
+      78
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+     "key": "konzern img srcetcclientlibsfraportcompanyclientlibsfrachappresources",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(1)>a",
+     "expanded": "false",
+     "rect": [
+      195,
+      6,
+      75,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        }
+       ],
+       "shot": "1440-001-Konzern-img-src-etc-clientlibs-fraport-c.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        }
+       ],
+       "shot": "1440-002-Konzern-img-src-etc-clientlibs-fraport-c.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc",
+       "key": "schließen img srcetcclientlibsfraportcompanyclientlibsfrachappresourc",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>button:nth-of-type(1)",
+       "expanded": "true",
+       "rect": [
+        1312,
+        126,
+        97,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r",
+     "key": "geschäftsfelder img srcetcclientlibsfraportcompanyclientlibsfrachappr",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(2)>a",
+     "expanded": "false",
+     "rect": [
+      318,
+      6,
+      144,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        }
+       ],
+       "shot": "1440-003-Gesch-ftsfelder-img-src-etc-clientlibs-f.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        }
+       ],
+       "shot": "1440-004-Gesch-ftsfelder-img-src-etc-clientlibs-f.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc",
+       "key": "schließen img srcetcclientlibsfraportcompanyclientlibsfrachappresourc",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>button:nth-of-type(1)",
+       "expanded": "true",
+       "rect": [
+        1312,
+        126,
+        97,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour",
+     "key": "investoren img srcetcclientlibsfraportcompanyclientlibsfrachappresour",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(3)>a",
+     "expanded": "false",
+     "rect": [
+      510,
+      6,
+      95,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        }
+       ],
+       "shot": "1440-005-Investoren-img-src-etc-clientlibs-frapor.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 300,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        }
+       ],
+       "shot": "1440-006-Investoren-img-src-etc-clientlibs-frapor.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc",
+       "key": "schließen img srcetcclientlibsfraportcompanyclientlibsfrachappresourc",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>button:nth-of-type(1)",
+       "expanded": "true",
+       "rect": [
+        1312,
+        126,
+        97,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re",
+     "key": "nachhaltigkeit img srcetcclientlibsfraportcompanyclientlibsfrachappre",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(4)>a",
+     "expanded": "false",
+     "rect": [
+      653,
+      6,
+      137,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        }
+       ],
+       "shot": "1440-007-Nachhaltigkeit-img-src-etc-clientlibs-fr.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        }
+       ],
+       "shot": "1440-008-Nachhaltigkeit-img-src-etc-clientlibs-fr.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc",
+       "key": "schließen img srcetcclientlibsfraportcompanyclientlibsfrachappresourc",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>button:nth-of-type(1)",
+       "expanded": "true",
+       "rect": [
+        1312,
+        126,
+        97,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource",
+     "key": "newsroom img srcetcclientlibsfraportcompanyclientlibsfrachappresource",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>nav>div>ul>li:nth-of-type(5)>a",
+     "expanded": "false",
+     "rect": [
+      838,
+      6,
+      97,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        }
+       ],
+       "shot": "1440-009-Newsroom-img-src-etc-clientlibs-fraport-.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [],
+        "buttons": [
+         "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc"
+        ],
+        "options": 0,
+        "rect": [
+         1312,
+         126,
+         97,
+         24
+        ]
+       },
+       "expanded": "true",
+       "focus": "elsewhere",
+       "scrollLock": true,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 100,
+         "easing": "ease-out",
+         "target": "a.frach-m-main-navigation__link"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-height",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "nav.frach-m-main-navigation__menu"
+        },
+        {
+         "kind": "transition",
+         "prop": "visibility",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease",
+         "target": "a.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__list-wrapper"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 200,
+         "easing": "ease-out",
+         "target": "div.frach-m-teaser"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 200,
+         "delay": 0,
+         "easing": "ease-out",
+         "target": "div.frach-m-main-navigation__panel"
+        }
+       ],
+       "shot": "1440-010-Newsroom-img-src-etc-clientlibs-fraport-.png",
+       "tabReachesPanel": false
+      }
+     },
+     "close": {
+      "escape": true,
+      "focusReturn": true,
+      "outside": true,
+      "toggle": true
+     },
+     "children": [
+      {
+       "name": "Schließen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resourc",
+       "key": "schließen img srcetcclientlibsfraportcompanyclientlibsfrachappresourc",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#content-2b9114832d>div:nth-of-type(2)>frach-m-sticky-page-header-container>frach-m-page-header>div:nth-of-type(1)>div:nth-of-type(1)>div>frach-m-main-navigation>button:nth-of-type(1)",
+       "expanded": "true",
+       "rect": [
+        1312,
+        126,
+        97,
+        24
+       ],
+       "actions": {
+        "hover": null,
+        "click": null,
+        "key": null
+       }
+      }
+     ]
+    },
+    {
+     "name": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i",
+     "key": "suche img srcetcclientlibsfraportcompanyclientlibsfrachappresourcesi",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#navigation-69cfafa9da-search-button",
+     "expanded": "false",
+     "rect": [
+      983,
+      6,
+      24,
+      72
+     ],
+     "actions": {
+      "hover": null,
+      "click": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Zurücksetzen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/reso",
+         "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i"
+        ],
+        "options": 0,
+        "rect": [
+         16,
+         18,
+         1408,
+         60
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 250,
+         "easing": "cubic-bezier(0.2, 0.8, 0.3, 2)",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 250,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 100,
+         "delay": 0,
+         "easing": "ease",
+         "target": "frach-m-search.frach-m-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 100,
+         "easing": "ease",
+         "target": "input.frach-m-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-width",
+         "ms": 200,
+         "delay": 75,
+         "easing": "ease",
+         "target": "input.frach-m-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 100,
+         "delay": 100,
+         "easing": "ease",
+         "target": "input.frach-m-search__input"
+        }
+       ],
+       "shot": "1440-011-Suche-img-src-etc-clientlibs-fraport-com.png"
+      },
+      "key": {
+       "opened": true,
+       "hidden": 0,
+       "panel": {
+        "links": [],
+        "headings": [],
+        "images": 0,
+        "inputs": [
+         "search"
+        ],
+        "buttons": [
+         "Zurücksetzen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/reso",
+         "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i"
+        ],
+        "options": 0,
+        "rect": [
+         16,
+         18,
+         1408,
+         60
+        ]
+       },
+       "expanded": "true",
+       "focus": "panel",
+       "scrollLock": false,
+       "motion": [
+        {
+         "kind": "transition",
+         "prop": "transform",
+         "ms": 250,
+         "delay": 250,
+         "easing": "cubic-bezier(0.2, 0.8, 0.3, 2)",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 150,
+         "delay": 250,
+         "easing": "ease",
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 100,
+         "delay": 0,
+         "easing": "ease",
+         "target": "frach-m-search.frach-m-search"
+        },
+        {
+         "kind": "transition",
+         "prop": "color",
+         "ms": 300,
+         "delay": 100,
+         "easing": "ease",
+         "target": "input.frach-m-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "max-width",
+         "ms": 200,
+         "delay": 75,
+         "easing": "ease",
+         "target": "input.frach-m-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "opacity",
+         "ms": 100,
+         "delay": 100,
+         "easing": "ease",
+         "target": "input.frach-m-search__input"
+        },
+        {
+         "kind": "transition",
+         "prop": "width",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "border-bottom-color",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        },
+        {
+         "kind": "transition",
+         "prop": "bottom",
+         "ms": null,
+         "delay": null,
+         "easing": null,
+         "target": "button.frach-e-button"
+        }
+       ],
+       "shot": "1440-012-Suche-img-src-etc-clientlibs-fraport-com.png",
+       "tabReachesPanel": true
+      }
+     },
+     "close": {
+      "escape": false,
+      "focusReturn": false,
+      "outside": true,
+      "toggle": false
+     },
+     "children": [
+      {
+       "name": "",
+       "key": "",
+       "role": "input",
+       "kind": "search",
+       "sel": "#search-8e72f11d76>form>input:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        267,
+        18,
+        1141,
+        60
+       ],
+       "actions": {},
+       "search": {
+        "probe": "hauptinhalt",
+        "typeahead": {
+         "links": 0,
+         "options": 0
+        },
+        "submit": "https://www.fraport.com/de/search.html?q={q}&_charset_=UTF-8"
+       }
+      },
+      {
+       "name": "Zurücksetzen <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/reso",
+       "key": "zurücksetzen img srcetcclientlibsfraportcompanyclientlibsfrachappreso",
+       "role": "toggle",
+       "kind": "menu",
+       "sel": "#search-8e72f11d76>form>button:nth-of-type(1)",
+       "expanded": null,
+       "rect": [
+        1316,
+        28,
+        40,
+        40
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "hides": 3
+        },
+        "key": {
+         "opened": false,
+         "hides": 3
+        }
+       }
+      },
+      {
+       "name": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i",
+       "key": "suche img srcetcclientlibsfraportcompanyclientlibsfrachappresourcesi",
+       "role": "toggle",
+       "kind": "search",
+       "sel": "#search-8e72f11d76>form>button:nth-of-type(2)",
+       "expanded": null,
+       "rect": [
+        1360,
+        28,
+        40,
+        40
+       ],
+       "actions": {
+        "hover": null,
+        "click": {
+         "opened": false,
+         "navigates": "https://www.fraport.com/de/search.html?q=&_charset_=UTF-8"
+        },
+        "key": {
+         "opened": false,
+         "navigates": "https://www.fraport.com/de/search.html?q=&_charset_=UTF-8"
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 79,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 0,
+     "top": 0,
+     "height": 79,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 0,
+     "top": 0,
+     "height": 79,
+     "position": "sticky",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 79,
+     "position": "sticky",
+     "inView": true
+    }
+   ],
+   "states": 12,
+   "truncated": null,
+   "loads": 1,
+   "requests": 71,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": "hauptinhalt"
+}

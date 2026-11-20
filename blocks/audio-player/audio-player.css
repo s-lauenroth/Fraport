@@ -1,0 +1,229 @@
+/* audio-player (frach-e-audio-player): portrait (1:1, 204px >= 720; 16:9 full width below)
+   beside a grey panel with headline, teaser, meta line and a player bar (play, time + scrubber,
+   volume, download). */
+.audio-player > .container {
+  width: calc(100% - var(--grid-outer));
+  max-width: none;
+  padding: 0;
+}
+
+.audio-player .row {
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.audio-player .row > .audio-player-inner {
+  display: flex;
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0;
+}
+
+.audio-player .audio-player-image {
+  position: relative;
+  width: 100%;
+}
+
+.audio-player .audio-player-image p {
+  margin: 0;
+}
+
+.audio-player .audio-player-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.audio-player .audio-player-picture-desktop {
+  display: none;
+}
+
+.audio-player .audio-player-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  background: var(--grey-050);
+}
+
+.audio-player .audio-player-content {
+  padding: 24px 16px 16px;
+}
+
+.audio-player .audio-player-content :is(h1, h2, h3, h4, h5, h6, p) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.audio-player .audio-player-headline {
+  margin: 0;
+}
+
+.audio-player .audio-player-sub-headline {
+  margin: 0 0 16px;
+}
+
+.audio-player .audio-player-metainfo {
+  color: var(--grey-500);
+}
+
+.audio-player .audio-player-player {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 12px 16px;
+}
+
+.audio-player .audio-player-player button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.audio-player .icon {
+  width: 24px;
+  height: 24px;
+  color: var(--primary-500);
+  background-color: currentcolor;
+  mask: var(--icon) center / contain no-repeat;
+}
+
+.audio-player .icon-play {
+  --icon: url("/icons/play.svg");
+}
+
+.audio-player .icon-pause {
+  --icon: url("/icons/pause.svg");
+}
+
+.audio-player .icon-volume {
+  --icon: url("/icons/volume.svg");
+}
+
+.audio-player .audio-player-play,
+.audio-player .audio-player-pause {
+  display: block;
+  width: 100%;
+  height: 60px;
+  color: var(--primary-500);
+}
+
+.audio-player .audio-player-play .icon,
+.audio-player .audio-player-pause .icon {
+  width: 100%;
+  height: 60px;
+}
+
+.audio-player .audio-player-pause,
+.audio-player.is-playing .audio-player-play {
+  display: none;
+}
+
+.audio-player.is-playing .audio-player-pause {
+  display: block;
+}
+
+.audio-player .audio-player-volume-btn {
+  display: flex;
+  color: var(--primary-500);
+}
+
+.audio-player .audio-player-data {
+  display: inline-flex;
+  flex: 1 1 0;
+  align-items: center;
+  min-width: 0;
+}
+
+.audio-player .audio-player-time {
+  flex-shrink: 0;
+  color: var(--primary-500);
+}
+
+.audio-player .audio-player-duration {
+  flex-shrink: 0;
+}
+
+.audio-player .audio-player-slider {
+  width: 100%;
+  margin: 0 8px;
+  appearance: none;
+  background: transparent;
+}
+
+.audio-player .audio-player-slider::-webkit-slider-runnable-track {
+  height: 2px;
+  background: var(--grey-400);
+  cursor: pointer;
+}
+
+.audio-player .audio-player-slider::-moz-range-track {
+  height: 2px;
+  background: var(--grey-400);
+  cursor: pointer;
+}
+
+.audio-player .audio-player-slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 6px;
+  height: 6px;
+  margin-top: -2px;
+  border-radius: 50%;
+  background: var(--primary-500);
+}
+
+.audio-player .audio-player-slider::-moz-range-thumb {
+  width: 6px;
+  height: 6px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--primary-500);
+}
+
+.audio-player .audio-player-volume,
+.audio-player .audio-player-download-row {
+  position: relative;
+  display: flex;
+  margin: 0;
+}
+
+.audio-player a.audio-player-download:any-link {
+  display: flex;
+  position: relative;
+  color: var(--primary-500);
+}
+
+@media (width >= 480px) {
+  .audio-player .audio-player-player {
+    flex-wrap: nowrap;
+  }
+
+  .audio-player .audio-player-play,
+  .audio-player .audio-player-play .icon,
+  .audio-player .audio-player-pause,
+  .audio-player .audio-player-pause .icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media (width >= 720px) {
+  .audio-player .audio-player-image {
+    width: 204px;
+  }
+
+  .audio-player .audio-player-picture-desktop {
+    display: block;
+  }
+
+  .audio-player .audio-player-picture-mobile {
+    display: none;
+  }
+}

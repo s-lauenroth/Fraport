@@ -1,0 +1,84 @@
+/* contact-list (frach-m-contact-list / frach-m-contact): shadowed white contact cards */
+.contact-list .row {
+  align-items: stretch;
+}
+
+.contact-list .contact-list-card {
+  height: calc(100% - 24px);
+  margin-bottom: 24px;
+  background-color: var(--white, #fff);
+  box-shadow: 0 0 6px 0 #b5babd;
+}
+
+.contact-list .contact-list-media picture,
+.contact-list .contact-list-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.contact-list .contact-list-info {
+  padding: 16px;
+  font-style: normal;
+}
+
+.contact-list .contact-list-name {
+  margin: 0 0 12px;
+  color: var(--grey-600);
+}
+
+.contact-list .contact-list-body {
+  margin: 0 0 16px;
+  color: var(--grey-600);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-list .contact-list-link {
+  display: table;
+  margin: 4px 0;
+}
+
+.contact-list .contact-list-link a:any-link {
+  color: var(--primary-500);
+  font-size: 16px;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+.contact-list .contact-list-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  fill: currentcolor;
+}
+
+@media (width >= 720px) {
+  .contact-list:not(.aside) .row > .contact-list-col {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+  }
+}
+
+@media (width >= 1280px) {
+  .contact-list:not(.aside) .row > .contact-list-col {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+@media (width >= 1440px) {
+  .contact-list .contact-list-info {
+    padding: 24px;
+  }
+}
+
+/* a body paragraph after a link (address below the e-mail link): source gap */
+.contact-list .contact-list-link + .contact-list-body {
+  margin-top: 12px;
+}

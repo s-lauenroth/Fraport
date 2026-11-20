@@ -1,0 +1,819 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/de-1440/vdiff-iter3/
+
+build red flags (advisory): 
+  • HEADING FACE ×7: "fraport-sans-semi-bold-italic" → "Liberation Sans" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+  • IMAGE DID NOT LOAD: adobestock_698573741_1920px-687x386.jpg rendered 394x221 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: adobestock_859160446_1920px-687x386.jpg rendered 394x221 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-687x386.jpg rendered 394x221 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: reb_20240131_1783_1920px-687x386.jpg rendered 394x221 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: reb_220414_053-2--687x386.jpg rendered 394x221 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+  • IMAGE DID NOT LOAD: 2026_11_05_farn_diwali-ohne-logo-687x386.jpg rendered 394x221 but natural 0x0. Rendered a box but natural 0×0 — the image URL failed to load; fix the src.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7489,
+  "textLen": 9976,
+  "images": [],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "WIR SIND WELTWEIT AKTIV\n        ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport AG",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "DAS UNTERNEHMEN",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "KLARE STRATEGIE FÜR UMWELT UND K",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "KARRIERE",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport. Deine Welt der Möglichk",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "FLUGHAFEN FRANKFURT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "NOCH MEHR FRAPORT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "frach-grid-row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "stickyPatch",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "frach-m-slider__slides",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "cmp-text",
+    "width": 907,
+    "left": 267
+   },
+   {
+    "sel": "frach-grid-col-mq1-12",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "frach-m-slider__slides",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "frach-grid-col-mq1-12",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "frach-grid-row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "frach-grid-col-mq1-12",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "frach-m-cta__text-container",
+    "width": 907,
+    "left": 32
+   },
+   {
+    "sel": "frach-grid-row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "frach-grid-col-mq1-12",
+    "width": 1376,
+    "left": 32
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 7425,
+  "textLen": 10011,
+  "images": [
+   {
+    "src": "adobestock_820224120_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "keyvisual_connecting-478x269.jpg",
+    "natural": "474x267",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_859160446_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb_20220228_02901-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fraport-verkehrszahlen-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb290615_007-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_03_2023_m__1020-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_494618834_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "infofilme-687x386.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_20170614__m__9773-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "keyv7-1390x782.jpg",
+    "natural": "1439x810",
+    "rendered": "1173x660",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "75_jahre_feuerwehr_1920x1080-orig.jpg",
+    "natural": "1920x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "keyvisual_connecting-478x269.jpg",
+    "natural": "474x267",
+    "rendered": "395x222",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "luftaufnahmen-2023-478x269.jpg",
+    "natural": "474x267",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_698573741_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "adobestock_859160446_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "am_03_2023_m__1020-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "672x378",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fraport_konzernmotiv-1-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "672x378",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "t3-hero-image-pressetermin_2560x1080_01-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "437x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "gro-eltern-mit-kindern-auf-der-besucherterrasse-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "437x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "he-dreiht-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "437x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_738523483_1920px-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "437x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "_mg_9609-1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "437x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb_220414_053-2--1280x720.jpg",
+    "natural": "1280x720",
+    "rendered": "437x246",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_738523483_1920px-478x269.jpg",
+    "natural": "474x267",
+    "rendered": "395x222",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-478x269.png",
+    "natural": "474x267",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "reb_20240131_1783_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "reb_220414_053-2--687x386.jpg",
+    "natural": "0x0",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   },
+   {
+    "src": "2026_11_05_farn_diwali-ohne-logo-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "394x221",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": true
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "WIR SIND WELTWEIT AKTIVUND SETZE",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "56px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "75 Jahre Flughafenfeuerwehr",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "75 Jahre Flughafenfeuerwehr",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Terminal 3: Ein neues Kapitel fü",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "AI@Fraport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Willkommen am Frankfurt CargoHub",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Connecting the world with tomorr",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Flughafenausweise",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "International Activities",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Verkehrszahlen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Aktuelles aus dem Konzern",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Jobbörse",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Retail & Advertising",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport AG",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "DAS UNTERNEHMEN",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Konzernstrategie",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Über uns",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Verkehrszahlen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Energiemanagement",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Beschäftigte",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "International Activities",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Newsroom",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Anfahrt, Ansprechpartner, Adress",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "KLARE STRATEGIE FÜR UMWELT UND K",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "KARRIERE",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport. Deine Welt der Möglichk",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "FLUGHAFEN FRANKFURT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "NOCH MEHR FRAPORT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "40px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digitalisierung und Digital Fact",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Flughafen Ljubljana",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Luftqualität",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sicher unterwegs auf Vorfeld und",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport-Verkehrszahlen im Oktobe",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Aufsichtsrat",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sponsoring und Spenden",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI@Fraport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Selbstverpflichtungen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Service",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Flughafenausweise richtig beantr",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Investoren",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Diwali-Kampagne schafft besonder",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "FAQs",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Vielfalt stärkt Fraport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Neunmonatsbilanz: Auslandsgeschä",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "slider__slides",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "highlight-box",
+    "width": 1141,
+    "left": 149
+   },
+   {
+    "sel": "text-media__text",
+    "width": 907,
+    "left": 267
+   },
+   {
+    "sel": "rte",
+    "width": 907,
+    "left": 267
+   },
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "slider__slides",
+    "width": 1376,
+    "left": 32
+   },
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   },
+   {
+    "sel": "cta__text",
+    "width": 907,
+    "left": 32
+   },
+   {
+    "sel": "row",
+    "width": 1408,
+    "left": 16
+   }
+  ]
+ }
+}

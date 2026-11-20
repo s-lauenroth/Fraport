@@ -1,0 +1,3706 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:34:26.330Z",
+  "tol": 4,
+  "n": 113,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+  "at": "2026-11-19T18:13:42.940Z",
+  "docH": 5770
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung",
+  "at": "2026-11-19T23:34:26.217Z",
+  "docH": 5766
+ },
+ "results": [
+  {
+   "sel": ".frach-m-search-results__results-container .frach-e-search-result=.news-list .news-list-item",
+   "family": null,
+   "required": true,
+   "originMatches": 21,
+   "edsMatches": 21,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:cargo, betrieb, 2026, verkehrszahlen, fr",
+       "role": "text",
+       "text": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "edsText": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 316,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 316,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:12.11.2026",
+       "role": "text",
+       "text": "12.11.2026",
+       "edsText": "12.11.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im oktober 2026: ",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "edsText": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-verkehrszahlen-im-oktober-2026-cargo-wächst--passagierzahlen-auf-vorjahresniveau",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im oktober 2026: ",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "edsText": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 379,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 379,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:geschäftszahlen, 2026, presse, internati",
+       "role": "text",
+       "text": "geschäftszahlen, 2026, presse, international, neunmonatsbila",
+       "edsText": "geschäftszahlen, 2026, presse, international, neunmonatsbila",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 315,
+        "h": 117
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 315,
+        "h": 117,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:04.11.2026",
+       "role": "text",
+       "text": "04.11.2026",
+       "edsText": "04.11.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 146,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 146,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:neunmonatsbilanz: auslandsgeschäft stärk",
+       "role": "heading",
+       "text": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "edsText": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 177,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 177,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#neunmonatsbilanz-auslandsgeschäft-stärkt-ergebnis",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:neunmonatsbilanz: auslandsgeschäft stärk",
+       "role": "link",
+       "text": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "edsText": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 177,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 177,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 594,
+       "w": 360,
+       "h": 261
+      },
+      "eds": {
+       "x": 0,
+       "y": 594,
+       "w": 360,
+       "h": 261
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, frankfurt airport, passagierkomfor",
+       "role": "text",
+       "text": "2026, frankfurt airport, passagierkomfort, gate a16, boardin",
+       "edsText": "2026, frankfurt airport, passagierkomfort, gate a16, boardin",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 295,
+        "h": 93
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 295,
+        "h": 93,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:27.10.2026",
+       "role": "text",
+       "text": "27.10.2026",
+       "edsText": "27.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 243,
+        "y": 98,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 243,
+        "y": 98,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:gate a16 wird zum testfeld für die zukun",
+       "role": "heading",
+       "text": "gate a16 wird zum testfeld für die zukunft",
+       "edsText": "gate a16 wird zum testfeld für die zukunft",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#gate-a16-wird-zum-testfeld-für-die-zukunft",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:gate a16 wird zum testfeld für die zukun",
+       "role": "link",
+       "text": "gate a16 wird zum testfeld für die zukunft",
+       "edsText": "gate a16 wird zum testfeld für die zukunft",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 855,
+       "w": 360,
+       "h": 213
+      },
+      "eds": {
+       "x": 0,
+       "y": 855,
+       "w": 360,
+       "h": 213
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, frankfurt airport, winterflugplan,",
+       "role": "text",
+       "text": "2026, frankfurt airport, winterflugplan, flugverbindungen, r",
+       "edsText": "2026, frankfurt airport, winterflugplan, flugverbindungen, r",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 323,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 323,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:20.10.2026",
+       "role": "text",
+       "text": "20.10.2026",
+       "edsText": "20.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 254,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 254,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:neue ziele im winterflugplan ab frankfur",
+       "role": "heading",
+       "text": "neue ziele im winterflugplan ab frankfurt",
+       "edsText": "neue ziele im winterflugplan ab frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#neue-ziele-im-winterflugplan-ab-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:neue ziele im winterflugplan ab frankfur",
+       "role": "link",
+       "text": "neue ziele im winterflugplan ab frankfurt",
+       "edsText": "neue ziele im winterflugplan ab frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1068,
+       "w": 360,
+       "h": 189
+      },
+      "eds": {
+       "x": 0,
+       "y": 1068,
+       "w": 360,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, fördermittel, klimaschutz, frankfu",
+       "role": "text",
+       "text": "2026, fördermittel, klimaschutz, frankfurt airport, bodenstr",
+       "edsText": "2026, fördermittel, klimaschutz, frankfurt airport, bodenstr",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 322,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 322,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:16.10.2026",
+       "role": "text",
+       "text": "16.10.2026",
+       "edsText": "16.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:bund fördert emissionsfreie bodenstromve",
+       "role": "heading",
+       "text": "bund fördert emissionsfreie bodenstromversorgung",
+       "edsText": "bund fördert emissionsfreie bodenstromversorgung",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#bund-fördert-emissionsfreie-bodenstromversorgung",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:bund fördert emissionsfreie bodenstromve",
+       "role": "link",
+       "text": "bund fördert emissionsfreie bodenstromversorgung",
+       "edsText": "bund fördert emissionsfreie bodenstromversorgung",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1257,
+       "w": 360,
+       "h": 213
+      },
+      "eds": {
+       "x": 0,
+       "y": 1257,
+       "w": 360,
+       "h": 213
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:cargo, betrieb, 2026, verkehrszahlen, fr",
+       "role": "text",
+       "text": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "edsText": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 316,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 316,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.10.2026",
+       "role": "text",
+       "text": "13.10.2026",
+       "edsText": "13.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im september 2026",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "edsText": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-verkehrszahlen-im-september-2026-anstieg-bei-passagieren-und-fracht-in-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im september 2026",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "edsText": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1470,
+       "w": 360,
+       "h": 239
+      },
+      "eds": {
+       "x": 0,
+       "y": 1470,
+       "w": 360,
+       "h": 239
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb, ferienstart, 2026, frankfurt ai",
+       "role": "text",
+       "text": "betrieb, ferienstart, 2026, frankfurt airport, presse, flugg",
+       "edsText": "betrieb, ferienstart, 2026, frankfurt airport, presse, flugg",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 306,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 306,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:29.09.2026",
+       "role": "text",
+       "text": "29.09.2026",
+       "edsText": "29.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 260,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 260,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:herbstferien sorgen für mehr betrieb am ",
+       "role": "heading",
+       "text": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "edsText": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#herbstferien-sorgen-für-mehr-betrieb-am-flughafen-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:herbstferien sorgen für mehr betrieb am ",
+       "role": "link",
+       "text": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "edsText": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1709,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 1709,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, verkehrszahlen, frankfurt airport,",
+       "role": "text",
+       "text": "2026, verkehrszahlen, frankfurt airport, investoren, presse,",
+       "edsText": "2026, verkehrszahlen, frankfurt airport, investoren, presse,",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 291,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 291,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:11.09.2026",
+       "role": "text",
+       "text": "11.09.2026",
+       "edsText": "11.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im august 2026: f",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "edsText": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-verkehrszahlen-im-august-2026-fracht-wächst-in-frankfurt-während-passagierzahlen-stagnieren",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im august 2026: f",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "edsText": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1874,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 1874,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, region, frankfurt airport, presse,",
+       "role": "text",
+       "text": "2026, region, frankfurt airport, presse, cargo, beratung, st",
+       "edsText": "2026, region, frankfurt airport, presse, cargo, beratung, st",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 322,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 322,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:04.09.2026",
+       "role": "text",
+       "text": "04.09.2026",
+       "edsText": "04.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:bau des multi-tenant-neubaus „logispace“",
+       "role": "heading",
+       "text": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "edsText": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#bau-des-multi-tenant-neubaus-logispace-in-erstklassiger-lage-am-flughafen-frankfurt-voll-im-plan",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:bau des multi-tenant-neubaus „logispace“",
+       "role": "link",
+       "text": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "edsText": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2089,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 2089,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb, 2026, unternehmen, investoren, ",
+       "role": "text",
+       "text": "betrieb, 2026, unternehmen, investoren, presse, internationa",
+       "edsText": "betrieb, 2026, unternehmen, investoren, presse, internationa",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 281,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 281,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:01.09.2026",
+       "role": "text",
+       "text": "01.09.2026",
+       "edsText": "01.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport brasil s.a. aeroporto de fortale",
+       "role": "heading",
+       "text": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "edsText": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-brasil-sa-aeroporto-de-fortaleza-übernimmt-betrieb-des-flughafens-jericoacoara",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport brasil s.a. aeroporto de fortale",
+       "role": "link",
+       "text": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "edsText": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2304,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 2304,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:partner, 2026, klimaschutz, frankfurt ai",
+       "role": "text",
+       "text": "partner, 2026, klimaschutz, frankfurt airport, umwelt, e-mob",
+       "edsText": "partner, 2026, klimaschutz, frankfurt airport, umwelt, e-mob",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 317,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 317,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:21.08.2026",
+       "role": "text",
+       "text": "21.08.2026",
+       "edsText": "21.08.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:ecotow: fraport nimmt vollelektrische fl",
+       "role": "heading",
+       "text": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "edsText": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#ecotow-fraport-nimmt-vollelektrische-flugzeugschlepper-für-großflugzeuge-in-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:ecotow: fraport nimmt vollelektrische fl",
+       "role": "link",
+       "text": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "edsText": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2519,
+       "w": 360,
+       "h": 239
+      },
+      "eds": {
+       "x": 0,
+       "y": 2519,
+       "w": 360,
+       "h": 239
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, verkehrszahlen, frankfurt airport,",
+       "role": "text",
+       "text": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "edsText": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 291,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 291,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.08.2026",
+       "role": "text",
+       "text": "13.08.2026",
+       "edsText": "13.08.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im juli 2026: ans",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "edsText": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-verkehrszahlen-im-juli-2026-anstieg-bei-passagieren-und-fracht-in-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im juli 2026: ans",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "edsText": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2758,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 2758,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, 2026, verkehrszahlen, pressearch",
+       "role": "text",
+       "text": "presse, 2026, verkehrszahlen, pressearchiv",
+       "edsText": "presse, 2026, verkehrszahlen, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 321,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 321,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:06.08.2026",
+       "role": "text",
+       "text": "06.08.2026",
+       "edsText": "06.08.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-konzern legt operativ im ersten ",
+       "role": "heading",
+       "text": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "edsText": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#fraport-konzern-legt-operativ-im-ersten-halbjahr-zu",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-konzern legt operativ im ersten ",
+       "role": "link",
+       "text": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "edsText": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2973,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 2973,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, verkehrszahlen, frankfurt airport,",
+       "role": "text",
+       "text": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "edsText": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 291,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 291,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.07.2026",
+       "role": "text",
+       "text": "13.07.2026",
+       "edsText": "13.07.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im juni 2026: kon",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "edsText": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-verkehrszahlen-im-juni-2026-konzern-trotz-passagierminus-in-frankfurt-weiter-auf-kurs",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im juni 2026: kon",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "edsText": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3138,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 3138,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2026, ferienstart, sommerbetrieb, wartez",
+       "role": "text",
+       "text": "2026, ferienstart, sommerbetrieb, wartezeit, presse, reisevo",
+       "edsText": "2026, ferienstart, sommerbetrieb, wartezeit, presse, reisevo",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 327,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 327,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:22.06.2026",
+       "role": "text",
+       "text": "22.06.2026",
+       "edsText": "22.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:start der sommerferien in hessen: spürba",
+       "role": "heading",
+       "text": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "edsText": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#start-der-sommerferien-in-hessen-spürbarer-anstieg-der-passagierzahlen-am-flughafen-frankfurt-erwartet",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:start der sommerferien in hessen: spürba",
+       "role": "link",
+       "text": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "edsText": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3353,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 3353,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:partner, 2026, presse, konzern, unterneh",
+       "role": "text",
+       "text": "partner, 2026, presse, konzern, unternehmen, standort, press",
+       "edsText": "partner, 2026, presse, konzern, unternehmen, standort, press",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 317,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 317,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:16.06.2026",
+       "role": "text",
+       "text": "16.06.2026",
+       "edsText": "16.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 201,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:wechsel an der spitze der fraport-untern",
+       "role": "heading",
+       "text": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "edsText": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#wechsel-an-der-spitze-der-fraport-unternehmenskommunikation",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:wechsel an der spitze der fraport-untern",
+       "role": "link",
+       "text": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "edsText": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3568,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 3568,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb, 2026, sicherheit, frankfurt air",
+       "role": "text",
+       "text": "betrieb, 2026, sicherheit, frankfurt airport, presse, fluggä",
+       "edsText": "betrieb, 2026, sicherheit, frankfurt airport, presse, fluggä",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 315,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 315,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:15.06.2026",
+       "role": "text",
+       "text": "15.06.2026",
+       "edsText": "15.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 98,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:neue sky line-bahn am flughafen frankfur",
+       "role": "heading",
+       "text": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "edsText": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#neue-sky-line-bahn-am-flughafen-frankfurt-wieder-in-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:neue sky line-bahn am flughafen frankfur",
+       "role": "link",
+       "text": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "edsText": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 129,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3733,
+       "w": 360,
+       "h": 213
+      },
+      "eds": {
+       "x": 0,
+       "y": 3733,
+       "w": 360,
+       "h": 213
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb, 2026, verkehrszahlen, investore",
+       "role": "text",
+       "text": "betrieb, 2026, verkehrszahlen, investoren, konzern, internat",
+       "edsText": "betrieb, 2026, verkehrszahlen, investoren, konzern, internat",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 320,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 320,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:12.06.2026",
+       "role": "text",
+       "text": "12.06.2026",
+       "edsText": "12.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 42,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im mai 2026: fran",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "edsText": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fraport-verkehrszahlen-im-mai-2026-frankfurt-wieder-auf-wachstumskurs-bei-passagieren",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im mai 2026: fran",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "edsText": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 3946,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 3946,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb, 2026, region, frankfurt airport",
+       "role": "text",
+       "text": "betrieb, 2026, region, frankfurt airport, presse, umwelt, ve",
+       "edsText": "betrieb, 2026, region, frankfurt airport, presse, umwelt, ve",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 311,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 311,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:10.06.2026",
+       "role": "text",
+       "text": "10.06.2026",
+       "edsText": "10.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fluglärmkommission frankfurt befindet üb",
+       "role": "heading",
+       "text": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "edsText": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#fluglärmkommission-frankfurt-befindet-über-weiterentwickeltes-betriebskonzept",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fluglärmkommission frankfurt befindet üb",
+       "role": "link",
+       "text": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "edsText": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 4161,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 4161,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb, 2026, frankfurt airport, presse",
+       "role": "text",
+       "text": "betrieb, 2026, frankfurt airport, presse, fluggäste, flug- u",
+       "edsText": "betrieb, 2026, frankfurt airport, presse, fluggäste, flug- u",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 274,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 274,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:09.06.2026",
+       "role": "text",
+       "text": "09.06.2026",
+       "edsText": "09.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 201,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:terminal 2 am flughafen frankfurt ab heu",
+       "role": "heading",
+       "text": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "edsText": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#terminal-2-am-flughafen-frankfurt-ab-heute-vorübergehend-operativ-außer-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:terminal 2 am flughafen frankfurt ab heu",
+       "role": "link",
+       "text": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "edsText": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 4376,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 4376,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, rekrutierung, konzern, 2026, kar",
+       "role": "text",
+       "text": "presse, rekrutierung, konzern, 2026, karriere, pressearchiv",
+       "edsText": "presse, rekrutierung, konzern, 2026, karriere, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 316,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 316,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:01.06.2026",
+       "role": "text",
+       "text": "01.06.2026",
+       "edsText": "01.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport öffnet bewerbungsportal: jetzt a",
+       "role": "heading",
+       "text": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "edsText": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#fraport-öffnet-bewerbungsportal-jetzt-ausbildungs--oder-studienplatz-sichern",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:fraport öffnet bewerbungsportal: jetzt a",
+       "role": "link",
+       "text": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "edsText": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 4591,
+       "w": 360,
+       "h": 166
+      },
+      "eds": {
+       "x": 0,
+       "y": 4591,
+       "w": 360,
+       "h": 166
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-search-results__tags .frach-e-tag=.news-list .news-list-tags li",
+   "family": null,
+   "required": true,
+   "originMatches": 113,
+   "edsMatches": 113,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fcargo"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:cargo",
+       "role": "button",
+       "text": "cargo",
+       "edsText": "cargo",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 48,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 48,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 279,
+       "w": 50,
+       "h": 36
+      },
+      "eds": {
+       "x": 16,
+       "y": 279,
+       "w": 50,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:business-division~2Foperations~2Fflughafenbetrieb~2Fflight-connections"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:flugverbindungen",
+       "role": "button",
+       "text": "flugverbindungen",
+       "edsText": "flugverbindungen",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 113,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 113,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 82,
+       "y": 279,
+       "w": 115,
+       "h": 36
+      },
+      "eds": {
+       "x": 82,
+       "y": 279,
+       "w": 115,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:business-division~2Fconsulting~2Fairport-management"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:flughafenmanagement",
+       "role": "button",
+       "text": "flughafenmanagement",
+       "edsText": "flughafenmanagement",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 141,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 141,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 213,
+       "y": 279,
+       "w": 143,
+       "h": 36
+      },
+      "eds": {
+       "x": 213,
+       "y": 279,
+       "w": 143,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 24,
+  "within": 87,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,3828 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-19T16:20:58.942Z",
+    "phase": "4-design-docs (--prep)",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json",
+      "stardust/current/_vision-typing.json",
+      "stardust/current/assets/css/frach-app.min.css",
+      "stardust/current/pages/*.html"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.41.0",
+    "describes": "current site (descriptive, not a target)"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-19T16:20:58.942Z",
+  "title": "Design System: Fraport AG (current state)",
+  "extensions": {
+    "colorMeta": {
+      "fraport-blue": {
+        "role": "primary",
+        "displayName": "Fraport Blue",
+        "canonical": "#000091",
+        "cssVar": "--frach-color-primary__500",
+        "tonalRamp": [
+          "#00001d",
+          "#00003a",
+          "#000057",
+          "#000074",
+          "#000091",
+          "#3333a7",
+          "#6666bd",
+          "#8c96c8",
+          "#cccce9",
+          "#d9d9ef"
+        ]
+      },
+      "aubergine": {
+        "role": "secondary",
+        "displayName": "Aubergine",
+        "canonical": "#6e156e",
+        "cssVar": "--frach-color-secondary__500",
+        "tonalRamp": [
+          "#160416",
+          "#2c082c",
+          "#420c42",
+          "#581058",
+          "#6e156e",
+          "#8c448c",
+          "#a873a8",
+          "#c5a2c5",
+          "#e2d0e2",
+          "#eadcea"
+        ]
+      },
+      "slate-text": {
+        "role": "neutral",
+        "displayName": "Slate Body Grey",
+        "canonical": "#697074",
+        "cssVar": "--frach-color__grey-600",
+        "tonalRamp": [
+          "#1a1c1d",
+          "#34383a",
+          "#4f5457",
+          "#697074",
+          "#848c91",
+          "#9ca3a7",
+          "#b5babd",
+          "#ced1d3",
+          "#e6e8e9",
+          "#edeeef"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White"
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink (teaser headlines)"
+      },
+      "band-grey": {
+        "role": "neutral",
+        "displayName": "Band Grey",
+        "cssVar": "--frach-color__grey-050"
+      },
+      "rule-grey": {
+        "role": "neutral",
+        "displayName": "Rule Grey",
+        "cssVar": "--frach-color__grey-200"
+      },
+      "blue-deep": {
+        "role": "primary",
+        "displayName": "Pressed Blue (hover)",
+        "cssVar": "--frach-color-primary__700"
+      },
+      "blue-focus": {
+        "role": "primary",
+        "displayName": "Focus Blue",
+        "cssVar": "--frach-color-primary__600"
+      },
+      "blue-tint": {
+        "role": "primary",
+        "displayName": "Blue Tint",
+        "cssVar": "--frach-color-primary__050"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display / H1",
+        "purpose": "Hero headline in a gradient box, semibold italic, authored uppercase"
+      },
+      "headline": {
+        "displayName": "Section title",
+        "purpose": "Section-title boxes and text-media headlines, semibold italic"
+      },
+      "title": {
+        "displayName": "Title H4/H5",
+        "purpose": "Card and block titles"
+      },
+      "teaser-title": {
+        "displayName": "Teaser H6",
+        "purpose": "Teaser/slider headlines (333× most-used heading)"
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Rich text, 16/24 slate grey"
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "figcaption 12/18"
+      },
+      "subtitle": {
+        "displayName": "Subtitle H5",
+        "purpose": "Card titles (24/34)"
+      }
+    },
+    "shadows": [
+      {
+        "name": "halo-soft",
+        "value": "rgb(181, 186, 189) 0px 0px 6px 0px",
+        "purpose": "investor/contact boxes and key-figure panels (soft 6px grey halo)"
+      },
+      {
+        "name": "halo-wide",
+        "value": "rgb(181, 186, 189) 0px 0px 16px 0px",
+        "purpose": "link-box / quote panels on Konzern (16px grey halo)"
+      },
+      {
+        "name": "edge-fade-white",
+        "value": "rgb(255, 255, 255) -20px 0px 10px 10px",
+        "purpose": "white fade mask at slider pagination edge (news listings)"
+      }
+    ],
+    "motion": [
+      {
+        "name": "headline-reveal",
+        "value": "hero-fade-in .3s ease-out forwards, line delays .5s/1s",
+        "purpose": "Headline-box lines fade in staggered"
+      },
+      {
+        "name": "image-zoom",
+        "value": "transform scale(1)→scale(1.2), .5s",
+        "purpose": "Teaser/card/image hover"
+      },
+      {
+        "name": "nav-underline",
+        "value": "width .2s ease-out",
+        "purpose": "Main-nav hover underline"
+      }
+    ],
+    "sourceBreakpoints": {
+      "system": "frach-grid-col-mq1..mq6 (12-column flex grid, .frach-grid container)",
+      "tiers": [
+        {
+          "name": "mq1",
+          "minWidth": 0,
+          "gutter": "24px",
+          "evidence": ".frach-grid-col-mq1-12 base rule (no media query)"
+        },
+        {
+          "name": "mq2",
+          "minWidth": 480,
+          "gutter": "24px",
+          "evidence": ".frach-grid-col-mq2-12 first appears in @media(min-width:480px)"
+        },
+        {
+          "name": "mq3",
+          "minWidth": 720,
+          "gutter": "24px",
+          "evidence": ".frach-grid-col-mq3-12 first appears in @media(min-width:720px)"
+        },
+        {
+          "name": "mq4",
+          "minWidth": 960,
+          "gutter": "24px",
+          "evidence": ".frach-grid-col-mq4-12 first appears in @media(min-width:960px); type scale steps up here (.frach-h1 32→56px)"
+        },
+        {
+          "name": "mq5",
+          "minWidth": 1280,
+          "gutter": "32px",
+          "evidence": ".frach-grid-col-mq5-12 first appears in @media(min-width:1280px); gutters 12→16px each side"
+        },
+        {
+          "name": "mq6",
+          "minWidth": 1440,
+          "gutter": "32px",
+          "evidence": ".frach-grid-col-mq6-12 in @media(min-width:1440px); .frach-grid max-width:1648px"
+        }
+      ],
+      "mediaQueryCounts": {
+        "min-width:1280px": 256,
+        "min-width:720px": 198,
+        "min-width:960px": 183,
+        "min-width:1440px": 161,
+        "min-width:480px": 72,
+        "max-width:719px": 23,
+        "max-width:1279px": 14,
+        "max-width:959px": 9
+      },
+      "containerMaxWidth": "1648px",
+      "citation": "stardust/current/assets/css/frach-app.min.css (css-rules.mjs \\.frach-grid-col-mqN-12, .frach-grid; grep @media census)"
+    },
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "#000091",
+          "color": "#ffffff",
+          "border": "2px solid #000091",
+          "borderRadius": "4px",
+          "padding": "12px",
+          "fontFamily": "fraport-sans-semi-bold",
+          "fontWeight": 400,
+          "shadow": null,
+          "hover": {
+            "background": "#000057",
+            "borderColor": "#000057"
+          },
+          "focus": {
+            "background": "#000074",
+            "indicator": "2px white underline inset 4px (:after)"
+          },
+          "hoverDelta": "darken to primary-700 #000057",
+          "count": 195,
+          "citation": "css .frach-e-button--primary; _computed-styles.json#aggregate.hover[0] (61)"
+        },
+        "secondary": {
+          "background": "#ffffff",
+          "color": "#000091",
+          "border": "2px solid #000091",
+          "borderRadius": "4px",
+          "padding": "12px",
+          "hover": {
+            "background": "#d9d9ef",
+            "borderColor": "#000057",
+            "color": "#000057"
+          },
+          "count": 49,
+          "citation": "css .frach-e-button--secondary"
+        },
+        "tertiary": {
+          "background": "none",
+          "color": "#000091",
+          "border": 0,
+          "padding": 0,
+          "iconRight": "frach-icon-arrow-right.svg",
+          "hover": {
+            "color": "#000057",
+            "textDecoration": "underline"
+          },
+          "count": 810,
+          "examples": [
+            "Lesen",
+            "Hier entlang",
+            "Jetzt entdecken!"
+          ],
+          "citation": "css .frach-e-button--tertiary; _computed-styles.json#aggregate.hover[1] (41)"
+        }
+      },
+      "dualCTAPattern": "secondary-then-primary pairs inside frach-m-cta bands (e.g. Archiv: \"Pressemitteilungen\" / \"Service News\"); teasers use tertiary text+arrow links",
+      "cards": {
+        "background": "#ffffff (mobile #edeeef)",
+        "borderRadius": "0",
+        "padding": "0 0 30px",
+        "shadow": null,
+        "border": null,
+        "image": "1:1 crop, zoom 1.2 on hover",
+        "citation": "css .frach-m-card, .frach-m-card__link"
+      },
+      "teasers": {
+        "padding": "24px 0 → 48px @720 → 64px @1280",
+        "headline": "h6 20/30 semibold",
+        "theme": "eyebrow p.frach-m-teaser__theme",
+        "cta": "tertiary \"Lesen\" + arrow",
+        "citation": "css .frach-m-teaser"
+      },
+      "tags": {
+        "border": "1px solid #000091",
+        "color": "#000091",
+        "borderRadius": "4px",
+        "background": "none",
+        "citation": "css .frach-e-tag"
+      },
+      "inputs": {
+        "borderRadius": "4px",
+        "padding": "15px 90px 15px 24px",
+        "height": "60px",
+        "border": "2px solid #697074",
+        "focusRing": null,
+        "citation": "css .frach-m-search__input"
+      },
+      "headlineBox": {
+        "color": "#ffffff",
+        "font": "fraport-sans-semi-bold-italic",
+        "padding": "8px 16px → 8px 24px @960; H1 16px 32px @960",
+        "backgrounds": [
+          "#000091",
+          "#6e156e",
+          "linear-gradient(135deg,#000091,#6e156e)",
+          "#edeeef"
+        ],
+        "animation": "hero-fade-in .3s ease-out, lines staggered .5s/1s",
+        "citation": "css .frach-e-headline, .frach-e-headline__line, .frach-h-bg--*"
+      }
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "4px",
+        "secondary": "4px 0px 0px",
+        "circle": "100%",
+        "pill": null,
+        "primarySources": [
+          "de"
+        ],
+        "occurrences": {
+          "4px": 845,
+          "100%": 53,
+          "4px 0px 0px": 22
+        },
+        "uses": {
+          "4px": "buttons, tags/chips, search input, teaser/slider controls",
+          "100%": "circular close button of the site-wide sticky patch (frach-e-sticky-patch)",
+          "4px 0px 0px": "top-left rounded image overlay scrim in text-media/gallery tiles"
+        },
+        "citation": "_computed-styles.json#aggregate.motifs.radius"
+      },
+      "shadows": [
+        {
+          "value": "rgb(181, 186, 189) 0px 0px 6px 0px",
+          "count": 48,
+          "uses": "investor/contact boxes and key-figure panels (soft 6px grey halo)",
+          "sources": [
+            "de-investoren",
+            "de-newsroom-ansprechpartner"
+          ]
+        },
+        {
+          "value": "rgb(181, 186, 189) 0px 0px 16px 0px",
+          "count": 11,
+          "uses": "link-box / quote panels on Konzern (16px grey halo)",
+          "sources": [
+            "de-konzern",
+            "de-konzern-digitalisierung",
+            "de-konzern-ueber-uns"
+          ]
+        },
+        {
+          "value": "rgb(255, 255, 255) -20px 0px 10px 10px",
+          "count": 2,
+          "uses": "white fade mask at slider pagination edge (news listings)",
+          "sources": [
+            "de-newsroom-pressemitteilung",
+            "de-newsroom-servicenews"
+          ]
+        }
+      ],
+      "gradients": [
+        {
+          "value": "linear-gradient(135deg, rgb(0, 0, 145) 0px, rgb(110, 21, 110) 100%)",
+          "count": 48,
+          "uses": "site footer background + gradient headline boxes (frach-h-bg--gradient-primary-to-secondary, 41 class uses)",
+          "sources": [
+            "de",
+            "de-geschaeftsfelder",
+            "de-geschaeftsfelder-betrieb"
+          ]
+        },
+        {
+          "value": "linear-gradient(90deg, color(srgb 0.85098 0.85098 0.937255 / 0.7) 0px, color(srgb 0.85098 0.85098 0.937255 / 0.7) 50%, color(srgb 0 0 0 / 0) 100%)",
+          "count": 2,
+          "uses": "pale-lavender translucent scrim behind tabbed text on International Activities",
+          "sources": [
+            "de-geschaeftsfelder-international-activities",
+            "de-konzern"
+          ]
+        },
+        {
+          "value": "linear-gradient(90deg, rgb(0, 0, 145) 0px, rgb(110, 21, 110) 100%)",
+          "count": 2,
+          "uses": "text-media headline box on home",
+          "sources": [
+            "de"
+          ]
+        }
+      ],
+      "patterns": [
+        {
+          "name": "headline-box",
+          "evidence": "Headlines set line-by-line in solid boxes (white semibold-italic uppercase on #000091 / #6e156e / 135deg blue→aubergine gradient / grey) — .frach-e-headline__line padding 8px 16px→16px 32px; frach-h-bg--* classes: gradient 42, primary 29, grey 25, secondary 7 uses",
+          "pages": [
+            "de",
+            "de-konzern",
+            "de-konzern-konzernstrategie"
+          ]
+        },
+        {
+          "name": "hero-with-image",
+          "evidence": "22/25 pages: photo occupying 10 of 12 columns from 720px (frach-grid-col-mq3-10 offset-2), 16:9 (21:9 on 20 pages), H1 headline box overlapping its lower-left edge (translateY(-50%))",
+          "pages": [
+            "de",
+            "de-konzern",
+            "de-nachhaltigkeit"
+          ]
+        },
+        {
+          "name": "teaser-carousel",
+          "evidence": "frach-m-teaser-slider on 19 pages, 369 teasers; image + h6 headline + \"Lesen\" tertiary link",
+          "pages": [
+            "de",
+            "de-konzern",
+            "de-geschaeftsfelder"
+          ]
+        },
+        {
+          "name": "cross-promo-related-strip",
+          "evidence": "\"NOCH MEHR FRAPORT\" section-title + related-content slider above footer on 19/25 pages",
+          "pages": [
+            "de",
+            "de-konzern",
+            "de-nachhaltigkeit"
+          ]
+        },
+        {
+          "name": "grey-band-sections",
+          "evidence": "alternating #edeeef sections with 32→64px top padding (.frach-h-bg--grey.frach-h-component-padding)",
+          "pages": [
+            "de",
+            "de-newsroom",
+            "de-konzern-digitalisierung"
+          ]
+        },
+        {
+          "name": "stat-row",
+          "evidence": "frach-m-key-figures (4 pages) + pictogram-key-figures (2) with animated numbers in #6e156e",
+          "pages": [
+            "de",
+            "de-investoren",
+            "de-konzern-digitalisierung"
+          ]
+        },
+        {
+          "name": "card-grid",
+          "evidence": "frach-m-card 1:1 image cards in 3-col grid (4 pages, 19 cards)",
+          "pages": [
+            "de-geschaeftsfelder-service",
+            "de-nachhaltigkeit-wertschaffung",
+            "de-newsroom"
+          ]
+        },
+        {
+          "name": "accordion-stack",
+          "evidence": "frach-m-accordion on 15 pages (149 rows)",
+          "pages": [
+            "de-konzern-konzernstrategie",
+            "de-investoren-publikationen-termine",
+            "de-newsroom-ansprechpartner"
+          ]
+        },
+        {
+          "name": "image-zoom-hover",
+          "evidence": "teaser/card/image hover scales the photo to 1.2 over .3–.5s (frach-*--hover-fx; 53 image + 19 card + teaser wrappers)",
+          "pages": [
+            "de",
+            "de-geschaeftsfelder-service",
+            "de-konzern"
+          ]
+        },
+        {
+          "name": "nav-mega",
+          "evidence": "frach-m-main-navigation mega menu with per-section overview text and teasers (13.7k chars of nav text on home)",
+          "pages": [
+            "de"
+          ]
+        },
+        {
+          "name": "footer-mega",
+          "evidence": "gradient footer: contact column, Fraport Sites, Service, Social Media lists, legal line",
+          "pages": [
+            "de"
+          ]
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "WIR SIND WELTWEIT AKTIV UND SETZEN STANDARDS",
+      "heroSubcopy": null,
+      "heroImage": {
+        "url": "https://www.fraport.com/content/dam/fraport-company/images/konzern/hero/keyv7.jpg/_jcr_content/renditions/original./keyv7.jpg",
+        "alt": "Rollverkehr",
+        "source": "img",
+        "element": "frach-e-lazy-image",
+        "domPath": "main#main-content frach-m-hero .frach-m-hero__media-container > frach-e-lazy-image",
+        "localPath": null,
+        "rect": null,
+        "aspect": "16:9 (padding-bottom 56.25%; home hero has no --21-9 modifier)",
+        "columns": "10/12 from 720px (frach-grid-col-mq3-10 frach-grid-offset-mq3-2)",
+        "note": "rect not recorded (page media.imgs empty — custom element); first-viewport, largest image on home; same file is og:image",
+        "citation": "pages/de.html frach-m-hero; pages/de.json#og.image"
+      },
+      "heroMedium": null,
+      "primaryCTALabel": "Lesen",
+      "primaryCTANote": "home has no hero CTA; the dominant action label across the site is the tertiary teaser link \"Lesen\" (327×, 19 pages)",
+      "ctaSamples": [
+        "Lesen",
+        "Hier entlang",
+        "Jetzt entdecken!",
+        "Dein Einstieg",
+        "Jobbörse",
+        "Mehr zum Umwelt und Klimaschutz",
+        "Pressemappe Klima- und Umweltthemen",
+        "Masterplan Dekarbonisierung"
+      ],
+      "navItems": [
+        "Startseite",
+        "Konzern",
+        "Geschäftsfelder",
+        "Investoren",
+        "Nachhaltigkeit",
+        "Newsroom",
+        "Suche"
+      ],
+      "metaNavItems": [
+        "Meldung",
+        "Suche",
+        "International",
+        "Karriere bei Fraport",
+        "Deutsch",
+        "English"
+      ],
+      "footerHeadings": [
+        "Ansprechpartner",
+        "Fraport AG",
+        "Fraport Sites",
+        "Service",
+        "Social Media"
+      ],
+      "firstParagraph": "Die Fraport AG gehört zu den international führenden Unternehmen im Airport-Business und ist an 30 Flughäfen auf vier Kontinenten aktiv. „Connecting the world with tomorrow“ heißt der Claim, dem sich der Flughafenbetreiber in seinem Leitbild verpflichtet hat. Dieser Anspruch gilt sowohl an Deutschlands größtem Luftverkehrsdrehkreuz in Frankfurt, als auch weltweit an allen Standorten.",
+      "claim": "Connecting the world with tomorrow",
+      "tagline": "Die Fraport AG zählt zu den weltweit führenden Unternehmen im Airport-Business und ist an 30 Flughäfen auf vier Kontinenten aktiv. Mit dem Claim „Connecting the world with tomorrow“ verpflichtet sich der Flughafenbetreiber, zukunftsorientierte Lösungen sowohl an Deutschlands größtem Luftverkehrsdrehkreuz in Frankfurt als auch an allen internationalen Standorten umzusetzen.",
+      "language": "de",
+      "tone": {
+        "guess": "professional-formal",
+        "evidence": "formal \"Sie\" address and corporate third person (\"Die Fraport AG gehört…\", \"Verlassen Sie sich auf Fraport\"), figure-led claims (30 Flughäfen, 4,4 Mrd. Euro); careers copy switches to informal \"Du/deine\" (\"Tauche ein in deine Welt der Möglichkeiten\") — heuristic"
+      },
+      "citation": "pages/de.json#headings,body,ctas,og; pages/de.html frach-m-main-navigation, frach-m-meta-navigation, frach-m-page-footer",
+      "examples": {
+        "do": [
+          "WIR SIND WELTWEIT AKTIV UND SETZEN STANDARDS",
+          "Verlassen Sie sich auf Fraport: Wir kümmern uns um alle Aspekte der Energieversorgung…",
+          "Lesen"
+        ],
+        "dont": []
+      },
+      "voiceTable": {
+        "ctaFrequency": [
+          {
+            "label": "Lesen",
+            "total": 327,
+            "pageCount": 19,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Investoren",
+            "total": 61,
+            "pageCount": 25,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Konzern",
+            "total": 57,
+            "pageCount": 25,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Nachhaltigkeit",
+            "total": 54,
+            "pageCount": 25,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Geschäftsfelder",
+            "total": 52,
+            "pageCount": 25,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Newsroom",
+            "total": 52,
+            "pageCount": 25,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Datenschutz",
+            "total": 31,
+            "pageCount": 24,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          },
+          {
+            "label": "Richtlinien und Zahlungsbedingungen",
+            "total": 31,
+            "pageCount": 24,
+            "pages": [
+              "de",
+              "index",
+              "de-konzern",
+              "de-geschaeftsfelder",
+              "de-investoren",
+              "de-nachhaltigkeit"
+            ]
+          }
+        ],
+        "ctaFrequencyNote": "Closed-list (English) matching found 0 labels on this German site; table shows the top-8 raw ctas[].label frequencies (tags stripped) instead. Excluded: \"properties.socialType\" (115×/24 pages) — an unresolved i18n key used as footer social link label.",
+        "headingFrequency": [
+          {
+            "text": "Frankfurt CargoHub",
+            "total": 26,
+            "pageCount": 25,
+            "level": 6
+          },
+          {
+            "text": "Social Media",
+            "total": 25,
+            "pageCount": 25,
+            "level": 5
+          },
+          {
+            "text": "Frankfurt Airport",
+            "total": 25,
+            "pageCount": 25,
+            "level": 6
+          },
+          {
+            "text": "Fraport-Verkehrszahlen im Oktober 2026: Cargo wächst – Passagierzahlen auf Vorjahresniveau",
+            "total": 15,
+            "pageCount": 15,
+            "level": 6
+          },
+          {
+            "text": "Sponsoring und Spenden",
+            "total": 15,
+            "pageCount": 15,
+            "level": 6
+          },
+          {
+            "text": "Digitalisierung und Digital Factory",
+            "total": 14,
+            "pageCount": 14,
+            "level": 6
+          },
+          {
+            "text": "Luftqualität",
+            "total": 14,
+            "pageCount": 14,
+            "level": 6
+          },
+          {
+            "text": "AI@Fraport",
+            "total": 14,
+            "pageCount": 12,
+            "level": 6
+          },
+          {
+            "text": "Service",
+            "total": 13,
+            "pageCount": 13,
+            "level": 6
+          },
+          {
+            "text": "NOCH MEHR FRAPORT",
+            "total": 12,
+            "pageCount": 12,
+            "level": 1
+          },
+          {
+            "text": "Flughafen Ljubljana",
+            "total": 12,
+            "pageCount": 12,
+            "level": 6
+          },
+          {
+            "text": "Sicher unterwegs auf Vorfeld und Rollfeld",
+            "total": 12,
+            "pageCount": 12,
+            "level": 6
+          }
+        ],
+        "toneMetrics": {
+          "headingsTotal": 683,
+          "headingsUppercasePercent": 11,
+          "distinctHeadings": 273,
+          "distinctCtaLabels": 366
+        },
+        "citation": "pages/*.json#headings, ctas (25 pages)"
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 25,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Startseite",
+          "Konzern",
+          "Geschäftsfelder",
+          "Investoren",
+          "Nachhaltigkeit",
+          "Newsroom",
+          "Suche"
+        ],
+        "metaNav": [
+          "Meldung",
+          "Suche",
+          "International",
+          "Karriere bei Fraport",
+          "Deutsch",
+          "English"
+        ],
+        "exampleSlug": "de",
+        "exampleSelector": "frach-m-sticky-page-header-container > frach-m-page-header",
+        "examplePages": [
+          "de",
+          "de-konzern",
+          "de-newsroom"
+        ],
+        "structure": "white sticky bar, 1px #ced1d3 bottom border; logo (inline SVG #000091) left; mega-menu main navigation; meta row with notifications (Meldung), search, International site switcher, career link, DE/EN switch",
+        "verbatimRef": "pages/de.html <frach-m-page-header>"
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 25,
+        "headingSequence": [
+          "Fraport AG",
+          "Service",
+          "Social Media",
+          "Frankfurt Airport",
+          "Frankfurt CargoHub"
+        ],
+        "ctaLabels": [
+          "Anfahrtsbeschreibung",
+          "Kontaktformular",
+          "E-Mail",
+          "Konzern",
+          "Geschäftsfelder",
+          "Investoren",
+          "Nachhaltigkeit",
+          "Newsroom",
+          "Frankfurt Airport",
+          "Karriere bei Fraport",
+          "Datenschutz",
+          "Impressum",
+          "Disclaimer",
+          "Richtlinien und Zahlungsbedingungen"
+        ],
+        "exampleSlug": "de",
+        "exampleSelector": "frach-m-page-footer",
+        "examplePages": [
+          "de",
+          "de-konzern",
+          "de-newsroom"
+        ],
+        "structure": "135deg #000091→#6e156e gradient, white text; Ansprechpartner/contact column, Fraport Sites, Service (legal), Social Media (Frankfurt Airport, Frankfurt CargoHub) and ©2004-2026 line",
+        "verbatimRef": "pages/de.html <frach-m-page-footer>"
+      },
+      {
+        "name": "noch-mehr-fraport",
+        "kind": "cross-promo",
+        "occurrences": 19,
+        "headingSequence": [
+          "NOCH MEHR FRAPORT"
+        ],
+        "ctaLabels": [
+          "Lesen"
+        ],
+        "exampleSlug": "de-konzern",
+        "exampleSelector": "main .frach-m-section-title + frach-m-teaser-slider.frach-m-related-content",
+        "examplePages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung"
+        ],
+        "structure": "section-title headline box + horizontal teaser slider (image, h6 headline, short text, \"Lesen\" arrow link), 16 teasers in rotation, prev/next + dots"
+      },
+      {
+        "name": "breadcrumb",
+        "kind": "breadcrumb",
+        "occurrences": 21,
+        "headingSequence": [],
+        "ctaLabels": [],
+        "exampleSlug": "de-konzern-konzernstrategie",
+        "exampleSelector": "frach-m-breadcrumb-navigation",
+        "examplePages": [
+          "de-konzern",
+          "de-konzern-konzernstrategie",
+          "de-newsroom"
+        ],
+        "structure": "small grey trail with back-link, chevron separators; absent on home and the two news listings"
+      },
+      {
+        "name": "sticky-patch",
+        "kind": "other",
+        "occurrences": 25,
+        "headingSequence": [
+          "75 Jahre Flughafenfeuerwehr"
+        ],
+        "ctaLabels": [
+          "Jetzt entdecken!"
+        ],
+        "exampleSlug": "de",
+        "exampleSelector": "main frach-e-sticky-patch",
+        "examplePages": [
+          "de",
+          "de-konzern",
+          "de-newsroom-servicenews"
+        ],
+        "structure": "floating image patch with circular (100% radius) primary close button, h6 + body + link; identical campaign copy on every page"
+      },
+      {
+        "name": "notifications",
+        "kind": "other",
+        "occurrences": 25,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Meldungen anzeigen"
+        ],
+        "exampleSlug": "de",
+        "exampleSelector": "frach-m-notifications (ticker + overlay) in header",
+        "examplePages": [
+          "de",
+          "de-konzern",
+          "de-newsroom"
+        ],
+        "structure": "alert ticker/overlay fed by /darksite-alerts, /passenger-alerts, /traffic-alerts JSON (see _crawl-log.json#dynamicSurface.endpoints); empty at capture time"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "ratios": [
+        1.4,
+        1.429,
+        1.167,
+        1.2
+      ],
+      "matchedScale": null,
+      "sizesPx": [
+        56,
+        40,
+        28,
+        24,
+        20
+      ],
+      "note": "56→40 (1.400) and 40→28 (1.429) sit near augmented-fourth, 28→24 (1.167) and 24→20 (1.200) near minor-third; no single ratio within ±0.025"
+    },
+    "modules": [
+      {
+        "id": "candidate-0911aed",
+        "name": "hero",
+        "status": "candidate",
+        "sourceTag": "frach-m-hero",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 22,
+        "pageCount": 22,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-investoren-fraport-aktie",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung",
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-fraport-aktie",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main frach-m-hero",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+            "selector": "main frach-m-hero",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "headline-background",
+            "type": "enum:gradient|primary|secondary|grey",
+            "required": false
+          },
+          {
+            "name": "aspect",
+            "type": "enum:16:9|21:9|full-width",
+            "required": false
+          }
+        ],
+        "notes": "variants --21-9 (20), --full-width (2)"
+      },
+      {
+        "id": "candidate-6e5ce57",
+        "name": "breadcrumb",
+        "status": "candidate",
+        "sourceTag": "frach-m-breadcrumb-navigation",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 21,
+        "pageCount": 21,
+        "pages": [
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-investoren-fraport-aktie",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung",
+          "de-newsroom-ansprechpartner",
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-fraport-aktie",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+            "selector": "frach-m-breadcrumb-navigation",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "trail",
+            "type": "link[]",
+            "required": true
+          },
+          {
+            "name": "back-link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "notes": "outside main; chrome-level"
+      },
+      {
+        "id": "candidate-179059f",
+        "name": "section-title",
+        "status": "candidate",
+        "sourceTag": ".frach-m-section-title",
+        "signalSources": [
+          "headings (\"NOCH MEHR FRAPORT\" ×19 pages; per-page H1/H2 section labels)",
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "high",
+        "instances": 58,
+        "pageCount": 22,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-investoren-fraport-aktie",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung",
+          "de-newsroom-ansprechpartner"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main .frach-m-section-title",
+            "count": 5
+          },
+          {
+            "slug": "index",
+            "selector": "main .frach-m-section-title",
+            "count": 5
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main .frach-m-section-title",
+            "count": 2
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main .frach-m-section-title",
+            "count": 4
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-section-title",
+            "count": 8
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main .frach-m-section-title",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "main .frach-m-section-title",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main .frach-m-section-title",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main .frach-m-section-title",
+            "count": 6
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main .frach-m-section-title",
+            "count": 6
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main .frach-m-section-title",
+            "count": 3
+          },
+          {
+            "slug": "de-investoren-fraport-aktie",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main .frach-m-section-title",
+            "count": 3
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "main .frach-m-section-title",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "background",
+            "type": "enum:primary|secondary|gradient|grey",
+            "required": false
+          },
+          {
+            "name": "nested",
+            "type": "boolean",
+            "required": false
+          }
+        ],
+        "notes": "--nested variant 34×"
+      },
+      {
+        "id": "candidate-cbec6dc",
+        "name": "related-teaser-strip",
+        "status": "candidate",
+        "sourceTag": "frach-m-teaser-slider.frach-m-related-content",
+        "signalSources": [
+          "headings (\"NOCH MEHR FRAPORT\" 19 pages)",
+          "ctas (\"Lesen\" 327× / 19 pages)",
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "high",
+        "instances": 23,
+        "pageCount": 19,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 2
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 2
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main frach-m-teaser-slider.frach-m-related-content",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "teasers",
+            "type": "teaser[]",
+            "required": true
+          }
+        ],
+        "notes": "site-wide cross-promo above footer"
+      },
+      {
+        "id": "candidate-918e85f",
+        "name": "quicklink-strip",
+        "status": "candidate",
+        "sourceTag": "frach-m-teaser-slider (not related-content)",
+        "signalSources": [
+          "ctas (\"Lesen\")",
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "high",
+        "instances": 6,
+        "pageCount": 6,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-geschaeftsfelder-betrieb"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-teaser-slider (not related-content)",
+            "count": 1
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-teaser-slider (not related-content)",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main frach-m-teaser-slider (not related-content)",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main frach-m-teaser-slider (not related-content)",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-m-teaser-slider (not related-content)",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main frach-m-teaser-slider (not related-content)",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "teasers",
+            "type": "teaser[]",
+            "required": true
+          }
+        ],
+        "notes": "directly under hero on home + section landings"
+      },
+      {
+        "id": "candidate-c2b4fe1",
+        "name": "teaser",
+        "status": "candidate",
+        "sourceTag": ".frach-m-teaser",
+        "signalSources": [
+          "ctas (\"Lesen\" 327× / 19 pages)",
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "high",
+        "instances": 369,
+        "pageCount": 19,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main .frach-m-teaser",
+            "count": 35
+          },
+          {
+            "slug": "index",
+            "selector": "main .frach-m-teaser",
+            "count": 35
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-teaser",
+            "count": 22
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main .frach-m-teaser",
+            "count": 20
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main .frach-m-teaser",
+            "count": 22
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "main .frach-m-teaser",
+            "count": 19
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main .frach-m-teaser",
+            "count": 20
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main .frach-m-teaser",
+            "count": 4
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main .frach-m-teaser",
+            "count": 32
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main .frach-m-teaser",
+            "count": 16
+          }
+        ],
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "eyebrow",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "headline",
+            "type": "link",
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "notes": "item of the two strips; 369 instances"
+      },
+      {
+        "id": "candidate-e4bc842",
+        "name": "text-media",
+        "status": "candidate",
+        "sourceTag": "frach-m-text-media",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 72,
+        "pageCount": 16,
+        "pages": [
+          "de",
+          "index",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-international-activities",
+          "de-investoren-fraport-aktie",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung",
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-text-media",
+            "count": 2
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-text-media",
+            "count": 2
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main frach-m-text-media",
+            "count": 4
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-text-media",
+            "count": 6
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main frach-m-text-media",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main frach-m-text-media",
+            "count": 4
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main frach-m-text-media",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main frach-m-text-media",
+            "count": 5
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-text-media",
+            "count": 3
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-text-media",
+            "count": 31
+          },
+          {
+            "slug": "de-investoren-fraport-aktie",
+            "selector": "main frach-m-text-media",
+            "count": 4
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main frach-m-text-media",
+            "count": 2
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main frach-m-text-media",
+            "count": 2
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "main frach-m-text-media",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main frach-m-text-media",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+            "selector": "main frach-m-text-media",
+            "count": 3
+          }
+        ],
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": true
+          },
+          {
+            "name": "media",
+            "type": "image|video",
+            "required": false
+          },
+          {
+            "name": "layout",
+            "type": "enum:100|50-50|66-33|33-66",
+            "required": false
+          },
+          {
+            "name": "media-side",
+            "type": "enum:left|right",
+            "required": false
+          },
+          {
+            "name": "buttons",
+            "type": "link[]",
+            "required": false
+          }
+        ],
+        "notes": "variants right 39, 66-33 28, 100 25, 50-50 14, left 8, 33-66 5"
+      },
+      {
+        "id": "candidate-58f8126",
+        "name": "rich-text",
+        "status": "candidate",
+        "sourceTag": ".frach-m-text (standalone)",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 74,
+        "pageCount": 18,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-newsroom-ansprechpartner",
+          "de-newsroom-pressemitteilung",
+          "de-newsroom-servicenews"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 9
+          },
+          {
+            "slug": "index",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 9
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 6
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 6
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 5
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 7
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 9
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 8
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 3
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 2
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 2
+          },
+          {
+            "slug": "de-newsroom-pressemitteilung",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-servicenews",
+            "selector": "main .frach-m-text (standalone)",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "body",
+            "type": "richtext",
+            "required": true
+          },
+          {
+            "name": "buttons",
+            "type": "link[]",
+            "required": false
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "candidate-0e76292",
+        "name": "image",
+        "status": "candidate",
+        "sourceTag": "frach-m-image (standalone)",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 59,
+        "pageCount": 13,
+        "pages": [
+          "de",
+          "index",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-image (standalone)",
+            "count": 8
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-image (standalone)",
+            "count": 8
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main frach-m-image (standalone)",
+            "count": 4
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-m-image (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-image (standalone)",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main frach-m-image (standalone)",
+            "count": 2
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main frach-m-image (standalone)",
+            "count": 9
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main frach-m-image (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-image (standalone)",
+            "count": 5
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main frach-m-image (standalone)",
+            "count": 9
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-image (standalone)",
+            "count": 7
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main frach-m-image (standalone)",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main frach-m-image (standalone)",
+            "count": 2
+          }
+        ],
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": true
+          },
+          {
+            "name": "caption",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "notes": "--hover-fx variant"
+      },
+      {
+        "id": "candidate-12f81c9",
+        "name": "cta-band",
+        "status": "candidate",
+        "sourceTag": ".frach-m-cta",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 15,
+        "pageCount": 11,
+        "pages": [
+          "de",
+          "index",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-konzernstrategie",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-service",
+          "de-newsroom-ansprechpartner",
+          "de-newsroom-pressemitteilung",
+          "de-newsroom-servicenews"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "index",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-cta",
+            "count": 3
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main .frach-m-cta",
+            "count": 2
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main .frach-m-cta",
+            "count": 2
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-pressemitteilung",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-servicenews",
+            "selector": "main .frach-m-cta",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "buttons",
+            "type": "link[]",
+            "required": true
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "candidate-d1391a0",
+        "name": "accordion",
+        "status": "candidate",
+        "sourceTag": "frach-m-accordion",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 16,
+        "pageCount": 15,
+        "pages": [
+          "de",
+          "index",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-international-activities",
+          "de-investoren-fraport-aktie",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-newsroom-ansprechpartner",
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-accordion",
+            "count": 2
+          },
+          {
+            "slug": "de-investoren-fraport-aktie",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+            "selector": "main frach-m-accordion",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "items",
+            "type": "{label:text, content:richtext}[]",
+            "required": true
+          }
+        ],
+        "notes": "149 rows; footer also uses one"
+      },
+      {
+        "id": "candidate-49bc069",
+        "name": "media-lightbox",
+        "status": "candidate",
+        "sourceTag": ".frach-m-media-lightbox",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 11,
+        "pageCount": 6,
+        "pages": [
+          "de-konzern",
+          "de-nachhaltigkeit",
+          "de-konzern-konzernstrategie",
+          "de-geschaeftsfelder-international-activities",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-media-lightbox",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main .frach-m-media-lightbox",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main .frach-m-media-lightbox",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main .frach-m-media-lightbox",
+            "count": 6
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main .frach-m-media-lightbox",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+            "selector": "main .frach-m-media-lightbox",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "media",
+            "type": "image|video",
+            "required": true
+          },
+          {
+            "name": "slides",
+            "type": "image[]",
+            "required": false
+          }
+        ],
+        "notes": "opens frach-m-overlay"
+      },
+      {
+        "id": "candidate-f481251",
+        "name": "key-figures",
+        "status": "candidate",
+        "sourceTag": "frach-m-key-figures",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 6,
+        "pageCount": 4,
+        "pages": [
+          "de",
+          "index",
+          "de-investoren",
+          "de-newsroom"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-key-figures",
+            "count": 2
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-key-figures",
+            "count": 2
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-m-key-figures",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-key-figures",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "figures",
+            "type": "{value:number, unit:text, label:text}[]",
+            "required": true
+          },
+          {
+            "name": "indicator",
+            "type": "enum:up|down",
+            "required": false
+          }
+        ],
+        "notes": "animated numbers in #6e156e; share-price variant on Investoren"
+      },
+      {
+        "id": "candidate-9583453",
+        "name": "card-grid",
+        "status": "candidate",
+        "sourceTag": ".frach-m-card (3-col)",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 19,
+        "pageCount": 4,
+        "pages": [
+          "de-konzern",
+          "de-newsroom",
+          "de-geschaeftsfelder-service",
+          "de-nachhaltigkeit-wertschaffung"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-card (3-col)",
+            "count": 2
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-card (3-col)",
+            "count": 2
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main .frach-m-card (3-col)",
+            "count": 9
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main .frach-m-card (3-col)",
+            "count": 6
+          }
+        ],
+        "slots": [
+          {
+            "name": "cards",
+            "type": "{image, title, text, date?, href}[]",
+            "required": true
+          }
+        ],
+        "notes": "1:1 images"
+      },
+      {
+        "id": "candidate-ccaf491",
+        "name": "anchor-list",
+        "status": "candidate",
+        "sourceTag": "frach-m-anchor-list",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 4,
+        "pageCount": 4,
+        "pages": [
+          "de",
+          "index",
+          "de-newsroom",
+          "de-konzern-digitalisierung"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-m-anchor-list",
+            "count": 1
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-m-anchor-list",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-m-anchor-list",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-anchor-list",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "anchors",
+            "type": "{label, number?, target}[]",
+            "required": true
+          }
+        ],
+        "notes": "sticky in-page tab bar"
+      },
+      {
+        "id": "candidate-e461f21",
+        "name": "link-box",
+        "status": "candidate",
+        "sourceTag": ".frach-m-link-box",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 3,
+        "pageCount": 3,
+        "pages": [
+          "de-konzern",
+          "de-newsroom",
+          "de-konzern-ueber-uns"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-link-box",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-link-box",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main .frach-m-link-box",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "links",
+            "type": "link[]",
+            "required": true
+          },
+          {
+            "name": "buttons",
+            "type": "link[]",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          }
+        ],
+        "notes": "contains frach-m-link-list"
+      },
+      {
+        "id": "candidate-a0ff489",
+        "name": "download-list",
+        "status": "candidate",
+        "sourceTag": ".frach-m-download-list",
+        "signalSources": [
+          "ctas (download-icon labels)",
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 22,
+        "pageCount": 3,
+        "pages": [
+          "de-investoren",
+          "de-konzern-managementsysteme",
+          "de-investoren-publikationen-termine"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-investoren",
+            "selector": "main .frach-m-download-list",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "main .frach-m-download-list",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main .frach-m-download-list",
+            "count": 50
+          }
+        ],
+        "slots": [
+          {
+            "name": "headline",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "files",
+            "type": "{name, type, size, href}[]",
+            "required": true
+          }
+        ],
+        "notes": "22 list containers / 292 files"
+      },
+      {
+        "id": "candidate-f63f258",
+        "name": "contact-list",
+        "status": "candidate",
+        "sourceTag": ".frach-m-contact-list",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 7,
+        "pageCount": 3,
+        "pages": [
+          "de-investoren",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-newsroom-ansprechpartner"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-investoren",
+            "selector": "main .frach-m-contact-list",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main .frach-m-contact-list",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "main .frach-m-contact-list",
+            "count": 5
+          }
+        ],
+        "slots": [
+          {
+            "name": "contacts",
+            "type": "{photo, name, role, phone, email, web}[]",
+            "required": true
+          }
+        ],
+        "notes": "60 contacts"
+      },
+      {
+        "id": "candidate-adad12e",
+        "name": "tab-navigation",
+        "status": "candidate",
+        "sourceTag": "frach-m-tab-navigation",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 3,
+        "pageCount": 3,
+        "pages": [
+          "de-geschaeftsfelder-international-activities",
+          "de-newsroom-pressemitteilung",
+          "de-newsroom-servicenews"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-tab-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-pressemitteilung",
+            "selector": "main frach-m-tab-navigation",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-servicenews",
+            "selector": "main frach-m-tab-navigation",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "tabs",
+            "type": "link[]",
+            "required": true
+          }
+        ],
+        "notes": "filter chips on listings; tabs on International Activities"
+      },
+      {
+        "id": "candidate-b48bb55",
+        "name": "testimonial",
+        "status": "candidate",
+        "sourceTag": ".frach-m-testimonial",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "speculative",
+        "instances": 2,
+        "pageCount": 2,
+        "pages": [
+          "de-konzern",
+          "de-geschaeftsfelder-international-activities"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern",
+            "selector": "main .frach-m-testimonial",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main .frach-m-testimonial",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "quote",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "author",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "notes": "2 pages"
+      },
+      {
+        "id": "candidate-73cb8e6",
+        "name": "image-gallery-tiles",
+        "status": "candidate",
+        "sourceTag": "frach-m-image-gallery-tiles",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "speculative",
+        "instances": 2,
+        "pageCount": 2,
+        "pages": [
+          "de-konzern",
+          "de-geschaeftsfelder-international-activities"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern",
+            "selector": "main frach-m-image-gallery-tiles",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-image-gallery-tiles",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "images",
+            "type": "image[]",
+            "required": true
+          }
+        ],
+        "notes": "opens lightbox slider"
+      },
+      {
+        "id": "candidate-008348d",
+        "name": "teaser-collection",
+        "status": "candidate",
+        "sourceTag": ".frach-m-teaser-collection",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "speculative",
+        "instances": 2,
+        "pageCount": 2,
+        "pages": [
+          "de-newsroom",
+          "de-konzern-digitalisierung"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-newsroom",
+            "selector": "main .frach-m-teaser-collection",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main .frach-m-teaser-collection",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "items",
+            "type": "{date, headline, text, href}[]",
+            "required": true
+          },
+          {
+            "name": "more",
+            "type": "link",
+            "required": false
+          }
+        ],
+        "notes": "dated news list"
+      },
+      {
+        "id": "candidate-e9b11bc",
+        "name": "pictogram-key-figures",
+        "status": "candidate",
+        "sourceTag": "frach-m-pictogram-key-figures",
+        "signalSources": [
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "speculative",
+        "instances": 2,
+        "pageCount": 2,
+        "pages": [
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-international-activities"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-m-pictogram-key-figures",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-m-pictogram-key-figures",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "items",
+            "type": "{pictogram:svg, value, text}[]",
+            "required": true
+          }
+        ],
+        "notes": null
+      },
+      {
+        "id": "candidate-039d24b",
+        "name": "search-results",
+        "status": "candidate",
+        "sourceTag": "frach-m-search + frach-m-search-results",
+        "signalSources": [
+          "forms/search (2 pages with search form per _crawl-log.json#dynamicSurface)",
+          "dom-module-class (rendered pages/*.html, main#main-content)",
+          "vision-typing (_vision-typing.json#modules)"
+        ],
+        "confidence": "medium",
+        "instances": 2,
+        "pageCount": 2,
+        "pages": [
+          "de-newsroom-pressemitteilung",
+          "de-newsroom-servicenews"
+        ],
+        "instanceList": [
+          {
+            "slug": "de-newsroom-pressemitteilung",
+            "selector": "main frach-m-search + frach-m-search-results",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-servicenews",
+            "selector": "main frach-m-search + frach-m-search-results",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "query",
+            "type": "search-input",
+            "required": true
+          },
+          {
+            "name": "filters",
+            "type": "tag[]",
+            "required": false
+          },
+          {
+            "name": "results",
+            "type": "{image, tags, date, title, href}[] (client-rendered)",
+            "required": true
+          },
+          {
+            "name": "load-more",
+            "type": "button",
+            "required": false
+          }
+        ],
+        "notes": "dynamic; news listings"
+      },
+      {
+        "id": "candidate-0e4faa1",
+        "name": "sticky-patch",
+        "status": "candidate",
+        "sourceTag": "frach-e-sticky-patch",
+        "signalSources": [
+          "headings (\"75 Jahre Flughafenfeuerwehr\" on all 25 pages)",
+          "ctas (\"Jetzt entdecken!\")",
+          "dom-module-class (rendered pages/*.html, main#main-content)"
+        ],
+        "confidence": "high",
+        "instances": 25,
+        "pageCount": 25,
+        "pages": [
+          "de",
+          "index",
+          "de-konzern",
+          "de-geschaeftsfelder",
+          "de-investoren",
+          "de-nachhaltigkeit",
+          "de-newsroom",
+          "de-konzern-ueber-uns",
+          "de-konzern-konzernstrategie",
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+          "de-konzern-managementsysteme",
+          "de-konzern-regionales-engagement",
+          "de-konzern-digitalisierung",
+          "de-geschaeftsfelder-betrieb",
+          "de-geschaeftsfelder-international-activities",
+          "de-geschaeftsfelder-service",
+          "de-investoren-fraport-aktie",
+          "de-investoren-publikationen-termine",
+          "de-nachhaltigkeit-umwelt-und-klimaschutz",
+          "de-nachhaltigkeit-unternehmensfuehrung",
+          "de-nachhaltigkeit-wertschaffung",
+          "de-newsroom-ansprechpartner",
+          "de-newsroom-pressemitteilung",
+          "de-newsroom-servicenews",
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+        ],
+        "instanceList": [
+          {
+            "slug": "de",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "index",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-konzernstrategie",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-managementsysteme",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-regionales-engagement",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-digitalisierung",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-betrieb",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-international-activities",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-geschaeftsfelder-service",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-fraport-aktie",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-investoren-publikationen-termine",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-nachhaltigkeit-wertschaffung",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-ansprechpartner",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-pressemitteilung",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-newsroom-servicenews",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          },
+          {
+            "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+            "selector": "main frach-e-sticky-patch",
+            "count": 1
+          }
+        ],
+        "slots": [
+          {
+            "name": "image",
+            "type": "image",
+            "required": false
+          },
+          {
+            "name": "headline",
+            "type": "text",
+            "required": true
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "link",
+            "required": true
+          }
+        ],
+        "notes": "site-wide floating promo"
+      }
+    ],
+    "moduleNotes": {
+      "detection": "prep-mode § 3; signal 1 headings and 2 ctas[] where present, otherwise rendered-DOM frach-m-* module classes (structural, signal-5 analogue) corroborated by _vision-typing.json. Confidence: high = headings/ctas + DOM; medium = DOM + vision on ≥3 pages; speculative = 2 pages.",
+      "singletonsNotPromoted": [
+        "frach-m-milestones (de-newsroom)",
+        "frach-m-tabbed-content (de-geschaeftsfelder-international-activities)",
+        "frach-m-embed ×4 (de-newsroom, consent-gated social/video)",
+        "frach-e-audio-player (de-newsroom)"
+      ],
+      "count": 25
+    },
+    "observedNonTokenColors": [
+      {
+        "value": "#0000ee",
+        "note": "UA-default link blue on unstyled anchors wrapping images (42 elements); not part of the token layer",
+        "citation": "_computed-styles.json#aggregate.colors[hex=#0000ee]"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1648px",
+      "probeWidth": 2560,
+      "shellMaxWidth": "1648px",
+      "caps": [
+        {
+          "kind": "shell",
+          "px": 1648,
+          "via": "max-width",
+          "selector": "div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+          "pages": [
+            "https://www.fraport.com/de/investoren/publikationen-termine.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1648,
+          "via": "max-width",
+          "selector": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.frach-js-refresh-root > frach-m-hero.frach-m-hero.frach-state-active > div.frach-grid",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern.html",
+            "https://www.fraport.com/de/konzern/konzernstrategie.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/investoren/publikationen-termine.html",
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+            "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 979,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 957,
+          "via": "fixed",
+          "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 925,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 869,
+          "via": "fixed",
+          "selector": "#searchResults-c3d8abe0eb-results > div > div.frach-e-search-result > div.frach-e-search-result__wrapper",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 841,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 793,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 772,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 743,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 700,
+          "via": "fixed",
+          "selector": "frach-m-hero.frach-m-hero.frach-state-active > div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern/konzernstrategie.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 664,
+          "via": "fixed",
+          "selector": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 615,
+          "via": "fixed",
+          "selector": "div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 594,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 565,
+          "via": "fixed",
+          "selector": "div.frach-e-search-result > div.frach-e-search-result__wrapper > h2.frach-h6 > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 542,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 506,
+          "via": "fixed",
+          "selector": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de/konzern/konzernstrategie.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/investoren/publikationen-termine.html",
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 482,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de/newsroom.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 461,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 431,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern.html",
+            "https://www.fraport.com/de/konzern/konzernstrategie.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html",
+            "https://www.fraport.com/de/newsroom.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 395,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern.html",
+            "https://www.fraport.com/de/konzern/konzernstrategie.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 366,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a.frach-e-button.frach-m-cta__button",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 341,
+          "via": "fixed",
+          "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern.html",
+            "https://www.fraport.com/de/konzern/konzernstrategie.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 317,
+          "via": "fixed",
+          "selector": "section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a.frach-e-button.frach-m-cta__button > span.frach-e-button__label",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern.html",
+            "https://www.fraport.com/de/konzern/konzernstrategie.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/investoren/publikationen-termine.html",
+            "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 293,
+          "via": "fixed",
+          "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+          "pages": [
+            "https://www.fraport.com/de/newsroom.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 269,
+          "via": "fixed",
+          "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/konzern.html",
+            "https://www.fraport.com/de/geschaeftsfelder/service.html",
+            "https://www.fraport.com/de/newsroom.html",
+            "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 248,
+          "via": "fixed",
+          "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+          "pages": [
+            "https://www.fraport.com/de.html",
+            "https://www.fraport.com/de/investoren/publikationen-termine.html"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.fraport.com/de.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.frach-js-refresh-root",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/konzern.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/konzern.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/konzern.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+          "section": 2,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+          "section": 0,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+          "px": null
+        },
+        {
+          "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+          "section": 1,
+          "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+          "px": 1648
+        }
+      ],
+      "capRegister": [
+        "shellMaxWidth differs between archetypes: fluid (https://www.fraport.com/de.html), fluid (https://www.fraport.com/de/konzern.html), fluid (https://www.fraport.com/de/konzern/konzernstrategie.html), fluid (https://www.fraport.com/de/geschaeftsfelder/service.html), fluid (https://www.fraport.com/de/newsroom.html), 1648 (https://www.fraport.com/de/investoren/publikationen-termine.html), fluid (https://www.fraport.com/de/newsroom/pressemitteilung.html), fluid (https://www.fraport.com/de/newsroom/ansprechpartner.html)"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-19T16:25:28.807Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.fraport.com/de.html",
+          "https://www.fraport.com/de/konzern.html",
+          "https://www.fraport.com/de/konzern/konzernstrategie.html",
+          "https://www.fraport.com/de/geschaeftsfelder/service.html",
+          "https://www.fraport.com/de/newsroom.html",
+          "https://www.fraport.com/de/investoren/publikationen-termine.html",
+          "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+          "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Filled Fraport Blue action button.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Pressemitteilungen</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;background:#000091;color:#fff;border:2px solid #000091;border-radius:4px;padding:12px;font-family:fraport-sans-semi-bold,sans-serif;font-size:16px;line-height:24px;text-decoration:none;position:relative}.ds-btn-primary:hover{background:#000057;border-color:#000057}.ds-btn-primary:focus-visible{background:#000074;outline:none}.ds-btn-primary:focus-visible:after{content:'';position:absolute;left:4px;right:4px;bottom:4px;border-bottom:2px solid #fff}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined blue button.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#\">Service News</a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;background:#fff;color:#000091;border:2px solid #000091;border-radius:4px;padding:12px;font-family:fraport-sans-semi-bold,sans-serif;font-size:16px;line-height:24px;text-decoration:none}.ds-btn-secondary:hover{background:#d9d9ef;border-color:#000057;color:#000057}.ds-btn-secondary:focus-visible{outline:none;box-shadow:inset 0 -2px 0 #000091}"
+    },
+    {
+      "name": "Tertiary Link",
+      "kind": "button",
+      "refersTo": "button-tertiary",
+      "description": "Text link with right arrow; the \"Lesen\" teaser action.",
+      "html": "<a class=\"ds-btn-tertiary\" href=\"#\">Lesen <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" aria-hidden=\"true\"><path d=\"M2 8h10M8 4l4 4-4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg></a>",
+      "css": ".ds-btn-tertiary{display:inline-flex;gap:8px;align-items:center;color:#000091;font-family:fraport-sans-semi-bold,sans-serif;font-size:16px;line-height:24px;text-decoration:none}.ds-btn-tertiary:hover{color:#000057;text-decoration:underline}.ds-btn-tertiary:focus-visible{outline:none;box-shadow:0 2px 0 #000091}"
+    },
+    {
+      "name": "Headline Box",
+      "kind": "custom",
+      "refersTo": "headline-box",
+      "description": "Signature: uppercase semibold-italic headline set in solid/gradient line boxes.",
+      "html": "<h2 class=\"ds-headline\"><span>NOCH MEHR FRAPORT</span></h2>",
+      "css": ".ds-headline{margin:0;font-family:fraport-sans-semi-bold-italic,sans-serif;font-style:italic;font-weight:400;font-size:40px;line-height:56px;color:#fff}.ds-headline span{display:inline;padding:8px 24px;background:linear-gradient(135deg,#000091 0,#6e156e 100%);-webkit-box-decoration-break:clone;box-decoration-break:clone}"
+    },
+    {
+      "name": "Teaser",
+      "kind": "card",
+      "refersTo": "teaser",
+      "description": "Slider teaser: photo, h6 headline link, text, Lesen link.",
+      "html": "<article class=\"ds-teaser\"><div class=\"ds-teaser__img\"></div><h6><a href=\"#\">Digitalisierung und Digital Factory</a></h6><p>Fraport setzt auf zukunftsweisende digitale Lösungen …</p><a class=\"ds-teaser__cta\" href=\"#\">Lesen →</a></article>",
+      "css": ".ds-teaser{font-family:fraport-sans-regular,sans-serif;max-width:400px}.ds-teaser__img{aspect-ratio:16/9;background:#ced1d3;overflow:hidden;transition:transform .5s}.ds-teaser:hover .ds-teaser__img{transform:scale(1.02)}.ds-teaser h6{font-family:fraport-sans-semi-bold,sans-serif;font-weight:400;font-size:20px;line-height:30px;margin:16px 0}.ds-teaser h6 a{color:#000;text-decoration:none}.ds-teaser h6 a:hover{color:#000057}.ds-teaser p{color:#697074;font-size:16px;line-height:24px}.ds-teaser__cta{color:#000091;font-family:fraport-sans-semi-bold,sans-serif;text-decoration:none}.ds-teaser__cta:hover,.ds-teaser__cta:focus-visible{text-decoration:underline;color:#000057}"
+    },
+    {
+      "name": "Tag Chip",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Outlined filter/tag chip on listings.",
+      "html": "<button class=\"ds-tag\">Presse</button>",
+      "css": ".ds-tag{background:none;border:1px solid #000091;border-radius:4px;color:#000091;padding:4px 12px;font-family:fraport-sans-regular,sans-serif;font-size:16px;line-height:24px;cursor:pointer}.ds-tag:hover{background:#d9d9ef}.ds-tag:focus-visible{outline:2px solid #000091;outline-offset:2px}"
+    },
+    {
+      "name": "Search Input",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "60px search field with 2px slate border.",
+      "html": "<input class=\"ds-search\" placeholder=\"Suche\">",
+      "css": ".ds-search{height:60px;width:100%;border:2px solid #697074;border-radius:4px;padding:15px 90px 15px 24px;font-family:fraport-sans-regular,sans-serif;font-size:16px}.ds-search:focus-visible{outline:none;border-color:#000091}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Departures Board in Corporate Blue",
+    "overview": "The live fraport.com reads as a disciplined corporate system built on one saturated, almost ultramarine blue and a single proprietary typeface family. Headlines do the branding: uppercase, semibold-italic Fraport Sans set line by line inside solid boxes of blue, aubergine, or a 135° blue-to-aubergine gradient, overlapping the lower-left corner of a wide airport photograph. Everything else stays quiet: white pages, slate-grey body copy, thin grey rules, and photography carrying the emotion.\n\nDensity is moderate and modular. Pages are stacks of AEM components (hero, section title, text-media, accordion, teaser slider) on a 12-column grid that widens in six steps up to a 1648px container. Sections are separated by fixed 32px/64px rhythm and by full-bleed grey bands rather than by cards or shadows. Interaction is restrained: buttons darken one ramp step, links underline, and images zoom gently inside their crops.\n\nThe system is token-driven. Full 050–900 ramps for blue, aubergine and grey are shipped as CSS custom properties, and components consume them.",
+    "keyCharacteristics": [
+      "One dominant brand blue for actions, links, headline boxes, the logo and the footer gradient.",
+      "Aubergine is a secondary accent used for gradients, key-figure numbers and occasional headline boxes.",
+      "Uppercase semibold-italic headline boxes are the signature typographic move.",
+      "Square-cornered photography, with 4px radii reserved for controls.",
+      "Flat surfaces: depth comes from grey bands and gradients, and shadows are rare.",
+      "A white sticky header with a mega menu, and a gradient footer."
+    ],
+    "rules": [
+      {
+        "name": "The One Blue Rule",
+        "body": "Every interactive affordance is Fraport Blue at rest and Pressed Blue on hover. No other hue signals \"clickable\".",
+        "section": "colors"
+      },
+      {
+        "name": "The Gradient Belongs to the Brand Moments Rule",
+        "body": "The blue→aubergine gradient (135deg) appears only on brand surfaces: footer, hero headline box and section-title boxes. It never appears on buttons or cards.",
+        "section": "colors"
+      },
+      {
+        "name": "The Face-Is-the-Weight Rule",
+        "body": "Emphasis is chosen by switching the Fraport Sans face (regular / semi-bold / semi-bold-italic), never with numeric `font-weight`.",
+        "section": "typography"
+      },
+      {
+        "name": "The Shout-in-a-Box Rule",
+        "body": "Uppercase is authored only in boxed display and section titles. Running headings stay sentence case.",
+        "section": "typography"
+      },
+      {
+        "name": "The Halo-Not-Drop Rule",
+        "body": "When a panel needs lift, it gets an even grey halo with no offset. Directional drop shadows are absent.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use Fraport Blue (#000091) for every action and link, and Pressed Blue (#000057) for hover.",
+      "Do set display and section titles in uppercase semibold-italic Fraport Sans inside a blue, aubergine, gradient or grey box.",
+      "Do keep body copy at 16px/24px in Slate Body Grey (#697074).",
+      "Do separate sections with the 32px/64px component rhythm and full-bleed Band Grey (#edeeef) bands.",
+      "Do keep photography square-cornered, and limit the 4px radius to controls.",
+      "Do close content pages with the \"NOCH MEHR FRAPORT\" related teaser strip."
+    ],
+    "donts": [
+      "Don't use numeric font-weight for emphasis. Switch the Fraport Sans face instead.",
+      "Don't apply the blue→aubergine gradient to buttons or cards. It is reserved for the footer and headline boxes.",
+      "Don't add directional drop shadows. Panels use the neutral grey halo only.",
+      "Don't round images or cards."
+    ]
+  }
+}

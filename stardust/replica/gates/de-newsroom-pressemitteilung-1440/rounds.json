@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:42:07.295Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:43:41.053Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T17:46:45.774Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 aligned 0.48%, content/clip/overflow pass; Δh 13 = +7 Juli card (source body ends with a pre-line \\n\\n, restored verbatim after iter3; measure.mjs now scrollHeight 6088 vs 6082) + -6 footer link column (inherited canon footer residual, same as konzern/konzernstrategie)",
+          "at": "2026-11-19T17:50:05.346Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T20-05-10-575Z",
+          "at": "2026-11-19T20:05:10.576Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T20-08-33-284Z",
+          "at": "2026-11-19T20:08:33.284Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-12-22-781Z",
+          "at": "2026-11-19T20:12:22.781Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-17-01-486Z",
+          "at": "2026-11-19T20:17:01.486Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-28-58-200Z",
+          "at": "2026-11-19T20:28:58.201Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-42-42-002Z",
+          "at": "2026-11-19T20:42:42.003Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

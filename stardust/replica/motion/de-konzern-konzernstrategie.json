@@ -1,0 +1,528 @@
+{
+  "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+  "width": 1440,
+  "headerTimeline": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "widgetSamples": [
+    {
+      "sel": "#anspruch-2030-label",
+      "frames": [
+        {
+          "t": 16267.099999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16474.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16678.89999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        },
+        {
+          "t": 16882.89999999944,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": null,
+          "boxTransform": null,
+          "dots": []
+        }
+      ]
+    },
+    {
+      "sel": ".frach-m-teaser-slider .frach-js-slider__next, .frach-m-slider__controls button:last-child",
+      "frames": [
+        {
+          "t": 17914,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18118.299999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18322.599999999627,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        },
+        {
+          "t": 18526.799999999814,
+          "trackTransform": null,
+          "trackTransition": null,
+          "boxScrollLeft": 0,
+          "boxTransform": "none",
+          "dots": []
+        }
+      ]
+    }
+  ],
+  "hoverSamples": [
+    {
+      "sel": ".frach-m-accordion__toggle",
+      "changed": [
+        "self.color",
+        "frach-e-icon.frach-m-accordion__toggle-icon.color"
+      ],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 145)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "frach-e-icon.frach-m-accordion__toggle-icon",
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+            "color": "rgb(0, 0, 145)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.3s"
+          }
+        ]
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(0, 0, 87)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": [
+          {
+            "el": "frach-e-icon.frach-m-accordion__toggle-icon",
+            "transform": "matrix(-1, 0, 0, -1, 0, 0)",
+            "color": "rgb(0, 0, 87)",
+            "background": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "opacity": "1",
+            "transition": "transform 0.3s"
+          }
+        ]
+      }
+    },
+    {
+      "sel": ".frach-m-teaser__image-wrapper",
+      "changed": [],
+      "before": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(52, 56, 58)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      },
+      "after": {
+        "self": {
+          "transform": "none",
+          "color": "rgb(52, 56, 58)",
+          "background": "rgba(0, 0, 0, 0)",
+          "boxShadow": "none",
+          "opacity": "1",
+          "transition": "all"
+        },
+        "subs": []
+      }
+    }
+  ],
+  "media": {
+    "videos": [],
+    "idleClassMutations": [],
+    "idleClassMutationCount": 0
+  },
+  "events": {
+    "animations": [
+      {
+        "name": "headline-line-before",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--gradient-primary-to-secondary > span.frach-e-headline__line",
+        "txt": "NOCH MEHR FRAPORT",
+        "y": 2000
+      },
+      {
+        "name": "frach-appear-right__animation",
+        "el": "div.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.frach-h-component-margin.frach-js-refresh-root.aem-GridColumn > frach-m-teaser-slider.frach-m-related-content.frach-m-teaser-slider > div.frach-m-teaser-slider__container.frach-state-animating",
+        "txt": "Flughafen Ljubljana\n  \n\n\n    \n    \n  \n\n  Erfahren ",
+        "y": 2000
+      },
+      {
+        "name": "hero-fade-in",
+        "el": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--gradient-primary-to-secondary > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+        "txt": "NOCH MEHR FRAPORT",
+        "y": 2400
+      }
+    ],
+    "transitions": [
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "max-height",
+        "el": "nav.frach-m-main-navigation__menu > div.frach-m-main-navigation__list-wrapper > ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > nav.frach-m-main-navigation__menu",
+        "y": 400,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 1600,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1339,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "height",
+        "el": "frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating > frach-m-page-header.frach-m-page-header > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container",
+        "y": 1339,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "width",
+        "el": "frach-m-page-header.frach-m-page-header > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a.frach-e-logo",
+        "y": 1339,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button.frach-e-button.frach-e-button--tertiary.frach-e-button--icon-left",
+        "y": 1339,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper.frach-m-meta-navigation__menu-wrapper--international > button.frach-e-button.frach-e-button--tertiary.frach-e-button--icon-right",
+        "y": 1339,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "visibility",
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > a.frach-e-button.frach-e-button--tertiary.frach-m-meta-navigation__direct-link",
+        "y": 1339,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 2366,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 2365,
+        "dur": "0.25s"
+      },
+      {
+        "prop": "transform",
+        "el": "frach-m-accordion.frach-m-accordion > div.wcm-io-parsys.section > div.frach-m-accordion__section > label.frach-m-accordion__toggle > frach-e-icon.frach-m-accordion__toggle-icon",
+        "y": 882,
+        "dur": "0.3s"
+      },
+      {
+        "prop": "grid-template-rows",
+        "el": "div.frach-grid-col-mq1-12.frach-grid-col-mq4-10.frach-grid-offset-mq4-1 > frach-m-accordion.frach-m-accordion > div.wcm-io-parsys.section > div.frach-m-accordion__section > div.frach-m-accordion__section-content",
+        "y": 882,
+        "dur": "0.3s, 0s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides",
+        "y": 2376,
+        "dur": "0.15s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 2376,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 2376,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "opacity",
+        "el": "div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 2376,
+        "dur": "0.2s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 2376,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 2376,
+        "dur": "0.5s"
+      },
+      {
+        "prop": "transform",
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 882,
+        "dur": "0.25s"
+      }
+    ],
+    "classMutations": [
+      {
+        "added": [
+          "frach-state-sticky"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-sticky"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 400
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 1600
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline.frach-h-bg--gradient-primary-to-secondary",
+        "y": 1600
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 1600
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.responsivegrid.aem-GridColumn.aem-GridColumn--default--12 > div.aem-Grid.aem-Grid--12.aem-Grid--default--12 > div.frach-h-component-margin.frach-js-refresh-root.aem-GridColumn > frach-m-teaser-slider.frach-m-related-content.frach-m-teaser-slider > div.frach-m-teaser-slider__container.frach-state-animating",
+        "y": 2000
+      },
+      {
+        "added": [
+          "frach-state-collapsed",
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1339
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 1339
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 2365
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-animating",
+        "y": 2365
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 882
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 882
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-text-media__row > div.frach-m-text-media__media > frach-m-image.frach-m-image > figure.frach-m-image__figure > frach-e-lazy-image.frach-m-image__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 882
+      },
+      {
+        "added": [
+          "frach-state-animating"
+        ],
+        "el": "div.frach-m-teaser-slider__container.frach-state-animating > div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-m-slider__pagination-item--active"
+        ],
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__pagination.frach-js-slider__pagination > span.frach-m-slider__pagination-item.frach-js-slider__pagination-item.frach-m-slider__pagination-item--active",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-m-slider__pagination-item--active"
+        ],
+        "el": "div.frach-grid-row > div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__pagination.frach-js-slider__pagination > span.frach-m-slider__pagination-item.frach-js-slider__pagination-item.frach-m-slider__pagination-item--active",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-invisible"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-invisible"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-invisible"
+        ],
+        "el": "div.frach-grid-col-mq1-12 > frach-m-slider.frach-m-slider.frach-state-animating > div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide.frach-state-invisible",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-invp"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-loaded"
+        ],
+        "el": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > div.frach-m-teaser__image-wrapper.frach-m-teaser__image-wrapper--hover-fx > frach-e-lazy-image.frach-m-teaser__image.frach-e-lazy-image.frach-js-lazy-image",
+        "y": 2376
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 882
+      },
+      {
+        "added": [
+          "frach-state-visible"
+        ],
+        "el": "html > body.frach-h-js.frach-h-no-touch > div.frach-m-page > frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed",
+        "y": 882
+      }
+    ]
+  }
+}

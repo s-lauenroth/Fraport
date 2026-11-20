@@ -1,0 +1,86 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T18:13:31.875Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 4,
+   "offPage": 105,
+   "textNodes": 213,
+   "controls": 109,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.anchor-list__section",
+    "path": "nav.anchor-list.anchor-list--numbered > div.anchor-list__section > div.anchor-list__items > a.anchor-list__anchor",
+    "text": "05dokuserien und reportagen",
+    "cutMin": 244,
+    "cutMax": 244
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "a.anchor-list__anchor",
+    "path": "div.anchor-list__section > div.anchor-list__items > a.anchor-list__anchor > span.anchor-list__number",
+    "text": "05",
+    "cutMin": 11,
+    "cutMax": 11
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "span.anchor-list__text",
+    "path": "div.anchor-list__section > div.anchor-list__items > a.anchor-list__anchor > span.anchor-list__text",
+    "text": "dokuserien und reportagen",
+    "cutMin": 185,
+    "cutMax": 185
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.milestones__nav",
+    "path": "div.milestones-wrapper > div.milestones.milestones--grey > div.milestones__nav > div.milestones__item",
+    "text": "youtube",
+    "cutMin": 18,
+    "cutMax": 18
+   },
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 1,
+    "clipper": "p.teaser__text",
+    "path": "div.slider__slides > div.slider__slide > div.teaser > p.teaser__text",
+    "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+    "cutMin": null,
+    "cutMax": null
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 19,
+   "within": 63,
+   "off": 1,
+   "hidden": 0,
+   "missing": 6,
+   "errors": 0,
+   "requiredOff": 7
+  },
+  "required": true
+ }
+}

@@ -1,0 +1,25 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.fraport.com/de/newsroom.html
+  build: http://localhost:8791/de-newsroom-proposed.html
+
+■ header: 13 delta(s) — 7 paired of 10/7 texts, 2/2 icons
+  (live has no <header>: auto-detected frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky — pass --region header=<liveSel>|<buildSel> to override)
+  REGION BOX   Δh -74px (153→79)
+  PAIR         "Startseite"  Δx -8px (52→44); Δy -54px (93→39); <a> box 200×117 → 115×78; <a> paddingTop 24px → 0px; <a> paddingLeft 20px → 12px
+  PAIR         "Konzern"  Δx -85px (280→195); Δy -74px (80→6)
+  PAIR         "Geschäftsfelder"  Δx -85px (403→318); Δy -74px (80→6)
+  PAIR         "Investoren"  Δx -85px (595→510); Δy -74px (80→6)
+  PAIR         "Nachhaltigkeit"  Δx -85px (738→653); Δy -74px (80→6)
+  PAIR         "Newsroom"  Δx -85px (923→838); Δy -74px (80→6)
+  PAIR         "Suche"  Δx -84px (1079→995); Δy -74px (116→42)
+  MISSING      "International"  live <span> "International" has no build element with the same text
+  MISSING      "Karriere bei Fraport"  live <span> "Karriere bei Fraport" has no build element with the same text
+  MISSING      "Deutsch"  live <span> "Deutsch" has no build element with the same text
+  ICON         "Logo Homepage Link"  icon #0 near "Logo Homepage Link": Δw -69px (160→91); Δh -30px (69→39)
+  ICON         icon #1: Δw -66px (90→24); Δh -34px (58→24); signature "viewBox=0 0 96 62 paths=5" → "viewBox=0 0 24 24 paths=1"
+
+■ footer: 1 delta(s)
+  REGION       live: no element matches "footer" — pass --region footer=<liveSel>|<buildSel>
+
+✗ 14 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

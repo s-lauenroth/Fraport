@@ -1,0 +1,29 @@
+/* key-figures (frach-m-key-figures): centred animated numbers (h2 ramp, aubergine) with captions; --stock adds a trend indicator */
+.key-figures { display: block; overflow: hidden; }
+.section.grey .key-figures { padding-bottom: 32px; }
+.key-figures__numbers { display: flex; align-items: center; justify-content: center; }
+.key-figures__numbers > .row { margin: 0 calc(var(--gutter) / -2); }
+.key-figures__number { margin-bottom: 24px; color: var(--secondary-500); text-align: center; }
+.key-figures__number:last-child { margin-bottom: 0; }
+.key-figures__value { display: inline-block; margin: 24px 0 0; font-family: var(--ff-regular); font-size: 40px; line-height: 56px; }
+.key-figures__caption { display: block; width: 100%; text-align: center; }
+.key-figures__indicator { display: inline-block; width: 32px; height: 32px; color: var(--grey-400); transform: translateY(2px); vertical-align: baseline; }
+.key-figures__indicator--down { color: var(--negative); transform: rotate(45deg) translateY(2px); }
+.key-figures__indicator--up { color: #9bbf5b; transform: rotate(-45deg) translateY(2px); }
+@media (max-width: 719px) {
+  .key-figures--many .key-figures__number::before { content: " "; display: block; width: 24px; height: 1px; margin: 0 auto; background-color: var(--rule-color); }
+  .key-figures--many .key-figures__number:first-child::before { display: none; }
+}
+@media (min-width: 720px) {
+  .key-figures__number { flex-basis: calc(50% - var(--gutter)); max-width: calc(50% - var(--gutter)); margin-bottom: 0; }
+}
+@media (min-width: 960px) {
+  .section.grey .key-figures { padding-bottom: 64px; }
+  .key-figures__value { font-size: 56px; line-height: 72px; }
+  .key-figures__indicator { width: 48px; height: 48px; transform: translateY(5px); }
+  .key-figures__indicator--down { transform: rotate(45deg) translateY(5px); }
+}
+@media (min-width: 1280px) {
+  .key-figures__numbers.row > * , .key-figures .container > .row > .key-figures__numbers { flex-basis: calc(83.33333% - var(--gutter)); max-width: calc(83.33333% - var(--gutter)); margin-left: calc(8.33333% + var(--gutter) / 2); }
+  .key-figures__indicator--down { transform: rotate(45deg) translateY(8px); }
+}

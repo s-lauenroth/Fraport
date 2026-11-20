@@ -1,0 +1,754 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 25,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/favicons/favicon-32x32.png",
+    "file": "assets/favicon.png"
+  },
+  "crawl": {
+    "failures": [],
+    "degraded": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 25,
+    "pagesWithSameSiteData": 25,
+    "pagesWithSearchForm": 2,
+    "pagesHydrated": 25,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "GET",
+        "host": "privacy-proxy.usercentrics.eu",
+        "path": "/latest/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://privacy-proxy.usercentrics.eu/latest/de.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/mOpKWIaR/latest/languages.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/settings/mOpKWIaR/latest/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "api.usercentrics.eu",
+        "path": "/translations/translations-de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://api.usercentrics.eu/translations/translations-de.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/darksite-alerts/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/darksite-alerts/de.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/passenger-alerts/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/passenger-alerts/de.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/traffic-alerts/de.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/traffic-alerts/de.json",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/chartjson/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "text/html",
+        "sameSite": true,
+        "example": "https://www.fraport.com/chartjson/",
+        "pages": 4,
+        "examples": [
+          "de-html",
+          "index",
+          "de-investoren-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "charts3.equitystory.com",
+        "path": "/api-json/fraport/English/",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/javascript",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/api-json/fraport/English/",
+        "pages": 3,
+        "examples": [
+          "de-html",
+          "index",
+          "de-newsroom-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/_jcr_content.fra_model.json",
+        "pages": 2,
+        "examples": [
+          "de-html",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/investoren/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/investoren/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-investoren-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/geschaeftsfelder/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/geschaeftsfelder/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-geschaeftsfelder-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/nachhaltigkeit/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/nachhaltigkeit/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-nachhaltigkeit-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/newsroom/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/newsroom/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-newsroom-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/ueber-uns/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/ueber-uns/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-ueber-uns-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/konzernstrategie/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/konzernstrategie/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-konzernstrategie-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/regionales-engagement/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/regionales-engagement/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-regionales-engagement-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/managementsysteme/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/managementsysteme/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-managementsysteme-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/digitalisierung/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/digitalisierung/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-digitalisierung-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/geschaeftsfelder/betrieb/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/geschaeftsfelder/betrieb/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-geschaeftsfelder-betrieb-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/geschaeftsfelder/international-activities/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/geschaeftsfelder/international-activities/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-geschaeftsfelder-international-activities-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/investoren/fraport-aktie/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/investoren/fraport-aktie/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-investoren-fraport-aktie-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "charts3.equitystory.com",
+        "path": "/tpl/fraport/German/",
+        "query": [
+          "_",
+          "action",
+          "company",
+          "default_decimal_precision",
+          "default_exchange[]",
+          "default_isin",
+          "default_range",
+          "default_template",
+          "default_timezone_offset",
+          "default_type",
+          "disable_volume",
+          "ignore_timezone_offset",
+          "language",
+          "update_bottom_table",
+          "update_top_table",
+          "variant"
+        ],
+        "resourceType": "xhr",
+        "contentType": "text/html",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/tpl/fraport/German/",
+        "pages": 1,
+        "examples": [
+          "de-investoren-fraport-aktie-html"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "charts3.equitystory.com",
+        "path": "/chart/fraport/German/",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/javascript",
+        "sameSite": false,
+        "example": "https://charts3.equitystory.com/chart/fraport/German/",
+        "pages": 1,
+        "examples": [
+          "de-investoren-fraport-aktie-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/investoren/publikationen-termine/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/investoren/publikationen-termine/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-investoren-publikationen-termine-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/geschaeftsfelder/service/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/geschaeftsfelder/service/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-geschaeftsfelder-service-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/nachhaltigkeit/umwelt-und-klimaschutz/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-nachhaltigkeit-umwelt-und-klimaschutz-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/nachhaltigkeit/unternehmensfuehrung/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-nachhaltigkeit-unternehmensfuehrung-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/newsroom/ansprechpartner/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/newsroom/ansprechpartner/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-newsroom-ansprechpartner-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/newsroom/pressemitteilung/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/newsroom/pressemitteilung/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-newsroom-pressemitteilung-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/newsroom/servicenews/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/newsroom/servicenews/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-newsroom-servicenews-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente-fra-html"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.fraport.com",
+        "path": "/de/nachhaltigkeit/wertschaffung/_jcr_content.fra_model.json",
+        "query": [],
+        "resourceType": "fetch",
+        "contentType": "application/json",
+        "sameSite": true,
+        "example": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/_jcr_content.fra_model.json",
+        "pages": 1,
+        "examples": [
+          "de-nachhaltigkeit-wertschaffung-html"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "app.usercentrics.eu",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "host": "privacy-proxy.usercentrics.eu",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      },
+      {
+        "host": "charts3.equitystory.com",
+        "pages": 1,
+        "examples": [
+          "de-investoren-fraport-aktie-html"
+        ]
+      }
+    ],
+    "frameworkHints": [
+      {
+        "hint": "aem-sites",
+        "pages": 25,
+        "examples": [
+          "de-html",
+          "index",
+          "de-konzern-html"
+        ]
+      }
+    ],
+    "globalState": [],
+    "formTargets": [
+      {
+        "action": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "de-newsroom-pressemitteilung-html"
+        ]
+      },
+      {
+        "action": "https://www.fraport.com/de/newsroom/servicenews.html",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "q"
+        ],
+        "pages": 1,
+        "examples": [
+          "de-newsroom-servicenews-html"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "de",
+      "verdict": "ok",
+      "notes": "Home rendered; aerial hero 'Wir sind weltweit aktiv und setzen Standards' matches h1. Quicklink strip, anchor tabs, key-figure band, teaser cards, 6-tile image grid, footer. Some grey placeholder bands (lazy images/video not loaded)."
+    },
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "Same as de-html (root redirects to /de.html); pixels and module sequence identical."
+    },
+    {
+      "slug": "de-konzern",
+      "verdict": "ok",
+      "notes": "Hero 'Konzern' matches; quicklink strip, card teasers + link box, FRA History quote, 'Noch mehr Fraport'. Image-gallery-tiles show grey placeholders (lazy images not loaded at capture)."
+    },
+    {
+      "slug": "de-geschaeftsfelder",
+      "verdict": "ok",
+      "notes": "Hero 'Geschaeftsfelder' matches; quicklink strip, 2x2 image tile grid, related teasers, footer."
+    },
+    {
+      "slug": "de-geschaeftsfelder-betrieb",
+      "verdict": "ok",
+      "notes": "Hero 'Betrieb' matches; quicklink strip, 3-col image/text tile grid (several tiles grey placeholders), 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-geschaeftsfelder-service",
+      "verdict": "suspect",
+      "notes": "Hero 'Service' and card grid render correctly, but capture is truncated: screenshot ends mid 'Noch mehr Fraport' with no footer, while DOM contains teaser-slider + page-footer."
+    },
+    {
+      "slug": "de-geschaeftsfelder-international-activities",
+      "verdict": "ok",
+      "notes": "Hero 'International Activities' matches; pictogram key figures, quote, team image, text-media blocks, related teasers. Long page, rendered."
+    },
+    {
+      "slug": "de-investoren",
+      "verdict": "ok",
+      "notes": "Hero 'Investoren' matches; quicklink strip, IR intro + download box, Q3/9M banner, share price key figure (66,00 EUR), contacts, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-investoren-fraport-aktie",
+      "verdict": "suspect",
+      "notes": "Hero 'Fraport-Aktie' matches, but a large blank area sits between title and accordions: the share-chart iframe (fraport.com/chart/fraport/German, 1400px) did not render. Dynamic embed must be handled separately."
+    },
+    {
+      "slug": "de-investoren-publikationen-termine",
+      "verdict": "ok",
+      "notes": "Hero 'Publikationen & Termine' matches; newsletter/calendar band, ~15 accordion rows of download lists, footer."
+    },
+    {
+      "slug": "de-konzern-digitalisierung",
+      "verdict": "ok",
+      "notes": "Hero 'Digitale Transformation' matches h1; anchor tab bar, text-media, AI@Fraport, Digital Factory, pictogram icons, news list. Some image placeholders."
+    },
+    {
+      "slug": "de-konzern-konzernstrategie",
+      "verdict": "ok",
+      "notes": "Hero 'Connecting the world with tomorrow' matches h1; section title, intro, 4 accordions, CTA links, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-konzern-managementsysteme",
+      "verdict": "ok",
+      "notes": "Hero 'Managementsysteme verantwortungsvolle Steuerung' matches; 3 teaser cards, downloads box, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-konzern-regionales-engagement",
+      "verdict": "ok",
+      "notes": "Hero 'Aktiv fuer die Region' matches h1; section title, intro text, accordions, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-konzern-ueber-uns",
+      "verdict": "ok",
+      "notes": "Hero 'Ueber uns' matches; long intro text, historic image + link box, info band, related teasers."
+    },
+    {
+      "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+      "verdict": "ok",
+      "notes": "Hero 'Herzensmomente@FRA' matches; italic intro, text + image placeholder (lazy/video), 2 accordions (Teilnahmebedingungen, Datenschutz). No 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+      "verdict": "ok",
+      "notes": "Hero title matches; intro text, grey CTA band, single accordion, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-nachhaltigkeit",
+      "verdict": "ok",
+      "notes": "Hero 'Nachhaltigkeit' (runway sign) matches; intro + Venn diagram image, 3 accordions (Planet/People/Prosperity), publications CTA, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+      "verdict": "ok",
+      "notes": "Hero 'Umwelt und Klimaschutz' matches; text sections, ACA logo, 'Ansprechpartner' contact cards, news teasers, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+      "verdict": "ok",
+      "notes": "Hero 'Unternehmensfuehrung' matches; short intro text, 'Noch mehr Fraport'. Thin page."
+    },
+    {
+      "slug": "de-nachhaltigkeit-wertschaffung",
+      "verdict": "ok",
+      "notes": "Hero 'Wertschaffung' matches; intro text, 3x2 image card grid, 'Noch mehr Fraport'."
+    },
+    {
+      "slug": "de-newsroom",
+      "verdict": "ok",
+      "notes": "Hero 'Newsroom der Fraport AG' matches; anchor bar, Aktuelles cards + news list, Pressemappen, social/YouTube embeds show consent-wall placeholders (embed-level, page itself rendered), podcast player, Bilddatenbank, Ansprechpartner."
+    },
+    {
+      "slug": "de-newsroom-pressemitteilung",
+      "verdict": "ok",
+      "notes": "No hero: search bar + filter chips, list of ~30 press releases with dates/thumbnails, 'mehr anzeigen', footer. Headings match. Some thumbnails grey placeholders."
+    },
+    {
+      "slug": "de-newsroom-servicenews",
+      "verdict": "ok",
+      "notes": "Same layout as pressemitteilung: search + filter chips, service-news list with thumbnails, footer. Headings match."
+    },
+    {
+      "slug": "de-newsroom-ansprechpartner",
+      "verdict": "ok",
+      "notes": "No hero: passenger-contact CTA box, 'Ansprechpartner fuer Pressevertreter' title, grid of contact cards (photos for 2, logo placeholders for the rest, likely genuine), 3 accordions."
+    }
+  ],
+  "siblingCandidates": [],
+  "mediaNote": "crawler media.imgs empty site-wide: images are <frach-e-lazy-image> custom elements; inventory rebuilt from rendered DOM into _brand-extraction.json#mediaInventory"
+}

@@ -1,0 +1,22 @@
+/* hero (frach-m-hero): 16:9 media offset 2 cols and bleeding right, ribbon headline over it (>=720) or overlapping its foot (<720) */
+.hero { position: relative; display: flex; }
+.hero > .container { flex: 0 1 auto; }
+.hero .row > .hero__media { position: relative; flex: 0 0 100%; max-width: 100%; margin: 0; }
+.hero.is-active .hero__media { animation: fade-in .5s ease-out both; }
+.hero__frame { position: relative; overflow: hidden; width: calc(100% + 8px); margin-left: -4px; padding-bottom: 56.25%; }
+.hero__frame img { position: absolute; top: 0; left: 0; width: 100%; height: auto; }
+.hero .ribbon { position: relative; z-index: 10; margin-top: -40px; font-size: 18px; }
+@media (min-width: 720px) {
+  .hero .row > .hero__media {
+    flex: 0 0 83.33333%; max-width: 83.33333%; /* col-10 + the bleed gutter */
+    margin-left: calc(16.66667% + var(--gutter) / 2);
+    margin-right: calc(var(--gutter) / -2);
+  }
+  .hero__frame { width: 100%; margin-left: 0; }
+  .hero .ribbon {
+    position: absolute; top: 50%; transform: translateY(-50%); margin-top: 0; font-size: inherit;
+    max-width: calc(75% - var(--gutter)); flex: none;
+  }
+  .hero .ribbon.h1 { font-size: 32px; }
+}
+@media (min-width: 960px) { .hero .ribbon.h1 { font-size: 56px; } }

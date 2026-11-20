@@ -1,0 +1,276 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [],
+      "pages": 0,
+      "startedAt": "2026-11-19T18:19:17.109Z",
+      "endedAt": "2026-11-19T19:08:31.265Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "header": "86 = 86",
+          "footer": "614 = 614"
+        },
+        "1440": {
+          "header": "153px = live 153px",
+          "footer": "501 = 501"
+        },
+        "chrome": "chrome-compare 8 🔴 (was 13): 6 control-missing = noscript <img> text in source control names (instrument artifact), 2 panel-visual = source scrim/backdrop capture artifacts; motion, close paths, panel geometry fixed"
+      },
+      "verdict": "foundation: files 47, nav+footer live, shell previewed, lint ok, header 153px vs live 153px; chrome-compare 8 residual (instrument artifacts)"
+    },
+    "archetype-home": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "home"
+      ],
+      "pages": 1,
+      "archetype": "de",
+      "startedAt": "2026-11-19T19:09:52.039Z",
+      "endedAt": "2026-11-19T19:53:40.607Z",
+      "blocks": 11,
+      "gates": {
+        "360": {
+          "de": "pixel 1.36% Δh 0 clip 0 presence 0 units pass"
+        },
+        "1440": {
+          "de": "pixel 1.78% Δh -74px (0.9%, header foundation request) clip 0 presence 0 units pass"
+        }
+      },
+      "verdict": "archetype-home: page de live, blocks 11, gate 1440 1.78% Δh −74 px (0.9%) / 360 1.36% Δh 0, clip 0, presence 0, requests 1"
+    },
+    "archetype-section-landing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "section-landing"
+      ],
+      "pages": 1,
+      "archetype": "de-konzern",
+      "startedAt": "2026-11-19T19:54:06.236Z",
+      "endedAt": "2026-11-19T20:39:01.144Z",
+      "blocks": 5,
+      "gates": {
+        "360": {
+          "de-konzern": "0.87% Δh 0 PASS"
+        },
+        "1440": {
+          "de-konzern": "0.4% Δh 0 PASS (after foundation requests applied)"
+        }
+      },
+      "verdict": "archetype-section-landing: page de-konzern live, blocks 5 new (breadcrumb, cards, link-box, testimonial, image-gallery-tiles) + hero ratio-21-9 variant, gate 1440 0.4% Δh 0 / 360 0.87% Δh 0, clip 0, presence 0, units pass, requests 1 (applied)"
+    },
+    "archetype-content-page": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "content-page"
+      ],
+      "pages": 1,
+      "archetype": "de-konzern-konzernstrategie",
+      "startedAt": "2026-11-19T20:43:26.458Z",
+      "endedAt": "2026-11-19T20:56:53.241Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "de-konzern-konzernstrategie": "0.7% Δh 0 clip 0 presence 0 units pass PASS"
+        },
+        "1440": {
+          "de-konzern-konzernstrategie": "0.3% Δh 0 clip 0 presence 0 units pass PASS"
+        }
+      },
+      "verdict": "archetype-content-page: page de-konzern-konzernstrategie live, blocks 2, gate 1440 0.3% Δh 0 / 360 0.7% Δh 0, clip 0, presence 0, units pass, requests 0"
+    },
+    "archetype-news-listing": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "news-listing"
+      ],
+      "pages": 1,
+      "archetype": "de-newsroom-pressemitteilung",
+      "startedAt": "2026-11-19T19:54:06.236Z",
+      "endedAt": "2026-11-19T20:42:55.936Z",
+      "blocks": 1,
+      "gates": {
+        "360": {
+          "de-newsroom-pressemitteilung": "aligned 0.59% Δh 4 clip 0 presence 0 units pass PASS (meta bullet wraps with the date, as source)"
+        },
+        "1440": {
+          "de-newsroom-pressemitteilung": "aligned 0.22% Δh 4 clip 0 presence 0 units pass PASS"
+        }
+      },
+      "verdict": "archetype-news-listing: page de-newsroom-pressemitteilung live, blocks 1 (news-list), gate 1440 0.22% Δh 4 / 360 0.59% Δh 4, clip 0, presence 0, units pass, requests 1 (applied)"
+    },
+    "archetype-feature-hub": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "feature-hub"
+      ],
+      "pages": 1,
+      "archetype": "de-newsroom",
+      "startedAt": "2026-11-19T20:43:26.458Z",
+      "endedAt": "2026-11-19T21:16:24.150Z",
+      "blocks": 4,
+      "gates": {
+        "360": {
+          "de-newsroom": "6.8% Δh 0 clip 0 presence 0 units pass PASS"
+        },
+        "1440": {
+          "de-newsroom": "4.47% Δh 0 clip 0 presence 0 units pass PASS"
+        }
+      },
+      "verdict": "archetype-feature-hub: page de-newsroom live, blocks 4, gate 1440 4.47% Δh 0 / 360 6.8% Δh 0, clip 0, presence 0, units pass, requests 1"
+    },
+    "cluster-home": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "home"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-19T19:54:06.236Z",
+      "endedAt": "2026-11-19T20:03:38.127Z",
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "index": "1.36% Δh 0"
+        },
+        "1440": {
+          "index": "1.78% Δh -74 (header request)"
+        }
+      },
+      "verdict": "cluster-home: pages 1/1 live, blocks 0, gate 1440 1.78% / 360 1.36%, requests 0"
+    },
+    "cluster-section-landing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "section-landing"
+      ],
+      "pages": 6,
+      "startedAt": "2026-11-19T20:43:26.458Z",
+      "endedAt": "2026-11-19T22:05:53.508Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "worst": "2.16% (geschaeftsfelder) PASS 6/6, investoren 0.95%"
+        },
+        "1440": {
+          "worst": "0.65% (managementsysteme) PASS 6/6, investoren 0.61% Δh -10"
+        }
+      },
+      "verdict": "cluster-section-landing: pages 6/6 live, blocks 2 new (download-list, contact-list), gate 1440 0.65% / 360 2.16% (worst), requests 0"
+    },
+    "cluster-content-page-1": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "content-page"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-19T20:57:15.478Z",
+      "endedAt": "2026-11-19T21:43:18.998Z",
+      "blocks": 13,
+      "gates": {
+        "360": {
+          "worst": "3.54% PASS 5/5"
+        },
+        "1440": {
+          "worst": "0.95% PASS 5/5, clip 0, content 0, units 0, |Δh| ≤ 26 px"
+        }
+      },
+      "verdict": "cluster-content-page-1: pages 5/5 live, blocks 13 (2 new), gate 1440 0.95% / 360 3.54% (worst), requests 0"
+    },
+    "cluster-content-page-2": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "content-page"
+      ],
+      "pages": 5,
+      "startedAt": "2026-11-19T22:18:07.487Z",
+      "blocks": 13,
+      "endedAt": "2026-11-19T22:54:11.498Z",
+      "gates": {
+        "360": {
+          "worst": "3.67% PASS 5/5"
+        },
+        "1440": {
+          "worst": "0.63% PASS 5/5, clip 0, content 0, units 0, |Δh| ≤ 12 px"
+        }
+      },
+      "verdict": "cluster-content-page-2: pages 5/5 live, blocks 13 (0 new), gate 1440 0.63% / 360 3.67% (worst), requests 0"
+    },
+    "cluster-feature-hub": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "feature-hub"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-19T21:16:24.150Z",
+      "blocks": 3,
+      "endedAt": "2026-11-19T22:24:27.185Z",
+      "gates": {
+        "360": {
+          "worst": "2.8% PASS 2/2"
+        },
+        "1440": {
+          "worst": "1.72% PASS 2/2 (digitalisierung; international-activities 1.56%), clip 0, content 0, units 0"
+        }
+      },
+      "verdict": "cluster-feature-hub: pages 2/2 live, blocks 3 (3 new), gate 1440 1.72% / 360 2.8% (worst), requests 0"
+    },
+    "cluster-news-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "news-listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-19T20:57:15.478Z",
+      "endedAt": "2026-11-19T21:07:42.039Z",
+      "blocks": 0,
+      "gates": {
+        "360": {
+          "de-newsroom-servicenews": "0.77% Δh 4 clip 0 presence 0 units 0 PASS"
+        },
+        "1440": {
+          "de-newsroom-servicenews": "0.32% Δh 4 clip 0 presence 0 units 0 PASS"
+        }
+      },
+      "verdict": "cluster-news-listing: pages 1/1 live, blocks 3 (news-list, sticky-patch, cta; none created or changed), gate 1440 0.32% / 360 0.77%, requests 0"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 25,
+      "startedAt": "2026-11-19T22:54:21.875Z",
+      "endedAt": "2026-11-19T23:41:05.219Z",
+      "gates": {
+        "360": {
+          "worst": "6.8% (de-newsroom) PASS 25/25"
+        },
+        "1440": {
+          "worst": "4.47% (de-newsroom) PASS 25/25"
+        }
+      },
+      "verdict": "gate-all: 25/25 PASS at 1440 and 360 (pixel, height, clip, content, units); coverage 25 deployed"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "templates": [],
+      "pages": 25,
+      "startedAt": "2026-11-19T23:41:30.101Z",
+      "endedAt": "2026-11-19T23:41:30.101Z",
+      "verdict": "final: foundation-freeze check unchanged (26 files); requests 3 applied earlier, 1 declined (embed auto-blocking, documented); roster gate 25/25 both widths; coverage 25 deployed"
+    }
+  }
+}

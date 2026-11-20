@@ -1,0 +1,57 @@
+{
+ "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews",
+ "at": "2026-11-19T23:35:02.239Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 70,
+  "textNodes": 121,
+  "controls": 88,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "li",
+   "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+   "text": "verantwortung",
+   "cutMin": 12,
+   "cutMax": 12
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "li",
+   "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+   "text": "verantwortung",
+   "cutMin": 4,
+   "cutMax": 4
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 70,
+   "textNodes": 90,
+   "controls": 67,
+   "total": 0
+  }
+ }
+}

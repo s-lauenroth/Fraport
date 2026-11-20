@@ -1,0 +1,364 @@
+{
+  "generatedAt": "2026-11-20T00:20:12.855Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://www.fraport.com/",
+    "liveHost": "main--340a2135--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 25,
+    "prototyped": 25,
+    "deployed": 25,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 25,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "home",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "de",
+      "path": "/de",
+      "stage": "deployed",
+      "templateId": "de",
+      "isTemplate": true,
+      "openFindings": 3
+    },
+    {
+      "slug": "de-geschaeftsfelder",
+      "path": "/de/geschaeftsfelder",
+      "stage": "deployed",
+      "templateId": "section-landing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-geschaeftsfelder-betrieb",
+      "path": "/de/geschaeftsfelder/betrieb",
+      "stage": "deployed",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-geschaeftsfelder-international-activities",
+      "path": "/de/geschaeftsfelder/international-activities",
+      "stage": "deployed",
+      "templateId": "feature-hub",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-geschaeftsfelder-service",
+      "path": "/de/geschaeftsfelder/service",
+      "stage": "deployed",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-investoren",
+      "path": "/de/investoren",
+      "stage": "deployed",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-investoren-fraport-aktie",
+      "path": "/de/investoren/fraport-aktie",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-investoren-publikationen-termine",
+      "path": "/de/investoren/publikationen-termine",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-konzern",
+      "path": "/de/konzern",
+      "stage": "deployed",
+      "templateId": "de-konzern",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-konzern-digitalisierung",
+      "path": "/de/konzern/digitalisierung",
+      "stage": "deployed",
+      "templateId": "feature-hub",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-konzern-konzernstrategie",
+      "path": "/de/konzern/konzernstrategie",
+      "stage": "deployed",
+      "templateId": "de-konzern-konzernstrategie",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-konzern-managementsysteme",
+      "path": "/de/konzern/managementsysteme",
+      "stage": "deployed",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-konzern-regionales-engagement",
+      "path": "/de/konzern/regionales-engagement",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-konzern-ueber-uns",
+      "path": "/de/konzern/ueber-uns",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+      "path": "/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+      "path": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-nachhaltigkeit",
+      "path": "/de/nachhaltigkeit",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+      "path": "/de/nachhaltigkeit/umwelt-und-klimaschutz",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+      "path": "/de/nachhaltigkeit/unternehmensfuehrung",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-nachhaltigkeit-wertschaffung",
+      "path": "/de/nachhaltigkeit/wertschaffung",
+      "stage": "deployed",
+      "templateId": "section-landing",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-newsroom",
+      "path": "/de/newsroom",
+      "stage": "deployed",
+      "templateId": "de-newsroom",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "de-newsroom-ansprechpartner",
+      "path": "/de/newsroom/ansprechpartner",
+      "stage": "deployed",
+      "templateId": "content-page",
+      "isTemplate": false,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-newsroom-pressemitteilung",
+      "path": "/de/newsroom/pressemitteilung",
+      "stage": "deployed",
+      "templateId": "de-newsroom-pressemitteilung",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "de-newsroom-servicenews",
+      "path": "/de/newsroom/servicenews",
+      "stage": "deployed",
+      "templateId": "news-listing",
+      "isTemplate": true,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "content-page",
+      "archetype": "de-investoren-fraport-aktie",
+      "pageCount": 10,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 10,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "de",
+      "archetype": "de",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "de-konzern",
+      "archetype": "de-konzern",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "de-konzern-konzernstrategie",
+      "archetype": "de-konzern-konzernstrategie",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "de-newsroom",
+      "archetype": "de-newsroom",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "de-newsroom-pressemitteilung",
+      "archetype": "de-newsroom-pressemitteilung",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "feature-hub",
+      "archetype": "de-geschaeftsfelder-international-activities",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "home",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "news-listing",
+      "archetype": "de-newsroom-servicenews",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "section-landing",
+      "archetype": "de-geschaeftsfelder",
+      "pageCount": 6,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 6,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 22,
+    "converted": 22
+  },
+  "quality": {
+    "overall": 100,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 100
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 0
+    },
+    "history": [
+      100
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 33
+    },
+    "byAutofix": {}
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "a": "stardust/replica/gates/all-360/de-geschaeftsfelder/origin.png",
+  "b": "stardust/replica/gates/all-360/de-geschaeftsfelder/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3661,
+    "mode": "overlap"
+  },
+  "heightDelta": -1,
+  "differingPixels": 39891,
+  "pct": 3.03,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-geschaeftsfelder/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 5,
+  "textBoxes": 35,
+  "textPixels": 117638,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 1.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.8
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 7.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 3.7
+    },
+    {
+      "y0": 3500,
+      "y1": 3661,
+      "pct": 4.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.16,
+    "differingPixels": 28471,
+    "compared": {
+      "width": 360,
+      "height": 3662,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2388,
+        "shift": 1,
+        "cumulative": 1
+      }
+    ],
+    "maxOffset": 1,
+    "totalShift": 1,
+    "insertedRows": 1,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.8,
+        "unaligned": 1.8
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 7.2,
+        "unaligned": 7.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.5,
+        "unaligned": 2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1,
+        "unaligned": 3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.8,
+        "unaligned": 3.7
+      },
+      {
+        "y0": 3500,
+        "y1": 3661,
+        "pct": 2.3,
+        "unaligned": 4.8
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/de-geschaeftsfelder/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 37,
+    "totalShift": 1,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder"
+  }
+}

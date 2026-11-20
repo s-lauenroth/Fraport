@@ -1,0 +1,1108 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-19T18:16:11.846Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-19T23:55:20.845Z",
+  "pages": [
+    {
+      "slug": "de",
+      "path": "/de",
+      "title": "Fraport AG",
+      "templateId": "de",
+      "source": {
+        "migratedHtml": "stardust/migrated/de.html",
+        "metaJson": "stardust/migrated/de._meta.json",
+        "sourceHash": "sha256:1fc4f6cc6f46b22a2979e28183363838acdca17f2a026e242bceb56a354b5fd8",
+        "sourceUrl": "https://www.fraport.com/de.html"
+      },
+      "blocks": [
+        "hero",
+        "teaser",
+        "teaser-slider",
+        "related-content",
+        "text-media",
+        "anchor-list",
+        "key-figures",
+        "columns",
+        "tiles",
+        "cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de",
+        "deployedAt": "2026-11-19T19:23:00.901Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 17,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-geschaeftsfelder",
+      "path": "/de/geschaeftsfelder",
+      "title": "Geschäftsfelder",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b344ba1f948612c37d11eddafae2ba59c2737cdcbbc09e5fc18f0cc35b51414b",
+        "currentStatePath": "stardust/current/pages/de-geschaeftsfelder.json",
+        "sourceUrl": "https://www.fraport.com/de/geschaeftsfelder.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder",
+        "deployedAt": "2026-11-19T21:08:04.790Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.03,
+          "heightDelta": -1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 12,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-geschaeftsfelder-betrieb",
+      "path": "/de/geschaeftsfelder/betrieb",
+      "title": "Betrieb",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ebd427b38059a0208b7b0b7e3b4fbf8c866f861e4641c36cd860c38e021b0994",
+        "currentStatePath": "stardust/current/pages/de-geschaeftsfelder-betrieb.json",
+        "sourceUrl": "https://www.fraport.com/de/geschaeftsfelder/betrieb.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb",
+        "deployedAt": "2026-11-19T21:08:04.900Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.59,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 16,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-geschaeftsfelder-international-activities",
+      "path": "/de/geschaeftsfelder/international-activities",
+      "title": "International Activities",
+      "templateId": "feature-hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b482c8cb8e6b4a7e1c3207f5e03ddb3ac453ae93308c00d8bbf6323f14d486ef",
+        "currentStatePath": "stardust/current/pages/de-geschaeftsfelder-international-activities.json",
+        "sourceUrl": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities",
+        "deployedAt": "2026-11-19T21:38:11.542Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 16.09,
+          "heightDelta": 35,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-geschaeftsfelder-service",
+      "path": "/de/geschaeftsfelder/service",
+      "title": "Service",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b6986ad72deef8b157f4ae39274dda44ffcca92b88506c35f070679b3f8961ec",
+        "currentStatePath": "stardust/current/pages/de-geschaeftsfelder-service.json",
+        "sourceUrl": "https://www.fraport.com/de/geschaeftsfelder/service.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service",
+        "deployedAt": "2026-11-19T21:08:04.953Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.84,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 16,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-investoren",
+      "path": "/de/investoren",
+      "title": "Investoren",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:2bdfe966e5d97c9d77c22a0d7f90c559058fa9c4d854c42b009338fc0967f466",
+        "currentStatePath": "stardust/current/pages/de-investoren.json",
+        "sourceUrl": "https://www.fraport.com/de/investoren.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/investoren",
+        "deployedAt": "2026-11-19T21:52:27.808Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.27,
+          "heightDelta": -18,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 10,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-investoren-fraport-aktie",
+      "path": "/de/investoren/fraport-aktie",
+      "title": "Fraport Aktie",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:3968a5e150a8b530d64bda910ffec80cf84250f0187c512a627737bae8052102",
+        "currentStatePath": "stardust/current/pages/de-investoren-fraport-aktie.json",
+        "sourceUrl": "https://www.fraport.com/de/investoren/fraport-aktie.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie",
+        "deployedAt": "2026-11-19T21:17:48.593Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 11.06,
+          "heightDelta": 17,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-investoren-publikationen-termine",
+      "path": "/de/investoren/publikationen-termine",
+      "title": "Publikationen & Termine",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:674cadea9ccd78cc10374a528eed1dc157a1604b520880aefa4bc4d3f094400f",
+        "currentStatePath": "stardust/current/pages/de-investoren-publikationen-termine.json",
+        "sourceUrl": "https://www.fraport.com/de/investoren/publikationen-termine.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine",
+        "deployedAt": "2026-11-19T22:29:12.921Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.64,
+          "heightDelta": 10,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern",
+      "path": "/de/konzern",
+      "title": "Konzern",
+      "templateId": "de-konzern",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/konzern.html",
+        "metaJson": "stardust/migrated/de/konzern._meta.json",
+        "sourceHash": "sha256:e8f9a6cc342d66964d58f01405b7b73226c63b79f4b097e3c9740afa94a77d48",
+        "sourceUrl": "https://www.fraport.com/de/konzern.html"
+      },
+      "blocks": [
+        "breadcrumb",
+        "hero",
+        "teaser",
+        "teaser-slider",
+        "related-content",
+        "columns",
+        "cards",
+        "link-box",
+        "testimonial",
+        "image-gallery-tiles"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern",
+        "deployedAt": "2026-11-19T20:04:23.061Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.87,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-digitalisierung",
+      "path": "/de/konzern/digitalisierung",
+      "title": "Digitalisierung und Digital Factory",
+      "templateId": "feature-hub",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ef2373e27e332c4985f32a195521b87df491cf0f913719f4fbb4bf8c4e275bec",
+        "currentStatePath": "stardust/current/pages/de-konzern-digitalisierung.json",
+        "sourceUrl": "https://www.fraport.com/de/konzern/digitalisierung.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung",
+        "deployedAt": "2026-11-19T21:38:11.478Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 14.81,
+          "heightDelta": 32,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-konzernstrategie",
+      "path": "/de/konzern/konzernstrategie",
+      "title": "Konzernstrategie",
+      "templateId": "de-konzern-konzernstrategie",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/konzern/konzernstrategie.html",
+        "metaJson": "stardust/migrated/de/konzern/konzernstrategie._meta.json",
+        "sourceHash": "sha256:66b4a2b59137d34dbc789fd41249d4b8a4151f3e54d9bfe8dfbf873e6bb5a313",
+        "sourceUrl": "https://www.fraport.com/de/konzern/konzernstrategie.html"
+      },
+      "blocks": [
+        "breadcrumb",
+        "hero",
+        "text-media",
+        "columns",
+        "accordion",
+        "image",
+        "cta",
+        "teaser",
+        "teaser-slider",
+        "related-content"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie",
+        "deployedAt": "2026-11-19T20:51:19.676Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.7,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-managementsysteme",
+      "path": "/de/konzern/managementsysteme",
+      "title": "Managementsysteme",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:30ff97d6f6cb3b8eba75171a3fb7f4fe661b611926ab57745db05932965a2c14",
+        "currentStatePath": "stardust/current/pages/de-konzern-managementsysteme.json",
+        "sourceUrl": "https://www.fraport.com/de/konzern/managementsysteme.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme",
+        "deployedAt": "2026-11-19T21:08:04.845Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.17,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 7,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-regionales-engagement",
+      "path": "/de/konzern/regionales-engagement",
+      "title": "Aktiv für die Region",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:c2ff775b588427298d52fe3960bee4b1ef0533952819328f41de536e5414e03d",
+        "currentStatePath": "stardust/current/pages/de-konzern-regionales-engagement.json",
+        "sourceUrl": "https://www.fraport.com/de/konzern/regionales-engagement.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement",
+        "deployedAt": "2026-11-19T21:17:48.531Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.62,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-ueber-uns",
+      "path": "/de/konzern/ueber-uns",
+      "title": "Über uns",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8c56729107b61ea8182cd9d27d7014af27e55f39e0c7043a4590c2fbc6dd9b4c",
+        "currentStatePath": "stardust/current/pages/de-konzern-ueber-uns.json",
+        "sourceUrl": "https://www.fraport.com/de/konzern/ueber-uns.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns",
+        "deployedAt": "2026-11-19T21:17:48.405Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 12.12,
+          "heightDelta": 26,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+      "path": "/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra",
+      "title": "Herzensmomente@FRA",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:6751eacec9164d3a86af8c1ce4000d421078c7985c2f12b4d7e4084f06dbdd73",
+        "currentStatePath": "stardust/current/pages/de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra.json",
+        "sourceUrl": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra",
+        "deployedAt": "2026-11-19T22:29:13.278Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.92,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+      "path": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen",
+      "title": "Unsere internationalen Flughäfen und Beteiligungen",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:faaa80e575ddb82d3a765f22e78d0b19e4a469bdfcf8e1e308c5deef557d908a",
+        "currentStatePath": "stardust/current/pages/de-konzern-unsere-internationalen-flughaefen-und-beteiligungen.json",
+        "sourceUrl": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen",
+        "deployedAt": "2026-11-19T21:17:48.469Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.79,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 5,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-nachhaltigkeit",
+      "path": "/de/nachhaltigkeit",
+      "title": "Nachhaltigkeit",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:e6ebf3f27d0b06a98babed17b12a66a62678b9d74ee3b12fc34b1e03c4e0f62b",
+        "currentStatePath": "stardust/current/pages/de-nachhaltigkeit.json",
+        "sourceUrl": "https://www.fraport.com/de/nachhaltigkeit.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit",
+        "deployedAt": "2026-11-19T21:17:48.343Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.54,
+          "heightDelta": 8,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+      "path": "/de/nachhaltigkeit/umwelt-und-klimaschutz",
+      "title": "Umwelt und Klimaschutz",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:87cef6b88aae186be8d4ce58f2580b0f648d004710f3c1daa72ce6209f46f633",
+        "currentStatePath": "stardust/current/pages/de-nachhaltigkeit-umwelt-und-klimaschutz.json",
+        "sourceUrl": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz",
+        "deployedAt": "2026-11-19T22:29:13.029Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.56,
+          "heightDelta": 12,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+      "path": "/de/nachhaltigkeit/unternehmensfuehrung",
+      "title": "Unternehmensführung",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:cebb259a2b4ecf87abc83720304292d21e395f12b40b08115022337fbf7719af",
+        "currentStatePath": "stardust/current/pages/de-nachhaltigkeit-unternehmensfuehrung.json",
+        "sourceUrl": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung",
+        "deployedAt": "2026-11-19T22:29:13.126Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.85,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 4,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-nachhaltigkeit-wertschaffung",
+      "path": "/de/nachhaltigkeit/wertschaffung",
+      "title": "Wertschaffung",
+      "templateId": "section-landing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:ed54b2172c9628e73b470d6364a33448f67b0dad6174514d5c68ef3bb76dea98",
+        "currentStatePath": "stardust/current/pages/de-nachhaltigkeit-wertschaffung.json",
+        "sourceUrl": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung",
+        "deployedAt": "2026-11-19T21:08:05.018Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 0.77,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-newsroom",
+      "path": "/de/newsroom",
+      "title": "Newsroom",
+      "templateId": "de-newsroom",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/newsroom.html",
+        "metaJson": "stardust/migrated/de/newsroom._meta.json",
+        "sourceHash": "sha256:e9a8b8b7f49854e8aec7dc05b8c3d7d17903ee223aae1f79a93cbf75c1ae6026",
+        "sourceUrl": "https://www.fraport.com/de/newsroom.html"
+      },
+      "blocks": [
+        "breadcrumb",
+        "hero",
+        "anchor-list",
+        "cards",
+        "link-box",
+        "cta",
+        "columns",
+        "image",
+        "key-figures",
+        "text-media",
+        "teaser",
+        "teaser-slider",
+        "related-content",
+        "newsroom-feed",
+        "embed",
+        "audio-player",
+        "milestones"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/newsroom",
+        "deployedAt": "2026-11-19T20:58:42.901Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.13,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 11,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-newsroom-ansprechpartner",
+      "path": "/de/newsroom/ansprechpartner",
+      "title": "Ansprechpartner Presse",
+      "templateId": "content-page",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:b72c52b02b1043a91d138ddc42e0fbae23ae81fb5b7b4be74a739e8700278348",
+        "currentStatePath": "stardust/current/pages/de-newsroom-ansprechpartner.json",
+        "sourceUrl": "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner",
+        "deployedAt": "2026-11-19T22:29:13.201Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.29,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 13,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-newsroom-pressemitteilung",
+      "path": "/de/newsroom/pressemitteilung",
+      "title": "Pressemitteilungen",
+      "templateId": "de-newsroom-pressemitteilung",
+      "source": {
+        "migratedHtml": "stardust/migrated/de/newsroom/pressemitteilung.html",
+        "metaJson": "stardust/migrated/de/newsroom/pressemitteilung._meta.json",
+        "sourceHash": "sha256:4a9067b419bef997481659e1b97a21c6a0fdc16153cb1ad471d20255146caa33",
+        "sourceUrl": "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+      },
+      "blocks": [
+        "news-list",
+        "cta"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung",
+        "deployedAt": "2026-11-19T20:03:13.319Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.43,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "de-newsroom-servicenews",
+      "path": "/de/newsroom/servicenews",
+      "title": "Service News",
+      "templateId": "news-listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:439f2941b747909332adb1f414d2619ec46537c2a427dc6058bb19e17a63e809",
+        "currentStatePath": "stardust/current/pages/de-newsroom-servicenews.json",
+        "sourceUrl": "https://www.fraport.com/de/newsroom/servicenews.html"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews",
+        "deployedAt": "2026-11-19T21:02:56.382Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.07,
+          "heightDelta": 4,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Fraport AG",
+      "templateId": "home",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:8e88affe7dcd1065c5d679ca784c4ee313babe0a241fe3a0a67ab52c8172921a",
+        "currentStatePath": "stardust/current/pages/index.json",
+        "sourceUrl": "https://www.fraport.com/"
+      },
+      "blocks": [],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--340a2135--aemcoder.aem.page/",
+        "deployedAt": "2026-11-19T19:58:22.796Z",
+        "verifiedAt": "2026-11-19T23:55:20.845Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.36,
+          "heightDelta": 0,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 17,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-19T23:55:20.765Z"
+        }
+      }
+    }
+  ]
+}

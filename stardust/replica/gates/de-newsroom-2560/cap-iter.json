@@ -1,0 +1,1142 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-19T18:09:57.260Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://www.fraport.com/de/newsroom.html",
+      "http://localhost:8791/de-newsroom-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://www.fraport.com/de/newsroom.html",
+    "http://localhost:8791/de-newsroom-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 173,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "other",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-page > frach-m-sticky-page-header-container.frach-state-sticky.frach-state-collapsed > frach-m-page-header.frach-m-page-header > div.frach-grid",
+        "tier": 6,
+        "share": 0,
+        "section": -1,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn > frach-m-hero.frach-m-hero.frach-m-hero--21-9 > div.frach-grid",
+        "tier": 5,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 469,
+        "via": "fixed",
+        "selector": "frach-m-hero.frach-m-hero.frach-m-hero--21-9 > div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline",
+        "tier": 7,
+        "share": 0.01,
+        "section": 0,
+        "w1": 469,
+        "maxWidth": "calc(75% - 32px)"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline > span.frach-e-headline__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 0,
+        "w1": 359,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > section.frach-h-position-sticky.frach-h-component-margin > div.frach-grid",
+        "tier": 6,
+        "share": 0.08,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 324,
+        "via": "fixed",
+        "selector": "frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list > div.frach-m-accordion__section > div > a.frach-m-anchor-list__anchor",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 324,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 324,
+        "via": "fixed",
+        "selector": "frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list > div.frach-m-accordion__section > div > a.frach-m-anchor-list__anchor",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 324,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 324,
+        "via": "fixed",
+        "selector": "frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list > div.frach-m-accordion__section > div > a.frach-m-anchor-list__anchor",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 324,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 324,
+        "via": "fixed",
+        "selector": "frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list > div.frach-m-accordion__section > div > a.frach-m-anchor-list__anchor",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 324,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 324,
+        "via": "fixed",
+        "selector": "frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list > div.frach-m-accordion__section > div > a.frach-m-anchor-list__anchor",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 324,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 324,
+        "via": "fixed",
+        "selector": "frach-m-anchor-list.frach-m-accordion.frach-m-anchor-list > div.frach-m-accordion__section > div > a.frach-m-anchor-list__anchor",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 324,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#aktuelles > div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > div.frach-m-teaser-collection > div.frach-grid",
+        "tier": 10,
+        "share": 0.14,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-m-cta > div.frach-grid",
+        "tier": 10,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#aktuelles > div.cmp-container > section.frach-h-component-margin.frach-h-bg--grey > div.frach-grid",
+        "tier": 9,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#aktuelles > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 482,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 14,
+        "share": 0.01,
+        "section": 2,
+        "w1": 482,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > section.frach-h-component-margin > frach-m-key-figures.frach-m-key-figures.frach-m-key-figures--has-many > div.frach-grid.frach-state-animating",
+        "tier": 10,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#social_media > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 293,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 14,
+        "share": 0.01,
+        "section": 2,
+        "w1": 293,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#welt_der_moeglichkeiten > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 542,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 14,
+        "share": 0.01,
+        "section": 2,
+        "w1": 542,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.frach-h-component-margin > frach-e-audio-player.frach-e-audio-player > div.frach-grid",
+        "tier": 10,
+        "share": 0.03,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-m-cta > div.frach-grid",
+        "tier": 10,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#medien___publikationen > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 508,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 14,
+        "share": 0.01,
+        "section": 2,
+        "w1": 508,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-grid",
+        "tier": 14,
+        "share": 0.03,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-grid",
+        "tier": 14,
+        "share": 0.04,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-grid",
+        "tier": 14,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-grid",
+        "tier": 14,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-m-slider__viewport > div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-grid",
+        "tier": 14,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 257,
+        "via": "fixed",
+        "selector": "div.frach-m-text-media__text > div.frach-m-text-media__copy.frach-m-text > div.frach-m-text__buttons > a.frach-e-button.frach-m-cta__button",
+        "tier": 21,
+        "share": 0.01,
+        "section": 2,
+        "w1": 257,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#dokuserien_und_reportagen > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 594,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 17,
+        "share": 0.01,
+        "section": 2,
+        "w1": 594,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > section.frach-h-component-margin.frach-js-refresh-root > frach-m-text-media.frach-m-text-media.frach-m-text-media--right > div.frach-grid",
+        "tier": 13,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#dokuserien_und_reportagen > div.cmp-container > section.frach-h-component-margin.frach-h-bg--grey > div.frach-grid",
+        "tier": 12,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-m-cta > div.frach-grid",
+        "tier": 13,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#container-ba4fbaabc1 > section.frach-h-component-margin.frach-h-bg--grey > div.frach-grid",
+        "tier": 12,
+        "share": 0.02,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 387,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 17,
+        "share": 0.01,
+        "section": 2,
+        "w1": 387,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#medien___publikationen > div.cmp-container > div.frach-h-component-margin.frach-js-refresh-root > div.frach-grid",
+        "tier": 9,
+        "share": 0.01,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 431,
+        "via": "fixed",
+        "selector": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline > span.frach-e-headline__line",
+        "tier": 14,
+        "share": 0.01,
+        "section": 2,
+        "w1": 431,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.frach-h-component-margin.frach-js-refresh-root > frach-m-teaser-slider.frach-m-related-content.frach-m-teaser-slider > div.frach-state-animating > div.frach-grid",
+        "tier": 11,
+        "share": 0.37,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 283,
+        "via": "fixed",
+        "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 283,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 317,
+        "via": "fixed",
+        "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 317,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 381,
+        "via": "fixed",
+        "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 381,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 336,
+        "via": "fixed",
+        "selector": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+        "tier": 20,
+        "share": 0.01,
+        "section": 2,
+        "w1": 336,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn",
+        "px": 1648,
+        "capSelector": "div.aem-Grid.aem-Grid--12 > section.frach-h-component-margin.aem-GridColumn > frach-m-hero.frach-m-hero.frach-m-hero--21-9 > div.frach-grid"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.stickyPatch.aem-GridColumn",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.root.responsivegrid > div.aem-Grid.aem-Grid--12 > div.responsivegrid.aem-GridColumn",
+        "px": 1648,
+        "capSelector": "div.responsivegrid.aem-GridColumn > div.aem-Grid.aem-Grid--12 > section.frach-h-position-sticky.frach-h-component-margin > div.frach-grid"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1648,
+    "contentFrom": "module",
+    "maxCap": 1648,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 536
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 173,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.hero-container > div.hero-wrapper > div.hero.hero--21-9 > div.container",
+        "tier": 4,
+        "share": 0.01,
+        "section": 0,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 469,
+        "via": "fixed",
+        "selector": "div.hero.hero--21-9 > div.container > div.row > h1.ribbon.ribbon--gradient",
+        "tier": 6,
+        "share": 0.01,
+        "section": 0,
+        "w1": 469,
+        "maxWidth": "calc(75% - 32px)"
+      },
+      {
+        "kind": "module",
+        "px": 359,
+        "via": "fixed",
+        "selector": "div.container > div.row > h1.ribbon.ribbon--gradient > span.ribbon__line",
+        "tier": 7,
+        "share": 0.01,
+        "section": 0,
+        "w1": 359,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#main-content > div.section.anchor-list-container > div.anchor-list-wrapper > div.container",
+        "tier": 3,
+        "share": 0.08,
+        "section": 2,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#aktuelles > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 3,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#aktuelles > div.cards-wrapper > div.cards.cards--with-link-box > div.container",
+        "tier": 4,
+        "share": 0.14,
+        "section": 3,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.cta-container > div.cta-wrapper > div.cta > div.container",
+        "tier": 4,
+        "share": 0.02,
+        "section": 4,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.columns-container > div.columns-wrapper > div.columns.columns--two-thirds > div.container",
+        "tier": 4,
+        "share": 0.02,
+        "section": 5,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#main-content > div.section.key-figures-container > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 6,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 482,
+        "via": "fixed",
+        "selector": "div > div.section-title > h1.ribbon.ribbon--primary > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 6,
+        "w1": 482,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.key-figures-container > div.key-figures-wrapper > div.key-figures.key-figures--many > div.container.is-animating",
+        "tier": 4,
+        "share": 0.01,
+        "section": 6,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#social_media > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 7,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 293,
+        "via": "fixed",
+        "selector": "div > div.section-title > h1.ribbon.ribbon--primary > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 7,
+        "w1": 293,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#welt_der_moeglichkeiten > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 8,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 542,
+        "via": "fixed",
+        "selector": "div > div.section-title > h2.ribbon.ribbon--primary > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 8,
+        "w1": 542,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#welt_der_moeglichkeiten > div.cta-wrapper > div.cta > div.container",
+        "tier": 4,
+        "share": 0.02,
+        "section": 8,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#medien___publikationen > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 9,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 508,
+        "via": "fixed",
+        "selector": "div > div.section-title > h2.ribbon.ribbon--primary > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 9,
+        "w1": 508,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.milestones__slides > div.milestones__slide > div.text-media.text-media--left > div.container",
+        "tier": 9,
+        "share": 0.03,
+        "section": 9,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.milestones__slides > div.milestones__slide.is-off > div.text-media.text-media--right > div.container",
+        "tier": 9,
+        "share": 0.04,
+        "section": 9,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.milestones__slides > div.milestones__slide.is-off > div.text-media.text-media--left > div.container",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.milestones__slides > div.milestones__slide.is-off > div.text-media.text-media--right > div.container",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.milestones__slides > div.milestones__slide.is-off > div.text-media.text-media--left > div.container",
+        "tier": 9,
+        "share": 0.02,
+        "section": 9,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 257,
+        "via": "fixed",
+        "selector": "div.row > div.text-media__text > div.buttons > a.button.button--primary",
+        "tier": 13,
+        "share": 0.01,
+        "section": 9,
+        "w1": 257,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#dokuserien_und_reportagen > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 10,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 594,
+        "via": "fixed",
+        "selector": "div > div.section-title > h2.ribbon.ribbon--primary > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 10,
+        "w1": 594,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#dokuserien_und_reportagen > div.text-media-wrapper > div.text-media.text-media--right > div.container",
+        "tier": 4,
+        "share": 0.01,
+        "section": 10,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.columns-container > div.columns-wrapper > div.columns.columns--halves > div.container",
+        "tier": 4,
+        "share": 0.01,
+        "section": 11,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.section.columns-container > div.cta-wrapper > div.cta > div.container",
+        "tier": 4,
+        "share": 0.02,
+        "section": 12,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#ansprechpartner > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 13,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 387,
+        "via": "fixed",
+        "selector": "div > div.section-title.section-title--nested > h1.ribbon.ribbon--primary > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 13,
+        "w1": 387,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#ansprechpartner > div.columns-wrapper > div.columns.columns--two-thirds > div.container",
+        "tier": 4,
+        "share": 0.01,
+        "section": 13,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "#main-content > div.section.related-content-container > div.section-title-wrapper > div.container",
+        "tier": 3,
+        "share": 0.01,
+        "section": 14,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 431,
+        "via": "fixed",
+        "selector": "div > div.section-title.section-title--nested > h1.ribbon.ribbon--gradient > span.ribbon__line",
+        "tier": 8,
+        "share": 0.01,
+        "section": 14,
+        "w1": 431,
+        "maxWidth": "100%"
+      },
+      {
+        "kind": "module",
+        "px": 1648,
+        "via": "max-width",
+        "selector": "div.related-content-wrapper > div.teaser-slider.related-content > div.teaser-slider__container.is-animating > div.container",
+        "tier": 5,
+        "share": 0.37,
+        "section": 14,
+        "w1": 1408,
+        "maxWidth": "1648px"
+      },
+      {
+        "kind": "module",
+        "px": 283,
+        "via": "fixed",
+        "selector": "div.slider__slide > div.teaser > h3.teaser__headline.h6 > a",
+        "tier": 14,
+        "share": 0.01,
+        "section": 14,
+        "w1": 283,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 317,
+        "via": "fixed",
+        "selector": "div.slider__slide > div.teaser > h3.teaser__headline.h6 > a",
+        "tier": 14,
+        "share": 0.01,
+        "section": 14,
+        "w1": 317,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 381,
+        "via": "fixed",
+        "selector": "div.slider__slide.is-off > div.teaser > h3.teaser__headline.h6 > a",
+        "tier": 14,
+        "share": 0.01,
+        "section": 14,
+        "w1": 381,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 336,
+        "via": "fixed",
+        "selector": "div.slider__slide.is-off > div.teaser > h3.teaser__headline.h6 > a",
+        "tier": 14,
+        "share": 0.01,
+        "section": 14,
+        "w1": 336,
+        "maxWidth": "none"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#main-content > div.section.hero-container",
+        "px": 1648,
+        "capSelector": "div.section.hero-container > div.hero-wrapper > div.hero.hero--21-9 > div.container"
+      },
+      {
+        "index": 1,
+        "selector": "#main-content > div.section.sticky-patch-container",
+        "px": null,
+        "capSelector": null
+      },
+      {
+        "index": 2,
+        "selector": "#main-content > div.section.anchor-list-container",
+        "px": 1648,
+        "capSelector": "#main-content > div.section.anchor-list-container > div.anchor-list-wrapper > div.container"
+      },
+      {
+        "index": 3,
+        "selector": "#aktuelles",
+        "px": 1648,
+        "capSelector": "#aktuelles > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 4,
+        "selector": "#main-content > div.section.cta-container",
+        "px": 1648,
+        "capSelector": "div.section.cta-container > div.cta-wrapper > div.cta > div.container"
+      },
+      {
+        "index": 5,
+        "selector": "#main-content > div.section.columns-container",
+        "px": 1648,
+        "capSelector": "div.section.columns-container > div.columns-wrapper > div.columns.columns--two-thirds > div.container"
+      },
+      {
+        "index": 6,
+        "selector": "#main-content > div.section.key-figures-container",
+        "px": 1648,
+        "capSelector": "#main-content > div.section.key-figures-container > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 7,
+        "selector": "#social_media",
+        "px": 1648,
+        "capSelector": "#social_media > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 8,
+        "selector": "#welt_der_moeglichkeiten",
+        "px": 1648,
+        "capSelector": "#welt_der_moeglichkeiten > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 9,
+        "selector": "#medien___publikationen",
+        "px": 1648,
+        "capSelector": "#medien___publikationen > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 10,
+        "selector": "#dokuserien_und_reportagen",
+        "px": 1648,
+        "capSelector": "#dokuserien_und_reportagen > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 11,
+        "selector": "#main-content > div.section.columns-container",
+        "px": 1648,
+        "capSelector": "div.section.columns-container > div.columns-wrapper > div.columns.columns--halves > div.container"
+      },
+      {
+        "index": 12,
+        "selector": "#main-content > div.section.columns-container",
+        "px": 1648,
+        "capSelector": "div.section.columns-container > div.cta-wrapper > div.cta > div.container"
+      },
+      {
+        "index": 13,
+        "selector": "#ansprechpartner",
+        "px": 1648,
+        "capSelector": "#ansprechpartner > div.section-title-wrapper > div.container"
+      },
+      {
+        "index": 14,
+        "selector": "#main-content > div.section.related-content-container",
+        "px": 1648,
+        "capSelector": "#main-content > div.section.related-content-container > div.section-title-wrapper > div.container"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1648,
+    "contentFrom": "module",
+    "maxCap": 1648,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 505
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1648px = build 1648px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "sections",
+        "detail": "live 3 vs build 15 top-level sections — module rows compared by order up to the shorter side, advisory until the structure matches",
+        "advisory": true
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "full-bleed on both",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "1648px = 1648px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/de-newsroom-2560/cap-iter.json"
+}

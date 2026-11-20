@@ -1,0 +1,393 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-19T23:59:00.000Z",
+    "phase": "D2-dynamic",
+    "input": "stardust/dynamic-features.md (65 rows), stardust/dynamic-features-plan.md"
+  },
+  "method": "Replica: settled DOM authored as block rows (P0); runtime behaviour rebuilt in block JS (P1: teaser-slider, accordion, tabbed-content, image-gallery-tiles lightbox, key-figures count-up); third-party embeds kept with the same src (P2: YouTube nocookie, walls.io, equitystory chart); header search links out to the source search page (no /query-index.json consumer on the delivered pages); martech scaffolded with every part disabled (P4).",
+  "features": [
+    {
+      "id": "teaser-slider",
+      "feature": "teaser / news slider (prev/next, pagination, show-more)",
+      "class": "CR",
+      "pages": 6,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        7,
+        8,
+        9,
+        10,
+        28,
+        29,
+        32
+      ],
+      "verifiedBy": "slides and prev/next controls rendered by block JS on / and /de/konzern",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".teaser-slider .slider-slide",
+          "min": 4
+        },
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".teaser-slider .slider-controls .slider-next",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/de/konzern",
+          "selector": ".teaser-slider .slider-slide",
+          "min": 3
+        }
+      ]
+    },
+    {
+      "id": "accordion",
+      "feature": "accordion (checkbox toggles, labelled regions)",
+      "class": "CR",
+      "pages": 11,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        11
+      ],
+      "verifiedBy": "/de/investoren 1 toggle input wired to its region; /de/newsroom/ansprechpartner 3 role=region panels",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/de/investoren",
+          "selector": ".accordion .accordion-item input[aria-controls]",
+          "min": 1
+        },
+        {
+          "type": "dom-count",
+          "path": "/de/newsroom/ansprechpartner",
+          "selector": ".accordion .accordion-panel[role=region]",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "tabbed-content",
+      "feature": "tabbed content (tablist, arrow-key navigation)",
+      "class": "CR",
+      "pages": 1,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "role=tab links with aria-selected",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/de/geschaeftsfelder/international-activities",
+          "selector": ".tabbed-content [role=tab][aria-selected]",
+          "min": 2
+        }
+      ]
+    },
+    {
+      "id": "image-gallery-lightbox",
+      "feature": "image gallery tiles + lightbox overlay",
+      "class": "M",
+      "pages": 2,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        12,
+        13,
+        33,
+        41,
+        42,
+        43
+      ],
+      "verifiedBy": "/de/konzern: lightbox 1440px, heading \"1972 - Neues Terminal und Tiefbahnhof\", Escape closes (after fix dd8ce90: aria-modal only while open); international-activities: 8 tiles inside a closed accordion in the #consulting tab (as on source) - a one-trigger click-dialog cannot open the accordion first, so the replay counts the openers there",
+      "checks": [
+        {
+          "type": "click-dialog",
+          "path": "/de/konzern",
+          "trigger": ".image-gallery-tiles-link",
+          "minWidth": 300
+        },
+        {
+          "type": "dom-count",
+          "path": "/de/geschaeftsfelder/international-activities#consulting",
+          "selector": ".image-gallery-tiles .image-gallery-tiles-item .image-gallery-tiles-link[aria-haspopup]",
+          "min": 8
+        }
+      ],
+      "environmentLimit": "live edge (aem.live) still served the pre-fix image-gallery-tiles.js for CORS (Origin-header) module requests on 2026-11-19 ~23:59 (Age 410 s of max-age 7200; admin code sync + cache purge did not reach that variant); preview replay passes 14/15 incl. this check; the live replay passes once that variant expires (<= 2 h)"
+    },
+    {
+      "id": "key-figures-countup",
+      "feature": "key figures count-up (in-view animation)",
+      "class": "CR",
+      "pages": 6,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        5
+      ],
+      "verifiedBy": "figure numbers rendered by block JS",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".key-figures .key-figures-number",
+          "min": 3
+        },
+        {
+          "type": "dom-count",
+          "path": "/de/konzern/digitalisierung",
+          "selector": ".pictogram-key-figures > *",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "video-youtube",
+      "feature": "YouTube videos (nocookie embeds)",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        63
+      ],
+      "owner": "consent gating rides the Usercentrics decision (martech-handoff.md); interim: players render as after consent",
+      "verifiedBy": "ad-hoc probe 2026-11-19 (stardust/.work/rollout/d2/yt-probe.mjs): click on first player -> googlevideo.com 200 x4, <video> paused false, currentTime 5.57s after 6s",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/de/newsroom",
+          "trigger": ".embed.video iframe",
+          "iframeSelector": ".embed.video iframe[src*='youtube-nocookie.com/embed/']",
+          "playbackHost": "googlevideo\\.com"
+        }
+      ],
+      "environmentLimit": "dynamics-check records at most 60 third-party responses per page; the walls.io wall on the same page (/de/newsroom) fills all 60 before the player is clicked, so the replay sees 0 playback requests. Probe limit, not a site defect."
+    },
+    {
+      "id": "walls-io-wall",
+      "feature": "walls.io social wall iframe",
+      "class": "A",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        3,
+        52,
+        53,
+        54,
+        55,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ],
+      "owner": "consent gating rides the Usercentrics decision",
+      "verifiedBy": "same src iframe (my.walls.io/de-fraport-ag) at 800px",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/de/newsroom",
+          "selector": ".embed.wall iframe[src*='walls.io']",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "equitystory-chart",
+      "feature": "share-price chart iframe (charts3.equitystory.com)",
+      "class": "A",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        2
+      ],
+      "verifiedBy": "same src iframe on the share page",
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/de/investoren/fraport-aktie",
+          "selector": ".iframe iframe[src*='charts3.equitystory.com']",
+          "min": 1
+        }
+      ]
+    },
+    {
+      "id": "page-runtime",
+      "feature": "all delivered pages run without uncaught exceptions",
+      "class": "CR",
+      "pages": 25,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "25 paths",
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/de",
+            "/de/geschaeftsfelder",
+            "/de/geschaeftsfelder/betrieb",
+            "/de/geschaeftsfelder/international-activities",
+            "/de/geschaeftsfelder/service",
+            "/de/investoren",
+            "/de/investoren/fraport-aktie",
+            "/de/investoren/publikationen-termine",
+            "/de/konzern",
+            "/de/konzern/digitalisierung",
+            "/de/konzern/konzernstrategie",
+            "/de/konzern/managementsysteme",
+            "/de/konzern/regionales-engagement",
+            "/de/konzern/ueber-uns",
+            "/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra",
+            "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen",
+            "/de/nachhaltigkeit",
+            "/de/nachhaltigkeit/umwelt-und-klimaschutz",
+            "/de/nachhaltigkeit/unternehmensfuehrung",
+            "/de/nachhaltigkeit/wertschaffung",
+            "/de/newsroom",
+            "/de/newsroom/ansprechpartner",
+            "/de/newsroom/pressemitteilung",
+            "/de/newsroom/servicenews"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "site-search",
+      "feature": "header site search",
+      "class": "S",
+      "pages": 25,
+      "disposition": "link-out",
+      "reproducibility": "self",
+      "status": "interim",
+      "triageRows": [
+        44,
+        15
+      ],
+      "owner": "decide whether to migrate the full corpus; then helix-query.yaml + /query-index.json + a search results page (plan P3)",
+      "verifiedBy": "header search form submits to https://www.fraport.com/de/search.html (nav document); no delivered page reads /query-index.json (404, not needed)",
+      "checks": []
+    },
+    {
+      "id": "press-search-and-news-lists",
+      "feature": "press-release / service-news search and result lists",
+      "class": "L",
+      "pages": 2,
+      "disposition": "static-snapshot",
+      "reproducibility": "needs-owner",
+      "status": "interim",
+      "triageRows": [
+        35,
+        36,
+        40,
+        45
+      ],
+      "owner": "migrate the news corpus to make the lists index-backed",
+      "verifiedBy": "first result page authored as rows linking to source articles",
+      "checks": []
+    },
+    {
+      "id": "alert-ticker",
+      "feature": "traffic / passenger / darksite alert ticker",
+      "class": "D",
+      "pages": 25,
+      "disposition": "data-fed",
+      "reproducibility": "needs-owner",
+      "status": "interim",
+      "triageRows": [
+        16,
+        17,
+        18
+      ],
+      "owner": "expose the alert feeds cross-origin or as a sheet",
+      "verifiedBy": "ticker hidden as captured (no active alerts at capture)",
+      "checks": []
+    },
+    {
+      "id": "english-tree",
+      "feature": "locale variants (en)",
+      "class": "I18N",
+      "pages": 25,
+      "disposition": "link-out",
+      "reproducibility": "needs-owner",
+      "status": "interim",
+      "triageRows": [
+        27
+      ],
+      "owner": "English tree out of scope; language switch links to the source /en pages",
+      "checks": []
+    },
+    {
+      "id": "settled-snapshots",
+      "feature": "AEM model.json fetches, client-rendered slots, curated listings, data layer",
+      "class": "D",
+      "pages": 25,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "triageRows": [
+        1,
+        4,
+        6,
+        14,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        30,
+        31,
+        34,
+        37,
+        38,
+        39,
+        64,
+        65
+      ],
+      "verifiedBy": "content authored as block rows; covered by the C-deliver pixel gate (25/25 at 1440 and 360)",
+      "checks": []
+    },
+    {
+      "id": "martech",
+      "feature": "Usercentrics CMP, Adobe Launch, Adobe Analytics, retargeting pixel",
+      "class": "T",
+      "pages": 25,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-owner",
+      "status": "scaffolded-awaiting-owner",
+      "triageRows": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        56
+      ],
+      "owner": "enable CMP / Launch per host (stardust/martech-handoff.md)",
+      "verifiedBy": "martech checks appended from stardust/martech-contract.json (gate mode: no tag host requested)",
+      "checks": []
+    }
+  ]
+}

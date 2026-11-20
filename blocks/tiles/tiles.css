@@ -1,0 +1,77 @@
+/* tiles (3 x 4-col image + text tiles; image links zoom on hover, headline link led by an
+   arrow) */
+.tiles .row {
+  align-items: flex-start;
+}
+
+.tiles .tiles-col > * {
+  margin-bottom: var(--component-margin);
+}
+
+.tiles .tiles-figure {
+  position: relative;
+}
+
+.tiles .tiles-figure p {
+  margin: 0;
+}
+
+.tiles .tiles-figure a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.tiles .tiles-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.5s;
+}
+
+.tiles .tiles-figure a:hover img {
+  transform: scale(1.2);
+}
+
+.tiles .rte :is(h2, h3, h4, h5, h6) a:any-link {
+  display: inline;
+  color: var(--link-color);
+}
+
+/* headline arrow: an inline element in an inline link, as on the source (keeps <sub> inline) */
+.tiles .rte :is(h2, h3, h4, h5, h6) a:any-link svg {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 24px;
+  margin: 0 8px -7px 0;
+  fill: currentcolor;
+}
+
+.tiles .buttons p {
+  display: contents;
+}
+
+@media (width >= 720px) {
+  .tiles .row > .tiles-col {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+/* foundation .buttons .button spacing, restated: a.button:any-link (0,2,1) resets the margin */
+.tiles .buttons a.button:any-link {
+  flex: 1 1 100%;
+  max-width: calc(100% - 24px);
+  margin: 0 24px 24px 0;
+}
+
+@media (width >= 720px) {
+  .tiles .buttons a.button:any-link {
+    flex: 0 1 auto;
+    max-width: none;
+    margin-top: 14px;
+  }
+}

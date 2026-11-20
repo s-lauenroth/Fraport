@@ -1,0 +1,1804 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-20T00:20:24Z",
+    "stardustVersion": "0.41.0"
+  },
+  "site": {
+    "originUrl": "https://www.fraport.com",
+    "deployUrl": "https://main--340a2135--aemcoder.aem.page/",
+    "extractedAt": "2026-11-19T16:11:17.037Z",
+    "pageCap": null,
+    "totalDiscovered": 25,
+    "crawled": 25,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-19T16:11:17.037Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "de",
+      "url": "https://www.fraport.com/de.html",
+      "title": "Fraport AG",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:18.246Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-19T17:09:02Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T17:09:02Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T00:20:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de.json",
+      "prototypePath": "stardust/prototypes/de-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "index",
+      "url": "https://www.fraport.com/",
+      "title": "Fraport AG",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:20.881Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T19:56:08Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T19:56:36Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/index.html"
+    },
+    {
+      "slug": "de-konzern",
+      "url": "https://www.fraport.com/de/konzern.html",
+      "title": "Konzern",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:30.228Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-19T17:33:27Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T17:33:27Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T00:20:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern.json",
+      "prototypePath": "stardust/prototypes/de-konzern-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-geschaeftsfelder",
+      "url": "https://www.fraport.com/de/geschaeftsfelder.html",
+      "title": "Geschäftsfelder",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:37.763Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T20:52:57Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:39:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftsfelder.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-investoren",
+      "url": "https://www.fraport.com/de/investoren.html",
+      "title": "Investoren",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:31.552Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:46:09Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:05:12Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-investoren.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/investoren.html"
+    },
+    {
+      "slug": "de-nachhaltigkeit",
+      "url": "https://www.fraport.com/de/nachhaltigkeit.html",
+      "title": "Nachhaltigkeit",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:38.576Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:03:51Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:42:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-nachhaltigkeit.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/nachhaltigkeit.html"
+    },
+    {
+      "slug": "de-newsroom",
+      "url": "https://www.fraport.com/de/newsroom.html",
+      "title": "Newsroom",
+      "type": "feature-hub",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:40.999Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T18:11:08Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T00:20:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-newsroom.json",
+      "prototypePath": "stardust/prototypes/de-newsroom-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-konzern-ueber-uns",
+      "url": "https://www.fraport.com/de/konzern/ueber-uns.html",
+      "title": "Über uns",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:53.487Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:03:51Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:42:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-ueber-uns.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/konzern/ueber-uns.html"
+    },
+    {
+      "slug": "de-konzern-konzernstrategie",
+      "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+      "title": "Konzernstrategie",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:58.800Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-19T17:33:07Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T17:33:07Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T00:20:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-konzernstrategie.json",
+      "prototypePath": "stardust/prototypes/de-konzern-konzernstrategie-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+      "url": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html",
+      "title": "Unsere internationalen Flughäfen und Beteiligungen",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T15:59:55.834Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:03:51Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:42:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-unsere-internationalen-flughaefen-und-beteiligungen.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html"
+    },
+    {
+      "slug": "de-konzern-managementsysteme",
+      "url": "https://www.fraport.com/de/konzern/managementsysteme.html",
+      "title": "Managementsysteme",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:13.859Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T20:52:57Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:39:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-managementsysteme.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "typeOrigin": "card-overview"
+    },
+    {
+      "slug": "de-konzern-regionales-engagement",
+      "url": "https://www.fraport.com/de/konzern/regionales-engagement.html",
+      "title": "Aktiv für die Region",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:02.753Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:03:51Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:42:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-regionales-engagement.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/konzern/regionales-engagement.html"
+    },
+    {
+      "slug": "de-konzern-digitalisierung",
+      "url": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "title": "Digitalisierung und Digital Factory",
+      "type": "feature-hub",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:22.211Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:24:42Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:24:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-digitalisierung.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/konzern/digitalisierung.html"
+    },
+    {
+      "slug": "de-geschaeftsfelder-betrieb",
+      "url": "https://www.fraport.com/de/geschaeftsfelder/betrieb.html",
+      "title": "Betrieb",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:25.329Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T20:52:57Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:39:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftsfelder-betrieb.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-geschaeftsfelder-international-activities",
+      "url": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "title": "International Activities",
+      "type": "feature-hub",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:27.668Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:24:42Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:08:31Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftsfelder-international-activities.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/geschaeftsfelder/international-activities.html"
+    },
+    {
+      "slug": "de-geschaeftsfelder-service",
+      "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+      "title": "Service",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:40.188Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T20:52:57Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:39:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-geschaeftsfelder-service.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "typeOrigin": "card-overview"
+    },
+    {
+      "slug": "de-investoren-fraport-aktie",
+      "url": "https://www.fraport.com/de/investoren/fraport-aktie.html",
+      "title": "Fraport Aktie",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:33.817Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:03:51Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:42:19Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-investoren-fraport-aktie.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/investoren/fraport-aktie.html",
+      "typeOrigin": "utility-detail"
+    },
+    {
+      "slug": "de-investoren-publikationen-termine",
+      "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "title": "Publikationen & Termine",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:36.144Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-investoren-publikationen-termine.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "typeOrigin": "utility-detail"
+    },
+    {
+      "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+      "url": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "title": "Umwelt und Klimaschutz",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:42.641Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-nachhaltigkeit-umwelt-und-klimaschutz.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+      "url": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+      "title": "Unternehmensführung",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:43.565Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-nachhaltigkeit-unternehmensfuehrung.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "de-nachhaltigkeit-wertschaffung",
+      "url": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html",
+      "title": "Wertschaffung",
+      "type": "section-landing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:01:05.991Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T20:52:57Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:39:35Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-nachhaltigkeit-wertschaffung.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "typeOrigin": "card-overview"
+    },
+    {
+      "slug": "de-newsroom-ansprechpartner",
+      "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+      "title": "Ansprechpartner Presse",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:51.780Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-newsroom-ansprechpartner.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "typeOrigin": "contact-directory"
+    },
+    {
+      "slug": "de-newsroom-pressemitteilung",
+      "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+      "title": "Pressemitteilungen",
+      "type": "news-listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:53.048Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-19T17:51:16Z",
+          "approvedBy": "hands-off"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-20T00:20:24Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-newsroom-pressemitteilung.json",
+      "prototypePath": "stardust/prototypes/de-newsroom-pressemitteilung-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "de-newsroom-servicenews",
+      "url": "https://www.fraport.com/de/newsroom/servicenews.html",
+      "title": "Service News",
+      "type": "news-listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:00:59.599Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-19T21:00:15Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T21:07:07Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-newsroom-servicenews.json",
+      "prototypePath": null,
+      "migratedPath": "stardust/migrated/de/newsroom/servicenews.html"
+    },
+    {
+      "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+      "url": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+      "title": "Herzensmomente@FRA",
+      "type": "content-page",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-19T16:01:01.763Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-19T22:53:16Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra.json",
+      "prototypePath": null,
+      "migratedPath": null,
+      "typeOrigin": "utility-detail"
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-19T22:45:42Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/de.html",
+        "outputPath": "de.html",
+        "slug": "de",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern.html",
+        "outputPath": "de/konzern.html",
+        "slug": "de-konzern",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/geschaeftsfelder.html",
+        "outputPath": "de/geschaeftsfelder.html",
+        "slug": "de-geschaeftsfelder",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/investoren.html",
+        "outputPath": "de/investoren.html",
+        "slug": "de-investoren",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/nachhaltigkeit.html",
+        "outputPath": "de/nachhaltigkeit.html",
+        "slug": "de-nachhaltigkeit",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/newsroom.html",
+        "outputPath": "de/newsroom.html",
+        "slug": "de-newsroom",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/ueber-uns.html",
+        "outputPath": "de/konzern/ueber-uns.html",
+        "slug": "de-konzern-ueber-uns",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/konzernstrategie.html",
+        "outputPath": "de/konzern/konzernstrategie.html",
+        "slug": "de-konzern-konzernstrategie",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html",
+        "outputPath": "de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html",
+        "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/managementsysteme.html",
+        "outputPath": "de/konzern/managementsysteme.html",
+        "slug": "de-konzern-managementsysteme",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/regionales-engagement.html",
+        "outputPath": "de/konzern/regionales-engagement.html",
+        "slug": "de-konzern-regionales-engagement",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/digitalisierung.html",
+        "outputPath": "de/konzern/digitalisierung.html",
+        "slug": "de-konzern-digitalisierung",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/geschaeftsfelder/betrieb.html",
+        "outputPath": "de/geschaeftsfelder/betrieb.html",
+        "slug": "de-geschaeftsfelder-betrieb",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/geschaeftsfelder/international-activities.html",
+        "outputPath": "de/geschaeftsfelder/international-activities.html",
+        "slug": "de-geschaeftsfelder-international-activities",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/geschaeftsfelder/service.html",
+        "outputPath": "de/geschaeftsfelder/service.html",
+        "slug": "de-geschaeftsfelder-service",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/investoren/fraport-aktie.html",
+        "outputPath": "de/investoren/fraport-aktie.html",
+        "slug": "de-investoren-fraport-aktie",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/investoren/publikationen-termine.html",
+        "outputPath": "de/investoren/publikationen-termine.html",
+        "slug": "de-investoren-publikationen-termine",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+        "outputPath": "de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+        "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/nachhaltigkeit/unternehmensfuehrung.html",
+        "outputPath": "de/nachhaltigkeit/unternehmensfuehrung.html",
+        "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/nachhaltigkeit/wertschaffung.html",
+        "outputPath": "de/nachhaltigkeit/wertschaffung.html",
+        "slug": "de-nachhaltigkeit-wertschaffung",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/newsroom/ansprechpartner.html",
+        "outputPath": "de/newsroom/ansprechpartner.html",
+        "slug": "de-newsroom-ansprechpartner",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/newsroom/pressemitteilung.html",
+        "outputPath": "de/newsroom/pressemitteilung.html",
+        "slug": "de-newsroom-pressemitteilung",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/newsroom/servicenews.html",
+        "outputPath": "de/newsroom/servicenews.html",
+        "slug": "de-newsroom-servicenews",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+        "outputPath": "de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+        "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+        "outputPathDefault": null
+      }
+    ],
+    "totalAssetsBundled": 824,
+    "bundledAssets": [
+      "canon/blocks/accordion.css",
+      "canon/blocks/anchor-list-scroll.js",
+      "canon/blocks/anchor-list.css",
+      "canon/blocks/audio-player.css",
+      "canon/blocks/audio-player.js",
+      "canon/blocks/blocks.js",
+      "canon/blocks/breadcrumb.css",
+      "canon/blocks/cards.css",
+      "canon/blocks/columns.css",
+      "canon/blocks/cta.css",
+      "canon/blocks/embed.css",
+      "canon/blocks/hero.css",
+      "canon/blocks/image-gallery-tiles.css",
+      "canon/blocks/image-gallery-tiles.js",
+      "canon/blocks/image.css",
+      "canon/blocks/key-figures.css",
+      "canon/blocks/link-box.css",
+      "canon/blocks/milestones.css",
+      "canon/blocks/milestones.js",
+      "canon/blocks/news-list.css",
+      "canon/blocks/news-list.js",
+      "canon/blocks/newsroom-feed.css",
+      "canon/blocks/related-content.css",
+      "canon/blocks/section-title.css",
+      "canon/blocks/sticky-patch.css",
+      "canon/blocks/teaser-slider.css",
+      "canon/blocks/teaser.css",
+      "canon/blocks/testimonial.css",
+      "canon/blocks/text-media.css",
+      "canon/blocks/tiles.css",
+      "canon/canon.css",
+      "canon/favicon.png",
+      "canon/fonts.css",
+      "canon/fonts/FraportSans-Bold.woff2",
+      "canon/fonts/FraportSans-BoldItalic.woff2",
+      "canon/fonts/FraportSans-Italic.woff2",
+      "canon/fonts/FraportSans-Regular.woff2",
+      "canon/fonts/FraportSans-Semibold.woff2",
+      "canon/fonts/FraportSans-SemiboldItalic.woff2",
+      "canon/fonts/roboto-300.woff2",
+      "canon/fonts/roboto-300italic.woff2",
+      "canon/fonts/roboto-500.woff2",
+      "canon/fonts/roboto-500italic.woff2",
+      "canon/fonts/roboto-italic.woff2",
+      "canon/fonts/roboto-regular.woff2",
+      "canon/footer.css",
+      "canon/header.css",
+      "canon/header.js",
+      "canon/icons/frach-icon-arrow-left.svg",
+      "canon/icons/frach-icon-arrow-right.svg",
+      "canon/icons/frach-icon-burger.svg",
+      "canon/icons/frach-icon-career.svg",
+      "canon/icons/frach-icon-chevron-down.svg",
+      "canon/icons/frach-icon-chevron-left.svg",
+      "canon/icons/frach-icon-chevron-right.svg",
+      "canon/icons/frach-icon-chevron-up.svg",
+      "canon/icons/frach-icon-close.svg",
+      "canon/icons/frach-icon-download.svg",
+      "canon/icons/frach-icon-files.svg",
+      "canon/icons/frach-icon-globe.svg",
+      "canon/icons/frach-icon-image.svg",
+      "canon/icons/frach-icon-mail.svg",
+      "canon/icons/frach-icon-pause.svg",
+      "canon/icons/frach-icon-phone.svg",
+      "canon/icons/frach-icon-play.svg",
+      "canon/icons/frach-icon-plus.svg",
+      "canon/icons/frach-icon-search.svg",
+      "canon/icons/frach-icon-social-facebook.svg",
+      "canon/icons/frach-icon-social-instagram.svg",
+      "canon/icons/frach-icon-social-linkedin.svg",
+      "canon/icons/frach-icon-social-youtube.svg",
+      "canon/icons/frach-icon-sticky-pin.svg",
+      "canon/icons/frach-icon-volume.svg",
+      "canon/icons/frach-icon-zoom-in.svg",
+      "de-konzern-konzernstrategie.css",
+      "de-konzern.css",
+      "de-newsroom-pressemitteilung.css",
+      "de-newsroom.css",
+      "media/04282019_fra_turnen0200-2000x1125.jpg",
+      "media/121018_markt_eb2-4748-72_m_original-1539x1539.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-1141x642.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-1231x692.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-1341x754.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-448x252.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-688x387.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-912x513.jpg",
+      "media/1972_neues-terminal-und-teifbahn-eroeffnet-jpg-orig.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-1141x642.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-1231x692.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-1341x754.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-448x252.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-688x387.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-912x513.jpg",
+      "media/2002_ausbau-frankfurt-flughafen-beginn-orig.jpg",
+      "media/20071756-1207x1207.jpg",
+      "media/2012_am_0672-1012x1012.jpg",
+      "media/2012_am_0672-1280x720.jpg",
+      "media/2012_am_0672-orig.jpg",
+      "media/2023-08-22_11_36_05-ppt5715.pptm_-_wiederhergestellt_-_powerpoint-687x386.png",
+      "media/2023-08-22_11_39_28-ppt5715.pptm_-_wiederhergestellt_-_powerpoint-687x386.png",
+      "media/2025_07_22_pm_ki-gest_tzte_bodenprozesse_lufthansa_fraport_und_zerog_treiben_innovation_am_flughafen_frankfurt_voran-1080x1080.jpg",
+      "media/2025_09_12_pm_hessische_f_rdermittel_f_r_e-flugzeugschlepper_1920x1080-687x386.jpg",
+      "media/2025_4233_emotion_kinder-408x230.jpg",
+      "media/2025_4233_emotion_kinder-447x251.jpg",
+      "media/2025_4233_emotion_kinder-478x269.jpg",
+      "media/2025_4233_emotion_kinder-568x320.jpg",
+      "media/2025_4233_emotion_kinder-624x351.jpg",
+      "media/2025_4233_emotion_kinder-687x386.jpg",
+      "media/2025_4233_emotion_kinder-orig.jpg",
+      "media/2026_05_06_pm_weiterentwickeltes_betriebskonzept_am_flughafen_frankurt-687x386.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-1081x1081.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-395x395.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-408x230.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-438x438.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-447x251.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-448x448.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-478x269.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-518x518.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-568x320.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-624x351.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-687x386.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-688x688.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-912x912.jpg",
+      "media/2026_11_05_farn_diwali-ohne-logo-orig.jpg",
+      "media/2026_11_05_farn_diwali-ohne_logo-687x386.jpg",
+      "media/2026_11_05_farn_diwali-ohne_logo-orig.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-1200x1200.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-1800x1013.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-395x395.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-408x230.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-438x438.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-447x251.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-448x448.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-478x269.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-518x518.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-568x320.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-624x351.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-687x386.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-688x688.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen-im-oktober-2026-kopie-912x912.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-1800x1013.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-408x230.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-447x251.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-478x269.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-568x320.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-624x351.jpg",
+      "media/2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-687x386.jpg",
+      "media/230607-cargo-ops-073-1080x1080.jpg",
+      "media/230607-cargo-ops-073-1280x720.jpg",
+      "media/230607-cargo-ops-073-orig.jpg",
+      "media/261027_a16_0101-16-9-1281x1281.jpg",
+      "media/4-1000x563.jpg",
+      "media/6k4a0730-bearbeitet-1076x1076.jpg",
+      "media/6k4a0730-bearbeitet-408x230.jpg",
+      "media/6k4a0730-bearbeitet-447x251.jpg",
+      "media/6k4a0730-bearbeitet-478x269.jpg",
+      "media/6k4a0730-bearbeitet-568x320.jpg",
+      "media/6k4a0730-bearbeitet-624x351.jpg",
+      "media/6k4a0730-bearbeitet-687x386.jpg",
+      "media/6k4a0730-bearbeitet-orig.jpg",
+      "media/75_jahre_feuerwehr_1920x1080-orig.jpg",
+      "media/870a0469-1280x720.jpg",
+      "media/870a0469-orig.jpg",
+      "media/870a8263_1-687x386.jpg",
+      "media/_mg_1770-1280x720.jpg",
+      "media/_mg_1770-orig.jpg",
+      "media/_mg_9609-1279x719.jpg",
+      "media/_mg_9609-1280x720.jpg",
+      "media/_mg_9609-479x269.jpg",
+      "media/_mg_9609-767x431.jpg",
+      "media/_mg_9609-991x557.jpg",
+      "media/abb._zusammensetzung_nachhaltigkeit_final_002_-687x386.png",
+      "media/aca_new-1280x720.png",
+      "media/adobestock_332568276_publikationen-1279x719.jpg",
+      "media/adobestock_332568276_publikationen-1280x720.jpg",
+      "media/adobestock_332568276_publikationen-1920x823.jpg",
+      "media/adobestock_332568276_publikationen-297x167.jpg",
+      "media/adobestock_332568276_publikationen-406x228.jpg",
+      "media/adobestock_332568276_publikationen-413x232.jpg",
+      "media/adobestock_332568276_publikationen-447x251.jpg",
+      "media/adobestock_332568276_publikationen-469x264.jpg",
+      "media/adobestock_332568276_publikationen-479x269.jpg",
+      "media/adobestock_332568276_publikationen-687x386.jpg",
+      "media/adobestock_332568276_publikationen-767x431.jpg",
+      "media/adobestock_332568276_publikationen-991x557.jpg",
+      "media/adobestock_332568276_publikationen-orig.jpg",
+      "media/adobestock_494618834_1920px-408x230.jpg",
+      "media/adobestock_494618834_1920px-447x251.jpg",
+      "media/adobestock_494618834_1920px-478x269.jpg",
+      "media/adobestock_494618834_1920px-568x320.jpg",
+      "media/adobestock_494618834_1920px-624x351.jpg",
+      "media/adobestock_494618834_1920px-687x386.jpg",
+      "media/adobestock_688108881_1920px-1920x823.jpg",
+      "media/adobestock_688108881_1920px-408x230.jpg",
+      "media/adobestock_688108881_1920px-447x251.jpg",
+      "media/adobestock_688108881_1920px-478x269.jpg",
+      "media/adobestock_688108881_1920px-568x320.jpg",
+      "media/adobestock_688108881_1920px-624x351.jpg",
+      "media/adobestock_688108881_1920px-687x386.jpg",
+      "media/adobestock_688108881_1920px-orig.jpg",
+      "media/adobestock_698573741_1920px-408x230.jpg",
+      "media/adobestock_698573741_1920px-447x251.jpg",
+      "media/adobestock_698573741_1920px-478x269.jpg",
+      "media/adobestock_698573741_1920px-568x320.jpg",
+      "media/adobestock_698573741_1920px-624x351.jpg",
+      "media/adobestock_698573741_1920px-687x386.jpg",
+      "media/adobestock_738523483_1920px-1279x719.jpg",
+      "media/adobestock_738523483_1920px-1280x720.jpg",
+      "media/adobestock_738523483_1920px-1920x823.jpg",
+      "media/adobestock_738523483_1920px-408x230.jpg",
+      "media/adobestock_738523483_1920px-447x251.jpg",
+      "media/adobestock_738523483_1920px-478x269.jpg",
+      "media/adobestock_738523483_1920px-479x269.jpg",
+      "media/adobestock_738523483_1920px-568x320.jpg",
+      "media/adobestock_738523483_1920px-624x351.jpg",
+      "media/adobestock_738523483_1920px-687x386.jpg",
+      "media/adobestock_738523483_1920px-767x431.jpg",
+      "media/adobestock_738523483_1920px-991x557.jpg",
+      "media/adobestock_738523483_1920px-orig.jpg",
+      "media/adobestock_820224120_1920px-1920x823.jpg",
+      "media/adobestock_820224120_1920px-408x230.jpg",
+      "media/adobestock_820224120_1920px-447x251.jpg",
+      "media/adobestock_820224120_1920px-478x269.jpg",
+      "media/adobestock_820224120_1920px-568x320.jpg",
+      "media/adobestock_820224120_1920px-624x351.jpg",
+      "media/adobestock_820224120_1920px-687x386.jpg",
+      "media/adobestock_859160446_1920px-1280x720.jpg",
+      "media/adobestock_859160446_1920px-1920x823.jpg",
+      "media/adobestock_859160446_1920px-408x230.jpg",
+      "media/adobestock_859160446_1920px-447x251.jpg",
+      "media/adobestock_859160446_1920px-478x269.jpg",
+      "media/adobestock_859160446_1920px-568x320.jpg",
+      "media/adobestock_859160446_1920px-624x351.jpg",
+      "media/adobestock_859160446_1920px-687x386.jpg",
+      "media/adobestock_859160446_1920px-orig.jpg",
+      "media/aifraport-1280x720.jpg",
+      "media/aifraport-408x230.jpg",
+      "media/aifraport-447x251.jpg",
+      "media/aifraport-478x269.jpg",
+      "media/aifraport-568x320.jpg",
+      "media/aifraport-624x351.jpg",
+      "media/aifraport-687x386.jpg",
+      "media/aifraport-orig.jpg",
+      "media/aktien_links-i-1280x720.png",
+      "media/alten-empfangsgebaeude-1141x642.jpg",
+      "media/alten-empfangsgebaeude-1231x692.jpg",
+      "media/alten-empfangsgebaeude-1341x754.jpg",
+      "media/alten-empfangsgebaeude-448x252.jpg",
+      "media/alten-empfangsgebaeude-688x387.jpg",
+      "media/alten-empfangsgebaeude-912x513.jpg",
+      "media/alten-empfangsgebaeude-orig.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-1141x642.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-1231x692.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-1341x754.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-448x252.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-688x387.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-912x513.jpg",
+      "media/alten-empfangsgebaeude_besuchergarten-orig.jpg",
+      "media/am_01262018_3475_1920px-1080x1080.jpg",
+      "media/am_01262018_3475_1920px-1920x823.jpg",
+      "media/am_01262018_3475_1920px-395x395.jpg",
+      "media/am_01262018_3475_1920px-438x438.jpg",
+      "media/am_01262018_3475_1920px-448x448.jpg",
+      "media/am_01262018_3475_1920px-518x518.jpg",
+      "media/am_01262018_3475_1920px-688x688.jpg",
+      "media/am_01262018_3475_1920px-912x912.jpg",
+      "media/am_02_2023_mf_9869_1920x1080px-1080x1080.jpg",
+      "media/am_03222019_7783_1920px-1920x823.jpg",
+      "media/am_03_2023_m__1020-1279x719.jpg",
+      "media/am_03_2023_m__1020-1280x720.jpg",
+      "media/am_03_2023_m__1020-1920x823.jpg",
+      "media/am_03_2023_m__1020-408x230.jpg",
+      "media/am_03_2023_m__1020-447x251.jpg",
+      "media/am_03_2023_m__1020-478x269.jpg",
+      "media/am_03_2023_m__1020-479x269.jpg",
+      "media/am_03_2023_m__1020-568x320.jpg",
+      "media/am_03_2023_m__1020-624x351.jpg",
+      "media/am_03_2023_m__1020-687x386.jpg",
+      "media/am_03_2023_m__1020-767x431.jpg",
+      "media/am_03_2023_m__1020-991x557.jpg",
+      "media/am_03_2023_m__1020-orig.jpg",
+      "media/am_05092018_4736-1201x676.jpg",
+      "media/am_05152019_8751-1000x563.jpg",
+      "media/am_07_2023__mf_0815-16-9-1920x1080.jpg",
+      "media/am_20170224__m__1184-1280x720.jpg",
+      "media/am_20170224__m__1184-orig.jpg",
+      "media/am_20170531__m__8927-1920x823.jpg",
+      "media/am_20170614__m__9773-408x230.jpg",
+      "media/am_20170614__m__9773-447x251.jpg",
+      "media/am_20170614__m__9773-478x269.jpg",
+      "media/am_20170614__m__9773-568x320.jpg",
+      "media/am_20170614__m__9773-624x351.jpg",
+      "media/am_20170614__m__9773-687x386.jpg",
+      "media/andreas_mehring-orig.jpg",
+      "media/andreas_schopf-orig.jpg",
+      "media/angelika_heinbuch-orig.jpg",
+      "media/anna-lena_ott-orig.jpg",
+      "media/auswertungen-orig.svg",
+      "media/ayseg_l_bahar-top-orig.jpg",
+      "media/bande-bickenbach-408x230.jpg",
+      "media/bande-bickenbach-447x251.jpg",
+      "media/bande-bickenbach-478x269.jpg",
+      "media/bande-bickenbach-568x320.jpg",
+      "media/bande-bickenbach-624x351.jpg",
+      "media/bande-bickenbach-687x386.jpg",
+      "media/bande_bickenbach-408x230.jpg",
+      "media/bande_bickenbach-447x251.jpg",
+      "media/bande_bickenbach-478x269.jpg",
+      "media/bande_bickenbach-568x320.jpg",
+      "media/bande_bickenbach-624x351.jpg",
+      "media/bande_bickenbach-687x386.jpg",
+      "media/bande_bickenbach-orig.jpg",
+      "media/bet-leitungsteam-1800x1013.jpg",
+      "media/bet_kachelbild_nov_26-687x386.jpg",
+      "media/bild_radbr_cke1-1920x1080.jpg",
+      "media/bildcollage_bet-687x386.jpg",
+      "media/blaetter-orig.svg",
+      "media/blick_richtung_fernbahnhof-3322x3322.jpg",
+      "media/blick_richtung_fernbahnhof-912x912.jpg",
+      "media/boj3_1_-1275x717.jpg",
+      "media/cc_pv_starbahnwest_a3-0601-1058x453.png",
+      "media/cc_pv_starbahnwest_a3-0601-1189x510.png",
+      "media/cc_pv_starbahnwest_a3-0601-1390x596.png",
+      "media/cc_pv_starbahnwest_a3-0601-1920x823.png",
+      "media/cc_pv_starbahnwest_a3-0601-479x205.png",
+      "media/cc_pv_starbahnwest_a3-0601-719x308.png",
+      "media/cc_pv_starbahnwest_a3-0601-791x339.png",
+      "media/christian_engel-16-9-orig.jpg",
+      "media/commercial_links-1280x720.png",
+      "media/containerabstellplatz-1280x720.jpg",
+      "media/dachsicherung_daecher_umland-5616x3159.jpg",
+      "media/dachsicherung_ziegel-687x386.jpg",
+      "media/dana_selin_kr_ll-orig.jpg",
+      "media/designer_2_1-991x991.png",
+      "media/dfs-orig.jpg",
+      "media/digi_mindset-687x386.jpg",
+      "media/digital_factory_-_visual-687x386.png",
+      "media/dilyana_sirakova-orig.jpg",
+      "media/directions-1058x453.jpg",
+      "media/directions-1189x510.jpg",
+      "media/directions-1202x1202.jpg",
+      "media/directions-1390x596.jpg",
+      "media/directions-1800x771.jpg",
+      "media/directions-479x205.jpg",
+      "media/directions-719x308.jpg",
+      "media/directions-791x339.jpg",
+      "media/effizienz-und-innovation-1279x719.png",
+      "media/effizienz-und-innovation-1280x720.png",
+      "media/effizienz-und-innovation-479x269.png",
+      "media/effizienz-und-innovation-767x431.png",
+      "media/effizienz-und-innovation-991x557.png",
+      "media/einsatz-1279x719.jpg",
+      "media/einsatz-1280x720.jpg",
+      "media/einsatz-479x269.jpg",
+      "media/einsatz-767x431.jpg",
+      "media/einsatz-991x557.jpg",
+      "media/emissionsfreie_bodenstromversorgung_1920x1080-687x386.jpg",
+      "media/empfang_der_europaflieger_1928_-1280x853.jpg",
+      "media/empfang_der_europaflieger_1928_-icarus_ii-2734x1538.jpg",
+      "media/energiesparlampe-orig.svg",
+      "media/feuerwehr-fahrzeuge-1280x720.jpg",
+      "media/feuerwehr-fahrzeuge-orig.jpg",
+      "media/florian_fuchs-orig.jpg",
+      "media/flughafenausbau-16-9-1280x720.jpg",
+      "media/flughafenausbau-16-9-orig.jpg",
+      "media/flughafenausweise-1080x1080.jpg",
+      "media/flughafenklinik-1280x720.jpg",
+      "media/flughafenklinik-orig.jpg",
+      "media/fotolia_119416657_l-2408x1355.jpg",
+      "media/fotolia_119416657_l-687x386.jpg",
+      "media/fra-rollverkehr-1280x720.jpg",
+      "media/fra-rollverkehr-orig.jpg",
+      "media/fra_smartway_de_1920x1080-1280x720.png",
+      "media/fraport-verkehrszahlen-408x230.jpg",
+      "media/fraport-verkehrszahlen-447x251.jpg",
+      "media/fraport-verkehrszahlen-478x269.jpg",
+      "media/fraport-verkehrszahlen-568x320.jpg",
+      "media/fraport-verkehrszahlen-624x351.jpg",
+      "media/fraport-verkehrszahlen-687x386.jpg",
+      "media/fraport_11_493-1280x720.jpg",
+      "media/fraport_11_493-orig.jpg",
+      "media/fraport_ag_iris_becker-16-9-orig.jpg",
+      "media/fraport_konzernmotiv-1-1279x719.jpg",
+      "media/fraport_konzernmotiv-1-1280x720.jpg",
+      "media/fraport_konzernmotiv-1-479x269.jpg",
+      "media/fraport_konzernmotiv-1-767x431.jpg",
+      "media/fraport_konzernmotiv-1-991x557.jpg",
+      "media/fraport_open_pitch_day_grafik_hq_ohnelogo-1280x720.png",
+      "media/fraport_open_pitch_day_hero-687x386.png",
+      "media/fraport_open_pitch_day_hero-orig.png",
+      "media/fraport_welcome_9_von_36_-1390x596.jpg",
+      "media/fraport_wertschaffung-1920x823.jpg",
+      "media/friends_fra_welcome-767x431.jpg",
+      "media/g_mg_0156-991x661.jpg",
+      "media/gep_ckf_rderanlage_gfa_verteilerschrank-4201x2363.jpg",
+      "media/gep_ckf_rderanlage_gfa_verteilerschrank-687x386.jpg",
+      "media/gro-eltern-mit-kindern-auf-der-besucherterrasse-1279x719.jpg",
+      "media/gro-eltern-mit-kindern-auf-der-besucherterrasse-1280x720.jpg",
+      "media/gro-eltern-mit-kindern-auf-der-besucherterrasse-479x269.jpg",
+      "media/gro-eltern-mit-kindern-auf-der-besucherterrasse-767x431.jpg",
+      "media/gro-eltern-mit-kindern-auf-der-besucherterrasse-991x557.jpg",
+      "media/haende-auf-tastatur-687x386.jpg",
+      "media/haende-auf-tastatur-orig.jpg",
+      "media/handshake-orig.svg",
+      "media/he-dreiht-1279x719.jpg",
+      "media/he-dreiht-1280x720.jpg",
+      "media/he-dreiht-479x269.jpg",
+      "media/he-dreiht-767x431.jpg",
+      "media/he-dreiht-991x557.jpg",
+      "media/he_dreiht2-687x386.jpg",
+      "media/hero-1275x717.png",
+      "media/hero-408x230.png",
+      "media/hero-447x251.png",
+      "media/hero-478x269.png",
+      "media/hero-568x320.png",
+      "media/hero-624x351.png",
+      "media/hero-687x386.png",
+      "media/hero-orig.png",
+      "media/historie-1141x642.jpg",
+      "media/historie-1231x692.jpg",
+      "media/historie-1341x754.jpg",
+      "media/historie-448x252.jpg",
+      "media/historie-688x387.jpg",
+      "media/historie-912x513.jpg",
+      "media/historie-orig.jpg",
+      "media/holger_sch_fers_-_bet1-1800x1013.png",
+      "media/infofilme-408x230.png",
+      "media/infofilme-447x251.png",
+      "media/infofilme-478x269.png",
+      "media/infofilme-568x320.png",
+      "media/infofilme-624x351.png",
+      "media/infofilme-687x386.png",
+      "media/intermodalita_t-orig.svg",
+      "media/jahreszahlen_beteiligungen-687x386.jpg",
+      "media/jana_sch_fer-orig.jpg",
+      "media/kamera_im_foyer-297x167.jpg",
+      "media/kamera_im_foyer-406x228.jpg",
+      "media/kamera_im_foyer-413x232.jpg",
+      "media/kamera_im_foyer-447x251.jpg",
+      "media/kamera_im_foyer-469x264.jpg",
+      "media/kamera_im_foyer-687x386.jpg",
+      "media/kamera_im_foyer-orig.jpg",
+      "media/keyv7-1058x595.jpg",
+      "media/keyv7-1189x669.jpg",
+      "media/keyv7-1390x782.jpg",
+      "media/keyv7-479x269.jpg",
+      "media/keyv7-719x404.jpg",
+      "media/keyv7-791x445.jpg",
+      "media/keyvisual-connecting_1920px-1058x453.jpg",
+      "media/keyvisual-connecting_1920px-1189x510.jpg",
+      "media/keyvisual-connecting_1920px-1390x596.jpg",
+      "media/keyvisual-connecting_1920px-479x205.jpg",
+      "media/keyvisual-connecting_1920px-719x308.jpg",
+      "media/keyvisual-connecting_1920px-791x339.jpg",
+      "media/keyvisual_connecting-1080x1080.jpg",
+      "media/keyvisual_connecting-408x230.jpg",
+      "media/keyvisual_connecting-447x251.jpg",
+      "media/keyvisual_connecting-451x254.jpg",
+      "media/keyvisual_connecting-478x269.jpg",
+      "media/keyvisual_connecting-568x320.jpg",
+      "media/keyvisual_connecting-611x344.jpg",
+      "media/keyvisual_connecting-624x351.jpg",
+      "media/keyvisual_connecting-629x354.jpg",
+      "media/keyvisual_connecting-655x368.jpg",
+      "media/keyvisual_connecting-687x386.jpg",
+      "media/kompetenz-1279x719.jpg",
+      "media/kompetenz-1280x720.jpg",
+      "media/kompetenz-479x269.jpg",
+      "media/kompetenz-767x431.jpg",
+      "media/kompetenz-991x557.jpg",
+      "media/kontakt1_16-9-orig.jpg",
+      "media/kontakt2-408x230.jpg",
+      "media/kontakt2-447x251.jpg",
+      "media/kontakt2-478x269.jpg",
+      "media/kontakt2-568x320.jpg",
+      "media/kontakt2-624x351.jpg",
+      "media/kontakt2-687x386.jpg",
+      "media/kontakt2-orig.jpg",
+      "media/kreativit_t-orig.svg",
+      "media/lademeister_abfertigung_vorfeld-4199x2362.jpg",
+      "media/lademeister_abfertigung_vorfeld-687x386.jpg",
+      "media/landefeuer-1390x596.jpg",
+      "media/landefeuer-2876x1233.jpg",
+      "media/lara_tress-schilling-orig.jpg",
+      "media/leistelle-1280x720.jpg",
+      "media/leistelle-orig.jpg",
+      "media/lucas_wacker-orig.jpg",
+      "media/luftaufnahmen-2023-408x230.jpg",
+      "media/luftaufnahmen-2023-447x251.jpg",
+      "media/luftaufnahmen-2023-478x269.jpg",
+      "media/luftaufnahmen-2023-568x320.jpg",
+      "media/luftaufnahmen-2023-624x351.jpg",
+      "media/luftaufnahmen-2023-687x386.jpg",
+      "media/luftaufnahmen_2023-1080x1080.jpg",
+      "media/luftaufnahmen_2023-1920x823.jpg",
+      "media/luftaufnahmen_2023-395x395.jpg",
+      "media/luftaufnahmen_2023-438x438.jpg",
+      "media/luftaufnahmen_2023-448x448.jpg",
+      "media/luftaufnahmen_2023-518x518.jpg",
+      "media/luftaufnahmen_2023-688x688.jpg",
+      "media/luftaufnahmen_2023-912x912.jpg",
+      "media/luftqualit_t-687x386.jpg",
+      "media/luftqualit_t-orig.jpg",
+      "media/maria_linden-orig.jpg",
+      "media/media-frankfurt_airport-advertising_frankfurt-airport_digital-welcome-portal_1920x1080-1080x1080.jpg",
+      "media/media-frankfurt_airport-advertising_frankfurt-airport_marketplace-a_1920x1080-1080x1080.jpg",
+      "media/melissa_walker-orig.jpg",
+      "media/memoria_lap_2025-650-687x386.jpg",
+      "media/microsoftteams-image_35_-687x386.png",
+      "media/microsoftteams-image_66_-1275x717.png",
+      "media/microsoftteams-image_66_-687x386.png",
+      "media/microsoftteams-image_87_-1275x717.png",
+      "media/microsoftteams-image_88_-687x386.png",
+      "media/microsoftteams-image_89_-687x386.png",
+      "media/microsoftteams-image_91_-687x386.png",
+      "media/microsoftteams-image_92_-687x386.png",
+      "media/microsoftteams-image_93_-687x386.png",
+      "media/microsoftteams-image_95_-1920x1080.png",
+      "media/microsoftteams-image_96_-687x386.png",
+      "media/mut-1279x719.jpg",
+      "media/mut-1280x720.jpg",
+      "media/mut-479x269.jpg",
+      "media/mut-767x431.jpg",
+      "media/mut-991x557.jpg",
+      "media/nashville_airport-1275x717.jpg",
+      "media/nl-01-2026_11_12_pm_fraport-verkehrszahlen-im-oktober-20-408.jpg",
+      "media/nl-01-2026_11_12_pm_fraport-verkehrszahlen-im-oktober-20-478.jpg",
+      "media/nl-01-2026_11_12_pm_fraport-verkehrszahlen-im-oktober-20-568.jpg",
+      "media/nl-01-2026_11_12_pm_fraport-verkehrszahlen-im-oktober-20-624.jpg",
+      "media/nl-02-2026_11_04_pm_fraport-konzern-zwischenbericht-9m-2-408.jpg",
+      "media/nl-02-2026_11_04_pm_fraport-konzern-zwischenbericht-9m-2-478.jpg",
+      "media/nl-02-2026_11_04_pm_fraport-konzern-zwischenbericht-9m-2-568.jpg",
+      "media/nl-02-2026_11_04_pm_fraport-konzern-zwischenbericht-9m-2-624.jpg",
+      "media/nl-03-261027_a16_0101-16-9-408.jpg",
+      "media/nl-03-261027_a16_0101-16-9-478.jpg",
+      "media/nl-03-261027_a16_0101-16-9-568.jpg",
+      "media/nl-03-261027_a16_0101-16-9-624.jpg",
+      "media/nl-04-flight-information-screen-terminal-3-16-9-408.jpg",
+      "media/nl-04-flight-information-screen-terminal-3-16-9-478.jpg",
+      "media/nl-04-flight-information-screen-terminal-3-16-9-568.jpg",
+      "media/nl-04-flight-information-screen-terminal-3-16-9-624.jpg",
+      "media/nl-05-emissionsfreie-bodenstromversorgung_1920x1080-408.jpg",
+      "media/nl-05-emissionsfreie-bodenstromversorgung_1920x1080-478.jpg",
+      "media/nl-05-emissionsfreie-bodenstromversorgung_1920x1080-568.jpg",
+      "media/nl-05-emissionsfreie-bodenstromversorgung_1920x1080-624.jpg",
+      "media/nl-06-2026_10_13_pm_fraport-verkehrszahlen-im-september--408.jpg",
+      "media/nl-06-2026_10_13_pm_fraport-verkehrszahlen-im-september--478.jpg",
+      "media/nl-06-2026_10_13_pm_fraport-verkehrszahlen-im-september--568.jpg",
+      "media/nl-06-2026_10_13_pm_fraport-verkehrszahlen-im-september--624.jpg",
+      "media/nl-07-terminal-3-16-9-408.jpg",
+      "media/nl-07-terminal-3-16-9-478.jpg",
+      "media/nl-07-terminal-3-16-9-568.jpg",
+      "media/nl-07-terminal-3-16-9-624.jpg",
+      "media/nl-08-2026_09_11_pm_fraport-verkehrszahlen-im-august-202-408.jpg",
+      "media/nl-08-2026_09_11_pm_fraport-verkehrszahlen-im-august-202-478.jpg",
+      "media/nl-08-2026_09_11_pm_fraport-verkehrszahlen-im-august-202-568.jpg",
+      "media/nl-08-2026_09_11_pm_fraport-verkehrszahlen-im-august-202-624.jpg",
+      "media/nl-09-2026_09_04_pm_update-logispace-im-taubengrund_16-9-408.jpg",
+      "media/nl-09-2026_09_04_pm_update-logispace-im-taubengrund_16-9-478.jpg",
+      "media/nl-09-2026_09_04_pm_update-logispace-im-taubengrund_16-9-568.jpg",
+      "media/nl-09-2026_09_04_pm_update-logispace-im-taubengrund_16-9-624.jpg",
+      "media/nl-10-jericoacoara-airport-408.jpg",
+      "media/nl-10-jericoacoara-airport-478.jpg",
+      "media/nl-10-jericoacoara-airport-568.jpg",
+      "media/nl-10-jericoacoara-airport-624.jpg",
+      "media/nl-11-2026_08_21_pm_ecotow1-408.jpg",
+      "media/nl-11-2026_08_21_pm_ecotow1-478.jpg",
+      "media/nl-11-2026_08_21_pm_ecotow1-568.jpg",
+      "media/nl-11-2026_08_21_pm_ecotow1-624.jpg",
+      "media/nl-12-2026_08_13_pm_fraport-verkehrszahlen-im-juli-2026--408.jpg",
+      "media/nl-12-2026_08_13_pm_fraport-verkehrszahlen-im-juli-2026--478.jpg",
+      "media/nl-12-2026_08_13_pm_fraport-verkehrszahlen-im-juli-2026--568.jpg",
+      "media/nl-12-2026_08_13_pm_fraport-verkehrszahlen-im-juli-2026--624.jpg",
+      "media/nl-13-2025_05_13_pr_fraport-interim-release_first-quarte-408.jpg",
+      "media/nl-13-2025_05_13_pr_fraport-interim-release_first-quarte-478.jpg",
+      "media/nl-13-2025_05_13_pr_fraport-interim-release_first-quarte-568.jpg",
+      "media/nl-13-2025_05_13_pr_fraport-interim-release_first-quarte-624.jpg",
+      "media/nl-14-2026_07_13_pm_fraport-verkehrszahlen-im-juni-2026-408.jpg",
+      "media/nl-14-2026_07_13_pm_fraport-verkehrszahlen-im-juni-2026-478.jpg",
+      "media/nl-14-2026_07_13_pm_fraport-verkehrszahlen-im-juni-2026-568.jpg",
+      "media/nl-14-2026_07_13_pm_fraport-verkehrszahlen-im-juni-2026-624.jpg",
+      "media/nl-15-2026_06_22_pm_start-der-sommerferien-408.jpg",
+      "media/nl-15-2026_06_22_pm_start-der-sommerferien-478.jpg",
+      "media/nl-15-2026_06_22_pm_start-der-sommerferien-568.jpg",
+      "media/nl-15-2026_06_22_pm_start-der-sommerferien-624.jpg",
+      "media/nl-16-reb_20240131_1783-408.jpg",
+      "media/nl-16-reb_20240131_1783-478.jpg",
+      "media/nl-16-reb_20240131_1783-568.jpg",
+      "media/nl-16-reb_20240131_1783-624.jpg",
+      "media/nl-17-sky_line_bahn_fra-16-9-408.jpg",
+      "media/nl-17-sky_line_bahn_fra-16-9-478.jpg",
+      "media/nl-17-sky_line_bahn_fra-16-9-568.jpg",
+      "media/nl-17-sky_line_bahn_fra-16-9-624.jpg",
+      "media/nl-18-2026_06_12_pm_fraport-verkehrszahlen-im-juni-2026--408.jpg",
+      "media/nl-18-2026_06_12_pm_fraport-verkehrszahlen-im-juni-2026--478.jpg",
+      "media/nl-18-2026_06_12_pm_fraport-verkehrszahlen-im-juni-2026--568.jpg",
+      "media/nl-18-2026_06_12_pm_fraport-verkehrszahlen-im-juni-2026--624.jpg",
+      "media/nl-19-2026_05_06_pm_weiterentwickeltes-betriebskonzept-a-408.jpg",
+      "media/nl-19-2026_05_06_pm_weiterentwickeltes-betriebskonzept-a-478.jpg",
+      "media/nl-19-2026_05_06_pm_weiterentwickeltes-betriebskonzept-a-568.jpg",
+      "media/nl-19-2026_05_06_pm_weiterentwickeltes-betriebskonzept-a-624.jpg",
+      "media/nl-20-terminal-2_au-enansicht-16-9-408.jpg",
+      "media/nl-20-terminal-2_au-enansicht-16-9-478.jpg",
+      "media/nl-20-terminal-2_au-enansicht-16-9-568.jpg",
+      "media/nl-20-terminal-2_au-enansicht-16-9-624.jpg",
+      "media/nl-21-ausbildung-technik-16-9-408.jpg",
+      "media/nl-21-ausbildung-technik-16-9-478.jpg",
+      "media/nl-21-ausbildung-technik-16-9-568.jpg",
+      "media/nl-21-ausbildung-technik-16-9-624.jpg",
+      "media/notizbuch-408x230.jpg",
+      "media/notizbuch-447x251.jpg",
+      "media/notizbuch-478x269.jpg",
+      "media/notizbuch-5400x3038.jpg",
+      "media/notizbuch-568x320.jpg",
+      "media/notizbuch-624x351.jpg",
+      "media/notizbuch-687x386.jpg",
+      "media/notizbuch-mit-kugelschreiber-297x167.jpg",
+      "media/notizbuch-mit-kugelschreiber-406x228.jpg",
+      "media/notizbuch-mit-kugelschreiber-413x232.jpg",
+      "media/notizbuch-mit-kugelschreiber-447x251.jpg",
+      "media/notizbuch-mit-kugelschreiber-469x264.jpg",
+      "media/notizbuch-mit-kugelschreiber-687x386.jpg",
+      "media/notizbuch-mit-kugelschreiber-orig.jpg",
+      "media/notizbuch_mit_kugelschreiber-3038x3038.jpg",
+      "media/notizbuch_mit_kugelschreiber-912x912.jpg",
+      "media/offenheit-1279x719.jpg",
+      "media/offenheit-1280x720.jpg",
+      "media/offenheit-479x269.jpg",
+      "media/offenheit-767x431.jpg",
+      "media/offenheit-991x557.jpg",
+      "media/operational_links-1280x720.png",
+      "media/or_09-25_lr-2849-orig.jpg",
+      "media/parkhaus_rhp_1920x1080_px_ohne_text_und_logo-2250x2250.jpg",
+      "media/parkhaus_rhp_1920x1080_px_ohne_text_und_logo-912x912.jpg",
+      "media/parkplaetze-t1-1141x642.jpg",
+      "media/parkplaetze-t1-1231x692.jpg",
+      "media/parkplaetze-t1-1341x754.jpg",
+      "media/parkplaetze-t1-448x252.jpg",
+      "media/parkplaetze-t1-688x387.jpg",
+      "media/parkplaetze-t1-912x513.jpg",
+      "media/parkplaetze-t1-orig.jpg",
+      "media/pascal-geber-vice-president-talent-acquisition-hub-i-1080x1080.jpg",
+      "media/pascal-geber-vice-president-talent-acquisition-hub-i-orig.jpg",
+      "media/passagiere_im_gate-687x386.jpg",
+      "media/people_solo-687x386.jpg",
+      "media/pitches-orig.svg",
+      "media/planet_solo-687x386.jpg",
+      "media/planning_links-i-1280x720.png",
+      "media/prosperty_solo-687x386.jpg",
+      "media/pushout_jumbo-1141x642.jpg",
+      "media/pushout_jumbo-1231x692.jpg",
+      "media/pushout_jumbo-1341x754.jpg",
+      "media/pushout_jumbo-448x252.jpg",
+      "media/pushout_jumbo-688x387.jpg",
+      "media/pushout_jumbo-912x513.jpg",
+      "media/pushout_jumbo-orig.jpg",
+      "media/q3-9m_2026-de-1280x720.jpg",
+      "media/rakete-orig.svg",
+      "media/reb290615_007-1000x563.jpg",
+      "media/reb290615_007-408x230.jpg",
+      "media/reb290615_007-447x251.jpg",
+      "media/reb290615_007-478x269.jpg",
+      "media/reb290615_007-568x320.jpg",
+      "media/reb290615_007-624x351.jpg",
+      "media/reb290615_007-687x386.jpg",
+      "media/reb_20190325086-297x167.jpg",
+      "media/reb_20190325086-406x228.jpg",
+      "media/reb_20190325086-413x232.jpg",
+      "media/reb_20190325086-447x251.jpg",
+      "media/reb_20190325086-469x264.jpg",
+      "media/reb_20190325086-687x386.jpg",
+      "media/reb_20190325086-orig.jpg",
+      "media/reb_20220228_02901-1280x720.jpg",
+      "media/reb_20220228_02901-1920x823.jpg",
+      "media/reb_20220228_02901-408x230.jpg",
+      "media/reb_20220228_02901-447x251.jpg",
+      "media/reb_20220228_02901-478x269.jpg",
+      "media/reb_20220228_02901-568x320.jpg",
+      "media/reb_20220228_02901-624x351.jpg",
+      "media/reb_20220228_02901-687x386.jpg",
+      "media/reb_20220228_02901-orig.jpg",
+      "media/reb_20240131_1783_1920px-1920x823.jpg",
+      "media/reb_20240131_1783_1920px-408x230.jpg",
+      "media/reb_20240131_1783_1920px-447x251.jpg",
+      "media/reb_20240131_1783_1920px-478x269.jpg",
+      "media/reb_20240131_1783_1920px-568x320.jpg",
+      "media/reb_20240131_1783_1920px-624x351.jpg",
+      "media/reb_20240131_1783_1920px-687x386.jpg",
+      "media/reb_20240131_1783_1920px-orig.jpg",
+      "media/reb_20240131_1786-1-1279x719.jpg",
+      "media/reb_20240131_1786-1-1280x720.jpg",
+      "media/reb_20240131_1786-1-479x269.jpg",
+      "media/reb_20240131_1786-1-767x431.jpg",
+      "media/reb_20240131_1786-1-991x557.jpg",
+      "media/reb_20240131_1786-1-orig.jpg",
+      "media/reb_20240131_1786_1_-687x386.jpg",
+      "media/reb_20240605_2622_1920px-1920x823.jpg",
+      "media/reb_20241030_41361-687x386.jpg",
+      "media/reb_20260311_04457-2018x2018.jpg",
+      "media/reb_20260311_04457-912x912.jpg",
+      "media/reb_220414_053-2--1279x719.jpg",
+      "media/reb_220414_053-2--1280x720.jpg",
+      "media/reb_220414_053-2--408x230.jpg",
+      "media/reb_220414_053-2--447x251.jpg",
+      "media/reb_220414_053-2--478x269.jpg",
+      "media/reb_220414_053-2--479x269.jpg",
+      "media/reb_220414_053-2--568x320.jpg",
+      "media/reb_220414_053-2--624x351.jpg",
+      "media/reb_220414_053-2--687x386.jpg",
+      "media/reb_220414_053-2--767x431.jpg",
+      "media/reb_220414_053-2--991x557.jpg",
+      "media/reb_220414_053_2_-1390x596.jpg",
+      "media/reb_220414_053_2_-5906x2531.jpg",
+      "media/reb_220414_053_2_-687x386.jpg",
+      "media/reb_220414_053_2_-orig.jpg",
+      "media/schallschutzwand1-687x386.jpg",
+      "media/sn-01-terminal-2-au-enansicht-16-9-408.jpg",
+      "media/sn-01-terminal-2-au-enansicht-16-9-478.jpg",
+      "media/sn-01-terminal-2-au-enansicht-16-9-568.jpg",
+      "media/sn-01-terminal-2-au-enansicht-16-9-624.jpg",
+      "media/sn-02-2026-06-03-fasn-fu-ballschauen-am-flugha-408.jpg",
+      "media/sn-02-2026-06-03-fasn-fu-ballschauen-am-flugha-478.jpg",
+      "media/sn-02-2026-06-03-fasn-fu-ballschauen-am-flugha-568.jpg",
+      "media/sn-02-2026-06-03-fasn-fu-ballschauen-am-flugha-624.jpg",
+      "media/sn-03-winterliche-reisefreude-ohne-barrieren-408.jpg",
+      "media/sn-03-winterliche-reisefreude-ohne-barrieren-478.jpg",
+      "media/sn-03-winterliche-reisefreude-ohne-barrieren-568.jpg",
+      "media/sn-03-winterliche-reisefreude-ohne-barrieren-624.jpg",
+      "media/sn-04-gut-vorbereitet-in-die-herbstferien-reis-408.jpg",
+      "media/sn-04-gut-vorbereitet-in-die-herbstferien-reis-478.jpg",
+      "media/sn-04-gut-vorbereitet-in-die-herbstferien-reis-568.jpg",
+      "media/sn-04-gut-vorbereitet-in-die-herbstferien-reis-624.jpg",
+      "media/sn-05-2025-08-25-fasn-airport-tour-nachhaltigk-408.jpg",
+      "media/sn-05-2025-08-25-fasn-airport-tour-nachhaltigk-478.jpg",
+      "media/sn-05-2025-08-25-fasn-airport-tour-nachhaltigk-568.jpg",
+      "media/sn-05-2025-08-25-fasn-airport-tour-nachhaltigk-624.jpg",
+      "media/sn-06-reb-20250617-01011-1920x1080-408.jpg",
+      "media/sn-06-reb-20250617-01011-1920x1080-478.jpg",
+      "media/sn-06-reb-20250617-01011-1920x1080-568.jpg",
+      "media/sn-06-reb-20250617-01011-1920x1080-624.jpg",
+      "media/sn-07-2025-05-22-fasn-inbetriebnahme-ladepark--408.jpg",
+      "media/sn-07-2025-05-22-fasn-inbetriebnahme-ladepark--478.jpg",
+      "media/sn-07-2025-05-22-fasn-inbetriebnahme-ladepark--568.jpg",
+      "media/sn-07-2025-05-22-fasn-inbetriebnahme-ladepark--624.jpg",
+      "media/sn-08-abflughalle-a-terminal-1-flughafen-frank-408.jpg",
+      "media/sn-08-abflughalle-a-terminal-1-flughafen-frank-478.jpg",
+      "media/sn-08-abflughalle-a-terminal-1-flughafen-frank-568.jpg",
+      "media/sn-08-abflughalle-a-terminal-1-flughafen-frank-624.jpg",
+      "media/sn-09-neue-attraktion-f-r-fraport-besucherzent-408.jpg",
+      "media/sn-09-neue-attraktion-f-r-fraport-besucherzent-478.jpg",
+      "media/sn-09-neue-attraktion-f-r-fraport-besucherzent-568.jpg",
+      "media/sn-09-neue-attraktion-f-r-fraport-besucherzent-624.jpg",
+      "media/sn-10-rewe-to-go-frankfurt-flughafen-au-en-192-408.jpg",
+      "media/sn-10-rewe-to-go-frankfurt-flughafen-au-en-192-478.jpg",
+      "media/sn-10-rewe-to-go-frankfurt-flughafen-au-en-192-568.jpg",
+      "media/sn-10-rewe-to-go-frankfurt-flughafen-au-en-192-624.jpg",
+      "media/sn-11-2025-02-18-fasn-frankfurt-airport-mit-ne-408.jpg",
+      "media/sn-11-2025-02-18-fasn-frankfurt-airport-mit-ne-478.jpg",
+      "media/sn-11-2025-02-18-fasn-frankfurt-airport-mit-ne-568.jpg",
+      "media/sn-11-2025-02-18-fasn-frankfurt-airport-mit-ne-624.jpg",
+      "media/sn-12-weihnachtsreiseverkehr-fra-408.jpg",
+      "media/sn-12-weihnachtsreiseverkehr-fra-478.jpg",
+      "media/sn-12-weihnachtsreiseverkehr-fra-568.jpg",
+      "media/sn-12-weihnachtsreiseverkehr-fra-624.jpg",
+      "media/steigende_passagierzahlen-orig.svg",
+      "media/strategy_links-i-1280x720.png",
+      "media/super_constellation-1141x642.jpg",
+      "media/super_constellation-1231x692.jpg",
+      "media/super_constellation-1341x754.jpg",
+      "media/super_constellation-448x252.jpg",
+      "media/super_constellation-688x387.jpg",
+      "media/super_constellation-912x513.jpg",
+      "media/super_constellation-orig.jpg",
+      "media/svenja_ebeling-orig.jpg",
+      "media/t3-hero-image-pressetermin_2560x1080_01-1279x719.jpg",
+      "media/t3-hero-image-pressetermin_2560x1080_01-1280x720.jpg",
+      "media/t3-hero-image-pressetermin_2560x1080_01-479x269.jpg",
+      "media/t3-hero-image-pressetermin_2560x1080_01-767x431.jpg",
+      "media/t3-hero-image-pressetermin_2560x1080_01-991x557.jpg",
+      "media/tanja_b_umer-orig.jpg",
+      "media/titelbild-1275x717.jpg",
+      "media/top-arbeitgeber-002--1279x719.png",
+      "media/top-arbeitgeber-002--1280x720.png",
+      "media/top-arbeitgeber-002--479x269.png",
+      "media/top-arbeitgeber-002--767x431.png",
+      "media/top-arbeitgeber-002--991x557.png",
+      "media/tor_97_zufahrt_klein-1280x720.jpg",
+      "media/tor_97_zufahrt_klein-orig.jpg",
+      "media/tradeport_building_hd-1275x717.jpg",
+      "media/umweltschutz-2782x1565.jpg",
+      "media/values_international_activities-687x386.jpg",
+      "media/vanessa_s_nder-orig.jpg",
+      "media/vertrauen-1279x719.jpg",
+      "media/vertrauen-1280x720.jpg",
+      "media/vertrauen-479x269.jpg",
+      "media/vertrauen-767x431.jpg",
+      "media/vertrauen-991x557.jpg",
+      "media/vorfeldbetrieb-1141x642.jpg",
+      "media/vorfeldbetrieb-1231x692.jpg",
+      "media/vorfeldbetrieb-1341x754.jpg",
+      "media/vorfeldbetrieb-448x252.jpg",
+      "media/vorfeldbetrieb-688x387.jpg",
+      "media/vorfeldbetrieb-912x513.jpg",
+      "media/vorfeldbetrieb-orig.jpg",
+      "media/wachstum-und-nachhaltigkeit-1279x719.png",
+      "media/wachstum-und-nachhaltigkeit-1280x720.png",
+      "media/wachstum-und-nachhaltigkeit-479x269.png",
+      "media/wachstum-und-nachhaltigkeit-767x431.png",
+      "media/wachstum-und-nachhaltigkeit-991x557.png",
+      "media/wallpaper-newsroom-297x167.jpg",
+      "media/wallpaper-newsroom-406x228.jpg",
+      "media/wallpaper-newsroom-413x232.jpg",
+      "media/wallpaper-newsroom-447x251.jpg",
+      "media/wallpaper-newsroom-469x264.jpg",
+      "media/wallpaper-newsroom-687x386.jpg",
+      "media/wallpaper-newsroom-orig.jpg",
+      "media/weltkarte_2026_de-1616x909.png",
+      "media/weltkarte_management_orat_04-2025_de-1616x909.jpg",
+      "media/yi-chun_sandy_chen-orig.jpg",
+      "media/zuverl-ssigkeit-1279x719.jpg",
+      "media/zuverl-ssigkeit-1280x720.jpg",
+      "media/zuverl-ssigkeit-479x269.jpg",
+      "media/zuverl-ssigkeit-767x431.jpg",
+      "media/zuverl-ssigkeit-991x557.jpg"
+    ],
+    "pages": [
+      {
+        "slug": "de",
+        "file": "stardust/migrated/de.html",
+        "assetsBundled": 206
+      },
+      {
+        "slug": "de-konzern",
+        "file": "stardust/migrated/de/konzern.html",
+        "assetsBundled": 228
+      },
+      {
+        "slug": "de-konzern-konzernstrategie",
+        "file": "stardust/migrated/de/konzern/konzernstrategie.html",
+        "assetsBundled": 164
+      },
+      {
+        "slug": "de-newsroom",
+        "file": "stardust/migrated/de/newsroom.html",
+        "assetsBundled": 208
+      },
+      {
+        "slug": "de-newsroom-pressemitteilung",
+        "file": "stardust/migrated/de/newsroom/pressemitteilung.html",
+        "assetsBundled": 160
+      },
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 206
+      },
+      {
+        "slug": "de-geschaeftsfelder",
+        "file": "stardust/migrated/de/geschaeftsfelder.html",
+        "assetsBundled": 128
+      },
+      {
+        "slug": "de-konzern-managementsysteme",
+        "file": "stardust/migrated/de/konzern/managementsysteme.html",
+        "assetsBundled": 98
+      },
+      {
+        "slug": "de-geschaeftsfelder-betrieb",
+        "file": "stardust/migrated/de/geschaeftsfelder/betrieb.html",
+        "assetsBundled": 103
+      },
+      {
+        "slug": "de-geschaeftsfelder-service",
+        "file": "stardust/migrated/de/geschaeftsfelder/service.html",
+        "assetsBundled": 135
+      },
+      {
+        "slug": "de-nachhaltigkeit-wertschaffung",
+        "file": "stardust/migrated/de/nachhaltigkeit/wertschaffung.html",
+        "assetsBundled": 101
+      },
+      {
+        "slug": "de-newsroom-servicenews",
+        "file": "stardust/migrated/de/newsroom/servicenews.html",
+        "assetsBundled": 153
+      },
+      {
+        "slug": "de-nachhaltigkeit",
+        "file": "stardust/migrated/de/nachhaltigkeit.html",
+        "assetsBundled": 123
+      },
+      {
+        "slug": "de-konzern-ueber-uns",
+        "file": "stardust/migrated/de/konzern/ueber-uns.html",
+        "assetsBundled": 92
+      },
+      {
+        "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+        "file": "stardust/migrated/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html",
+        "assetsBundled": 92
+      },
+      {
+        "slug": "de-konzern-regionales-engagement",
+        "file": "stardust/migrated/de/konzern/regionales-engagement.html",
+        "assetsBundled": 89
+      },
+      {
+        "slug": "de-investoren-fraport-aktie",
+        "file": "stardust/migrated/de/investoren/fraport-aktie.html",
+        "assetsBundled": 85
+      },
+      {
+        "slug": "de-konzern-digitalisierung",
+        "file": "stardust/migrated/de/konzern/digitalisierung.html",
+        "assetsBundled": 149
+      },
+      {
+        "slug": "de-geschaeftsfelder-international-activities",
+        "file": "stardust/migrated/de/geschaeftsfelder/international-activities.html",
+        "assetsBundled": 165
+      },
+      {
+        "slug": "de-investoren",
+        "file": "stardust/migrated/de/investoren.html",
+        "assetsBundled": 138
+      },
+      {
+        "slug": "de-investoren-publikationen-termine",
+        "file": "stardust/migrated/de/investoren/publikationen-termine.html",
+        "assetsBundled": 115
+      },
+      {
+        "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+        "file": "stardust/migrated/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+        "assetsBundled": 103
+      },
+      {
+        "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+        "file": "stardust/migrated/de/nachhaltigkeit/unternehmensfuehrung.html",
+        "assetsBundled": 90
+      },
+      {
+        "slug": "de-newsroom-ansprechpartner",
+        "file": "stardust/migrated/de/newsroom/ansprechpartner.html",
+        "assetsBundled": 128
+      },
+      {
+        "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+        "file": "stardust/migrated/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+        "assetsBundled": 86
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-19T22:45:42Z",
+      "rendered": [
+        "de-newsroom-ansprechpartner"
+      ],
+      "unchanged": [
+        "de-investoren-publikationen-termine",
+        "de-nachhaltigkeit-umwelt-und-klimaschutz",
+        "de-nachhaltigkeit-unternehmensfuehrung",
+        "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra"
+      ],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

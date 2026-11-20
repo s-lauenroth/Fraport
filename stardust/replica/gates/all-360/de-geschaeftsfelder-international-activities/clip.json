@@ -1,0 +1,57 @@
+{
+ "url": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities",
+ "at": "2026-11-19T23:13:43.057Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 4,
+  "textNodes": 76,
+  "controls": 52,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.tabbed-content-tabs",
+   "path": "div.tabbed-content-nav > ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-consulting",
+   "text": "consulting",
+   "cutMin": 86,
+   "cutMax": 86
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "ul.tabbed-content-tabs",
+   "path": "div.tabbed-content-nav > ul.tabbed-content-tabs > li.tabbed-content-tab-item > a#tab-consulting",
+   "text": "consulting",
+   "cutMin": 70,
+   "cutMax": 70
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 4,
+   "textNodes": 46,
+   "controls": 31,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T18:14:33.772Z",
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 1,
+   "offPage": 198,
+   "textNodes": 247,
+   "controls": 175,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "div.news-list__tags.news-list__rail",
+    "path": "div.news-list > div.news-list__filter > div.news-list__tags.news-list__rail > button.news-list__tag",
+    "text": "2026",
+    "cutMin": 8,
+    "cutMax": 8
+   }
+  ],
+  "source": "clip-probe",
+  "tier": "chrome"
+ },
+ "units": {
+  "verdict": {
+   "units": 35,
+   "within": 126,
+   "off": 0,
+   "hidden": 0,
+   "missing": 14,
+   "errors": 0,
+   "requiredOff": 14
+  },
+  "required": true
+ }
+}

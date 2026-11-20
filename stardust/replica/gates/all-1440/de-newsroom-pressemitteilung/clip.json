@@ -1,0 +1,57 @@
+{
+ "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung",
+ "at": "2026-11-19T23:37:46.311Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 196,
+  "textNodes": 248,
+  "controls": 175,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "li",
+   "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+   "text": "reisetipp",
+   "cutMin": 52,
+   "cutMax": 52
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "li",
+   "path": "div.news-list-tags.news-list-rail > ul > li > span.news-list-tag-label",
+   "text": "reisetipp",
+   "cutMin": 44,
+   "cutMax": 44
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 196,
+   "textNodes": 229,
+   "controls": 165,
+   "total": 0
+  }
+ }
+}

@@ -1,0 +1,14 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.fraport.com/de/konzern.html
+  build: http://localhost:8791/de-konzern-proposed.html
+
+■ header: 2 delta(s) — 7 paired of 7/7 texts, 2/2 icons
+  (live has no <header>: auto-detected frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-collapsed — pass --region header=<liveSel>|<buildSel> to override)
+  REGION STYLE position relative → sticky (fixed/sticky chrome must stay fixed/sticky — seam symmetry)
+  ICON         icon #1: Δw -66px (90→24); Δh -34px (58→24); signature "viewBox=0 0 96 62 paths=5" → "viewBox=0 0 24 24 paths=1"
+
+■ footer: 1 delta(s)
+  REGION       live: no element matches "footer" — pass --region footer=<liveSel>|<buildSel>
+
+✗ 3 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

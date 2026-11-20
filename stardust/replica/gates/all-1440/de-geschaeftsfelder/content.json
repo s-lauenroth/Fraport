@@ -1,0 +1,3633 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T23:11:42.777Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/geschaeftsfelder.html",
+  "at": "2026-11-19T23:11:20.187Z",
+  "status": 200,
+  "settlePasses": 3,
+  "docH": 3657,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a#header-12fc2e878d-logo",
+    "x": 32,
+    "y": 0,
+    "w": 115,
+    "h": 78,
+    "text": "logo homepage link",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-e2286fd319-link-1-0",
+    "x": 195,
+    "y": 6,
+    "w": 75,
+    "h": 72,
+    "text": "konzern",
+    "href": "/de/konzern.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-e2286fd319-link-1-1",
+    "x": 318,
+    "y": 6,
+    "w": 144,
+    "h": 72,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-e2286fd319-link-1-2",
+    "x": 510,
+    "y": 6,
+    "w": 95,
+    "h": 72,
+    "text": "investoren",
+    "href": "/de/investoren.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-e2286fd319-link-1-3",
+    "x": 653,
+    "y": 6,
+    "w": 137,
+    "h": 72,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-e2286fd319-link-1-4",
+    "x": 838,
+    "y": 6,
+    "w": 97,
+    "h": 72,
+    "text": "newsroom",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button#navigation-e2286fd319-search-button",
+    "x": 983,
+    "y": 6,
+    "w": 24,
+    "h": 72,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button#navigation-e2286fd319-search-button",
+    "x": 983,
+    "y": 6,
+    "w": 24,
+    "h": 72,
+    "label": "suche",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-breadcrumb-navigation__list > li.frach-m-breadcrumb-navigation__item > a.frach-m-breadcrumb-navigation__link.frach-e-button",
+    "x": 32,
+    "y": 103,
+    "w": 98,
+    "h": 24,
+    "text": "fraport ag",
+    "href": "/de.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.frach-m-breadcrumb-navigation__item > span.frach-m-breadcrumb-navigation__link.frach-e-button > span.frach-m-breadcrumb-navigation__label.frach-e-button__label",
+    "x": 136,
+    "y": 103,
+    "w": 118,
+    "h": 24,
+    "text": "Geschäftsfelder"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--21-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 267,
+    "y": 151,
+    "w": 1173,
+    "h": 503,
+    "text": "2011_am_1095.jpg",
+    "file": "landefeuer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline",
+    "x": 32,
+    "y": 351,
+    "w": 514,
+    "h": 104,
+    "level": 1,
+    "text": "geschäftsfelder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h1.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 64,
+    "y": 365,
+    "w": 450,
+    "h": 76,
+    "text": "GESCHÄFTSFELDER"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 64,
+    "y": 783,
+    "w": 395,
+    "h": 24,
+    "text": "Betrieb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 64,
+    "y": 823,
+    "w": 395,
+    "h": 30,
+    "level": 6,
+    "text": "flug- und terminalbetrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 64,
+    "y": 824,
+    "w": 240,
+    "h": 27,
+    "text": "flug- und terminalbetrieb",
+    "href": "/de/geschaeftsfelder/betrieb/flug--und-terminalbetrieb.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 524,
+    "y": 783,
+    "w": 394,
+    "h": 24,
+    "text": "International Activities"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 524,
+    "y": 823,
+    "w": 394,
+    "h": 60,
+    "level": 6,
+    "text": "orat – operational readiness and airport transfer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 524,
+    "y": 824,
+    "w": 391,
+    "h": 57,
+    "text": "orat – operational readiness and airport transfer",
+    "href": "/de/geschaeftsfelder/international-activities/orat---operational-readiness-and-airport-transfer.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__theme",
+    "x": 982,
+    "y": 783,
+    "w": 394,
+    "h": 24,
+    "text": "Service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 982,
+    "y": 823,
+    "w": 394,
+    "h": 30,
+    "level": 6,
+    "text": "flughafenausweise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 982,
+    "y": 824,
+    "w": 176,
+    "h": 27,
+    "text": "flughafenausweise",
+    "href": "/de/geschaeftsfelder/service/flughafenausweise.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-slider.frach-m-slider > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary",
+    "x": 1384,
+    "y": 805,
+    "w": 56,
+    "h": 56,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline",
+    "x": 64,
+    "y": 1035,
+    "w": 672,
+    "h": 72,
+    "level": 1,
+    "text": "alles aus einer hand"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 88,
+    "y": 1044,
+    "w": 399,
+    "h": 54,
+    "text": "ALLES AUS EINER HAND"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-51a52918fb > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 32,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "",
+    "href": "/de/geschaeftsfelder/betrieb.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "flugzeugabfertigung, terminal 2",
+    "file": "reb_20220228_02901"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-51a52918fb > figure.frach-m-image__figure > figcaption.frach-m-image__caption",
+    "x": 32,
+    "y": 1621,
+    "w": 672,
+    "h": 18,
+    "text": "Betrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-b305afc6b8 > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 32,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "",
+    "href": "/de/geschaeftsfelder/service.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "mitarbeiterin in der integrierten leitstelle",
+    "file": "leistelle"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-b305afc6b8 > figure.frach-m-image__figure > figcaption.frach-m-image__caption",
+    "x": 32,
+    "y": 2089,
+    "w": 672,
+    "h": 18,
+    "text": "Service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-5c12956db4 > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 736,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "",
+    "href": "/de/geschaeftsfelder/international-activities.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 736,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "logistical concept - future technology background with conne",
+    "file": "AdobeStock_859160446_1920px"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-5c12956db4 > figure.frach-m-image__figure > figcaption.frach-m-image__caption",
+    "x": 736,
+    "y": 1621,
+    "w": 672,
+    "h": 18,
+    "text": "International Activities"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-8a0e6eb6fe > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 736,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "",
+    "href": "/de/geschaeftsfelder/bau.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 736,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "flughafenausbau-16-9.jpg",
+    "file": "flughafenausbau-16-9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-8a0e6eb6fe > figure.frach-m-image__figure > figcaption.frach-m-image__caption",
+    "x": 736,
+    "y": 2089,
+    "w": 672,
+    "h": 18,
+    "text": "Bau"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline",
+    "x": 64,
+    "y": 2235,
+    "w": 672,
+    "h": 72,
+    "level": 1,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 88,
+    "y": 2244,
+    "w": 383,
+    "h": 54,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 64,
+    "y": 2339,
+    "w": 1344,
+    "h": 24,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 64,
+    "y": 2500,
+    "w": 395,
+    "h": 30,
+    "level": 6,
+    "text": "aerodrome manual fraport ag"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 64,
+    "y": 2501,
+    "w": 283,
+    "h": 27,
+    "text": "aerodrome manual fraport ag",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 64,
+    "y": 2565,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 524,
+    "y": 2460,
+    "w": 394,
+    "h": 222,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "AdobeStock_738523483_1920px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 524,
+    "y": 2745,
+    "w": 394,
+    "h": 30,
+    "level": 6,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 524,
+    "y": 2746,
+    "w": 317,
+    "h": 27,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__text",
+    "x": 524,
+    "y": 2791,
+    "w": 394,
+    "h": 72,
+    "text": "Fraport setzt auf zukunftsweisende digitale Lösungen, um den Betrieb am Flughafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 524,
+    "y": 2898,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 982,
+    "y": 2500,
+    "w": 394,
+    "h": 30,
+    "level": 6,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 982,
+    "y": 2501,
+    "w": 112,
+    "h": 27,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__text",
+    "x": 982,
+    "y": 2546,
+    "w": 394,
+    "h": 48,
+    "text": "Fraport überwacht die Luftqualität am Flughafen Frankfurt kontinuierlich und ana"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 982,
+    "y": 2629,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 982,
+    "y": 2836,
+    "w": 394,
+    "h": 30,
+    "level": 6,
+    "text": "richtlinien und zahlungsbedingungen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 982,
+    "y": 2837,
+    "w": 352,
+    "h": 27,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__text",
+    "x": 982,
+    "y": 2882,
+    "w": 394,
+    "h": 48,
+    "text": "Transparente Geschäftsgrundlagen: Unsere Richtlinien und Zahlungsbedingungen sch"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 982,
+    "y": 2965,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-slider.frach-m-slider > div.frach-m-slider__controls.frach-js-slider__controls > button.frach-e-button.frach-e-button--primary",
+    "x": 1384,
+    "y": 2704,
+    "w": 56,
+    "h": 56,
+    "text": ""
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 32,
+    "y": 3212,
+    "w": 126,
+    "h": 24,
+    "text": "Ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 32,
+    "y": 3325,
+    "w": 146,
+    "h": 34,
+    "text": "Fraport Sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3359,
+    "w": 57,
+    "h": 44,
+    "text": "konzern",
+    "href": "/de/konzern.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3403,
+    "w": 110,
+    "h": 44,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3447,
+    "w": 73,
+    "h": 44,
+    "text": "investoren",
+    "href": "/de/investoren.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3491,
+    "w": 104,
+    "h": 44,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 384,
+    "y": 3325,
+    "w": 83,
+    "h": 34,
+    "text": "Aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 384,
+    "y": 3359,
+    "w": 75,
+    "h": 44,
+    "text": "newsroom",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 384,
+    "y": 3403,
+    "w": 118,
+    "h": 44,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 384,
+    "y": 3447,
+    "w": 138,
+    "h": 44,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 736,
+    "y": 3325,
+    "w": 81,
+    "h": 34,
+    "text": "Service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3359,
+    "w": 89,
+    "h": 44,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3403,
+    "w": 76,
+    "h": 44,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3447,
+    "w": 74,
+    "h": 44,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3491,
+    "w": 269,
+    "h": 44,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-3.frach-m-page-footer__social > div.frach-m-page-footer__social-link > h5.frach-h5",
+    "x": 1088,
+    "y": 3325,
+    "w": 352,
+    "h": 34,
+    "level": 5,
+    "text": "social media"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 1088,
+    "y": 3375,
+    "w": 352,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1088,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1152,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1216,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1280,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 1088,
+    "y": 3461,
+    "w": 352,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1088,
+    "y": 3495,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-page-footer__copyright > div.frach-grid-col-mq1-12 > p.frach-meta",
+    "x": 32,
+    "y": 3607,
+    "w": 1376,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.fCuhKw",
+    "x": 40,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "text": "öffnen datenschutz einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 2,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 63,
+    "textNodes": 89,
+    "controls": 68,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "p.frach-m-teaser__text",
+     "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > p.frach-m-teaser__text",
+     "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder",
+  "at": "2026-11-19T23:11:42.640Z",
+  "status": 200,
+  "settlePasses": 3,
+  "docH": 3657,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 32,
+    "y": 0,
+    "w": 115,
+    "h": 78,
+    "text": "startseite",
+    "href": "/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 195,
+    "y": 0,
+    "w": 75,
+    "h": 78,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 318,
+    "y": 0,
+    "w": 144,
+    "h": 78,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 510,
+    "y": 0,
+    "w": 95,
+    "h": 78,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 653,
+    "y": 0,
+    "w": 137,
+    "h": 78,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 838,
+    "y": 0,
+    "w": 97,
+    "h": 78,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-search-slot > p > a.header-search-btn",
+    "x": 983,
+    "y": 27,
+    "w": 24,
+    "h": 24,
+    "text": "suche",
+    "href": "/de/search.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.breadcrumb-list > li.breadcrumb-item > a.breadcrumb-link",
+    "x": 16,
+    "y": 103,
+    "w": 100,
+    "h": 24,
+    "text": "fraport ag",
+    "href": "/de"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.breadcrumb-list > li.breadcrumb-item > span.breadcrumb-link",
+    "x": 122,
+    "y": 103,
+    "w": 123,
+    "h": 24,
+    "label": "current",
+    "value": "geschäftsfelder",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.breadcrumb-item > span.breadcrumb-link > span.breadcrumb-label",
+    "x": 122,
+    "y": 103,
+    "w": 123,
+    "h": 24,
+    "text": "Geschäftsfelder"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-frame > picture > img",
+    "x": 267,
+    "y": 151,
+    "w": 1173,
+    "h": 503,
+    "text": "2011_am_1095.jpg",
+    "file": "media_11e6fd955f7883be08f9299d281e592e3d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.hero-headline.ribbon > h1#geschäftsfelder",
+    "x": 32,
+    "y": 351,
+    "w": 514,
+    "h": 104,
+    "level": 1,
+    "text": "geschäftsfelder"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#geschäftsfelder > span.ribbon-line > span.ribbon-text",
+    "x": 64,
+    "y": 365,
+    "w": 450,
+    "h": 76,
+    "text": "GESCHÄFTSFELDER"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 64,
+    "y": 783,
+    "w": 395,
+    "h": 24,
+    "text": "Betrieb"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h2#flug--und-terminalbetrieb",
+    "x": 64,
+    "y": 823,
+    "w": 395,
+    "h": 30,
+    "level": 2,
+    "text": "flug- und terminalbetrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h2#flug--und-terminalbetrieb > a",
+    "x": 64,
+    "y": 824,
+    "w": 240,
+    "h": 27,
+    "text": "flug- und terminalbetrieb",
+    "href": "/de/geschaeftsfelder/betrieb/flug--und-terminalbetrieb.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 524,
+    "y": 783,
+    "w": 394,
+    "h": 24,
+    "text": "International Activities"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h2#orat--operational-readiness-and-airport-transfer",
+    "x": 524,
+    "y": 823,
+    "w": 394,
+    "h": 60,
+    "level": 2,
+    "text": "orat – operational readiness and airport transfer"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h2#orat--operational-readiness-and-airport-transfer > a",
+    "x": 524,
+    "y": 824,
+    "w": 391,
+    "h": 57,
+    "text": "orat – operational readiness and airport transfer",
+    "href": "/de/geschaeftsfelder/international-activities/orat---operational-readiness-and-airport-transfer.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-theme > p",
+    "x": 982,
+    "y": 783,
+    "w": 394,
+    "h": 24,
+    "text": "Service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h2#flughafenausweise",
+    "x": 982,
+    "y": 823,
+    "w": 394,
+    "h": 30,
+    "level": 2,
+    "text": "flughafenausweise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h2#flughafenausweise > a",
+    "x": 982,
+    "y": 824,
+    "w": 176,
+    "h": 27,
+    "text": "flughafenausweise",
+    "href": "/de/geschaeftsfelder/service/flughafenausweise.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider > div.slider-controls > button.button.primary",
+    "x": 1352,
+    "y": 793,
+    "w": 56,
+    "h": 56,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#alles-aus-einer-hand",
+    "x": 64,
+    "y": 1035,
+    "w": 447,
+    "h": 72,
+    "level": 2,
+    "text": "alles aus einer hand"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#alles-aus-einer-hand > span.ribbon-line > span.ribbon-text",
+    "x": 88,
+    "y": 1044,
+    "w": 399,
+    "h": 54,
+    "text": "ALLES AUS EINER HAND"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > p > a",
+    "x": 32,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "flugzeugabfertigung, terminal 2",
+    "href": "/de/geschaeftsfelder/betrieb"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "flugzeugabfertigung, terminal 2",
+    "file": "media_14503bac218690de2b3b1443435517347e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > div.columns-caption > p",
+    "x": 32,
+    "y": 1621,
+    "w": 672,
+    "h": 18,
+    "text": "Betrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > p > a",
+    "x": 32,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "mitarbeiterin in der integrierten leitstelle",
+    "href": "/de/geschaeftsfelder/service"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 32,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "mitarbeiterin in der integrierten leitstelle",
+    "file": "media_19d296ec1fb2a42191b73b5f3cfb975087"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > div.columns-caption > p",
+    "x": 32,
+    "y": 2089,
+    "w": 672,
+    "h": 18,
+    "text": "Service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > p > a",
+    "x": 736,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "logistical concept - future technology background with connection lines",
+    "href": "/de/geschaeftsfelder/international-activities.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 736,
+    "y": 1235,
+    "w": 672,
+    "h": 378,
+    "text": "logistical concept - future technology background with conne",
+    "file": "media_1c6dd9c96428591169d4e86d23474643f5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > div.columns-caption > p",
+    "x": 736,
+    "y": 1621,
+    "w": 672,
+    "h": 18,
+    "text": "International Activities"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > p > a",
+    "x": 736,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "flughafenausbau-16-9.jpg",
+    "href": "/de/geschaeftsfelder/bau.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 736,
+    "y": 1703,
+    "w": 672,
+    "h": 378,
+    "text": "flughafenausbau-16-9.jpg",
+    "file": "media_1bebe11706df1be0d25ff7754b8afda96c"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > div.columns-caption > p",
+    "x": 736,
+    "y": 2089,
+    "w": 672,
+    "h": 18,
+    "text": "Bau"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#noch-mehr-fraport",
+    "x": 64,
+    "y": 2235,
+    "w": 431,
+    "h": 72,
+    "level": 2,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#noch-mehr-fraport > span.ribbon-line > span.ribbon-text",
+    "x": 88,
+    "y": 2244,
+    "w": 383,
+    "h": 54,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 64,
+    "y": 2339,
+    "w": 1344,
+    "h": 24,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#aerodrome-manual-fraport-ag",
+    "x": 64,
+    "y": 2500,
+    "w": 395,
+    "h": 30,
+    "level": 3,
+    "text": "aerodrome manual fraport ag"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#aerodrome-manual-fraport-ag > a",
+    "x": 64,
+    "y": 2501,
+    "w": 283,
+    "h": 27,
+    "text": "aerodrome manual fraport ag",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 64,
+    "y": 2565,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen/aerodrome-manual-fraport-ag.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-image > picture > img",
+    "x": 524,
+    "y": 2460,
+    "w": 394,
+    "h": 221,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "media_16d456f4ad6c7804eb75d9baca2a765401"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory",
+    "x": 524,
+    "y": 2745,
+    "w": 394,
+    "h": 30,
+    "level": 3,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory > a",
+    "x": 524,
+    "y": 2746,
+    "w": 317,
+    "h": 27,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-text > p",
+    "x": 524,
+    "y": 2791,
+    "w": 394,
+    "h": 72,
+    "text": "Fraport setzt auf zukunftsweisende digitale Lösungen, um den Betrieb am Flughafe"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 524,
+    "y": 2898,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#luftqualität",
+    "x": 982,
+    "y": 2500,
+    "w": 394,
+    "h": 30,
+    "level": 3,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#luftqualität > a",
+    "x": 982,
+    "y": 2501,
+    "w": 112,
+    "h": 27,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-text > p",
+    "x": 982,
+    "y": 2546,
+    "w": 394,
+    "h": 48,
+    "text": "Fraport überwacht die Luftqualität am Flughafen Frankfurt kontinuierlich und ana"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 982,
+    "y": 2629,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#richtlinien-und-zahlungsbedingungen",
+    "x": 982,
+    "y": 2836,
+    "w": 394,
+    "h": 30,
+    "level": 3,
+    "text": "richtlinien und zahlungsbedingungen"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#richtlinien-und-zahlungsbedingungen > a",
+    "x": 982,
+    "y": 2837,
+    "w": 352,
+    "h": 27,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-text > p",
+    "x": 982,
+    "y": 2882,
+    "w": 394,
+    "h": 48,
+    "text": "Transparente Geschäftsgrundlagen: Unsere Richtlinien und Zahlungsbedingungen sch"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 982,
+    "y": 2965,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.slider > div.slider-controls > button.button.primary",
+    "x": 1352,
+    "y": 2692,
+    "w": 56,
+    "h": 56,
+    "text": ""
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#ansprechpartner",
+    "x": 32,
+    "y": 3212,
+    "w": 126,
+    "h": 24,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 32,
+    "y": 3288,
+    "w": 320,
+    "h": 48,
+    "text": "Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 32,
+    "y": 3346,
+    "w": 320,
+    "h": 24,
+    "text": "60547 Frankfurt am Main"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 32,
+    "y": 3380,
+    "w": 180,
+    "h": 24,
+    "text": "anfahrtsbeschreibung",
+    "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 384,
+    "y": 3289,
+    "w": 272,
+    "h": 21,
+    "text": "Fragen, Lob, Kritik und Anregungen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 384,
+    "y": 3312,
+    "w": 144,
+    "h": 24,
+    "text": "01806 372-4636",
+    "href": "+4918063724636"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 384,
+    "y": 3346,
+    "w": 141,
+    "h": 24,
+    "text": "kontaktformular",
+    "href": "/de/konzern/ueber-uns/kontaktformular-fraport-ag.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > em",
+    "x": 384,
+    "y": 3381,
+    "w": 314,
+    "h": 45,
+    "text": "*20 Cent pro Anruf aus dem deutschen Festnetz, maximal 50 Cent aus dem Mobilfunk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 736,
+    "y": 3289,
+    "w": 199,
+    "h": 21,
+    "text": "Mailadresse für Feedback:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 736,
+    "y": 3312,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "feedback@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 736,
+    "y": 3347,
+    "w": 316,
+    "h": 21,
+    "text": "Mailadresse für Passagier-Informationen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 736,
+    "y": 3370,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "info@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 1088,
+    "y": 3289,
+    "w": 299,
+    "h": 21,
+    "text": "Fluglärm und Maßnahmenprogramme:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 1088,
+    "y": 3312,
+    "w": 295,
+    "h": 24,
+    "text": "kontaktformulare zum themenbereich",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 1088,
+    "y": 3346,
+    "w": 320,
+    "h": 72,
+    "text": "(für Reisende und Beschäftige)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 1088,
+    "y": 3370,
+    "w": 224,
+    "h": 24,
+    "text": "kontakt zum medical center",
+    "href": "medizin@fraport.de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#fraport-sites",
+    "x": 32,
+    "y": 3325,
+    "w": 139,
+    "h": 34,
+    "level": 2,
+    "text": "fraport sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3359,
+    "w": 57,
+    "h": 44,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3403,
+    "w": 110,
+    "h": 44,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3447,
+    "w": 73,
+    "h": 44,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3491,
+    "w": 104,
+    "h": 44,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#aktuell",
+    "x": 384,
+    "y": 3325,
+    "w": 79,
+    "h": 34,
+    "level": 2,
+    "text": "aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 384,
+    "y": 3359,
+    "w": 75,
+    "h": 44,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 384,
+    "y": 3403,
+    "w": 118,
+    "h": 44,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 384,
+    "y": 3447,
+    "w": 138,
+    "h": 44,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#service",
+    "x": 736,
+    "y": 3325,
+    "w": 77,
+    "h": 34,
+    "level": 2,
+    "text": "service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3359,
+    "w": 89,
+    "h": 44,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3403,
+    "w": 76,
+    "h": 44,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3447,
+    "w": 74,
+    "h": 44,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3491,
+    "w": 269,
+    "h": 44,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-col.footer-social > div.footer-social-title > h2#social-media",
+    "x": 1088,
+    "y": 3325,
+    "w": 320,
+    "h": 34,
+    "level": 2,
+    "text": "social media"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-airport",
+    "x": 1088,
+    "y": 3375,
+    "w": 352,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1088,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "facebook",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1148,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "instagram",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1208,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "youtube",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1268,
+    "y": 3409,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-cargohub",
+    "x": 1088,
+    "y": 3461,
+    "w": 352,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1088,
+    "y": 3495,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-copyright > p",
+    "x": 32,
+    "y": 3607,
+    "w": 326,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 2,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 63,
+    "textNodes": 107,
+    "controls": 78,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "n": 2,
+     "clipper": "p",
+     "path": "div.slider-slide > div.teaser > div.teaser-text > p",
+     "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+     "cutMin": null,
+     "cutMax": null
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 2,
+     "path": "div.slider-slide > div.teaser > div.teaser-text > p",
+     "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+     "clipper": "p",
+     "rect": {
+      "l": 982,
+      "t": 2547,
+      "r": 1332,
+      "b": 2568,
+      "w": 350,
+      "h": 21
+     },
+     "clip": {
+      "l": 982,
+      "t": 2546,
+      "r": 1376,
+      "b": 2594,
+      "w": 394,
+      "h": 48
+     },
+     "lines": 4
+    },
+    {
+     "kind": "TEXT CLAMPED",
+     "advisory": true,
+     "hiddenLines": 3,
+     "path": "div.slider-slide > div.teaser > div.teaser-text > p",
+     "text": "transparente geschäftsgrundlagen: unsere richtlinien und zah",
+     "clipper": "p",
+     "rect": {
+      "l": 982,
+      "t": 2883,
+      "r": 1365,
+      "b": 2904,
+      "w": 383,
+      "h": 21
+     },
+     "clip": {
+      "l": 982,
+      "t": 2882,
+      "r": 1376,
+      "b": 2930,
+      "w": 394,
+      "h": 48
+     },
+     "lines": 5
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "geschäftsfelder",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 2,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 2,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "alles aus einer hand",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 4,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "EXTRA LINK",
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "noch mehr fraport",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 1,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 5,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"flug- und terminalbetrieb\" (y 823) has no origin heading",
+   "text": "flug- und terminalbetrieb"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"orat – operational readiness and airport transfer\" (y 823) has no origin heading",
+   "text": "orat – operational readiness and airport transfer"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"flughafenausweise\" (y 823) has no origin heading",
+   "text": "flughafenausweise"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"aerodrome manual fraport ag\" (y 2500) has no origin heading",
+   "text": "aerodrome manual fraport ag"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"luftqualität\" (y 2500) has no origin heading",
+   "text": "luftqualität"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"digitalisierung und digital factory\" (y 2745) has no origin heading",
+   "text": "digitalisierung und digital factory"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"richtlinien und zahlungsbedingungen\" (y 2836) has no origin heading",
+   "text": "richtlinien und zahlungsbedingungen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"flugzeugabfertigung, terminal 2\" served in band \"alles aus einer hand\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "flugzeugabfertigung, terminal 2"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"mitarbeiterin in der integrierten leitstelle\" served in band \"alles aus einer hand\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "mitarbeiterin in der integrierten leitstelle"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"logistical concept - future technology background with connection lines\" served in band \"alles aus einer hand\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "logistical concept - future technology background with connection lines"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"flughafenausbau-16-9.jpg\" served in band \"alles aus einer hand\", no origin link or button",
+   "band": 2,
+   "n": 1,
+   "text": "flughafenausbau-16-9.jpg"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"alles aus einer hand\": 0 origin → 4 served visible",
+   "band": 2,
+   "origin": 0,
+   "eds": 4,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 7,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 4,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 12,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 195,
+    "y": 28,
+    "w": 75,
+    "h": 27
+   },
+   {
+    "x": 318,
+    "y": 28,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 510,
+    "y": 28,
+    "w": 95,
+    "h": 27
+   },
+   {
+    "x": 653,
+    "y": 28,
+    "w": 137,
+    "h": 27
+   },
+   {
+    "x": 838,
+    "y": 28,
+    "w": 97,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 104,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 104,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 365,
+    "w": 450,
+    "h": 76
+   },
+   {
+    "x": 64,
+    "y": 784,
+    "w": 51,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 824,
+    "w": 240,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 784,
+    "w": 159,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 824,
+    "w": 391,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 854,
+    "w": 74,
+    "h": 27
+   },
+   {
+    "x": 982,
+    "y": 784,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 824,
+    "w": 176,
+    "h": 27
+   },
+   {
+    "x": 88,
+    "y": 1044,
+    "w": 399,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 1622,
+    "w": 38,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 2090,
+    "w": 37,
+    "h": 16
+   },
+   {
+    "x": 736,
+    "y": 1622,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 736,
+    "y": 2090,
+    "w": 21,
+    "h": 16
+   },
+   {
+    "x": 88,
+    "y": 2244,
+    "w": 383,
+    "h": 54
+   },
+   {
+    "x": 64,
+    "y": 2340,
+    "w": 793,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 2501,
+    "w": 283,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2566,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2746,
+    "w": 317,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 2792,
+    "w": 380,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2816,
+    "w": 380,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2840,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2899,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2501,
+    "w": 112,
+    "h": 27
+   },
+   {
+    "x": 982,
+    "y": 2547,
+    "w": 350,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2571,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2630,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2837,
+    "w": 352,
+    "h": 27
+   },
+   {
+    "x": 982,
+    "y": 2883,
+    "w": 383,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2907,
+    "w": 347,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2966,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3213,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3326,
+    "w": 146,
+    "h": 32
+   },
+   {
+    "x": 32,
+    "y": 3380,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3424,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3468,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3512,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3326,
+    "w": 83,
+    "h": 32
+   },
+   {
+    "x": 384,
+    "y": 3380,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3424,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3468,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3326,
+    "w": 81,
+    "h": 32
+   },
+   {
+    "x": 736,
+    "y": 3380,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3424,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3468,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3512,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3326,
+    "w": 142,
+    "h": 32
+   },
+   {
+    "x": 1088,
+    "y": 3376,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3462,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3608,
+    "w": 326,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 195,
+    "y": 25,
+    "w": 75,
+    "h": 27
+   },
+   {
+    "x": 318,
+    "y": 25,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 510,
+    "y": 25,
+    "w": 95,
+    "h": 27
+   },
+   {
+    "x": 653,
+    "y": 25,
+    "w": 137,
+    "h": 27
+   },
+   {
+    "x": 838,
+    "y": 25,
+    "w": 97,
+    "h": 27
+   },
+   {
+    "x": 16,
+    "y": 104,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 104,
+    "w": 123,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 365,
+    "w": 450,
+    "h": 76
+   },
+   {
+    "x": 64,
+    "y": 784,
+    "w": 51,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 824,
+    "w": 240,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 784,
+    "w": 159,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 824,
+    "w": 391,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 854,
+    "w": 74,
+    "h": 27
+   },
+   {
+    "x": 982,
+    "y": 784,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 824,
+    "w": 176,
+    "h": 27
+   },
+   {
+    "x": 88,
+    "y": 1044,
+    "w": 399,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 1622,
+    "w": 38,
+    "h": 16
+   },
+   {
+    "x": 32,
+    "y": 2090,
+    "w": 37,
+    "h": 16
+   },
+   {
+    "x": 736,
+    "y": 1622,
+    "w": 119,
+    "h": 16
+   },
+   {
+    "x": 736,
+    "y": 2090,
+    "w": 21,
+    "h": 16
+   },
+   {
+    "x": 88,
+    "y": 2244,
+    "w": 383,
+    "h": 54
+   },
+   {
+    "x": 64,
+    "y": 2340,
+    "w": 793,
+    "h": 21
+   },
+   {
+    "x": 64,
+    "y": 2501,
+    "w": 283,
+    "h": 27
+   },
+   {
+    "x": 64,
+    "y": 2566,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2746,
+    "w": 317,
+    "h": 27
+   },
+   {
+    "x": 524,
+    "y": 2792,
+    "w": 380,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2816,
+    "w": 380,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2840,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 524,
+    "y": 2899,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2501,
+    "w": 112,
+    "h": 27
+   },
+   {
+    "x": 982,
+    "y": 2547,
+    "w": 350,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2571,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2630,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2837,
+    "w": 352,
+    "h": 27
+   },
+   {
+    "x": 982,
+    "y": 2883,
+    "w": 383,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2907,
+    "w": 347,
+    "h": 21
+   },
+   {
+    "x": 982,
+    "y": 2966,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3213,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3289,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3313,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3347,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 3381,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3289,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 408,
+    "y": 3313,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 528,
+    "y": 3313,
+    "w": 8,
+    "h": 21
+   },
+   {
+    "x": 408,
+    "y": 3347,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3381,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3405,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3289,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 760,
+    "y": 3313,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3347,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 760,
+    "y": 3371,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3289,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 1112,
+    "y": 3313,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3347,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 1112,
+    "y": 3371,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 1312,
+    "y": 3371,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3395,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3326,
+    "w": 139,
+    "h": 32
+   },
+   {
+    "x": 32,
+    "y": 3380,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3424,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3468,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3512,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3326,
+    "w": 79,
+    "h": 32
+   },
+   {
+    "x": 384,
+    "y": 3380,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3424,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3468,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3326,
+    "w": 77,
+    "h": 32
+   },
+   {
+    "x": 736,
+    "y": 3380,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3424,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3468,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3512,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3326,
+    "w": 142,
+    "h": 32
+   },
+   {
+    "x": 1088,
+    "y": 3376,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3462,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3608,
+    "w": 326,
+    "h": 16
+   }
+  ]
+ }
+}

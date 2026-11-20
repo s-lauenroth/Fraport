@@ -1,0 +1,32 @@
+/* cards (frach-m-card grid): 1:1 image cards (gradient veil, theme meta, h5 title), 12 / 6 / 4 cols.
+   Variant --with-link-box: the last column (.cards__col--aside) holds a link-box — full width 720-1279, 4 cols >=1280. */
+.cards .row { align-items: flex-start; }
+.cards__col > * { margin-bottom: var(--component-margin); }
+@media (min-width: 720px) {
+  .cards .row > .cards__col { flex-basis: calc(50% - var(--gutter)); max-width: calc(50% - var(--gutter)); }
+  .cards .row > .cards__col--aside { flex-basis: calc(100% - var(--gutter)); max-width: calc(100% - var(--gutter)); }
+}
+@media (min-width: 1280px) {
+  .cards .row > .cards__col, .cards .row > .cards__col--aside { flex-basis: calc(33.33333% - var(--gutter)); max-width: calc(33.33333% - var(--gutter)); }
+}
+.card { background: var(--white); overflow-x: hidden; }
+.card__link { display: block; padding-bottom: 30px; }
+.card__link:hover { background: var(--grey-050); }
+.grey .card__link:hover { background: var(--grey-100); }
+@media (max-width: 719px) {
+  .card__link { background: var(--grey-050); }
+  .grey .card__link { background: var(--white); }
+}
+.card__link:focus-visible { outline: none; }
+.card__image { position: relative; overflow: hidden; }
+.card__image::before { content: ""; position: absolute; inset: 0; z-index: 2; background: var(--gradient-brand); opacity: .1; }
+.card__image img { width: 100%; height: auto; aspect-ratio: 1 / 1; object-fit: cover; transform: scale(1); transform-origin: 50% 50%; transition: transform .5s; }
+.card__link:hover .card__image img { transform: scale(1.2); }
+.card__text { position: relative; }
+.card__meta { display: flex; justify-content: space-between; padding: 46px 16px 16px; color: var(--grey-600); }
+.card__theme { margin: 8px 0; }
+.card__title { margin: 0 16px; color: var(--primary-500); }
+/* scroll-in: cards slide in from the right, staggered (source data-lazy-animation-delay 500 / 750 ms) */
+.card__link[data-animate].is-animating { animation-fill-mode: both; animation-delay: .5s; }
+.cards__col:nth-child(2) .card__link[data-animate].is-animating { animation-delay: .75s; }
+.cards__col:nth-child(3) .card__link[data-animate].is-animating { animation-delay: 1s; }

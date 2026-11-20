@@ -1,0 +1,18 @@
+/* image (frach-m-image): figure with optional link (hover zoom), caption, and media-gallery opener badge (icon + count) */
+.image { position: relative; margin: 0; }
+.image img { display: block; width: 100%; height: auto; }
+.image__frame { overflow: hidden; }
+.image__link { display: block; position: relative; overflow: hidden; }
+.image__link:focus-visible { outline: 0; box-shadow: 0 6px 0 0 var(--white), 0 8px 0 0 var(--primary-500); }
+.image--hover-fx img { transform: scale(1); transform-origin: 50% 50%; transition: transform .5s; }
+.image--hover-fx .image__link:hover img { transform: scale(1.2); }
+.image__caption { margin-top: 8px; color: var(--grey-700); }
+.image__overlay {
+  position: absolute; right: 0; bottom: 0; display: inline-flex; align-items: center; justify-content: center;
+  width: 40px; height: 40px; border-radius: 4px 0 0; color: var(--white);
+  background: color-mix(in srgb, var(--primary-800) 50%, transparent);
+}
+.image__overlay--files .icon { position: absolute; width: 32px; height: 32px; }
+.image__overlay--files .image__overlay-label { position: relative; margin-top: 6px; }
+.icon-files { -webkit-mask-image: url("../icons/frach-icon-files.svg"); mask-image: url("../icons/frach-icon-files.svg"); }
+.image--gallery .image__link { min-height: 40px; }

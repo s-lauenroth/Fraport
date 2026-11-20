@@ -1,0 +1,590 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:18:24.346Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+  "at": "2026-11-19T22:37:53.407Z",
+  "docH": 2735
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine",
+  "at": "2026-11-19T23:18:24.223Z",
+  "docH": 2725
+ },
+ "results": [
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 15,
+   "edsMatches": 15,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-4bb3bd9112 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:geschäftsberichte",
+       "role": "text",
+       "text": "geschäftsberichte",
+       "edsText": "geschäftsberichte",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 141,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 141,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 946,
+       "w": 328,
+       "h": 73
+      },
+      "eds": {
+       "x": 16,
+       "y": 936,
+       "w": 328,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-accordion#accordion-4bb3bd9112 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:jahresabschlüsse",
+       "role": "text",
+       "text": "jahresabschlüsse",
+       "edsText": "jahresabschlüsse",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 134,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 134,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1019,
+       "w": 328,
+       "h": 73
+      },
+      "eds": {
+       "x": 16,
+       "y": 1009,
+       "w": 328,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-accordion#accordion-4bb3bd9112 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:quartalsmitteilungen",
+       "role": "text",
+       "text": "quartalsmitteilungen",
+       "edsText": "quartalsmitteilungen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 169,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 169,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1092,
+       "w": 328,
+       "h": 73
+      },
+      "eds": {
+       "x": 16,
+       "y": 1082,
+       "w": 328,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "frach-m-accordion#accordion-4bb3bd9112 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:analystenpräsentationen (auf englisch)",
+       "role": "text",
+       "text": "analystenpräsentationen (auf englisch)",
+       "edsText": "analystenpräsentationen (auf englisch)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 277,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 277,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1165,
+       "w": 328,
+       "h": 97
+      },
+      "eds": {
+       "x": 16,
+       "y": 1155,
+       "w": 328,
+       "h": 97
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-download-list__item=.download-list .download-list-items li",
+   "family": null,
+   "required": true,
+   "originMatches": 287,
+   "edsMatches": 287,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-download-list > ul > li.frach-m-download-list__item"
+     },
+     "eds": {
+      "path": "div.download-list-items > ul > li"
+     },
+     "rows": [
+      {
+       "key": "link:veröffentlichungskalender 2026/2027 pdf,",
+       "role": "link",
+       "text": "veröffentlichungskalender 2026/2027 pdf, 113 kb",
+       "edsText": "veröffentlichungskalender 2026/2027 pdf, 113 kb",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 9,
+        "w": 310,
+        "h": 70
+       },
+       "eds": {
+        "x": 9,
+        "y": 9,
+        "w": 310,
+        "h": 70,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "12/18/400"
+       }
+      },
+      {
+       "key": "text:veröffentlichungskalender 2026/2027",
+       "role": "text",
+       "text": "veröffentlichungskalender 2026/2027",
+       "edsText": "veröffentlichungskalender 2026/2027",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 9,
+        "w": 266,
+        "h": 52
+       },
+       "eds": {
+        "x": 9,
+        "y": 9,
+        "w": 266,
+        "h": 52,
+        "sel": "span.download-list-name",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:pdf, 113 kb",
+       "role": "text",
+       "text": "pdf, 113 kb",
+       "edsText": "pdf, 113 kb",
+       "byPosition": false,
+       "origin": {
+        "x": 9,
+        "y": 62,
+        "w": 63,
+        "h": 16
+       },
+       "eds": {
+        "x": 9,
+        "y": 62,
+        "w": 63,
+        "h": 16,
+        "sel": "span.download-list-meta",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 794,
+       "w": 328,
+       "h": 88
+      },
+      "eds": {
+       "x": 16,
+       "y": 784,
+       "w": 328,
+       "h": 88
+      },
+      "dx": 0,
+      "dy": -10,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 5,
+  "within": 11,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

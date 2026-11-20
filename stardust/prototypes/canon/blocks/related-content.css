@@ -1,0 +1,15 @@
+/* related-content (frach-m-related-content): a teaser-slider whose every 3rd column stacks two text-only teasers */
+@media (min-width: 720px) {
+  .related-content .slider__slide:nth-child(3n) .teaser { flex-basis: 50%; }
+  .related-content .slider__slide:nth-child(3n) .teaser__text { -webkit-line-clamp: 2; line-clamp: 2; }
+}
+.related-content .slider__slide:nth-child(3n) .teaser:nth-child(2):last-child { position: relative; }
+.related-content .slider__slide:nth-child(3n) .teaser:nth-child(2):last-child::before {
+  content: ""; position: absolute; top: 0; left: calc(50% - 50vw); width: 100vw; border-top: 1px solid var(--rule-color);
+}
+@media (min-width: 720px) {
+  .related-content .slider__slide:nth-child(3n) .teaser:nth-child(2):last-child::before { left: -24px; width: calc(100% + 48px); }
+}
+@media (min-width: 1280px) {
+  .related-content .slider__slide:nth-child(3n) .teaser:nth-child(2):last-child::before { left: -32px; width: calc(100% + 64px); }
+}

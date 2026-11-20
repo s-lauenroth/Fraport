@@ -1,0 +1,4482 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T23:14:58.423Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+  "at": "2026-11-19T23:14:33.311Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9484,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a#header-11903ae060-logo",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "logo homepage link",
+    "href": "/de.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-0f8afca1e9-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-0f8afca1e9-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-0f8afca1e9-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "sprache"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-0f8afca1e9-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "sprache",
+    "value": "sprache",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > nav.frach-m-breadcrumb-navigation__nav > a.frach-m-breadcrumb-navigation__link.frach-m-breadcrumb-navigation__link--back",
+    "x": 16,
+    "y": 105,
+    "w": 140,
+    "h": 24,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--21-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 0,
+    "y": 150,
+    "w": 360,
+    "h": 154,
+    "text": "terminal 2 auffahrt öffentlicher bereich",
+    "file": "Reb_220414_053%20(2)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline",
+    "x": 16,
+    "y": 261,
+    "w": 328,
+    "h": 64,
+    "level": 1,
+    "text": "service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h1.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 281,
+    "w": 62,
+    "h": 24,
+    "text": "SERVICE"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 382,
+    "w": 328,
+    "h": 72,
+    "text": "Bleiben Sie informiert und lesen Sie die aktuellen Service- und Retail-News rund"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-4d02a8c2be",
+    "x": 16,
+    "y": 494,
+    "w": 328,
+    "h": 52,
+    "text": "service news",
+    "href": "/de/newsroom/servicenews.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-ee148a9494",
+    "x": 16,
+    "y": 562,
+    "w": 328,
+    "h": 52,
+    "text": "retail news",
+    "href": "/de/newsroom/retailnews.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 646,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "angebote am flughafen frankfurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 657,
+    "w": 289,
+    "h": 81,
+    "text": "ANGEBOTE AM FLUGHAFEN FRANKFURT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 16,
+    "y": 774,
+    "w": 328,
+    "h": 144,
+    "text": "Entdecken Sie die vielfältigen Leistungen am Frankfurt Airport. Fraport bietet m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 942,
+    "w": 328,
+    "h": 562,
+    "text": "entdecken sie die vielfältigen park- und mobilitätsangebote am frankfurt airport",
+    "href": "/de/geschaeftsfelder/service/parken---mobilitaet.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 942,
+    "w": 328,
+    "h": 328,
+    "text": "parken & mobilität",
+    "file": "Parkhaus%20RHP%201920x1080%20px_ohne%20T"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 1444,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "parken & mobilität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 1536,
+    "w": 328,
+    "h": 562,
+    "text": "erleben sie retail und advertising am frankfurt airport – für erfolgreiche marke",
+    "href": "/de/geschaeftsfelder/service/retailing---advertising.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 1536,
+    "w": 328,
+    "h": 328,
+    "text": "media-frankfurt_airport-advertising_frankfurt-airport_market",
+    "file": "Media-Frankfurt_Airport-Advertising_Fran"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 2038,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "retailing and advertising"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 2130,
+    "w": 328,
+    "h": 538,
+    "text": "entdecken sie attraktive retail-flächen und innovative shopping-konzepte am fran",
+    "href": "/de/geschaeftsfelder/service/retailing---advertising/airport-retailing.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 2130,
+    "w": 328,
+    "h": 328,
+    "text": "marktplatzterminal 1a-plus, eb. 2, schengen,flughafen frankf",
+    "file": "121018_markt_eb2-4748-72_m_original"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 2608,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "airport retailing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 2732,
+    "w": 328,
+    "h": 574,
+    "text": "setzen sie ihre marke mit werbeflächen am frankfurt airport optimal in szene. me",
+    "href": "/de/geschaeftsfelder/service/retailing---advertising/flughafenwerbung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 2732,
+    "w": 328,
+    "h": 328,
+    "text": "media-frankfurt_airport-advertising_frankfurt-airport_1920x1",
+    "file": "Media-Frankfurt_Airport-Advertising_Fran"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 3186,
+    "w": 296,
+    "h": 90,
+    "level": 5,
+    "text": "media frankfurt - flughafenwerbung am frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 3338,
+    "w": 328,
+    "h": 664,
+    "text": "ob vorfeld-, rollfeld- oder gabelstaplerführerschein: fraport qualifiziert besch",
+    "href": "/de/geschaeftsfelder/service/fahrerausbildung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 3338,
+    "w": 328,
+    "h": 328,
+    "text": "6k4a0730-bearbeitet.jpg",
+    "file": "6K4A0730-Bearbeitet"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 3912,
+    "w": 296,
+    "h": 60,
+    "level": 5,
+    "text": "sicher unterwegs auf vorfeld und rollfeld"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 4034,
+    "w": 328,
+    "h": 538,
+    "text": "ihr zugang zum frankfurt airport – alles rund um flughafenausweise und die beant",
+    "href": "/de/geschaeftsfelder/service/flughafenausweise.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 4034,
+    "w": 328,
+    "h": 328,
+    "text": "flughafenausweise.jpg",
+    "file": "Flughafenausweise"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 4512,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "flughafenausweise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 4636,
+    "w": 328,
+    "h": 538,
+    "text": "sicherheit am airport – mit der luftsicherheitsschulung von fraport bestens vorb",
+    "href": "/de/geschaeftsfelder/service/flughafenausweise/luftsicherheitsschulung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 4636,
+    "w": 328,
+    "h": 328,
+    "text": "airport security am flughafen frankfurt",
+    "file": "2012_am_0672"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 5114,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "luftsicherheitsschulung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 5206,
+    "w": 328,
+    "h": 514,
+    "text": "modernste it-lösungen für den frankfurt airport – mit den services von fraport. ",
+    "href": "/de/geschaeftsfelder/service/it-services.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 5206,
+    "w": 328,
+    "h": 328,
+    "text": "it servicepoint",
+    "file": "Reb_20260311_04457"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 5660,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "it-services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin > div.frach-m-card > a.frach-m-card__link.frach-m-card__link--hover-fx",
+    "x": 16,
+    "y": 5752,
+    "w": 328,
+    "h": 562,
+    "text": "informieren sie sich über aktuelle ausschreibungen sowie unsere standards für ei",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/einkauf-und-bauvergabe.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--1-1 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 5752,
+    "w": 328,
+    "h": 328,
+    "text": "fernbahnhof",
+    "file": "Blick%20Richtung%20Fernbahnhof"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.frach-m-card__link.frach-m-card__link--hover-fx > div.frach-m-card__text > h5.frach-h5",
+    "x": 32,
+    "y": 6254,
+    "w": 296,
+    "h": 30,
+    "level": 5,
+    "text": "einkauf und bauvergabe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 6410,
+    "w": 328,
+    "h": 104,
+    "level": 1,
+    "text": "event locations am frankfurt airport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 6421,
+    "w": 264,
+    "h": 81,
+    "text": "EVENT LOCATIONS AM FRANKFURT AIRPORT"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-7ca5456e6a > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 16,
+    "y": 6538,
+    "w": 328,
+    "h": 185,
+    "text": "",
+    "href": "/de/veranstaltungen-events/ueberblick-fra-locations.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 6538,
+    "w": 329,
+    "h": 185,
+    "text": "event locations am flughafen frankfurt",
+    "file": "FRAPORT_11_493"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-7ca5456e6a > figure.frach-m-image__figure > figcaption.frach-m-image__caption",
+    "x": 16,
+    "y": 6730,
+    "w": 328,
+    "h": 18,
+    "text": "Event Locations am Flughafen Frankfurt"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-b595898ca0 > h6",
+    "x": 16,
+    "y": 6796,
+    "w": 328,
+    "h": 130,
+    "level": 6,
+    "text": "entdecken sie die vielfältigen veranstaltungs- und eventlocations am frankfurt airport. ob klassiches meeting, tagung, p"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-b595898ca0 > h6 > span",
+    "x": 16,
+    "y": 6875,
+    "w": 290,
+    "h": 50,
+    "text": "Ob klassiches Meeting, Tagung, Präsentation oder exklusives Event."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-b595898ca0 > p",
+    "x": 16,
+    "y": 6942,
+    "w": 328,
+    "h": 72,
+    "text": "Hier finden Sie alle Informationen und Details zu den passenden Räumlichkeiten f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a#button-da36ac6542",
+    "x": 16,
+    "y": 7024,
+    "w": 304,
+    "h": 52,
+    "text": "mehr erfahren",
+    "href": "/de/veranstaltungen-events/ueberblick-fra-locations.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h6.frach-m-cta__headline.frach-h6",
+    "x": 16,
+    "y": 7189,
+    "w": 328,
+    "h": 52,
+    "level": 6,
+    "text": "exklusive vip-services am frankfurt airport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 7265,
+    "w": 328,
+    "h": 144,
+    "text": "Erleben Sie exklusive VIP-Services am Frankfurt Airport – individuelle Betreuung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-2d5ab1fc25",
+    "x": 16,
+    "y": 7449,
+    "w": 328,
+    "h": 52,
+    "text": "zum vip-service",
+    "href": "/de.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 7549,
+    "w": 328,
+    "h": 60,
+    "level": 2,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 7560,
+    "w": 268,
+    "h": 37,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 16,
+    "y": 7633,
+    "w": 328,
+    "h": 72,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 7753,
+    "w": 329,
+    "h": 185,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "AdobeStock_738523483_1920px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 7994,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 7995,
+    "w": 286,
+    "h": 24,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 8044,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 8116,
+    "w": 329,
+    "h": 185,
+    "text": "hero.png",
+    "file": "Hero"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 8356,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "flughafen ljubljana"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 8357,
+    "w": 167,
+    "h": 24,
+    "text": "flughafen ljubljana",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 8406,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 8510,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "fraport passenger services gmbh"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 8511,
+    "w": 276,
+    "h": 24,
+    "text": "fraport passenger services gmbh",
+    "href": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Passenger-Services-GmbH.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 8560,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Passenger-Services-GmbH.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 8664,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 8665,
+    "w": 101,
+    "h": 24,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 8714,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-teaser-slider__load-more-row > div.frach-grid-col-mq1-12 > button#relatedContent-ceb6178d7d-load-more-button",
+    "x": 16,
+    "y": 8786,
+    "w": 328,
+    "h": 52,
+    "text": "mehr news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 8926,
+    "w": 126,
+    "h": 24,
+    "text": "Ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 8999,
+    "w": 95,
+    "h": 24,
+    "text": "Fraport Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 9072,
+    "w": 53,
+    "h": 24,
+    "text": "Aktuell"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 9145,
+    "w": 53,
+    "h": 24,
+    "text": "Service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 9242,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 80,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 144,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 208,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 9328,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 9362,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-page-footer__copyright > div.frach-grid-col-mq1-12 > p.frach-meta",
+    "x": 16,
+    "y": 9434,
+    "w": 328,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.fCuhKw",
+    "x": 24,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "öffnen datenschutz einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 52,
+    "controls": 35,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service",
+  "at": "2026-11-19T23:14:58.298Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 9484,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "startseite",
+    "href": "/de"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "suche",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "menü"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "menü",
+    "value": "menü",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > nav.breadcrumb-nav > a.breadcrumb-back",
+    "x": 12,
+    "y": 105,
+    "w": 145,
+    "h": 24,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-frame > picture > img",
+    "x": 0,
+    "y": 150,
+    "w": 360,
+    "h": 155,
+    "text": "terminal 2 auffahrt öffentlicher bereich",
+    "file": "media_1a7ae7542f1f6724e58925d1c618574b17"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.hero-headline.ribbon > h1#service",
+    "x": 16,
+    "y": 261,
+    "w": 94,
+    "h": 64,
+    "level": 1,
+    "text": "service"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#service > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 281,
+    "w": 62,
+    "h": 24,
+    "text": "SERVICE"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 382,
+    "w": 328,
+    "h": 72,
+    "text": "Bleiben Sie informiert und lesen Sie die aktuellen Service- und Retail-News rund"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 494,
+    "w": 328,
+    "h": 52,
+    "text": "service news",
+    "href": "/de/newsroom/servicenews"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.secondary",
+    "x": 16,
+    "y": 562,
+    "w": 328,
+    "h": 52,
+    "text": "retail news",
+    "href": "/de/newsroom/retailnews.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#angebote-am-flughafen-frankfurt",
+    "x": 16,
+    "y": 646,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "angebote am flughafen frankfurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#angebote-am-flughafen-frankfurt > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 657,
+    "w": 289,
+    "h": 81,
+    "text": "ANGEBOTE AM FLUGHAFEN FRANKFURT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 16,
+    "y": 774,
+    "w": 328,
+    "h": 144,
+    "text": "Entdecken Sie die vielfältigen Leistungen am Frankfurt Airport. Fraport bietet m"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 942,
+    "w": 328,
+    "h": 562,
+    "text": "entdecken sie die vielfältigen park- und mobilitätsangebote am frankfurt airport",
+    "href": "/de/geschaeftsfelder/service/parken---mobilitaet.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 942,
+    "w": 328,
+    "h": 328,
+    "text": "parken & mobilität",
+    "file": "media_1c1c3c573ecb9391d61941af00b4515235"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h3#parken--mobilität",
+    "x": 32,
+    "y": 1444,
+    "w": 296,
+    "h": 30,
+    "level": 3,
+    "text": "parken & mobilität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 1536,
+    "w": 328,
+    "h": 562,
+    "text": "erleben sie retail und advertising am frankfurt airport – für erfolgreiche marke",
+    "href": "/de/geschaeftsfelder/service/retailing---advertising.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 1536,
+    "w": 328,
+    "h": 328,
+    "text": "media-frankfurt_airport-advertising_frankfurt-airport_market",
+    "file": "media_11f9c820f38eda18803638d2fba3c31252"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h3#retailing-and-advertising",
+    "x": 32,
+    "y": 2038,
+    "w": 296,
+    "h": 30,
+    "level": 3,
+    "text": "retailing and advertising"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 2130,
+    "w": 328,
+    "h": 538,
+    "text": "entdecken sie attraktive retail-flächen und innovative shopping-konzepte am fran",
+    "href": "/de/geschaeftsfelder/service/retailing---advertising/airport-retailing.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 2130,
+    "w": 328,
+    "h": 328,
+    "text": "marktplatzterminal 1a-plus, eb. 2, schengen,flughafen frankf",
+    "file": "media_13c155d567e00028d142d96aa39850530b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h3#airport-retailing",
+    "x": 32,
+    "y": 2608,
+    "w": 296,
+    "h": 30,
+    "level": 3,
+    "text": "airport retailing"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 2732,
+    "w": 328,
+    "h": 574,
+    "text": "setzen sie ihre marke mit werbeflächen am frankfurt airport optimal in szene. me",
+    "href": "/de/geschaeftsfelder/service/retailing---advertising/flughafenwerbung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 2732,
+    "w": 328,
+    "h": 328,
+    "text": "media-frankfurt_airport-advertising_frankfurt-airport_1920x1",
+    "file": "media_1f02fa3d5aba6561c9145e9b644bdfd7ff"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h2#media-frankfurt---flughafenwerbung-am-frankfurt-airport",
+    "x": 32,
+    "y": 3186,
+    "w": 296,
+    "h": 90,
+    "level": 2,
+    "text": "media frankfurt - flughafenwerbung am frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 3338,
+    "w": 328,
+    "h": 664,
+    "text": "ob vorfeld-, rollfeld- oder gabelstaplerführerschein: fraport qualifiziert besch",
+    "href": "/de/geschaeftsfelder/service/fahrerausbildung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 3338,
+    "w": 328,
+    "h": 328,
+    "text": "6k4a0730-bearbeitet.jpg",
+    "file": "media_1157a443d7647fd2fb3edcbef1356c4179"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h2#sicher-unterwegs-auf-vorfeld-und-rollfeld",
+    "x": 32,
+    "y": 3912,
+    "w": 296,
+    "h": 60,
+    "level": 2,
+    "text": "sicher unterwegs auf vorfeld und rollfeld"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 4034,
+    "w": 328,
+    "h": 538,
+    "text": "ihr zugang zum frankfurt airport – alles rund um flughafenausweise und die beant",
+    "href": "/de/geschaeftsfelder/service/flughafenausweise.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 4034,
+    "w": 328,
+    "h": 328,
+    "text": "flughafenausweise.jpg",
+    "file": "media_1c6d004e3f778e16c6e322710cdf3f8bd4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h2#flughafenausweise",
+    "x": 32,
+    "y": 4512,
+    "w": 296,
+    "h": 30,
+    "level": 2,
+    "text": "flughafenausweise"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 4636,
+    "w": 328,
+    "h": 538,
+    "text": "sicherheit am airport – mit der luftsicherheitsschulung von fraport bestens vorb",
+    "href": "/de/geschaeftsfelder/service/flughafenausweise/luftsicherheitsschulung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 4636,
+    "w": 328,
+    "h": 328,
+    "text": "airport security am flughafen frankfurt",
+    "file": "media_1f48fc6db86770cbda554db4a3ab3d9944"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h2#luftsicherheitsschulung",
+    "x": 32,
+    "y": 5114,
+    "w": 296,
+    "h": 30,
+    "level": 2,
+    "text": "luftsicherheitsschulung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 5206,
+    "w": 328,
+    "h": 514,
+    "text": "modernste it-lösungen für den frankfurt airport – mit den services von fraport. ",
+    "href": "/de/geschaeftsfelder/service/it-services.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 5206,
+    "w": 328,
+    "h": 328,
+    "text": "it servicepoint",
+    "file": "media_18404f0a77d1db5fff861634f10b9062e5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h2#it-services",
+    "x": 32,
+    "y": 5660,
+    "w": 296,
+    "h": 30,
+    "level": 2,
+    "text": "it-services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-col > div.cards-card > a.cards-card-link.is-animating",
+    "x": 16,
+    "y": 5752,
+    "w": 328,
+    "h": 562,
+    "text": "informieren sie sich über aktuelle ausschreibungen sowie unsere standards für ei",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/einkauf-und-bauvergabe.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 5752,
+    "w": 328,
+    "h": 328,
+    "text": "fernbahnhof",
+    "file": "media_11bb07234f6ccc5cbcd7bafb6115271c1b"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cards-card-text > div.cards-card-title.h5 > h2#einkauf-und-bauvergabe",
+    "x": 32,
+    "y": 6254,
+    "w": 296,
+    "h": 30,
+    "level": 2,
+    "text": "einkauf und bauvergabe"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#event-locations-am-frankfurt-airport",
+    "x": 16,
+    "y": 6410,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "event locations am frankfurt airport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#event-locations-am-frankfurt-airport > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 6421,
+    "w": 264,
+    "h": 81,
+    "text": "EVENT LOCATIONS AM FRANKFURT AIRPORT"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > p > a",
+    "x": 16,
+    "y": 6538,
+    "w": 328,
+    "h": 185,
+    "text": "event locations am flughafen frankfurt",
+    "href": "/de/veranstaltungen-events/ueberblick-fra-locations.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 16,
+    "y": 6538,
+    "w": 328,
+    "h": 185,
+    "text": "event locations am flughafen frankfurt",
+    "file": "media_14e9cbd2d0e4a721d4c8a27153c0957e6e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > div.columns-caption > p",
+    "x": 16,
+    "y": 6730,
+    "w": 328,
+    "h": 18,
+    "text": "Event Locations am Flughafen Frankfurt"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h6#entdecken-sie-die-vielfältigen-veranstaltungs--und-eventlocations-am-frankfurt-airportob-klassiches-meeting-tagung-präsentation-oder-exklusives-event",
+    "x": 16,
+    "y": 6796,
+    "w": 328,
+    "h": 130,
+    "level": 6,
+    "text": "entdecken sie die vielfältigen veranstaltungs- und eventlocations am frankfurt airport. ob klassiches meeting, tagung, p"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 6942,
+    "w": 328,
+    "h": 72,
+    "text": "Hier finden Sie alle Informationen und Details zu den passenden Räumlichkeiten f"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.buttons > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 7024,
+    "w": 304,
+    "h": 52,
+    "text": "mehr erfahren",
+    "href": "/de/veranstaltungen-events/ueberblick-fra-locations.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h6 > h2#exklusive-vip-services-am-frankfurt-airport",
+    "x": 16,
+    "y": 7189,
+    "w": 328,
+    "h": 52,
+    "level": 2,
+    "text": "exklusive vip-services am frankfurt airport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 7265,
+    "w": 328,
+    "h": 144,
+    "text": "Erleben Sie exklusive VIP-Services am Frankfurt Airport – individuelle Betreuung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 7449,
+    "w": 328,
+    "h": 52,
+    "text": "zum vip-service",
+    "href": "/de.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#noch-mehr-fraport",
+    "x": 16,
+    "y": 7549,
+    "w": 300,
+    "h": 60,
+    "level": 2,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#noch-mehr-fraport > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 7560,
+    "w": 268,
+    "h": 37,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 16,
+    "y": 7633,
+    "w": 328,
+    "h": 72,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-image > picture > img",
+    "x": 16,
+    "y": 7753,
+    "w": 328,
+    "h": 185,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "media_16d456f4ad6c7804eb75d9baca2a765401"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory",
+    "x": 16,
+    "y": 7994,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory > a",
+    "x": 16,
+    "y": 7995,
+    "w": 286,
+    "h": 24,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 8044,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-image > picture > img",
+    "x": 16,
+    "y": 8116,
+    "w": 328,
+    "h": 185,
+    "text": "hero.png",
+    "file": "media_1ae829e44fb44fd8d7e3bd78a455e07aad"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#flughafen-ljubljana",
+    "x": 16,
+    "y": 8356,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "flughafen ljubljana"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#flughafen-ljubljana > a",
+    "x": 16,
+    "y": 8357,
+    "w": 167,
+    "h": 24,
+    "text": "flughafen ljubljana",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 8406,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#fraport-passenger-services-gmbh",
+    "x": 16,
+    "y": 8510,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "fraport passenger services gmbh"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#fraport-passenger-services-gmbh > a",
+    "x": 16,
+    "y": 8511,
+    "w": 276,
+    "h": 24,
+    "text": "fraport passenger services gmbh",
+    "href": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Passenger-Services-GmbH.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 8560,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Passenger-Services-GmbH.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#luftqualität",
+    "x": 16,
+    "y": 8664,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#luftqualität > a",
+    "x": 16,
+    "y": 8665,
+    "w": 101,
+    "h": 24,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 8714,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div > button.button.secondary",
+    "x": 12,
+    "y": 8786,
+    "w": 336,
+    "h": 52,
+    "text": "mehr news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#ansprechpartner",
+    "x": 16,
+    "y": 8926,
+    "w": 126,
+    "h": 24,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 9002,
+    "w": 328,
+    "h": 48,
+    "text": "Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 9060,
+    "w": 328,
+    "h": 24,
+    "text": "60547 Frankfurt am Main"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9094,
+    "w": 180,
+    "h": 24,
+    "text": "anfahrtsbeschreibung",
+    "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 9179,
+    "w": 272,
+    "h": 21,
+    "text": "Fragen, Lob, Kritik und Anregungen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9202,
+    "w": 144,
+    "h": 24,
+    "text": "01806 372-4636",
+    "href": "+4918063724636"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9236,
+    "w": 141,
+    "h": 24,
+    "text": "kontaktformular",
+    "href": "/de/konzern/ueber-uns/kontaktformular-fraport-ag.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > em",
+    "x": 16,
+    "y": 9271,
+    "w": 314,
+    "h": 45,
+    "text": "*20 Cent pro Anruf aus dem deutschen Festnetz, maximal 50 Cent aus dem Mobilfunk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 9379,
+    "w": 199,
+    "h": 21,
+    "text": "Mailadresse für Feedback:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9402,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "feedback@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 9437,
+    "w": 316,
+    "h": 21,
+    "text": "Mailadresse für Passagier-Informationen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9460,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "info@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 9545,
+    "w": 299,
+    "h": 21,
+    "text": "Fluglärm und Maßnahmenprogramme:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9568,
+    "w": 295,
+    "h": 24,
+    "text": "kontaktformulare zum themenbereich",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 9602,
+    "w": 328,
+    "h": 72,
+    "text": "(für Reisende und Beschäftige)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 9626,
+    "w": 224,
+    "h": 24,
+    "text": "kontakt zum medical center",
+    "href": "medizin@fraport.de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#fraport-sites",
+    "x": 16,
+    "y": 8999,
+    "w": 95,
+    "h": 24,
+    "level": 2,
+    "text": "fraport sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9071,
+    "w": 57,
+    "h": 40,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9111,
+    "w": 110,
+    "h": 40,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9151,
+    "w": 73,
+    "h": 40,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9191,
+    "w": 104,
+    "h": 40,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#aktuell",
+    "x": 16,
+    "y": 9072,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9144,
+    "w": 75,
+    "h": 40,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9184,
+    "w": 118,
+    "h": 40,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9224,
+    "w": 138,
+    "h": 40,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#service",
+    "x": 16,
+    "y": 9145,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9217,
+    "w": 89,
+    "h": 40,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9257,
+    "w": 76,
+    "h": 40,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9297,
+    "w": 74,
+    "h": 40,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 9337,
+    "w": 269,
+    "h": 40,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-airport",
+    "x": 16,
+    "y": 9242,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "facebook",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 76,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "instagram",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 136,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "youtube",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 196,
+    "y": 9276,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-cargohub",
+    "x": 16,
+    "y": 9328,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 9362,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-copyright > p",
+    "x": 16,
+    "y": 9434,
+    "w": 326,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 82,
+    "controls": 56,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "service",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "angebote am flughafen frankfurt",
+   "variable": false,
+   "origin": {
+    "link": 9,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 9,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 9,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 3,
+   "heading": "event locations am frankfurt airport",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 4,
+   "heading": "noch mehr fraport",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"parken & mobilität\" (y 1444) has no origin heading",
+   "text": "parken & mobilität"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"retailing and advertising\" (y 2038) has no origin heading",
+   "text": "retailing and advertising"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"airport retailing\" (y 2608) has no origin heading",
+   "text": "airport retailing"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"media frankfurt - flughafenwerbung am frankfurt airport\" (y 3186) has no origin heading",
+   "text": "media frankfurt - flughafenwerbung am frankfurt airport"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"sicher unterwegs auf vorfeld und rollfeld\" (y 3912) has no origin heading",
+   "text": "sicher unterwegs auf vorfeld und rollfeld"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"flughafenausweise\" (y 4512) has no origin heading",
+   "text": "flughafenausweise"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"luftsicherheitsschulung\" (y 5114) has no origin heading",
+   "text": "luftsicherheitsschulung"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"it-services\" (y 5660) has no origin heading",
+   "text": "it-services"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"einkauf und bauvergabe\" (y 6254) has no origin heading",
+   "text": "einkauf und bauvergabe"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"exklusive vip-services am frankfurt airport\" (y 7189) has no origin heading",
+   "text": "exklusive vip-services am frankfurt airport"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"digitalisierung und digital factory\" (y 7994) has no origin heading",
+   "text": "digitalisierung und digital factory"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"flughafen ljubljana\" (y 8356) has no origin heading",
+   "text": "flughafen ljubljana"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"fraport passenger services gmbh\" (y 8510) has no origin heading",
+   "text": "fraport passenger services gmbh"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"luftqualität\" (y 8664) has no origin heading",
+   "text": "luftqualität"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"angebote am flughafen frankfurt\": 0 origin → 9 served visible",
+   "band": 2,
+   "origin": 0,
+   "eds": 9,
+   "hidden": 0
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"event locations am flughafen frankfurt\" served in band \"event locations am frankfurt airport\", no origin link or button",
+   "band": 3,
+   "n": 1,
+   "text": "event locations am flughafen frankfurt"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 14,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 16,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 38,
+    "y": 106,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 281,
+    "w": 62,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 383,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 407,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 431,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 119,
+    "y": 509,
+    "w": 100,
+    "h": 21
+   },
+   {
+    "x": 124,
+    "y": 577,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 657,
+    "w": 175,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 701,
+    "w": 289,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 775,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 799,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 823,
+    "w": 324,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 847,
+    "w": 313,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 871,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 895,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1325,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1349,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1373,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1397,
+    "w": 55,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1445,
+    "w": 173,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1919,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1943,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1967,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1991,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2039,
+    "w": 232,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 2513,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2537,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2561,
+    "w": 121,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2609,
+    "w": 153,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3115,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3139,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3187,
+    "w": 161,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3217,
+    "w": 210,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3247,
+    "w": 156,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3721,
+    "w": 185,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3745,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3769,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3793,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3817,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3841,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3865,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3913,
+    "w": 263,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3943,
+    "w": 113,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 4417,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4441,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4465,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4513,
+    "w": 176,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 5019,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5043,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5067,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5115,
+    "w": 218,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 5589,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5613,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5661,
+    "w": 95,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6135,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6159,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6183,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6207,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6255,
+    "w": 226,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6421,
+    "w": 264,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6465,
+    "w": 250,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6731,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 16,
+    "y": 6797,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6823,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6849,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6875,
+    "w": 259,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6901,
+    "w": 290,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6943,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6967,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6991,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 7039,
+    "w": 111,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7190,
+    "w": 291,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 7216,
+    "w": 59,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 7266,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7290,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7314,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7338,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7362,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7386,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 107,
+    "y": 7464,
+    "w": 125,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7560,
+    "w": 268,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 7634,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7658,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7682,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7995,
+    "w": 286,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8045,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8357,
+    "w": 167,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8407,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8511,
+    "w": 276,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8561,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8665,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8715,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 8801,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8927,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9000,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9073,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9146,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9243,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9329,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9435,
+    "w": 326,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 34,
+    "y": 106,
+    "w": 123,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 281,
+    "w": 62,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 383,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 407,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 431,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 119,
+    "y": 509,
+    "w": 100,
+    "h": 21
+   },
+   {
+    "x": 124,
+    "y": 577,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 657,
+    "w": 175,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 701,
+    "w": 289,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 775,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 799,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 823,
+    "w": 324,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 847,
+    "w": 313,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 871,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 895,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1325,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1349,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1373,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1397,
+    "w": 55,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1445,
+    "w": 173,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 1919,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1943,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1967,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 1991,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2039,
+    "w": 232,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 2513,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2537,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2561,
+    "w": 121,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 2609,
+    "w": 153,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3115,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3139,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3187,
+    "w": 161,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3217,
+    "w": 210,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3247,
+    "w": 156,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3721,
+    "w": 185,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3745,
+    "w": 239,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3769,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3793,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3817,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3841,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3865,
+    "w": 86,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3913,
+    "w": 263,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 3943,
+    "w": 113,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 4417,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4441,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4465,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4513,
+    "w": 176,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 5019,
+    "w": 217,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5043,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5067,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5115,
+    "w": 218,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 5589,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5613,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 5661,
+    "w": 95,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6135,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6159,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6183,
+    "w": 262,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6207,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 6255,
+    "w": 226,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 6421,
+    "w": 264,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 6465,
+    "w": 250,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6731,
+    "w": 211,
+    "h": 16
+   },
+   {
+    "x": 16,
+    "y": 6797,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6823,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6849,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6875,
+    "w": 259,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6901,
+    "w": 290,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6943,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6967,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6991,
+    "w": 49,
+    "h": 21
+   },
+   {
+    "x": 102,
+    "y": 7039,
+    "w": 111,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7190,
+    "w": 291,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 7216,
+    "w": 59,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 7266,
+    "w": 260,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7290,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7314,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7338,
+    "w": 207,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7362,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7386,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 107,
+    "y": 7464,
+    "w": 125,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 7560,
+    "w": 268,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 7634,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7658,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7682,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 7995,
+    "w": 286,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8045,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8357,
+    "w": 167,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8407,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8511,
+    "w": 276,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8561,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8665,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 8715,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 8801,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 8927,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9003,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9027,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9061,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9095,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9179,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9203,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 160,
+    "y": 9203,
+    "w": 8,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9237,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9271,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9295,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9379,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9403,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9437,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9461,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9545,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9569,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9603,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 9627,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 9627,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9651,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9000,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9088,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9128,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9168,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9208,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9073,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9161,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9201,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9241,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9146,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9234,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9274,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9314,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9354,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9243,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9329,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9435,
+    "w": 326,
+    "h": 16
+   }
+  ]
+ }
+}

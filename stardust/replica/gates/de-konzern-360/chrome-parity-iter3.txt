@@ -1,0 +1,13 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.fraport.com/de/konzern.html (live side from cache stardust/replica/gates/de-konzern-360/chrome-live.json, probed 2026-11-19T17:22:57.776Z — delete the file to re-probe)
+  build: http://localhost:8791/de-konzern-proposed.html
+
+■ header: 2 delta(s) — 4 paired of 4/4 texts, 2/4 icons
+  (live has no <header>: auto-detected frach-m-sticky-page-header-container.frach-m-sticky-page-header-container.frach-state-sticky — pass --region header=<liveSel>|<buildSel> to override)
+  ICONS        2 live vs 4 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+  ICON         icon #1: Δw -66px (90→24); Δh -34px (58→24); signature "viewBox=0 0 96 62 paths=5" → "viewBox=0 0 24 24 paths=1"
+
+■ footer: 1 delta(s)
+  REGION       live: no element matches "footer" — pass --region footer=<liveSel>|<buildSel>
+
+✗ 3 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

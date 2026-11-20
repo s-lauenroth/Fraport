@@ -1,0 +1,507 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-19T18:16:20.904Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-20T00:19:52.071Z",
+  "blocks": [
+    {
+      "id": "accordion",
+      "label": "accordion",
+      "kind": "module",
+      "signature": "module:accordion",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern-konzernstrategie"
+      ],
+      "usedByPages": [
+        "de-konzern-konzernstrategie"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "accordion",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "anchor-list",
+      "label": "anchor-list",
+      "kind": "module",
+      "signature": "module:anchor-list",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-newsroom"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "anchor-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "audio-player",
+      "label": "audio-player",
+      "kind": "module",
+      "signature": "module:audio-player",
+      "source": null,
+      "usedByTemplates": [
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-newsroom"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "audio-player",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "breadcrumb",
+      "label": "breadcrumb",
+      "kind": "module",
+      "signature": "module:breadcrumb",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "breadcrumb",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cards",
+      "label": "cards",
+      "kind": "module",
+      "signature": "module:cards",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-konzern",
+        "de-newsroom"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cards",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "columns",
+      "label": "columns",
+      "kind": "module",
+      "signature": "module:columns",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "columns",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cta",
+      "label": "cta",
+      "kind": "module",
+      "signature": "module:cta",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern-konzernstrategie",
+        "de-newsroom",
+        "de-newsroom-pressemitteilung"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern-konzernstrategie",
+        "de-newsroom",
+        "de-newsroom-pressemitteilung"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "cta",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "embed",
+      "label": "embed",
+      "kind": "module",
+      "signature": "module:embed",
+      "source": null,
+      "usedByTemplates": [
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-newsroom"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "embed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image",
+      "label": "image",
+      "kind": "module",
+      "signature": "module:image",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "figure",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "image-gallery-tiles",
+      "label": "image-gallery-tiles",
+      "kind": "module",
+      "signature": "module:image-gallery-tiles",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern"
+      ],
+      "usedByPages": [
+        "de-konzern"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "image-gallery-tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "key-figures",
+      "label": "key-figures",
+      "kind": "module",
+      "signature": "module:key-figures",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-newsroom"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "key-figures",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "link-box",
+      "label": "link-box",
+      "kind": "module",
+      "signature": "module:link-box",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-konzern",
+        "de-newsroom"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "link-box",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "milestones",
+      "label": "milestones",
+      "kind": "module",
+      "signature": "module:milestones",
+      "source": null,
+      "usedByTemplates": [
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-newsroom"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "milestones",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news-list",
+      "label": "news-list",
+      "kind": "module",
+      "signature": "module:news-list",
+      "source": null,
+      "usedByTemplates": [
+        "de-newsroom-pressemitteilung"
+      ],
+      "usedByPages": [
+        "de-newsroom-pressemitteilung"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "news-list",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "newsroom-feed",
+      "label": "newsroom-feed",
+      "kind": "module",
+      "signature": "module:newsroom-feed",
+      "source": null,
+      "usedByTemplates": [
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de-newsroom"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "newsroom-feed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "related-content",
+      "label": "related-content",
+      "kind": "module",
+      "signature": "module:related-content",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "related-content",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser",
+      "label": "teaser",
+      "kind": "module",
+      "signature": "module:teaser",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "teaser-collection",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "teaser-slider",
+      "label": "teaser-slider",
+      "kind": "module",
+      "signature": "module:teaser-slider",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "teaser-slider",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "testimonial",
+      "label": "testimonial",
+      "kind": "module",
+      "signature": "module:testimonial",
+      "source": null,
+      "usedByTemplates": [
+        "de-konzern"
+      ],
+      "usedByPages": [
+        "de-konzern"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "testimonial",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "text-media",
+      "label": "text-media",
+      "kind": "module",
+      "signature": "module:text-media",
+      "source": null,
+      "usedByTemplates": [
+        "de",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "usedByPages": [
+        "de",
+        "de-konzern-konzernstrategie",
+        "de-newsroom"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "text-media",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tiles",
+      "label": "tiles",
+      "kind": "module",
+      "signature": "module:tiles",
+      "source": null,
+      "usedByTemplates": [
+        "de"
+      ],
+      "usedByPages": [
+        "de"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "verified",
+        "edsBlockName": "tiles",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

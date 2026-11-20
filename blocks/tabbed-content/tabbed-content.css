@@ -1,0 +1,91 @@
+/* tabbed-content (frach-m-tabbed-content + frach-m-tab-navigation): ruled tab bar in the 10-col
+   frame (>= 960); the panels are the following `tab-panel` sections, toggled by the block */
+.tabbed-content .tabbed-content-nav {
+  position: relative;
+  display: block;
+  overflow-x: hidden;
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.tabbed-content .tabbed-content-tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow-x: scroll;
+  list-style: none;
+  scrollbar-width: none;
+}
+
+.tabbed-content .tabbed-content-tab-item {
+  margin: 0;
+  padding: 0;
+}
+
+.tabbed-content .tabbed-content-tab {
+  display: flex;
+  margin: 0 1px 0 0;
+  padding: 0 16px 12px;
+  color: var(--primary-500);
+  font-family: var(--ff-semibold);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.tabbed-content .tabbed-content-tab:hover:not(.is-active) {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-700);
+  color: var(--primary-700);
+}
+
+.tabbed-content .tabbed-content-tab.is-active {
+  padding-bottom: 8px;
+  border-bottom: 4px solid var(--primary-800);
+  color: var(--primary-800);
+}
+
+main > .section.tabbed-content-container > .tabbed-content-wrapper {
+  margin-bottom: 0;
+}
+
+main > .section.tabbed-content-panel[hidden] {
+  display: none;
+}
+
+main > .section.tabbed-content-panel-start {
+  padding-top: 24px;
+}
+
+/* the tabbed component's own margin below the open panel (source frach-h-component-margin) */
+main > .section.tabbed-content-panel-end {
+  padding-bottom: var(--component-margin);
+}
+
+@media (width >= 960px) {
+  .tabbed-content .tabbed-content-col {
+    flex-basis: calc(83.3333% - var(--gutter));
+    max-width: calc(83.3333% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+}
+
+/* panel frame >= 960: the source panel is the 10-col tab column widened by 24 / 32 px a side
+   (frach-m-tabbed-content__panel margin), so the panel's components lay out in that frame */
+@media (width >= 960px) {
+  main > .section.tabbed-content-panel > div {
+    --tabbed-content-row: calc(min(100% - var(--grid-outer), var(--grid-max)) - 2 * var(--grid-pad) + var(--gutter));
+    --tabbed-content-bleed: 24px;
+
+    width: calc(var(--tabbed-content-row) * 10 / 12 - var(--gutter) + 2 * var(--tabbed-content-bleed));
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (width >= 1280px) {
+  main > .section.tabbed-content-panel > div {
+    --tabbed-content-bleed: 32px;
+  }
+}

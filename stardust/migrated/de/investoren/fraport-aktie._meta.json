@@ -1,0 +1,881 @@
+{
+  "slug": "de-investoren-fraport-aktie",
+  "type": "content-page",
+  "renderBranch": "A'",
+  "template": "de-konzern-konzernstrategie",
+  "modules": [
+    "breadcrumb",
+    "hero",
+    "sticky-patch",
+    "section-title",
+    "iframe",
+    "accordion",
+    "table",
+    "text-media"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "958b10794114",
+    "footer": "5a6dd9124f68",
+    "css": "76952abe790c"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Fraport Aktie",
+    "description": "Entdecken Sie alle wichtigen Informationen zur Fraport Aktie: aktuelle Kurse, Finanzberichte und News rund um das börsennotierte Unternehmen Fraport AG. Erfahren Sie mehr über unsere starke Performance, nachhaltige Entwicklung und die Zukunftschancen eines global agierenden Flughafenbetreibers.",
+    "canonical": "https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie.html",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Fraport Aktie",
+    "description": "Entdecken Sie alle wichtigen Informationen zur Fraport Aktie: aktuelle Kurse, Finanzberichte und News rund um das börsennotierte Unternehmen Fraport AG. Erfahren Sie mehr über unsere starke Performance, nachhaltige Entwicklung und die Zukunftschancen eines global agierenden Flughafenbetreibers.",
+    "url": "https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie.html"
+  },
+  "migratedAt": "2026-11-19T21:06:19Z",
+  "designMdSha": "770f7402a0d2",
+  "designJsonSha": "5cb9dcabc182",
+  "sourceCurrentSha": "0b72dd278d80",
+  "sourceProposedSha": "dde24d977c84",
+  "fidelityTier": "sibling",
+  "archetypeSource": "de-konzern-konzernstrategie",
+  "archetypeSha": "da7fda652208",
+  "variants": [
+    "hero.full-width"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "content-count",
+    "variance-probe",
+    "delivery-lint",
+    "pixel-gate-1440",
+    "pixel-gate-360",
+    "media-reconcile"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "content-diff capture vs render looks-same 0 / nothing-lost 0 (ccp1-count2); delivered plain.html one h1, 0 about:error",
+    "content-count": "content-diff ccp1-count2 Tiers looks-same 0 nothing-lost 0",
+    "variance-probe": "stardust/.work/rollout/cluster-content-page-1/variance.json (exit 2, deltas budgeted as variants)",
+    "pixel-gate-1440": "OPEN: no row in the pixel table (prototypes-1440) — run gate-all.mjs --stage prototype so the page is measured",
+    "pixel-gate-360": "OPEN: no row in the pixel table (prototypes-360) — run gate-all.mjs --stage prototype so the page is measured",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /de/investoren/fraport-aktie)",
+    "media-reconcile": "media-reconcile content/de/investoren/fraport-aktie.html: 2 hosted (media-ledger), 0 unresolved"
+  },
+  "contentDeviations": [
+    {
+      "kind": "link-rewrite",
+      "source": "iframe https://www.fraport.com/chart/fraport/German",
+      "target": "https://charts3.equitystory.com/chart/fraport/German",
+      "reason": "the source URL 301s to equitystory and its frame-ancestors only admits *.fraport.com; the redirect target frames anywhere"
+    }
+  ],
+  "assetsBundled": 85,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fraport.com/en.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/vorstand.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/aufsichtsrat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/diversity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/zahlen--daten-und-fakten1.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/arbeitsschutzmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/qualitaetsmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/safety-management-system.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/kultur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/bildung-und-soziales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/sponsoring-und-spenden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/Veranstaltungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/rundfahrten-fuer-vereine-im-nachbarschaftsrahmen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/Newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/open-pitch-day.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/ai-fraport.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/robotikstrategie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flug--und-terminalbetrieb.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenlieferungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenfeuerwehr.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/ground-services-equipment.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/unternehmenssicherheit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenentgelte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/medical-center.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/flughafenausweise.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/fahrerausbildung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/parken---mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/personalbuslinien.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/geschaeftspartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/real-estate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/retailing---advertising.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/it-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/real-estate/vermietung/schliessanlagenverwaltung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/real-estate/energiemanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau/flughafenausbau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau/wirtschaftsfaktor-flughafen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau/hessens-tor-zur-welt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/verkehrszahlen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/hauptversammlung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/creditor-relations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/corporate-governance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/indizes-und-ratings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/corporate-governance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung/lieferkettensorgfaltspflichtengesetz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/stakeholder-dialog1.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/selbstverpflichtungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/indizes-und-ratings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/parken---mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/gesellschaft.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/gesellschaft.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte/arbeitsmedizin--praevention-und-gesundheitsmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte/konzernarbeitsschutz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/arbeitsschutzmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/bildung-und-soziales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/diversity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/aktuelles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/retailnews.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/pressemappe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank/desktop-wallpapers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank/smartphone-wallpapers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank/nutzungsbedingungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme/flugzeugabfertigung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme/sicherer-flugbetrieb.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/frafacts.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial/nutzungsbedingungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenfeuerwehr/75-jahre-jubilaeum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_01062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_01062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_02062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_02062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_03062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_03062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_04062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_04062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_05062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_05062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_08062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_08062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_09062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_09062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2026/ISIN_DE0005773303_10062026_2026.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_10062026_2026.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__06-02_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__06-02_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__06-03_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__06-03_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__06-04_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__06-04_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__06-05_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__06-05_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__06-06_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__06-06_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__10-06_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__10-06_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__11-06_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__11-06_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__12-06_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__12-06_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2025/ISIN_DE0005773303__13-06_2025.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__13-06_2025.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-07.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-07.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-08.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-08.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-09.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-09.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-10.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-10.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-13.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-13.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-14.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-14.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-15.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-15.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-16.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-16.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-17.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-17.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_05.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_05.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_06.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_06.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_07.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_07.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_08.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_08.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_09.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_09.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_12.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_12.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_13.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_13.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_14.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_14.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2023/ISIN_DE0005773303_2023_06_15.pdf/_jcr_content/renditions/original./ISIN_DE0005773303_2023_06_15.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-07.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-07.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-08.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-08.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-09.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-09.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-10.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-10.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-13.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-13.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-14.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-14.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-15.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-15.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-16.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-16.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2022/ISIN_DE0005773303__2022-06-17.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2022-06-17.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-04.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-04.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-07.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-07.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-08.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-08.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-09.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-09.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-10.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-10.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-11.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-11.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-14.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-14.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-15.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-15.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2021/ISIN_DE0005773303__2021-06-16.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2021-06-16.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-05-28.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-05-28.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-05-29.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-05-29.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-02.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-02.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-03.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-03.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-03.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-03.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-05.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-05.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-08.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-08.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-09.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-09.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2020/ISIN_DE0005773303__2020-06-10.pdf/_jcr_content/renditions/original./ISIN_DE0005773303__2020-06-10.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-03.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-03.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-04.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-04.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-05.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-05.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-06.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-06.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-07.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-07.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-11.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-11.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-12.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-12.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-13.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-13.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2019/isin_de0005773303__2019-06-14.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2019-06-14.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-05-30.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-05-30.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-05-31.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-05-31.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-01.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-01.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-04.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-04.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-05.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-05.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-06.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-06.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-07.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-07.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-08.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-08.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-11.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-11.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/content/dam/fraport-company/documents/investoren/fraport-aktie/2018/isin_de0005773303__2018-06-12.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/isin_de0005773303__2018-06-12.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/kontaktformular-fraport-ag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html#fluglaerm_flugbetrieb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/datenschutz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/tools/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/tools/disclaimer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/investoren/fraport-aktie.html",
+  "outputPathDefault": null,
+  "sidecar": "de/investoren/fraport-aktie._meta.json",
+  "driverVersion": "1"
+}

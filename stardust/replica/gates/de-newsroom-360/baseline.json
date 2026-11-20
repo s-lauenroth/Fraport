@@ -1,0 +1,60 @@
+{
+  "writtenBy": "skills/replica/scripts/reference.mjs freeze",
+  "schema": 1,
+  "capturedAt": "2026-11-19T17:45:58.563Z",
+  "url": "https://www.fraport.com/de/newsroom.html",
+  "width": 360,
+  "vh": 900,
+  "height": 12499,
+  "settle": true,
+  "chunks": 14,
+  "fontsFailed": [],
+  "deadFaces": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 4,
+    "late": 0
+  },
+  "primed": true,
+  "prime": {
+    "height": 12499,
+    "pct": 0,
+    "heightDelta": 0
+  },
+  "captures": 2,
+  "heights": [
+    12499,
+    12499
+  ],
+  "noiseFloor": 0,
+  "heightSpread": 0,
+  "outside": 0,
+  "variable": [
+    {
+      "y": 5512,
+      "h": 36,
+      "pct": 1.7
+    }
+  ],
+  "variableShare": 0.29,
+  "maskArg": "5512:36",
+  "stable": true,
+  "reason": null,
+  "frozenAt": "2026-11-19T17:46:42.907Z",
+  "flags": {
+    "consent": null,
+    "dismiss": null,
+    "noDismiss": false,
+    "locale": null,
+    "vh": null,
+    "headed": false
+  },
+  "thresholds": {
+    "floorMax": 1,
+    "heightMax": 8,
+    "variableMax": 50,
+    "band": 20,
+    "bandMin": 0.5,
+    "pad": 8
+  }
+}

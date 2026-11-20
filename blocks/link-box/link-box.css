@@ -1,0 +1,131 @@
+/* link-box (frach-m-link-box, editorial): shadowed white panel — grey h6 title, arrow link list,
+   stacked primary CTAs. CTAs sit side by side (2 x 50%) from 720 to 1279, stacked otherwise. */
+.link-box {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 24px;
+  background: var(--white);
+  box-shadow: 0 0 16px 0 var(--grey-300);
+}
+
+.link-box .link-box-title {
+  margin-top: 24px;
+  color: var(--grey-600);
+}
+
+.link-box .link-box-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.link-box .link-box-body p {
+  margin: 24px 0 0;
+}
+
+.link-box .link-box-list {
+  margin: 24px 0 0;
+}
+
+.link-box .link-box-list :is(ul, ol) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link-box .link-box-list li {
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.link-box .link-box-list li::before {
+  content: none;
+}
+
+.link-box .link-box-list li:last-child {
+  margin-bottom: 0;
+}
+
+.link-box .link-box-list a:any-link {
+  display: inline-flex;
+  align-items: baseline;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.link-box .link-box-icon {
+  flex: none;
+  align-self: flex-start;
+  width: 16px;
+  height: 16px;
+  margin: 4px 8px 0 0;
+  fill: currentcolor;
+}
+
+.link-box .link-box-ctas {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.link-box .link-box-ctas p {
+  margin: 0 0 16px;
+}
+
+.link-box .link-box-ctas p:last-child {
+  margin-bottom: 0;
+}
+
+.link-box .link-box-ctas a.button:any-link {
+  display: flex;
+  margin: 0;
+}
+
+.link-box .link-box-ctas a.button::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+@media (width >= 720px) {
+  .link-box .link-box-ctas {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+
+  .link-box .link-box-ctas p {
+    margin: 0 12px;
+    width: calc(50% - 12px);
+  }
+}
+
+@media (width >= 1280px) {
+  .link-box {
+    padding: 0 32px 32px;
+  }
+
+  .link-box .link-box-title,
+  .link-box .link-box-list,
+  .link-box .link-box-body p {
+    margin-top: 32px;
+  }
+
+  .link-box .link-box-ctas {
+    flex-direction: column;
+    margin: 32px 0 0;
+  }
+
+  .link-box .link-box-ctas p {
+    margin: 0 0 16px;
+    width: 100%;
+  }
+}

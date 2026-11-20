@@ -1,0 +1,669 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/de-konzern-360/vdiff-iter1/
+
+build red flags (advisory): 
+  • HEADING FACE ×3: "fraport-sans-semi-bold-italic" → "Liberation Sans" on every differing heading (source → build). A matched heading at another size or family — match the source; a deliberate font substitution is one ×N line, justify it once.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 5688,
+  "textLen": 1892,
+  "images": [],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "KONZERN",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "FRA History",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "28px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h1",
+    "text": "NOCH MEHR FRAPORT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "fraport-sans-semi-bold-italic",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "frach-grid-row",
+    "width": 352,
+    "left": 4
+   },
+   {
+    "sel": "stickyPatch",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "frach-m-teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-card__meta",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-card__meta",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "cmp-text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-testimonial__image-container",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-testimonial__quote",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "frach-m-image-gallery-tiles",
+    "width": 360,
+    "left": 0
+   },
+   {
+    "sel": "frach-grid-col-mq1-12",
+    "width": 328,
+    "left": 16
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6480,
+  "textLen": 1928,
+  "images": [
+   {
+    "src": "adobestock_820224120_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "keyvisual_connecting-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_859160446_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb_20220228_02901-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fraport-verkehrszahlen-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb290615_007-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_03_2023_m__1020-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_494618834_1920px-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "infofilme-687x386.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_20170614__m__9773-687x386.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "directions-479x205.jpg",
+    "natural": "480x205",
+    "rendered": "360x154",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "75_jahre_feuerwehr_1920x1080-orig.jpg",
+    "natural": "1920x1080",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "luftaufnahmen_2023-448x448.jpg",
+    "natural": "448x448",
+    "rendered": "328x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "am_01262018_3475_1920px-448x448.jpg",
+    "natural": "448x448",
+    "rendered": "328x328",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "empfang_der_europaflieger_1928_-icarus_ii-2734x1538.jpg",
+    "natural": "2734x1538",
+    "rendered": "328x185",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "1972_neues-terminal-und-teifbahn-eroeffnet-jpg-448x252.jpg",
+    "natural": "449x252",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2002_ausbau-frankfurt-flughafen-beginn-448x252.jpg",
+    "natural": "448x252",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alten-empfangsgebaeude-448x252.jpg",
+    "natural": "448x252",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "super_constellation-448x252.jpg",
+    "natural": "448x253",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "pushout_jumbo-448x252.jpg",
+    "natural": "448x253",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "parkplaetze-t1-448x252.jpg",
+    "natural": "448x252",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "historie-448x252.jpg",
+    "natural": "448x252",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "alten-empfangsgebaeude_besuchergarten-448x252.jpg",
+    "natural": "448x252",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "vorfeldbetrieb-orig.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "adobestock_738523483_1920px-447x251.jpg",
+    "natural": "447x251",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero-447x251.png",
+    "natural": "447x251",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "kontakt2-orig.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "notizbuch-5400x3038.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2026_11_12_pm_fraport-verkehrszahlen_im_oktober_2026_-_kopie-1800x1013.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "reb_20240131_1783_1920px-orig.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "2025_4233_emotion_kinder-orig.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bande_bickenbach-orig.jpg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "KONZERN",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "75 Jahre Flughafenfeuerwehr",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Vorstand und Management",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Connecting the world with tomorr",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Fraport weltweit",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Vielfalt stärkt Fraport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Safety Management",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Bildung und Soziales",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Über uns",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Unternehmensführung",
+    "color": "rgb(0, 0, 145)",
+    "fontSize": "20px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "Weitere Informationen über den F",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "FRA History",
+    "color": "rgb(105, 112, 116)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h2",
+    "text": "NOCH MEHR FRAPORT",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "28px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Digitalisierung und Digital Fact",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Flughafen Ljubljana",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport Passenger Services GmbH",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Publikationen & Termine",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Rechnung für Sponsoring und Spen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Richtlinien und Zahlungsbedingun",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sicher unterwegs auf Vorfeld und",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sponsoring-Anfrage digital einre",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Fraport-Verkehrszahlen im Oktobe",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Aufsichtsrat",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Umwelt und Klimaschutz",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Förderung für Ihr gemeinnütziges",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Trikotsponsoring digital beantra",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Sponsoring und Spenden",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "Ihre Kontakte für Presseanfragen",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   },
+   {
+    "tag": "h3",
+    "text": "AI@Fraport",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18px",
+    "family": "Liberation Sans",
+    "fontLoaded": true
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "row",
+    "width": 352,
+    "left": 4
+   },
+   {
+    "sel": "teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "card__text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "card__text",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "link-box__ctas",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "rte",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "testimonial__quote",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "row",
+    "width": 352,
+    "left": 4
+   },
+   {
+    "sel": "teaser",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "teaser",
+    "width": 328,
+    "left": 16
+   }
+  ]
+ }
+}

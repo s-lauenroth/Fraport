@@ -1,0 +1,90 @@
+/* breadcrumb (frach-m-breadcrumb-navigation): white 64/72px bar under the header. < 720 a single
+   "back" link (chevron-left + parent label); >= 720 the trail, chevron-right separators, the
+   current page grey and inert. Sits between <header> and <main> (moved by the block). */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  overflow: hidden;
+  background: var(--white);
+}
+
+.breadcrumb > .container {
+  flex: 1 1 auto;
+}
+
+.breadcrumb .breadcrumb-nav {
+  position: relative;
+}
+
+.breadcrumb .breadcrumb-back,
+.breadcrumb .breadcrumb-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  font-family: var(--ff-semibold);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: var(--primary-500);
+  text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-label {
+  white-space: nowrap;
+}
+
+.breadcrumb .breadcrumb-list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumb .breadcrumb-item {
+  margin: 0 6px 0 0;
+}
+
+.breadcrumb .breadcrumb-item:last-child {
+  margin-right: 0;
+}
+
+.breadcrumb .breadcrumb-item:last-child .breadcrumb-link {
+  color: var(--grey-600);
+  pointer-events: none;
+}
+
+.breadcrumb .breadcrumb-icon {
+  flex: none;
+  fill: currentcolor;
+}
+
+.breadcrumb .breadcrumb-link .breadcrumb-icon {
+  width: 10px;
+  height: 10px;
+  margin-left: 6px;
+  color: var(--grey-600);
+}
+
+.breadcrumb .breadcrumb-back .breadcrumb-icon {
+  width: 16px;
+  height: 16px;
+  margin: 0 6px 0 0;
+  color: var(--primary-500);
+}
+
+@media (width >= 720px) {
+  .breadcrumb .breadcrumb-list {
+    display: inline-flex;
+  }
+
+  .breadcrumb .breadcrumb-back {
+    display: none;
+  }
+}
+
+@media (width >= 1280px) {
+  .breadcrumb {
+    height: 72px;
+  }
+}

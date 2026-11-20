@@ -1,0 +1,146 @@
+/* accordion (frach-m-accordion): ruled rows, primary label + chevron toggle; the panel opens
+   via grid-rows 0fr -> 1fr. Column 10/12 offset 1 from 960. Panels hold the adopted blocks
+   (text-media, image, columns). CSS-only toggle on a visually hidden checkbox, as the source. */
+main > .section > .accordion-wrapper:has(+ .accordion-wrapper) {
+  margin-bottom: 0;
+}
+
+.accordion .accordion-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion .accordion-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+.accordion .accordion-toggle {
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px 8px 24px 0;
+  color: var(--primary-500);
+  text-align: left;
+  hyphens: auto;
+  user-select: none;
+  font-family: var(--ff-semibold);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.accordion .accordion-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+.accordion .accordion-label {
+  overflow-wrap: anywhere;
+}
+
+.accordion .accordion-label p {
+  display: block;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.accordion .accordion-icon {
+  width: 24px;
+  min-width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-left: 19px;
+  transition: transform 0.3s;
+}
+
+.accordion .accordion-toggle:hover {
+  color: var(--primary-700);
+}
+
+.accordion .accordion-toggle:hover .accordion-label {
+  text-decoration: underline;
+}
+
+.accordion .accordion-toggle:active {
+  color: var(--primary-800);
+}
+
+.accordion .accordion-input:focus-visible + .accordion-toggle .accordion-label {
+  box-shadow: 0 2px 0 0 var(--primary-500);
+}
+
+.accordion .accordion-input:checked + .accordion-toggle .accordion-icon {
+  transform: rotate(180deg);
+}
+
+.accordion .accordion-panel {
+  display: grid;
+  grid-template-rows: 0fr;
+  margin: 0 -16px;
+  visibility: hidden;
+  transition: grid-template-rows 0.3s ease-in-out, visibility 0s 0.3s;
+}
+
+.accordion .accordion-input:checked ~ .accordion-panel {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  transition: grid-template-rows 0.3s ease-in-out, visibility 0s;
+}
+
+.accordion .accordion-inner {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.accordion .accordion-inner > * {
+  margin-bottom: var(--component-margin);
+}
+
+.accordion .accordion-inner > :first-child > :first-child {
+  padding-top: 8px;
+}
+
+.accordion .accordion-inner .columns.grey {
+  background: var(--grey-050);
+  padding: var(--component-padding) 0 0;
+}
+
+@media (width >= 720px) {
+  .accordion .accordion-panel {
+    margin: 0 -24px;
+  }
+}
+
+@media (width >= 960px) {
+  .accordion .row > .accordion-col {
+    flex-basis: calc(83.3333% - var(--gutter));
+    max-width: calc(83.3333% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+}
+
+@media (width >= 1280px) {
+  .accordion .accordion-panel {
+    margin: 0 -32px;
+  }
+}
+
+/* adopted text-media in a panel (source .frach-m-accordion__section-content text column): 10 of
+   the panel's 12 cols, offset 1, >= 1440 — content-page siblings (third / full-width text-media;
+   the archetype's half text-media keep their float layout) */
+@media (width >= 1440px) {
+  .accordion .accordion-inner .text-media:not(.half) .row > :is(.text-media-text, .text-media-headline) {
+    flex-basis: 83.3333%;
+    max-width: 83.3333%;
+    margin-left: 8.3333%;
+  }
+}

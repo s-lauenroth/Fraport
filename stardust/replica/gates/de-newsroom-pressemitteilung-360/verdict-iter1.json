@@ -1,0 +1,57 @@
+{
+  "round": "iter1",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/de-newsroom-pressemitteilung-360/diff-iter1.png",
+    "json": "stardust/replica/gates/de-newsroom-pressemitteilung-360/pixel-iter1.json",
+    "pct": 4.12,
+    "alignedPct": 1.26,
+    "alignedUsed": true,
+    "totalShift": 24,
+    "steps": [
+      {
+        "y": 3825,
+        "shift": -24,
+        "cumulative": -24
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 1 step(s), 24px total — −24px at y=3825 (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T17:40:08.768Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-pressemitteilung-360/content-diff-iter1.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-pressemitteilung-360/visual-diff-iter1.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/de-newsroom-pressemitteilung-360/chrome-parity-iter1.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-pressemitteilung-360/clip-iter1.txt"
+    },
+    "unit-geometry": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-pressemitteilung-360/units-iter1.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 2,
+  "at": "2026-11-19T17:41:35.003Z"
+}

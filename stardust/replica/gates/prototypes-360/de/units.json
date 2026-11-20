@@ -1,0 +1,2266 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T18:12:35.659Z",
+  "tol": 4,
+  "n": 3,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de.html",
+  "at": "2026-11-19T17:05:23.512Z",
+  "docH": 10993
+ },
+ "eds": {
+  "url": "http://localhost:8791/de-proposed.html",
+  "at": "2026-11-19T18:12:35.545Z",
+  "docH": 10985
+ },
+ "results": [
+  {
+   "sel": "frach-m-teaser-slider:not(.frach-m-related-content) .frach-m-teaser=.teaser-slider--quicklinks .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 11,
+   "edsMatches": 11,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider__slides > div.slider__slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:betrieb",
+       "role": "text",
+       "text": "betrieb",
+       "edsText": "betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p.teaser__theme",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:75 jahre flughafenfeuerwehr",
+       "role": "heading",
+       "text": "75 jahre flughafenfeuerwehr",
+       "edsText": "75 jahre flughafenfeuerwehr",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h2.teaser__headline.h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:75 jahre flughafenfeuerwehr",
+       "role": "link",
+       "text": "75 jahre flughafenfeuerwehr",
+       "edsText": "75 jahre flughafenfeuerwehr",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 242,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 242,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 404,
+       "w": 328,
+       "h": 106
+      },
+      "eds": {
+       "x": 16,
+       "y": 404,
+       "w": 328,
+       "h": 106
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider__slides > div.slider__slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:ausbau und entwicklung flughafen",
+       "role": "text",
+       "text": "ausbau und entwicklung flughafen",
+       "edsText": "ausbau und entwicklung flughafen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p.teaser__theme",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:terminal 3: ein neues kapitel für den fl",
+       "role": "heading",
+       "text": "terminal 3: ein neues kapitel für den flughafen frankfurt",
+       "edsText": "terminal 3: ein neues kapitel für den flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 52,
+        "sel": "h2.teaser__headline.h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:terminal 3: ein neues kapitel für den fl",
+       "role": "link",
+       "text": "terminal 3: ein neues kapitel für den flughafen frankfurt",
+       "edsText": "terminal 3: ein neues kapitel für den flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 302,
+        "h": 50
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 302,
+        "h": 50,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 510,
+       "w": 328,
+       "h": 132
+      },
+      "eds": {
+       "x": 16,
+       "y": 510,
+       "w": 328,
+       "h": 132
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider__slides > div.slider__slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:digitalisierung",
+       "role": "text",
+       "text": "digitalisierung",
+       "edsText": "digitalisierung",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p.teaser__theme",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:ai@fraport",
+       "role": "heading",
+       "text": "ai@fraport",
+       "edsText": "ai@fraport",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h2.teaser__headline.h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:ai@fraport",
+       "role": "link",
+       "text": "ai@fraport",
+       "edsText": "ai@fraport",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 95,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 95,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 642,
+       "w": 328,
+       "h": 106
+      },
+      "eds": {
+       "x": 16,
+       "y": 642,
+       "w": 328,
+       "h": 106
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 3,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 24,
+   "edsMatches": 24,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider__slides > div.slider__slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:rising sun behind the planet. created wi",
+       "role": "image",
+       "text": "rising sun behind the planet. created with generative ai tec",
+       "edsText": "rising sun behind the planet. created with generative ai tec",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:konzern, image, nachhaltigkeit, innovati",
+       "role": "text",
+       "text": "konzern, image, nachhaltigkeit, innovation, fraport.2030",
+       "edsText": "konzern, image, nachhaltigkeit, innovation, fraport.2030",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 233,
+        "w": 328,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 233,
+        "w": 328,
+        "h": 48,
+        "sel": "p.teaser__theme",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:konzernstrategie",
+       "role": "heading",
+       "text": "konzernstrategie",
+       "edsText": "konzernstrategie",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 289,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 289,
+        "w": 328,
+        "h": 26,
+        "sel": "h3.teaser__headline.h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:konzernstrategie",
+       "role": "link",
+       "text": "konzernstrategie",
+       "edsText": "konzernstrategie",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 290,
+        "w": 141,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 290,
+        "w": 141,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 339,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 339,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.button--tertiary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 49,
+       "y": 343,
+       "w": 16,
+       "h": 16,
+       "absY": 2827,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2484,
+       "w": 328,
+       "h": 387
+      },
+      "eds": {
+       "x": 16,
+       "y": 2484,
+       "w": 328,
+       "h": 387
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider__slides > div.slider__slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:unternehmenszentrale",
+       "role": "image",
+       "text": "unternehmenszentrale",
+       "edsText": "unternehmenszentrale",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:historie, zahlen, daten und fakten, vors",
+       "role": "text",
+       "text": "historie, zahlen, daten und fakten, vorstand",
+       "edsText": "historie, zahlen, daten und fakten, vorstand",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 233,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 233,
+        "w": 328,
+        "h": 24,
+        "sel": "p.teaser__theme",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:über uns",
+       "role": "heading",
+       "text": "über uns",
+       "edsText": "über uns",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 265,
+        "w": 328,
+        "h": 26,
+        "sel": "h3.teaser__headline.h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:über uns",
+       "role": "link",
+       "text": "über uns",
+       "edsText": "über uns",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 266,
+        "w": 73,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 266,
+        "w": 73,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 315,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.button--tertiary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 49,
+       "y": 319,
+       "w": 16,
+       "h": 16,
+       "absY": 3189,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2871,
+       "w": 328,
+       "h": 363
+      },
+      "eds": {
+       "x": 16,
+       "y": 2871,
+       "w": 328,
+       "h": 363
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider__slides > div.slider__slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "text:investoren, konzern",
+       "role": "text",
+       "text": "investoren, konzern",
+       "edsText": "investoren, konzern",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 328,
+        "h": 24,
+        "sel": "p.teaser__theme",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:verkehrszahlen",
+       "role": "heading",
+       "text": "verkehrszahlen",
+       "edsText": "verkehrszahlen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26
+       },
+       "eds": {
+        "x": 0,
+        "y": 56,
+        "w": 328,
+        "h": 26,
+        "sel": "h3.teaser__headline.h6",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:verkehrszahlen",
+       "role": "link",
+       "text": "verkehrszahlen",
+       "edsText": "verkehrszahlen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 57,
+        "w": 126,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 57,
+        "w": 126,
+        "h": 24,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 106,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.button--tertiary",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 49,
+       "y": 110,
+       "w": 16,
+       "h": 16,
+       "absY": 3343,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 3233,
+       "w": 328,
+       "h": 154
+      },
+      "eds": {
+       "x": 16,
+       "y": 3233,
+       "w": 328,
+       "h": 154
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "#standort_flughafen .frach-grid-col-mq3-4=.tiles__col",
+   "family": null,
+   "required": true,
+   "originMatches": 6,
+   "edsMatches": 6,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-4"
+     },
+     "eds": {
+      "path": "div.container > div.row > div.tiles__col"
+     },
+     "rows": [
+      {
+       "key": "link:a.frach-m-image__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 184,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:terminal 3 außenansicht",
+       "role": "image",
+       "text": "terminal 3 außenansicht",
+       "edsText": "terminal 3 außenansicht",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 184,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:ausbau, baufortschritt",
+       "role": "text",
+       "text": "ausbau, baufortschritt",
+       "edsText": "ausbau, baufortschritt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 217,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:terminal 3",
+       "role": "heading",
+       "text": "terminal 3",
+       "edsText": "terminal 3",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 257,
+        "w": 328,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 328,
+        "h": 30,
+        "sel": "h5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:terminal 3",
+       "role": "link",
+       "text": "terminal 3",
+       "edsText": "terminal 3",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 258,
+        "w": 121,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 121,
+        "h": 30,
+        "sel": "a.link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 0,
+       "dh": 3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:am 23. april 2026 geht das neue terminal",
+       "role": "text",
+       "text": "am 23. april 2026 geht das neue terminal 3 am flughafen fran",
+       "edsText": "am 23. april 2026 geht das neue terminal 3 am flughafen fran",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 303,
+        "w": 328,
+        "h": 168
+       },
+       "eds": {
+        "x": 0,
+        "y": 302,
+        "w": 328,
+        "h": 168,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 16,
+       "h": 24,
+       "absY": 6502,
+       "hidden": false,
+       "fs": 20,
+       "lh": 30,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.icon.icon-arrow-right",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 256,
+       "w": 16,
+       "h": 24,
+       "absY": 6497,
+       "hidden": false,
+       "fs": 20,
+       "lh": 30,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": "rgb(0, 0, 145)",
+       "position": "static",
+       "key": "box:span.icon.icon-arrow-right#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 6241,
+       "w": 328,
+       "h": 513
+      },
+      "eds": {
+       "x": 16,
+       "y": 6240,
+       "w": 328,
+       "h": 512
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 7,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-4"
+     },
+     "eds": {
+      "path": "div.container > div.row > div.tiles__col"
+     },
+     "rows": [
+      {
+       "key": "link:a.frach-m-image__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 184,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:familie auf aussichtsplattform",
+       "role": "image",
+       "text": "familie auf aussichtsplattform",
+       "edsText": "familie auf aussichtsplattform",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 184,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:engagement, sponsoring",
+       "role": "text",
+       "text": "engagement, sponsoring",
+       "edsText": "engagement, sponsoring",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 217,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:der flughafen in der region",
+       "role": "heading",
+       "text": "der flughafen in der region",
+       "edsText": "der flughafen in der region",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 257,
+        "w": 328,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 328,
+        "h": 30,
+        "sel": "h5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:der flughafen in der region",
+       "role": "link",
+       "text": "der flughafen in der region",
+       "edsText": "der flughafen in der region",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 258,
+        "w": 280,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 280,
+        "h": 30,
+        "sel": "a.link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 0,
+       "dh": 3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:wir unterstützen und fördern insbesonder",
+       "role": "text",
+       "text": "wir unterstützen und fördern insbesondere projekte und einri",
+       "edsText": "wir unterstützen und fördern insbesondere projekte und einri",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 303,
+        "w": 328,
+        "h": 96
+       },
+       "eds": {
+        "x": 0,
+        "y": 302,
+        "w": 328,
+        "h": 96,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 16,
+       "h": 24,
+       "absY": 7014,
+       "hidden": false,
+       "fs": 20,
+       "lh": 30,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.icon.icon-arrow-right",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 256,
+       "w": 16,
+       "h": 24,
+       "absY": 7009,
+       "hidden": false,
+       "fs": 20,
+       "lh": 30,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": "rgb(0, 0, 145)",
+       "position": "static",
+       "key": "box:span.icon.icon-arrow-right#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 6754,
+       "w": 328,
+       "h": 441
+      },
+      "eds": {
+       "x": 16,
+       "y": 6753,
+       "w": 328,
+       "h": 440
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": -1
+     },
+     "summary": {
+      "elements": 7,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-grid > div.frach-grid-row > div.frach-grid-col-mq1-12.frach-grid-col-mq3-4"
+     },
+     "eds": {
+      "path": "div.container > div.row > div.tiles__col"
+     },
+     "rows": [
+      {
+       "key": "link:a.frach-m-image__link#1",
+       "role": "link",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 184,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:offshore windpark",
+       "role": "image",
+       "text": "offshore windpark",
+       "edsText": "offshore windpark",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 329,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 184,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": -1,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:umwelt, klimaschutz",
+       "role": "text",
+       "text": "umwelt, klimaschutz",
+       "edsText": "umwelt, klimaschutz",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 217,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 216,
+        "w": 328,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:co 2 -emissionen konzernweit reduzieren",
+       "role": "heading",
+       "text": "co 2 -emissionen konzernweit reduzieren",
+       "edsText": "co 2 -emissionen konzernweit reduzieren",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 257,
+        "w": 328,
+        "h": 66
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 328,
+        "h": 60,
+        "sel": "h5",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": -6,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:co 2 -emissionen konzernweit reduzieren",
+       "role": "link",
+       "text": "co 2 -emissionen konzernweit reduzieren",
+       "edsText": "co 2 -emissionen konzernweit reduzieren",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 258,
+        "w": 287,
+        "h": 63
+       },
+       "eds": {
+        "x": 0,
+        "y": 256,
+        "w": 328,
+        "h": 60,
+        "sel": "a.link",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": -2,
+       "dw": 41,
+       "dh": -3,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:2",
+       "role": "text",
+       "text": "2",
+       "edsText": "2",
+       "byPosition": false,
+       "origin": {
+        "x": 51,
+        "y": 266,
+        "w": 10,
+        "h": 23
+       },
+       "eds": {
+        "x": 51,
+        "y": 257,
+        "w": 10,
+        "h": 30,
+        "sel": "sub",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -9,
+       "dw": 0,
+       "dh": 7,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "17/30/400",
+        "eds": "17/30/400"
+       }
+      },
+      {
+       "key": "text:mit dem berichtsjahr 2024 hat der frapor",
+       "role": "text",
+       "text": "mit dem berichtsjahr 2024 hat der fraport-konzern sein klima",
+       "edsText": "mit dem berichtsjahr 2024 hat der fraport-konzern sein klima",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 339,
+        "w": 328,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 332,
+        "w": 328,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -7,
+       "dw": 0,
+       "dh": 0,
+       "off": true,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 261,
+       "w": 16,
+       "h": 24,
+       "absY": 7455,
+       "hidden": false,
+       "fs": 20,
+       "lh": 30,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.icon.icon-arrow-right",
+       "text": "",
+       "boxed": true,
+       "x": 0,
+       "y": 256,
+       "w": 16,
+       "h": 24,
+       "absY": 7449,
+       "hidden": false,
+       "fs": 20,
+       "lh": 30,
+       "fw": "400",
+       "color": "rgb(0, 0, 145)",
+       "bg": "rgb(0, 0, 145)",
+       "position": "static",
+       "key": "box:span.icon.icon-arrow-right#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 7194,
+       "w": 328,
+       "h": 453
+      },
+      "eds": {
+       "x": 16,
+       "y": 7193,
+       "w": 328,
+       "h": 446
+      },
+      "dx": 0,
+      "dy": -1,
+      "dw": 0,
+      "dh": -7
+     },
+     "summary": {
+      "elements": 8,
+      "within": 3,
+      "off": 4,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": true
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-key-figures__number=.key-figures__number",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-key-figures__numbers > div.frach-grid-row > div.stock.frach-m-key-figures__number"
+     },
+     "eds": {
+      "path": "div.key-figures__numbers > div.row > div.key-figures__number"
+     },
+     "rows": [
+      {
+       "key": "text:65,60 €",
+       "role": "text",
+       "text": "65,60 €",
+       "edsText": "66,00 €",
+       "byPosition": true,
+       "origin": {
+        "x": 66,
+        "y": 25,
+        "w": 136,
+        "h": 54
+       },
+       "eds": {
+        "x": 66,
+        "y": 24,
+        "w": 136,
+        "h": 56,
+        "sel": "span.key-figures__value",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "text:xetra (fraport ag)",
+       "role": "text",
+       "text": "xetra (fraport ag)",
+       "edsText": "xetra (fraport ag)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 304,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 304,
+        "h": 24,
+        "sel": "span.key-figures__caption",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [
+      {
+       "role": "image",
+       "tag": "svg",
+       "sel": "svg",
+       "text": "",
+       "boxed": false,
+       "x": 198,
+       "y": 29,
+       "w": 45,
+       "h": 45,
+       "absY": 1972,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(223, 73, 97)",
+       "bg": null,
+       "position": "static",
+       "key": "image:svg#1"
+      }
+     ],
+     "extra": [
+      {
+       "role": "box",
+       "tag": "span",
+       "sel": "span.icon.icon-arrow-right",
+       "text": "",
+       "boxed": true,
+       "x": 198,
+       "y": 29,
+       "w": 45,
+       "h": 45,
+       "absY": 1972,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(223, 73, 97)",
+       "bg": "rgb(223, 73, 97)",
+       "position": "static",
+       "key": "box:span.icon.icon-arrow-right#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 28,
+       "y": 1943,
+       "w": 304,
+       "h": 104
+      },
+      "eds": {
+       "x": 28,
+       "y": 1943,
+       "w": 304,
+       "h": 104
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 3,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 1,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-key-figures__numbers > div.frach-grid-row > div.staticNumber.frach-m-key-figures__number"
+     },
+     "eds": {
+      "path": "div.key-figures__numbers > div.row > div.key-figures__number"
+     },
+     "rows": [
+      {
+       "key": "text:80.000",
+       "role": "text",
+       "text": "80.000",
+       "edsText": "80.000",
+       "byPosition": false,
+       "origin": {
+        "x": 102,
+        "y": 25,
+        "w": 124,
+        "h": 54
+       },
+       "eds": {
+        "x": 102,
+        "y": 24,
+        "w": 124,
+        "h": 56,
+        "sel": "span.key-figures__value",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "text:beschäftigte aus 114 nationen sind am fl",
+       "role": "text",
+       "text": "beschäftigte aus 114 nationen sind am flughafen frankfurt be",
+       "edsText": "beschäftigte aus 114 nationen sind am flughafen frankfurt be",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 80,
+        "w": 328,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 80,
+        "w": 328,
+        "h": 48,
+        "sel": "span.key-figures__caption",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2111,
+       "w": 328,
+       "h": 128
+      },
+      "eds": {
+       "x": 16,
+       "y": 2111,
+       "w": 328,
+       "h": 128
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-key-figures__numbers > div.frach-grid-row > div.staticNumber.frach-m-key-figures__number"
+     },
+     "eds": {
+      "path": "div.key-figures__numbers > div.row > div.key-figures__number"
+     },
+     "rows": [
+      {
+       "key": "text:450",
+       "role": "text",
+       "text": "450",
+       "edsText": "450",
+       "byPosition": false,
+       "origin": {
+        "x": 129,
+        "y": 26,
+        "w": 69,
+        "h": 54
+       },
+       "eds": {
+        "x": 129,
+        "y": 25,
+        "w": 69,
+        "h": 56,
+        "sel": "span.key-figures__value",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -1,
+       "dw": 0,
+       "dh": 2,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "40/56/400",
+        "eds": "40/56/400"
+       }
+      },
+      {
+       "key": "text:firmen sind am und für den flughafen tät",
+       "role": "text",
+       "text": "firmen sind am und für den flughafen tätig",
+       "edsText": "firmen sind am und für den flughafen tätig",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 81,
+        "w": 328,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 81,
+        "w": 328,
+        "h": 24,
+        "sel": "span.key-figures__caption",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2263,
+       "w": 328,
+       "h": 105
+      },
+      "eds": {
+       "x": 16,
+       "y": 2263,
+       "w": 328,
+       "h": 105
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 12,
+  "within": 44,
+  "off": 4,
+  "hidden": 0,
+  "missing": 7,
+  "errors": 0,
+  "requiredOff": 11
+ }
+}

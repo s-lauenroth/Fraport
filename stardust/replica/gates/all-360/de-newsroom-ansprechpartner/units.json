@@ -1,0 +1,1631 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:33:22.427Z",
+  "tol": 4,
+  "n": 4,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+  "at": "2026-11-19T22:43:08.119Z",
+  "docH": 6574
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner",
+  "at": "2026-11-19T23:33:22.307Z",
+  "docH": 6574
+ },
+ "results": [
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-2b3d972111 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:presseservice",
+       "role": "text",
+       "text": "presseservice",
+       "edsText": "presseservice",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 102,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 102,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 5685,
+       "w": 328,
+       "h": 73
+      },
+      "eds": {
+       "x": 16,
+       "y": 5685,
+       "w": 328,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-accordion#accordion-2b3d972111 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:behörden am flughafen frankfurt",
+       "role": "text",
+       "text": "behörden am flughafen frankfurt",
+       "edsText": "behörden am flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 266,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 266,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 5758,
+       "w": 328,
+       "h": 73
+      },
+      "eds": {
+       "x": 16,
+       "y": 5758,
+       "w": 328,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-accordion#accordion-2b3d972111 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:rufbereitschaft (für pressevertreter)",
+       "role": "text",
+       "text": "rufbereitschaft (für pressevertreter)",
+       "edsText": "rufbereitschaft (für pressevertreter)",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 277,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 277,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 296,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 5831,
+       "w": 328,
+       "h": 97
+      },
+      "eds": {
+       "x": 16,
+       "y": 5831,
+       "w": 328,
+       "h": 97
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "main .frach-m-contact-list .frach-m-contact > .frach-m-contact=.contact-list .contact-list-card",
+   "family": null,
+   "required": true,
+   "originMatches": 17,
+   "edsMatches": 18,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:iris becker, leitung corporate communica",
+       "role": "image",
+       "text": "iris becker, leitung corporate communications",
+       "edsText": "iris becker, leitung corporate communications",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:iris becker",
+       "role": "heading",
+       "text": "iris becker",
+       "edsText": "iris becker",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26
+       },
+       "eds": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26,
+        "sel": "h3#iris-becker",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:leitung corporate communications und med",
+       "role": "text",
+       "text": "leitung corporate communications und media relations",
+       "edsText": "leitung corporate communications und media relations",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 48
+       },
+       "eds": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 48,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:+49 69 690 - 31581",
+       "role": "link",
+       "text": "+49 69 690 - 31581",
+       "edsText": "+49 69 690 - 31581",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 303,
+        "w": 170,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 304,
+        "w": 166,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 306,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 306,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:i.becker@fraport.de",
+       "role": "link",
+       "text": "i.becker@fraport.de",
+       "edsText": "i.becker@fraport.de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 331,
+        "w": 167,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 332,
+        "w": 163,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 334,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 334,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:www.fraport.com/de",
+       "role": "link",
+       "text": "www.fraport.com/de",
+       "edsText": "www.fraport.com/de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 359,
+        "w": 174,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 360,
+        "w": 170,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 362,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 362,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 777,
+       "w": 328,
+       "h": 403
+      },
+      "eds": {
+       "x": 16,
+       "y": 777,
+       "w": 328,
+       "h": 403
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:christian engel, stellvertretener presse",
+       "role": "image",
+       "text": "christian engel, stellvertretener pressesprecher und themenm",
+       "edsText": "christian engel, stellvertretener pressesprecher und themenm",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:christian engel",
+       "role": "heading",
+       "text": "christian engel",
+       "edsText": "christian engel",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26
+       },
+       "eds": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26,
+        "sel": "h3#christian-engel",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:pressesprecher und themenmanager wirtsch",
+       "role": "text",
+       "text": "pressesprecher und themenmanager wirtschaft und finanzen (in",
+       "edsText": "pressesprecher und themenmanager wirtschaft und finanzen (in",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 48
+       },
+       "eds": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 48,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:+49 69 690 - 30713",
+       "role": "link",
+       "text": "+49 69 690 - 30713",
+       "edsText": "+49 69 690 - 30713",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 303,
+        "w": 170,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 304,
+        "w": 166,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 306,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 306,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:c.engel2@fraport.de",
+       "role": "link",
+       "text": "c.engel2@fraport.de",
+       "edsText": "c.engel2@fraport.de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 331,
+        "w": 173,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 332,
+        "w": 169,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 334,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 334,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:www.fraport.com/de",
+       "role": "link",
+       "text": "www.fraport.com/de",
+       "edsText": "www.fraport.com/de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 359,
+        "w": 174,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 360,
+        "w": 170,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 362,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 362,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1236,
+       "w": 328,
+       "h": 403
+      },
+      "eds": {
+       "x": 16,
+       "y": 1236,
+       "w": 328,
+       "h": 403
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:maria linden",
+       "role": "image",
+       "text": "maria linden",
+       "edsText": "maria linden",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:maria linden",
+       "role": "heading",
+       "text": "maria linden",
+       "edsText": "maria linden",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26
+       },
+       "eds": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26,
+        "sel": "h3#maria-linden",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:stellvertretende pressesprecherin und th",
+       "role": "text",
+       "text": "stellvertretende pressesprecherin und themenmanagerin flug- ",
+       "edsText": "stellvertretende pressesprecherin und themenmanagerin flug- ",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 72
+       },
+       "eds": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 72,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:+49 69 690 - 70557",
+       "role": "link",
+       "text": "+49 69 690 - 70557",
+       "edsText": "+49 69 690 - 70557",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 327,
+        "w": 170,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 328,
+        "w": 166,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 330,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 330,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:m.linden@fraport.de",
+       "role": "link",
+       "text": "m.linden@fraport.de",
+       "edsText": "m.linden@fraport.de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 355,
+        "w": 174,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 356,
+        "w": 170,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 358,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 358,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:www.fraport.com/de",
+       "role": "link",
+       "text": "www.fraport.com/de",
+       "edsText": "www.fraport.com/de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 383,
+        "w": 174,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 384,
+        "w": 170,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 386,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 386,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 1662,
+       "w": 328,
+       "h": 427
+      },
+      "eds": {
+       "x": 16,
+       "y": 1662,
+       "w": 328,
+       "h": 427
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:yi-chun sandy chen",
+       "role": "image",
+       "text": "yi-chun sandy chen",
+       "edsText": "yi-chun sandy chen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 185,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:yi-chun sandy chen",
+       "role": "heading",
+       "text": "yi-chun sandy chen",
+       "edsText": "yi-chun sandy chen",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26
+       },
+       "eds": {
+        "x": 16,
+        "y": 201,
+        "w": 296,
+        "h": 26,
+        "sel": "h3#yi-chun-sandy-chen",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "text:themenmanagerin internationale aktivität",
+       "role": "text",
+       "text": "themenmanagerin internationale aktivitäten",
+       "edsText": "themenmanagerin internationale aktivitäten ​",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 72
+       },
+       "eds": {
+        "x": 16,
+        "y": 239,
+        "w": 296,
+        "h": 72,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:+49 69 690 - 28779",
+       "role": "link",
+       "text": "+49 69 690 - 28779",
+       "edsText": "+49 69 690 - 28779",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 327,
+        "w": 170,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 328,
+        "w": 166,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 330,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 330,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:y.chen@fraport.de",
+       "role": "link",
+       "text": "y.chen@fraport.de",
+       "edsText": "y.chen@fraport.de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 355,
+        "w": 157,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 356,
+        "w": 153,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#2",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 358,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 358,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:www.fraport.com/de",
+       "role": "link",
+       "text": "www.fraport.com/de",
+       "edsText": "www.fraport.com/de",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 383,
+        "w": 174,
+        "h": 24
+       },
+       "eds": {
+        "x": 16,
+        "y": 384,
+        "w": 170,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#3",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 386,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 16,
+        "y": 386,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 2145,
+       "w": 328,
+       "h": 427
+      },
+      "eds": {
+       "x": 16,
+       "y": 2145,
+       "w": 328,
+       "h": 427
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 9,
+      "within": 9,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 7,
+  "within": 42,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

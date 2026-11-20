@@ -1,0 +1,41 @@
+{
+  "round": "iter2",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/de-konzern-360/diff-iter2.png",
+    "json": "stardust/replica/gates/de-konzern-360/pixel-iter2.json",
+    "pct": 0.87,
+    "alignedPct": 0.83,
+    "alignedUsed": true,
+    "totalShift": 2,
+    "steps": [
+      {
+        "y": 4316,
+        "shift": 1,
+        "cumulative": 1
+      },
+      {
+        "y": 4431,
+        "shift": -1,
+        "cumulative": 0
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T17:21:01.676Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T17:29:02.405Z"
+}

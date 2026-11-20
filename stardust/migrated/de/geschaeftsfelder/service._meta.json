@@ -1,0 +1,727 @@
+{
+  "slug": "de-geschaeftsfelder-service",
+  "type": "section-landing",
+  "renderBranch": "A'",
+  "template": "de-konzern",
+  "modules": [
+    "breadcrumb",
+    "hero",
+    "sticky-patch",
+    "cta",
+    "section-title",
+    "cards",
+    "columns",
+    "related-content"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section",
+    "section"
+  ],
+  "canonShas": {
+    "header": "3f22393945b0",
+    "footer": "5a6dd9124f68",
+    "css": "76952abe790c"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Service",
+    "description": "Vielseitige Shops, Restaurants und Bars: Der Flughafen Frankfurt ist ein spannender Marktplatz für Reisende und Besucher und ein Premium-Standort für Handel und Gastronomie. Fraport bietet zahlreiche Dienstleistungen rund um den Flughafen an – von IT-Infrastruktur über Terminalausstattung bis hin zu Bauleistungen. Die Services umfassen auch sicherheitsrelevante Aspekte: Am Flughafen gelten aus Sicherheitsgründen strenge Zugangs- und Zufahrtsregelungen.",
+    "canonical": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service.html",
+    "lang": "de"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Service",
+    "description": "Vielseitige Shops, Restaurants und Bars: Der Flughafen Frankfurt ist ein spannender Marktplatz für Reisende und Besucher und ein Premium-Standort für Handel und Gastronomie. Fraport bietet zahlreiche Dienstleistungen rund um den Flughafen an – von IT-Infrastruktur über Terminalausstattung bis hin zu Bauleistungen. Die Services umfassen auch sicherheitsrelevante Aspekte: Am Flughafen gelten aus Sicherheitsgründen strenge Zugangs- und Zufahrtsregelungen.",
+    "url": "https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service.html"
+  },
+  "migratedAt": "2026-11-19T21:22:43Z",
+  "designMdSha": "770f7402a0d2",
+  "designJsonSha": "5cb9dcabc182",
+  "sourceCurrentSha": "a2b3608fa0cd",
+  "sourceProposedSha": "65173fd84e67",
+  "fidelityTier": "sibling",
+  "archetypeSource": "de-konzern",
+  "archetypeSha": "0a11b20374a5",
+  "variants": [
+    "columns.one-third columns.captions cta.small"
+  ],
+  "gatesPassed": [
+    "content-fidelity",
+    "delivery-lint",
+    "variance-probe",
+    "content-count",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "content-fidelity": "verbatim encode of the A' render (stardust/.work/rollout/cluster-section-landing/build-content.mjs); content-diff capture vs render looks-same 0 / nothing-lost 0",
+    "pixel-gate-1440": "gate-all --only preview 1440 (round 1): 0.41%, dh 0, clip 0, content 0, units 0 — PASS",
+    "pixel-gate-360": "gate-all --only preview 360 (round 1): 0.84%, dh 0, clip 0, content 0, units 0 — PASS",
+    "delivery-lint": "0 P0 · 0 P1 · 1 P2 (delivery-lint --path /de/geschaeftsfelder/service)",
+    "variance-probe": "sibling-variance de-konzern vs 6 siblings at 1440 exit 2: deltas = card count/height and teaser count only (content-driven, no variant class needed; stardust/.work/rollout/cluster-section-landing/variance.json)",
+    "content-count": "content-diff capture vs render: looks-same 1 (MISSING HEADING = span-split artifact, covered by contentDeviations markup) / nothing-lost 0",
+    "media-reconcile": "media-reconcile: 18 hosted (media-ledger), 0 unresolved"
+  },
+  "contentDeviations": [
+    {
+      "kind": "heading-level",
+      "source": "section-title <h1> (NOCH MEHR FRAPORT …), module item headings h5/h6",
+      "target": "<h2> section titles; item headings h2/h3 by outline",
+      "reason": "one <h1> per page (delivery-lint P0); outline as the de-konzern archetype encodes it"
+    },
+    {
+      "kind": "markup",
+      "source": "<h6>…Airport.&nbsp;&nbsp;<br> <span>Ob klassiches …</span></h6>",
+      "target": "<h6>…Airport.&nbsp;&nbsp;<br>Ob klassiches …</h6>",
+      "reason": "inline span wrapper dropped (DA strips spans); same text, same heading — content-diff reads the span as a separate item (MISSING HEADING artifact)"
+    }
+  ],
+  "assetsBundled": 135,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "https://www.fraport.com/en/our-group.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/vorstand.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/aufsichtsrat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/diversity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/zahlen--daten-und-fakten1.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/arbeitsschutzmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/qualitaetsmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/safety-management-system.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/kultur.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/bildung-und-soziales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/sponsoring-und-spenden.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/Veranstaltungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/rundfahrten-fuer-vereine-im-nachbarschaftsrahmen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/Newsletter.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/open-pitch-day.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/ai-fraport.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/robotikstrategie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flug--und-terminalbetrieb.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenlieferungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenfeuerwehr.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/ground-services-equipment.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/unternehmenssicherheit.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenentgelte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/medical-center.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/flughafenausweise.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/fahrerausbildung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/parken---mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/personalbuslinien.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/geschaeftspartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/real-estate.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/retailing---advertising.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/it-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/real-estate/vermietung/schliessanlagenverwaltung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/real-estate/energiemanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau/flughafenausbau.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau/wirtschaftsfaktor-flughafen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/bau/hessens-tor-zur-welt.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/verkehrszahlen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/hauptversammlung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/creditor-relations.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/corporate-governance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/indizes-und-ratings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/ansprechpartner.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/corporate-governance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/compliance.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung/lieferkettensorgfaltspflichtengesetz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/stakeholder-dialog1.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/selbstverpflichtungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/indizes-und-ratings.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/parken---mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/gesellschaft.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/gesellschaft.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte/arbeitsmedizin--praevention-und-gesundheitsmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/Beschaeftigte/konzernarbeitsschutz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/managementsysteme/arbeitsschutzmanagement.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/regionales-engagement/bildung-und-soziales.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/diversity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/aktuelles.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/retailnews.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/pressemappe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank/desktop-wallpapers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank/smartphone-wallpapers.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/bilddatenbank/nutzungsbedingungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme/flugzeugabfertigung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme/sicherer-flugbetrieb.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/frafacts.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial/nutzungsbedingungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/videomaterial.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/infofilme.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenfeuerwehr/75-jahre-jubilaeum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/retailnews.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/parken---mobilitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/retailing---advertising.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/retailing---advertising/airport-retailing.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/retailing---advertising/flughafenwerbung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/fahrerausbildung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/flughafenausweise.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/flughafenausweise/luftsicherheitsschulung.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/it-services.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/geschaeftspartner/einkauf-und-bauvergabe.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities/flughafen-ljubljana.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Passenger-Services-GmbH.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Passenger-Services-GmbH.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport-verkehrszahlen-im-oktober-2026--cargo-waechst---passagie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/newsroom/pressemitteilungen/2026/verkehrszahlen/fraport-verkehrszahlen-im-oktober-2026--cargo-waechst---passagie.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/aufsichtsrat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/aufsichtsrat.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/ai-fraport.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/ai-fraport.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/open-pitch-day.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/digitalisierung/open-pitch-day.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/selbstverpflichtungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung/selbstverpflichtungen.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/diversity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/diversity.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities/lughaefen-poa--for-und-jjd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities/lughaefen-poa--for-und-jjd.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Brasil-SA-Aeroporto-de-Porto-Alegre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Brasil-SA-Aeroporto-de-Porto-Alegre.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Brasil-SA-Aeroporto-de-Fortaleza.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/Fraport-Brasil-SA-Aeroporto-de-Fortaleza.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/ueber-uns/kontaktformular-fraport-ag.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html#fluglaerm_flugbetrieb",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/investoren.html",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "https://www.fraport.com/de/konzern/datenschutz.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/tools/impressum.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/tools/disclaimer.html",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "https://www.fraport.com/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "de/geschaeftsfelder/service.html",
+  "outputPathDefault": null,
+  "sidecar": "de/geschaeftsfelder/service._meta.json",
+  "driverVersion": "1"
+}

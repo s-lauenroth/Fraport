@@ -1,0 +1,67 @@
+{
+ "url": "https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung",
+ "at": "2026-11-19T23:22:02.420Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 3,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 2,
+  "offPage": 60,
+  "textNodes": 197,
+  "controls": 95,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 3,
+   "clipper": "p",
+   "path": "div.slider-slide > div.teaser > div.teaser-text > p",
+   "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+   "cutMin": null,
+   "cutMax": null
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "li.is-current",
+   "path": "div.anchor-list-items > ul > li.is-current > a",
+   "text": "aktuelles",
+   "cutMin": 52,
+   "cutMax": 52
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a",
+   "path": "div.anchor-list-items > ul > li.is-current > a",
+   "text": "aktuelles",
+   "cutMin": 52,
+   "cutMax": 52
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 60,
+   "textNodes": 179,
+   "controls": 86,
+   "total": 0
+  }
+ }
+}

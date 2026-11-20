@@ -1,0 +1,45 @@
+/* anchor-list (frach-m-anchor-list): sticky in-page navigation. >=960: one ruled row of anchors (116px);
+   <960: accordion — current section as the label row, the others listed below. Full-bleed rules via ::before/::after. */
+.anchor-list-wrapper { position: sticky; top: -1px; z-index: 50; }
+.anchor-list { position: sticky; top: -1px; display: flex; background: var(--white); }
+.anchor-list::before, .anchor-list::after {
+  content: ""; position: absolute; display: block; width: 100%; height: 100%;
+  background: var(--white); border-top: 1px solid var(--rule-color); border-bottom: 1px solid var(--rule-color);
+}
+.anchor-list::before { left: -100%; }
+.anchor-list::after { right: -100%; }
+.anchor-list__section { display: flex; flex-direction: column; flex-grow: 1; border-bottom: 1px solid var(--rule-color); }
+.anchor-list__label { color: var(--primary-500); }
+.anchor-list__label[hidden] { display: none; }
+.anchor-list__items { display: flex; flex-direction: column; justify-content: space-between; align-items: stretch; margin: 0; overflow: hidden; }
+.anchor-list__anchor {
+  display: flex; flex-grow: 1; align-items: center; justify-content: flex-start;
+  height: 64px; padding: 8px 0; overflow: hidden;
+  border-top: 1px solid var(--rule-color); color: var(--primary-500);
+}
+.anchor-list__label .anchor-list__anchor { border-top: 0; }
+.anchor-list__anchor:hover { background-color: var(--primary-050); transition: background-color .2s ease-in; }
+.anchor-list__anchor.is-current { display: none; }
+.anchor-list__text { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+.anchor-list__items > .anchor-list__anchor:first-child .anchor-list__text { padding-top: 8px; }
+@media (min-width: 960px) {
+  .anchor-list__section { flex-direction: row; overflow: auto; scrollbar-width: none; }
+  .anchor-list__label { display: none; }
+  .anchor-list__items { flex-direction: row; flex-grow: 1; overflow: visible; }
+  .anchor-list__anchor, .anchor-list__anchor.is-current {
+    display: flex; flex-direction: column; align-items: flex-start; justify-content: center;
+    height: 116px; min-width: 324px; padding: 0 8px 0 68px; border-right: 1px solid var(--rule-color);
+  }
+  .anchor-list__items > :first-child { border-left: 1px solid var(--rule-color); }
+}
+
+.anchor-list__controls[hidden] { display: none; }
+.anchor-list__toggle-icon { display: none; margin-left: auto; margin-right: 19px; }
+/* stuck state (source frach-state-collapsed, set while the bar is pinned): accordion collapsed to the current-section row */
+.anchor-list.is-collapsed::before, .anchor-list.is-collapsed::after { height: 64px; }
+.anchor-list.is-collapsed .anchor-list__section { flex-direction: column; }
+.anchor-list.is-collapsed .anchor-list__label { display: block; }
+.anchor-list.is-collapsed .anchor-list__label .anchor-list__anchor { display: flex; flex-direction: row; align-items: center; height: 64px; min-width: 0; padding: 8px 0; border: 0; }
+.anchor-list.is-collapsed .anchor-list__toggle-icon { display: inline-block; }
+.anchor-list.is-collapsed .anchor-list__items { max-height: 0; visibility: hidden; }
+.anchor-list.is-collapsed.is-open .anchor-list__items { max-height: 100vh; visibility: visible; flex-direction: column; }

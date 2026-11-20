@@ -1,0 +1,41 @@
+{
+  "round": "iter2",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/de-newsroom-pressemitteilung-1440/diff-iter2.png",
+    "json": "stardust/replica/gates/de-newsroom-pressemitteilung-1440/pixel-iter2.json",
+    "pct": 3.98,
+    "alignedPct": 0.54,
+    "alignedUsed": true,
+    "totalShift": 13,
+    "steps": [
+      {
+        "y": 3233,
+        "shift": -7,
+        "cumulative": -7
+      },
+      {
+        "y": 6001,
+        "shift": -6,
+        "cumulative": -13
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 0,
+    "noiseFloor": 0,
+    "reason": "offsets: 2 step(s), 13px total — −7px at y=3233, −6px at y=6001 (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T17:40:20.109Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": ""
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T17:43:40.902Z"
+}

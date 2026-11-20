@@ -1,0 +1,57 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+unit-geometry @ 360px, tol 4px — https://www.fraport.com/de/konzern/konzernstrategie.html vs http://localhost:8791/de-konzern-konzernstrategie-proposed.html
+unit 1 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,2176 328×363 vs served 16,2176 328×363 → Δx 0 Δy 0 Δw 0 Δh 0; 5 elements: 4 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| image "hero.png" | 0,24 329×185 | 0,24 328×185 | 0 | 0 | -1 | 0 | ✓ |
+| heading "flughafen ljubljana" | 0,265 328×26 | 0,265 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "flughafen ljubljana" | 0,266 167×24 | 0,266 167×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,315 65×24 | 0,315 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,319 16×16 | — | | | | | ✗ missing |
+unit 2 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,2538 328×154 vs served 16,2538 328×154 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "fraport passenger services gmbh" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "fraport passenger services gmbh" | 0,57 276×24 | 0,57 276×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 3 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,2692 328×154 vs served 16,2692 328×154 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "luftqualität" | 0,56 328×26 | 0,56 328×26 | 0 | 0 | 0 | 0 | ✓ |
+| link "luftqualität" | 0,57 101×24 | 0,57 101×24 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,106 65×24 | 0,106 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,110 16×16 | — | | | | | ✗ missing |
+unit 4 of related-teaser (required) .frach-m-related-content .frach-m-teaser=.related-content .teaser: origin 16,2846 328×180 vs served 16,2846 328×180 → Δx 0 Δy 0 Δw 0 Δh 0; 4 elements: 3 within 4px, 0 off, 0 hidden, 1 missing, 0 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| heading "rechnung für sponsoring und spenden " | 0,56 328×52 | 0,56 328×52 | 0 | 0 | 0 | 0 | ✓ |
+| link "rechnung für sponsoring und spenden " | 0,57 321×50 | 0,57 321×50 | 0 | 0 | 0 | 0 | ✓ |
+| link "lesen" | 0,132 65×24 | 0,132 65×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 49,136 16×16 | — | | | | | ✗ missing |
+unit 1 of accordion-row (required) .frach-m-accordion__section=.accordion__item: origin 16,1317 328×73 vs served 16,1317 328×73 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "anspruch 2030" | 0,24 117×24 | 0,24 117×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,24 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-chevron-down#1" | — | 296,24 24×24 | | | | | 🟡 extra |
+unit 2 of accordion-row (required) .frach-m-accordion__section=.accordion__item: origin 16,1390 328×73 vs served 16,1390 328×73 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "corporate claim" | 0,24 129×24 | 0,24 129×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,24 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-chevron-down#1" | — | 296,24 24×24 | | | | | 🟡 extra |
+unit 3 of accordion-row (required) .frach-m-accordion__section=.accordion__item: origin 16,1463 328×73 vs served 16,1463 328×73 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "strategische prioritäten" | 0,24 186×24 | 0,24 186×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,24 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-chevron-down#1" | — | 296,24 24×24 | | | | | 🟡 extra |
+unit 4 of accordion-row (required) .frach-m-accordion__section=.accordion__item: origin 16,1536 328×73 vs served 16,1536 328×73 → Δx 0 Δy 0 Δw 0 Δh 0; 2 elements: 1 within 4px, 0 off, 0 hidden, 1 missing, 1 extra
+| element | origin x,y w×h | served x,y w×h | Δx | Δy | Δw | Δh | |
+|---|---|---|---|---|---|---|---|
+| text "werte" | 0,24 46×24 | 0,24 46×24 | 0 | 0 | 0 | 0 | ✓ |
+| image "image:svg#1" | 296,24 24×24 | — | | | | | ✗ missing |
+| box "box:span.icon.icon-chevron-down#1" | — | 296,24 24×24 | | | | | 🟡 extra |
+Units: 8 compared; elements within 17, off 0, hidden 0, missing 8 → FAIL
+json → stardust/replica/gates/de-konzern-konzernstrategie-360/units-iter3.json

@@ -1,0 +1,5 @@
+/* embed (frach-m-embed / third-party iframe): the iframe rendered as the source renders it once consent is given
+   (gate session state) — YouTube (nocookie) players inside grid columns, the walls.io social wall full-bleed (800px).
+   Iframes stay inline as on source (descender gap below). */
+.embed iframe { max-width: 100%; border: 0; }
+.embed--wall iframe { width: 100%; }

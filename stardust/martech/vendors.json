@@ -1,0 +1,62 @@
+{
+ "pages": 8,
+ "vendors": [
+  {
+   "host": "www.fraport.com",
+   "pages": 8,
+   "firstParty": true,
+   "role": null,
+   "class": null,
+   "inCsp": true
+  },
+  {
+   "host": "app.usercentrics.eu",
+   "pages": 8,
+   "firstParty": false,
+   "role": "consent: Usercentrics",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "privacy-proxy.usercentrics.eu",
+   "pages": 8,
+   "firstParty": false,
+   "role": "consent: Usercentrics",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "assets.adobedtm.com",
+   "pages": 8,
+   "firstParty": false,
+   "role": "tag manager: Adobe Launch",
+   "class": "T",
+   "inCsp": false
+  },
+  {
+   "host": "my.walls.io",
+   "pages": 1,
+   "firstParty": false,
+   "role": null,
+   "class": null,
+   "inCsp": false
+  },
+  {
+   "host": "www.youtube-nocookie.com",
+   "pages": 1,
+   "firstParty": false,
+   "role": "video: YouTube",
+   "class": "V",
+   "inCsp": false
+  }
+ ],
+ "inline": {
+  "adobeDataLayer": 8
+ },
+ "cspHosts": [
+  "*.fraport.com",
+  "*.fraport.de",
+  "fraportag.sharepoint.com",
+  "www.fra-spotterforum.de"
+ ]
+}

@@ -1,0 +1,15 @@
+/* section-title (frach-m-section-title): ribbon headline (h3 size) + optional intro paragraph */
+.section-title { position: relative; }
+.section-title--nested { margin-bottom: 24px; }
+.section-title .ribbon { margin: 0; }
+.section-title .body { margin: 0; color: var(--grey-600); }
+.section-title .ribbon + .body { margin-top: 24px; }
+@media (min-width: 960px) {
+  .section-title { margin-left: 24px; }
+  .section-title--nested { margin-bottom: 32px; }
+  .section-title .ribbon { max-width: 50%; }
+  .section-title .ribbon + .body { margin-top: 32px; }
+}
+@media (min-width: 1280px) { .section-title { margin-left: 32px; } }
+/* a nested title sits inside its parent component: no component margin of its own */
+.section > .section-title-wrapper:has(.section-title--nested) { margin-bottom: 0; }

@@ -1,0 +1,57 @@
+{
+  "round": "iter4",
+  "width": 360,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/de-newsroom-360/diff-iter4.png",
+    "json": "stardust/replica/gates/de-newsroom-360/pixel-iter4.json",
+    "pct": 7.14,
+    "alignedPct": 6.83,
+    "alignedUsed": true,
+    "totalShift": 1,
+    "steps": [
+      {
+        "y": 11160,
+        "shift": -1,
+        "cumulative": -1
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 36,
+    "noiseFloor": 0,
+    "reason": null
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T17:45:58.563Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "5512:36"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-360/content-diff-iter4.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-360/visual-diff-iter4.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/de-newsroom-360/chrome-parity-iter4.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/de-newsroom-360/clip-iter4.txt"
+    },
+    "unit-geometry": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/de-newsroom-360/units-iter4.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T18:08:42.330Z"
+}

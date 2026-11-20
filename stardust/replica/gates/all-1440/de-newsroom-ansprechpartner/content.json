@@ -1,0 +1,4838 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T23:36:26.686Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+  "at": "2026-11-19T23:36:03.231Z",
+  "status": 200,
+  "settlePasses": 3,
+  "docH": 4138,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a#header-6260573928-logo",
+    "x": 32,
+    "y": 0,
+    "w": 115,
+    "h": 78,
+    "text": "logo homepage link",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-329237d069-link-1-0",
+    "x": 195,
+    "y": 6,
+    "w": 75,
+    "h": 72,
+    "text": "konzern",
+    "href": "/de/konzern.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-329237d069-link-1-1",
+    "x": 318,
+    "y": 6,
+    "w": 144,
+    "h": 72,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-329237d069-link-1-2",
+    "x": 510,
+    "y": 6,
+    "w": 95,
+    "h": 72,
+    "text": "investoren",
+    "href": "/de/investoren.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-329237d069-link-1-3",
+    "x": 653,
+    "y": 6,
+    "w": 137,
+    "h": 72,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-main-navigation__list > li.frach-m-main-navigation__item > a#navigation-329237d069-link-1-4",
+    "x": 838,
+    "y": 6,
+    "w": 97,
+    "h": 72,
+    "text": "newsroom",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button#navigation-329237d069-search-button",
+    "x": 983,
+    "y": 6,
+    "w": 24,
+    "h": 72,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button#navigation-329237d069-search-button",
+    "x": 983,
+    "y": 6,
+    "w": 24,
+    "h": 72,
+    "label": "suche",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-breadcrumb-navigation__list > li.frach-m-breadcrumb-navigation__item > a.frach-m-breadcrumb-navigation__link.frach-e-button",
+    "x": 32,
+    "y": 103,
+    "w": 98,
+    "h": 24,
+    "text": "fraport ag",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-breadcrumb-navigation__list > li.frach-m-breadcrumb-navigation__item > a.frach-m-breadcrumb-navigation__link.frach-e-button",
+    "x": 136,
+    "y": 103,
+    "w": 95,
+    "h": 24,
+    "text": "newsroom",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.frach-m-breadcrumb-navigation__item > span.frach-m-breadcrumb-navigation__link.frach-e-button > span.frach-m-breadcrumb-navigation__label.frach-e-button__label",
+    "x": 236,
+    "y": 103,
+    "w": 177,
+    "h": 24,
+    "text": "Ansprechpartner Presse"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h6.frach-m-cta__headline.frach-h6",
+    "x": 32,
+    "y": 240,
+    "w": 907,
+    "h": 30,
+    "level": 6,
+    "text": "ansprechpartner für passagiere"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 32,
+    "y": 294,
+    "w": 907,
+    "h": 72,
+    "text": "Die nachfolgenden Kontakte stehen ausschließlich für Presseanfragen zur Verfügun"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-80a83fe5ff",
+    "x": 1243,
+    "y": 239,
+    "w": 165,
+    "h": 52,
+    "text": "zu ihrer airline",
+    "href": "/de/fluege-und-airlines/airlines-a-z.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-8bc09e7402",
+    "x": 1056,
+    "y": 314,
+    "w": 352,
+    "h": 52,
+    "text": "übersicht aller kontakte am flughafen",
+    "href": "/de/kontakt.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h1.frach-h3.frach-e-headline",
+    "x": 64,
+    "y": 430,
+    "w": 672,
+    "h": 128,
+    "level": 1,
+    "text": "ansprechpartner für pressevertreter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 88,
+    "y": 439,
+    "w": 415,
+    "h": 110,
+    "text": "ANSPRECHPARTNER FÜR PRESSEVERTRETER"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 622,
+    "w": 437,
+    "h": 246,
+    "text": "iris becker, leitung corporate communications",
+    "file": "Fraport%20AG_Iris%20Becker-16-9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 56,
+    "y": 892,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "iris becker"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 56,
+    "y": 934,
+    "w": 389,
+    "h": 48,
+    "text": "Leitung Corporate Communications und Media Relations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-231f790576-phone",
+    "x": 56,
+    "y": 998,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 31581",
+    "href": "+49-69-690---31581"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-231f790576-email",
+    "x": 56,
+    "y": 1026,
+    "w": 167,
+    "h": 24,
+    "text": "i.becker@fraport.de",
+    "href": "i.becker@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-231f790576-website",
+    "x": 56,
+    "y": 1054,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 1194,
+    "w": 437,
+    "h": 246,
+    "text": "christian engel, stellvertretener pressesprecher und themenm",
+    "file": "Christian%20Engel-16-9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 56,
+    "y": 1464,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "christian engel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 56,
+    "y": 1506,
+    "w": 389,
+    "h": 48,
+    "text": "Pressesprecher und Themenmanager Wirtschaft und Finanzen (in Elternzeit)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-2c66fbf683-phone",
+    "x": 56,
+    "y": 1570,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 30713",
+    "href": "+49-69-690---30713"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-2c66fbf683-email",
+    "x": 56,
+    "y": 1598,
+    "w": 173,
+    "h": 24,
+    "text": "c.engel2@fraport.de",
+    "href": "c.engel2@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-2c66fbf683-website",
+    "x": 56,
+    "y": 1626,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 501,
+    "y": 1194,
+    "w": 437,
+    "h": 246,
+    "text": "maria linden",
+    "file": "Maria%20Linden"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 525,
+    "y": 1464,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "maria linden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 525,
+    "y": 1506,
+    "w": 389,
+    "h": 48,
+    "text": "Stellvertretende Pressesprecherin und Themenmanagerin Flug- und Terminalbetrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-e510268750-phone",
+    "x": 525,
+    "y": 1570,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 70557",
+    "href": "+49-69-690---70557"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-e510268750-email",
+    "x": 525,
+    "y": 1598,
+    "w": 174,
+    "h": 24,
+    "text": "m.linden@fraport.de",
+    "href": "m.linden@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-e510268750-website",
+    "x": 525,
+    "y": 1626,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 1766,
+    "w": 437,
+    "h": 246,
+    "text": "yi-chun sandy chen",
+    "file": "Yi-Chun%20Sandy%20Chen"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 56,
+    "y": 2036,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "yi-chun sandy chen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 56,
+    "y": 2078,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin internationale Aktivitäten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-f3dad1fe92-phone",
+    "x": 56,
+    "y": 2142,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 28779",
+    "href": "+49-69-690---28779"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-f3dad1fe92-email",
+    "x": 56,
+    "y": 2170,
+    "w": 157,
+    "h": 24,
+    "text": "y.chen@fraport.de",
+    "href": "y.chen@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-f3dad1fe92-website",
+    "x": 56,
+    "y": 2198,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 501,
+    "y": 1766,
+    "w": 437,
+    "h": 246,
+    "text": "angelika heinbuch",
+    "file": "Angelika%20Heinbuch"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 525,
+    "y": 2036,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "angelika heinbuch"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 525,
+    "y": 2078,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Nachhaltigkeit und Retail - Erreichbar Mi. bis Fr."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-de5c0ff36f-phone",
+    "x": 525,
+    "y": 2142,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 28417",
+    "href": "+49-69-690---28417"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-de5c0ff36f-email",
+    "x": 525,
+    "y": 2170,
+    "w": 191,
+    "h": 24,
+    "text": "a.heinbuch@fraport.de",
+    "href": "a.heinbuch@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-de5c0ff36f-website",
+    "x": 525,
+    "y": 2198,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 971,
+    "y": 1766,
+    "w": 437,
+    "h": 246,
+    "text": "dana selin kröll",
+    "file": "Dana%20Selin%20Kr%C3%B6ll"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 995,
+    "y": 2036,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "dana selin kröll"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 995,
+    "y": 2078,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Bodenverkehrsdienste"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-787b8dc87a-phone",
+    "x": 995,
+    "y": 2142,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 31403",
+    "href": "+49-69-690---31403"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-787b8dc87a-email",
+    "x": 995,
+    "y": 2170,
+    "w": 166,
+    "h": 24,
+    "text": "d.kroell@fraport.de",
+    "href": "d.kroell@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-787b8dc87a-website",
+    "x": 995,
+    "y": 2198,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 2274,
+    "w": 437,
+    "h": 246,
+    "text": "andreas mehring",
+    "file": "Andreas%20Mehring"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 56,
+    "y": 2544,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "andreas mehring"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 56,
+    "y": 2586,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanager Terminal 3"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-cd17ac3a47-phone",
+    "x": 56,
+    "y": 2650,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 70553",
+    "href": "+49-69-690---70553"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-cd17ac3a47-email",
+    "x": 56,
+    "y": 2678,
+    "w": 185,
+    "h": 24,
+    "text": "a.mehring@fraport.de",
+    "href": "a.mehring@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-cd17ac3a47-website",
+    "x": 56,
+    "y": 2706,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 501,
+    "y": 2274,
+    "w": 437,
+    "h": 246,
+    "text": "anna-lena ott",
+    "file": "Anna-Lena%20Ott"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 525,
+    "y": 2544,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "anna-lena ott"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 525,
+    "y": 2586,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Cargo und Bodenverkehrsdienste"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-534d05eda4-phone",
+    "x": 525,
+    "y": 2650,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 32785",
+    "href": "+49-69-690---32785"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-534d05eda4-email",
+    "x": 525,
+    "y": 2678,
+    "w": 155,
+    "h": 24,
+    "text": "a.ott3@fraport.de",
+    "href": "a.ott3@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-534d05eda4-website",
+    "x": 525,
+    "y": 2706,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 971,
+    "y": 2274,
+    "w": 437,
+    "h": 246,
+    "text": "jana schäfer",
+    "file": "Jana%20Sch%C3%A4fer"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 995,
+    "y": 2544,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "jana schäfer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 995,
+    "y": 2586,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Infrastruktur - Erreichbar Mo. bis Do."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-7e0b69ce3c-phone",
+    "x": 995,
+    "y": 2650,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 30714",
+    "href": "+49-69-690---30714"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-7e0b69ce3c-email",
+    "x": 995,
+    "y": 2678,
+    "w": 189,
+    "h": 24,
+    "text": "j.schaefer2@fraport.de",
+    "href": "j.schaefer2@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-7e0b69ce3c-website",
+    "x": 995,
+    "y": 2706,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 32,
+    "y": 2782,
+    "w": 437,
+    "h": 246,
+    "text": "andreas schopf",
+    "file": "Andreas%20Schopf"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 56,
+    "y": 3052,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "andreas schopf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 56,
+    "y": 3094,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanager Human Resources (HR) und internationale Aktivitäten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-9dc0b49350-phone",
+    "x": 56,
+    "y": 3158,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 78547",
+    "href": "+49-69-690---78547"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-9dc0b49350-email",
+    "x": 56,
+    "y": 3186,
+    "w": 173,
+    "h": 24,
+    "text": "a.schopf@fraport.de",
+    "href": "a.schopf@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-9dc0b49350-website",
+    "x": 56,
+    "y": 3214,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 501,
+    "y": 2782,
+    "w": 437,
+    "h": 246,
+    "text": "melissa walker",
+    "file": "Melissa%20Walker"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > h6.frach-h6",
+    "x": 525,
+    "y": 3052,
+    "w": 389,
+    "h": 30,
+    "level": 6,
+    "text": "melissa walker"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > p.frach-body",
+    "x": 525,
+    "y": 3094,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin internationale Aktivitäten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-ca387a2e65-phone",
+    "x": 525,
+    "y": 3158,
+    "w": 170,
+    "h": 24,
+    "text": "+49 69 690 - 60466",
+    "href": "+49-69-690---60466"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-ca387a2e65-email",
+    "x": 525,
+    "y": 3186,
+    "w": 176,
+    "h": 24,
+    "text": "m.walker@fraport.de",
+    "href": "m.walker@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-contact > address.frach-m-contact__info > a#contact-ca387a2e65-website",
+    "x": 525,
+    "y": 3214,
+    "w": 174,
+    "h": 24,
+    "text": "www.fraport.com/de",
+    "href": "/de.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label#presseservice-label > span.frach-m-accordion__toggle-label",
+    "x": 149,
+    "y": 3378,
+    "w": 102,
+    "h": 24,
+    "text": "Presseservice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label#accordionrow_1380394980-label > span.frach-m-accordion__toggle-label",
+    "x": 149,
+    "y": 3451,
+    "w": 266,
+    "h": 24,
+    "text": "Behörden am Flughafen Frankfurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label#Rufbereitschaft-label > span.frach-m-accordion__toggle-label",
+    "x": 149,
+    "y": 3524,
+    "w": 280,
+    "h": 24,
+    "text": "Rufbereitschaft (für Pressevertreter)"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 32,
+    "y": 3693,
+    "w": 126,
+    "h": 24,
+    "text": "Ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 32,
+    "y": 3806,
+    "w": 146,
+    "h": 34,
+    "text": "Fraport Sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3840,
+    "w": 57,
+    "h": 44,
+    "text": "konzern",
+    "href": "/de/konzern.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3884,
+    "w": 110,
+    "h": 44,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3928,
+    "w": 73,
+    "h": 44,
+    "text": "investoren",
+    "href": "/de/investoren.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 32,
+    "y": 3972,
+    "w": 104,
+    "h": 44,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 384,
+    "y": 3806,
+    "w": 83,
+    "h": 34,
+    "text": "Aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 384,
+    "y": 3840,
+    "w": 75,
+    "h": 44,
+    "text": "newsroom",
+    "href": "/de/newsroom.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 384,
+    "y": 3884,
+    "w": 118,
+    "h": 44,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 384,
+    "y": 3928,
+    "w": 138,
+    "h": 44,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 736,
+    "y": 3806,
+    "w": 81,
+    "h": 34,
+    "text": "Service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3840,
+    "w": 89,
+    "h": 44,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3884,
+    "w": 76,
+    "h": 44,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3928,
+    "w": 74,
+    "h": 44,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.frach-m-page-footer__link-list-list > li > a.frach-e-link",
+    "x": 736,
+    "y": 3972,
+    "w": 269,
+    "h": 44,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-3.frach-m-page-footer__social > div.frach-m-page-footer__social-link > h5.frach-h5",
+    "x": 1088,
+    "y": 3806,
+    "w": 352,
+    "h": 34,
+    "level": 5,
+    "text": "social media"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 1088,
+    "y": 3856,
+    "w": 352,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1088,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1152,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1216,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1280,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 1088,
+    "y": 3942,
+    "w": 352,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 1088,
+    "y": 3976,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-page-footer__copyright > div.frach-grid-col-mq1-12 > p.frach-meta",
+    "x": 32,
+    "y": 4088,
+    "w": 1376,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.fCuhKw",
+    "x": 40,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "text": "öffnen datenschutz einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 90,
+    "controls": 62,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner",
+  "at": "2026-11-19T23:36:26.582Z",
+  "status": 200,
+  "settlePasses": 3,
+  "docH": 4138,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 32,
+    "y": 0,
+    "w": 115,
+    "h": 78,
+    "text": "startseite",
+    "href": "/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 195,
+    "y": 0,
+    "w": 75,
+    "h": 78,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 318,
+    "y": 0,
+    "w": 144,
+    "h": 78,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 510,
+    "y": 0,
+    "w": 95,
+    "h": 78,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 653,
+    "y": 0,
+    "w": 137,
+    "h": 78,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li > p > a",
+    "x": 838,
+    "y": 0,
+    "w": 97,
+    "h": 78,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-search-slot > p > a.header-search-btn",
+    "x": 983,
+    "y": 27,
+    "w": 24,
+    "h": 24,
+    "text": "suche",
+    "href": "/de/search.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.breadcrumb-list > li.breadcrumb-item > a.breadcrumb-link",
+    "x": 16,
+    "y": 103,
+    "w": 100,
+    "h": 24,
+    "text": "fraport ag",
+    "href": "/de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.breadcrumb-list > li.breadcrumb-item > a.breadcrumb-link",
+    "x": 122,
+    "y": 103,
+    "w": 98,
+    "h": 24,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "ul.breadcrumb-list > li.breadcrumb-item > span.breadcrumb-link",
+    "x": 226,
+    "y": 103,
+    "w": 184,
+    "h": 24,
+    "label": "current",
+    "value": "ansprechpartner presse",
+    "via": "aria-current"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "li.breadcrumb-item > span.breadcrumb-link > span.breadcrumb-label",
+    "x": 226,
+    "y": 103,
+    "w": 184,
+    "h": 24,
+    "text": "Ansprechpartner Presse"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 1356,
+    "y": 816,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h6 > h2#ansprechpartner-für-passagiere",
+    "x": 32,
+    "y": 240,
+    "w": 907,
+    "h": 30,
+    "level": 2,
+    "text": "ansprechpartner für passagiere"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 32,
+    "y": 294,
+    "w": 907,
+    "h": 72,
+    "text": "Die nachfolgenden Kontakte stehen ausschließlich für Presseanfragen zur Verfügun"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 1243,
+    "y": 239,
+    "w": 165,
+    "h": 52,
+    "text": "zu ihrer airline",
+    "href": "/de/fluege-und-airlines/airlines-a-z.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.secondary",
+    "x": 1056,
+    "y": 314,
+    "w": 352,
+    "h": 52,
+    "text": "übersicht aller kontakte am flughafen",
+    "href": "/de/kontakt.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h1#ansprechpartner-für-pressevertreter",
+    "x": 64,
+    "y": 430,
+    "w": 672,
+    "h": 128,
+    "level": 1,
+    "text": "ansprechpartner für pressevertreter"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#ansprechpartner-für-pressevertreter > span.ribbon-line > span.ribbon-text",
+    "x": 88,
+    "y": 439,
+    "w": 415,
+    "h": 110,
+    "text": "ANSPRECHPARTNER FÜR PRESSEVERTRETER"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 32,
+    "y": 622,
+    "w": 437,
+    "h": 246,
+    "text": "iris becker, leitung corporate communications",
+    "file": "media_1ef2c31f26c0627cd8756bfafc28d579e2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#iris-becker",
+    "x": 56,
+    "y": 892,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "iris becker"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 56,
+    "y": 934,
+    "w": 389,
+    "h": 48,
+    "text": "Leitung Corporate Communications und Media Relations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 999,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 31581",
+    "href": "+49-69-690---31581"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 1027,
+    "w": 163,
+    "h": 21,
+    "text": "i.becker@fraport.de",
+    "href": "i.becker@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 1055,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 32,
+    "y": 1194,
+    "w": 437,
+    "h": 246,
+    "text": "christian engel, stellvertretener pressesprecher und themenm",
+    "file": "media_1762b0f4f6168241c2800d09f918964d0d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#christian-engel",
+    "x": 56,
+    "y": 1464,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "christian engel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 56,
+    "y": 1506,
+    "w": 389,
+    "h": 48,
+    "text": "Pressesprecher und Themenmanager Wirtschaft und Finanzen (in Elternzeit)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 1571,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 30713",
+    "href": "+49-69-690---30713"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 1599,
+    "w": 169,
+    "h": 21,
+    "text": "c.engel2@fraport.de",
+    "href": "c.engel2@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 1627,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 501,
+    "y": 1194,
+    "w": 437,
+    "h": 246,
+    "text": "maria linden",
+    "file": "media_15be6afc3a57e6d9edc4aaecdb766d85ca"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#maria-linden",
+    "x": 525,
+    "y": 1464,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "maria linden"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 525,
+    "y": 1506,
+    "w": 389,
+    "h": 48,
+    "text": "Stellvertretende Pressesprecherin und Themenmanagerin Flug- und Terminalbetrieb"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 1571,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 70557",
+    "href": "+49-69-690---70557"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 1599,
+    "w": 170,
+    "h": 21,
+    "text": "m.linden@fraport.de",
+    "href": "m.linden@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 1627,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 32,
+    "y": 1766,
+    "w": 437,
+    "h": 246,
+    "text": "yi-chun sandy chen",
+    "file": "media_1273c235aa07fdaa2a2281cfe9bb30b865"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#yi-chun-sandy-chen",
+    "x": 56,
+    "y": 2036,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "yi-chun sandy chen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 56,
+    "y": 2078,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin internationale Aktivitäten ​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 2143,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 28779",
+    "href": "+49-69-690---28779"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 2171,
+    "w": 153,
+    "h": 21,
+    "text": "y.chen@fraport.de",
+    "href": "y.chen@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 2199,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 501,
+    "y": 1766,
+    "w": 437,
+    "h": 246,
+    "text": "angelika heinbuch",
+    "file": "media_1bf6965108bfb1f9496399155dba972c9d"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#angelika-heinbuch",
+    "x": 525,
+    "y": 2036,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "angelika heinbuch"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 525,
+    "y": 2078,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Nachhaltigkeit und Retail - Erreichbar Mi. bis Fr."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 2143,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 28417",
+    "href": "+49-69-690---28417"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 2171,
+    "w": 187,
+    "h": 21,
+    "text": "a.heinbuch@fraport.de",
+    "href": "a.heinbuch@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 2199,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 971,
+    "y": 1766,
+    "w": 437,
+    "h": 246,
+    "text": "dana selin kröll",
+    "file": "media_15c980603895299d491f88197c2f2eb8ed"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#dana-selin-kröll",
+    "x": 995,
+    "y": 2036,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "dana selin kröll"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 995,
+    "y": 2078,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Bodenverkehrsdienste ​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 995,
+    "y": 2143,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 31403",
+    "href": "+49-69-690---31403"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 995,
+    "y": 2171,
+    "w": 162,
+    "h": 21,
+    "text": "d.kroell@fraport.de",
+    "href": "d.kroell@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 995,
+    "y": 2199,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 32,
+    "y": 2274,
+    "w": 437,
+    "h": 246,
+    "text": "andreas mehring",
+    "file": "media_13fff5a3ff0a13394e7b33bef34bc1ef28"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#andreas-mehring",
+    "x": 56,
+    "y": 2544,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "andreas mehring"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 56,
+    "y": 2586,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanager Terminal 3 ​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 2651,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 70553",
+    "href": "+49-69-690---70553"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 2679,
+    "w": 181,
+    "h": 21,
+    "text": "a.mehring@fraport.de",
+    "href": "a.mehring@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 2707,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 501,
+    "y": 2274,
+    "w": 437,
+    "h": 246,
+    "text": "anna-lena ott",
+    "file": "media_131d332b51eb84229b7ccd6b8a534e675c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#anna-lena-ott",
+    "x": 525,
+    "y": 2544,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "anna-lena ott"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 525,
+    "y": 2586,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Cargo und Bodenverkehrsdienste ​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 2651,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 32785",
+    "href": "+49-69-690---32785"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 2679,
+    "w": 151,
+    "h": 21,
+    "text": "a.ott3@fraport.de",
+    "href": "a.ott3@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 2707,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 971,
+    "y": 2274,
+    "w": 437,
+    "h": 246,
+    "text": "jana schäfer",
+    "file": "media_1ead0d503c0c46eb51184ef4f2d09382cc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#jana-schäfer",
+    "x": 995,
+    "y": 2544,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "jana schäfer"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 995,
+    "y": 2586,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin Infrastruktur - Erreichbar Mo. bis Do."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 995,
+    "y": 2651,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 30714",
+    "href": "+49-69-690---30714"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 995,
+    "y": 2679,
+    "w": 185,
+    "h": 21,
+    "text": "j.schaefer2@fraport.de",
+    "href": "j.schaefer2@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 995,
+    "y": 2707,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 32,
+    "y": 2782,
+    "w": 437,
+    "h": 246,
+    "text": "andreas schopf",
+    "file": "media_197cdadd948755337226a3b33b580482d8"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#andreas-schopf",
+    "x": 56,
+    "y": 3052,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "andreas schopf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 56,
+    "y": 3094,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanager Human Resources (HR) und internationale Aktivitäten"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 3159,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 78547",
+    "href": "+49-69-690---78547"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 3187,
+    "w": 169,
+    "h": 21,
+    "text": "a.schopf@fraport.de",
+    "href": "a.schopf@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 56,
+    "y": 3215,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > div.contact-list-media > img",
+    "x": 501,
+    "y": 2782,
+    "w": 437,
+    "h": 246,
+    "text": "melissa walker",
+    "file": "media_1ba640bb3a3639569de29ec7e24d8212f9"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > h3#melissa-walker",
+    "x": 525,
+    "y": 3052,
+    "w": 389,
+    "h": 30,
+    "level": 3,
+    "text": "melissa walker"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.contact-list-card > address.contact-list-info > p.contact-list-body",
+    "x": 525,
+    "y": 3094,
+    "w": 389,
+    "h": 48,
+    "text": "Themenmanagerin internationale Aktivitäten ​"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 3159,
+    "w": 166,
+    "h": 21,
+    "text": "+49 69 690 - 60466",
+    "href": "+49-69-690---60466"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 3187,
+    "w": 172,
+    "h": 21,
+    "text": "m.walker@fraport.de",
+    "href": "m.walker@fraport.de"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "address.contact-list-info > p.contact-list-link > a",
+    "x": 525,
+    "y": 3215,
+    "w": 170,
+    "h": 21,
+    "text": "www.fraport.com/de",
+    "href": "/de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label#presseservice-label > span.accordion-label > p",
+    "x": 149,
+    "y": 3378,
+    "w": 102,
+    "h": 24,
+    "text": "Presseservice"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label#accordionrow-1380394980-label > span.accordion-label > p",
+    "x": 149,
+    "y": 3451,
+    "w": 266,
+    "h": 24,
+    "text": "Behörden am Flughafen Frankfurt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "label#rufbereitschaft-label > span.accordion-label > p",
+    "x": 149,
+    "y": 3524,
+    "w": 280,
+    "h": 24,
+    "text": "Rufbereitschaft (für Pressevertreter)"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#ansprechpartner",
+    "x": 32,
+    "y": 3693,
+    "w": 126,
+    "h": 24,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 32,
+    "y": 3769,
+    "w": 320,
+    "h": 48,
+    "text": "Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 32,
+    "y": 3827,
+    "w": 320,
+    "h": 24,
+    "text": "60547 Frankfurt am Main"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 32,
+    "y": 3861,
+    "w": 180,
+    "h": 24,
+    "text": "anfahrtsbeschreibung",
+    "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 384,
+    "y": 3770,
+    "w": 272,
+    "h": 21,
+    "text": "Fragen, Lob, Kritik und Anregungen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 384,
+    "y": 3793,
+    "w": 144,
+    "h": 24,
+    "text": "01806 372-4636",
+    "href": "+4918063724636"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 384,
+    "y": 3827,
+    "w": 141,
+    "h": 24,
+    "text": "kontaktformular",
+    "href": "/de/konzern/ueber-uns/kontaktformular-fraport-ag.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > em",
+    "x": 384,
+    "y": 3862,
+    "w": 314,
+    "h": 45,
+    "text": "*20 Cent pro Anruf aus dem deutschen Festnetz, maximal 50 Cent aus dem Mobilfunk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 736,
+    "y": 3770,
+    "w": 199,
+    "h": 21,
+    "text": "Mailadresse für Feedback:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 736,
+    "y": 3793,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "feedback@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 736,
+    "y": 3828,
+    "w": 316,
+    "h": 21,
+    "text": "Mailadresse für Passagier-Informationen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 736,
+    "y": 3851,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "info@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 1088,
+    "y": 3770,
+    "w": 299,
+    "h": 21,
+    "text": "Fluglärm und Maßnahmenprogramme:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 1088,
+    "y": 3793,
+    "w": 295,
+    "h": 24,
+    "text": "kontaktformulare zum themenbereich",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 1088,
+    "y": 3827,
+    "w": 320,
+    "h": 72,
+    "text": "(für Reisende und Beschäftige)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 1088,
+    "y": 3851,
+    "w": 224,
+    "h": 24,
+    "text": "kontakt zum medical center",
+    "href": "medizin@fraport.de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#fraport-sites",
+    "x": 32,
+    "y": 3806,
+    "w": 139,
+    "h": 34,
+    "level": 2,
+    "text": "fraport sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3840,
+    "w": 57,
+    "h": 44,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3884,
+    "w": 110,
+    "h": 44,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3928,
+    "w": 73,
+    "h": 44,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 32,
+    "y": 3972,
+    "w": 104,
+    "h": 44,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#aktuell",
+    "x": 384,
+    "y": 3806,
+    "w": 79,
+    "h": 34,
+    "level": 2,
+    "text": "aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 384,
+    "y": 3840,
+    "w": 75,
+    "h": 44,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 384,
+    "y": 3884,
+    "w": 118,
+    "h": 44,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 384,
+    "y": 3928,
+    "w": 138,
+    "h": 44,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#service",
+    "x": 736,
+    "y": 3806,
+    "w": 77,
+    "h": 34,
+    "level": 2,
+    "text": "service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3840,
+    "w": 89,
+    "h": 44,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3884,
+    "w": 76,
+    "h": 44,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3928,
+    "w": 74,
+    "h": 44,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 736,
+    "y": 3972,
+    "w": 269,
+    "h": 44,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-col.footer-social > div.footer-social-title > h2#social-media",
+    "x": 1088,
+    "y": 3806,
+    "w": 320,
+    "h": 34,
+    "level": 2,
+    "text": "social media"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-airport",
+    "x": 1088,
+    "y": 3856,
+    "w": 352,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1088,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "facebook",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1148,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "instagram",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1208,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "youtube",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1268,
+    "y": 3890,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-cargohub",
+    "x": 1088,
+    "y": 3942,
+    "w": 352,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 1088,
+    "y": 3976,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-copyright > p",
+    "x": 32,
+    "y": 4088,
+    "w": 326,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 110,
+    "controls": 72,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "ansprechpartner für pressevertreter",
+   "variable": false,
+   "origin": {
+    "link": 33,
+    "button": 1,
+    "text": 15,
+    "image": 0
+   },
+   "eds": {
+    "link": 33,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 15,
+    "textHidden": 0,
+    "image": 11,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"ansprechpartner für passagiere\" (y 240) has no origin heading",
+   "text": "ansprechpartner für passagiere"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"iris becker\" (y 892) has no origin heading",
+   "text": "iris becker"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"christian engel\" (y 1464) has no origin heading",
+   "text": "christian engel"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"maria linden\" (y 1464) has no origin heading",
+   "text": "maria linden"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"yi-chun sandy chen\" (y 2036) has no origin heading",
+   "text": "yi-chun sandy chen"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"angelika heinbuch\" (y 2036) has no origin heading",
+   "text": "angelika heinbuch"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"dana selin kröll\" (y 2036) has no origin heading",
+   "text": "dana selin kröll"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"andreas mehring\" (y 2544) has no origin heading",
+   "text": "andreas mehring"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"anna-lena ott\" (y 2544) has no origin heading",
+   "text": "anna-lena ott"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"jana schäfer\" (y 2544) has no origin heading",
+   "text": "jana schäfer"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"andreas schopf\" (y 3052) has no origin heading",
+   "text": "andreas schopf"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"melissa walker\" (y 3052) has no origin heading",
+   "text": "melissa walker"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"ansprechpartner für pressevertreter\": 0 origin → 11 served visible",
+   "band": 1,
+   "origin": 0,
+   "eds": 11,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 12,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 13,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 195,
+    "y": 28,
+    "w": 75,
+    "h": 27
+   },
+   {
+    "x": 318,
+    "y": 28,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 510,
+    "y": 28,
+    "w": 95,
+    "h": 27
+   },
+   {
+    "x": 653,
+    "y": 28,
+    "w": 137,
+    "h": 27
+   },
+   {
+    "x": 838,
+    "y": 28,
+    "w": 97,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 104,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 136,
+    "y": 104,
+    "w": 79,
+    "h": 21
+   },
+   {
+    "x": 236,
+    "y": 104,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 241,
+    "w": 289,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 295,
+    "w": 874,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 319,
+    "w": 897,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 343,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 1257,
+    "y": 254,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 1070,
+    "y": 329,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 88,
+    "y": 439,
+    "w": 415,
+    "h": 54
+   },
+   {
+    "x": 88,
+    "y": 495,
+    "w": 312,
+    "h": 54
+   },
+   {
+    "x": 56,
+    "y": 893,
+    "w": 93,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 935,
+    "w": 332,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 959,
+    "w": 65,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 999,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1027,
+    "w": 143,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1055,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 1465,
+    "w": 139,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 1507,
+    "w": 368,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 1531,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1571,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1599,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1627,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 1465,
+    "w": 122,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 1507,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 1531,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 1571,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 1599,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 1627,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 2037,
+    "w": 185,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 2079,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2143,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2171,
+    "w": 133,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2199,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 2037,
+    "w": 174,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 2079,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 2103,
+    "w": 151,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2143,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2171,
+    "w": 167,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2199,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 995,
+    "y": 2037,
+    "w": 148,
+    "h": 27
+   },
+   {
+    "x": 995,
+    "y": 2079,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2143,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2171,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2199,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 2545,
+    "w": 157,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 2587,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2651,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2679,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2707,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 2545,
+    "w": 136,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 2587,
+    "w": 370,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2651,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2679,
+    "w": 131,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2707,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 995,
+    "y": 2545,
+    "w": 118,
+    "h": 27
+   },
+   {
+    "x": 995,
+    "y": 2587,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 995,
+    "y": 2611,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2651,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2679,
+    "w": 165,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2707,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 3053,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 3095,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 3119,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3159,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3187,
+    "w": 149,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3215,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 3053,
+    "w": 138,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 3095,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 3159,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 3187,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 3215,
+    "w": 150,
+    "h": 21
+   },
+   {
+    "x": 149,
+    "y": 3379,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 149,
+    "y": 3452,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 149,
+    "y": 3525,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3694,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3807,
+    "w": 146,
+    "h": 32
+   },
+   {
+    "x": 32,
+    "y": 3861,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3905,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3949,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3993,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3807,
+    "w": 83,
+    "h": 32
+   },
+   {
+    "x": 384,
+    "y": 3861,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3905,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3949,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3807,
+    "w": 81,
+    "h": 32
+   },
+   {
+    "x": 736,
+    "y": 3861,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3905,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3949,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3993,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3807,
+    "w": 142,
+    "h": 32
+   },
+   {
+    "x": 1088,
+    "y": 3857,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3943,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4089,
+    "w": 326,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 195,
+    "y": 25,
+    "w": 75,
+    "h": 27
+   },
+   {
+    "x": 318,
+    "y": 25,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 510,
+    "y": 25,
+    "w": 95,
+    "h": 27
+   },
+   {
+    "x": 653,
+    "y": 25,
+    "w": 137,
+    "h": 27
+   },
+   {
+    "x": 838,
+    "y": 25,
+    "w": 97,
+    "h": 27
+   },
+   {
+    "x": 16,
+    "y": 104,
+    "w": 84,
+    "h": 21
+   },
+   {
+    "x": 122,
+    "y": 104,
+    "w": 82,
+    "h": 21
+   },
+   {
+    "x": 226,
+    "y": 104,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 241,
+    "w": 289,
+    "h": 27
+   },
+   {
+    "x": 32,
+    "y": 295,
+    "w": 874,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 319,
+    "w": 897,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 343,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 1257,
+    "y": 254,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 1070,
+    "y": 329,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 88,
+    "y": 439,
+    "w": 415,
+    "h": 54
+   },
+   {
+    "x": 88,
+    "y": 495,
+    "w": 312,
+    "h": 54
+   },
+   {
+    "x": 56,
+    "y": 893,
+    "w": 93,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 935,
+    "w": 332,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 959,
+    "w": 65,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 999,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1027,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1055,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 1465,
+    "w": 139,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 1507,
+    "w": 368,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 1531,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1571,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1599,
+    "w": 145,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 1627,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 1465,
+    "w": 122,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 1507,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 1531,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 1571,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 1599,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 1627,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 2037,
+    "w": 185,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 2079,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2143,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2171,
+    "w": 129,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2199,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 2037,
+    "w": 174,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 2079,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 2103,
+    "w": 151,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2143,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2171,
+    "w": 163,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2199,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 995,
+    "y": 2037,
+    "w": 148,
+    "h": 27
+   },
+   {
+    "x": 995,
+    "y": 2079,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2143,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2171,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2199,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 2545,
+    "w": 157,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 2587,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2651,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2679,
+    "w": 157,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 2707,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 2545,
+    "w": 136,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 2587,
+    "w": 370,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2651,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2679,
+    "w": 127,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 2707,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 995,
+    "y": 2545,
+    "w": 118,
+    "h": 27
+   },
+   {
+    "x": 995,
+    "y": 2587,
+    "w": 226,
+    "h": 21
+   },
+   {
+    "x": 995,
+    "y": 2611,
+    "w": 164,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2651,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2679,
+    "w": 161,
+    "h": 21
+   },
+   {
+    "x": 1019,
+    "y": 2707,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 3053,
+    "w": 144,
+    "h": 27
+   },
+   {
+    "x": 56,
+    "y": 3095,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 3119,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3159,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3187,
+    "w": 145,
+    "h": 21
+   },
+   {
+    "x": 80,
+    "y": 3215,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 525,
+    "y": 3053,
+    "w": 138,
+    "h": 27
+   },
+   {
+    "x": 525,
+    "y": 3095,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 3159,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 3187,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 549,
+    "y": 3215,
+    "w": 146,
+    "h": 21
+   },
+   {
+    "x": 149,
+    "y": 3379,
+    "w": 102,
+    "h": 21
+   },
+   {
+    "x": 149,
+    "y": 3452,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 149,
+    "y": 3525,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3694,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3770,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3794,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3828,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 56,
+    "y": 3862,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3770,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 408,
+    "y": 3794,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 528,
+    "y": 3794,
+    "w": 8,
+    "h": 21
+   },
+   {
+    "x": 408,
+    "y": 3828,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3862,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3886,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3770,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 760,
+    "y": 3794,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3828,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 760,
+    "y": 3852,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3770,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 1112,
+    "y": 3794,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3828,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 1112,
+    "y": 3852,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 1312,
+    "y": 3852,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3876,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3807,
+    "w": 139,
+    "h": 32
+   },
+   {
+    "x": 32,
+    "y": 3861,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3905,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3949,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3993,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3807,
+    "w": 79,
+    "h": 32
+   },
+   {
+    "x": 384,
+    "y": 3861,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3905,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 384,
+    "y": 3949,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3807,
+    "w": 77,
+    "h": 32
+   },
+   {
+    "x": 736,
+    "y": 3861,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3905,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3949,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 736,
+    "y": 3993,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3807,
+    "w": 142,
+    "h": 32
+   },
+   {
+    "x": 1088,
+    "y": 3857,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 1088,
+    "y": 3943,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4089,
+    "w": 326,
+    "h": 16
+   }
+  ]
+ }
+}

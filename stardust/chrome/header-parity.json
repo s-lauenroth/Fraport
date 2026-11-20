@@ -1,0 +1,85 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-19T20:38:23.506Z",
+ "source": "https://www.fraport.com/de.html",
+ "build": "https://main--340a2135--aemcoder.aem.page/drafts/shell",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 8,
+  "warn": 0,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "control-missing@390 Menü <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/ic",
+   "width": 390,
+   "path": "Menü <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/ic",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Menü <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/ic\""
+  },
+  {
+   "key": "control-missing@1440 Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+   "width": 1440,
+   "path": "Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Konzern <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources\""
+  },
+  {
+   "key": "control-missing@1440 Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r",
+   "width": 1440,
+   "path": "Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Geschäftsfelder <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/r\""
+  },
+  {
+   "key": "control-missing@1440 Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour",
+   "width": 1440,
+   "path": "Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Investoren <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resour\""
+  },
+  {
+   "key": "control-missing@1440 Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re",
+   "width": 1440,
+   "path": "Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Nachhaltigkeit <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/re\""
+  },
+  {
+   "key": "control-missing@1440 Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource",
+   "width": 1440,
+   "path": "Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source menu control opens on click; the build has no control named \"Newsroom <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resource\""
+  },
+  {
+   "key": "panel-visual@390 Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i [click]",
+   "width": 390,
+   "path": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources/i",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 25.7% (bar 2%; source 382×80, build 382×80; texture 98% thick)"
+  },
+  {
+   "key": "panel-visual@390 Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources [click]",
+   "width": 390,
+   "path": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-app/resources",
+   "action": "click",
+   "id": "panel-visual",
+   "severity": "error",
+   "detail": "open-state crop differs by 99.3% (bar 2%; source 390×758, build 390×758; texture 100% thick)"
+  }
+ ]
+}

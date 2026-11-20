@@ -1,0 +1,498 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-19T18:16:20.979Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-19T18:16:20.979Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "de-investoren-fraport-aktie",
+    "de-investoren-publikationen-termine",
+    "de-konzern-regionales-engagement",
+    "de-konzern-ueber-uns",
+    "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+    "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+    "de-nachhaltigkeit",
+    "de-nachhaltigkeit-umwelt-und-klimaschutz",
+    "de-nachhaltigkeit-unternehmensfuehrung",
+    "de-newsroom-ansprechpartner",
+    "de-geschaeftsfelder",
+    "de-geschaeftsfelder-betrieb",
+    "de-geschaeftsfelder-service",
+    "de-investoren",
+    "de-konzern-managementsysteme",
+    "de-nachhaltigkeit-wertschaffung",
+    "de-geschaeftsfelder-international-activities",
+    "de-konzern-digitalisierung",
+    "de",
+    "de-konzern",
+    "de-konzern-konzernstrategie",
+    "de-newsroom",
+    "de-newsroom-pressemitteilung",
+    "index",
+    "de-newsroom-servicenews"
+  ],
+  "steps": [
+    {
+      "slug": "de-investoren-fraport-aktie",
+      "path": "/de/investoren/fraport-aktie",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-investoren-publikationen-termine",
+      "path": "/de/investoren/publikationen-termine",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern-regionales-engagement",
+      "path": "/de/konzern/regionales-engagement",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern-ueber-uns",
+      "path": "/de/konzern/ueber-uns",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern-ueber-uns-100jahrewieimflug-herzensmomente--fra",
+      "path": "/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern-unsere-internationalen-flughaefen-und-beteiligungen",
+      "path": "/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-nachhaltigkeit",
+      "path": "/de/nachhaltigkeit",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-nachhaltigkeit-umwelt-und-klimaschutz",
+      "path": "/de/nachhaltigkeit/umwelt-und-klimaschutz",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-nachhaltigkeit-unternehmensfuehrung",
+      "path": "/de/nachhaltigkeit/unternehmensfuehrung",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-newsroom-ansprechpartner",
+      "path": "/de/newsroom/ansprechpartner",
+      "templateId": "content-page",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftsfelder",
+      "path": "/de/geschaeftsfelder",
+      "templateId": "section-landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftsfelder-betrieb",
+      "path": "/de/geschaeftsfelder/betrieb",
+      "templateId": "section-landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftsfelder-service",
+      "path": "/de/geschaeftsfelder/service",
+      "templateId": "section-landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-investoren",
+      "path": "/de/investoren",
+      "templateId": "section-landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern-managementsysteme",
+      "path": "/de/konzern/managementsysteme",
+      "templateId": "section-landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-nachhaltigkeit-wertschaffung",
+      "path": "/de/nachhaltigkeit/wertschaffung",
+      "templateId": "section-landing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-geschaeftsfelder-international-activities",
+      "path": "/de/geschaeftsfelder/international-activities",
+      "templateId": "feature-hub",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern-digitalisierung",
+      "path": "/de/konzern/digitalisierung",
+      "templateId": "feature-hub",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de",
+      "path": "/de",
+      "templateId": "de",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser"
+        },
+        {
+          "id": "teaser-slider",
+          "edsBlockName": "teaser-slider"
+        },
+        {
+          "id": "related-content",
+          "edsBlockName": "related-content"
+        },
+        {
+          "id": "text-media",
+          "edsBlockName": "text-media"
+        },
+        {
+          "id": "anchor-list",
+          "edsBlockName": "anchor-list"
+        },
+        {
+          "id": "key-figures",
+          "edsBlockName": "key-figures"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns"
+        },
+        {
+          "id": "tiles",
+          "edsBlockName": "tiles"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "de-konzern",
+      "path": "/de/konzern",
+      "templateId": "de-konzern",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards"
+        },
+        {
+          "id": "link-box",
+          "edsBlockName": "link-box"
+        },
+        {
+          "id": "testimonial",
+          "edsBlockName": "testimonial"
+        },
+        {
+          "id": "image-gallery-tiles",
+          "edsBlockName": "image-gallery-tiles"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "de"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser",
+          "convertedBy": "de"
+        },
+        {
+          "id": "teaser-slider",
+          "edsBlockName": "teaser-slider",
+          "convertedBy": "de"
+        },
+        {
+          "id": "related-content",
+          "edsBlockName": "related-content",
+          "convertedBy": "de"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "de"
+        }
+      ]
+    },
+    {
+      "slug": "de-konzern-konzernstrategie",
+      "path": "/de/konzern/konzernstrategie",
+      "templateId": "de-konzern-konzernstrategie",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "accordion",
+          "edsBlockName": "accordion"
+        },
+        {
+          "id": "image",
+          "edsBlockName": "image"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "de-konzern"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "de"
+        },
+        {
+          "id": "text-media",
+          "edsBlockName": "text-media",
+          "convertedBy": "de"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "de"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "de"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser",
+          "convertedBy": "de"
+        },
+        {
+          "id": "teaser-slider",
+          "edsBlockName": "teaser-slider",
+          "convertedBy": "de"
+        },
+        {
+          "id": "related-content",
+          "edsBlockName": "related-content",
+          "convertedBy": "de"
+        }
+      ]
+    },
+    {
+      "slug": "de-newsroom",
+      "path": "/de/newsroom",
+      "templateId": "de-newsroom",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "newsroom-feed",
+          "edsBlockName": "newsroom-feed"
+        },
+        {
+          "id": "embed",
+          "edsBlockName": "embed"
+        },
+        {
+          "id": "audio-player",
+          "edsBlockName": "audio-player"
+        },
+        {
+          "id": "milestones",
+          "edsBlockName": "milestones"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "breadcrumb",
+          "edsBlockName": "breadcrumb",
+          "convertedBy": "de-konzern"
+        },
+        {
+          "id": "hero",
+          "edsBlockName": "hero",
+          "convertedBy": "de"
+        },
+        {
+          "id": "anchor-list",
+          "edsBlockName": "anchor-list",
+          "convertedBy": "de"
+        },
+        {
+          "id": "cards",
+          "edsBlockName": "cards",
+          "convertedBy": "de-konzern"
+        },
+        {
+          "id": "link-box",
+          "edsBlockName": "link-box",
+          "convertedBy": "de-konzern"
+        },
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "de"
+        },
+        {
+          "id": "columns",
+          "edsBlockName": "columns",
+          "convertedBy": "de"
+        },
+        {
+          "id": "image",
+          "edsBlockName": "image",
+          "convertedBy": "de-konzern-konzernstrategie"
+        },
+        {
+          "id": "key-figures",
+          "edsBlockName": "key-figures",
+          "convertedBy": "de"
+        },
+        {
+          "id": "text-media",
+          "edsBlockName": "text-media",
+          "convertedBy": "de"
+        },
+        {
+          "id": "teaser",
+          "edsBlockName": "teaser",
+          "convertedBy": "de"
+        },
+        {
+          "id": "teaser-slider",
+          "edsBlockName": "teaser-slider",
+          "convertedBy": "de"
+        },
+        {
+          "id": "related-content",
+          "edsBlockName": "related-content",
+          "convertedBy": "de"
+        }
+      ]
+    },
+    {
+      "slug": "de-newsroom-pressemitteilung",
+      "path": "/de/newsroom/pressemitteilung",
+      "templateId": "de-newsroom-pressemitteilung",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "news-list",
+          "edsBlockName": "news-list"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "cta",
+          "edsBlockName": "cta",
+          "convertedBy": "de"
+        }
+      ]
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "home",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "de-newsroom-servicenews",
+      "path": "/de/newsroom/servicenews",
+      "templateId": "news-listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    }
+  ]
+}

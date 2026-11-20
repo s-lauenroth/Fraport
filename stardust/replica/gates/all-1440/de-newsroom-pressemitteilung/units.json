@@ -1,0 +1,6301 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:38:13.939Z",
+  "tol": 4,
+  "n": 113,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+  "at": "2026-11-19T18:14:11.464Z",
+  "docH": 6088
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung",
+  "at": "2026-11-19T23:38:13.789Z",
+  "docH": 6084
+ },
+ "results": [
+  {
+   "sel": ".frach-m-search-results__results-container .frach-e-search-result=.news-list .news-list-item",
+   "family": null,
+   "required": true,
+   "originMatches": 21,
+   "edsMatches": 21,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:frachtbeladung tuerkish airlines",
+       "role": "image",
+       "text": "frachtbeladung tuerkish airlines",
+       "edsText": "frachtbeladung tuerkish airlines",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:cargo, betrieb, 2026, verkehrszahlen, fr",
+       "role": "text",
+       "text": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "edsText": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 714,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 714,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:12.11.2026",
+       "role": "text",
+       "text": "12.11.2026",
+       "edsText": "12.11.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 751,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 751,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im oktober 2026: ",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "edsText": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 869,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 869,
+        "h": 30,
+        "sel": "h2#fraport-verkehrszahlen-im-oktober-2026-cargo-wächst--passagierzahlen-auf-vorjahresniveau",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im oktober 2026: ",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "edsText": "fraport-verkehrszahlen im oktober 2026: cargo wächst – passa",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 869,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 869,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:oktober 2026: fraport meldet stabile pas",
+       "role": "text",
+       "text": "oktober 2026: fraport meldet stabile passagierzahlen und ein",
+       "edsText": "oktober 2026: fraport meldet stabile passagierzahlen und ein",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 869,
+        "h": 24
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 869,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 533,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 508,
+       "w": 1376,
+       "h": 185
+      },
+      "eds": {
+       "x": 32,
+       "y": 508,
+       "w": 1376,
+       "h": 185
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:konzernzentrale der fraport ag",
+       "role": "image",
+       "text": "konzernzentrale der fraport ag",
+       "edsText": "konzernzentrale der fraport ag",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:geschäftszahlen, 2026, presse, internati",
+       "role": "text",
+       "text": "geschäftszahlen, 2026, presse, international, neunmonatsbila",
+       "edsText": "geschäftszahlen, 2026, presse, international, neunmonatsbila",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 941,
+        "h": 45
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 941,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:04.11.2026",
+       "role": "text",
+       "text": "04.11.2026",
+       "edsText": "04.11.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 583,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 583,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:neunmonatsbilanz: auslandsgeschäft stärk",
+       "role": "heading",
+       "text": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "edsText": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 89,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 89,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#neunmonatsbilanz-auslandsgeschäft-stärkt-ergebnis",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:neunmonatsbilanz: auslandsgeschäft stärk",
+       "role": "link",
+       "text": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "edsText": "neunmonatsbilanz: auslandsgeschäft stärkt ergebnis",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 89,
+        "w": 491,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 89,
+        "w": 491,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die fraport ag erzielt in den ersten neu",
+       "role": "text",
+       "text": "die fraport ag erzielt in den ersten neun monaten ein robust",
+       "edsText": "die fraport ag erzielt in den ersten neun monaten ein robust",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 135,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 135,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 750,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 725,
+       "w": 1376,
+       "h": 216
+      },
+      "eds": {
+       "x": 32,
+       "y": 725,
+       "w": 1376,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:dietmar focke, chief operating officer d",
+       "role": "image",
+       "text": "dietmar focke, chief operating officer der fraport ag und fr",
+       "edsText": "dietmar focke, chief operating officer der fraport ag und fr",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, frankfurt airport, passagierkomfor",
+       "role": "text",
+       "text": "2026, frankfurt airport, passagierkomfort, gate a16, boardin",
+       "edsText": "2026, frankfurt airport, passagierkomfort, gate a16, boardin",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 968,
+        "h": 45
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 968,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:27.10.2026",
+       "role": "text",
+       "text": "27.10.2026",
+       "edsText": "27.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 165,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 165,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:gate a16 wird zum testfeld für die zukun",
+       "role": "heading",
+       "text": "gate a16 wird zum testfeld für die zukunft",
+       "edsText": "gate a16 wird zum testfeld für die zukunft",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 89,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 89,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#gate-a16-wird-zum-testfeld-für-die-zukunft",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:gate a16 wird zum testfeld für die zukun",
+       "role": "link",
+       "text": "gate a16 wird zum testfeld für die zukunft",
+       "edsText": "gate a16 wird zum testfeld für die zukunft",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 89,
+        "w": 392,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 89,
+        "w": 392,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:digitale echtzeitinformationen, mobile b",
+       "role": "text",
+       "text": "digitale echtzeitinformationen, mobile betreuung und neue au",
+       "edsText": "digitale echtzeitinformationen, mobile betreuung und neue au",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 135,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 135,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 998,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 973,
+       "w": 1376,
+       "h": 216
+      },
+      "eds": {
+       "x": 32,
+       "y": 973,
+       "w": 1376,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:anzeigetafel abflughalle terminal 3",
+       "role": "image",
+       "text": "anzeigetafel abflughalle terminal 3",
+       "edsText": "anzeigetafel abflughalle terminal 3",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, frankfurt airport, winterflugplan,",
+       "role": "text",
+       "text": "2026, frankfurt airport, winterflugplan, flugverbindungen, r",
+       "edsText": "2026, frankfurt airport, winterflugplan, flugverbindungen, r",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 860,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 860,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:20.10.2026",
+       "role": "text",
+       "text": "20.10.2026",
+       "edsText": "20.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 897,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 897,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:neue ziele im winterflugplan ab frankfur",
+       "role": "heading",
+       "text": "neue ziele im winterflugplan ab frankfurt",
+       "edsText": "neue ziele im winterflugplan ab frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#neue-ziele-im-winterflugplan-ab-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:neue ziele im winterflugplan ab frankfur",
+       "role": "link",
+       "text": "neue ziele im winterflugplan ab frankfurt",
+       "edsText": "neue ziele im winterflugplan ab frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 391,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 391,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:der winterflugplan 2026/2027 erweitert d",
+       "role": "text",
+       "text": "der winterflugplan 2026/2027 erweitert das angebot ab frankf",
+       "edsText": "der winterflugplan 2026/2027 erweitert das angebot ab frankf",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 1246,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 1221,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 1221,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:bodenstromaggregat, battery",
+       "role": "image",
+       "text": "bodenstromaggregat, battery",
+       "edsText": "bodenstromaggregat, battery",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, fördermittel, klimaschutz, frankfu",
+       "role": "text",
+       "text": "2026, fördermittel, klimaschutz, frankfurt airport, bodenstr",
+       "edsText": "2026, fördermittel, klimaschutz, frankfurt airport, bodenstr",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 931,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 931,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:16.10.2026",
+       "role": "text",
+       "text": "16.10.2026",
+       "edsText": "16.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 968,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 968,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:bund fördert emissionsfreie bodenstromve",
+       "role": "heading",
+       "text": "bund fördert emissionsfreie bodenstromversorgung",
+       "edsText": "bund fördert emissionsfreie bodenstromversorgung",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#bund-fördert-emissionsfreie-bodenstromversorgung",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:bund fördert emissionsfreie bodenstromve",
+       "role": "link",
+       "text": "bund fördert emissionsfreie bodenstromversorgung",
+       "edsText": "bund fördert emissionsfreie bodenstromversorgung",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 470,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 470,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die fraport ag modernisiert die bodenstr",
+       "role": "text",
+       "text": "die fraport ag modernisiert die bodenstromversorgung am flug",
+       "edsText": "die fraport ag modernisiert die bodenstromversorgung am flug",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 1470,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 1445,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 1445,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:luftaufnahme terminal 3 2026",
+       "role": "image",
+       "text": "luftaufnahme terminal 3 2026",
+       "edsText": "luftaufnahme terminal 3 2026",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:cargo, betrieb, 2026, verkehrszahlen, fr",
+       "role": "text",
+       "text": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "edsText": "cargo, betrieb, 2026, verkehrszahlen, frankfurt airport, inv",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 880,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 880,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.10.2026",
+       "role": "text",
+       "text": "13.10.2026",
+       "edsText": "13.10.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 917,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 917,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im september 2026",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "edsText": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#fraport-verkehrszahlen-im-september-2026-anstieg-bei-passagieren-und-fracht-in-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im september 2026",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "edsText": "fraport-verkehrszahlen im september 2026: anstieg bei passag",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 841,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 841,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:im september 2026 stiegen sowohl passagi",
+       "role": "text",
+       "text": "im september 2026 stiegen sowohl passagierzahlen als auch fr",
+       "edsText": "im september 2026 stiegen sowohl passagierzahlen als auch fr",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 1694,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 1669,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 1669,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:luftaufnahme terminal 3",
+       "role": "image",
+       "text": "luftaufnahme terminal 3",
+       "edsText": "luftaufnahme terminal 3",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:betrieb, ferienstart, 2026, frankfurt ai",
+       "role": "text",
+       "text": "betrieb, ferienstart, 2026, frankfurt airport, presse, flugg",
+       "edsText": "betrieb, ferienstart, 2026, frankfurt airport, presse, flugg",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 566,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 566,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:29.09.2026",
+       "role": "text",
+       "text": "29.09.2026",
+       "edsText": "29.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 603,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 603,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:herbstferien sorgen für mehr betrieb am ",
+       "role": "heading",
+       "text": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "edsText": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#herbstferien-sorgen-für-mehr-betrieb-am-flughafen-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:herbstferien sorgen für mehr betrieb am ",
+       "role": "link",
+       "text": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "edsText": "herbstferien sorgen für mehr betrieb am flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 560,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 560,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die herbstferien bringen mehr betrieb am",
+       "role": "text",
+       "text": "die herbstferien bringen mehr betrieb am flughafen frankfurt",
+       "edsText": "die herbstferien bringen mehr betrieb am flughafen frankfurt",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 1918,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 1893,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 1893,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:vorfeld",
+       "role": "image",
+       "text": "vorfeld",
+       "edsText": "vorfeld",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, verkehrszahlen, frankfurt airport,",
+       "role": "text",
+       "text": "2026, verkehrszahlen, frankfurt airport, investoren, presse,",
+       "edsText": "2026, verkehrszahlen, frankfurt airport, investoren, presse,",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 775,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 775,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:11.09.2026",
+       "role": "text",
+       "text": "11.09.2026",
+       "edsText": "11.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 812,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 812,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im august 2026: f",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "edsText": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 957,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 957,
+        "h": 30,
+        "sel": "h2#fraport-verkehrszahlen-im-august-2026-fracht-wächst-in-frankfurt-während-passagierzahlen-stagnieren",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im august 2026: f",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "edsText": "fraport-verkehrszahlen im august 2026: fracht wächst in fran",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 957,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 957,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fracht wächst, passagierzahl stagniert: ",
+       "role": "text",
+       "text": "fracht wächst, passagierzahl stagniert: fraport meldet im au",
+       "edsText": "fracht wächst, passagierzahl stagniert: fraport meldet im au",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 957,
+        "h": 24
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 957,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 2142,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2117,
+       "w": 1376,
+       "h": 185
+      },
+      "eds": {
+       "x": 32,
+       "y": 2117,
+       "w": 1376,
+       "h": 185
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:bau des multi-tenant-neubaus „logispace“",
+       "role": "image",
+       "text": "bau des multi-tenant-neubaus „logispace“",
+       "edsText": "bau des multi-tenant-neubaus „logispace“",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, region, frankfurt airport, presse,",
+       "role": "text",
+       "text": "2026, region, frankfurt airport, presse, cargo, beratung, st",
+       "edsText": "2026, region, frankfurt airport, presse, cargo, beratung, st",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 596,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 596,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:04.09.2026",
+       "role": "text",
+       "text": "04.09.2026",
+       "edsText": "04.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 633,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 633,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:bau des multi-tenant-neubaus „logispace“",
+       "role": "heading",
+       "text": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "edsText": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#bau-des-multi-tenant-neubaus-logispace-in-erstklassiger-lage-am-flughafen-frankfurt-voll-im-plan",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:bau des multi-tenant-neubaus „logispace“",
+       "role": "link",
+       "text": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "edsText": "bau des multi-tenant-neubaus „logispace“ in erstklassiger la",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 925,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 925,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fraport und projektpartner feiern wichti",
+       "role": "text",
+       "text": "fraport und projektpartner feiern wichtige fortschritte beim",
+       "edsText": "fraport und projektpartner feiern wichtige fortschritte beim",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 2359,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2334,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 2334,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:jericoacoara airport.jpg",
+       "role": "image",
+       "text": "jericoacoara airport.jpg",
+       "edsText": "jericoacoara airport.jpg",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:betrieb, 2026, unternehmen, investoren, ",
+       "role": "text",
+       "text": "betrieb, 2026, unternehmen, investoren, presse, internationa",
+       "edsText": "betrieb, 2026, unternehmen, investoren, presse, internationa",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 564,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 564,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:01.09.2026",
+       "role": "text",
+       "text": "01.09.2026",
+       "edsText": "01.09.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 601,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 601,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport brasil s.a. aeroporto de fortale",
+       "role": "heading",
+       "text": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "edsText": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 861,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 861,
+        "h": 30,
+        "sel": "h2#fraport-brasil-sa-aeroporto-de-fortaleza-übernimmt-betrieb-des-flughafens-jericoacoara",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport brasil s.a. aeroporto de fortale",
+       "role": "link",
+       "text": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "edsText": "fraport brasil s.a. aeroporto de fortaleza übernimmt betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 825,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 825,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fraport brasil übernimmt den betrieb des",
+       "role": "text",
+       "text": "fraport brasil übernimmt den betrieb des flughafens jericoac",
+       "edsText": "fraport brasil übernimmt den betrieb des flughafens jericoac",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 861,
+        "h": 24
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 861,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 2583,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2558,
+       "w": 1376,
+       "h": 185
+      },
+      "eds": {
+       "x": 32,
+       "y": 2558,
+       "w": 1376,
+       "h": 185
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:vollelektrischer eco tow flugzeugschlepp",
+       "role": "image",
+       "text": "vollelektrischer eco tow flugzeugschlepper für für großflugz",
+       "edsText": "vollelektrischer eco tow flugzeugschlepper für für großflugz",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:partner, 2026, klimaschutz, frankfurt ai",
+       "role": "text",
+       "text": "partner, 2026, klimaschutz, frankfurt airport, umwelt, e-mob",
+       "edsText": "partner, 2026, klimaschutz, frankfurt airport, umwelt, e-mob",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 922,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 922,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:21.08.2026",
+       "role": "text",
+       "text": "21.08.2026",
+       "edsText": "21.08.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 959,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 959,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:ecotow: fraport nimmt vollelektrische fl",
+       "role": "heading",
+       "text": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "edsText": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#ecotow-fraport-nimmt-vollelektrische-flugzeugschlepper-für-großflugzeuge-in-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:ecotow: fraport nimmt vollelektrische fl",
+       "role": "link",
+       "text": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "edsText": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 793,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 793,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:mit den neuen vollelektrischen flugzeugs",
+       "role": "text",
+       "text": "mit den neuen vollelektrischen flugzeugschleppern des modell",
+       "edsText": "mit den neuen vollelektrischen flugzeugschleppern des modell",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 72
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 2800,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2775,
+       "w": 1376,
+       "h": 216
+      },
+      "eds": {
+       "x": 32,
+       "y": 2775,
+       "w": 1376,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:lufthansa dreamliner",
+       "role": "image",
+       "text": "lufthansa dreamliner",
+       "edsText": "lufthansa dreamliner",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, verkehrszahlen, frankfurt airport,",
+       "role": "text",
+       "text": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "edsText": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 775,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 775,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.08.2026",
+       "role": "text",
+       "text": "13.08.2026",
+       "edsText": "13.08.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 812,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 812,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im juli 2026: ans",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "edsText": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 860,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 860,
+        "h": 30,
+        "sel": "h2#fraport-verkehrszahlen-im-juli-2026-anstieg-bei-passagieren-und-fracht-in-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im juli 2026: ans",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "edsText": "fraport-verkehrszahlen im juli 2026: anstieg bei passagieren",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 772,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 772,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fraport wächst weiter: im juli mehr pass",
+       "role": "text",
+       "text": "fraport wächst weiter: im juli mehr passagiere und fracht am",
+       "edsText": "fraport wächst weiter: im juli mehr passagiere und fracht am",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 860,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 860,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 3048,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 3023,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 3023,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:übergabe von kunstwerk vor gebäude 178",
+       "role": "image",
+       "text": "übergabe von kunstwerk vor gebäude 178",
+       "edsText": "übergabe von kunstwerk vor gebäude 178",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:presse, 2026, verkehrszahlen, pressearch",
+       "role": "text",
+       "text": "presse, 2026, verkehrszahlen, pressearchiv",
+       "edsText": "presse, 2026, verkehrszahlen, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 337,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 337,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:06.08.2026",
+       "role": "text",
+       "text": "06.08.2026",
+       "edsText": "06.08.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 374,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 374,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-konzern legt operativ im ersten ",
+       "role": "heading",
+       "text": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "edsText": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 496,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 496,
+        "h": 30,
+        "sel": "h2#fraport-konzern-legt-operativ-im-ersten-halbjahr-zu",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-konzern legt operativ im ersten ",
+       "role": "link",
+       "text": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "edsText": "fraport-konzern legt operativ im ersten halbjahr zu",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 476,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 476,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fraport wächst weiter – jetzt alle zahle",
+       "role": "text",
+       "text": "fraport wächst weiter – jetzt alle zahlen und hintergründe e",
+       "edsText": "fraport wächst weiter – jetzt alle zahlen und hintergründe e",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 496,
+        "h": 24
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 496,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 3272,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 3247,
+       "w": 1376,
+       "h": 185
+      },
+      "eds": {
+       "x": 32,
+       "y": 3247,
+       "w": 1376,
+       "h": 185
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:luftaufnahmen vom vorfeld 2022",
+       "role": "image",
+       "text": "luftaufnahmen vom vorfeld 2022",
+       "edsText": "luftaufnahmen vom vorfeld 2022",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, verkehrszahlen, frankfurt airport,",
+       "role": "text",
+       "text": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "edsText": "2026, verkehrszahlen, frankfurt airport, presse, investoren,",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 775,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 775,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.07.2026",
+       "role": "text",
+       "text": "13.07.2026",
+       "edsText": "13.07.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 812,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 812,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im juni 2026: kon",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "edsText": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#fraport-verkehrszahlen-im-juni-2026-konzern-trotz-passagierminus-in-frankfurt-weiter-auf-kurs",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im juni 2026: kon",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "edsText": "fraport-verkehrszahlen im juni 2026: konzern trotz passagier",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 870,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 870,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:fraport bleibt trotz passagierrückgang i",
+       "role": "text",
+       "text": "fraport bleibt trotz passagierrückgang in frankfurt auf kurs",
+       "edsText": "fraport bleibt trotz passagierrückgang in frankfurt auf kurs",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 3489,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 3464,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 3464,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:zoneneinteilung für check in",
+       "role": "image",
+       "text": "zoneneinteilung für check in",
+       "edsText": "zoneneinteilung für check in",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:2026, ferienstart, sommerbetrieb, wartez",
+       "role": "text",
+       "text": "2026, ferienstart, sommerbetrieb, wartezeit, presse, reisevo",
+       "edsText": "2026, ferienstart, sommerbetrieb, wartezeit, presse, reisevo",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 777,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 777,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:22.06.2026",
+       "role": "text",
+       "text": "22.06.2026",
+       "edsText": "22.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 814,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 815,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 1,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:start der sommerferien in hessen: spürba",
+       "role": "heading",
+       "text": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "edsText": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#start-der-sommerferien-in-hessen-spürbarer-anstieg-der-passagierzahlen-am-flughafen-frankfurt-erwartet",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:start der sommerferien in hessen: spürba",
+       "role": "link",
+       "text": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "edsText": "start der sommerferien in hessen: spürbarer anstieg der pass",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 979,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 979,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:sommerferien starten: am flughafen frank",
+       "role": "text",
+       "text": "sommerferien starten: am flughafen frankfurt werden deutlich",
+       "edsText": "sommerferien starten: am flughafen frankfurt werden deutlich",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 3713,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 3688,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 3688,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 15,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:flagge mit claim connecting the world wi",
+       "role": "image",
+       "text": "flagge mit claim connecting the world with tomorrow",
+       "edsText": "flagge mit claim connecting the world with tomorrow",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:partner, 2026, presse, konzern, unterneh",
+       "role": "text",
+       "text": "partner, 2026, presse, konzern, unternehmen, standort, press",
+       "edsText": "partner, 2026, presse, konzern, unternehmen, standort, press",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 519,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 519,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:16.06.2026",
+       "role": "text",
+       "text": "16.06.2026",
+       "edsText": "16.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 556,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 556,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:wechsel an der spitze der fraport-untern",
+       "role": "heading",
+       "text": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "edsText": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#wechsel-an-der-spitze-der-fraport-unternehmenskommunikation",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:wechsel an der spitze der fraport-untern",
+       "role": "link",
+       "text": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "edsText": "wechsel an der spitze der fraport-unternehmenskommunikation",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 594,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 594,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:nach mehr als 16 jahren gibt jürgen harr",
+       "role": "text",
+       "text": "nach mehr als 16 jahren gibt jürgen harrer die leitung der u",
+       "edsText": "nach mehr als 16 jahren gibt jürgen harrer die leitung der u",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 3937,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 3912,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 3912,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 16,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:sky line bahnhof vor terminal 1",
+       "role": "image",
+       "text": "sky line bahnhof vor terminal 1",
+       "edsText": "sky line bahnhof vor terminal 1",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:betrieb, 2026, sicherheit, frankfurt air",
+       "role": "text",
+       "text": "betrieb, 2026, sicherheit, frankfurt airport, presse, fluggä",
+       "edsText": "betrieb, 2026, sicherheit, frankfurt airport, presse, fluggä",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 890,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 890,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:15.06.2026",
+       "role": "text",
+       "text": "15.06.2026",
+       "edsText": "15.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 927,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 927,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:neue sky line-bahn am flughafen frankfur",
+       "role": "heading",
+       "text": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "edsText": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#neue-sky-line-bahn-am-flughafen-frankfurt-wieder-in-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:neue sky line-bahn am flughafen frankfur",
+       "role": "link",
+       "text": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "edsText": "neue sky line-bahn am flughafen frankfurt wieder in betrieb",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 565,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 565,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die neue sky line-bahn am flughafen fran",
+       "role": "text",
+       "text": "die neue sky line-bahn am flughafen frankfurt ist wieder in ",
+       "edsText": "die neue sky line-bahn am flughafen frankfurt ist wieder in ",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 72
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 4161,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 4136,
+       "w": 1376,
+       "h": 216
+      },
+      "eds": {
+       "x": 32,
+       "y": 4136,
+       "w": 1376,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 17,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:luftaufnahme vorfeld",
+       "role": "image",
+       "text": "luftaufnahme vorfeld",
+       "edsText": "luftaufnahme vorfeld",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:betrieb, 2026, verkehrszahlen, investore",
+       "role": "text",
+       "text": "betrieb, 2026, verkehrszahlen, investoren, konzern, internat",
+       "edsText": "betrieb, 2026, verkehrszahlen, investoren, konzern, internat",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 657,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 657,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:12.06.2026",
+       "role": "text",
+       "text": "12.06.2026",
+       "edsText": "12.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 694,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 694,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport-verkehrszahlen im mai 2026: fran",
+       "role": "heading",
+       "text": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "edsText": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#fraport-verkehrszahlen-im-mai-2026-frankfurt-wieder-auf-wachstumskurs-bei-passagieren",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport-verkehrszahlen im mai 2026: fran",
+       "role": "link",
+       "text": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "edsText": "fraport-verkehrszahlen im mai 2026: frankfurt wieder auf wac",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 828,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 828,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:frankfurt bleibt auf wachstumskurs: im m",
+       "role": "text",
+       "text": "frankfurt bleibt auf wachstumskurs: im mai 2026 verzeichnete",
+       "edsText": "frankfurt bleibt auf wachstumskurs: im mai 2026 verzeichnete",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 4409,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 4384,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 4384,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 18,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:tower frankfurt airport",
+       "role": "image",
+       "text": "tower frankfurt airport",
+       "edsText": "tower frankfurt airport",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:betrieb, 2026, region, frankfurt airport",
+       "role": "text",
+       "text": "betrieb, 2026, region, frankfurt airport, presse, umwelt, ve",
+       "edsText": "betrieb, 2026, region, frankfurt airport, presse, umwelt, ve",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 795,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 795,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:10.06.2026",
+       "role": "text",
+       "text": "10.06.2026",
+       "edsText": "10.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 832,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 832,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fluglärmkommission frankfurt befindet üb",
+       "role": "heading",
+       "text": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "edsText": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#fluglärmkommission-frankfurt-befindet-über-weiterentwickeltes-betriebskonzept",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fluglärmkommission frankfurt befindet üb",
+       "role": "link",
+       "text": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "edsText": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 743,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 743,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die fluglärmkommission frankfurt hat das",
+       "role": "text",
+       "text": "die fluglärmkommission frankfurt hat das weiterentwickelte b",
+       "edsText": "die fluglärmkommission frankfurt hat das weiterentwickelte b",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 4633,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 4608,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 4608,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 19,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:terminal 2 außenansicht",
+       "role": "image",
+       "text": "terminal 2 außenansicht",
+       "edsText": "terminal 2 außenansicht",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:betrieb, 2026, frankfurt airport, presse",
+       "role": "text",
+       "text": "betrieb, 2026, frankfurt airport, presse, fluggäste, flug- u",
+       "edsText": "betrieb, 2026, frankfurt airport, presse, fluggäste, flug- u",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 743,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 743,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:09.06.2026",
+       "role": "text",
+       "text": "09.06.2026",
+       "edsText": "09.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 780,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 780,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:terminal 2 am flughafen frankfurt ab heu",
+       "role": "heading",
+       "text": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "edsText": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#terminal-2-am-flughafen-frankfurt-ab-heute-vorübergehend-operativ-außer-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:terminal 2 am flughafen frankfurt ab heu",
+       "role": "link",
+       "text": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "edsText": "terminal 2 am flughafen frankfurt ab heute vorübergehend ope",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 766,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 766,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:terminal 2 am flughafen frankfurt ist ab",
+       "role": "text",
+       "text": "terminal 2 am flughafen frankfurt ist ab sofort vorübergehen",
+       "edsText": "terminal 2 am flughafen frankfurt ist ab sofort vorübergehen",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 72
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 4857,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 4832,
+       "w": 1376,
+       "h": 216
+      },
+      "eds": {
+       "x": 32,
+       "y": 4832,
+       "w": 1376,
+       "h": 216
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 20,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-c3d8abe0eb-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "image:ausbildung technik",
+       "role": "image",
+       "text": "ausbildung technik",
+       "edsText": "ausbildung technik",
+       "byPosition": false,
+       "origin": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135
+       },
+       "eds": {
+        "x": 1103,
+        "y": 25,
+        "w": 240,
+        "h": 135,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:presse, rekrutierung, konzern, 2026, kar",
+       "role": "text",
+       "text": "presse, rekrutierung, konzern, 2026, karriere, pressearchiv",
+       "edsText": "presse, rekrutierung, konzern, 2026, karriere, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 26,
+        "w": 448,
+        "h": 21
+       },
+       "eds": {
+        "x": 33,
+        "y": 26,
+        "w": 448,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:01.06.2026",
+       "role": "text",
+       "text": "01.06.2026",
+       "edsText": "01.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 485,
+        "y": 26,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 485,
+        "y": 26,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:fraport öffnet bewerbungsportal: jetzt a",
+       "role": "heading",
+       "text": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "edsText": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 1038,
+        "h": 30,
+        "sel": "h2#fraport-öffnet-bewerbungsportal-jetzt-ausbildungs--oder-studienplatz-sichern",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fraport öffnet bewerbungsportal: jetzt a",
+       "role": "link",
+       "text": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "edsText": "fraport öffnet bewerbungsportal: jetzt ausbildungs- oder stu",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 65,
+        "w": 723,
+        "h": 30
+       },
+       "eds": {
+        "x": 33,
+        "y": 65,
+        "w": 723,
+        "h": 30,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:jetzt durchstarten am flughafen frankfur",
+       "role": "text",
+       "text": "jetzt durchstarten am flughafen frankfurt: fraport öffnet da",
+       "edsText": "jetzt durchstarten am flughafen frankfurt: fraport öffnet da",
+       "byPosition": false,
+       "origin": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48
+       },
+       "eds": {
+        "x": 33,
+        "y": 111,
+        "w": 1038,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 1103,
+       "y": 25,
+       "w": 240,
+       "h": 135,
+       "absY": 5105,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 5080,
+       "w": 1376,
+       "h": 192
+      },
+      "eds": {
+       "x": 32,
+       "y": 5080,
+       "w": 1376,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-search-results__tags .frach-e-tag=.news-list .news-list-tags li",
+   "family": null,
+   "required": true,
+   "originMatches": 113,
+   "edsMatches": 113,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fcargo"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:cargo",
+       "role": "button",
+       "text": "cargo",
+       "edsText": "cargo",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 48,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 48,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 376,
+       "w": 50,
+       "h": 36
+      },
+      "eds": {
+       "x": 32,
+       "y": 376,
+       "w": 50,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:business-division~2Foperations~2Fflughafenbetrieb~2Fflight-connections"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:flugverbindungen",
+       "role": "button",
+       "text": "flugverbindungen",
+       "edsText": "flugverbindungen",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 113,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 113,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 98,
+       "y": 376,
+       "w": 115,
+       "h": 36
+      },
+      "eds": {
+       "x": 98,
+       "y": 376,
+       "w": 115,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:business-division~2Fconsulting~2Fairport-management"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:flughafenmanagement",
+       "role": "button",
+       "text": "flughafenmanagement",
+       "edsText": "flughafenmanagement",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 141,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 141,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 229,
+       "y": 376,
+       "w": 143,
+       "h": 36
+      },
+      "eds": {
+       "x": 229,
+       "y": 376,
+       "w": 143,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fdigitalisierung"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:digitalisierung",
+       "role": "button",
+       "text": "digitalisierung",
+       "edsText": "digitalisierung",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 93,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 93,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 388,
+       "y": 376,
+       "w": 95,
+       "h": 36
+      },
+      "eds": {
+       "x": 388,
+       "y": 376,
+       "w": 95,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:company~2Fmanagement"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:management",
+       "role": "button",
+       "text": "management",
+       "edsText": "management",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 88,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 88,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 500,
+       "y": 376,
+       "w": 90,
+       "h": 36
+      },
+      "eds": {
+       "x": 500,
+       "y": 376,
+       "w": 90,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:business-division~2Fconsulting"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:beratung",
+       "role": "button",
+       "text": "beratung",
+       "edsText": "beratung",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 65,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 65,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 606,
+       "y": 376,
+       "w": 67,
+       "h": 36
+      },
+      "eds": {
+       "x": 606,
+       "y": 376,
+       "w": 67,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fe-mobilit-t"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:e-mobilität",
+       "role": "button",
+       "text": "e-mobilität",
+       "edsText": "e-mobilität",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 76,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 76,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 689,
+       "y": 376,
+       "w": 78,
+       "h": 36
+      },
+      "eds": {
+       "x": 689,
+       "y": 376,
+       "w": 78,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fflugg-ste"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:fluggäste",
+       "role": "button",
+       "text": "fluggäste",
+       "edsText": "fluggäste",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 69,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 69,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 782,
+       "y": 376,
+       "w": 71,
+       "h": 36
+      },
+      "eds": {
+       "x": 782,
+       "y": 376,
+       "w": 71,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fenvironment"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:umwelt",
+       "role": "button",
+       "text": "umwelt",
+       "edsText": "umwelt",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 57,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 57,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 869,
+       "y": 376,
+       "w": 59,
+       "h": 36
+      },
+      "eds": {
+       "x": 869,
+       "y": 376,
+       "w": 59,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:projects-campaigns~2Fconstruction-projects"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:bauvorhaben",
+       "role": "button",
+       "text": "bauvorhaben",
+       "edsText": "bauvorhaben",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 87,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 87,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 944,
+       "y": 376,
+       "w": 89,
+       "h": 36
+      },
+      "eds": {
+       "x": 944,
+       "y": 376,
+       "w": 89,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fsustainability"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:nachhaltigkeit",
+       "role": "button",
+       "text": "nachhaltigkeit",
+       "edsText": "nachhaltigkeit",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 94,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1049,
+       "y": 376,
+       "w": 96,
+       "h": 36
+      },
+      "eds": {
+       "x": 1049,
+       "y": 376,
+       "w": 96,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fengagement"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:engagement",
+       "role": "button",
+       "text": "engagement",
+       "edsText": "engagement",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 84,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 84,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1161,
+       "y": 376,
+       "w": 86,
+       "h": 36
+      },
+      "eds": {
+       "x": 1161,
+       "y": 376,
+       "w": 86,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 12,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fwartezeit"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:wartezeit",
+       "role": "button",
+       "text": "wartezeit",
+       "edsText": "wartezeit",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 67,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 67,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1263,
+       "y": 376,
+       "w": 69,
+       "h": 36
+      },
+      "eds": {
+       "x": 1263,
+       "y": 376,
+       "w": 69,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 13,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:fraport-greece~2F2026"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:2026",
+       "role": "button",
+       "text": "2026",
+       "edsText": "2026",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 44,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 44,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1348,
+       "y": 376,
+       "w": 46,
+       "h": 36
+      },
+      "eds": {
+       "x": 1348,
+       "y": 376,
+       "w": 46,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 14,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fflugg-ste~2Freisetipp"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:reisetipp",
+       "role": "button",
+       "text": "reisetipp",
+       "edsText": "reisetipp",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 64,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 64,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 1410,
+       "y": 376,
+       "w": 66,
+       "h": 36
+      },
+      "eds": {
+       "x": 1410,
+       "y": 376,
+       "w": 66,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 36,
+  "within": 141,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

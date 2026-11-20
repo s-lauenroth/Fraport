@@ -1,33 +1,153 @@
-.columns > div {
-  display: flex;
-  flex-direction: column;
+/* columns (AEM responsive grid): each column stacks components (image figure, rich text +
+   buttons), every component carrying the component margin */
+.columns .row {
+  align-items: flex-start;
 }
 
-.columns img {
-  width: 100%;
+.columns .columns-col > * {
+  margin-bottom: var(--component-margin);
 }
 
-.columns > div > div {
-  order: 1;
+.columns .columns-figure {
+  position: relative;
 }
 
-.columns > div > .columns-img-col {
-  order: 0;
+.columns .columns-figure p {
+  margin: 0;
 }
 
-.columns > div > .columns-img-col img {
+.columns .columns-figure img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
-@media (width >= 900px) {
-  .columns > div {
-    align-items: center;
-    flex-direction: unset;
-    gap: 24px;
+.columns .columns-figure a {
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+/* download links (source .link + download icon): the icon is drawn from the href */
+.columns .rte a:any-link:is([href*=".pdf"], [href*="download"]) {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.columns .rte a:any-link:is([href*=".pdf"], [href*="download"])::before {
+  content: "";
+  align-self: flex-start;
+  flex-shrink: 0;
+  width: 16px;
+  height: 24px;
+  margin: 0 8px -2px 0;
+  background-color: currentcolor;
+  mask: url("/icons/download.svg") center / contain no-repeat;
+}
+
+.columns .buttons p {
+  display: contents;
+}
+
+.columns .buttons a.button:is(.primary, .secondary)::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+@media (width >= 720px) {
+  .columns.columns-2-cols .row > .columns-col {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
   }
 
-  .columns > div > div {
-    flex: 1;
-    order: unset;
+  .columns.columns-3-cols .row > .columns-col {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
   }
+}
+
+/* foundation .buttons .button spacing, restated: a.button:any-link (0,2,1) resets the margin */
+.columns .buttons a.button:any-link {
+  flex: 1 1 100%;
+  max-width: calc(100% - 24px);
+  margin: 0 24px 24px 0;
+}
+
+@media (width >= 720px) {
+  .columns .buttons a.button:any-link {
+    flex: 0 1 auto;
+    max-width: none;
+    margin-top: 14px;
+  }
+}
+
+/* two-thirds variant (feature hub): 8 / 4 from 720 */
+@media (width >= 720px) {
+  .columns.two-thirds.columns-2-cols .row > .columns-col:first-child {
+    flex-basis: calc(66.6667% - var(--gutter));
+    max-width: calc(66.6667% - var(--gutter));
+  }
+
+  .columns.two-thirds.columns-2-cols .row > .columns-col:last-child {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+/* variant one-third: two columns split 4 / 8 (source grid mq3-4 | mq3-8) */
+@media (width >= 720px) {
+  .columns.one-third.columns-2-cols .row > .columns-col:first-child {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+
+  .columns.one-third.columns-2-cols .row > .columns-col:last-child {
+    flex-basis: calc(66.6667% - var(--gutter));
+    max-width: calc(66.6667% - var(--gutter));
+  }
+}
+
+/* variant captions: figure caption (source frach-m-image__caption) */
+.columns.captions .columns-caption {
+  margin-top: 8px;
+  color: var(--grey-700);
+  font-family: var(--ff-regular);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.columns.captions .columns-caption p {
+  margin: 0;
+}
+
+/* variant thirds (feature-hub siblings): every column 4 of 12 from 720, whatever the count (a
+   source row of 3 x mq3-4 whose last column is empty arrives with 2 cells) */
+@media (width >= 720px) {
+  .columns.thirds .row > .columns-col {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+/* variant components: an empty button row takes no space (the source text component ends at
+   its rte); rte e-mail links carry the source's 16 px mail icon (frach-e-link inline-flex) */
+.columns.components .buttons:empty {
+  display: none;
+}
+
+.columns.components .rte a:any-link[href^="mailto:"]::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-color: currentcolor;
+  mask: url("/icons/mail.svg") center / contain no-repeat;
+  vertical-align: -2px;
 }

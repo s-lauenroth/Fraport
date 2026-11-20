@@ -1,0 +1,101 @@
+{
+ "writtenBy": "gate-all.mjs",
+ "at": "2026-11-19T23:22:35.396Z",
+ "content": {
+  "totals": {
+   "missingHeadings": 0,
+   "hiddenHeadings": 0,
+   "extraHeadings": 5,
+   "missingLinks": 0,
+   "hiddenLinks": 0,
+   "movedLinks": 0,
+   "extraLinks": 1,
+   "missingButtons": 0,
+   "hiddenButtons": 0,
+   "controlState": 0,
+   "countDeltas": 2,
+   "findings": 8,
+   "structural": 0,
+   "missing": 0,
+   "hidden": 0
+  },
+  "variable": [],
+  "reason": null,
+  "tier": "chrome"
+ },
+ "clip": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 60,
+   "textNodes": 197,
+   "controls": 95,
+   "total": 0
+  },
+  "groups": [
+   {
+    "kind": "TEXT CLAMPED",
+    "advisory": true,
+    "n": 3,
+    "clipper": "p",
+    "path": "div.slider-slide > div.teaser > div.teaser-text > p",
+    "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+    "cutMin": null,
+    "cutMax": null
+   },
+   {
+    "kind": "CONTROL X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "li.is-current",
+    "path": "div.anchor-list-items > ul > li.is-current > a",
+    "text": "aktuelles",
+    "cutMin": 52,
+    "cutMax": 52
+   },
+   {
+    "kind": "TEXT X-CUT",
+    "advisory": true,
+    "n": 1,
+    "clipper": "a",
+    "path": "div.anchor-list-items > ul > li.is-current > a",
+    "text": "aktuelles",
+    "cutMin": 52,
+    "cutMax": 52
+   }
+  ],
+  "origin": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 3,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 2,
+   "offPage": 60,
+   "textNodes": 179,
+   "controls": 86,
+   "total": 0
+  },
+  "source": "content-presence"
+ },
+ "units": {
+  "verdict": {
+   "units": 9,
+   "within": 44,
+   "off": 0,
+   "hidden": 0,
+   "missing": 0,
+   "errors": 0,
+   "requiredOff": 0
+  },
+  "required": true
+ }
+}

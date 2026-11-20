@@ -1,0 +1,19 @@
+/* breadcrumb (frach-m-breadcrumb-navigation): white 64/72px bar under the header.
+   <720: a single "back" link (chevron-left + parent label); >=720: the trail, chevron-right separators,
+   current page grey and inert. Shared by every non-home template. */
+.breadcrumb { display: flex; align-items: center; height: 64px; overflow: hidden; background: var(--white); }
+.breadcrumb > .container { flex: 1 1 auto; }
+.breadcrumb__nav { position: relative; }
+.breadcrumb .button--tertiary { display: inline-flex; align-items: center; }
+.breadcrumb__label { white-space: nowrap; }
+.breadcrumb__list { display: none; margin: 0; padding: 0; list-style: none; }
+.breadcrumb__item { margin-right: 6px; }
+.breadcrumb__item:last-child { margin-right: 0; }
+.breadcrumb__item:last-child .breadcrumb__link { color: var(--grey-600); pointer-events: none; }
+.breadcrumb__link .icon { flex: none; width: 10px; height: 10px; margin-left: 6px; color: var(--grey-600); }
+.breadcrumb__back .icon { width: 16px; height: 16px; margin: 0 6px 0 0; color: var(--primary-500); }
+@media (min-width: 720px) {
+  .breadcrumb__list { display: inline-flex; }
+  .breadcrumb__back { display: none; }
+}
+@media (min-width: 1280px) { .breadcrumb { height: 72px; } }

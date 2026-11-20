@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:49:13.625Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:56:26.144Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T18:05:19.749Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter4",
+          "at": "2026-11-19T18:08:42.366Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "extend",
+          "reason": "iter3 spent on a stitch-capture artifact: pixel-iter3.json +320px offset at y=902 — the scroll-collapsing sticky anchor list is captured expanded in the first chunk but collapsed in flow afterwards; iter3 tested the in-flow hypothesis, now reverted to canon behaviour",
+          "at": "2026-11-19T18:07:21.032Z",
+          "counted": 3
+        },
+        {
+          "decision": "accept-residual",
+          "reason": "pixel aligned 6.83% PASS, 1 offset 1px, dh 1px, content-diff 0/0, clip 0, overflow ok; residual fails = shared chrome-parity (header icon/footer region) + canon Lesen svg mask and anchor-list stitch band (500-1000) in unit/pixel",
+          "at": "2026-11-19T18:10:29.120Z",
+          "counted": 4
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T21-01-27-380Z",
+          "at": "2026-11-19T21:01:27.380Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T21-09-27-473Z",
+          "at": "2026-11-19T21:09:27.473Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T21-15-30-112Z",
+          "at": "2026-11-19T21:15:30.113Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

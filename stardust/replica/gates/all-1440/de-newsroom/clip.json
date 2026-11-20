@@ -1,0 +1,87 @@
+{
+ "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom",
+ "at": "2026-11-19T23:35:02.307Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 1,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 4,
+  "offPage": 105,
+  "textNodes": 212,
+  "controls": 108,
+  "total": 0
+ },
+ "groups": [
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "li",
+   "path": "div.anchor-list-items > ul > li > a",
+   "text": "05dokuserien und reportagen",
+   "cutMin": 185,
+   "cutMax": 185
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "a",
+   "path": "ul > li > a > span.anchor-list-number",
+   "text": "05",
+   "cutMin": 11,
+   "cutMax": 11
+  },
+  {
+   "kind": "TEXT X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "span.anchor-list-text",
+   "path": "ul > li > a > span.anchor-list-text",
+   "text": "dokuserien und reportagen",
+   "cutMin": 185,
+   "cutMax": 185
+  },
+  {
+   "kind": "CONTROL X-CUT",
+   "advisory": true,
+   "n": 1,
+   "clipper": "div.milestones-nav",
+   "path": "div.milestones-wrapper > div.milestones.grey > div.milestones-nav > div.milestones-item",
+   "text": "youtube",
+   "cutMin": 18,
+   "cutMax": 18
+  },
+  {
+   "kind": "TEXT CLAMPED",
+   "advisory": true,
+   "n": 1,
+   "clipper": "p",
+   "path": "div.slider-slide > div.teaser > div.teaser-text > p",
+   "text": "fraport überwacht die luftqualität am flughafen frankfurt ko",
+   "cutMin": null,
+   "cutMax": null
+  }
+ ],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 1,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 3,
+   "offPage": 103,
+   "textNodes": 194,
+   "controls": 96,
+   "total": 0
+  }
+ }
+}

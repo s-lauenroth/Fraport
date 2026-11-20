@@ -1,0 +1,63 @@
+/* section-title (frach-m-section-title): ribbon headline (h3 size) + optional intro paragraph */
+.section-title .section-title-box {
+  position: relative;
+}
+
+.section-title.nested .section-title-box {
+  margin-bottom: 24px;
+}
+
+.section-title .section-title-heading {
+  margin: 0;
+}
+
+.section-title .section-title-heading :is(h1, h2, h3, h4, h5, h6) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.section-title .section-title-body {
+  margin: 0;
+  color: var(--grey-600);
+}
+
+.section-title .section-title-body p {
+  margin: 0;
+}
+
+.section-title .section-title-heading + .section-title-body {
+  margin-top: 24px;
+}
+
+@media (width >= 960px) {
+  .section-title .section-title-box {
+    margin-left: 24px;
+  }
+
+  .section-title.nested .section-title-box {
+    margin-bottom: 32px;
+  }
+
+  .section-title .section-title-heading {
+    max-width: 50%;
+  }
+
+  .section-title .section-title-heading + .section-title-body {
+    margin-top: 32px;
+  }
+}
+
+@media (width >= 1280px) {
+  .section-title .section-title-box {
+    margin-left: 32px;
+  }
+}
+
+/* a nested title sits inside its parent component: no component margin of its own */
+main .section > div:has(> .section-title.nested) {
+  margin-bottom: 0;
+}

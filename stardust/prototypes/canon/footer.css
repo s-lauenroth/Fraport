@@ -1,0 +1,77 @@
+/* ==========================================================================
+   Footer (frach-m-page-footer): gradient band, contact accordion, link-list
+   columns (accordions below 960), social links, copyright.
+   ========================================================================== */
+.footer { display: block; padding: 32px 0; background: var(--gradient-brand); color: var(--white); }
+.footer a { color: var(--white); }
+
+/* accordion primitive (details/summary) */
+.footer__acc { display: flex; flex-direction: column; border-bottom: 1px solid var(--rule-color); }
+.footer__acc > summary {
+  display: flex; justify-content: space-between; align-items: flex-start;
+  padding: 24px 8px 24px 0; cursor: pointer; list-style: none; user-select: none;
+  font-family: var(--ff-semibold); font-size: 16px; line-height: 24px; letter-spacing: .5px; color: var(--white);
+}
+.footer__acc > summary::-webkit-details-marker { display: none; }
+.footer__acc-label { font-family: var(--ff-regular); word-break: break-word; }
+.footer__acc-icon { width: 24px; min-width: 24px; height: 24px; margin-left: 19px; transition: transform .3s; }
+.footer__acc[open] .footer__acc-icon { transform: rotate(180deg); }
+
+/* contact */
+.footer__contact { margin-bottom: 0; }
+.footer__contact-cols { display: flex; flex-wrap: wrap; margin: 0 calc(var(--gutter) / -2) 32px; }
+.footer__contact-col { flex: 0 0 calc(100% - var(--gutter)); max-width: calc(100% - var(--gutter)); margin: 28px calc(var(--gutter) / 2) 32px; }
+.footer__contact-col:last-child { margin-bottom: 24px; }
+.footer__contact-col p { margin: 0 0 10px; }
+.footer__contact-col p:last-child { margin-bottom: 0; }
+.footer .link > .icon { color: var(--white); }
+
+/* link lists + social */
+.footer__row { display: flex; flex-wrap: wrap; margin: 0 calc(var(--gutter) / -2); }
+.footer__col { flex: 0 0 100%; max-width: 100%; width: 100%; margin: 0 calc(var(--gutter) / 2); }
+.footer__links { list-style: none; margin: 24px 0 56px; padding: 0; }
+.footer__links li { margin: 0; }
+.footer__links a { display: inline-flex; padding: 16px 0 0; }
+.footer__social { overflow: hidden; }
+.footer__social-title { display: none; }
+.footer__social-inner { margin: 48px -32px 28px 0; }
+.footer__social-group { margin-bottom: 8px; }
+.footer__social-group h6 { font-family: var(--ff-regular); font-size: 16px; line-height: 24px; font-weight: 500; margin: 0 0 10px; }
+.footer__social-item { display: inline-flex; width: 28px; height: 28px; margin: 0 32px 16px 0; }
+.footer__social-item .icon { width: 28px; height: 28px; color: var(--white); }
+.footer__copyright { display: flex; margin: 0 calc(var(--gutter) / -2); }
+.footer__copyright p { margin: 0 calc(var(--gutter) / 2); }
+
+@media (max-width: 959px) {
+  .footer__row { margin: 0; }
+  .footer__col { margin: 0; }
+}
+@media (min-width: 720px) and (max-width: 959px) {
+  .footer__contact-col { flex-basis: calc(50% - var(--gutter)); max-width: calc(50% - var(--gutter)); margin-top: 40px; margin-bottom: 24px; }
+}
+@media (min-width: 960px) {
+  .footer__contact { margin-bottom: 64px; }
+  .footer__contact-col { flex-basis: calc(25% - var(--gutter)); max-width: calc(25% - var(--gutter)); margin-bottom: 0; }
+  .footer__col { flex: 0 0 calc(25% - var(--gutter)); max-width: calc(25% - var(--gutter)); }
+  .footer__col .footer__acc { border: 0; }
+  .footer__col .footer__acc > summary { padding: 0; pointer-events: none; }
+  .footer__col .footer__acc-label { font-family: var(--ff-semibold); font-size: 24px; line-height: 34px; letter-spacing: normal; }
+  .footer__col .footer__acc-icon { display: none; }
+  .footer__links { margin: 0 0 2px; }
+  .footer__links a { padding-top: 20px; } /* source: 24px, but every link is its li's :first-child → 20px */
+  .footer__social-title { display: block; margin: 0 0 16px; }
+  .footer__social-inner { margin: 0 -12px -6px 0; }
+  .footer__social-group { margin-bottom: 18px; }
+  .footer__social-item { margin: 0 12px 6px 0; }
+  .footer__copyright p { margin-top: 70px; }
+}
+@media (min-width: 1280px) {
+  .footer__social-inner { margin: 0 -24px -12px 0; }
+  .footer__social-group { margin-bottom: 12px; }
+  .footer__social-item { margin: 0 24px 12px 0; }
+}
+@media (min-width: 1440px) {
+  .footer__social-inner { margin: 0 -32px -16px 0; }
+  .footer__social-group { margin-bottom: 8px; }
+  .footer__social-item { margin: 0 32px 16px 0; }
+}

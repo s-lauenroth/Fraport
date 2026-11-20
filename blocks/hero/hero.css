@@ -1,37 +1,127 @@
-.hero-container .hero-wrapper {
-  max-width: unset;
-  padding: 0;
-}
-
+/* hero (frach-m-hero): 16:9 media offset 2 cols and bleeding right; ribbon headline over it
+   (>= 720) or overlapping its foot (< 720) */
 .hero {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  display: flex;
 }
 
-.hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+.hero > .container {
+  flex: 0 1 auto;
 }
 
-.hero picture {
+.hero .row > .hero-media {
+  position: relative;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+.hero.is-active .hero-media {
+  animation: fade-in 0.5s ease-out both;
+}
+
+.hero .hero-frame {
+  position: relative;
+  overflow: hidden;
+  width: calc(100% + 8px);
+  margin-left: -4px;
+  padding-bottom: 56.25%;
+}
+
+.hero .hero-frame img {
   position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
-}
-
-.hero img {
-  object-fit: cover;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
-@media (width >= 900px) {
-  .hero {
-    padding: 40px 32px;
+.hero .hero-headline {
+  position: relative;
+  z-index: 10;
+  margin-top: -40px;
+  font-size: 18px;
+}
+
+.hero .hero-headline :is(h1, h2, h3, h4, h5, h6) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+@media (width >= 720px) {
+  .hero .row > .hero-media {
+    flex: 0 0 83.3333%;
+    max-width: 83.3333%;
+    margin-left: calc(16.6667% + var(--gutter) / 2);
+    margin-right: calc(var(--gutter) / -2);
+  }
+
+  .hero .hero-frame {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .hero .hero-headline {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+    font-size: inherit;
+    max-width: calc(75% - var(--gutter));
+    flex: none;
+  }
+
+  .hero .hero-headline.h1 {
+    font-size: 32px;
+  }
+}
+
+@media (width >= 960px) {
+  .hero .hero-headline.h1 {
+    font-size: 56px;
+  }
+}
+
+/* variant ratio-21-9 (frach-m-hero 21:9, section-landing): wider, flatter key visual */
+.hero.ratio-21-9 .hero-frame {
+  padding-bottom: 42.8751%;
+}
+
+/* variant full-width (frach-m-hero--full-width, content-page fraport-aktie): the key visual spans
+   the grid (edge to edge below 1280), no headline, a 10 % brand gradient veil */
+.hero.full-width {
+  display: block;
+}
+
+.hero.full-width .row > .hero-media {
+  flex: 0 0 calc(100% - var(--gutter));
+  max-width: calc(100% - var(--gutter));
+  margin: 0 calc(var(--gutter) / 2);
+}
+
+.hero.full-width .hero-frame {
+  width: 100%;
+  margin-left: 0;
+}
+
+.hero.full-width .hero-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.1;
+  background: var(--gradient-brand);
+}
+
+.hero.full-width > .container {
+  width: 100%;
+}
+
+@media (width >= 1280px) {
+  .hero.full-width > .container {
+    width: calc(100% - var(--grid-outer));
   }
 }

@@ -1,0 +1,903 @@
+{
+ "url": "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+ "pages": 8,
+ "build": "buildInfo:{minified:!0,buildDate:\"2026-01-19T11:26:32Z\",turbineBuildDate:\"2024-08-22T17:32:44Z\",turbineVersion:\"28.0.0\"}",
+ "orgId": "67BD10165D63917A0A495CD8@AdobeOrg",
+ "extensions": [
+  "Experience Cloud ID Service",
+  "Adobe Client Data Layer",
+  "Core",
+  "Adobe Analytics",
+  "Time and Scroll Event"
+ ],
+ "webSdk": null,
+ "target": null,
+ "dataElements": [
+  {
+   "name": "URL",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Search Results Count",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Link Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Component Description",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Component Path",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Video Play Progress",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Path",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Component Parent",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Tenant",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Video Source",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Quick Search Checkout Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Quick Search Checkout Url",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Campaign ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Tags",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Quick Search Term",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Referrer",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Component ParentId",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Wallpaper Category",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "SSL Tracking Server",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Modify Date",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Hostname",
+   "type": "pageInfo",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page ID",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Slider Interaction Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Type",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Language",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Contact Details",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Template Path",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Name",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Wallpaper Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Page Description",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Quick Search Results",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Tracking Server",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  },
+  {
+   "name": "Component Title",
+   "type": "customCode",
+   "source": null,
+   "selectors": []
+  }
+ ],
+ "rules": [
+  {
+   "id": "RL00da9c03e0a448ab83b48a5501307359",
+   "name": "DataLayer Event | 50 => All Pages => Accordion Toggle => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:accordeon-item-toggle"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0207a3adf863450fbec05f7bf7778054",
+   "name": "DataLayer Event | 50 => All Pages => Meta-Navigation Click => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click",
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0bad9e40aaf147ae9c17d9b76379e5de",
+   "name": "DataLayer Event | 50 => All Pages => Notification Click => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0e94dac2545b47a899cb1160be2211fd",
+   "name": "DataLayer Event | 50 => All Pages => Search Focus => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:search-input-focus"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL0faaba2e137b4a52bb328e6a22797d53",
+   "name": "DataLayer Event | 50 => All Pages => Video Play Progress 75 % => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:video-play-progress-75"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL201606c7d79e40e3982d6ee66c07422f",
+   "name": "DataLayer Event | 50 => All Pages => Video Play Progress 50 % => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:video-play-progress-50"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL2c091bf618c94b658dd9347245a52517",
+   "name": "Scroll Event | 50 => Scroll Depth 30 % => 5 Seconds => Set Variables => Send Event Beacon",
+   "events": [
+    "combinedTimeSpentAndScrollDepth"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL303efd77f86e4ee2ba01dcdd9831249e",
+   "name": "Scroll Event | 50 => Scroll Depth 90 % => 11 Seconds => Set Variables => Send Event Beacon",
+   "events": [
+    "combinedTimeSpentAndScrollDepth"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL31fbf158e53f4ff0840fd6c8036d2417",
+   "name": "DataLayer Event | 50 => All Pages => CTA Click => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:cta_click"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL34acbbb1fc024e6986601ebf011b74c1",
+   "name": "Scroll Event | 50 => Scroll Depth 60 % => 8 Seconds => Set Variables => Send Event Beacon",
+   "events": [
+    "combinedTimeSpentAndScrollDepth"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL3a8613c6ccf24e1a9348ca4264b21eb6",
+   "name": "DataLayer Event | 50 => All Pages => Search Result Apply Filter => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:search-filter-changed"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL44e8bab0ec8a4df98401aa7a315ac8a1",
+   "name": "DataLayer Event | 50 => All Pages => Search Results => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:search-results-loaded"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL45c8a9d34bae4c108caedc59a3acf6af",
+   "name": "Click Event | 50 => Sticky Patch Interactions => Send Analytics Beacon",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [
+    "frach-e-sticky-patch .frach-e-sticky-patch__open-button",
+    "frach-e-sticky-patch .frach-e-link"
+   ],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL46ab99357a0e4c53a0795f7a6716e077",
+   "name": "DataLayer Event | 50 => All Pages => Quick Search Suggestions => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:quick-search-suggestions"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL4a10b007cf8c4e51bb47242cf3c35285",
+   "name": "DataLayer Event | 50 => All Pages => Video Play => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:video-play"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL694fafb6aded4736ae267580704f0546",
+   "name": "DataLayer Event | 50 => All Pages => Search Suggestion Checkout => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:search-suggestion-submit"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL6d651eba61f8440382b342a48e11188f",
+   "name": "DataLayer Event | 50 => All Pages => AnchorList Item Clicked => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL79d80f3745a84149ac2fd549d16c4b91",
+   "name": "DataLayer Event | 50 => All Pages => Video Play Progress 25 % => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:video-play-progress-25"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7a68ad70e1b741168688ca1656c7605b",
+   "name": "DataLayer Event | 50 => All Pages => Gallery Download => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL7e7dd354cadd47a08232106f1280eaa5",
+   "name": "DataLayer Event | 50 => All Pages => Video Play Progress 100 % => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:video-play-progress-100"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL81c2a69541134cd88f19ecb8a76cc5fc",
+   "name": "1 - DataLayer Event | 50 => acdl_helper:loaded => Config Helper Library",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "acdl_helper:loaded"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8acc81610e3340ddba9451917199bede",
+   "name": "DataLayer Event | 50 => All Pages => Search Results Checkout Item => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC36c52e3dc87042799122c08a0e1ae7ab-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RL8f04bee755e44900a80da60672688460",
+   "name": "DataLayer Event | 50 => All Pages => Slider Interaction => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:slide-changed"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa07d2531be3a4d6182f984481567e13a",
+   "name": "DataLayer Event | 50 => All Pages => Image Hotspot Clicked => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa530ddb743ab4f1d8f281329fc6d8216",
+   "name": "DataLayer Event | 50 => All Pages => Quick Search Submit => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:quick-search-submit"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLa85fe1b853fc48b795c8bde0ae4906b3",
+   "name": "DataLayer Event | 50 => All Pages => Text Link Click => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLac4dd92e57d5442a9e5344afd9d021fe",
+   "name": "DataLayer Event | 50 => [ acdl_helper:page:load ] => All Pages => Send Page View Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "acdl_helper:page:load"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLacec119f19954bd2bc074676b05c7452",
+   "name": "DataLayer Event | 50 => All Pages => Contact Option Clicked => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLafa1f84d2a0e41499adf41d378d7119f",
+   "name": "DataLayer Event | 50 => All Pages => Gallery Zip Download => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLb6b9e17c635b44f3b070d3037c574640",
+   "name": "DataLayer Event | 50 => All Pages => Navigation Link Click => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLbcd7c1baaf354a8ebf9b897128cfe33c",
+   "name": "0 - Library Loaded | 50 => Push DataLayer Event => Launch Loaded",
+   "events": [
+    "libraryLoaded"
+   ],
+   "pushEvents": [],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcb595f60349b47dd98fb50fef20906fb",
+   "name": "DataLayer Event | 50 => All Pages => Quick Search Suggestion Checkout => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:quick-search-suggestion-submit"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLcb998033a0d04e8cbb1d94e8253874ee",
+   "name": "Click Event | 50 => Page Tree ~ wallpapers => Handle Wallpaper Interactions => Set Variables => Send Event Beacon",
+   "events": [
+    "click"
+   ],
+   "pushEvents": [],
+   "conditions": [
+    "path"
+   ],
+   "paths": [
+    "/de/newsroom/fraport-mediathek/bilddatenbank/wallpapers/"
+   ],
+   "selectors": [
+    "a[data-wallpaper]",
+    "div#agbbtn a.wallpaperbtn",
+    "a[data-aa-component]"
+   ],
+   "customCode": [
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RCa5cfcdc6e7df46db977ab3145b5032cd-source.min.js"
+   ],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLda2da1afa1f441f496223db217d13786",
+   "name": "DataLayer Event | 50 => All Pages => Sharing Icon Clicked => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe34af7a64a46439ab145dc50f64bc680",
+   "name": "DataLayer Event | 50 => All Pages => Image Link Click => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:link_click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLe675d336eef6450bb82d6339241d2eb7",
+   "name": "DataLayer Event | 50 => All Pages => Image Overlay Opened => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLebcd1a54f26640f0b972d8f738a72c9e",
+   "name": "DataLayer Event | 50 => All Pages => Notification Overlay Interaction => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "frach:notification-overlay"
+   ],
+   "conditions": [],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  },
+  {
+   "id": "RLf6d00cd3dda0482b9dbc34596649ed36",
+   "name": "DataLayer Event | 50 => All Pages => Click More Button => Set Variables => Send Event Beacon",
+   "events": [
+    "datalayerPushListener"
+   ],
+   "pushEvents": [
+    "cmp:click"
+   ],
+   "conditions": [
+    "customCode"
+   ],
+   "paths": [],
+   "selectors": [],
+   "customCode": [],
+   "consentGroups": [],
+   "loads": [],
+   "otDomainScripts": []
+  }
+ ]
+}

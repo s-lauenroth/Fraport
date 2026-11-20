@@ -1,0 +1,239 @@
+{
+  "a": "stardust/replica/gates/all-360/de-investoren/origin.png",
+  "b": "stardust/replica/gates/all-360/de-investoren/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 7669,
+    "mode": "overlap"
+  },
+  "heightDelta": -18,
+  "differingPixels": 311171,
+  "pct": 11.27,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-investoren/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 12.49,
+  "textBoxes": 152,
+  "textPixels": 715644,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 1
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 4.7
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 8.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 12.2
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 10.3
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 8.4
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 11.5
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 10.7
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 9.6
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 18.7
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 17.5
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 43
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 4
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 9.2
+    },
+    {
+      "y0": 7500,
+      "y1": 7669,
+      "pct": 9.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.95,
+    "differingPixels": 26226,
+    "compared": {
+      "width": 360,
+      "height": 7687,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1287,
+        "shift": 10,
+        "cumulative": 10
+      },
+      {
+        "y": 5597,
+        "shift": 8,
+        "cumulative": 18
+      }
+    ],
+    "maxOffset": 18,
+    "totalShift": 18,
+    "insertedRows": 18,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 2,
+        "unaligned": 4.7
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.8,
+        "unaligned": 8.8
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.3,
+        "unaligned": 12.2
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.3,
+        "unaligned": 10.3
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 8.4
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.7,
+        "unaligned": 11.5
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.7,
+        "unaligned": 10.7
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.6,
+        "unaligned": 9.6
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 1.1,
+        "unaligned": 18.7
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 1.7,
+        "unaligned": 17.5
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 2.4,
+        "unaligned": 43
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 0.1,
+        "unaligned": 4
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 0.8,
+        "unaligned": 9.2
+      },
+      {
+        "y0": 7500,
+        "y1": 7669,
+        "pct": 2.1,
+        "unaligned": 9.2
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/de-investoren/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 77,
+    "totalShift": 18,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/investoren"
+  }
+}

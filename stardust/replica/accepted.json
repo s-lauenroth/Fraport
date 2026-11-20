@@ -1,0 +1,11 @@
+{
+  "accepted": [
+    { "kind": "MISSING BODY", "text": "€", "root": "#main-content", "reason": "de: live XETRA quote (key-figures stock, fetched from /chartjson/ and counted up at runtime) — value differs per capture; build shows the captured 66,00 € (captureState)" },
+    { "kind": "EXTRA", "text": "€", "root": "#main-content", "reason": "de: captured XETRA quote 66,00 € vs the live runtime quote (dynamic data, captureState)" },
+    { "kind": "EXTRA", "text": "80.000", "root": "#main-content", "reason": "de: key-figure final value; live counts up from 0 on scroll-in, the capture reads a mid-animation number" },
+    { "kind": "EXTRA", "text": "450", "root": "#main-content", "reason": "de: key-figure final value; live counts up from 0 on scroll-in, the capture reads a mid-animation number" },
+    { "kind": "EXTRA", "text": "75 Jahre Flughafenfeuerwehr", "root": "#main-content", "reason": "de-newsroom (+ de-konzern): canon sticky-patch card title; on live the patch starts closed and its <h6> is not read as content, the build card is equally closed (no visible change)" },
+    { "kind": "EXTRA", "text": "Previous Slide", "root": "#main-content", "reason": "de-newsroom @360: visually-hidden labels of slider/anchor-list arrow buttons that are display:none below 960 (live hides the same controls)" },
+    { "kind": "EXTRA", "text": "Next Slide", "root": "#main-content", "reason": "de-newsroom @360: visually-hidden labels of slider/anchor-list arrow buttons that are display:none below 960 (live hides the same controls)" }
+  ]
+}

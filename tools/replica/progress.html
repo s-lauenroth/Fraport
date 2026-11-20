@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Migration result</title>
+<link rel="stylesheet" href="spectrum.css">
+<style>
+  body { background-color: var(--spectrum-bg-app); }
+  main { max-width: 760px; margin: 0 auto; padding: 40px 24px 64px; }
+  header { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+  .meta { color: var(--spectrum-text-subdued); margin: 0 0 24px; }
+  .spectrum-panel { margin-bottom: 16px; }
+  .spectrum-panel-header { margin: 0; padding: 0 16px; }
+  details.spectrum-panel > summary { cursor: pointer; list-style: none; }
+  details.spectrum-panel > summary::-webkit-details-marker { display: none; }
+  details.spectrum-panel > summary > h2 { margin: 0; font: inherit; }
+  details.spectrum-panel > summary > h2::before { content: "\25B8"; display: inline-block; width: 1em; margin-right: 6px; color: var(--spectrum-text-subdued); }
+  details.spectrum-panel[open] > summary > h2::before { content: "\25BE"; }
+  .panel-body { padding: 16px; }
+  .panel-body > :last-child { margin-bottom: 0; }
+  .bar { height: 8px; border-radius: 9999px; background-color: var(--spectrum-gray-200); overflow: hidden; }
+  .bar span { display: block; height: 100%; background-color: var(--spectrum-accent-bg); }
+  ol.steps { list-style: none; padding: 0; margin: 0; }
+  ol.steps li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
+  ol.steps li + li { border-top: 1px solid var(--spectrum-gray-200); }
+  details summary { cursor: pointer; }
+  table.pages { margin-top: 8px; }
+  table.pages td { word-break: break-all; }
+  table.pages td .spectrum-badge { word-break: normal; }
+  @media (max-width: 400px) { table.pages th, table.pages td { padding: 8px 4px; } }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px; text-align: left; border-bottom: 1px solid var(--spectrum-gray-200); }
+  th { color: var(--spectrum-text-subdued); font-weight: 700; }
+  .panel-body h3 { margin: 16px 0 4px; }
+  ol.todo { padding-left: 20px; margin: 0 0 16px; }
+  ol.todo li { margin: 6px 0; }
+  ul.all { columns: 2; margin: 4px 0; padding-left: 18px; }
+  .spectrum-panel-header .spectrum-badge { margin-left: 8px; vertical-align: middle; }
+  #blocks-used table.blocks { table-layout: fixed; }
+  #blocks-used table.blocks th:nth-child(1) { width: 26%; }
+  #blocks-used table.blocks th:nth-child(2) { width: 32%; }
+  #blocks-used td { overflow-wrap: break-word; vertical-align: top; }
+  #blocks-used td:last-child { overflow-wrap: anywhere; }
+  #blocks-used tr.group td { border-top: 1px solid var(--spectrum-gray-300); }
+  #blocks-used td.block { font-weight: 700; }
+  #blocks-used .block-pages { display: block; font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .variant { display: inline-block; padding: 0 6px; margin: 0 4px 2px 0; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-sm); font-family: var(--spectrum-font-code); }
+  #blocks-used .variant-inline { font-family: var(--spectrum-font-code); font-weight: 400; color: var(--spectrum-text-subdued); }
+  #blocks-used .default, #blocks-used .blocks-count { color: var(--spectrum-text-subdued); }
+  #blocks-used .default { font-style: italic; }
+  #blocks-used .blocks-count { margin: 0; }
+  #blocks-used button.more { padding: 0; border: 0; background: none; color: var(--spectrum-text-accent); font: inherit; cursor: pointer; text-decoration: underline; }
+  #blocks-used .blocks-popover { width: min(520px, 90vw); max-height: 80vh; overflow: auto; overflow-wrap: anywhere; padding: 16px 20px; border: 1px solid var(--spectrum-gray-300); border-radius: var(--spectrum-radius-lg); background-color: var(--spectrum-bg-layer-1); box-shadow: var(--spectrum-shadow-elevated); }
+  #blocks-used .blocks-popover::backdrop { background-color: color-mix(in srgb, var(--spectrum-gray-900) 35%, transparent); }
+  #blocks-used .popover-head { display: flex; justify-content: space-between; align-items: start; gap: 12px; }
+  #blocks-used .popover-head h3 { margin: 0; }
+  #blocks-used ul.popover-pages { columns: 2; padding-left: 20px; margin: 12px 0 0; }
+  #blocks-used ul.popover-pages li { padding: 4px 0; break-inside: avoid; }
+  /* A browser without the popover API would show every page list inline; ':popover-open' is invalid there. */
+  @supports not selector(:popover-open) {
+    #blocks-used .blocks-popover, #blocks-used .more { display: none; }
+  }
+  #blocks-used .bp-radio { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  #blocks-used .bp-page, #blocks-used .bp-range { display: none; }
+  #blocks-used .pager { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 12px; flex-wrap: wrap; }
+  #blocks-used .labels { display: flex; flex-wrap: wrap; gap: 4px; }
+  #blocks-used .bp-radio:focus-visible ~ .pager label { outline: 2px solid var(--spectrum-focus-ring); }
+  #bp-1:checked ~ table .bp-page-1 { display: table-row-group; }
+  #bp-1:checked ~ .pager .bp-range-1 { display: inline; }
+  #bp-1:checked ~ .pager label[for="bp-1"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-2:checked ~ table .bp-page-2 { display: table-row-group; }
+  #bp-2:checked ~ .pager .bp-range-2 { display: inline; }
+  #bp-2:checked ~ .pager label[for="bp-2"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-3:checked ~ table .bp-page-3 { display: table-row-group; }
+  #bp-3:checked ~ .pager .bp-range-3 { display: inline; }
+  #bp-3:checked ~ .pager label[for="bp-3"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-4:checked ~ table .bp-page-4 { display: table-row-group; }
+  #bp-4:checked ~ .pager .bp-range-4 { display: inline; }
+  #bp-4:checked ~ .pager label[for="bp-4"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-5:checked ~ table .bp-page-5 { display: table-row-group; }
+  #bp-5:checked ~ .pager .bp-range-5 { display: inline; }
+  #bp-5:checked ~ .pager label[for="bp-5"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+  #bp-6:checked ~ table .bp-page-6 { display: table-row-group; }
+  #bp-6:checked ~ .pager .bp-range-6 { display: inline; }
+  #bp-6:checked ~ .pager label[for="bp-6"] { background-color: var(--spectrum-gray-200); font-weight: 700; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Migration result</h1>
+    <span class="spectrum-badge spectrum-badge--positive">Ready</span>
+  </header>
+  <p class="meta">Source site: <a href="https://www.fraport.com/" target="_blank" rel="noopener">https://www.fraport.com/</a><br>Preview site: <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">https://main--340a2135--aemcoder.aem.page/</a><br>Finished: 2026-11-20 00:21 UTC</p>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>What's done</h2></summary>
+    <div class="panel-body">
+      <p>Your migration is complete. All 25 pages are live on the new platform, match your current site on desktop and mobile, and have had their links, interactive features and search readiness checked.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Next steps</h2></summary>
+    <div class="panel-body">
+      <p>Your team can now review the new site and decide when to switch on the analytics and consent tools we carried over.</p>
+      <ol class="todo">
+        <li><strong>Make it yours.</strong> Move this result into your own site and GitHub repository: use <strong>Make it yours</strong> on this migration in AEM Coder.</li>
+        <li><strong>Review the pages</strong> on the <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">preview site</a>.</li>
+        <li><strong>Switch on analytics and tags</strong> when you are ready: see <em>Before you switch them on</em> under Analytics and tags.</li>
+      </ol>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Pages</h2></summary>
+    <div class="panel-body">
+      <p>This migration covers 25 pages. 25 of 25 are published on the preview site; 25 have passed the side-by-side check against the original.</p>
+      <details>
+        <summary>25 pages in this migration</summary>
+        <table class="pages">
+          <thead><tr><th>Source page</th><th>On the preview site</th><th>Status</th></tr></thead>
+          <tbody>
+          <tr><td><a href="https://www.fraport.com/de.html" target="_blank" rel="noopener">https://www.fraport.com/de.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/" target="_blank" rel="noopener">https://www.fraport.com/</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/geschaeftsfelder.html" target="_blank" rel="noopener">https://www.fraport.com/de/geschaeftsfelder.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/investoren.html" target="_blank" rel="noopener">https://www.fraport.com/de/investoren.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/nachhaltigkeit.html" target="_blank" rel="noopener">https://www.fraport.com/de/nachhaltigkeit.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/newsroom.html" target="_blank" rel="noopener">https://www.fraport.com/de/newsroom.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/ueber-uns.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/ueber-uns.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/konzernstrategie.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/konzernstrategie.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/managementsysteme.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/managementsysteme.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/regionales-engagement.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/regionales-engagement.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/digitalisierung.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/digitalisierung.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/geschaeftsfelder/betrieb.html" target="_blank" rel="noopener">https://www.fraport.com/de/geschaeftsfelder/betrieb.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/geschaeftsfelder/international-activities.html" target="_blank" rel="noopener">https://www.fraport.com/de/geschaeftsfelder/international-activities.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/geschaeftsfelder/service.html" target="_blank" rel="noopener">https://www.fraport.com/de/geschaeftsfelder/service.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/investoren/fraport-aktie.html" target="_blank" rel="noopener">https://www.fraport.com/de/investoren/fraport-aktie.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/investoren/publikationen-termine.html" target="_blank" rel="noopener">https://www.fraport.com/de/investoren/publikationen-termine.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html" target="_blank" rel="noopener">https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html" target="_blank" rel="noopener">https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html" target="_blank" rel="noopener">https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/newsroom/ansprechpartner.html" target="_blank" rel="noopener">https://www.fraport.com/de/newsroom/ansprechpartner.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/newsroom/pressemitteilung.html" target="_blank" rel="noopener">https://www.fraport.com/de/newsroom/pressemitteilung.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung" target="_blank" rel="noopener">Pressemitteilungen</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/newsroom/servicenews.html" target="_blank" rel="noopener">https://www.fraport.com/de/newsroom/servicenews.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews" target="_blank" rel="noopener">Service News</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          <tr><td><a href="https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html" target="_blank" rel="noopener">https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html</a></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a></td><td><span class="spectrum-badge spectrum-badge--positive">Checked</span></td></tr>
+          </tbody>
+        </table>
+      </details>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Page templates</h2></summary>
+    <div class="panel-body">
+      <table>
+        <thead><tr><th>Template</th><th>Pages</th><th>Desktop</th><th>Mobile</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Home page</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Content pages</td><td>11</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Newsroom and feature pages</td><td>3</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>News listings</td><td>2</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+          <tr><td>Section overview pages</td><td>7</td><td>—</td><td>—</td><td><span class="spectrum-badge">Not recorded</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" id="blocks-used">
+    <summary class="spectrum-panel-header"><h2>Blocks used</h2></summary>
+    <div class="panel-body">
+      <p>30 blocks in 68 variants across 25 pages. These are the building blocks your authors will work with.</p>
+      <input type="radio" name="blocks-page" id="bp-1" class="bp-radio" checked>
+      <input type="radio" name="blocks-page" id="bp-2" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-3" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-4" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-5" class="bp-radio">
+      <input type="radio" name="blocks-page" id="bp-6" class="bp-radio">
+      <table class="blocks">
+        <thead><tr><th>Block</th><th>Variant</th><th>Pages</th></tr></thead>
+        <tbody class="bp-page bp-page-1">
+          <tr class="group"><td class="block">sticky-patch<span class="block-pages">25 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-0-0">View 25 pages</button></td></tr>
+          <tr class="group"><td class="block" rowspan="3">hero<span class="block-pages">22 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a>, <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></td></tr>
+          <tr><td><span class="variant">ratio-21-9</span></td><td><button class="more" popovertarget="blocks-pages-1-1">View 18 pages</button></td></tr>
+          <tr><td><span class="variant">ratio-21-9</span><span class="variant">full-width</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a></td></tr>
+          <tr class="group"><td class="block" rowspan="6">section-title<span class="block-pages">22 pages</span></td><td><span class="variant">gradient</span><span class="variant">nested</span></td><td><button class="more" popovertarget="blocks-pages-2-0">View 19 pages</button></td></tr>
+          <tr><td><span class="variant">primary</span></td><td><button class="more" popovertarget="blocks-pages-2-1">View 10 pages</button></td></tr>
+          <tr><td><span class="variant">primary</span><span class="variant">nested</span></td><td><button class="more" popovertarget="blocks-pages-2-2">View 7 pages</button></td></tr>
+          <tr><td><span class="variant">secondary</span><span class="variant">nested</span></td><td><button class="more" popovertarget="blocks-pages-2-3">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">gradient</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></td></tr>
+          <tr><td><span class="variant">secondary</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></td></tr>
+          <tr class="group"><td class="block">breadcrumb<span class="block-pages">21 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-3-0">View 21 pages</button></td></tr>
+          <tr class="group"><td class="block">related-content<span class="block-pages">19 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-4-0">View 19 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-2">
+          <tr class="group"><td class="block" rowspan="6">text-media<span class="block-pages">16 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-5-0">View 8 pages</button></td></tr>
+          <tr><td><span class="variant">right</span><span class="variant">third</span></td><td><button class="more" popovertarget="blocks-pages-5-1">View 8 pages</button></td></tr>
+          <tr><td><span class="variant">right</span><span class="variant">half</span></td><td><button class="more" popovertarget="blocks-pages-5-2">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">left</span><span class="variant">half</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">left</span><span class="variant">third</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">right</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr class="group"><td class="block" rowspan="8">columns<span class="block-pages">15 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-6-0">View 6 pages</button></td></tr>
+          <tr><td><span class="variant">two-thirds</span><span class="variant">components</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a> <span class="blocks-count">×2</span>, <a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></td></tr>
+          <tr><td><span class="variant">one-third</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></td></tr>
+          <tr><td><span class="variant">two-thirds</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a> <span class="blocks-count">×2</span>, <a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">captions</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></td></tr>
+          <tr><td><span class="variant">one-third</span><span class="variant">captions</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></td></tr>
+          <tr><td><span class="variant">grey</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></td></tr>
+          <tr><td><span class="variant">thirds</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block" rowspan="2">accordion<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-7-0">View 11 pages</button></td></tr>
+          <tr><td><span class="variant">open</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">cta<span class="block-pages">11 pages</span></td><td><span class="default">default</span></td><td><button class="more" popovertarget="blocks-pages-8-0">View 5 pages</button></td></tr>
+          <tr><td><span class="variant">small</span></td><td><button class="more" popovertarget="blocks-pages-8-1">View 9 pages</button></td></tr>
+          <tr class="group"><td class="block">teaser-slider<span class="block-pages">6 pages</span></td><td><span class="variant">quicklinks</span></td><td><button class="more" popovertarget="blocks-pages-9-0">View 6 pages</button></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-3">
+          <tr class="group"><td class="block" rowspan="6">figure<span class="block-pages">5 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></td></tr>
+          <tr><td><span class="variant">zoom</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×5</span>, <a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a></td></tr>
+          <tr><td><span class="variant">aside</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></td></tr>
+          <tr><td><span class="variant">gallery</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></td></tr>
+          <tr><td><span class="variant">hover-fx</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">hover-fx</span><span class="variant">zoom</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">anchor-list<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></td></tr>
+          <tr><td><span class="variant">rule</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a>, <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></td></tr>
+          <tr><td><span class="variant">numbered</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">cards<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a> <span class="blocks-count">×3</span>, <a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">dated</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr class="group"><td class="block" rowspan="3">key-figures<span class="block-pages">4 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a>, <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></td></tr>
+          <tr><td><span class="variant">stock</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a>, <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr><td><span class="variant">stock</span><span class="variant">text</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">contact-list<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a> <span class="blocks-count">×5</span></td></tr>
+          <tr><td><span class="variant">aside</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-4">
+          <tr class="group"><td class="block" rowspan="4">download-list<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a> <span class="blocks-count">×21</span></td></tr>
+          <tr><td><span class="variant">aside</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a></td></tr>
+          <tr><td><span class="variant">halves</span><span class="variant">grey</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a></td></tr>
+          <tr><td><span class="variant">halves</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a> <span class="blocks-count">×2</span></td></tr>
+          <tr class="group"><td class="block" rowspan="2">table<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a> <span class="blocks-count">×12</span></td></tr>
+          <tr><td><span class="variant">header</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></td></tr>
+          <tr class="group"><td class="block">tiles<span class="block-pages">3 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span>, <a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span>, <a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a> <span class="blocks-count">×3</span></td></tr>
+          <tr class="group"><td class="block">image-gallery-tiles<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></td></tr>
+          <tr class="group"><td class="block">link-box<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-5">
+          <tr class="group"><td class="block">news-list<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung" target="_blank" rel="noopener">Pressemitteilungen</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews" target="_blank" rel="noopener">Service News</a></td></tr>
+          <tr class="group"><td class="block">pictogram-key-figures<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a>, <a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">testimonial<span class="block-pages">2 pages</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></td></tr>
+          <tr><td><span class="variant">no-caption</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></td></tr>
+          <tr class="group"><td class="block">audio-player<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr class="group"><td class="block" rowspan="2">embed<span class="block-pages">1 page</span></td><td><span class="variant">video</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a> <span class="blocks-count">×2</span></td></tr>
+          <tr><td><span class="variant">wall</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+        </tbody>
+        <tbody class="bp-page bp-page-6">
+          <tr class="group"><td class="block">iframe<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a></td></tr>
+          <tr class="group"><td class="block">milestones<span class="block-pages">1 page</span></td><td><span class="variant">grey</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr class="group"><td class="block">newsroom-feed<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></td></tr>
+          <tr class="group"><td class="block">tabbed-content<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></td></tr>
+          <tr class="group"><td class="block">teaser-collection<span class="block-pages">1 page</span></td><td><span class="default">default</span></td><td><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></td></tr>
+        </tbody>
+      </table>
+      <nav class="pager" aria-label="Pages of blocks"><span class="bp-range bp-range-1">Blocks 1–5 of 30</span><span class="bp-range bp-range-2">Blocks 6–10 of 30</span><span class="bp-range bp-range-3">Blocks 11–15 of 30</span><span class="bp-range bp-range-4">Blocks 16–20 of 30</span><span class="bp-range bp-range-5">Blocks 21–25 of 30</span><span class="bp-range bp-range-6">Blocks 26–30 of 30</span><div class="labels"><label for="bp-1" class="spectrum-button spectrum-button--quiet">1</label><label for="bp-2" class="spectrum-button spectrum-button--quiet">2</label><label for="bp-3" class="spectrum-button spectrum-button--quiet">3</label><label for="bp-4" class="spectrum-button spectrum-button--quiet">4</label><label for="bp-5" class="spectrum-button spectrum-button--quiet">5</label><label for="bp-6" class="spectrum-button spectrum-button--quiet">6</label></div></nav>
+      <div popover id="blocks-pages-0-0" class="blocks-popover" aria-labelledby="blocks-pages-0-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-0-0-title">sticky-patch <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 25 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-0-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung" target="_blank" rel="noopener">Pressemitteilungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews" target="_blank" rel="noopener">Service News</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-1-1" class="blocks-popover" aria-labelledby="blocks-pages-1-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-1-1-title">hero <span class="variant-inline">ratio-21-9</span></h3>
+            <p class="blocks-count">Used on 18 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-1-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-0" class="blocks-popover" aria-labelledby="blocks-pages-2-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-0-title">section-title <span class="variant-inline">gradient nested</span></h3>
+            <p class="blocks-count">Used on 19 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-1" class="blocks-popover" aria-labelledby="blocks-pages-2-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-1-title">section-title <span class="variant-inline">primary</span></h3>
+            <p class="blocks-count">Used on 10 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a> <span class="blocks-count">×5</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×5</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-2" class="blocks-popover" aria-labelledby="blocks-pages-2-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-2-title">section-title <span class="variant-inline">primary nested</span></h3>
+            <p class="blocks-count">Used on 7 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-2-3" class="blocks-popover" aria-labelledby="blocks-pages-2-3-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-2-3-title">section-title <span class="variant-inline">secondary nested</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-2-3" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-3-0" class="blocks-popover" aria-labelledby="blocks-pages-3-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-3-0-title">breadcrumb <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 21 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-3-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-4-0" class="blocks-popover" aria-labelledby="blocks-pages-4-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-4-0-title">related-content <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 19 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-4-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/managementsysteme" target="_blank" rel="noopener">Managementsysteme</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-0" class="blocks-popover" aria-labelledby="blocks-pages-5-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-0-title">text-media <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 8 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung" target="_blank" rel="noopener">Unternehmensführung</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/wertschaffung" target="_blank" rel="noopener">Wertschaffung</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-1" class="blocks-popover" aria-labelledby="blocks-pages-5-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-1-title">text-media <span class="variant-inline">right third</span></h3>
+            <p class="blocks-count">Used on 8 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns" target="_blank" rel="noopener">Über uns</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a> <span class="blocks-count">×5</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×8</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-5-2" class="blocks-popover" aria-labelledby="blocks-pages-5-2-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-5-2-title">text-media <span class="variant-inline">right half</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-5-2" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×5</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-6-0" class="blocks-popover" aria-labelledby="blocks-pages-6-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-6-0-title">columns <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-6-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×4</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-7-0" class="blocks-popover" aria-labelledby="blocks-pages-7-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-7-0-title">accordion <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 11 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-7-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen" target="_blank" rel="noopener">Unsere internationalen Flughäfen und Beteiligungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/regionales-engagement" target="_blank" rel="noopener">Aktiv für die Region</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/international-activities" target="_blank" rel="noopener">International Activities</a> <span class="blocks-count">×11</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie" target="_blank" rel="noopener">Fraport Aktie</a> <span class="blocks-count">×4</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren/publikationen-termine" target="_blank" rel="noopener">Publikationen &amp; Termine</a> <span class="blocks-count">×15</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz" target="_blank" rel="noopener">Umwelt und Klimaschutz</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a> <span class="blocks-count">×3</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra" target="_blank" rel="noopener">Herzensmomente@FRA</a> <span class="blocks-count">×2</span></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-0" class="blocks-popover" aria-labelledby="blocks-pages-8-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-0-title">cta <span class="variant-inline">default</span></h3>
+            <p class="blocks-count">Used on 5 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a> <span class="blocks-count">×2</span></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-8-1" class="blocks-popover" aria-labelledby="blocks-pages-8-1-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-8-1-title">cta <span class="variant-inline">small</span></h3>
+            <p class="blocks-count">Used on 9 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-8-1" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit" target="_blank" rel="noopener">Nachhaltigkeit</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom" target="_blank" rel="noopener">Newsroom</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/konzernstrategie" target="_blank" rel="noopener">Konzernstrategie</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung" target="_blank" rel="noopener">Digitalisierung und Digital Factory</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/service" target="_blank" rel="noopener">Service</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/ansprechpartner" target="_blank" rel="noopener">Ansprechpartner Presse</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/pressemitteilung" target="_blank" rel="noopener">Pressemitteilungen</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews" target="_blank" rel="noopener">Service News</a></li>
+        </ul>
+      </div>
+      <div popover id="blocks-pages-9-0" class="blocks-popover" aria-labelledby="blocks-pages-9-0-title">
+        <div class="popover-head">
+          <div>
+            <h3 id="blocks-pages-9-0-title">teaser-slider <span class="variant-inline">quicklinks</span></h3>
+            <p class="blocks-count">Used on 6 pages</p>
+          </div>
+          <button class="spectrum-button spectrum-button--quiet" popovertarget="blocks-pages-9-0" popovertargetaction="hide">Close</button>
+        </div>
+        <ul class="popover-pages">
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/" target="_blank" rel="noopener">Fraport AG</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/konzern" target="_blank" rel="noopener">Konzern</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder" target="_blank" rel="noopener">Geschäftsfelder</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/investoren" target="_blank" rel="noopener">Investoren</a></li>
+          <li><a href="https://main--340a2135--aemcoder.aem.page/de/geschaeftsfelder/betrieb" target="_blank" rel="noopener">Betrieb</a></li>
+        </ul>
+      </div>
+    </div>
+  </details>
+
+  <details class="spectrum-panel" open>
+    <summary class="spectrum-panel-header"><h2>Analytics and tags</h2><span class="spectrum-badge">Switched off</span></summary>
+    <div class="panel-body">
+      <p>We carried over 1 tag, <strong>switched off</strong>: nothing loads on the new site until you turn it on.</p>
+      <table>
+        <thead><tr><th>Found on www.fraport.com</th><th></th></tr></thead>
+        <tbody>
+          <tr><td>Adobe Launch</td><td><code>launch-c2a452ce0431.min.js</code></td></tr>
+          <tr><td>Consent manager</td><td>None found</td></tr>
+          <tr><td>Data layers</td><td><code>adobeDataLayer</code></td></tr>
+          <tr><td>Loaded by your tags</td><td>Usercentrics</td></tr>
+        </tbody>
+      </table>
+      <p>We read the Adobe Launch library (0 data-layer fields used).</p>
+      <h3>Before you switch them on</h3>
+      <ol class="todo">
+        <li><strong>Check 2 rules that target the old page structure</strong> (CSS selectors or URLs), for example <code>Click Event | 50 =&gt; Sticky Patch Interactions =&gt; Send Analytics Beacon</code>, <code>Click Event | 50 =&gt; Page Tree ~ wallpapers =&gt; Handle Wallpaper Interactions =&gt; Set Variables =&gt; Send Event Beacon</code>.</li>
+        <li><strong>Send 20 data-layer events from the new pages</strong> so the tags fire, for example <code>frach:accordeon-item-toggle</code>, <code>cmp:link_click</code>, <code>cmp:click</code> and 17 more.
+          <details><summary>Show all 20</summary><ul class="all"><li><code>frach:accordeon-item-toggle</code></li><li><code>cmp:link_click</code></li><li><code>cmp:click</code></li><li><code>frach:search-input-focus</code></li><li><code>frach:video-play-progress-75</code></li><li><code>frach:video-play-progress-50</code></li><li><code>cmp:cta_click</code></li><li><code>frach:search-filter-changed</code></li><li><code>frach:search-results-loaded</code></li><li><code>frach:quick-search-suggestions</code></li><li><code>frach:video-play</code></li><li><code>frach:search-suggestion-submit</code></li><li><code>frach:video-play-progress-25</code></li><li><code>frach:video-play-progress-100</code></li><li><code>acdl_helper:loaded</code></li><li><code>frach:slide-changed</code></li><li><code>frach:quick-search-submit</code></li><li><code>acdl_helper:page:load</code></li><li><code>frach:quick-search-suggestion-submit</code></li><li><code>frach:notification-overlay</code></li></ul></details></li>
+        <li><strong>Decide how consent works.</strong> We found no consent manager on the pages we checked; once switched on, the tags load without one.</li>
+      </ol>
+      <p class="meta">Full details for your developers: <code>stardust/martech-handoff.md</code> in the repository.</p>
+    </div>
+  </details>
+
+  <details class="spectrum-panel">
+    <summary class="spectrum-panel-header"><h2>Journey</h2></summary>
+    <div class="panel-body">
+      <ol class="steps">
+        <li>Analyzing your site<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Capturing brand and design<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Rebuilding page templates<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Publishing your pages<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Checking every page against the original<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+        <li>Final checks<span class="spectrum-badge spectrum-badge--positive">Done</span></li>
+      </ol>
+    </div>
+  </details>
+</main>
+</body>
+</html>

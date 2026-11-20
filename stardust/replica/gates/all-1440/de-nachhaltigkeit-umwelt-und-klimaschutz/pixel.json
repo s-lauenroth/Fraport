@@ -1,0 +1,179 @@
+{
+  "a": "stardust/replica/gates/all-1440/de-nachhaltigkeit-umwelt-und-klimaschutz/origin.png",
+  "b": "stardust/replica/gates/all-1440/de-nachhaltigkeit-umwelt-und-klimaschutz/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 5377,
+    "mode": "overlap"
+  },
+  "heightDelta": 4,
+  "differingPixels": 149340,
+  "pct": 1.93,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/de-nachhaltigkeit-umwelt-und-klimaschutz/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 7.59,
+  "textBoxes": 115,
+  "textPixels": 905748,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 2.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 5.8
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 3.2
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 2.5
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 2
+    },
+    {
+      "y0": 5000,
+      "y1": 5377,
+      "pct": 3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.58,
+    "differingPixels": 45263,
+    "compared": {
+      "width": 1440,
+      "height": 5381,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2776,
+        "shift": -4,
+        "cumulative": -4
+      }
+    ],
+    "maxOffset": 4,
+    "totalShift": 4,
+    "insertedRows": 0,
+    "deletedRows": 4,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.2,
+        "unaligned": 1.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1.4,
+        "unaligned": 2.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.7,
+        "unaligned": 5.8
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 0.5,
+        "unaligned": 3.2
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 0.8,
+        "unaligned": 2.5
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0,
+        "unaligned": 2
+      },
+      {
+        "y0": 5000,
+        "y1": 5381,
+        "pct": 0.6,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-1440/de-nachhaltigkeit-umwelt-und-klimaschutz/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 54,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz"
+  }
+}

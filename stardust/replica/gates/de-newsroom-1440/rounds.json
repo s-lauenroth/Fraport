@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:48:28.518Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:56:33.641Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T18:06:11.194Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter4",
+          "at": "2026-11-19T18:09:13.148Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "extend",
+          "reason": "iter3 pixel PASS 4.47% / dh 6px; verdict failed on chrome-parity-iter3.txt (live header probed in frach-state-sticky expanded state, 153 vs 79px — probe-state artifact, same shared chrome as gated archetypes) and unit-geometry Lesen svg (canon CSS-mask residual); one confirmation round for the aria/iframe-title fixes",
+          "at": "2026-11-19T18:07:21.097Z",
+          "counted": 3
+        },
+        {
+          "decision": "accept-residual",
+          "reason": "pixel 4.47% PASS, dh 6px, clip 0, overflow ok, content-diff iter3 0 red (iter4 content-diff hit ERR_HTTP2 on live; the 6 yellow of iter3 were fixed and verified clean at 360 iter4); residual fails = shared chrome-parity header-state + canon Lesen svg mask (unit-geometry), as on gated archetypes",
+          "at": "2026-11-19T18:10:29.081Z",
+          "counted": 4
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T21-01-43-790Z",
+          "at": "2026-11-19T21:01:43.790Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T21-09-18-844Z",
+          "at": "2026-11-19T21:09:18.844Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T21-12-57-347Z",
+          "at": "2026-11-19T21:12:57.347Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

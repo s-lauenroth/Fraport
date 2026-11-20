@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:24:43.414Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:29:04.293Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T17:32:25.865Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "pixel/height/content/clip/overflow at pass bar (iter3); exit 2 only from unit-geometry 'missing' inline-svg arrows/zoom icons (build uses CSS mask icons, as accepted on home) and chrome-parity header ICONS 2 vs 4 / no live <footer> element (shared canon chrome, as accepted on home)",
+          "at": "2026-11-19T17:32:37.792Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T20-06-12-610Z",
+          "at": "2026-11-19T20:06:12.610Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T20-10-11-020Z",
+          "at": "2026-11-19T20:10:11.021Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-13-36-700Z",
+          "at": "2026-11-19T20:13:36.700Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-17-23-512Z",
+          "at": "2026-11-19T20:17:23.513Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-28-58-200Z",
+          "at": "2026-11-19T20:28:58.201Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

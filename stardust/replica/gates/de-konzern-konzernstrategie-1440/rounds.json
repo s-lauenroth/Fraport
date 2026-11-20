@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:18:01.059Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:21:47.038Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T17:27:19.301Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter3 confirmation: pixel PASS, content-diff 0/0, clip 0, overflow ok; residuals = arrow/chevron icons are CSS masks vs live inline svg (unit-geometry 'missing' svg), shared-canon header icon/footer region chrome-parity deltas identical to home",
+          "at": "2026-11-19T17:28:46.888Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T20-53-05-621Z",
+          "at": "2026-11-19T20:53:05.621Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T20-55-51-278Z",
+          "at": "2026-11-19T20:55:51.279Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T21-41-28-427Z",
+          "at": "2026-11-19T21:41:28.427Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

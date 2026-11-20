@@ -1,0 +1,388 @@
+/* stylelint-disable no-descending-specificity -- transcribed from the canon in source order */
+
+/* related-content (frach-m-teaser-slider + frach-m-slider + frach-m-teaser): 3-up rail with ruled
+   columns >= 720, initial state = slide 1; below 720 a stacked list of the first 3 items plus
+   the load-more button. */
+.related-content {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 52px;
+}
+
+.related-content .slider-frame {
+  position: relative;
+}
+
+.related-content .slider {
+  position: relative;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.related-content .slider-viewport {
+  overflow: visible;
+}
+
+.related-content .slider-slides {
+  display: block;
+}
+
+.related-content .slider-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  width: 100%;
+  opacity: 1;
+}
+
+.related-content .slider-slide.is-off {
+  opacity: 0.2;
+}
+
+.related-content .slider-slide + .slider-slide::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw);
+  width: 100vw;
+  border-top: 1px solid var(--rule-color);
+}
+
+.related-content .slider-slide:nth-child(3) ~ .slider-slide {
+  display: none;
+}
+
+.related-content .slider-controls,
+.related-content .slider-pagination {
+  display: none;
+}
+
+.related-content .slider-more {
+  position: absolute;
+  display: flex;
+  height: 52px;
+  width: 100%;
+  left: 0;
+}
+
+.related-content .slider-more .container {
+  width: 100%;
+}
+
+.related-content .slider-more .button {
+  width: 100%;
+  margin: 0;
+  justify-content: center;
+}
+
+.related-content .slider-more .button::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/plus.svg") center / contain no-repeat;
+}
+
+/* teaser (frach-m-teaser): optional 16:9 image, theme line, h6 link headline, clamped text,
+   "Lesen" link */
+.related-content .teaser {
+  padding: 24px 0;
+}
+
+.related-content .teaser > :first-child {
+  margin-top: 0;
+}
+
+.related-content .teaser > :last-child {
+  margin-bottom: 0;
+}
+
+.related-content .teaser-image {
+  margin: 0 0 24px;
+  overflow: hidden;
+}
+
+.related-content .teaser-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.related-content .teaser-image:hover img {
+  transform: scale(1.2);
+}
+
+.related-content .teaser-theme {
+  margin: 8px 0;
+  color: var(--grey-600);
+}
+
+.related-content .teaser-headline {
+  display: block;
+  margin: 8px 0;
+  color: #000;
+}
+
+.related-content .teaser :is(.teaser-theme, .teaser-text, .teaser-link) p,
+.related-content .teaser-headline :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.related-content .teaser-headline a:any-link {
+  display: inline;
+  color: var(--primary-500);
+}
+
+.related-content .teaser-text {
+  display: none;
+  color: var(--grey-600);
+}
+
+.related-content .teaser-link a.button.accent::after {
+  content: none;
+}
+
+.related-content .teaser-link svg {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  fill: currentcolor;
+}
+
+.related-content .teaser-link {
+  display: inline-flex;
+  margin: 16px 0 0;
+}
+
+@media (width >= 720px) {
+  .related-content {
+    padding-bottom: 0;
+  }
+
+  .related-content .slider-frame {
+    border-top: 1px solid var(--rule-color);
+  }
+
+  .related-content .slider-frame::after {
+    content: "";
+    position: absolute;
+    bottom: 24px;
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid var(--rule-color);
+  }
+
+  .related-content .slider-slides {
+    display: flex;
+  }
+
+  .related-content .slider[data-slides="3"] .slider-slide {
+    width: 33.3333%;
+  }
+
+  .related-content .slider-slide {
+    padding: 0 36px;
+  }
+
+  .related-content .slider-slide + .slider-slide::before {
+    content: none;
+  }
+
+  .related-content .slider-slide + .slider-slide {
+    border-left: 1px solid var(--rule-color);
+  }
+
+  .related-content .slider-slide:nth-child(3) ~ .slider-slide {
+    display: flex;
+  }
+
+  .related-content .slider-more {
+    display: none;
+  }
+
+  .related-content .slider-controls {
+    display: block;
+  }
+
+  .related-content .slider-controls .button {
+    position: absolute;
+    top: calc(50% - 40px);
+    display: flex;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    padding: 14px;
+    border-radius: 4px;
+  }
+
+  .related-content .slider-controls .button[disabled] {
+    display: none;
+  }
+
+  .related-content .slider-prev {
+    left: 0;
+  }
+
+  .related-content .slider-next {
+    right: 0;
+  }
+
+  .related-content .slider-pagination {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 0 32px;
+  }
+
+  .related-content .slider-dot {
+    position: relative;
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+
+  .related-content .slider-dot + .slider-dot {
+    margin-left: 8px;
+  }
+
+  .related-content .slider[data-slides="3"] .slider-dot:not(:nth-child(3n+1)) {
+    display: none;
+  }
+
+  .related-content .slider-dot::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    width: 16px;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--primary-100);
+  }
+
+  .related-content .slider-dot.is-active::after {
+    top: 0;
+    height: 8px;
+    border-radius: 4px;
+    background: var(--primary-500);
+  }
+
+  .related-content .teaser {
+    padding: 48px 0;
+  }
+
+  .related-content .teaser-text {
+    display: block;
+    margin: 12px 0;
+  }
+
+  .related-content .teaser-text p {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    overflow: hidden;
+  }
+
+  .related-content .teaser-text + .teaser-link {
+    margin-top: 12px;
+  }
+}
+
+@media (width >= 1280px) {
+  .related-content .slider-slide {
+    padding: 0 32px;
+  }
+
+  .related-content .teaser {
+    padding: 64px 0;
+  }
+
+  .related-content .teaser-headline {
+    margin: 16px 0;
+  }
+
+  .related-content .teaser-text {
+    margin: 15px 0;
+  }
+
+  .related-content .teaser-text p {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  .related-content .teaser-link {
+    margin-top: 19px;
+  }
+
+  .related-content .teaser-text + .teaser-link {
+    margin-top: 20px;
+  }
+}
+
+.related-content.is-loaded {
+  padding-bottom: 0;
+}
+
+.related-content.is-loaded .slider-slide:nth-child(3) ~ .slider-slide {
+  display: flex;
+}
+
+.related-content.is-loaded .slider-more {
+  display: none;
+}
+
+/* related-content (frach-m-related-content): a teaser-slider whose every 3rd column may stack
+   two text-only teasers */
+@media (width >= 720px) {
+  .related-content .slider-slide:nth-child(3n) .teaser {
+    flex-basis: 50%;
+  }
+
+  .related-content .slider-slide:nth-child(3n) .teaser-text p {
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+}
+
+.related-content .slider-slide:nth-child(3n) .teaser:nth-child(2):last-child {
+  position: relative;
+}
+
+.related-content .slider-slide:nth-child(3n) .teaser:nth-child(2):last-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: calc(50% - 50vw);
+  width: 100vw;
+  border-top: 1px solid var(--rule-color);
+}
+
+@media (width >= 720px) {
+  .related-content .slider-slide:nth-child(3n) .teaser:nth-child(2):last-child::before {
+    left: -24px;
+    width: calc(100% + 48px);
+  }
+}
+
+@media (width >= 1280px) {
+  .related-content .slider-slide:nth-child(3n) .teaser:nth-child(2):last-child::before {
+    left: -32px;
+    width: calc(100% + 64px);
+  }
+}

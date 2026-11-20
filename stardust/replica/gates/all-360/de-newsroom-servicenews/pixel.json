@@ -1,0 +1,146 @@
+{
+  "a": "stardust/replica/gates/all-360/de-newsroom-servicenews/origin.png",
+  "b": "stardust/replica/gates/all-360/de-newsroom-servicenews/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3571,
+    "mode": "overlap"
+  },
+  "heightDelta": 4,
+  "differingPixels": 26646,
+  "pct": 2.07,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-newsroom-servicenews/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 3.16,
+  "textBoxes": 83,
+  "textPixels": 332615,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.1
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.7
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.7
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 6.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 4.9
+    },
+    {
+      "y0": 3500,
+      "y1": 3571,
+      "pct": 11.3
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 0.77,
+    "differingPixels": 9869,
+    "compared": {
+      "width": 360,
+      "height": 3575,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 2671,
+        "shift": -4,
+        "cumulative": -4
+      }
+    ],
+    "maxOffset": 4,
+    "totalShift": 4,
+    "insertedRows": 0,
+    "deletedRows": 4,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.1,
+        "unaligned": 0.1
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 0
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 2.5,
+        "unaligned": 6.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.7,
+        "unaligned": 4.9
+      },
+      {
+        "y0": 3500,
+        "y1": 3575,
+        "pct": 4.9,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/de-newsroom-servicenews/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 36,
+    "totalShift": 4,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews"
+  }
+}

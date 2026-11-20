@@ -1,0 +1,23 @@
+/* link-box (frach-m-link-box, editorial): shadowed white panel — grey h6 title, arrow link list, stacked primary CTAs.
+   CTAs sit side by side (2 x 50%) from 720 to 1279, stacked otherwise. Usable standalone or as a cards aside. */
+.link-box { position: relative; z-index: 1; display: flex; flex-direction: column; padding: 0 24px 24px; background: var(--white); box-shadow: 0 0 16px 0 var(--grey-300); }
+.link-box__title { margin-top: 24px; color: var(--grey-600); }
+.link-box__list { margin: 24px 0 0; padding: 0; list-style: none; }
+.link-box__item { margin-bottom: 16px; }
+.link-box__item:last-child { margin-bottom: 0; }
+.link-box__item .link { display: inline-flex; }
+.link-box__item .link > .icon { flex: none; margin-bottom: 0; }
+.link-box__ctas { display: flex; flex-direction: column; margin-top: 24px; }
+.link-box__cta { margin: 0 0 16px; }
+.link-box__cta:last-child { margin-bottom: 0; }
+.link-box__cta .button { display: flex; }
+@media (min-width: 720px) {
+  .link-box__ctas { flex-direction: row; justify-content: flex-end; margin-left: -12px; margin-right: -12px; }
+  .link-box__cta { margin: 0 12px; width: calc(50% - 12px); }
+}
+@media (min-width: 1280px) {
+  .link-box { padding: 0 32px 32px; }
+  .link-box__title, .link-box__list { margin-top: 32px; }
+  .link-box__ctas { flex-direction: column; margin: 32px 0 0; }
+  .link-box__cta { margin: 0 0 16px; width: 100%; }
+}

@@ -1,0 +1,10 @@
+/* text-media (frach-m-text-media--100): optional media row (highlight box or image, offset 1 / 10 cols)
+   above a rich-text column (offset 2 / 8 cols) with buttons */
+.text-media .row > .text-media__media { margin-bottom: 24px; position: relative; z-index: 10; }
+.highlight-box { padding: 40px; color: var(--white); }
+.highlight-box--blue { background: var(--gradient-brand-90); }
+.highlight-box__text { color: var(--white); }
+@media (min-width: 720px) {
+  .text-media .row > .text-media__media { flex-basis: calc(83.33333% - var(--gutter)); max-width: calc(83.33333% - var(--gutter)); margin-left: calc(8.33333% + var(--gutter) / 2); }
+  .text-media .row > .text-media__text { flex-basis: calc(66.66667% - var(--gutter)); max-width: calc(66.66667% - var(--gutter)); margin-left: calc(16.66667% + var(--gutter) / 2); }
+}

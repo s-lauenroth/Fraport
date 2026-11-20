@@ -1,0 +1,142 @@
+/* download-list (frach-m-download-list): title + bordered download items, the whole item one link */
+@media (width >= 960px) {
+  .download-list .row > .download-list-col {
+    flex-basis: calc(83.3333% - var(--gutter));
+    max-width: calc(83.3333% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+}
+
+.download-list .download-list-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding: 0 0 16px;
+  color: var(--grey-600);
+  font-family: var(--ff-semibold);
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.download-list .download-list-items ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.download-list .download-list-items li {
+  position: relative;
+  margin: 0 0 8px;
+  padding: 8px;
+  border: 1px solid #ced1d3;
+  background-color: var(--white, #fff);
+}
+
+.download-list .download-list-items li::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary-500);
+  mask: url("/icons/download.svg") center / contain no-repeat;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.download-list .download-list-items li:hover {
+  box-shadow: 0 0 16px 0 var(--grey-300);
+}
+
+.download-list .download-list-items li:hover::after {
+  opacity: 1;
+}
+
+/* the link spans the item; its text wraps clear of the 24 + 20 px download icon (source flex) */
+.download-list .download-list-items a:any-link {
+  display: block;
+  padding-right: 44px;
+  color: var(--primary-500);
+  font-family: var(--ff-regular);
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.download-list .download-list-items a br {
+  display: none;
+}
+
+.download-list .download-list-name {
+  display: block;
+  padding-bottom: 4px;
+  font-family: var(--ff-semibold);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.download-list .download-list-meta {
+  text-transform: uppercase;
+}
+
+.download-list .download-list-type {
+  display: none;
+}
+
+/* the whole item is the link's hit area */
+.download-list .download-list-items a:any-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.download-list .download-list-items a:any-link:hover {
+  color: var(--primary-700);
+}
+
+@media (width >= 720px) {
+  /* file type icon before the meta line (source frach-icon-document-pdf, hidden < 720) */
+  .download-list .download-list-type {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    fill: currentcolor;
+  }
+
+  .download-list .download-list-items li {
+    padding: 8px 16px;
+  }
+
+  .download-list .download-list-items li::after {
+    top: 18px;
+    right: 16px;
+  }
+}
+
+@media (width >= 960px) {
+  .download-list .download-list-title :is(h1, h2, h3, h4, h5, h6) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+/* halves: the source's 6 | 6 grid of titled lists (one column per cell) */
+.download-list.halves .download-list-items + .download-list-title {
+  margin-top: 24px;
+}
+
+@media (width >= 720px) {
+  .download-list.halves .row > .download-list-col {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+  }
+}
+
+/* grey: grey band behind the list(s) (source frach-h-bg--grey + component padding) */
+.download-list.grey {
+  padding: 40px 0;
+  background-color: var(--grey-100);
+}

@@ -1,0 +1,159 @@
+/* pictogram-key-figures (frach-m-pictogram-key-figures): pictogram cards with an animated number,
+   a rule, the caption and an optional info footnote */
+.pictogram-key-figures .pictogram-key-figures-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 0 calc(var(--gutter) / 2);
+}
+
+.pictogram-key-figures .pictogram-key-figures-legend {
+  margin: 0 calc(var(--gutter) / 2);
+  color: var(--primary-500);
+}
+
+.pictogram-key-figures .pictogram-key-figures-legend p {
+  margin: 0;
+}
+
+.pictogram-key-figures .pictogram-key-figures-item {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 16px 4px 32px;
+}
+
+.pictogram-key-figures .pictogram-key-figures-pictogram {
+  align-self: center;
+  width: 200px;
+  height: 146px;
+  margin-bottom: 16px;
+}
+
+.pictogram-key-figures .pictogram-key-figures-pictogram :is(p, picture) {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.pictogram-key-figures .pictogram-key-figures-pictogram img {
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  height: 146px;
+  padding: 14px;
+  object-fit: contain;
+}
+
+.pictogram-key-figures .pictogram-key-figures-value {
+  position: relative;
+  align-self: center;
+  margin: 0 0 16px;
+  color: var(--secondary-500);
+  font-family: var(--ff-regular);
+  font-size: 40px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.pictogram-key-figures .pictogram-key-figures-value p,
+.pictogram-key-figures .pictogram-key-figures-text p,
+.pictogram-key-figures .pictogram-key-figures-info p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.pictogram-key-figures .pictogram-key-figures-value p {
+  display: inline;
+}
+
+.pictogram-key-figures .pictogram-key-figures-value.is-counting p {
+  visibility: hidden;
+}
+
+.pictogram-key-figures .pictogram-key-figures-count {
+  position: absolute;
+  inset: 0;
+  white-space: nowrap;
+}
+
+.pictogram-key-figures .pictogram-key-figures-separator {
+  width: 100%;
+  margin: 0 0 16px;
+  border-top: 1px solid var(--grey-200);
+}
+
+.pictogram-key-figures .pictogram-key-figures-text {
+  display: block;
+  width: 100%;
+  margin-bottom: 16px;
+  color: var(--secondary-500);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.pictogram-key-figures .pictogram-key-figures-percentage {
+  display: inline-flex;
+  margin-bottom: 12px;
+  color: var(--primary-500);
+}
+
+.pictogram-key-figures .pictogram-key-figures-percentage[role="button"] {
+  cursor: pointer;
+}
+
+.pictogram-key-figures .pictogram-key-figures-info-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin-left: 10px;
+  fill: currentcolor;
+}
+
+.pictogram-key-figures .pictogram-key-figures-info {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  color: var(--primary-500);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.pictogram-key-figures .pictogram-key-figures-item.is-active .pictogram-key-figures-info {
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (width >= 720px) {
+  .pictogram-key-figures .pictogram-key-figures-items {
+    gap: 27px;
+  }
+
+  .pictogram-key-figures .pictogram-key-figures-item {
+    flex-basis: calc(50% - 14px);
+    max-width: calc(50% - 14px);
+    padding: 16px 16px 26px;
+  }
+}
+
+@media (width >= 960px) {
+  .pictogram-key-figures .pictogram-key-figures-value {
+    font-size: 56px;
+    line-height: 72px;
+  }
+}
+
+@media (width >= 1280px) {
+  .pictogram-key-figures .pictogram-key-figures-items {
+    gap: 32px;
+  }
+
+  .pictogram-key-figures .pictogram-key-figures-item {
+    flex-basis: calc(33.3333% - 22px);
+    max-width: calc(33.3333% - 22px);
+  }
+}

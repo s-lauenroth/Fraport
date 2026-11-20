@@ -1,0 +1,42 @@
+/* accordion (frach-m-accordion): ruled rows, primary label + chevron toggle; panel opens via grid-rows 0fr -> 1fr.
+   Column 10/12 offset 1 from 960. Panels hold any blocks (text-media, columns, image, rich text, contact lists).
+   Markup as on source: visually-hidden checkbox (keyboard focus + state) + label toggle; CSS-only, no JS. */
+.accordion { display: flex; flex-direction: column; }
+.accordion__item { position: relative; display: flex; flex-direction: column; border-bottom: 1px solid var(--rule-color); }
+.accordion__toggle {
+  display: flex; cursor: pointer; justify-content: space-between; width: 100%; padding: 24px 8px 24px 0;
+  color: var(--primary-500); text-align: left; hyphens: auto; user-select: none;
+  font-family: var(--ff-semibold); font-size: 16px; line-height: 24px; letter-spacing: .5px;
+}
+.accordion__input { position: absolute; width: 1px; height: 1px; overflow: hidden; white-space: nowrap; clip: rect(1px, 1px, 1px, 1px); clip-path: inset(100%); }
+.accordion__label { word-break: break-word; }
+.accordion__icon { width: 24px; min-width: 24px; height: 24px; margin-left: 19px; transition: transform .3s; }
+.accordion__input:focus-visible + .accordion__toggle { color: var(--primary-500); }
+.accordion__input:focus-visible + .accordion__toggle .accordion__label { box-shadow: 0 2px 0 0 var(--primary-500); }
+.accordion__item .accordion__toggle:hover { color: var(--primary-700); }
+.accordion__item .accordion__toggle:hover .accordion__label { text-decoration: underline; }
+.accordion__item .accordion__toggle:active { color: var(--primary-800); }
+.accordion__input:checked + .accordion__toggle .accordion__icon { transform: rotate(180deg); }
+.accordion__panel {
+  display: grid; grid-template-rows: 0fr; margin: 0 -16px; visibility: hidden;
+  transition: grid-template-rows .3s ease-in-out, visibility 0s .3s;
+}
+.accordion__input:checked ~ .accordion__panel { grid-template-rows: 1fr; visibility: visible; transition: grid-template-rows .3s ease-in-out, visibility 0s; }
+.accordion__inner { min-height: 0; overflow: hidden; }
+.accordion__inner > * { margin-bottom: var(--component-margin); }
+.accordion__inner > :first-child > :first-child { padding-top: 8px; }
+.accordion__inner > .grey { background: var(--grey-050); padding: var(--component-padding) 0 0; }
+@media (min-width: 720px) { .accordion__panel { margin: 0 -24px; } }
+@media (min-width: 960px) {
+  .accordion-wrapper .row > .accordion__col { flex-basis: calc(83.33333% - var(--gutter)); max-width: calc(83.33333% - var(--gutter)); margin-left: calc(8.33333% + var(--gutter) / 2); }
+}
+@media (min-width: 1280px) { .accordion__panel { margin: 0 -32px; } }
+/* nested 3-up columns (AEM grid 3 x 4 cols) inside a panel */
+@media (min-width: 720px) {
+  .accordion .columns--thirds .row > .columns__col { flex-basis: calc(33.33333% - var(--gutter)); max-width: calc(33.33333% - var(--gutter)); }
+}
+@media (min-width: 1440px) {
+  .accordion .text-media .row > .text-media__text { max-width: 83.33333%; margin-left: 8.33333%; }
+  .accordion .text-media--50-50.text-media--right .row > .text-media__media { margin-right: 16px; width: calc(50% - 32px); }
+  .accordion .text-media--50-50.text-media--left .row > .text-media__media { margin-left: 16px; width: calc(50% - 32px); }
+}

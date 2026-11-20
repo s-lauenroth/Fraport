@@ -1,0 +1,313 @@
+/* anchor-list (frach-m-anchor-list): sticky in-page navigation. >= 960: one ruled row of
+   anchors (116px); < 960: accordion — current section as the label row, the others listed
+   below. Full-bleed rules via ::before / ::after. */
+
+/* rule variant: the source's rule-only section above the bar (hr 8px margins + component
+   margin) */
+.anchor-list .anchor-list-rule {
+  margin-bottom: var(--component-margin);
+}
+
+.anchor-list .anchor-list-rule hr {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2px;
+  margin: 8px 0;
+}
+
+.anchor-list .anchor-list-nav {
+  position: sticky;
+  top: -1px;
+  display: flex;
+  background: var(--white);
+}
+
+.anchor-list .anchor-list-nav::before,
+.anchor-list .anchor-list-nav::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: var(--white);
+  border-top: 1px solid var(--rule-color);
+  border-bottom: 1px solid var(--rule-color);
+}
+
+.anchor-list .anchor-list-nav::before {
+  left: -100%;
+}
+
+.anchor-list .anchor-list-nav::after {
+  right: -100%;
+}
+
+.anchor-list .anchor-list-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+.anchor-list .anchor-list-label {
+  color: var(--primary-500);
+}
+
+.anchor-list .anchor-list-items {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.anchor-list .anchor-list-items :is(ul, ol) {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.anchor-list .anchor-list-items li,
+.anchor-list .anchor-list-label a {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-start;
+  height: 64px;
+  margin: 0;
+  padding: 8px 0;
+  overflow: hidden;
+  border-top: 1px solid var(--rule-color);
+  color: var(--primary-500);
+}
+
+.anchor-list .anchor-list-label a {
+  border-top: 0;
+}
+
+.anchor-list .anchor-list-items li:hover {
+  background-color: var(--primary-050);
+  transition: background-color 0.2s ease-in;
+}
+
+.anchor-list .anchor-list-items li.is-current {
+  display: none;
+}
+
+.anchor-list .anchor-list-items a,
+.anchor-list .anchor-list-label a {
+  color: var(--primary-500);
+}
+
+.anchor-list .anchor-list-items a {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.anchor-list .anchor-list-items li:first-child a {
+  padding-top: 8px;
+}
+
+.anchor-list .anchor-list-toggle-icon {
+  display: none;
+  margin-left: auto;
+  margin-right: 19px;
+}
+
+@media (width >= 960px) {
+  .anchor-list .anchor-list-section {
+    flex-direction: row;
+    overflow: auto;
+    scrollbar-width: none;
+  }
+
+  .anchor-list .anchor-list-label {
+    display: none;
+  }
+
+  .anchor-list .anchor-list-items {
+    flex-direction: row;
+    overflow: visible;
+  }
+
+  .anchor-list .anchor-list-items :is(ul, ol) {
+    flex-direction: row;
+    flex-grow: 1;
+  }
+
+  .anchor-list .anchor-list-items li,
+  .anchor-list .anchor-list-items li.is-current {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 116px;
+    min-width: 324px;
+    padding: 0 8px 0 68px;
+    border-top: 0;
+    border-right: 1px solid var(--rule-color);
+  }
+
+  .anchor-list .anchor-list-items li:first-child {
+    border-left: 1px solid var(--rule-color);
+  }
+
+  .anchor-list .anchor-list-items li:first-child a {
+    padding-top: 0;
+  }
+}
+
+/* pinned state (source frach-state-collapsed): accordion collapsed to the current-section row */
+.anchor-list .anchor-list-nav.is-collapsed::before,
+.anchor-list .anchor-list-nav.is-collapsed::after {
+  height: 64px;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed .anchor-list-section {
+  flex-direction: column;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed .anchor-list-label {
+  display: block;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed .anchor-list-label a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 64px;
+  min-width: 0;
+  padding: 8px 0;
+  border: 0;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed .anchor-list-toggle-icon {
+  display: inline-block;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed .anchor-list-items {
+  max-height: 0;
+  visibility: hidden;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed.is-open .anchor-list-items {
+  max-height: 100vh;
+  visibility: visible;
+  flex-direction: column;
+}
+
+.anchor-list .anchor-list-nav.is-collapsed.is-open .anchor-list-items :is(ul, ol) {
+  flex-direction: column;
+}
+
+/* numbered variant (feature hub): running number before each anchor text (column >= 960),
+   prev / next arrows over the unpinned desktop row */
+.anchor-list .anchor-list-controls {
+  display: none;
+}
+
+.anchor-list.numbered .anchor-list-nav .anchor-list-items li a {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.anchor-list.numbered .anchor-list-nav .anchor-list-items li:first-child a {
+  padding-top: 0;
+}
+
+
+.anchor-list.numbered .anchor-list-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+
+.anchor-list.numbered .anchor-list-items li:first-child .anchor-list-text {
+  padding-top: 8px;
+}
+
+.anchor-list.numbered .anchor-list-number {
+  margin: 0 16px;
+  color: var(--grey-600);
+  font-family: var(--ff-semibold);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (width >= 720px) {
+  .anchor-list.numbered .anchor-list-number {
+    margin-left: 24px;
+  }
+}
+
+@media (width >= 960px) {
+  .anchor-list.numbered .anchor-list-nav .anchor-list-items li a {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .anchor-list.numbered .anchor-list-number {
+    margin-left: 0;
+  }
+
+  .anchor-list.numbered .anchor-list-nav:not(.is-collapsed) .anchor-list-controls {
+    display: block;
+  }
+
+  .anchor-list.numbered .anchor-list-controls .button {
+    position: absolute;
+    top: calc(50% - 28px);
+    z-index: 3;
+    display: flex;
+  }
+
+  .anchor-list.numbered .anchor-list-controls .button[hidden] {
+    display: none;
+  }
+
+  .anchor-list.numbered .anchor-list-prev {
+    left: 0;
+  }
+
+  .anchor-list.numbered .anchor-list-next {
+    right: 0;
+  }
+
+  .anchor-list.numbered .anchor-list-section {
+    scroll-behavior: smooth;
+  }
+}
+
+/* numbered: the source's anchor row overflows the page unclipped (only its own scroller and
+   the viewport cut it). The full-bleed white band + rules are painted as border-image outset
+   (ink overflow, no scrollable overflow) instead of the ±100 % pseudo boxes, so the section
+   needs no clip (foundation `overflow-x: clip` on the anchor-list section, overridden here). */
+main > .section.anchor-list-container:has(.anchor-list.numbered) {
+  overflow-x: visible;
+}
+
+.anchor-list.numbered .anchor-list-nav::before,
+.anchor-list.numbered .anchor-list-nav::after {
+  content: none;
+}
+
+.anchor-list.numbered .anchor-list-nav {
+  border-image:
+    linear-gradient(
+      to bottom,
+      var(--rule-color) 0 1px,
+      var(--white) 1px calc(100% - 1px),
+      var(--rule-color) calc(100% - 1px)
+    )
+    0 1 / 0 100vw / 0 100vw stretch;
+}

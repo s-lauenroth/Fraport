@@ -1,0 +1,48 @@
+/* table (frach-e-table): bordered cells, 16px padding, grey-600 text, alternate rows shaded */
+.table {
+  position: relative;
+  width: 100%;
+}
+
+.table .table-wrapper-scroll {
+  position: relative;
+  overflow: auto;
+}
+
+.table .table-table {
+  position: relative;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table :is(.table-cell, .table-header-cell) {
+  padding: 16px;
+  border: 1px solid var(--grey-300);
+  text-align: left;
+  vertical-align: baseline;
+  text-size-adjust: 100%;
+}
+
+.table .table-cell {
+  color: var(--grey-600);
+}
+
+.table .table-header-cell {
+  color: var(--grey-800);
+  font-family: var(--ff-semibold);
+  font-weight: 400;
+  background-color: var(--grey-200);
+}
+
+.table .table-row:nth-child(2n) {
+  background-color: var(--grey-050);
+}
+
+.table :is(.table-cell, .table-header-cell) p {
+  margin: 0;
+}
+
+.table :is(.table-cell, .table-header-cell) p + p {
+  margin-top: 16px;
+}

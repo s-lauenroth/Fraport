@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T17:41:35.042Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:47:42.657Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "iter2 meets the pass bar: pixel 0.50%, Δh 0, content-diff 0 red/0 yellow, clip 0, overflow ok; exit 2 only from chrome-parity header logo/footer-region deltas inherited from canon (identical on konzernstrategie)",
+          "at": "2026-11-19T17:50:15.032Z",
+          "counted": 2
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T20-05-11-457Z",
+          "at": "2026-11-19T20:05:11.457Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T20-08-35-398Z",
+          "at": "2026-11-19T20:08:35.398Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-12-25-239Z",
+          "at": "2026-11-19T20:12:25.239Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-17-05-271Z",
+          "at": "2026-11-19T20:17:05.271Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-28-53-221Z",
+          "at": "2026-11-19T20:28:53.222Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-42-27-445Z",
+          "at": "2026-11-19T20:42:27.446Z",
+          "verdict": "pass",
+          "kind": "fix"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

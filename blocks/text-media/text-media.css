@@ -1,0 +1,238 @@
+/* text-media (frach-m-text-media--100): optional media row (highlight box or image, offset
+   1 / 10 cols) above a rich-text column (offset 2 / 8 cols) with buttons */
+.text-media .row > .text-media-media {
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 10;
+}
+
+.text-media .text-media-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text-media .text-media-highlight {
+  padding: 40px;
+  color: var(--white);
+  background: var(--gradient-brand-90);
+}
+
+.text-media .text-media-highlight-text {
+  color: var(--white);
+}
+
+.text-media .text-media-highlight-text :is(p, h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.text-media .buttons p {
+  display: contents;
+}
+
+.text-media .buttons a.button:is(.primary, .secondary)::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+@media (width >= 720px) {
+  .text-media .row > .text-media-media {
+    flex-basis: calc(83.3333% - var(--gutter));
+    max-width: calc(83.3333% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+
+  .text-media .row > .text-media-text {
+    flex-basis: calc(66.6667% - var(--gutter));
+    max-width: calc(66.6667% - var(--gutter));
+    margin-left: calc(16.6667% + var(--gutter) / 2);
+  }
+}
+
+/* foundation .buttons .button spacing, restated: a.button:any-link (0,2,1) resets the margin */
+.text-media .buttons a.button:any-link {
+  flex: 1 1 100%;
+  max-width: calc(100% - 24px);
+  margin: 0 24px 24px 0;
+}
+
+@media (width >= 720px) {
+  .text-media .buttons a.button:any-link {
+    flex: 0 1 auto;
+    max-width: none;
+    margin-top: 14px;
+  }
+}
+
+/* variants left / right (floated media beside the text, optional headline across the row) and
+   half (media 50 %) — content page; /de uses neither */
+.text-media:is(.left, .right) .row {
+  display: block;
+}
+
+.text-media:is(.left, .right) .row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.text-media .text-media-headline {
+  margin-bottom: 24px;
+}
+
+.text-media .text-media-headline :is(h2, h3, h4) {
+  color: var(--grey-600);
+  font-family: var(--ff-semibold-italic);
+  font-style: italic;
+  font-size: 28px;
+  line-height: 44px;
+}
+
+.text-media:is(.left, .right) .text-media-text {
+  display: flow-root;
+}
+
+@media (width >= 720px) {
+  .text-media .text-media-headline {
+    margin-bottom: 30px;
+  }
+
+  .text-media.right .row > .text-media-media {
+    float: right;
+    flex: none;
+    max-width: none;
+    margin: 0 0 24px 24px;
+  }
+
+  .text-media.left .row > .text-media-media {
+    float: left;
+    flex: none;
+    max-width: none;
+    margin: 0 24px 24px 0;
+  }
+
+  .text-media.half .row > .text-media-media {
+    width: calc(50% - 24px);
+  }
+
+  .text-media:is(.left, .right) .row > .text-media-text {
+    max-width: calc(100% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+  }
+}
+
+@media (width >= 960px) {
+  .text-media .text-media-headline :is(h2, h3, h4) {
+    font-size: 40px;
+    line-height: 56px;
+  }
+}
+
+@media (width >= 1280px) {
+  .text-media.right .row > .text-media-media {
+    margin: 0 0 32px 32px;
+  }
+
+  .text-media.left .row > .text-media-media {
+    margin: 0 32px 32px 0;
+  }
+
+  .text-media.half .row > .text-media-media {
+    width: calc(50% - 32px);
+  }
+}
+
+@media (width >= 1440px) {
+  .text-media.half.right .row > .text-media-media {
+    margin-right: calc(8.3333% + 16px);
+    width: calc(41.6667% - 32px);
+  }
+
+  .text-media.half.left .row > .text-media-media {
+    margin-left: calc(8.3333% + 16px);
+    width: calc(41.6667% - 32px);
+  }
+
+  .text-media:is(.left, .right) .row > :is(.text-media-text, .text-media-headline) {
+    max-width: calc(66.6667% - 32px);
+    margin-left: calc(16.6667% + 16px);
+  }
+}
+
+/* variant third (source 66-33 / 33-66): floated media one third wide — content-page siblings */
+@media (width >= 720px) {
+  .text-media.third .row > .text-media-media {
+    width: calc(33.3333% - 24px);
+  }
+}
+
+@media (width >= 1280px) {
+  .text-media.third .row > .text-media-media {
+    width: calc(33.3333% - 32px);
+  }
+}
+
+@media (width >= 1440px) {
+  .text-media.third.right .row > .text-media-media {
+    margin-right: calc(8.3333% + 16px);
+    width: calc(27.775% - 32px);
+  }
+
+  .text-media.third.left .row > .text-media-media {
+    margin-left: calc(8.3333% + 16px);
+    width: calc(27.775% - 32px);
+  }
+}
+
+/* variant third: rich-text link arrow (source .frach-m-text .frach-e-link icon) */
+.text-media.third .rte .text-media-link-icon {
+  display: inline-block;
+  width: 16px;
+  height: 24px;
+  margin: 0 8px -7px 0;
+  color: var(--primary-500);
+}
+
+/* right, section level (not inside an accordion panel; /de, the content-page archetype have
+   none): the text flows around the floated media and runs full width below it, as the source
+   (.frach-m-text-media__text is no block formatting context) */
+.section > .text-media-wrapper > .text-media.right .row > .text-media-text {
+  display: block;
+}
+
+/* inside a tab panel (tabbed-content's `tab-panel` sections, feature-hub siblings) >= 1440 the
+   source widens the row: text 10 of 12 columns, floated media 50 % / 33 % of the row */
+@media (width >= 1440px) {
+  .tabbed-content-panel .text-media:is(.left, .right) .row > :is(.text-media-text, .text-media-headline) {
+    max-width: 83.3333%;
+    margin-left: 8.3333%;
+  }
+
+  .tabbed-content-panel .text-media.half.right .row > .text-media-media {
+    margin-right: 16px;
+    width: calc(50% - 32px);
+  }
+
+  .tabbed-content-panel .text-media.half.left .row > .text-media-media {
+    margin-left: 16px;
+    width: calc(50% - 32px);
+  }
+
+  .tabbed-content-panel .text-media.third.right .row > .text-media-media {
+    margin-right: 16px;
+    width: calc(33.3333% - 32px);
+  }
+
+  .tabbed-content-panel .text-media.third.left .row > .text-media-media {
+    margin-left: 16px;
+    width: calc(33.3333% - 32px);
+  }
+}

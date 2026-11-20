@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "stages": {
+    "prototype": {
+      "rounds": [
+        {
+          "label": "iter1",
+          "at": "2026-11-19T16:56:42.496Z",
+          "verdict": "fail",
+          "kind": "first",
+          "overflow": true
+        },
+        {
+          "label": "iter2",
+          "at": "2026-11-19T17:01:11.821Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "iter3",
+          "at": "2026-11-19T17:05:46.097Z",
+          "verdict": "fail",
+          "kind": "fix"
+        }
+      ],
+      "decisions": [
+        {
+          "decision": "accept-residual",
+          "reason": "unaligned pixel 7.80% (<10%), aligned 1.53%, height delta 8px; offsets 12px total = CO2 sub line-height in tile 3 (-6px) + 1px steps (stardust/replica/gates/de-360/units-iter3.txt); content-diff 0 red, 2 nothing-lost = live count-up mid values; overflow ok, clip 0",
+          "at": "2026-11-19T17:08:06.973Z",
+          "counted": 3
+        }
+      ]
+    },
+    "all-pages": {
+      "rounds": [
+        {
+          "label": "all-2026-11-19T19-25-11-329Z",
+          "at": "2026-11-19T19:25:11.330Z",
+          "verdict": "fail",
+          "kind": "first"
+        },
+        {
+          "label": "all-2026-11-19T19-33-07-121Z",
+          "at": "2026-11-19T19:33:07.121Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T19-37-54-286Z",
+          "at": "2026-11-19T19:37:54.286Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T19-41-23-015Z",
+          "at": "2026-11-19T19:41:23.016Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T19-44-12-575Z",
+          "at": "2026-11-19T19:44:12.576Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T19-48-54-768Z",
+          "at": "2026-11-19T19:48:54.768Z",
+          "verdict": "fail",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T19-53-14-479Z",
+          "at": "2026-11-19T19:53:14.480Z",
+          "verdict": "pass",
+          "kind": "fix"
+        },
+        {
+          "label": "all-2026-11-19T20-28-53-221Z",
+          "at": "2026-11-19T20:28:53.221Z",
+          "verdict": "pass",
+          "kind": "confirm"
+        }
+      ],
+      "decisions": []
+    }
+  }
+}

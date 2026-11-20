@@ -1,0 +1,1804 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:31:39.560Z",
+  "tol": 4,
+  "n": 4,
+  "width": 1440,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+  "at": "2026-11-19T22:41:10.573Z",
+  "docH": 5381
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz",
+  "at": "2026-11-19T23:31:39.422Z",
+  "docH": 5377
+ },
+ "results": [
+  {
+   "sel": ".frach-m-related-content .frach-m-teaser=.related-content .teaser",
+   "family": null,
+   "required": true,
+   "originMatches": 32,
+   "edsMatches": 32,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:he dreiht2.jpg",
+       "role": "image",
+       "text": "he dreiht2.jpg",
+       "edsText": "he dreiht2.jpg",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 395,
+        "h": 222
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 395,
+        "h": 222,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:pressemappe: klima und umwelt",
+       "role": "heading",
+       "text": "pressemappe: klima und umwelt",
+       "edsText": "pressemappe: klima und umwelt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 350,
+        "w": 395,
+        "h": 30
+       },
+       "eds": {
+        "x": 0,
+        "y": 350,
+        "w": 395,
+        "h": 30,
+        "sel": "h3#pressemappe-klima-und-umwelt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:pressemappe: klima und umwelt",
+       "role": "link",
+       "text": "pressemappe: klima und umwelt",
+       "edsText": "pressemappe: klima und umwelt",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 351,
+        "w": 303,
+        "h": 27
+       },
+       "eds": {
+        "x": 0,
+        "y": 351,
+        "w": 303,
+        "h": 27,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:bis 2030 wird die fraport ag die treibha",
+       "role": "text",
+       "text": "bis 2030 wird die fraport ag die treibhausgas-emissionen im ",
+       "edsText": "bis 2030 wird die fraport ag die treibhausgas-emissionen im ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 396,
+        "w": 395,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 396,
+        "w": 395,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 503,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 503,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 507,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 507,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 395,
+       "h": 222,
+       "absY": 3199,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 310,
+       "w": 395,
+       "h": 24,
+       "absY": 3445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 64,
+       "y": 3139,
+       "w": 395,
+       "h": 591
+      },
+      "eds": {
+       "x": 64,
+       "y": 3135,
+       "w": 395,
+       "h": 591
+      },
+      "dx": 0,
+      "dy": -4,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "image:bodenstromaggregat, battery",
+       "role": "image",
+       "text": "bodenstromaggregat, battery",
+       "edsText": "bodenstromaggregat, battery",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 222
+       },
+       "eds": {
+        "x": 0,
+        "y": 64,
+        "w": 394,
+        "h": 221,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": -1,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:bund fördert emissionsfreie bodenstromve",
+       "role": "heading",
+       "text": "bund fördert emissionsfreie bodenstromversorgung",
+       "edsText": "bund fördert emissionsfreie bodenstromversorgung",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 349,
+        "w": 394,
+        "h": 60
+       },
+       "eds": {
+        "x": 0,
+        "y": 349,
+        "w": 394,
+        "h": 60,
+        "sel": "h3#bund-fördert-emissionsfreie-bodenstromversorgung",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:bund fördert emissionsfreie bodenstromve",
+       "role": "link",
+       "text": "bund fördert emissionsfreie bodenstromversorgung",
+       "edsText": "bund fördert emissionsfreie bodenstromversorgung",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 350,
+        "w": 251,
+        "h": 57
+       },
+       "eds": {
+        "x": 0,
+        "y": 350,
+        "w": 251,
+        "h": 57,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die fraport ag modernisiert die bodenstr",
+       "role": "text",
+       "text": "die fraport ag modernisiert die bodenstromversorgung am flug",
+       "edsText": "die fraport ag modernisiert die bodenstromversorgung am flug",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 425,
+        "w": 394,
+        "h": 72
+       },
+       "eds": {
+        "x": 0,
+        "y": 425,
+        "w": 394,
+        "h": 72,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 532,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 532,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 536,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 536,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "image",
+       "tag": "picture",
+       "sel": "picture",
+       "text": "",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 221,
+       "absY": 3199,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(0, 0, 0)",
+       "bg": null,
+       "position": "static",
+       "key": "image:picture#1"
+      },
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 309,
+       "w": 394,
+       "h": 24,
+       "absY": 3445,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 524,
+       "y": 3139,
+       "w": 394,
+       "h": 620
+      },
+      "eds": {
+       "x": 524,
+       "y": 3135,
+       "w": 394,
+       "h": 620
+      },
+      "dx": 0,
+      "dy": -4,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 2,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:ecotow: fraport nimmt vollelektrische fl",
+       "role": "heading",
+       "text": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "edsText": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 90
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 90,
+        "sel": "h3#ecotow-fraport-nimmt-vollelektrische-flugzeugschlepper-für-großflugzeuge-in-betrieb",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:ecotow: fraport nimmt vollelektrische fl",
+       "role": "link",
+       "text": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "edsText": "ecotow: fraport nimmt vollelektrische flugzeugschlepper für ",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 368,
+        "h": 87
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 368,
+        "h": 87,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:mit den neuen vollelektrischen flugzeugs",
+       "role": "text",
+       "text": "mit den neuen vollelektrischen flugzeugschleppern des modell",
+       "edsText": "mit den neuen vollelektrischen flugzeugschleppern des modell",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 210,
+        "w": 394,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 210,
+        "w": 394,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 293,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 293,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 297,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 297,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 24,
+       "absY": 3199,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 982,
+       "y": 3139,
+       "w": 394,
+       "h": 381
+      },
+      "eds": {
+       "x": 982,
+       "y": 3135,
+       "w": 394,
+       "h": 381
+      },
+      "dx": 0,
+      "dy": -4,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.frach-m-slider__slides.frach-js-slider__slides > div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser"
+     },
+     "eds": {
+      "path": "div.slider-slides > div.slider-slide > div.teaser"
+     },
+     "rows": [
+      {
+       "key": "heading:fluglärmkommission frankfurt befindet üb",
+       "role": "heading",
+       "text": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "edsText": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 60
+       },
+       "eds": {
+        "x": 0,
+        "y": 104,
+        "w": 394,
+        "h": 60,
+        "sel": "h3#fluglärmkommission-frankfurt-befindet-über-weiterentwickeltes-betriebskonzept",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "link:fluglärmkommission frankfurt befindet üb",
+       "role": "link",
+       "text": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "edsText": "fluglärmkommission frankfurt befindet über weiterentwickelte",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 105,
+        "w": 373,
+        "h": 57
+       },
+       "eds": {
+        "x": 0,
+        "y": 105,
+        "w": 373,
+        "h": 57,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:die fluglärmkommission frankfurt hat das",
+       "role": "text",
+       "text": "die fluglärmkommission frankfurt hat das weiterentwickelte b",
+       "edsText": "die fluglärmkommission frankfurt hat das weiterentwickelte b",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 180,
+        "w": 394,
+        "h": 48
+       },
+       "eds": {
+        "x": 0,
+        "y": 180,
+        "w": 394,
+        "h": 48,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:lesen",
+       "role": "link",
+       "text": "lesen",
+       "edsText": "lesen",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 263,
+        "w": 65,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 263,
+        "w": 65,
+        "h": 24,
+        "sel": "a.button.accent",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 49,
+        "y": 267,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 49,
+        "y": 267,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [
+      {
+       "role": "text",
+       "tag": "p",
+       "sel": "p",
+       "text": "​",
+       "boxed": false,
+       "x": 0,
+       "y": 64,
+       "w": 394,
+       "h": 24,
+       "absY": 3580,
+       "hidden": false,
+       "fs": 16,
+       "lh": 24,
+       "fw": "400",
+       "color": "rgb(105, 112, 116)",
+       "bg": null,
+       "position": "static",
+       "key": "text:​"
+      }
+     ],
+     "unit": {
+      "origin": {
+       "x": 982,
+       "y": 3520,
+       "w": 394,
+       "h": 351
+      },
+      "eds": {
+       "x": 982,
+       "y": 3516,
+       "w": 394,
+       "h": 351
+      },
+      "dx": 0,
+      "dy": -4,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 5,
+      "within": 5,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 1,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "main .frach-m-accordion__section=.accordion .accordion-item",
+   "family": null,
+   "required": true,
+   "originMatches": 1,
+   "edsMatches": 1,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-accordion#accordion-d1099ae995 > div.wcm-io-parsys.section > div.frach-m-accordion__section"
+     },
+     "eds": {
+      "path": "div.accordion-col > div.accordion-list > div.accordion-item"
+     },
+     "rows": [
+      {
+       "key": "text:emas-, iso 14001-, aca-zertifikate frapo",
+       "role": "text",
+       "text": "emas-, iso 14001-, aca-zertifikate fraport konzern",
+       "edsText": "emas-, iso 14001-, aca-zertifikate fraport konzern",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 24,
+        "w": 401,
+        "h": 24
+       },
+       "eds": {
+        "x": 0,
+        "y": 24,
+        "w": 401,
+        "h": 24,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24
+       },
+       "eds": {
+        "x": 1109,
+        "y": 24,
+        "w": 24,
+        "h": 24,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 149,
+       "y": 2089,
+       "w": 1141,
+       "h": 73
+      },
+      "eds": {
+       "x": 149,
+       "y": 2089,
+       "w": 1141,
+       "h": 73
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 2,
+      "within": 2,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": "main .frach-m-contact-list .frach-m-contact > .frach-m-contact=.contact-list .contact-list-card",
+   "family": null,
+   "required": true,
+   "originMatches": 3,
+   "edsMatches": 3,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:fraport conference center",
+       "role": "image",
+       "text": "fraport conference center",
+       "edsText": "fraport conference center",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 246
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 246,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:umweltmanagement",
+       "role": "heading",
+       "text": "umweltmanagement",
+       "edsText": "umweltmanagement",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 270,
+        "w": 389,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 270,
+        "w": 389,
+        "h": 30,
+        "sel": "h3#umweltmanagement",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:bei sämtlichen fragen zum umweltmanageme",
+       "role": "text",
+       "text": "bei sämtlichen fragen zum umweltmanagement, unseren projekte",
+       "edsText": "bei sämtlichen fragen zum umweltmanagement, unseren projekte",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 312,
+        "w": 389,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 312,
+        "w": 389,
+        "h": 48,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:umweltmanagement@fraport.de",
+       "role": "link",
+       "text": "umweltmanagement@fraport.de",
+       "edsText": "umweltmanagement@fraport.de",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 376,
+        "w": 261,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 377,
+        "w": 257,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 379,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 24,
+        "y": 379,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:fraport ag frankfurt airport services wo",
+       "role": "text",
+       "text": "fraport ag frankfurt airport services worldwide 60547 frankf",
+       "edsText": "fraport ag frankfurt airport services worldwide 60547 frankf",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 416,
+        "w": 389,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 412,
+        "w": 389,
+        "h": 72,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -4,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 32,
+       "y": 2362,
+       "w": 437,
+       "h": 528
+      },
+      "eds": {
+       "x": 32,
+       "y": 2362,
+       "w": 437,
+       "h": 524
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -4
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:img.frach-js-lazy-image__img.frach-e-lazy-image__img#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 246
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 246,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:nachbarschaftsdialog",
+       "role": "heading",
+       "text": "nachbarschaftsdialog",
+       "edsText": "nachbarschaftsdialog",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 270,
+        "w": 389,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 270,
+        "w": 389,
+        "h": 30,
+        "sel": "h3#nachbarschaftsdialog",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:bei allen fragen zu den schallschutzmaßn",
+       "role": "text",
+       "text": "bei allen fragen zu den schallschutzmaßnahmen, anspruchsgebi",
+       "edsText": "bei allen fragen zu den schallschutzmaßnahmen, anspruchsgebi",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 312,
+        "w": 389,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 312,
+        "w": 389,
+        "h": 48,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:www.fraport.com/anwohnerfragen",
+       "role": "link",
+       "text": "www.fraport.com/anwohnerfragen",
+       "edsText": "www.fraport.com/anwohnerfragen",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 376,
+        "w": 274,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 377,
+        "w": 270,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -4,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 379,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 24,
+        "y": 379,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:fraport ag frankfurt airport services wo",
+       "role": "text",
+       "text": "fraport ag frankfurt airport services worldwide 60547 frankf",
+       "edsText": "fraport ag frankfurt airport services worldwide 60547 frankf",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 416,
+        "w": 389,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 412,
+        "w": 389,
+        "h": 72,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -4,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 501,
+       "y": 2362,
+       "w": 437,
+       "h": 528
+      },
+      "eds": {
+       "x": 501,
+       "y": 2362,
+       "w": 437,
+       "h": 524
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -4
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.aem-Grid.aem-Grid--12 > div.frach-m-contact.aem-GridColumn > div.frach-m-contact"
+     },
+     "eds": {
+      "path": "div.row > div.contact-list-col > div.contact-list-card"
+     },
+     "rows": [
+      {
+       "key": "image:turmfalke *** local caption ***",
+       "role": "image",
+       "text": "turmfalke *** local caption ***",
+       "edsText": "turmfalke *** local caption ***",
+       "byPosition": false,
+       "origin": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 246
+       },
+       "eds": {
+        "x": 0,
+        "y": 0,
+        "w": 437,
+        "h": 246,
+        "sel": "img",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/0/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:wildlife control",
+       "role": "heading",
+       "text": "wildlife control",
+       "edsText": "wildlife control",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 270,
+        "w": 389,
+        "h": 30
+       },
+       "eds": {
+        "x": 24,
+        "y": 270,
+        "w": 389,
+        "h": 30,
+        "sel": "h3#wildlife-control",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "20/30/400",
+        "eds": "20/30/400"
+       }
+      },
+      {
+       "key": "text:ansprechpartner für fragen zu biotop, wa",
+       "role": "text",
+       "text": "ansprechpartner für fragen zu biotop, wald und wildlife cont",
+       "edsText": "ansprechpartner für fragen zu biotop, wald und wildlife cont",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 312,
+        "w": 389,
+        "h": 48
+       },
+       "eds": {
+        "x": 24,
+        "y": 312,
+        "w": 389,
+        "h": 48,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "link:wildlife@fraport.de",
+       "role": "link",
+       "text": "wildlife@fraport.de",
+       "edsText": "wildlife@fraport.de",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 376,
+        "w": 164,
+        "h": 24
+       },
+       "eds": {
+        "x": 24,
+        "y": 377,
+        "w": 161,
+        "h": 21,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 1,
+       "dw": -3,
+       "dh": -3,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "image:svg#1",
+       "role": "image",
+       "text": "",
+       "edsText": "",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 379,
+        "w": 16,
+        "h": 16
+       },
+       "eds": {
+        "x": 24,
+        "y": 379,
+        "w": 16,
+        "h": 16,
+        "sel": "svg",
+        "role": "image"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:fraport ag frankfurt airport services wo",
+       "role": "text",
+       "text": "fraport ag frankfurt airport services worldwide 60547 frankf",
+       "edsText": "fraport ag frankfurt airport services worldwide 60547 frankf",
+       "byPosition": false,
+       "origin": {
+        "x": 24,
+        "y": 416,
+        "w": 389,
+        "h": 72
+       },
+       "eds": {
+        "x": 24,
+        "y": 412,
+        "w": 389,
+        "h": 72,
+        "sel": "p.contact-list-body",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": -4,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 971,
+       "y": 2362,
+       "w": 437,
+       "h": 528
+      },
+      "eds": {
+       "x": 971,
+       "y": 2362,
+       "w": 437,
+       "h": 524
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": -4
+     },
+     "summary": {
+      "elements": 6,
+      "within": 6,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 8,
+  "within": 42,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

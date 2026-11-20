@@ -1,0 +1,129 @@
+{
+  "a": "stardust/replica/gates/all-360/de-investoren-fraport-aktie/origin.png",
+  "b": "stardust/replica/gates/all-360/de-investoren-fraport-aktie/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 2788,
+    "mode": "overlap"
+  },
+  "heightDelta": 17,
+  "differingPixels": 110994,
+  "pct": 11.06,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-investoren-fraport-aktie/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 20.55,
+  "textBoxes": 13,
+  "textPixels": 37413,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 16.8
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 13
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 13.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 7.3
+    },
+    {
+      "y0": 2500,
+      "y1": 2788,
+      "pct": 8.8
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 3.54,
+    "differingPixels": 35736,
+    "compared": {
+      "width": 360,
+      "height": 2805,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 316,
+        "shift": -10,
+        "cumulative": -10
+      },
+      {
+        "y": 1883,
+        "shift": -7,
+        "cumulative": -17
+      }
+    ],
+    "maxOffset": 17,
+    "totalShift": 17,
+    "insertedRows": 0,
+    "deletedRows": 17,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 14.9,
+        "unaligned": 16.8
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 1.3,
+        "unaligned": 13
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0,
+        "unaligned": 6.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 2.2,
+        "unaligned": 13.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0,
+        "unaligned": 7.3
+      },
+      {
+        "y0": 2500,
+        "y1": 2805,
+        "pct": 2.4,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/de-investoren-fraport-aktie/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 28,
+    "totalShift": 17,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/investoren/fraport-aktie"
+  }
+}

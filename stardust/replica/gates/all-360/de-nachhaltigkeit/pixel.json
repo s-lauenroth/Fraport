@@ -1,0 +1,146 @@
+{
+  "a": "stardust/replica/gates/all-360/de-nachhaltigkeit/origin.png",
+  "b": "stardust/replica/gates/all-360/de-nachhaltigkeit/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3632,
+    "mode": "overlap"
+  },
+  "heightDelta": 8,
+  "differingPixels": 98602,
+  "pct": 7.54,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-nachhaltigkeit/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 17.13,
+  "textBoxes": 61,
+  "textPixels": 269495,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.4
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.9
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 7.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 11.3
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 13.1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 5.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 6.7
+    },
+    {
+      "y0": 3500,
+      "y1": 3632,
+      "pct": 8.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 2.19,
+    "differingPixels": 28721,
+    "compared": {
+      "width": 360,
+      "height": 3640,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 1090,
+        "shift": -8,
+        "cumulative": -8
+      }
+    ],
+    "maxOffset": 8,
+    "totalShift": 8,
+    "insertedRows": 0,
+    "deletedRows": 8,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 7.9,
+        "unaligned": 7.9
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 3.8,
+        "unaligned": 7.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.8,
+        "unaligned": 11.3
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.6,
+        "unaligned": 13.1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 1,
+        "unaligned": 5.9
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.7,
+        "unaligned": 6.7
+      },
+      {
+        "y0": 3500,
+        "y1": 3640,
+        "pct": 2.6,
+        "unaligned": null
+      }
+    ],
+    "diff": "stardust/replica/gates/all-360/de-nachhaltigkeit/diff-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 36,
+    "totalShift": 8,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit"
+  }
+}

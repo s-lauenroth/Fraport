@@ -1,0 +1,134 @@
+{
+  "a": "stardust/replica/gates/all-1440/de-nachhaltigkeit/origin.png",
+  "b": "stardust/replica/gates/all-1440/de-nachhaltigkeit/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3186,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 18730,
+  "pct": 0.41,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/de-nachhaltigkeit/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.26,
+  "textBoxes": 73,
+  "textPixels": 479980,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.2
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.4
+    },
+    {
+      "y0": 3000,
+      "y1": 3186,
+      "pct": 0.1
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.41,
+    "differingPixels": 18730,
+    "compared": {
+      "width": 1440,
+      "height": 3186,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.5,
+        "unaligned": 0.5
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1,
+        "unaligned": 1
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 3000,
+        "y1": 3186,
+        "pct": 0.1,
+        "unaligned": 0.1
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.41,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit"
+  }
+}

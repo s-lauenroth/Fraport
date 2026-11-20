@@ -1,0 +1,145 @@
+{
+  "a": "stardust/replica/gates/all-360/de-konzern-unsere-internationalen-flughaefen-und-beteiligungen/origin.png",
+  "b": "stardust/replica/gates/all-360/de-konzern-unsere-internationalen-flughaefen-und-beteiligungen/eds.png",
+  "compared": {
+    "width": 360,
+    "height": 3569,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 10127,
+  "pct": 0.79,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-360/de-konzern-unsere-internationalen-flughaefen-und-beteiligungen/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.37,
+  "textBoxes": 55,
+  "textPixels": 256120,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.8
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.3
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.1
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 0.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 0.7
+    },
+    {
+      "y0": 3500,
+      "y1": 3569,
+      "pct": 5.2
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.79,
+    "differingPixels": 10127,
+    "compared": {
+      "width": 360,
+      "height": 3569,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 0.3,
+        "unaligned": 0.3
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 1.1,
+        "unaligned": 1.1
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 0.9,
+        "unaligned": 0.9
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 0.8,
+        "unaligned": 0.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0.7,
+        "unaligned": 0.7
+      },
+      {
+        "y0": 3500,
+        "y1": 3569,
+        "pct": 5.2,
+        "unaligned": 5.2
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.79,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen"
+  }
+}

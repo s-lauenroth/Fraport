@@ -1,0 +1,17 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://www.fraport.com/de/newsroom.html",
+  "reference": {
+    "dir": "stardust/replica/gates/de-newsroom-1440",
+    "capturedAt": "2026-11-19T17:45:40.409Z",
+    "primed": true,
+    "stable": true,
+    "noiseFloor": 0.72,
+    "variableRows": 296,
+    "maskArg": "3412:296"
+  },
+  "note": "reused stardust/replica/gates/de-newsroom-1440/baseline.png (the page's frozen reference — primed, not re-captured)",
+  "fontsFailed": [],
+  "deadFaces": [],
+  "at": "2026-11-19T21:10:08.410Z"
+}

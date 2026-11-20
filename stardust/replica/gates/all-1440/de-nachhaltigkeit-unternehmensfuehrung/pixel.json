@@ -1,0 +1,112 @@
+{
+  "a": "stardust/replica/gates/all-1440/de-nachhaltigkeit-unternehmensfuehrung/origin.png",
+  "b": "stardust/replica/gates/all-1440/de-nachhaltigkeit-unternehmensfuehrung/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2430,
+    "mode": "overlap"
+  },
+  "heightDelta": 0,
+  "differingPixels": 21944,
+  "pct": 0.63,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/de-nachhaltigkeit-unternehmensfuehrung/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 1.41,
+  "textBoxes": 53,
+  "textPixels": 349332,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.6
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.2
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 1.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.4
+    },
+    {
+      "y0": 2000,
+      "y1": 2430,
+      "pct": 0.5
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": false,
+    "pct": 0.63,
+    "differingPixels": 21944,
+    "compared": {
+      "width": 1440,
+      "height": 2430,
+      "mode": "overlap"
+    },
+    "steps": [],
+    "maxOffset": 0,
+    "totalShift": 0,
+    "insertedRows": 0,
+    "deletedRows": 0,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 0.6,
+        "unaligned": 0.6
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.2,
+        "unaligned": 0.2
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1.4,
+        "unaligned": 1.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 0.4,
+        "unaligned": 0.4
+      },
+      {
+        "y0": 2000,
+        "y1": 2430,
+        "pct": 0.5,
+        "unaligned": 0.5
+      }
+    ],
+    "diff": null,
+    "reason": "no offset step found",
+    "candidate": {
+      "pct": 0.63,
+      "steps": 0,
+      "totalShift": 0
+    }
+  },
+  "offsets": {
+    "bound": null,
+    "totalShift": 0,
+    "pass": true
+  },
+  "reason": null,
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--340a2135--aemcoder.aem.page/de/nachhaltigkeit/unternehmensfuehrung"
+  }
+}

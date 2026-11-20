@@ -1,0 +1,176 @@
+{
+  "_provenance": {
+    "writtenBy": "gate-all.mjs",
+    "writtenAt": "2026-11-19T19:24:56.076Z",
+    "stage": "published",
+    "breakpoint": 1440,
+    "threshold": 10,
+    "offsetMax": "the larger of 8px and 1% of the origin height",
+    "originReference": "frozen",
+    "heightTolerance": 0.05,
+    "clipMax": 0,
+    "unitTol": 4,
+    "criteria": {
+      "pixel": true,
+      "height": true,
+      "clip": true,
+      "content": true
+    },
+    "verdict": "pixel criterion (aligned % ≤ 10 AND total offset ≤ the bound; alignment not used: unaligned % ≤ 10) AND |Δh| ≤ 5% of origin height AND clipped ≤ 0 (+ documented allowance) AND content MISSING + HIDDEN links/headings = 0",
+    "origin": "https://www.fraport.com",
+    "eds": "https://main--340a2135--aemcoder.aem.page",
+    "edsHostOverride": "https://main--340a2135--aemcoder.aem.page",
+    "only": [
+      "de"
+    ]
+  },
+  "totals": {
+    "pages": 1,
+    "pass": 0,
+    "pixelOnlyPass": 0,
+    "overridePass": 0,
+    "fail": 0,
+    "error": 1,
+    "probeErrors": 1,
+    "failPixel": 1,
+    "failHeight": 0,
+    "failClip": 0,
+    "failContent": 0,
+    "failUnits": 1,
+    "fontsNotLoaded": 0,
+    "fontsDeadOnSource": 0,
+    "fontChecksSkipped": 0,
+    "contentNA": 0,
+    "asymmetricOrigins": 0,
+    "degradedTier": 0,
+    "alignedOnlyPass": 0,
+    "failOffsets": 1,
+    "referenceUnstable": 0,
+    "passWithOverrides": 0
+  },
+  "rows": [
+    {
+      "slug": "de",
+      "path": "/de",
+      "template": "de",
+      "origin": "stitch-live",
+      "originAsymmetric": false,
+      "eds": "stitch-live",
+      "pct": 19.58,
+      "textPct": null,
+      "heightDelta": 52,
+      "originH": 8017,
+      "edsH": 7965,
+      "alignedPct": 3.43,
+      "alignedUsed": true,
+      "totalShift": 200,
+      "steps": [
+        {
+          "y": 54,
+          "shift": 74,
+          "cumulative": 74
+        },
+        {
+          "y": 1791,
+          "shift": -38,
+          "cumulative": 36
+        },
+        {
+          "y": 3976,
+          "shift": -30,
+          "cumulative": 6
+        },
+        {
+          "y": 4855,
+          "shift": -14,
+          "cumulative": -8
+        },
+        {
+          "y": 5039,
+          "shift": -24,
+          "cumulative": -32
+        },
+        {
+          "y": 5829,
+          "shift": -10,
+          "cumulative": -42
+        },
+        {
+          "y": 6575,
+          "shift": -10,
+          "cumulative": -52
+        }
+      ],
+      "offsetBound": 80,
+      "pixelPass": false,
+      "heightPass": true,
+      "clipped": 0,
+      "clipPass": true,
+      "clipAllowance": 0,
+      "contentPass": null,
+      "contentNA": null,
+      "unitPass": false,
+      "pixelOnlyPass": false,
+      "pass": false,
+      "failing": [
+        "pixel",
+        "units",
+        "probe"
+      ],
+      "unwaived": [
+        "pixel",
+        "units",
+        "probe"
+      ],
+      "passWithOverride": false,
+      "fontsNotLoaded": [],
+      "fontChecksSkipped": [],
+      "probeErrors": [
+        {
+          "probe": "content",
+          "error": "content-presence exit 1: content-presence error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fraport.com/de.html"
+        }
+      ],
+      "reasons": [
+        "offsets: 7 step(s), 200px total — +74px at y=54, −38px at y=1791, −30px at y=3976, −14px at y=4855, −24px at y=5039, −10px at y=5829, … 1 more (bound 80px)",
+        "units off 5 hidden 1 missing 1",
+        "probe-error:content: content-presence exit 1: content-presence error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.fraport.com/de.html"
+      ],
+      "notes": [],
+      "clipGroups": [],
+      "clipAllowReason": null,
+      "content": null,
+      "units": {
+        "units": 3,
+        "within": 14,
+        "off": 5,
+        "hidden": 1,
+        "missing": 1,
+        "errors": 3,
+        "requiredOff": 7
+      },
+      "unitsRequired": true,
+      "unitsError": null,
+      "browser": "chrome",
+      "override": null,
+      "masked": false,
+      "maskedRows": 0,
+      "maskReason": null,
+      "reference": "stardust/replica/gates/de-1440",
+      "noiseFloor": 0,
+      "variableRows": 0,
+      "hotBands": [
+        "0-500:40.4%",
+        "500-1000:35.2%",
+        "1000-1500:23.3%",
+        "2500-3000:26.4%",
+        "3500-4000:22.7%",
+        "5000-5500:39.6%",
+        "5500-6000:21%",
+        "6000-6500:25.3%",
+        "6500-7000:26.3%"
+      ],
+      "error": null
+    }
+  ]
+}

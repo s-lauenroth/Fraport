@@ -1,0 +1,8473 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-19T23:20:36.549Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/konzern/digitalisierung.html",
+  "at": "2026-11-19T23:20:04.597Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 14990,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-grid-col-mq1-12.frach-m-page-header__container > a#header-6db48f31bd-logo",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "logo homepage link",
+    "href": "/de.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-15bb827f20-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-meta-navigation.frach-m-meta-navigation > button#metaNavigation-15bb827f20-search-button",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-15bb827f20-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "sprache"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "frach-m-meta-navigation.frach-m-meta-navigation > div.frach-m-meta-navigation__menu-wrapper > button#metaNavigation-15bb827f20-language-switch",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "sprache",
+    "value": "sprache",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12.frach-m-page-header__container > frach-m-main-navigation.frach-m-main-navigation > button.frach-m-main-navigation__menu-btn.frach-e-button",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > nav.frach-m-breadcrumb-navigation__nav > a.frach-m-breadcrumb-navigation__link.frach-m-breadcrumb-navigation__link--back",
+    "x": 16,
+    "y": 105,
+    "w": 83,
+    "h": 24,
+    "text": "konzern",
+    "href": "/de/konzern.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--21-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 0,
+    "y": 150,
+    "w": 360,
+    "h": 154,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "AdobeStock_738523483_1920px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-grid-row > h1.frach-h1.frach-e-headline",
+    "x": 16,
+    "y": 261,
+    "w": 328,
+    "h": 128,
+    "level": 1,
+    "text": "digitale transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h1.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 281,
+    "w": 69,
+    "h": 24,
+    "text": "DIGITALE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h1.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 345,
+    "w": 144,
+    "h": 24,
+    "text": "TRANSFORMATION"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.stickyPatch.aem-GridColumn > frach-e-sticky-patch.frach-e-sticky-patch.frach-e-sticky-patch--blue > button.frach-e-button.frach-e-sticky-patch__open-button",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-anchor-list__label > a#anchorList-f761a43a47-anchorItem-0",
+    "x": 16,
+    "y": 421,
+    "w": 328,
+    "h": 64,
+    "text": "aktuelles",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-f761a43a47-anchorItem-0",
+    "x": 16,
+    "y": 485,
+    "w": 328,
+    "h": 64,
+    "text": "digitalisierungsstrategie",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-f761a43a47-anchorItem-1",
+    "x": 16,
+    "y": 549,
+    "w": 328,
+    "h": 64,
+    "text": "robotikstrategie",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-f761a43a47-anchorItem-2",
+    "x": 16,
+    "y": 613,
+    "w": 328,
+    "h": 64,
+    "text": "ai@fraport",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > div.frach-m-accordion__section-content > a#anchorList-f761a43a47-anchorItem-3",
+    "x": 16,
+    "y": 677,
+    "w": 328,
+    "h": 64,
+    "text": "digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 774,
+    "w": 328,
+    "h": 60,
+    "level": 2,
+    "text": "digitalisierungsstrategie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 785,
+    "w": 345,
+    "h": 37,
+    "text": "DIGITALISIERUNGSSTRATEGIE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-m-text-media__row > h3.frach-m-text-media__headline",
+    "x": 16,
+    "y": 866,
+    "w": 328,
+    "h": 132,
+    "level": 3,
+    "text": "digitale transformation ist wesentliches element der unternehmensstrategie"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-dae24363a3 > h6",
+    "x": 16,
+    "y": 1038,
+    "w": 328,
+    "h": 182,
+    "level": 6,
+    "text": "die digitale transformation ist ein zentraler bestandteil der konzernstrategie fraport.2030. die fraport ag versteht dig"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-dae24363a3 > p",
+    "x": 16,
+    "y": 1236,
+    "w": 328,
+    "h": 360,
+    "text": "Das Ziel der Fraport AG ist es, Wertschöpfungsstrukturen kollaborativ zu gestalt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-dae24363a3 > p > strong",
+    "x": 16,
+    "y": 1607,
+    "w": 219,
+    "h": 45,
+    "text": "Die wichtigsten Kernziele der Digitalisierung:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-dae24363a3 > p",
+    "x": 16,
+    "y": 1664,
+    "w": 328,
+    "h": 24,
+    "text": "- Kosten reduzieren"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-dae24363a3 > p",
+    "x": 16,
+    "y": 1698,
+    "w": 328,
+    "h": 24,
+    "text": "- Zusätzliche Umsatzpotenziale erschließen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-dae24363a3 > p",
+    "x": 16,
+    "y": 1732,
+    "w": 328,
+    "h": 48,
+    "text": "- Erlebnis der Kundinnen und Kunden weiter verbessern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-dae24363a3 > p",
+    "x": 16,
+    "y": 1790,
+    "w": 328,
+    "h": 48,
+    "text": "- Innovative Arbeitsweisen und Methoden etablieren"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 1914,
+    "w": 329,
+    "h": 185,
+    "text": "digi_mindset.jpg",
+    "file": "Digi_Mindset"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-65551990f5 > h6",
+    "x": 16,
+    "y": 2122,
+    "w": 328,
+    "h": 78,
+    "level": 6,
+    "text": "digitalisierung umfasst drei wesentliche dimensionen: technologie, handlung und mindset"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-65551990f5 > p",
+    "x": 16,
+    "y": 2216,
+    "w": 328,
+    "h": 240,
+    "text": "Durch die Nutzung modernster Technologien, die gezielte Anpassung von Prozessen "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-65551990f5 > p",
+    "x": 16,
+    "y": 2466,
+    "w": 328,
+    "h": 240,
+    "text": "Im Mittelpunkt stehen bei Fraport vier kundenzentrierte Kernprozesse: Der Passag"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h3.frach-m-cta__headline.frach-h3",
+    "x": 16,
+    "y": 2773,
+    "w": 328,
+    "h": 88,
+    "level": 3,
+    "text": "robotik als innovationstreiber"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 2885,
+    "w": 328,
+    "h": 168,
+    "text": "Fraport setzt im Rahmen der Digitalen Transformation gezielt intelligente Roboti"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-f93718abc1",
+    "x": 16,
+    "y": 3093,
+    "w": 328,
+    "h": 52,
+    "text": "weiter zur robotikstrategie",
+    "href": "/de/konzern/digitalisierung/robotikstrategie.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 3225,
+    "w": 328,
+    "h": 60,
+    "level": 2,
+    "text": "ai@fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 3236,
+    "w": 156,
+    "h": 37,
+    "text": "AI@FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 16,
+    "y": 3309,
+    "w": 328,
+    "h": 24,
+    "text": "Künstliche Intelligenz als Wegbereiter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "frach-m-image#image-be06b07426 > figure.frach-m-image__figure > a.frach-m-image__link",
+    "x": 16,
+    "y": 3357,
+    "w": 328,
+    "h": 185,
+    "text": "",
+    "href": "/de/konzern/digitalisierung/ai-fraport.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 3357,
+    "w": 329,
+    "h": 185,
+    "text": "ai@frport",
+    "file": "AIFraport"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-29da6a4bf4 > h4",
+    "x": 16,
+    "y": 3590,
+    "w": 328,
+    "h": 102,
+    "level": 4,
+    "text": "einsatz von artificial intelligence im fraport konzern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-29da6a4bf4 > p",
+    "x": 16,
+    "y": 3708,
+    "w": 328,
+    "h": 216,
+    "text": "Mit der Initiative AI@Fraport hat sich Fraport zum Ziel gesetzt, durch eine inte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-29da6a4bf4 > p",
+    "x": 16,
+    "y": 3934,
+    "w": 328,
+    "h": 432,
+    "text": "Der wertebasierte und verantwortungsvolle Einsatz ist die Grundlage, um AI im Si"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a#button-daeb391472",
+    "x": 16,
+    "y": 4376,
+    "w": 304,
+    "h": 52,
+    "text": "weiter zu ai@fraport",
+    "href": "/de/konzern/digitalisierung/ai-fraport.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 4516,
+    "w": 328,
+    "h": 60,
+    "level": 2,
+    "text": "digital factory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 4527,
+    "w": 206,
+    "h": 37,
+    "text": "DIGITAL FACTORY"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid > div.frach-m-text-media__row > h3.frach-m-text-media__headline",
+    "x": 16,
+    "y": 4608,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "was ist die digital factory?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 4676,
+    "w": 329,
+    "h": 185,
+    "text": "digital_factory_-_visual.png",
+    "file": "Digital_Factory_-_Visual"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-81d2075fb4 > p",
+    "x": 16,
+    "y": 4884,
+    "w": 328,
+    "h": 264,
+    "text": "Die Digital Factory ist als virtuelle Organisationseinheit aus Digitalisierungs-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-81d2075fb4 > p",
+    "x": 16,
+    "y": 5158,
+    "w": 328,
+    "h": 288,
+    "text": "Strategisches Ziel dahinter: Den digitalen Reifegrad im Fraport-Konzern weiter a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-81d2075fb4 > p",
+    "x": 16,
+    "y": 5456,
+    "w": 328,
+    "h": 264,
+    "text": "Die Digital Factory ist gut vernetzt und setzt auf enge Zusammenarbeit und stark"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-81d2075fb4 > p > a.frach-e-link",
+    "x": 16,
+    "y": 5601,
+    "w": 327,
+    "h": 45,
+    "text": "house of logistics and mobility (holm) gmbh",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-81d2075fb4 > p > a.frach-e-link",
+    "x": 16,
+    "y": 5625,
+    "w": 316,
+    "h": 45,
+    "text": "house of digital transformation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-81d2075fb4 > p > a.frach-e-link",
+    "x": 16,
+    "y": 5649,
+    "w": 310,
+    "h": 45,
+    "text": "hessen trade & invest gmbh",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-81d2075fb4 > p > a.frach-e-link",
+    "x": 16,
+    "y": 5673,
+    "w": 309,
+    "h": 45,
+    "text": "plattform für innovation in deutschland (pfid)",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#textMedia-81d2075fb4 > p",
+    "x": 16,
+    "y": 5730,
+    "w": 328,
+    "h": 168,
+    "text": "An den Projekten können Kolleginnen und Kollegen aus anderen Unternehmensbereich"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#textMedia-81d2075fb4 > p > strong",
+    "x": 16,
+    "y": 5933,
+    "w": 317,
+    "h": 93,
+    "text": "Ein Ziel der Digital Factory ist es, Innovatives früh am Markt zu erkennen und ü"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > h6.frach-m-cta__headline.frach-h6",
+    "x": 16,
+    "y": 6095,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "du hast fragen zur digital factory?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-cta__text-container.frach-grid-col-mq1-12 > p.frach-m-cta__text.frach-m-text",
+    "x": 16,
+    "y": 6145,
+    "w": 328,
+    "h": 48,
+    "text": "Schreib uns und wirke aktiv an unserer digitalen Transformation mit:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-cta__cta-container.frach-grid-col-mq1-12 > div.frach-m-cta__button-container > a#button-83456327a6",
+    "x": 16,
+    "y": 6233,
+    "w": 328,
+    "h": 52,
+    "text": "e-mail senden",
+    "href": "digitalfactory@fraport.de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 6365,
+    "w": 329,
+    "h": 185,
+    "text": "fraport_open pitch day_grafik_hq_ohnelogo.png",
+    "file": "Fraport_Open%20Pitch%20Day_Grafik_HQ_ohn"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-ddb8b8498d > h3",
+    "x": 16,
+    "y": 6598,
+    "w": 328,
+    "h": 88,
+    "level": 3,
+    "text": "aktuelle projekt-ausschreibungen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-ddb8b8498d > p",
+    "x": 16,
+    "y": 6702,
+    "w": 328,
+    "h": 72,
+    "text": "DF 93 (Bewerbungsfrist: 03. Dezember 2026)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-ddb8b8498d > p > a.frach-e-link",
+    "x": 16,
+    "y": 6703,
+    "w": 292,
+    "h": 45,
+    "text": "\"ai tool for construction invoice analysis\"",
+    "href": "/content/dam/fraport-company/documents/konzern/eng/digital-factory/DF93%20Briefing%20Document.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/DF93%20Briefing%20Document.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "section.frach-h-component-margin.frach-m-text > div.frach-m-text__buttons > a#button-ef4fcac769",
+    "x": 16,
+    "y": 6784,
+    "w": 304,
+    "h": 100,
+    "text": "kein passendes projekt dabei? dann bewirb dich auf unseren open pitch day!",
+    "href": "/de/konzern/digitalisierung/open-pitch-day.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > img.frach-m-pictogram-key-figures__item-pictogram",
+    "x": 80,
+    "y": 6988,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "Kreativit%C3%A4t"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > span.frach-m-pictogram-key-figures__item-text",
+    "x": 32,
+    "y": 7239,
+    "w": 296,
+    "h": 24,
+    "text": "Projekte gestartet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > img.frach-m-pictogram-key-figures__item-pictogram",
+    "x": 80,
+    "y": 7371,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "Energiesparlampe"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > span.frach-m-pictogram-key-figures__item-text",
+    "x": 32,
+    "y": 7622,
+    "w": 296,
+    "h": 24,
+    "text": "MVPs erfolgreich entwickelt"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > img.frach-m-pictogram-key-figures__item-pictogram",
+    "x": 80,
+    "y": 7754,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "Rakete"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > span.frach-m-pictogram-key-figures__item-text",
+    "x": 32,
+    "y": 8005,
+    "w": 296,
+    "h": 24,
+    "text": "Projekte in Roll-Out begleitet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > img.frach-m-pictogram-key-figures__item-pictogram",
+    "x": 80,
+    "y": 8137,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "Auswertungen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-pictogram-key-figures__item.section > frach-e-animated-number.frach-e-animated-number.frach-m-pictogram-key-figures__item-value > span.frach-e-animated-number__value",
+    "x": 129,
+    "y": 8300,
+    "w": 101,
+    "h": 54,
+    "text": "2.700"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > span.frach-m-pictogram-key-figures__item-text",
+    "x": 32,
+    "y": 8388,
+    "w": 296,
+    "h": 24,
+    "text": "Lösungsanbieter bewertet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > img.frach-m-pictogram-key-figures__item-pictogram",
+    "x": 80,
+    "y": 8520,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "Pitches"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-pictogram-key-figures__item.section > frach-e-animated-number.frach-e-animated-number.frach-m-pictogram-key-figures__item-value > span.frach-e-animated-number__value",
+    "x": 145,
+    "y": 8683,
+    "w": 69,
+    "h": 54,
+    "text": "751"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > span.frach-m-pictogram-key-figures__item-text",
+    "x": 32,
+    "y": 8771,
+    "w": 296,
+    "h": 24,
+    "text": "Anbieter-Pitches durchgeführt"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > img.frach-m-pictogram-key-figures__item-pictogram",
+    "x": 80,
+    "y": 8903,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "Handshake"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row > div.frach-m-pictogram-key-figures__item.section > span.frach-m-pictogram-key-figures__item-text",
+    "x": 32,
+    "y": 9154,
+    "w": 296,
+    "h": 48,
+    "text": "verschiedene Lösungsanbieter haben mit uns zusammengearbeitet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-pictogram-key-figures__items > div.frach-grid > span.frach-m-pictogram-key-figures__legend",
+    "x": 28,
+    "y": 9280,
+    "w": 256,
+    "h": 45,
+    "text": "Das wurde seit dem Start der Digital Factory im Jahr 2021 erreicht"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h1.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 9391,
+    "w": 328,
+    "h": 192,
+    "level": 1,
+    "text": "projekte im überblick - der weg zur digitalen transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 9402,
+    "w": 294,
+    "h": 169,
+    "text": "PROJEKTE IM ÜBERBLICK - DER WEG ZUR DIGITALEN TRANSFORMATION"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 16,
+    "y": 9607,
+    "w": 328,
+    "h": 48,
+    "text": "Einblick in ausgewählte Projekte der Digital Factory:"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 9679,
+    "w": 329,
+    "h": 185,
+    "text": "welcome schriftzüge im a-plus bereich",
+    "file": "Friends@FRA%20Welcome"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-eb35fc52bf > h6",
+    "x": 16,
+    "y": 9895,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "friends@fra"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-eb35fc52bf > p",
+    "x": 16,
+    "y": 9937,
+    "w": 328,
+    "h": 240,
+    "text": "Mit dem Ziel, den Empfehlungsprozess für unser \"Mitarbeiter werben Mitarbeiter\"-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-eb35fc52bf > p",
+    "x": 16,
+    "y": 10187,
+    "w": 328,
+    "h": 144,
+    "text": "Die Lösung ist in Zusammenarbeit mit dem Anbieter entstanden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-eb35fc52bf > p > a.frach-e-link",
+    "x": 76,
+    "y": 10212,
+    "w": 86,
+    "h": 21,
+    "text": "radancy",
+    "href": "/de/ueber-uns/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-eb35fc52bf > p > a.frach-e-link",
+    "x": 16,
+    "y": 10284,
+    "w": 287,
+    "h": 45,
+    "text": "werde unternehmensbotschafter für den fraport konzern.",
+    "href": "/de/FriendsatFRA.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 10373,
+    "w": 329,
+    "h": 185,
+    "text": "fra_smartway_de_1920x1080.png",
+    "file": "FRA_SmartWay_de_1920x1080"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-f02a0f4a7f > h6",
+    "x": 16,
+    "y": 10590,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "fra smartway"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-f02a0f4a7f > p",
+    "x": 16,
+    "y": 10632,
+    "w": 328,
+    "h": 144,
+    "text": "Um das Passagiererlebnis weiter zu verbessern und lange Wartezeiten und Unmut zu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-f02a0f4a7f > p",
+    "x": 16,
+    "y": 10786,
+    "w": 328,
+    "h": 168,
+    "text": "Das Produkt FRA SmartWay ist das Ergebnis einer Kollaboration mit und dessen Par"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-f02a0f4a7f > p > a.frach-e-link",
+    "x": 16,
+    "y": 10811,
+    "w": 286,
+    "h": 45,
+    "text": "copenhagen optimiziation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-f02a0f4a7f > p > a.frach-e-link",
+    "x": 264,
+    "y": 10835,
+    "w": 70,
+    "h": 21,
+    "text": "clear",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > em > a.frach-e-link",
+    "x": 16,
+    "y": 10907,
+    "w": 288,
+    "h": 45,
+    "text": "im voraus entspannung buchen: mit fra smartway",
+    "href": "/de/reisevorbereitung/check-in-gepaeck-und-kontrollen/fra-smartway.html/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 10996,
+    "w": 329,
+    "h": 185,
+    "text": "container, abstellfläche",
+    "file": "Containerabstellplatz"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-d89c610ab8 > h6",
+    "x": 16,
+    "y": 11212,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "object tracking auf dem vorfeld"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-d89c610ab8 > p",
+    "x": 16,
+    "y": 11254,
+    "w": 328,
+    "h": 216,
+    "text": "Das Projektteam der Digital Factory hat eine Lösung entwickelt, um geschleppte T"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-text__rte-wrapper > div#text-d89c610ab8 > p",
+    "x": 16,
+    "y": 11480,
+    "w": 328,
+    "h": 48,
+    "text": "Die neue Lösung ist in Zusammenarbeit mit entstanden."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#text-d89c610ab8 > p > a.frach-e-link",
+    "x": 16,
+    "y": 11505,
+    "w": 172,
+    "h": 21,
+    "text": "axulus reply gmbh",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 11602,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "aktuelles zur digitalisieurng"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 11613,
+    "w": 207,
+    "h": 81,
+    "text": "AKTUELLES ZUR DIGITALISIEURNG"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-wrapper > a.frach-m-teaser-collection__list-item",
+    "x": 16,
+    "y": 11730,
+    "w": 328,
+    "h": 333,
+    "text": "27.10.2026 14:00 uhr gate a16 wird zum testfeld für die zukunft digitale echtzei",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/gate-of-the-future-am-flughafen-frankfurt-eroeffnet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-wrapper > a.frach-m-teaser-collection__list-item",
+    "x": 16,
+    "y": 12063,
+    "w": 328,
+    "h": 441,
+    "text": "24.07.2025 11:00 uhr ki-revolution am flughafen frankfurt: so optimieren lufthan",
+    "href": "/de/newsroom/pressemitteilungen/2025/q3/ki-gestuetzte-bodenprozesse--lufthansa--fraport-und-zerog-treibe.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-wrapper > a.frach-m-teaser-collection__list-item",
+    "x": 16,
+    "y": 12504,
+    "w": 328,
+    "h": 393,
+    "text": "25.04.2024 13:00 uhr masterplan cargohub: fraport plant umfassendes investitions",
+    "href": "/de/newsroom/pressemitteilungen/2024/q2/masterplan-cargohub--fraport-plant-umfassendes-investitionspaket.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-teaser-collection__list-cta-wrapper > a#button-e5946b946b",
+    "x": 16,
+    "y": 12929,
+    "w": 328,
+    "h": 52,
+    "text": "alle pressemitteilungen",
+    "href": "/de/newsroom/pressemitteilung.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > h2.frach-h3.frach-e-headline",
+    "x": 16,
+    "y": 13029,
+    "w": 328,
+    "h": 60,
+    "level": 2,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+    "x": 32,
+    "y": 13040,
+    "w": 268,
+    "h": 37,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-col-mq1-12 > div.frach-m-section-title.frach-m-section-title--nested > p.frach-body",
+    "x": 16,
+    "y": 13113,
+    "w": 328,
+    "h": 72,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 13233,
+    "w": 329,
+    "h": 185,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "AdobeStock_738523483_1920px"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 13474,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 13475,
+    "w": 286,
+    "h": 24,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 13524,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-e-lazy-image__mask.frach-e-lazy-image__mask--16-9 > div.frach-e-lazy-image__wrapper.frach-js-lazy-image__wrapper > img.frach-js-lazy-image__img.frach-e-lazy-image__img",
+    "x": 16,
+    "y": 13596,
+    "w": 329,
+    "h": 185,
+    "text": "rollverkehr united airlines",
+    "file": "Luftqualit%C3%A4t"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 13836,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 13837,
+    "w": 101,
+    "h": 24,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 13886,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 13990,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "publikationen & termine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 13991,
+    "w": 202,
+    "h": 24,
+    "text": "publikationen & termine",
+    "href": "/de/investoren/publikationen-termine.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 14040,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/investoren/publikationen-termine.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > h6.frach-m-teaser__headline",
+    "x": 16,
+    "y": 14144,
+    "w": 328,
+    "h": 52,
+    "level": 6,
+    "text": "sicher unterwegs auf vorfeld und rollfeld"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-teaser > h6.frach-m-teaser__headline > a.frach-e-link",
+    "x": 16,
+    "y": 14145,
+    "w": 274,
+    "h": 50,
+    "text": "sicher unterwegs auf vorfeld und rollfeld",
+    "href": "/de/geschaeftsfelder/service/fahrerausbildung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-m-slider__slide.frach-js-slider__slide > div.frach-m-teaser > a.frach-e-button.frach-e-button--tertiary",
+    "x": 16,
+    "y": 14220,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/fahrerausbildung.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-teaser-slider__load-more-row > div.frach-grid-col-mq1-12 > button#relatedContent-7ff47f136a-load-more-button",
+    "x": 16,
+    "y": 14292,
+    "w": 328,
+    "h": 52,
+    "text": "mehr news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 14432,
+    "w": 126,
+    "h": 24,
+    "text": "Ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 14505,
+    "w": 95,
+    "h": 24,
+    "text": "Fraport Sites"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 14578,
+    "w": 53,
+    "h": 24,
+    "text": "Aktuell"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-accordion__section > label.frach-m-accordion__toggle > span.frach-m-accordion__toggle-label",
+    "x": 16,
+    "y": 14651,
+    "w": 53,
+    "h": 24,
+    "text": "Service"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 14748,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 14782,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 80,
+    "y": 14782,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 144,
+    "y": 14782,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 208,
+    "y": 14782,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category.section > div.frach-m-page-footer__social-link-category > h6.frach-m-page-footer__social-link-category-headline",
+    "x": 16,
+    "y": 14834,
+    "w": 360,
+    "h": 24,
+    "level": 6,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-m-page-footer__social-link-category > div.frach-m-page-footer__social-link-item.section > a",
+    "x": 16,
+    "y": 14868,
+    "w": 28,
+    "h": 28,
+    "text": "",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div.frach-grid-row.frach-m-page-footer__copyright > div.frach-grid-col-mq1-12 > p.frach-meta",
+    "x": 16,
+    "y": 14940,
+    "w": 328,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > div.sc-aXZVg.gOjxTE > button.sc-iGgWBj.fCuhKw",
+    "x": 24,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "öffnen datenschutz einstellungen"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 0,
+    "textNodes": 121,
+    "controls": 46,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "span.frach-e-headline__line",
+     "path": "div.frach-m-section-title > h2.frach-h3.frach-e-headline > span.frach-e-headline__line > span.frach-e-headline__line-wrap",
+     "text": "digitalisierungsstrategie",
+     "cutMin": 33,
+     "cutMax": 33
+    }
+   ]
+  }
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/konzern/digitalisierung",
+  "at": "2026-11-19T23:20:36.411Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 14958,
+  "root": "main",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-logo > p > a",
+    "x": 16,
+    "y": 0,
+    "w": 104,
+    "h": 85,
+    "text": "startseite",
+    "href": "/de"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "suche"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-meta > button.header-meta-btn.header-search-btn",
+    "x": 224,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "suche",
+    "value": "suche",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-meta > div.header-meta-wrap.header-meta-wrap-language > button.header-meta-btn.header-meta-btn-language",
+    "x": 272,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "text": "menü"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.header-inner > div.header-nav > button.header-menu-btn",
+    "x": 320,
+    "y": 0,
+    "w": 24,
+    "h": 85,
+    "label": "menü",
+    "value": "menü",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": false,
+    "path": "div > nav.breadcrumb-nav > a.breadcrumb-back",
+    "x": 12,
+    "y": 105,
+    "w": 85,
+    "h": 24,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.hero-frame > picture > img",
+    "x": 0,
+    "y": 150,
+    "w": 360,
+    "h": 154,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "media_1403edfcdd03ef408b9fc5b13ee43b51e5"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.hero-headline.ribbon > h1#digitaletransformation",
+    "x": 16,
+    "y": 261,
+    "w": 176,
+    "h": 128,
+    "level": 1,
+    "text": "digitale transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#digitaletransformation > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 281,
+    "w": 69,
+    "h": 24,
+    "text": "DIGITALE"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h1#digitaletransformation > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 345,
+    "w": 144,
+    "h": 24,
+    "text": "TRANSFORMATION"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "text": "opens popup"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sticky-patch-wrapper > div.sticky-patch.block > button.sticky-patch-open",
+    "x": 292,
+    "y": 832,
+    "w": 44,
+    "h": 44,
+    "label": "opens popup",
+    "value": "opens popup",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.anchor-list-section > div.anchor-list-label > a",
+    "x": 16,
+    "y": 421,
+    "w": 328,
+    "h": 64,
+    "text": "aktuelles",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 501,
+    "w": 172,
+    "h": 32,
+    "text": "digitalisierungsstrategie",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 569,
+    "w": 116,
+    "h": 24,
+    "text": "robotikstrategie",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 633,
+    "w": 81,
+    "h": 24,
+    "text": "ai@fraport",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 697,
+    "w": 105,
+    "h": 24,
+    "text": "digital factory",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#digitalisierungsstrategie",
+    "x": 16,
+    "y": 774,
+    "w": 377,
+    "h": 60,
+    "level": 2,
+    "text": "digitalisierungsstrategie"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#digitalisierungsstrategie > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 785,
+    "w": 345,
+    "h": 37,
+    "text": "DIGITALISIERUNGSSTRATEGIE"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > h3#digitale-transformation-ist-wesentliches-element-der-unternehmensstrategie",
+    "x": 16,
+    "y": 882,
+    "w": 328,
+    "h": 132,
+    "level": 3,
+    "text": "digitale transformation ist wesentliches element der unternehmensstrategie"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > h6#die-digitale-transformation-ist-ein-zentraler-bestandteil-der-konzernstrategie-fraport2030-die-fraport-ag-versteht-digitalisierung-als-einen-umfassenden-ansatz-zur-steigerung-des-digitalen-reifegrads-mit-messbarem-erfolg",
+    "x": 16,
+    "y": 1030,
+    "w": 328,
+    "h": 182,
+    "level": 6,
+    "text": "die digitale transformation ist ein zentraler bestandteil der konzernstrategie fraport.2030. die fraport ag versteht dig"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 1228,
+    "w": 328,
+    "h": 360,
+    "text": "Das Ziel der Fraport AG ist es, Wertschöpfungsstrukturen kollaborativ zu gestalt"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > strong",
+    "x": 16,
+    "y": 1599,
+    "w": 219,
+    "h": 45,
+    "text": "Die wichtigsten Kernziele der Digitalisierung:"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 1656,
+    "w": 328,
+    "h": 24,
+    "text": "- Kosten reduzieren"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 1690,
+    "w": 328,
+    "h": 24,
+    "text": "- Zusätzliche Umsatzpotenziale erschließen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 1724,
+    "w": 328,
+    "h": 48,
+    "text": "- Erlebnis der Kundinnen und Kunden weiter verbessern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 1782,
+    "w": 328,
+    "h": 48,
+    "text": "- Innovative Arbeitsweisen und Methoden etablieren"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-image > picture > img",
+    "x": 16,
+    "y": 1906,
+    "w": 328,
+    "h": 184,
+    "text": "digi_mindset.jpg",
+    "file": "media_11ab4d0cc311bae7b8259038a3704775d1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > h6#digitalisierung-umfasst-drei-wesentliche-dimensionen-technologie-handlung-und-mindset",
+    "x": 16,
+    "y": 2114,
+    "w": 328,
+    "h": 78,
+    "level": 6,
+    "text": "digitalisierung umfasst drei wesentliche dimensionen: technologie, handlung und mindset"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 2208,
+    "w": 328,
+    "h": 240,
+    "text": "Durch die Nutzung modernster Technologien, die gezielte Anpassung von Prozessen "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 2458,
+    "w": 328,
+    "h": 240,
+    "text": "Im Mittelpunkt stehen bei Fraport vier kundenzentrierte Kernprozesse: Der Passag"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h3 > h2#robotik-als-innovationstreiber",
+    "x": 16,
+    "y": 2765,
+    "w": 328,
+    "h": 88,
+    "level": 2,
+    "text": "robotik als innovationstreiber"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 2877,
+    "w": 328,
+    "h": 168,
+    "text": "Fraport setzt im Rahmen der Digitalen Transformation gezielt intelligente Roboti"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 3085,
+    "w": 328,
+    "h": 52,
+    "text": "weiter zur robotikstrategie",
+    "href": "/de/konzern/digitalisierung/robotikstrategie.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#aifraport",
+    "x": 16,
+    "y": 3217,
+    "w": 188,
+    "h": 60,
+    "level": 2,
+    "text": "ai@fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#aifraport > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 3228,
+    "w": 156,
+    "h": 37,
+    "text": "AI@FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 16,
+    "y": 3301,
+    "w": 328,
+    "h": 24,
+    "text": "Künstliche Intelligenz als Wegbereiter"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > p > a",
+    "x": 16,
+    "y": 3349,
+    "w": 328,
+    "h": 185,
+    "text": "ai@frport",
+    "href": "/de/konzern/digitalisierung/ai-fraport.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a > picture > img",
+    "x": 16,
+    "y": 3349,
+    "w": 328,
+    "h": 185,
+    "text": "ai@frport",
+    "file": "media_1c36838207b03b0fbbb3187293544a4199"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h4#einsatz-von-artificial-intelligence-im-fraport-konzern",
+    "x": 16,
+    "y": 3582,
+    "w": 328,
+    "h": 102,
+    "level": 4,
+    "text": "einsatz von artificial intelligence im fraport konzern"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 3700,
+    "w": 328,
+    "h": 216,
+    "text": "Mit der Initiative AI@Fraport hat sich Fraport zum Ziel gesetzt, durch eine inte"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 3926,
+    "w": 328,
+    "h": 432,
+    "text": "Der wertebasierte und verantwortungsvolle Einsatz ist die Grundlage, um AI im Si"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.buttons > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 4368,
+    "w": 304,
+    "h": 52,
+    "text": "weiter zu ai@fraport",
+    "href": "/de/konzern/digitalisierung/ai-fraport.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#digital-factory",
+    "x": 16,
+    "y": 4508,
+    "w": 238,
+    "h": 60,
+    "level": 2,
+    "text": "digital factory"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#digital-factory > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 4519,
+    "w": 206,
+    "h": 37,
+    "text": "DIGITAL FACTORY"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div.text-media-headline > h3#was-ist-die-digital-factory",
+    "x": 16,
+    "y": 4600,
+    "w": 328,
+    "h": 44,
+    "level": 3,
+    "text": "was ist die digital factory?"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-image > picture > img",
+    "x": 16,
+    "y": 4668,
+    "w": 328,
+    "h": 184,
+    "text": "digital_factory_-_visual.png",
+    "file": "media_1921911690ed474ca7242752423caa550f"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 4876,
+    "w": 328,
+    "h": 264,
+    "text": "Die Digital Factory ist als virtuelle Organisationseinheit aus Digitalisierungs-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 5150,
+    "w": 328,
+    "h": 288,
+    "text": "Strategisches Ziel dahinter: Den digitalen Reifegrad im Fraport-Konzern weiter a"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 5448,
+    "w": 328,
+    "h": 264,
+    "text": "Die Digital Factory ist gut vernetzt und setzt auf enge Zusammenarbeit und stark"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 16,
+    "y": 5593,
+    "w": 327,
+    "h": 45,
+    "text": "house of logistics and mobility (holm) gmbh",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 16,
+    "y": 5617,
+    "w": 316,
+    "h": 45,
+    "text": "house of digital transformation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 16,
+    "y": 5641,
+    "w": 310,
+    "h": 45,
+    "text": "hessen trade & invest gmbh",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 16,
+    "y": 5665,
+    "w": 309,
+    "h": 45,
+    "text": "plattform für innovation in deutschland (pfid)",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.text-media-text > div.rte > p",
+    "x": 16,
+    "y": 5722,
+    "w": 328,
+    "h": 168,
+    "text": "An den Projekten können Kolleginnen und Kollegen aus anderen Unternehmensbereich"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > strong",
+    "x": 16,
+    "y": 5901,
+    "w": 317,
+    "h": 93,
+    "text": "Ein Ziel der Digital Factory ist es, Innovatives früh am Markt zu erkennen und ü"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-headline.h6 > h2#du-hast-fragen-zur-digital-factory",
+    "x": 16,
+    "y": 6063,
+    "w": 328,
+    "h": 26,
+    "level": 2,
+    "text": "du hast fragen zur digital factory?"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-text > div.cta-copy > p",
+    "x": 16,
+    "y": 6113,
+    "w": 328,
+    "h": 48,
+    "text": "Schreib uns und wirke aktiv an unserer digitalen Transformation mit:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.cta-action > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 6201,
+    "w": 328,
+    "h": 52,
+    "text": "e-mail senden",
+    "href": "digitalfactory@fraport.de"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-figure > picture > img",
+    "x": 16,
+    "y": 6333,
+    "w": 328,
+    "h": 185,
+    "text": "fraport_open pitch day_grafik_hq_ohnelogo.png",
+    "file": "media_1adc6f6291db859935891384a75c9dbc92"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h3#aktuelle-projekt-ausschreibungen",
+    "x": 16,
+    "y": 6566,
+    "w": 328,
+    "h": 88,
+    "level": 3,
+    "text": "aktuelle projekt-ausschreibungen"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 6670,
+    "w": 328,
+    "h": 72,
+    "text": "DF 93 (Bewerbungsfrist: 03. Dezember 2026)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 16,
+    "y": 6694,
+    "w": 313,
+    "h": 24,
+    "text": "\"ai tool for construction invoice analysis\"",
+    "href": "/content/dam/fraport-company/documents/konzern/eng/digital-factory/DF93%20Briefing%20Document.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/DF93%20Briefing%20Document.pdf"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.buttons > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 6752,
+    "w": 304,
+    "h": 100,
+    "text": "kein passendes projekt dabei? dann bewirb dich auf unseren open pitch day!",
+    "href": "/de/konzern/digitalisierung/open-pitch-day.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-pictogram > picture > img",
+    "x": 80,
+    "y": 6956,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "media_1549861d8c9d60f5ffd1a573d806179d6e"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-text > p",
+    "x": 32,
+    "y": 7207,
+    "w": 296,
+    "h": 24,
+    "text": "Projekte gestartet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-pictogram > picture > img",
+    "x": 80,
+    "y": 7339,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "media_11b1a4fb96288bcfb53a08fda5b2c2bed9"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-text > p",
+    "x": 32,
+    "y": 7590,
+    "w": 296,
+    "h": 24,
+    "text": "MVPs erfolgreich entwickelt"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-pictogram > picture > img",
+    "x": 80,
+    "y": 7722,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "media_1d8947d3a9bc2183d40a55020a09d841d1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-text > p",
+    "x": 32,
+    "y": 7973,
+    "w": 296,
+    "h": 24,
+    "text": "Projekte in Roll-Out begleitet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-pictogram > picture > img",
+    "x": 80,
+    "y": 8105,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "media_17370367fdc942cd0b9676c8cfb4d9e152"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-value > p",
+    "x": 129,
+    "y": 8268,
+    "w": 101,
+    "h": 54,
+    "text": "2.700"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-text > p",
+    "x": 32,
+    "y": 8356,
+    "w": 296,
+    "h": 24,
+    "text": "Lösungsanbieter bewertet"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-pictogram > picture > img",
+    "x": 80,
+    "y": 8488,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "media_1b853c3e7ba07db2dfe726d0de0c507bcf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-value > p",
+    "x": 145,
+    "y": 8651,
+    "w": 69,
+    "h": 54,
+    "text": "751"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-text > p",
+    "x": 32,
+    "y": 8739,
+    "w": 296,
+    "h": 24,
+    "text": "Anbieter-Pitches durchgeführt"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-pictogram > picture > img",
+    "x": 80,
+    "y": 8871,
+    "w": 200,
+    "h": 146,
+    "text": "",
+    "file": "media_14427e765a65460dd30c61bd2251196480"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-item > div.pictogram-key-figures-text > p",
+    "x": 32,
+    "y": 9122,
+    "w": 296,
+    "h": 48,
+    "text": "verschiedene Lösungsanbieter haben mit uns zusammengearbeitet"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.pictogram-key-figures-col > div.pictogram-key-figures-legend > p",
+    "x": 28,
+    "y": 9247,
+    "w": 304,
+    "h": 48,
+    "text": "Das wurde seit dem Start der Digital Factory im Jahr 2021 erreicht"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#projekte-im-überblick---der-weg-zur-digitalen-transformation",
+    "x": 16,
+    "y": 9359,
+    "w": 328,
+    "h": 192,
+    "level": 2,
+    "text": "projekte im überblick - der weg zur digitalen transformation"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#projekte-im-überblick---der-weg-zur-digitalen-transformation > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 9370,
+    "w": 294,
+    "h": 169,
+    "text": "PROJEKTE IM ÜBERBLICK - DER WEG ZUR DIGITALEN TRANSFORMATION"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 16,
+    "y": 9575,
+    "w": 328,
+    "h": 48,
+    "text": "Einblick in ausgewählte Projekte der Digital Factory:"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 9647,
+    "w": 328,
+    "h": 184,
+    "text": "welcome schriftzüge im a-plus bereich",
+    "file": "media_13f74f10687262952a5335fc0e1f31bec1"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h6#friendsfra",
+    "x": 16,
+    "y": 9863,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "friends@fra"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 9905,
+    "w": 328,
+    "h": 240,
+    "text": "Mit dem Ziel, den Empfehlungsprozess für unser \"Mitarbeiter werben Mitarbeiter\"-"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 10155,
+    "w": 328,
+    "h": 144,
+    "text": "Die Lösung ist in Zusammenarbeit mit dem Anbieter entstanden"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 76,
+    "y": 10180,
+    "w": 62,
+    "h": 21,
+    "text": "radancy",
+    "href": "/de/ueber-uns/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > em > a",
+    "x": 16,
+    "y": 10252,
+    "w": 315,
+    "h": 45,
+    "text": "werde unternehmensbotschafter für den fraport konzern.",
+    "href": "/de/FriendsatFRA.html"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 10341,
+    "w": 328,
+    "h": 185,
+    "text": "fra_smartway_de_1920x1080.png",
+    "file": "media_100e854942c52e16e7976af5c7a183d924"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h6#fra-smartway",
+    "x": 16,
+    "y": 10557,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "fra smartway"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 10599,
+    "w": 328,
+    "h": 144,
+    "text": "Um das Passagiererlebnis weiter zu verbessern und lange Wartezeiten und Unmut zu"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 10753,
+    "w": 328,
+    "h": 168,
+    "text": "Das Produkt FRA SmartWay ist das Ergebnis einer Kollaboration mit und dessen Par"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 16,
+    "y": 10778,
+    "w": 262,
+    "h": 45,
+    "text": "copenhagen optimiziation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 264,
+    "y": 10802,
+    "w": 46,
+    "h": 21,
+    "text": "clear",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > em > a",
+    "x": 16,
+    "y": 10874,
+    "w": 264,
+    "h": 45,
+    "text": "im voraus entspannung buchen: mit fra smartway",
+    "href": "/de/reisevorbereitung/check-in-gepaeck-und-kontrollen/fra-smartway.html/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture > img",
+    "x": 16,
+    "y": 10963,
+    "w": 328,
+    "h": 185,
+    "text": "container, abstellfläche",
+    "file": "media_1ed951454587541a9f7ffec95e95456aff"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > h6#object-tracking-auf-dem-vorfeld",
+    "x": 16,
+    "y": 11180,
+    "w": 328,
+    "h": 26,
+    "level": 6,
+    "text": "object tracking auf dem vorfeld"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 11222,
+    "w": 328,
+    "h": 216,
+    "text": "Das Projektteam der Digital Factory hat eine Lösung entwickelt, um geschleppte T"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.columns-text > div.rte > p",
+    "x": 16,
+    "y": 11448,
+    "w": 328,
+    "h": 48,
+    "text": "Die neue Lösung ist in Zusammenarbeit mit entstanden."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.rte > p > a",
+    "x": 55,
+    "y": 11473,
+    "w": 148,
+    "h": 21,
+    "text": "axulus reply gmbh",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#aktuelles-zur-digitalisieurng",
+    "x": 16,
+    "y": 11570,
+    "w": 328,
+    "h": 104,
+    "level": 2,
+    "text": "aktuelles zur digitalisieurng"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#aktuelles-zur-digitalisieurng > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 11581,
+    "w": 207,
+    "h": 81,
+    "text": "AKTUELLES ZUR DIGITALISIEURNG"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-collection-col > div.teaser-collection-list > a.teaser-collection-item",
+    "x": 16,
+    "y": 11698,
+    "w": 328,
+    "h": 333,
+    "text": "27.10.2026 14:00 uhr gate a16 wird zum testfeld für die zukunft digitale echtzei",
+    "href": "/de/newsroom/pressemitteilungen/2026/q4/gate-of-the-future-am-flughafen-frankfurt-eroeffnet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-collection-col > div.teaser-collection-list > a.teaser-collection-item",
+    "x": 16,
+    "y": 12031,
+    "w": 328,
+    "h": 441,
+    "text": "24.07.2025 11:00 uhr ki-revolution am flughafen frankfurt: so optimieren lufthan",
+    "href": "/de/newsroom/pressemitteilungen/2025/q3/ki-gestuetzte-bodenprozesse--lufthansa--fraport-und-zerog-treibe.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-collection-col > div.teaser-collection-list > a.teaser-collection-item",
+    "x": 16,
+    "y": 12472,
+    "w": 328,
+    "h": 393,
+    "text": "25.04.2024 13:00 uhr masterplan cargohub: fraport plant umfassendes investitions",
+    "href": "/de/newsroom/pressemitteilungen/2024/q2/masterplan-cargohub--fraport-plant-umfassendes-investitionspaket.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-collection-ctas > p.button-wrapper > a.button.primary",
+    "x": 16,
+    "y": 12897,
+    "w": 212,
+    "h": 52,
+    "text": "alle pressemitteilungen",
+    "href": "/de/newsroom/pressemitteilung"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-heading.ribbon > h2#noch-mehr-fraport",
+    "x": 16,
+    "y": 12997,
+    "w": 300,
+    "h": 60,
+    "level": 2,
+    "text": "noch mehr fraport"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "h2#noch-mehr-fraport > span.ribbon-line > span.ribbon-text",
+    "x": 32,
+    "y": 13008,
+    "w": 268,
+    "h": 37,
+    "text": "NOCH MEHR FRAPORT"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.section-title-box > div.section-title-body.body > p",
+    "x": 16,
+    "y": 13081,
+    "w": 328,
+    "h": 72,
+    "text": "Was als „Südwestdeutsche Luftverkehrs AG“ begann, ist heute ein weltweiter Dreh-"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-image > picture > img",
+    "x": 16,
+    "y": 13201,
+    "w": 328,
+    "h": 185,
+    "text": "globe with economic growth lines, abstract background",
+    "file": "media_16d456f4ad6c7804eb75d9baca2a765401"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory",
+    "x": 16,
+    "y": 13441,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "digitalisierung und digital factory"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#digitalisierung-und-digital-factory > a",
+    "x": 16,
+    "y": 13442,
+    "w": 286,
+    "h": 24,
+    "text": "digitalisierung und digital factory",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 13491,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/konzern/digitalisierung"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-image > picture > img",
+    "x": 16,
+    "y": 13563,
+    "w": 328,
+    "h": 185,
+    "text": "rollverkehr united airlines",
+    "file": "media_1fcb7d32efd4ccccadee9fe442d7ea706c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#luftqualität",
+    "x": 16,
+    "y": 13804,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "luftqualität"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#luftqualität > a",
+    "x": 16,
+    "y": 13805,
+    "w": 101,
+    "h": 24,
+    "text": "luftqualität",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 13854,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/laerm-und-luft/luftqualitaet.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#publikationen--termine",
+    "x": 16,
+    "y": 13958,
+    "w": 328,
+    "h": 26,
+    "level": 3,
+    "text": "publikationen & termine"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#publikationen--termine > a",
+    "x": 16,
+    "y": 13959,
+    "w": 202,
+    "h": 24,
+    "text": "publikationen & termine",
+    "href": "/de/investoren/publikationen-termine.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 14008,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/investoren/publikationen-termine.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser > div.teaser-headline.h6 > h3#sicher-unterwegs-auf-vorfeld-und-rollfeld",
+    "x": 16,
+    "y": 14112,
+    "w": 328,
+    "h": 52,
+    "level": 3,
+    "text": "sicher unterwegs auf vorfeld und rollfeld"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-headline.h6 > h3#sicher-unterwegs-auf-vorfeld-und-rollfeld > a",
+    "x": 16,
+    "y": 14113,
+    "w": 274,
+    "h": 50,
+    "text": "sicher unterwegs auf vorfeld und rollfeld",
+    "href": "/de/geschaeftsfelder/service/fahrerausbildung.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.teaser-link > p.button-wrapper > a.button.accent",
+    "x": 16,
+    "y": 14188,
+    "w": 65,
+    "h": 24,
+    "text": "lesen",
+    "href": "/de/geschaeftsfelder/service/fahrerausbildung.html"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.row > div > button.button.secondary",
+    "x": 12,
+    "y": 14260,
+    "w": 336,
+    "h": 52,
+    "text": "mehr news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#ansprechpartner",
+    "x": 16,
+    "y": 14400,
+    "w": 126,
+    "h": 24,
+    "level": 2,
+    "text": "ansprechpartner"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 14476,
+    "w": 328,
+    "h": 48,
+    "text": "Fraport AG Frankfurt Airport Services Worldwide"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 14534,
+    "w": 328,
+    "h": 24,
+    "text": "60547 Frankfurt am Main"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 14568,
+    "w": 180,
+    "h": 24,
+    "text": "anfahrtsbeschreibung",
+    "href": "/content/dam/fraport-company/documents/konzern/karriere/unterlagen-bewerber/wegbeschreibungen/Unternehmenszentrale%20Geb.%20178.pdf/_jcr_content/renditions/original.media_file.download_attachment.file/Unternehmenszentrale%20Geb.%20178.pdf"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 14653,
+    "w": 272,
+    "h": 21,
+    "text": "Fragen, Lob, Kritik und Anregungen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 14676,
+    "w": 144,
+    "h": 24,
+    "text": "01806 372-4636",
+    "href": "+4918063724636"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 14710,
+    "w": 141,
+    "h": 24,
+    "text": "kontaktformular",
+    "href": "/de/konzern/ueber-uns/kontaktformular-fraport-ag.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > em",
+    "x": 16,
+    "y": 14745,
+    "w": 314,
+    "h": 45,
+    "text": "*20 Cent pro Anruf aus dem deutschen Festnetz, maximal 50 Cent aus dem Mobilfunk"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 14853,
+    "w": 199,
+    "h": 21,
+    "text": "Mailadresse für Feedback:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 14876,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "feedback@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 14911,
+    "w": 316,
+    "h": 21,
+    "text": "Mailadresse für Passagier-Informationen:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 14934,
+    "w": 70,
+    "h": 24,
+    "text": "e-mail",
+    "href": "info@fraport.de"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > strong",
+    "x": 16,
+    "y": 15019,
+    "w": 299,
+    "h": 21,
+    "text": "Fluglärm und Maßnahmenprogramme:"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 15042,
+    "w": 295,
+    "h": 24,
+    "text": "kontaktformulare zum themenbereich",
+    "href": "/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-cols.rte > div.footer-contact-col > p",
+    "x": 16,
+    "y": 15076,
+    "w": 328,
+    "h": 72,
+    "text": "(für Reisende und Beschäftige)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-contact-col > p > a",
+    "x": 16,
+    "y": 15100,
+    "w": 224,
+    "h": 24,
+    "text": "kontakt zum medical center",
+    "href": "medizin@fraport.de"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#fraport-sites",
+    "x": 16,
+    "y": 14473,
+    "w": 95,
+    "h": 24,
+    "level": 2,
+    "text": "fraport sites"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14545,
+    "w": 57,
+    "h": 40,
+    "text": "konzern",
+    "href": "/de/konzern"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14585,
+    "w": 110,
+    "h": 40,
+    "text": "geschäftsfelder",
+    "href": "/de/geschaeftsfelder"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14625,
+    "w": 73,
+    "h": 40,
+    "text": "investoren",
+    "href": "/de/investoren"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14665,
+    "w": 104,
+    "h": 40,
+    "text": "nachhaltigkeit",
+    "href": "/de/nachhaltigkeit"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#aktuell",
+    "x": 16,
+    "y": 14546,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "aktuell"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14618,
+    "w": 75,
+    "h": 40,
+    "text": "newsroom",
+    "href": "/de/newsroom"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14658,
+    "w": 118,
+    "h": 40,
+    "text": "frankfurt airport",
+    "href": "/de.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14698,
+    "w": 138,
+    "h": 40,
+    "text": "karriere bei fraport",
+    "href": "/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "summary > span.footer-acc-label > h2#service",
+    "x": 16,
+    "y": 14619,
+    "w": 53,
+    "h": 24,
+    "level": 2,
+    "text": "service"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14691,
+    "w": 89,
+    "h": 40,
+    "text": "datenschutz",
+    "href": "/de/konzern/datenschutz.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14731,
+    "w": 76,
+    "h": 40,
+    "text": "impressum",
+    "href": "/de/tools/impressum.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14771,
+    "w": 74,
+    "h": 40,
+    "text": "disclaimer",
+    "href": "/de/tools/disclaimer.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul > li > a",
+    "x": 16,
+    "y": 14811,
+    "w": 269,
+    "h": 40,
+    "text": "richtlinien und zahlungsbedingungen",
+    "href": "/de/geschaeftsfelder/service/geschaeftspartner/richtlinien-und-zahlungsbedingungen.html"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-airport",
+    "x": 16,
+    "y": 14716,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt airport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 14750,
+    "w": 28,
+    "h": 28,
+    "text": "facebook",
+    "href": "/frankfurtAirport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 76,
+    "y": 14750,
+    "w": 28,
+    "h": 28,
+    "text": "instagram",
+    "href": "/frankfurtairport"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 136,
+    "y": 14750,
+    "w": 28,
+    "h": 28,
+    "text": "youtube",
+    "href": "/user/fraportundfra"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 196,
+    "y": 14750,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/company/fraport-ag/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-inner > div.footer-social-group > h3#frankfurt-cargohub",
+    "x": 16,
+    "y": 14802,
+    "w": 360,
+    "h": 24,
+    "level": 3,
+    "text": "frankfurt cargohub"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.footer-social-group > p > a",
+    "x": 16,
+    "y": 14836,
+    "w": 28,
+    "h": 28,
+    "text": "linkedin",
+    "href": "/showcase/fra-cargo/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.container > div.footer-copyright > p",
+    "x": 16,
+    "y": 14908,
+    "w": 326,
+    "h": 18,
+    "text": "©2004-2026 Fraport AG Frankfurt Airport Services Worldwide"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 1,
+    "offPage": 0,
+    "textNodes": 151,
+    "controls": 67,
+    "total": 0
+   },
+   "groups": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "n": 1,
+     "clipper": "span.ribbon-line",
+     "path": "div.section-title-heading.ribbon > h2#digitalisierungsstrategie > span.ribbon-line > span.ribbon-text",
+     "text": "digitalisierungsstrategie",
+     "cutMin": 17,
+     "cutMax": 17
+    }
+   ],
+   "findings": [
+    {
+     "kind": "TEXT X-CUT",
+     "advisory": true,
+     "cut": 17,
+     "path": "div.section-title-heading.ribbon > h2#digitalisierungsstrategie > span.ribbon-line > span.ribbon-text",
+     "text": "digitalisierungsstrategie",
+     "clipper": "span.ribbon-line",
+     "rect": {
+      "l": 32,
+      "t": 785,
+      "r": 377,
+      "b": 822,
+      "w": 345,
+      "h": 37
+     },
+     "clip": {
+      "l": 16,
+      "t": 774,
+      "r": 393,
+      "b": 834,
+      "w": 377,
+      "h": 60
+     },
+     "lines": 1
+    }
+   ]
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "digitale transformation",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "digitalisierungsstrategie",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "digitale transformation ist wesentliches element der unternehmensstrategie",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "robotik als innovationstreiber",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "ai@fraport",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 4,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 4,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": [
+    "EXTRA LINK"
+   ]
+  },
+  {
+   "index": 6,
+   "heading": "digital factory",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "was ist die digital factory?",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 6,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 6,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "aktuelle projekt-ausschreibungen",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 10,
+    "image": 6
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 10,
+    "textHidden": 0,
+    "image": 6,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "projekte im überblick - der weg zur digitalen transformation",
+   "variable": false,
+   "origin": {
+    "link": 6,
+    "button": 0,
+    "text": 8,
+    "image": 0
+   },
+   "eds": {
+    "link": 6,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "COUNT IMAGES"
+   ]
+  },
+  {
+   "index": 10,
+   "heading": "aktuelles zur digitalisieurng",
+   "variable": false,
+   "origin": {
+    "link": 4,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 4,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "noch mehr fraport",
+   "variable": false,
+   "origin": {
+    "link": 8,
+    "button": 1,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 8,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 2,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h2 \"du hast fragen zur digital factory?\" (y 6063) has no origin heading",
+   "text": "du hast fragen zur digital factory?"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"digitalisierung und digital factory\" (y 13441) has no origin heading",
+   "text": "digitalisierung und digital factory"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"luftqualität\" (y 13804) has no origin heading",
+   "text": "luftqualität"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"publikationen & termine\" (y 13958) has no origin heading",
+   "text": "publikationen & termine"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA HEADING",
+   "msg": "served h3 \"sicher unterwegs auf vorfeld und rollfeld\" (y 14112) has no origin heading",
+   "text": "sicher unterwegs auf vorfeld und rollfeld"
+  },
+  {
+   "sev": "🟡",
+   "kind": "EXTRA LINK",
+   "msg": "\"ai@frport\" served in band \"ai@fraport\", no origin link or button",
+   "band": 5,
+   "n": 1,
+   "text": "ai@frport"
+  },
+  {
+   "sev": "🟡",
+   "kind": "COUNT IMAGES",
+   "msg": "band \"projekte im überblick - der weg zur digitalen transformation\": 0 origin → 3 served visible",
+   "band": 9,
+   "origin": 0,
+   "eds": 3,
+   "hidden": 0
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 5,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 1,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 1,
+  "findings": 7,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 38,
+    "y": 106,
+    "w": 61,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 281,
+    "w": 69,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 345,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 442,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 510,
+    "w": 172,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 570,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 634,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 698,
+    "w": 105,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 785,
+    "w": 345,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 869,
+    "w": 322,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 913,
+    "w": 303,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 957,
+    "w": 281,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 1039,
+    "w": 280,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1065,
+    "w": 204,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1091,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1117,
+    "w": 315,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1143,
+    "w": 251,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1169,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1195,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1237,
+    "w": 206,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1261,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1285,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1309,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1333,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1357,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1381,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1405,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1429,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1453,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1477,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1501,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1525,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1549,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1573,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1607,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1631,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1665,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1699,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1733,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1757,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1791,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1815,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2123,
+    "w": 228,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2149,
+    "w": 322,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2175,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2217,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2241,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2265,
+    "w": 315,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2289,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2313,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2337,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2361,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2385,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2409,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2433,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2467,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2491,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2515,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2539,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2563,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2587,
+    "w": 313,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2611,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2635,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2659,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2683,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2776,
+    "w": 134,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 2820,
+    "w": 222,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 2886,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2910,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2934,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2958,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2982,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3006,
+    "w": 221,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3030,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 62,
+    "y": 3108,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3236,
+    "w": 156,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 3310,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3591,
+    "w": 225,
+    "h": 32
+   },
+   {
+    "x": 16,
+    "y": 3625,
+    "w": 252,
+    "h": 32
+   },
+   {
+    "x": 16,
+    "y": 3659,
+    "w": 90,
+    "h": 32
+   },
+   {
+    "x": 16,
+    "y": 3709,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3733,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3757,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3781,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3805,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3829,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3853,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3877,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3901,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3935,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3959,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3983,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4007,
+    "w": 315,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4031,
+    "w": 252,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4055,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4079,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4103,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4127,
+    "w": 325,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4151,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4175,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4199,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4223,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4247,
+    "w": 321,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4271,
+    "w": 324,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4295,
+    "w": 248,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4319,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4343,
+    "w": 218,
+    "h": 21
+   },
+   {
+    "x": 74,
+    "y": 4391,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4527,
+    "w": 206,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 4611,
+    "w": 322,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 4885,
+    "w": 237,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4909,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4933,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4957,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4981,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5005,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5029,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5053,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5077,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5101,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5125,
+    "w": 231,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5159,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5183,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5207,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5231,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5255,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5279,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5303,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5327,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5351,
+    "w": 325,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5375,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5399,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5423,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5457,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5481,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5505,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5529,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5553,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5577,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5601,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 299,
+    "y": 5601,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5625,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 296,
+    "y": 5625,
+    "w": 11,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5649,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 241,
+    "y": 5649,
+    "w": 11,
+    "h": 21
+   },
+   {
+    "x": 276,
+    "y": 5649,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5673,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 164,
+    "y": 5673,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 5673,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5697,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 271,
+    "y": 5697,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5731,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5755,
+    "w": 154,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5779,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5803,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5827,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5851,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5875,
+    "w": 123,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5933,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5957,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5981,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6005,
+    "w": 186,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6096,
+    "w": 291,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6146,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6170,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 115,
+    "y": 6248,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6601,
+    "w": 199,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6645,
+    "w": 204,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6703,
+    "w": 45,
+    "h": 21
+   },
+   {
+    "x": 85,
+    "y": 6703,
+    "w": 223,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6727,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 78,
+    "y": 6727,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6751,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 6799,
+    "w": 235,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 6823,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 94,
+    "y": 6847,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 7151,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 7240,
+    "w": 125,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 7534,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 7623,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 7917,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 8006,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 129,
+    "y": 8300,
+    "w": 101,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 8389,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 8683,
+    "w": 69,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 8772,
+    "w": 211,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 9066,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 9155,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 9179,
+    "w": 179,
+    "h": 21
+   },
+   {
+    "x": 28,
+    "y": 9280,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 28,
+    "y": 9304,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 9402,
+    "w": 294,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 9446,
+    "w": 181,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 9490,
+    "w": 127,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 9534,
+    "w": 224,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 9608,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9632,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9896,
+    "w": 107,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 9938,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9962,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9986,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10010,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10034,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10058,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10082,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10106,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10130,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10154,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10188,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10212,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 100,
+    "y": 10212,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 162,
+    "y": 10212,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10260,
+    "w": 54,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 10284,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10308,
+    "w": 107,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10591,
+    "w": 122,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10633,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10657,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10681,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10705,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10729,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10753,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10787,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10811,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 211,
+    "y": 10811,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10835,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 113,
+    "y": 10835,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 288,
+    "y": 10835,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 334,
+    "y": 10835,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10883,
+    "w": 54,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 10907,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10931,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11213,
+    "w": 267,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11255,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11279,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11303,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11327,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11351,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11375,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11399,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11423,
+    "w": 324,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11447,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11481,
+    "w": 321,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 11505,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 188,
+    "y": 11505,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 11613,
+    "w": 186,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 11657,
+    "w": 207,
+    "h": 37
+   },
+   {
+    "x": 48,
+    "y": 11755,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 159,
+    "y": 11755,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11795,
+    "w": 250,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 11825,
+    "w": 136,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 11871,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11895,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11919,
+    "w": 253,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11943,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11967,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11991,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12015,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12088,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 159,
+    "y": 12088,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12128,
+    "w": 257,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12158,
+    "w": 224,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12188,
+    "w": 212,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12218,
+    "w": 228,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12264,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12288,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12312,
+    "w": 202,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12336,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12360,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12384,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12408,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12432,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12456,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12529,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 159,
+    "y": 12529,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12569,
+    "w": 211,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12599,
+    "w": 248,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12629,
+    "w": 219,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12659,
+    "w": 229,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12705,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12729,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12753,
+    "w": 169,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12777,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12801,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12825,
+    "w": 186,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12849,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 77,
+    "y": 12944,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 13040,
+    "w": 268,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 13114,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13138,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13162,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13475,
+    "w": 286,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 13525,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13837,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 13887,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13991,
+    "w": 202,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 14041,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14145,
+    "w": 274,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 14171,
+    "w": 65,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 14221,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 14307,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14433,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14506,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14579,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14652,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14749,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14835,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14941,
+    "w": 326,
+    "h": 16
+   }
+  ],
+  "eds": [
+   {
+    "x": 34,
+    "y": 106,
+    "w": 63,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 281,
+    "w": 69,
+    "h": 24
+   },
+   {
+    "x": 32,
+    "y": 345,
+    "w": 144,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 442,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 510,
+    "w": 172,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 570,
+    "w": 116,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 634,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 698,
+    "w": 105,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 785,
+    "w": 345,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 885,
+    "w": 322,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 929,
+    "w": 303,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 973,
+    "w": 281,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 1031,
+    "w": 280,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1057,
+    "w": 204,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1083,
+    "w": 289,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1109,
+    "w": 315,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1135,
+    "w": 251,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1161,
+    "w": 326,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1187,
+    "w": 153,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 1229,
+    "w": 206,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1253,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1277,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1301,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1325,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1349,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1373,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1397,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1421,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1445,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1469,
+    "w": 292,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1493,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1517,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1541,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1565,
+    "w": 275,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1599,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1623,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1657,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1691,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1725,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1749,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1783,
+    "w": 293,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 1807,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2115,
+    "w": 228,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2141,
+    "w": 322,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2167,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 2209,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2233,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2257,
+    "w": 315,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2281,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2305,
+    "w": 318,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2329,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2353,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2377,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2401,
+    "w": 230,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2425,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2459,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2483,
+    "w": 249,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2507,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2531,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2555,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2579,
+    "w": 313,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2603,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2627,
+    "w": 307,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2651,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2675,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2768,
+    "w": 134,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 2812,
+    "w": 222,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 2878,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2902,
+    "w": 243,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2926,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2950,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2974,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 2998,
+    "w": 221,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3022,
+    "w": 139,
+    "h": 21
+   },
+   {
+    "x": 62,
+    "y": 3100,
+    "w": 214,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 3228,
+    "w": 156,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 3302,
+    "w": 266,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3583,
+    "w": 225,
+    "h": 32
+   },
+   {
+    "x": 16,
+    "y": 3617,
+    "w": 252,
+    "h": 32
+   },
+   {
+    "x": 16,
+    "y": 3651,
+    "w": 90,
+    "h": 32
+   },
+   {
+    "x": 16,
+    "y": 3701,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3725,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3749,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3773,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3797,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3821,
+    "w": 287,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3845,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3869,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3893,
+    "w": 304,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3927,
+    "w": 312,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3951,
+    "w": 90,
+    "h": 21
+   },
+   {
+    "x": 106,
+    "y": 3951,
+    "w": 157,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3975,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 3999,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4023,
+    "w": 251,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4047,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4071,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4095,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4119,
+    "w": 321,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4143,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4167,
+    "w": 321,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4191,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4215,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4239,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4263,
+    "w": 279,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4287,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4311,
+    "w": 267,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4335,
+    "w": 72,
+    "h": 21
+   },
+   {
+    "x": 74,
+    "y": 4383,
+    "w": 166,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 4519,
+    "w": 206,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 4603,
+    "w": 322,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 4877,
+    "w": 237,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4901,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4925,
+    "w": 309,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4949,
+    "w": 284,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4973,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 4997,
+    "w": 290,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5021,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5045,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5069,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5093,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5117,
+    "w": 231,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5151,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5175,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5199,
+    "w": 297,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5223,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5247,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5271,
+    "w": 240,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5295,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5319,
+    "w": 296,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5343,
+    "w": 325,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5367,
+    "w": 153,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5391,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5415,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5449,
+    "w": 310,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5473,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5497,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5521,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5545,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5569,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5593,
+    "w": 259,
+    "h": 21
+   },
+   {
+    "x": 299,
+    "y": 5593,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5617,
+    "w": 280,
+    "h": 21
+   },
+   {
+    "x": 296,
+    "y": 5617,
+    "w": 11,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5641,
+    "w": 225,
+    "h": 21
+   },
+   {
+    "x": 241,
+    "y": 5641,
+    "w": 11,
+    "h": 21
+   },
+   {
+    "x": 276,
+    "y": 5641,
+    "w": 50,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5665,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 164,
+    "y": 5665,
+    "w": 69,
+    "h": 21
+   },
+   {
+    "x": 258,
+    "y": 5665,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5689,
+    "w": 255,
+    "h": 21
+   },
+   {
+    "x": 271,
+    "y": 5689,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5723,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5747,
+    "w": 154,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5771,
+    "w": 274,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5795,
+    "w": 319,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5819,
+    "w": 286,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5843,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5867,
+    "w": 123,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5901,
+    "w": 245,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5925,
+    "w": 298,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5949,
+    "w": 317,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 5973,
+    "w": 186,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6064,
+    "w": 291,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 6114,
+    "w": 268,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6138,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 115,
+    "y": 6216,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6569,
+    "w": 199,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6613,
+    "w": 204,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 6671,
+    "w": 41,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 6695,
+    "w": 289,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 6719,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 6767,
+    "w": 235,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 6791,
+    "w": 236,
+    "h": 21
+   },
+   {
+    "x": 94,
+    "y": 6815,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 7119,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 7208,
+    "w": 125,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 7502,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 7591,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 7885,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 7974,
+    "w": 204,
+    "h": 21
+   },
+   {
+    "x": 129,
+    "y": 8268,
+    "w": 101,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 8357,
+    "w": 183,
+    "h": 21
+   },
+   {
+    "x": 145,
+    "y": 8651,
+    "w": 69,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 8740,
+    "w": 211,
+    "h": 21
+   },
+   {
+    "x": 157,
+    "y": 9034,
+    "w": 46,
+    "h": 54
+   },
+   {
+    "x": 32,
+    "y": 9123,
+    "w": 288,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 9147,
+    "w": 179,
+    "h": 21
+   },
+   {
+    "x": 28,
+    "y": 9248,
+    "w": 256,
+    "h": 21
+   },
+   {
+    "x": 28,
+    "y": 9272,
+    "w": 205,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 9370,
+    "w": 294,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 9414,
+    "w": 181,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 9458,
+    "w": 127,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 9502,
+    "w": 224,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 9576,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9600,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9864,
+    "w": 107,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 9906,
+    "w": 295,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9930,
+    "w": 276,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9954,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 9978,
+    "w": 323,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10002,
+    "w": 320,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10026,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10050,
+    "w": 322,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10074,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10098,
+    "w": 294,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10122,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10156,
+    "w": 301,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10180,
+    "w": 60,
+    "h": 21
+   },
+   {
+    "x": 76,
+    "y": 10180,
+    "w": 62,
+    "h": 21
+   },
+   {
+    "x": 138,
+    "y": 10180,
+    "w": 88,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10228,
+    "w": 54,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10252,
+    "w": 315,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10276,
+    "w": 56,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10558,
+    "w": 122,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 10600,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10624,
+    "w": 265,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10648,
+    "w": 302,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10672,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10696,
+    "w": 326,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10720,
+    "w": 209,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10754,
+    "w": 308,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10778,
+    "w": 171,
+    "h": 21
+   },
+   {
+    "x": 187,
+    "y": 10778,
+    "w": 91,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10802,
+    "w": 97,
+    "h": 21
+   },
+   {
+    "x": 113,
+    "y": 10802,
+    "w": 152,
+    "h": 21
+   },
+   {
+    "x": 264,
+    "y": 10802,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 310,
+    "y": 10802,
+    "w": 4,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10850,
+    "w": 54,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10874,
+    "w": 264,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 10898,
+    "w": 67,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11181,
+    "w": 267,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 11223,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11247,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11271,
+    "w": 291,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11295,
+    "w": 233,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11319,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11343,
+    "w": 327,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11367,
+    "w": 303,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11391,
+    "w": 324,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11415,
+    "w": 241,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11449,
+    "w": 278,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 11473,
+    "w": 39,
+    "h": 21
+   },
+   {
+    "x": 55,
+    "y": 11473,
+    "w": 148,
+    "h": 21
+   },
+   {
+    "x": 203,
+    "y": 11473,
+    "w": 92,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 11581,
+    "w": 186,
+    "h": 37
+   },
+   {
+    "x": 32,
+    "y": 11625,
+    "w": 207,
+    "h": 37
+   },
+   {
+    "x": 48,
+    "y": 11723,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 159,
+    "y": 11723,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11763,
+    "w": 250,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 11793,
+    "w": 136,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 11839,
+    "w": 219,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11863,
+    "w": 196,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11887,
+    "w": 253,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11911,
+    "w": 228,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11935,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11959,
+    "w": 203,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 11983,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12056,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 159,
+    "y": 12056,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12096,
+    "w": 257,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12126,
+    "w": 224,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12156,
+    "w": 212,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12186,
+    "w": 228,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12232,
+    "w": 263,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12256,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12280,
+    "w": 202,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12304,
+    "w": 246,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12328,
+    "w": 261,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12352,
+    "w": 247,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12376,
+    "w": 234,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12400,
+    "w": 229,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12424,
+    "w": 64,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12497,
+    "w": 81,
+    "h": 21
+   },
+   {
+    "x": 159,
+    "y": 12497,
+    "w": 70,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12537,
+    "w": 211,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12567,
+    "w": 248,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12597,
+    "w": 219,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12627,
+    "w": 229,
+    "h": 27
+   },
+   {
+    "x": 48,
+    "y": 12673,
+    "w": 222,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12697,
+    "w": 254,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12721,
+    "w": 169,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12745,
+    "w": 135,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12769,
+    "w": 130,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12793,
+    "w": 186,
+    "h": 21
+   },
+   {
+    "x": 48,
+    "y": 12817,
+    "w": 142,
+    "h": 21
+   },
+   {
+    "x": 30,
+    "y": 12912,
+    "w": 184,
+    "h": 21
+   },
+   {
+    "x": 32,
+    "y": 13008,
+    "w": 268,
+    "h": 37
+   },
+   {
+    "x": 16,
+    "y": 13082,
+    "w": 306,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13106,
+    "w": 300,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13130,
+    "w": 180,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13442,
+    "w": 286,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 13492,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13805,
+    "w": 101,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 13855,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 13959,
+    "w": 202,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 14009,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14113,
+    "w": 274,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 14139,
+    "w": 65,
+    "h": 24
+   },
+   {
+    "x": 16,
+    "y": 14189,
+    "w": 44,
+    "h": 21
+   },
+   {
+    "x": 127,
+    "y": 14275,
+    "w": 85,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14401,
+    "w": 126,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14477,
+    "w": 77,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14501,
+    "w": 258,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14535,
+    "w": 182,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 14569,
+    "w": 156,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14653,
+    "w": 272,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 14677,
+    "w": 120,
+    "h": 21
+   },
+   {
+    "x": 160,
+    "y": 14677,
+    "w": 8,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 14711,
+    "w": 117,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14745,
+    "w": 314,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14769,
+    "w": 270,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14853,
+    "w": 199,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 14877,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14911,
+    "w": 316,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 14935,
+    "w": 46,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 15019,
+    "w": 299,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 15043,
+    "w": 271,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 15077,
+    "w": 177,
+    "h": 21
+   },
+   {
+    "x": 40,
+    "y": 15101,
+    "w": 200,
+    "h": 21
+   },
+   {
+    "x": 240,
+    "y": 15101,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 15125,
+    "w": 119,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14474,
+    "w": 95,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14562,
+    "w": 57,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14602,
+    "w": 110,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14642,
+    "w": 73,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14682,
+    "w": 104,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14547,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14635,
+    "w": 75,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14675,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14715,
+    "w": 138,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14620,
+    "w": 53,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14708,
+    "w": 89,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14748,
+    "w": 76,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14788,
+    "w": 74,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14828,
+    "w": 269,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14717,
+    "w": 118,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14803,
+    "w": 141,
+    "h": 21
+   },
+   {
+    "x": 16,
+    "y": 14909,
+    "w": 326,
+    "h": 16
+   }
+  ]
+ }
+}

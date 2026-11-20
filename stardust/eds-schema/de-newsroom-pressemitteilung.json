@@ -1,0 +1,43 @@
+{
+ "source": "http://localhost:8791/de-newsroom-pressemitteilung-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "news-list__state",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Bitte entschuldigen Sie!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Leider ergab Ihre Suche keinen Treffer. Überprüfen Sie bitte Ihre Sucheingabe und versuchen Sie es erneut."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "news-list__state",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Wir bitten um Entschuldigung!"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Aufgrund technischer Probleme ist eine Suche derzeit nicht möglich. Bitte versuchen Sie es zu einem späteren Zeitpunkt erneut."
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  }
+ ]
+}

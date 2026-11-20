@@ -1,0 +1,356 @@
+{
+  "a": "stardust/replica/gates/de-360/live.png",
+  "b": "stardust/replica/gates/de-360/build.png",
+  "compared": {
+    "width": 360,
+    "height": 10993,
+    "mode": "overlap"
+  },
+  "heightDelta": -76,
+  "differingPixels": 1630093,
+  "pct": 41.19,
+  "threshold": 10,
+  "pass": false,
+  "diff": "stardust/replica/gates/de-360/diff-iter2.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": null,
+  "textBoxes": null,
+  "textPixels": null,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 10.9
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 7.4
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 6.4
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 6.5
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 40.3
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 78.8
+    },
+    {
+      "y0": 3000,
+      "y1": 3500,
+      "pct": 20.3
+    },
+    {
+      "y0": 3500,
+      "y1": 4000,
+      "pct": 66.6
+    },
+    {
+      "y0": 4000,
+      "y1": 4500,
+      "pct": 37
+    },
+    {
+      "y0": 4500,
+      "y1": 5000,
+      "pct": 38.7
+    },
+    {
+      "y0": 5000,
+      "y1": 5500,
+      "pct": 43.1
+    },
+    {
+      "y0": 5500,
+      "y1": 6000,
+      "pct": 19.6
+    },
+    {
+      "y0": 6000,
+      "y1": 6500,
+      "pct": 67.9
+    },
+    {
+      "y0": 6500,
+      "y1": 7000,
+      "pct": 56.4
+    },
+    {
+      "y0": 7000,
+      "y1": 7500,
+      "pct": 63.6
+    },
+    {
+      "y0": 7500,
+      "y1": 8000,
+      "pct": 68.6
+    },
+    {
+      "y0": 8000,
+      "y1": 8500,
+      "pct": 54.1
+    },
+    {
+      "y0": 8500,
+      "y1": 9000,
+      "pct": 65.3
+    },
+    {
+      "y0": 9000,
+      "y1": 9500,
+      "pct": 56
+    },
+    {
+      "y0": 9500,
+      "y1": 10000,
+      "pct": 74.9
+    },
+    {
+      "y0": 10000,
+      "y1": 10500,
+      "pct": 16.5
+    },
+    {
+      "y0": 10500,
+      "y1": 10993,
+      "pct": 7
+    }
+  ],
+  "verdict": "aligned",
+  "aligned": {
+    "used": true,
+    "pct": 4.66,
+    "differingPixels": 187922,
+    "compared": {
+      "width": 360,
+      "height": 11192,
+      "mode": "aligned"
+    },
+    "steps": [
+      {
+        "y": 434,
+        "shift": 5,
+        "cumulative": 5
+      },
+      {
+        "y": 1803,
+        "shift": 192,
+        "cumulative": 197
+      },
+      {
+        "y": 2529,
+        "shift": -1,
+        "cumulative": 196
+      },
+      {
+        "y": 2792,
+        "shift": 1,
+        "cumulative": 197
+      },
+      {
+        "y": 3772,
+        "shift": -1,
+        "cumulative": 196
+      },
+      {
+        "y": 6150,
+        "shift": -1,
+        "cumulative": 195
+      },
+      {
+        "y": 7223,
+        "shift": -1,
+        "cumulative": 194
+      },
+      {
+        "y": 7335,
+        "shift": -6,
+        "cumulative": 188
+      },
+      {
+        "y": 7583,
+        "shift": 1,
+        "cumulative": 189
+      },
+      {
+        "y": 8081,
+        "shift": -1,
+        "cumulative": 188
+      },
+      {
+        "y": 9421,
+        "shift": -32,
+        "cumulative": 156
+      },
+      {
+        "y": 9887,
+        "shift": -56,
+        "cumulative": 100
+      },
+      {
+        "y": 10105,
+        "shift": -24,
+        "cumulative": 76
+      }
+    ],
+    "maxOffset": 197,
+    "totalShift": 322,
+    "insertedRows": 199,
+    "deletedRows": 123,
+    "bands": [
+      {
+        "y0": 0,
+        "y1": 500,
+        "pct": 11.2,
+        "unaligned": 10.9
+      },
+      {
+        "y0": 500,
+        "y1": 1000,
+        "pct": 0.6,
+        "unaligned": 7.4
+      },
+      {
+        "y0": 1000,
+        "y1": 1500,
+        "pct": 1,
+        "unaligned": 6.4
+      },
+      {
+        "y0": 1500,
+        "y1": 2000,
+        "pct": 28.6,
+        "unaligned": 6.5
+      },
+      {
+        "y0": 2000,
+        "y1": 2500,
+        "pct": 1.2,
+        "unaligned": 40.3
+      },
+      {
+        "y0": 2500,
+        "y1": 3000,
+        "pct": 3.9,
+        "unaligned": 78.8
+      },
+      {
+        "y0": 3000,
+        "y1": 3500,
+        "pct": 0,
+        "unaligned": 20.3
+      },
+      {
+        "y0": 3500,
+        "y1": 4000,
+        "pct": 1.6,
+        "unaligned": 66.6
+      },
+      {
+        "y0": 4000,
+        "y1": 4500,
+        "pct": 1.5,
+        "unaligned": 37
+      },
+      {
+        "y0": 4500,
+        "y1": 5000,
+        "pct": 0.7,
+        "unaligned": 38.7
+      },
+      {
+        "y0": 5000,
+        "y1": 5500,
+        "pct": 0.8,
+        "unaligned": 43.1
+      },
+      {
+        "y0": 5500,
+        "y1": 6000,
+        "pct": 0,
+        "unaligned": 19.6
+      },
+      {
+        "y0": 6000,
+        "y1": 6500,
+        "pct": 5,
+        "unaligned": 67.9
+      },
+      {
+        "y0": 6500,
+        "y1": 7000,
+        "pct": 2.2,
+        "unaligned": 56.4
+      },
+      {
+        "y0": 7000,
+        "y1": 7500,
+        "pct": 2.7,
+        "unaligned": 63.6
+      },
+      {
+        "y0": 7500,
+        "y1": 8000,
+        "pct": 1.8,
+        "unaligned": 68.6
+      },
+      {
+        "y0": 8000,
+        "y1": 8500,
+        "pct": 1.9,
+        "unaligned": 54.1
+      },
+      {
+        "y0": 8500,
+        "y1": 9000,
+        "pct": 2,
+        "unaligned": 65.3
+      },
+      {
+        "y0": 9000,
+        "y1": 9500,
+        "pct": 7.1,
+        "unaligned": 56
+      },
+      {
+        "y0": 9500,
+        "y1": 10000,
+        "pct": 13.3,
+        "unaligned": 74.9
+      },
+      {
+        "y0": 10000,
+        "y1": 10500,
+        "pct": 4.8,
+        "unaligned": 16.5
+      },
+      {
+        "y0": 10500,
+        "y1": 10993,
+        "pct": 1.4,
+        "unaligned": 7
+      }
+    ],
+    "diff": "stardust/replica/gates/de-360/diff-iter2-aligned.png",
+    "reason": null
+  },
+  "offsets": {
+    "bound": 8,
+    "totalShift": 322,
+    "pass": false
+  },
+  "reason": "offsets: 13 step(s), 322px total — +5px at y=434, +192px at y=1803, −1px at y=2529, +1px at y=2792, −1px at y=3772, −1px at y=6150, … 7 more (bound 8px)"
+}

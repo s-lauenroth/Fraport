@@ -1,0 +1,4541 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-19T16:28:08.452Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://www.fraport.com/de.html",
+   "https://www.fraport.com/de/konzern.html",
+   "https://www.fraport.com/de/konzern/konzernstrategie.html",
+   "https://www.fraport.com/de/geschaeftsfelder/service.html",
+   "https://www.fraport.com/de/newsroom.html",
+   "https://www.fraport.com/de/investoren/publikationen-termine.html",
+   "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+   "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/de.html": {
+   "url": "https://www.fraport.com/de.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Fraport AG",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://fortaleza-airport.com.br/en"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "WIR SIND WELTWEIT AKTIV UND SETZEN STANDARDS"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Betrieb 75 Jahre Flughafenfeuerwehr Ausbau und Entwicklung F"
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "attrs": [],
+     "text": "Betrieb 75 Jahre Flughafenfeuerwehr Ausbau und Entwicklung F"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Betrieb 75 Jahre Flughafenfeuerwehr"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Ausbau und Entwicklung Flughafen Terminal 3: Ein neues Kapit"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Digitalisierung AI@Fraport"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Betrieb Willkommen am Frankfurt CargoHub"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Konzernstrategie Connecting the world with tomorrow"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Service Flughafenausweise"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Geschäftsfelder International Activities"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Investoren Verkehrszahlen"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Newsroom Aktuelles aus dem Konzern"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 11,
+     "sameSite": 9,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": true
+    },
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 12,
+     "sameSite": 12,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 9780,
+   "domAddedAfterLoad": 666,
+   "hosts": {
+    "www.fraport.com": 39,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "charts3.equitystory.com": 1,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "uct.service.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "smetrics.fraport.com": 2,
+    "cm.everesttech.net": 1
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "charts3.equitystory.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/_jcr_content.fra_model.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/chartjson/",
+     "query": [],
+     "status": 301,
+     "contentType": "text/html",
+     "example": "https://www.fraport.com/chartjson/"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET charts3.equitystory.com/api-json/fraport/English/",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 9742,
+   "mainEmptyAtLoad": false
+  },
+  "/de/konzern.html": {
+   "url": "https://www.fraport.com/de/konzern.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Konzern",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern.html#",
+     "marker": "frach-js-image__gallery-overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/our-group.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Über uns Vorstand und Management Konzernstrategie Connecting"
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "attrs": [],
+     "text": "Über uns Vorstand und Management Konzernstrategie Connecting"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Über uns Vorstand und Management"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Konzernstrategie Connecting the world with tomorrow"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Internationale Flughäfen und Beteiligungen Fraport weltweit"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Unternehmenskultur Vielfalt stärkt Fraport"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Managementsysteme Safety Management"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Regionales Engagement Bildung und Soziales"
+    },
+    {
+     "cls": "frach-m-slider__controls frach-js-slider__controls",
+     "attrs": [],
+     "text": "Previous Slide Next Slide"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "FRA History Die Fraport AG, Besitzer und Betreiber des größt"
+    },
+    {
+     "cls": "frach-m-image__link frach-js-image__gallery-overlay-opener",
+     "attrs": [],
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+    },
+    {
+     "cls": "frach-m-image__link frach-js-image__gallery-overlay-opener",
+     "attrs": [],
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 5,
+     "sameSite": 4,
+     "hasDate": true
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-m-link-list",
+     "cards": 4,
+     "sameSite": 4,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-m-image-gallery-tiles__container frach-grid-col-mq1-12",
+     "cards": 9,
+     "sameSite": 9,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 12,
+     "sameSite": 12,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 5068,
+   "domAddedAfterLoad": 10,
+   "hosts": {
+    "www.fraport.com": 40,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "uct.service.usercentrics.eu": 2,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "smetrics.fraport.com": 2
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "uct.service.usercentrics.eu",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/konzern/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/konzern/_jcr_content.fra_model.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 5068,
+   "mainEmptyAtLoad": false
+  },
+  "/de/konzern/konzernstrategie.html": {
+   "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Konzernstrategie",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+     "href": "https://www.fraport.com/de/konzern/konzernstrategie.html#",
+     "marker": "frach-js-image__overlay-opener",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/our-group/group-strategy.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Connecting the world with tomorrow als einer der weltweit fü"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Anspruch 2030 Die Luftfahrtindustrie ist aufgrund politische"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root section",
+     "attrs": [],
+     "text": "Die Luftfahrtindustrie ist aufgrund politischer, wirtschaftl"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root section",
+     "attrs": [],
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+    },
+    {
+     "cls": "frach-m-image__link frach-js-image__overlay-opener",
+     "attrs": [],
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root section",
+     "attrs": [],
+     "text": "Mit der Konzernstrategie Fraport.2030 verfolgen wir drei kla"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Wachstum und Nachhaltigkeit Im Jahr 2030 ...​ …sind wir fina"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Effizienz und Innovation Im Jahr 2030...​ …überzeugen wir un"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Top-Arbeitgeber Im Jahr 2030...​ …sind wir ein international"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Erfahren Sie mehr Unser Rechts- und regelkonformes Verhalten"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "NOCH MEHR FRAPORT Was als „Südwestdeutsche Luftverkehrs AG“ "
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 12,
+     "sameSite": 12,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 4669,
+   "domAddedAfterLoad": 10,
+   "hosts": {
+    "www.fraport.com": 28,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "uct.service.usercentrics.eu": 2,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "smetrics.fraport.com": 2,
+    "cm.everesttech.net": 1
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/konzern/konzernstrategie/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/konzern/konzernstrategie/_jcr_content.fra_model.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 4669,
+   "mainEmptyAtLoad": false
+  },
+  "/de/geschaeftsfelder/service.html": {
+   "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Service",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/business-areas/services.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Bleiben Sie informiert und lesen Sie die aktuellen Service- "
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Entdecken Sie die vielfältigen Veranstaltungs- und Eventloca"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Exklusive VIP-Services am Frankfurt Airport Erleben Sie exkl"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "NOCH MEHR FRAPORT Was als „Südwestdeutsche Luftverkehrs AG“ "
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "attrs": [],
+     "text": "Digitalisierung und Digital Factory Fraport setzt auf zukunf"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Digitalisierung und Digital Factory Fraport setzt auf zukunf"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Flughafen Ljubljana Erfahren Sie mehr über den Flughafen Jož"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Fraport Passenger Services GmbH Lesen <img src=\"/etc.clientl"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Fraport-Verkehrszahlen im Oktober 2026: Cargo wächst – Passa"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Aufsichtsrat Wer wacht über die Geschäfte der Fraport AG und"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "AI@Fraport Fraport setzt auf AI-Technologien, um Prozesseffi"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+     "attrs": [],
+     "text": "Selbstverpflichtungen Klares Engagement für eine bessere Zuk"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 7,
+     "sameSite": 5,
+     "hasDate": true
+    },
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": false
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 12,
+     "sameSite": 12,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 5312,
+   "domAddedAfterLoad": 10,
+   "hosts": {
+    "www.fraport.com": 39,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "uct.service.usercentrics.eu": 2,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "smetrics.fraport.com": 2,
+    "cm.everesttech.net": 1
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "uct.service.usercentrics.eu",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/geschaeftsfelder/service/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/geschaeftsfelder/service/_jcr_content.fra_model.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 5312,
+   "mainEmptyAtLoad": false
+  },
+  "/de/newsroom.html": {
+   "url": "https://www.fraport.com/de/newsroom.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Newsroom",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://my.walls.io/de-fraport-ag",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "audio",
+     "src": "https://www.fraport.com/uploadtool/CH/karriere/Audio/Podcast_Ausbildungsstart_LinkedIN_1_.mp3",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube-nocookie.com/embed/kH7xDtYOxwk?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube-nocookie.com/embed/HapG52fvFyw?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube-nocookie.com/embed/pA66zjmcrwI?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://www.youtube-nocookie.com/embed/TZnDvg3KRfM?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    },
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://my.walls.io/de-fraport-ag",
+     "title": null,
+     "w": 1440,
+     "h": 800
+    },
+    {
+     "src": "https://www.youtube-nocookie.com/embed/kH7xDtYOxwk?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "title": "youtube video",
+     "w": 672,
+     "h": 400
+    },
+    {
+     "src": "https://www.youtube-nocookie.com/embed/HapG52fvFyw?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "title": "youtube video",
+     "w": 437,
+     "h": 290
+    },
+    {
+     "src": "https://www.youtube-nocookie.com/embed/pA66zjmcrwI?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "title": "youtube video",
+     "w": 437,
+     "h": 290
+    },
+    {
+     "src": "https://www.youtube-nocookie.com/embed/TZnDvg3KRfM?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+     "title": "youtube video",
+     "w": 437,
+     "h": 290
+    },
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/newsroom.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-m-slider__controls frach-js-slider__controls",
+     "attrs": [],
+     "text": "Previous Slide Next Slide"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "AKTUELLES 12.11.2026 Cargo , Betrieb , 2026 , Verkehrszahlen"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "Frankfurt Airport Retail Retail News – für einen abwechslung"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Pressemappen Thematische Zusammenstellungen von Pressetexten"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "AKTIENKURS FRAPORT AG"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "GEMEINSAM DURCHSTARTEN"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "Welt der Möglichkeiten Jetzt die vielfältigen Jobangebote be"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "MEDIEN & PUBLIKATIONEN"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root",
+     "attrs": [],
+     "text": "Previous Slide Next Slide Bilddatenbank / Wallpapers@FRA In "
+    },
+    {
+     "cls": "frach-m-slider__controls frach-js-slider__controls",
+     "attrs": [],
+     "text": "Previous Slide Next Slide"
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "attrs": [],
+     "text": "Bilddatenbank / Wallpapers@FRA In unserer Bilddatenbank stel"
+    },
+    {
+     "cls": "frach-m-slider__slide frach-js-slider__slide",
+     "attrs": [],
+     "text": "Bilddatenbank / Wallpapers@FRA In unserer Bilddatenbank stel"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "frach-grid-row",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "frach-m-slider__slides frach-js-slider__slides",
+     "cards": 12,
+     "sameSite": 12,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 10220,
+   "domAddedAfterLoad": 277,
+   "hosts": {
+    "www.fraport.com": 33,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "privacy-proxy-server.usercentrics.eu": 4,
+    "api.usercentrics.eu": 3,
+    "uct.service.usercentrics.eu": 2,
+    "charts3.equitystory.com": 1,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "www.youtube-nocookie.com": 34,
+    "my.walls.io": 1,
+    "fonts.gstatic.com": 4,
+    "cdn.walls.io": 8,
+    "fonts-cdn.walls.io": 4,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "mtm.walls.io": 2,
+    "fraport.demdex.net": 1,
+    "smetrics.fraport.com": 2,
+    "cm.everesttech.net": 1,
+    "www.google.com": 4,
+    "app.walls.io": 2,
+    "i.ytimg.com": 4,
+    "img-li-cdn.walls.io": 6,
+    "img-ig-cdn.walls.io": 16,
+    "img-fb-cdn.walls.io": 12,
+    "d3pelj80y5v5k4.cloudfront.net": 1,
+    "emoji.walls.io": 32,
+    "jnn-pa.googleapis.com": 4,
+    "scontent-fra3-1.xx.fbcdn.net": 1
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "privacy-proxy-server.usercentrics.eu",
+    "api.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "charts3.equitystory.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "www.youtube-nocookie.com",
+    "my.walls.io",
+    "fonts.gstatic.com",
+    "cdn.walls.io",
+    "fonts-cdn.walls.io",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "mtm.walls.io",
+    "fraport.demdex.net",
+    "cm.everesttech.net",
+    "www.google.com",
+    "app.walls.io",
+    "i.ytimg.com",
+    "img-li-cdn.walls.io",
+    "img-ig-cdn.walls.io",
+    "img-fb-cdn.walls.io",
+    "d3pelj80y5v5k4.cloudfront.net",
+    "emoji.walls.io",
+    "jnn-pa.googleapis.com",
+    "scontent-fra3-1.xx.fbcdn.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://cdn.walls.io/assets/js/modernizr-webp.e2d6819b2f.js",
+    "https://cdn.walls.io/assets/js/wallsio-components.a9d547c2cd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.VGGt0o0eKOw.2021.O/am=AAAAAAgAYAw/d=1/excm=base,root/br=1/rs=AGKMywGCEq8AgdeOc2kH0FgsAoh0XvfmFA/m=root,base",
+    "https://cdn.walls.io/assets/js/i18n.28697d2e7c.js",
+    "https://cdn.walls.io/assets/messages/messages-frontend-de_DE.85c0487c11.js",
+    "https://cdn.walls.io/assets/js/socketio.be3c6c9851.js",
+    "https://cdn.walls.io/assets/js/wall-fluid-libs.2e39f7a7f2.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://cdn.walls.io/assets/js/wall-fluid.b55d4741c6.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js",
+    "https://www.youtube-nocookie.com/s/player/983e9c18/player_embed_es6.vflset/de_DE/base.js",
+    "https://mtm.walls.io/mtm.js",
+    "https://www.youtube-nocookie.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.VGGt0o0eKOw.2021.O/ck=ytembeds.base.69uyp-bM2YE.L.W.O/am=AAAAAAgAYAw/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywGZt9TU",
+    "https://www.google.com/js/th/OBn0-lcK2heSsQvwZqBdYDSSLon5TOClfDI9QSdpnEY.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/chartjson/",
+     "query": [],
+     "status": 301,
+     "contentType": "text/html",
+     "example": "https://www.fraport.com/chartjson/"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/newsroom/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/newsroom/_jcr_content.fra_model.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "GET charts3.equitystory.com/api-json/fraport/English/",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id",
+    "GET app.walls.io/walls/155427/reactions.json",
+    "POST jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+    "POST www.youtube-nocookie.com/youtubei/v1/log_event",
+    "GET www.youtube-nocookie.com/embed/establish_zw"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    },
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$gxw5HHhRAAaHOzD5pzvehsfPp6u_mIenAEABjq4o3-JfJp6kGt4lFoBoEmfQWeI9u1PyxZ0f6tIPl5EWqkGBGFsJL986o8FO5dIAmGQiap2yMim5RpPxJdsLngAAAwvOAAAACfQBB-IAWOqFCrwu90So43HgwD7MLPVEdxFa9aMvoFapRErs_rZQ1AMDBoebO65hSJw64gGq_FrEVeGwFiyBo7vBYUiSkFoI2rVusNSB6-Pm4aXnwpJBgipH5N6yRtEFBld508orMJ0NuT605xzNHGj6nf5i2Cdcc08yUm8Ep0RdIapH87-CE9uf8TvwFDryg0yh7dNDs8C8ukV3YQD0gUqRCw-nVc6A5v4e8reR1LikayL4bn"
+    },
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$vyA5IERRAAaHOzD5pzverYp5HOdga2unAEABjq4o39JTKmJoqTfExA_5mynIoOTUAGear6_ysZOFFTnzY3xdRvY_De1PcNsJ9xRAxGXgrdunaLG-H3zts0nFngAAA0DOAAAABvQBB-IAWeMGH50SnTG5jOYioprkq7BZRtFMfj8rPAow5LqmJZMxkgx9rQ31nxc-oWNtL9mVd55-yPvbgkCa7jPv1f1HzvNkocsZPGi-qblBzPBmh2VUfJaZ4lt2x7UhBQZvyVwrEQlBKzTbLWIW7UxjDwqXFMlmTMhEbjx9EfxjIkt7ZXz43Z6r7yE2rqremkuY3pvJ4UYixetNn1bfehrhn0VGAllqeIhhdIE1A_594k-8xl"
+    },
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$oD85P1tRAAaHOzD5pzve2ZARD2Kr78KnAEABjq4o3wu7c80RL1HTsG8wsetakAUuIZXszwzHknnLBrC3x-ueHikRxBtf84uJw64rQEBfX_D0wBijF-Dg6lrvngAAAmjOAAAACPQBB-IAWd5EBYuR39uzrJOzjGCbe0Jg9olX3KLEDG-yPHjWb7hY2uxwiKXDjrEPpvzLiAFVWpo00rdX_QDPaX1t1QqWA9j4GwN54rp_tnCPIClwMUP1q8QBwbTM3KEyBQZf3Ti8T0YhYzQ2mToDiISaTo725mPu8_TLBSPLFi6nOSQM7WGBzviUoisOS4Bv3YXWDoRlmJp_QZyy533qL3YmW15CimkzTYhvuZs_uLtTk70PYQ"
+    },
+    {
+     "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+     "body": "[\"O43z0dpjhgX20SCx4KAo\",\"$StU51bFRAAaHOzD5pzveSMezjcGhorSnAEABjq4o35AK0gLtGDEXffO9Z22i9BaOMPk7-Odo6cDGa3knDGx1FXFFo9Y49Ul2TEGGTPqi4DpErLh3o3jaiprNngAAA5jOAAAAB_QBB-IAWQJikQAdPw_ktYT8fS3mK1POojogHuHCrGPHtIe0gEEeOjWL0vuy63Q2ZgnQwueuD8oc-LcHnSyKkTTS_u6m9xiA7cVRcz-LaSZgO3tioRjdvBOCs26d3lW_BQZeQzFQ87VKWDVjeD53-SArqKtFGxk90p7XHBOWn0uEe9a-8if3fbcKwezjk9FKd-_N15IScMtxtuAdepZu5fncrrKKj9NLvlG7KeK79sn06REjJR"
+    },
+    {
+     "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"de\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261118.01.00\",\"configInfo\":{\"appInstallData\":\"CMzH_NcGEMn2gBMQyvuAExCYktMcEMGP0BwQ7fvSHBDeitMcELak0RwQvbauBRCc5dIcENyt0hwQjeTRHBCsltMcEOmM0xwQuOTOHBDa984cEIeszhwQ04rTHBCfz4ATEMzfrgUQ8Z7THBDevM4cEK_w0hwQ8N7RHBCBzc4cEJmNsQUQ9quwBRDPqdMcEK-GzxwQ_NrSHBC8t9McEK7e0RwQ85XTHBD0ldMcEKa_0xwQpKnRHBDL-9IcEK7WzxwQ6fLSHBDxtNAcENOk0hw"
+    },
+    {
+     "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"de\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261118.01.00\",\"configInfo\":{\"appInstallData\":\"CMzH_NcGEMn2gBMQyvuAExCYktMcEMGP0BwQ7fvSHBDeitMcEL22rgUQnNnRHBCc5dIcENyt0hwQjuTRHBCsltMcEOqM0xwQuOTOHBDa984cEIeszhwQ04rTHBC54IATEJ_PgBMQzN-uBRDwntMcEN68zhwQr_DSHBDw3tEcEIHNzhwQmY2xBRD2q7AFEM-p0xwQ_NrSHBC8t9McEK7e0RwQ9JXTHBCmv9McEKSp0RwQy_vSHBCu1s8cEOny0hwQ8bTQHBDTpNIcEL2KsAU"
+    },
+    {
+     "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"de\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261118.01.00\",\"configInfo\":{\"appInstallData\":\"CMzH_NcGEMn2gBMQyvuAExCYktMcEMGP0BwQ7fvSHBDeitMcEL22rgUQnNnRHBCc5dIcENyt0hwQjeTRHBCsltMcEOqM0xwQuOTOHBDa984cEIeszhwQ04rTHBCfz4ATEMzfrgUQ8Z7THBDevM4cEK_w0hwQ8N7RHBCBzc4cEJmNsQUQ9quwBRDPqdMcEPza0hwQvLfTHBCu3tEcEPSV0xwQp7_THBCkqdEcEMv70hwQrtbPHBDp8tIcEPG00BwQ06TSHBC9irAFEJ7QsAU"
+    },
+    {
+     "url": "https://www.youtube-nocookie.com/youtubei/v1/log_event?alt=json",
+     "body": "{\"context\":{\"client\":{\"hl\":\"de\",\"gl\":\"US\",\"clientName\":56,\"clientVersion\":\"2.20261118.01.00\",\"configInfo\":{\"appInstallData\":\"CMzH_NcGEMn2gBMQyvuAExCYktMcEMGP0BwQ7fvSHBDeitMcEL22rgUQm9nRHBCc5dIcENyt0hwQjuTRHBCrltMcEOmM0xwQuOTOHBDa984cEIeszhwQ04rTHBCfz4ATEMzfrgUQ8Z7THBDevM4cEK_w0hwQ8N7RHBCBzc4cEJmNsQUQ9quwBRDPqdMcEPza0hwQvLfTHBCu3tEcEPWV0xwQpr_THBCkqdEcEMv70hwQrtbPHBDp8tIcEPG00BwQkYHTHBDSpNIcEL2KsAU"
+    }
+   ],
+   "textAtLoad": 11737,
+   "mainEmptyAtLoad": false
+  },
+  "/de/investoren/publikationen-termine.html": {
+   "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Publikationen & Termine",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/investors/publications-events.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "PUBLIKATIONEN & TERMINE"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Newsletter Sie haben auch die Möglichkeit, sich für unseren "
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Geschäftsberichte Geschäftsbericht 2025 PDF, 14 MB Geschäfts"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root section",
+     "attrs": [],
+     "text": "Beachten Sie bitte: Die vorliegenden Inhalte sind vor dem In"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root section",
+     "attrs": [],
+     "text": "26.10.2026, 15:18 Uhr (MEZ) <img src=\"/etc.clientlibs/frapor"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "ul",
+     "cards": 26,
+     "sameSite": 26,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 25,
+     "sameSite": 25,
+     "hasDate": true
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 6,
+     "sameSite": 6,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "ul",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 5,
+     "sameSite": 5,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 618,
+   "domAddedAfterLoad": 9,
+   "hosts": {
+    "www.fraport.com": 28,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "uct.service.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "smetrics.fraport.com": 2
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/investoren/publikationen-termine/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/investoren/publikationen-termine/_jcr_content.fra_model.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 618,
+   "mainEmptyAtLoad": false
+  },
+  "/de/newsroom/pressemitteilung.html": {
+   "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Pressemitteilungen",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/newsroom/pressreleases.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-e-button frach-e-button--icon-only frach-e-button--tertiary",
+     "attrs": [],
+     "text": "frach.component.search.reset <img src=\"/etc.clientlibs/frapo"
+    },
+    {
+     "cls": "frach-m-slider__controls frach-js-slider__controls",
+     "attrs": [],
+     "text": "Previous Slide Next Slide"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Archiv Pressemitteilungen und Services News der Fraport AG d"
+    }
+   ],
+   "listingCandidates": [
+    {
+     "cls": "aem-Grid aem-Grid--12",
+     "cards": 3,
+     "sameSite": 3,
+     "hasDate": true
+    },
+    {
+     "cls": "frach-m-search-results__results-container",
+     "cards": 21,
+     "sameSite": 21,
+     "hasDate": true
+    }
+   ],
+   "inlineScripts": 6,
+   "inlineFetch": false,
+   "mainText": 9892,
+   "domAddedAfterLoad": 10,
+   "hosts": {
+    "www.fraport.com": 46,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "uct.service.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "cm.everesttech.net": 1,
+    "smetrics.fraport.com": 2
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "consent-api.service.consent.usercentrics.eu",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/newsroom/pressemitteilung/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/newsroom/pressemitteilung/_jcr_content.fra_model.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 9921,
+   "mainEmptyAtLoad": false
+  },
+  "/de/newsroom/ansprechpartner.html": {
+   "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+   "status": 200,
+   "host": "www.fraport.com",
+   "title": "Ansprechpartner Presse",
+   "forms": [
+    {
+     "name": "frach-m-search__form",
+     "action": "https://www.fraport.com/de/search.html",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:q"
+     ],
+     "hidden": [
+      "_charset_"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Meldung",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 7,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 144,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "International <img src=\"/etc.clientlibs/fraport-company/clie",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 289,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Deutsch <img src=\"/etc.clientlibs/fraport-company/clientlibs",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 259,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "Menü Schließen <img src=\"/etc.clientlibs/fraport-company/cli",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": null
+    },
+    {
+     "text": "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": true,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 133,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    },
+    {
+     "text": "",
+     "href": null,
+     "marker": "aria-haspopup",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": null
+    }
+   ],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [
+    {
+     "tag": "iframe",
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": "https://fraport.demdex.net/dest5.html?d_nsid=undefined#https%3A%2F%2Fwww.fraport.com",
+     "title": "Adobe ID Syncing iFrame",
+     "w": 0,
+     "h": 0
+    }
+   ],
+   "mounts": [],
+   "auth": [],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "de",
+    "hreflang": [],
+    "switcher": [
+     "https://fortaleza-airport.com.br/en",
+     "https://portoalegre-airport.com.br/en",
+     "https://www.tradeport-logistics.com/en/home/index.php",
+     "https://www.lima-airport.com/en/",
+     "https://www.fraport.com/en/newsroom/press-contacts.html"
+    ]
+   },
+   "cms": {
+    "adobeDataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "7",
+     "8",
+     "9",
+     "10",
+     "11",
+     "12",
+     "13",
+     "14",
+     "15",
+     "16",
+     "17",
+     "18",
+     "19",
+     "20",
+     "21",
+     "22",
+     "23",
+     "24",
+     "25",
+     "26",
+     "27",
+     "28",
+     "29"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "adobe",
+    "_satellite",
+    "hbspt"
+   ],
+   "clientRendered": [
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Ansprechpartner für Passagiere Die nachfolgenden Kontakte st"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "ANSPRECHPARTNER FÜR PRESSEVERTRETER"
+    },
+    {
+     "cls": "frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+     "attrs": [],
+     "text": "Presseservice Stefanie Wagener Anfragen für Film- und Fotoau"
+    },
+    {
+     "cls": "frach-h-component-margin frach-m-text frach-js-refresh-root",
+     "attrs": [],
+     "text": "Pressevertreter können uns auch an Wochenenden und Feiertage"
+    }
+   ],
+   "listingCandidates": [],
+   "inlineScripts": 5,
+   "inlineFetch": false,
+   "mainText": 1876,
+   "domAddedAfterLoad": 10,
+   "hosts": {
+    "www.fraport.com": 37,
+    "app.usercentrics.eu": 15,
+    "privacy-proxy.usercentrics.eu": 2,
+    "api.usercentrics.eu": 3,
+    "consent-api.service.consent.usercentrics.eu": 2,
+    "www.frankfurt-airport.com": 1,
+    "uct.service.usercentrics.eu": 2,
+    "assets.adobedtm.com": 4,
+    "dpm.demdex.net": 3,
+    "fraport.demdex.net": 1,
+    "smetrics.fraport.com": 2,
+    "cm.everesttech.net": 1
+   },
+   "thirdPartyHosts": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "www.frankfurt-airport.com",
+    "uct.service.usercentrics.eu",
+    "assets.adobedtm.com",
+    "dpm.demdex.net",
+    "fraport.demdex.net",
+    "cm.everesttech.net"
+   ],
+   "scripts": [
+    "https://app.usercentrics.eu/browser-ui/latest/loader.js",
+    "https://privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js",
+    "https://www.fraport.com/etc.clientlibs/core/wcm/components/commons/datalayer/v1/clientlibs/core.wcm.components.commons.datalayer.v1.min.js",
+    "https://www.fraport.com/etc.clientlibs/divae/acdl_helper.min.js",
+    "https://www.fraport.com/etc.clientlibs/fraport-company/clientlibs/frach-app.lc-4.5.0-9f0a6b18-lc.min.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index.module.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultData-643c073d-f7795a68.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultUI-1bf5eb51-54daad70.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/ButtonsCustomization-6692ec83-309ee105.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SecondLayerUI-49576cac-e1dd192a.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/FirstLayerCustomization-ad7206bb-72f2e466.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButton-b0cadf5b.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-52a76f45.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/index-064e9255.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/SaveButton-21031a46.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/DefaultTabs-d1492449.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/VirtualServiceItem-b058ca96.js",
+    "https://app.usercentrics.eu/browser-ui/3.114.0/PrivacyButtonUI-02e2e6e6-c7027afd.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/launch-c2a452ce0431.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement.min.js",
+    "https://assets.adobedtm.com/extensions/EP31dbb9c60e404ba1aa6e746d49be6f29/AppMeasurement_Module_ActivityMap.min.js",
+    "https://assets.adobedtm.com/34277b32a8dd/29f6dec8c3a5/fed921dac546/RC84566852f7a44ad4be942ed0039fe4f4-source.min.js"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/darksite-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/darksite-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/passenger-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/passenger-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/traffic-alerts/de.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/traffic-alerts/de.json"
+    },
+    {
+     "method": "GET",
+     "host": "www.fraport.com",
+     "path": "/de/newsroom/ansprechpartner/_jcr_content.fra_model.json",
+     "query": [],
+     "status": 200,
+     "contentType": "application/json",
+     "example": "https://www.fraport.com/de/newsroom/ansprechpartner/_jcr_content.fra_model.json"
+    }
+   ],
+   "thirdPartyXhr": [
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json",
+    "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json",
+    "GET api.usercentrics.eu/translations/translations-de.json",
+    "GET privacy-proxy.usercentrics.eu/latest/de.json",
+    "POST consent-api.service.consent.usercentrics.eu/consent/uw/3",
+    "GET dpm.demdex.net/optOutStatus",
+    "GET dpm.demdex.net/id"
+   ],
+   "postBodies": [
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onInitialPageLoad\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":false,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":false,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":false,\"consentTemplateId\":\""
+    },
+    {
+     "url": "https://consent-api.service.consent.usercentrics.eu/consent/uw/3",
+     "body": "{\"action\":\"onAcceptAllServices\",\"analytics\":true,\"appVersion\":\"4.67.0\",\"consents\":[{\"consentStatus\":true,\"consentTemplateId\":\"BJf5EjOi-X\",\"consentTemplateVersion\":\"12.5.9\"},{\"consentStatus\":true,\"consentTemplateId\":\"H1Vl5NidjWX\",\"consentTemplateVersion\":\"40.18.47\"},{\"consentStatus\":true,\"consentTemplateId\":\"SyUQ54odobQ\",\"consentTemplateVersion\":\"6.4.6\"},{\"consentStatus\":true,\"consentTemplateId\":\"B"
+    }
+   ],
+   "textAtLoad": 1876,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-adobedatalayer",
+   "class": "A",
+   "feature": "CMS / app settings object adobeDataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-charts3-equitystory-com",
+   "class": "A",
+   "feature": "unknown third-party host charts3.equitystory.com",
+   "hint": "inspect",
+   "evidence": [
+    "charts3.equitystory.com"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-app-walls-io",
+   "class": "A",
+   "feature": "unknown third-party host app.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "app.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-jnn-pa-googleapis-com",
+   "class": "A",
+   "feature": "unknown third-party host jnn-pa.googleapis.com",
+   "hint": "inspect",
+   "evidence": [
+    "jnn-pa.googleapis.com"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-js-re",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-js-refresh-root aem-GridColumn",
+   "hint": "client-rendered",
+   "evidence": [
+    "WIR SIND WELTWEIT AKTIV UND SETZEN STANDARDS",
+    "Betrieb 75 Jahre Flughafenfeuerwehr Ausbau und Entwicklung F",
+    "Über uns Vorstand und Management Konzernstrategie Connecting",
+    "Connecting the world with tomorrow als einer der weltweit fü",
+    "Anspruch 2030 Die Luftfahrtindustrie ist aufgrund politische",
+    "Erfahren Sie mehr Unser Rechts- und regelkonformes Verhalten",
+    "NOCH MEHR FRAPORT Was als „Südwestdeutsche Luftverkehrs AG“ ",
+    "Bleiben Sie informiert und lesen Sie die aktuellen Service- ",
+    "Exklusive VIP-Services am Frankfurt Airport Erleben Sie exkl",
+    "PUBLIKATIONEN & TERMINE",
+    "Geschäftsberichte Geschäftsbericht 2025 PDF, 14 MB Geschäfts",
+    "Archiv Pressemitteilungen und Services News der Fraport AG d"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-m-tex",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-m-text frach-js-refresh-root",
+   "hint": "client-rendered",
+   "evidence": [
+    "FRA History Die Fraport AG, Besitzer und Betreiber des größt",
+    "Wachstum und Nachhaltigkeit Im Jahr 2030 ...​ …sind wir fina",
+    "Effizienz und Innovation Im Jahr 2030...​ …überzeugen wir un",
+    "Top-Arbeitgeber Im Jahr 2030...​ …sind wir ein international",
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+    "Entdecken Sie die vielfältigen Veranstaltungs- und Eventloca",
+    "Pressemappen Thematische Zusammenstellungen von Pressetexten",
+    "Newsletter Sie haben auch die Möglichkeit, sich für unseren ",
+    "Pressevertreter können uns auch an Wochenenden und Feiertage"
+   ],
+   "pages": [
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-slides-frach-js-slide",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__slides frach-js-slider__slides",
+   "hint": "client-rendered",
+   "evidence": [
+    "Betrieb 75 Jahre Flughafenfeuerwehr Ausbau und Entwicklung F",
+    "Über uns Vorstand und Management Konzernstrategie Connecting",
+    "Digitalisierung und Digital Factory Fraport setzt auf zukunf",
+    "Bilddatenbank / Wallpapers@FRA In unserer Bilddatenbank stel"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-slide-frach-js-slider",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__slide frach-js-slider__slide",
+   "hint": "client-rendered",
+   "evidence": [
+    "Betrieb 75 Jahre Flughafenfeuerwehr",
+    "Ausbau und Entwicklung Flughafen Terminal 3: Ein neues Kapit",
+    "Digitalisierung AI@Fraport",
+    "Über uns Vorstand und Management",
+    "Konzernstrategie Connecting the world with tomorrow",
+    "Internationale Flughäfen und Beteiligungen Fraport weltweit",
+    "Digitalisierung und Digital Factory Fraport setzt auf zukunf",
+    "Flughafen Ljubljana Erfahren Sie mehr über den Flughafen Jož",
+    "Fraport Passenger Services GmbH Lesen <img src=\"/etc.clientl",
+    "Bilddatenbank / Wallpapers@FRA In unserer Bilddatenbank stel"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-slide-frach-js-slider",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__slide frach-js-slider__slide frach-state-invisible",
+   "hint": "client-rendered",
+   "evidence": [
+    "Betrieb Willkommen am Frankfurt CargoHub",
+    "Konzernstrategie Connecting the world with tomorrow",
+    "Service Flughafenausweise",
+    "Geschäftsfelder International Activities",
+    "Investoren Verkehrszahlen",
+    "Newsroom Aktuelles aus dem Konzern",
+    "Unternehmenskultur Vielfalt stärkt Fraport",
+    "Managementsysteme Safety Management",
+    "Regionales Engagement Bildung und Soziales",
+    "Fraport-Verkehrszahlen im Oktober 2026: Cargo wächst – Passa",
+    "Aufsichtsrat Wer wacht über die Geschäfte der Fraport AG und",
+    "AI@Fraport Fraport setzt auf AI-Technologien, um Prozesseffi"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/geschaeftsfelder/service.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-slider-controls-frach-js-sli",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-slider__controls frach-js-slider__controls",
+   "hint": "client-rendered",
+   "evidence": [
+    "Previous Slide Next Slide"
+   ],
+   "pages": [
+    "/de/konzern.html",
+    "/de/newsroom.html",
+    "/de/newsroom/pressemitteilung.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-js-re",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-js-refresh-root section",
+   "hint": "client-rendered",
+   "evidence": [
+    "Die Luftfahrtindustrie ist aufgrund politischer, wirtschaftl",
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a",
+    "Mit der Konzernstrategie Fraport.2030 verfolgen wir drei kla",
+    "Beachten Sie bitte: Die vorliegenden Inhalte sind vor dem In",
+    "26.10.2026, 15:18 Uhr (MEZ) <img src=\"/etc.clientlibs/frapor"
+   ],
+   "pages": [
+    "/de/konzern/konzernstrategie.html",
+    "/de/investoren/publikationen-termine.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-image-link-frach-js-image-ga",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-image__link frach-js-image__gallery-overlay-opener",
+   "hint": "client-rendered",
+   "evidence": [
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+   ],
+   "pages": [
+    "/de/konzern.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-m-image-link-frach-js-image-ov",
+   "class": "CR",
+   "feature": "client-rendered slot frach-m-image__link frach-js-image__overlay-opener",
+   "hint": "client-rendered",
+   "evidence": [
+    "<img src=\"/etc.clientlibs/fraport-company/clientlibs/frach-a"
+   ],
+   "pages": [
+    "/de/konzern/konzernstrategie.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-h-component-margin-frach-js-re",
+   "class": "CR",
+   "feature": "client-rendered slot frach-h-component-margin frach-js-refresh-root",
+   "hint": "client-rendered",
+   "evidence": [
+    "AKTUELLES 12.11.2026 Cargo , Betrieb , 2026 , Verkehrszahlen",
+    "Frankfurt Airport Retail Retail News – für einen abwechslung",
+    "AKTIENKURS FRAPORT AG",
+    "GEMEINSAM DURCHSTARTEN",
+    "Welt der Möglichkeiten Jetzt die vielfältigen Jobangebote be",
+    "MEDIEN & PUBLIKATIONEN",
+    "Previous Slide Next Slide Bilddatenbank / Wallpapers@FRA In "
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "cr-client-rendered-slot-frach-e-button-frach-e-button-icon-o",
+   "class": "CR",
+   "feature": "client-rendered slot frach-e-button frach-e-button--icon-only frach-e-button--tertiary",
+   "hint": "client-rendered",
+   "evidence": [
+    "frach.component.search.reset <img src=\"/etc.clientlibs/frapo"
+   ],
+   "pages": [
+    "/de/newsroom/pressemitteilung.html"
+   ]
+  },
+  {
+   "id": "d-first-party-data-file-get-darksite-alerts-de-json",
+   "class": "D",
+   "feature": "first-party data file GET /darksite-alerts/de.json",
+   "api": {
+    "method": "GET",
+    "path": "/darksite-alerts/de.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /darksite-alerts/de.json → 200"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ],
+   "reach": {
+    "pages": 25,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-traffic-alerts-de-json",
+   "class": "D",
+   "feature": "first-party data file GET /traffic-alerts/de.json",
+   "api": {
+    "method": "GET",
+    "path": "/traffic-alerts/de.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /traffic-alerts/de.json → 200"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ],
+   "reach": {
+    "pages": 25,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-passenger-alerts-de-json",
+   "class": "D",
+   "feature": "first-party data file GET /passenger-alerts/de.json",
+   "api": {
+    "method": "GET",
+    "path": "/passenger-alerts/de.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /passenger-alerts/de.json → 200"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ],
+   "reach": {
+    "pages": 25,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-jcr-content-fra-model-json",
+   "class": "D",
+   "feature": "first-party data file GET /de/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de.html"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-konzern-jcr-content-fra-model",
+   "class": "D",
+   "feature": "first-party data file GET /de/konzern/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/konzern/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/konzern/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/konzern.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-konzern-konzernstrategie-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /de/konzern/konzernstrategie/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/konzern/konzernstrategie/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/konzern/konzernstrategie/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/konzern/konzernstrategie.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-geschaeftsfelder-service-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /de/geschaeftsfelder/service/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/geschaeftsfelder/service/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/geschaeftsfelder/service/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/geschaeftsfelder/service.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-newsroom-jcr-content-fra-mode",
+   "class": "D",
+   "feature": "first-party data file GET /de/newsroom/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/newsroom/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/newsroom/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-investoren-publikationen-term",
+   "class": "D",
+   "feature": "first-party data file GET /de/investoren/publikationen-termine/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/investoren/publikationen-termine/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/investoren/publikationen-termine/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/investoren/publikationen-termine.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-newsroom-pressemitteilung-jcr",
+   "class": "D",
+   "feature": "first-party data file GET /de/newsroom/pressemitteilung/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/newsroom/pressemitteilung/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/newsroom/pressemitteilung/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/newsroom/pressemitteilung.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "d-first-party-data-file-get-de-newsroom-ansprechpartner-jcr-",
+   "class": "D",
+   "feature": "first-party data file GET /de/newsroom/ansprechpartner/_jcr_content.fra_model.json",
+   "api": {
+    "method": "GET",
+    "path": "/de/newsroom/ansprechpartner/_jcr_content.fra_model.json"
+   },
+   "hint": "data",
+   "evidence": [
+    "GET /de/newsroom/ansprechpartner/_jcr_content.fra_model.json → 200"
+   ],
+   "pages": [
+    "/de/newsroom/ansprechpartner.html"
+   ],
+   "reach": {
+    "pages": 1,
+    "of": 25
+   }
+  },
+  {
+   "id": "i18n-locale-variants-en-en-en-en-en",
+   "class": "I18N",
+   "feature": "locale variants en,en,en,en,en",
+   "hint": "locale",
+   "evidence": [
+    "https://fortaleza-airport.com.br/en",
+    "https://portoalegre-airport.com.br/en",
+    "https://www.tradeport-logistics.com/en/home/index.php"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-frach-m-slider-slides-frach-js-slider-sl",
+   "class": "L",
+   "feature": "listing candidate frach-m-slider__slides frach-js-slider__slides (12 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-frach-m-slider-slides-frach-js-slider-sl",
+   "class": "L",
+   "feature": "listing candidate frach-m-slider__slides frach-js-slider__slides (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-frach-grid-row-3-cards",
+   "class": "L",
+   "feature": "listing candidate frach-grid-row (3 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de.html",
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-5-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (5 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/konzern.html",
+    "/de/investoren/publikationen-termine.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-frach-m-slider-slides-frach-js-slider-sl",
+   "class": "L",
+   "feature": "listing candidate frach-m-slider__slides frach-js-slider__slides (11 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-frach-m-image-gallery-tiles-container-fr",
+   "class": "L",
+   "feature": "listing candidate frach-m-image-gallery-tiles__container frach-grid-col-mq1-12 (9 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/konzern.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-7-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (7 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/geschaeftsfelder/service.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-ul-26-cards",
+   "class": "L",
+   "feature": "listing candidate ul (26 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/investoren/publikationen-termine.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-ul-25-cards",
+   "class": "L",
+   "feature": "listing candidate ul (25 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/investoren/publikationen-termine.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-6-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (6 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/investoren/publikationen-termine.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-ul-3-cards",
+   "class": "L",
+   "feature": "listing candidate ul (3 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/investoren/publikationen-termine.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-aem-grid-aem-grid-12-3-cards",
+   "class": "L",
+   "feature": "listing candidate aem-Grid aem-Grid--12 (3 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/newsroom/pressemitteilung.html"
+   ]
+  },
+  {
+   "id": "l-listing-candidate-frach-m-search-results-results-container",
+   "class": "L",
+   "feature": "listing candidate frach-m-search-results__results-container (21 cards)",
+   "hint": "listings",
+   "evidence": [],
+   "pages": [
+    "/de/newsroom/pressemitteilung.html"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-aria-haspopup-button-content",
+   "class": "M",
+   "feature": "modal trigger aria-haspopup → button:content",
+   "hint": "modal",
+   "evidence": [
+    "Meldung",
+    "Meldungen anzeigen <img src=\"/etc.clientlibs/fraport-company",
+    "Suche <img src=\"/etc.clientlibs/fraport-company/clientlibs/f",
+    "International <img src=\"/etc.clientlibs/fraport-company/clie"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ],
+   "reach": {
+    "pages": 217,
+    "of": 25
+   }
+  },
+  {
+   "id": "m-modal-trigger-frach-js-image-gallery-overlay-opener-target",
+   "class": "M",
+   "feature": "modal trigger frach-js-image__gallery-overlay-opener → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "https://www.fraport.com/de/konzern.html#"
+   ],
+   "pages": [
+    "/de/konzern.html"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-frach-js-image-overlay-opener-target-outside",
+   "class": "M",
+   "feature": "modal trigger frach-js-image__overlay-opener → target outside DOM at capture",
+   "hint": "modal",
+   "evidence": [
+    "https://www.fraport.com/de/konzern/konzernstrategie.html#"
+   ],
+   "pages": [
+    "/de/konzern/konzernstrategie.html"
+   ]
+  },
+  {
+   "id": "s-site-search-form-de-search-html",
+   "class": "S",
+   "feature": "site search form → /de/search.html",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 25
+   }
+  },
+  {
+   "id": "s-site-search-form-de-newsroom-pressemitteilung-html",
+   "class": "S",
+   "feature": "site search form → /de/newsroom/pressemitteilung.html",
+   "hint": "search",
+   "evidence": [
+    "search:q"
+   ],
+   "pages": [
+    "/de/newsroom/pressemitteilung.html"
+   ],
+   "reach": {
+    "pages": 2,
+    "of": 25
+   }
+  },
+  {
+   "id": "t-consent-usercentrics",
+   "class": "T",
+   "feature": "consent: Usercentrics",
+   "role": "consent: Usercentrics",
+   "hint": "tags",
+   "evidence": [
+    "app.usercentrics.eu",
+    "privacy-proxy.usercentrics.eu",
+    "api.usercentrics.eu",
+    "consent-api.service.consent.usercentrics.eu",
+    "uct.service.usercentrics.eu",
+    "privacy-proxy-server.usercentrics.eu"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-frankfurt-airport-com",
+   "class": "T",
+   "feature": "unknown third-party host www.frankfurt-airport.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.frankfurt-airport.com"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "t-tag-manager-adobe-launch",
+   "class": "T",
+   "feature": "tag manager: Adobe Launch",
+   "role": "tag manager: Adobe Launch",
+   "hint": "tags",
+   "evidence": [
+    "assets.adobedtm.com"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID",
+   "role": "analytics: Adobe Analytics / Experience Cloud ID",
+   "hint": "tags",
+   "evidence": [
+    "dpm.demdex.net",
+    "fraport.demdex.net"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "t-analytics-adobe-analytics-experience-cloud-id-first-party-",
+   "class": "T",
+   "feature": "analytics: Adobe Analytics / Experience Cloud ID (first-party subdomain — needs a CNAME on the new host)",
+   "hint": "tags",
+   "evidence": [
+    "smetrics.fraport.com"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "cm.everesttech.net"
+   ],
+   "pages": [
+    "/de.html",
+    "/de/konzern.html",
+    "/de/konzern/konzernstrategie.html",
+    "/de/geschaeftsfelder/service.html",
+    "/de/newsroom.html",
+    "/de/investoren/publikationen-termine.html",
+    "/de/newsroom/pressemitteilung.html",
+    "/de/newsroom/ansprechpartner.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-my-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host my.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "my.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host cdn.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-fonts-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host fonts-cdn.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "fonts-cdn.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-mtm-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host mtm.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "mtm.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-www-google-com",
+   "class": "T",
+   "feature": "unknown third-party host www.google.com",
+   "hint": "inspect",
+   "evidence": [
+    "www.google.com"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-img-li-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host img-li-cdn.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "img-li-cdn.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-img-ig-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host img-ig-cdn.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "img-ig-cdn.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-img-fb-cdn-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host img-fb-cdn.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "img-fb-cdn.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-d3pelj80y5v5k4-cloudfront-net",
+   "class": "T",
+   "feature": "unknown third-party host d3pelj80y5v5k4.cloudfront.net",
+   "hint": "inspect",
+   "evidence": [
+    "d3pelj80y5v5k4.cloudfront.net"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-emoji-walls-io",
+   "class": "T",
+   "feature": "unknown third-party host emoji.walls.io",
+   "hint": "inspect",
+   "evidence": [
+    "emoji.walls.io"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-scontent-fra3-1-xx-fbcdn-net",
+   "class": "T",
+   "feature": "unknown third-party host scontent-fra3-1.xx.fbcdn.net",
+   "hint": "inspect",
+   "evidence": [
+    "scontent-fra3-1.xx.fbcdn.net"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  },
+  {
+   "id": "v-video-youtube",
+   "class": "V",
+   "feature": "video: YouTube",
+   "role": "video: YouTube",
+   "hint": "media",
+   "evidence": [
+    "www.youtube-nocookie.com",
+    "i.ytimg.com",
+    "https://www.youtube-nocookie.com/embed/kH7xDtYOxwk?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+    "https://www.youtube-nocookie.com/embed/HapG52fvFyw?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+    "https://www.youtube-nocookie.com/embed/pA66zjmcrwI?origin=http%3A%2F%2Fwww.fraport.com&hl=de",
+    "https://www.youtube-nocookie.com/embed/TZnDvg3KRfM?origin=http%3A%2F%2Fwww.fraport.com&hl=de"
+   ],
+   "pages": [
+    "/de/newsroom.html"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 25,
+  "of": 25,
+  "endpoints": {
+   "GET privacy-proxy.usercentrics.eu/latest/de.json": 25,
+   "GET api.usercentrics.eu/settings/mOpKWIaR/latest/languages.json": 25,
+   "GET api.usercentrics.eu/settings/mOpKWIaR/latest/de.json": 25,
+   "GET api.usercentrics.eu/translations/translations-de.json": 25,
+   "GET www.fraport.com/passenger-alerts/de.json": 25,
+   "GET www.fraport.com/darksite-alerts/de.json": 25,
+   "GET www.fraport.com/de/geschaeftsfelder/betrieb/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/traffic-alerts/de.json": 25,
+   "GET www.fraport.com/de/geschaeftsfelder/international-activities/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/geschaeftsfelder/service/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/geschaeftsfelder/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/investoren/fraport-aktie/_jcr_content.fra_model.json": 1,
+   "GET charts3.equitystory.com/tpl/fraport/German/": 1,
+   "POST charts3.equitystory.com/chart/fraport/German/": 1,
+   "GET www.fraport.com/de/investoren/publikationen-termine/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/investoren/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/chartjson/": 4,
+   "GET www.fraport.com/de/konzern/digitalisierung/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/konzernstrategie/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/managementsysteme/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/regionales-engagement/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/ueber-uns/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/konzern/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/nachhaltigkeit/wertschaffung/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/nachhaltigkeit/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/newsroom/ansprechpartner/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/newsroom/pressemitteilung/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/newsroom/servicenews/_jcr_content.fra_model.json": 1,
+   "GET www.fraport.com/de/newsroom/_jcr_content.fra_model.json": 1,
+   "GET charts3.equitystory.com/api-json/fraport/English/": 3,
+   "GET www.fraport.com/de/_jcr_content.fra_model.json": 2
+  },
+  "searchFormPages": 2,
+  "formPages": 0,
+  "triggerPages": {
+   "aria-haspopup": 217
+  }
+ }
+}

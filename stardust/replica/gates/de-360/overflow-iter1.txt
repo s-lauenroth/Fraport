@@ -1,0 +1,9 @@
+measure: http://localhost:8791/de-proposed.html @360: horizontal overflow +312px (scrollWidth 672 > viewport 360)
+measure  http://localhost:8791/de-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   672  viewport 360  scrollHeight  10759  ◄◄ OVERFLOW +312px
+  html
+       x     0  y      0  w   360  h 10759  vis  "Startseite Suche Deutsch Menü WIR SIND …"
+      display: block

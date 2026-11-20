@@ -1,0 +1,46 @@
+{
+  "round": "iter2",
+  "width": 1440,
+  "stage": "prototype",
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/de-newsroom-1440/diff-iter2.png",
+    "json": "stardust/replica/gates/de-newsroom-1440/pixel-iter2.json",
+    "pct": 9.91,
+    "alignedPct": 1.99,
+    "alignedUsed": true,
+    "totalShift": 58,
+    "steps": [
+      {
+        "y": 4191,
+        "shift": 12,
+        "cumulative": 12
+      },
+      {
+        "y": 5244,
+        "shift": 40,
+        "cumulative": 52
+      },
+      {
+        "y": 9156,
+        "shift": -6,
+        "cumulative": 46
+      }
+    ],
+    "offsetBound": 8,
+    "maskedRows": 296,
+    "noiseFloor": 0.72,
+    "reason": "offsets: 3 step(s), 58px total — +12px at y=4191, +40px at y=5244, −6px at y=9156 (bound 8px)"
+  },
+  "reference": {
+    "origin": "frozen",
+    "capturedAt": "2026-11-19T17:45:40.409Z",
+    "primed": true,
+    "stable": true,
+    "maskArg": "3412:296"
+  },
+  "probes": {},
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-19T17:56:33.503Z"
+}

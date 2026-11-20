@@ -1,0 +1,2301 @@
+{
+ "_provenance": {
+  "writtenBy": "unit-geometry.mjs",
+  "at": "2026-11-19T23:35:20.433Z",
+  "tol": 4,
+  "n": 113,
+  "width": 360,
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://www.fraport.com/de/newsroom/servicenews.html",
+  "at": "2026-11-19T21:05:27.804Z",
+  "docH": 3575
+ },
+ "eds": {
+  "url": "https://main--340a2135--aemcoder.aem.page/de/newsroom/servicenews",
+  "at": "2026-11-19T23:35:20.304Z",
+  "docH": 3571
+ },
+ "results": [
+  {
+   "sel": ".frach-m-search-results__results-container .frach-e-search-result=.news-list .news-list-item",
+   "family": null,
+   "required": true,
+   "originMatches": 12,
+   "edsMatches": 12,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:services, 2026, frankfurt airport, stand",
+       "role": "text",
+       "text": "services, 2026, frankfurt airport, standort, pressearchiv",
+       "edsText": "services, 2026, frankfurt airport, standort, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 297,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 297,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:24.06.2026",
+       "role": "text",
+       "text": "24.06.2026",
+       "edsText": "24.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:vom gate in die ”gut stubb´”: terminal 2",
+       "role": "heading",
+       "text": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flugha",
+       "edsText": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flugha",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#vom-gate-in-die-gut-stubb-terminal-2-mobiliar-vom-flughafen-frankfurt-sucht-neue-heimat",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:vom gate in die ”gut stubb´”: terminal 2",
+       "role": "link",
+       "text": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flugha",
+       "edsText": "vom gate in die ”gut stubb´”: terminal 2-mobiliar vom flugha",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 379,
+       "w": 360,
+       "h": 191
+      },
+      "eds": {
+       "x": 0,
+       "y": 379,
+       "w": 360,
+       "h": 191
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:services, 2026, frankfurt airport, stand",
+       "role": "text",
+       "text": "services, 2026, frankfurt airport, standort, pressearchiv",
+       "edsText": "services, 2026, frankfurt airport, standort, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 297,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 297,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:03.06.2026",
+       "role": "text",
+       "text": "03.06.2026",
+       "edsText": "03.06.2026",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:frankfurt airport im fußballfieber: alle",
+       "role": "heading",
+       "text": "frankfurt airport im fußballfieber: alle spiele live verfolg",
+       "edsText": "frankfurt airport im fußballfieber: alle spiele live verfolg",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#frankfurt-airport-im-fußballfieber-alle-spiele-live-verfolgen",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:frankfurt airport im fußballfieber: alle",
+       "role": "link",
+       "text": "frankfurt airport im fußballfieber: alle spiele live verfolg",
+       "edsText": "frankfurt airport im fußballfieber: alle spiele live verfolg",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 570,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 570,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2025, standort, pressearchiv, passagiere",
+       "role": "text",
+       "text": "2025, standort, pressearchiv, passagiere",
+       "edsText": "2025, standort, pressearchiv, passagiere",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 307,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 307,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:10.12.2025",
+       "role": "text",
+       "text": "10.12.2025",
+       "edsText": "10.12.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:winterliche reisefreude ohne barrieren: ",
+       "role": "heading",
+       "text": "winterliche reisefreude ohne barrieren: entspannt in den url",
+       "edsText": "winterliche reisefreude ohne barrieren: entspannt in den url",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#winterliche-reisefreude-ohne-barrieren-entspannt-in-den-urlaub-ab-fra",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:winterliche reisefreude ohne barrieren: ",
+       "role": "link",
+       "text": "winterliche reisefreude ohne barrieren: entspannt in den url",
+       "edsText": "winterliche reisefreude ohne barrieren: entspannt in den url",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 735,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 735,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, fluggäste, 2025, pressearchiv",
+       "role": "text",
+       "text": "presse, fluggäste, 2025, pressearchiv",
+       "edsText": "presse, fluggäste, 2025, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 285,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 285,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:29.09.2025",
+       "role": "text",
+       "text": "29.09.2025",
+       "edsText": "29.09.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:gut vorbereitet in die herbstferien: rei",
+       "role": "heading",
+       "text": "gut vorbereitet in die herbstferien: reisetipps für den abfl",
+       "edsText": "gut vorbereitet in die herbstferien: reisetipps für den abfl",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#gut-vorbereitet-in-die-herbstferien-reisetipps-für-den-abflug-ab-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:gut vorbereitet in die herbstferien: rei",
+       "role": "link",
+       "text": "gut vorbereitet in die herbstferien: reisetipps für den abfl",
+       "edsText": "gut vorbereitet in die herbstferien: reisetipps für den abfl",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 900,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 900,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 4,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:services, partner, 2025, region, presse,",
+       "role": "text",
+       "text": "services, partner, 2025, region, presse, besucher, nachhalti",
+       "edsText": "services, partner, 2025, region, presse, besucher, nachhalti",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 269,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 269,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:25.08.2025",
+       "role": "text",
+       "text": "25.08.2025",
+       "edsText": "25.08.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:jetzt gratis anmelden: airport-touren mi",
+       "role": "heading",
+       "text": "jetzt gratis anmelden: airport-touren mit besonderen einblic",
+       "edsText": "jetzt gratis anmelden: airport-touren mit besonderen einblic",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#jetzt-gratis-anmelden-airport-touren-mit-besonderen-einblicken-in-klima--und-umweltschutz",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:jetzt gratis anmelden: airport-touren mi",
+       "role": "link",
+       "text": "jetzt gratis anmelden: airport-touren mit besonderen einblic",
+       "edsText": "jetzt gratis anmelden: airport-touren mit besonderen einblic",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1065,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 1065,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 5,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, verantwortung, 2025, sicherheit,",
+       "role": "text",
+       "text": "presse, verantwortung, 2025, sicherheit, region, pressearchi",
+       "edsText": "presse, verantwortung, 2025, sicherheit, region, pressearchi",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 281,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 281,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:12.08.2025",
+       "role": "text",
+       "text": "12.08.2025",
+       "edsText": "12.08.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 188,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 188,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:strikte maßnahmen gegen drohnensichtunge",
+       "role": "heading",
+       "text": "strikte maßnahmen gegen drohnensichtungen am flughafen frank",
+       "edsText": "strikte maßnahmen gegen drohnensichtungen am flughafen frank",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#strikte-maßnahmen-gegen-drohnensichtungen-am-flughafen-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:strikte maßnahmen gegen drohnensichtunge",
+       "role": "link",
+       "text": "strikte maßnahmen gegen drohnensichtungen am flughafen frank",
+       "edsText": "strikte maßnahmen gegen drohnensichtungen am flughafen frank",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1280,
+       "w": 360,
+       "h": 191
+      },
+      "eds": {
+       "x": 0,
+       "y": 1280,
+       "w": 360,
+       "h": 191
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 6,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:2025, presse, e-mobilität, nachhaltigkei",
+       "role": "text",
+       "text": "2025, presse, e-mobilität, nachhaltigkeit, besucher, standor",
+       "edsText": "2025, presse, e-mobilität, nachhaltigkeit, besucher, standor",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 290,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 290,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:22.05.2025",
+       "role": "text",
+       "text": "22.05.2025",
+       "edsText": "22.05.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 16,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:ladepark nord: neue e-infrastruktur in t",
+       "role": "heading",
+       "text": "ladepark nord: neue e-infrastruktur in terminalnähe",
+       "edsText": "ladepark nord: neue e-infrastruktur in terminalnähe",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#ladepark-nord-neue-e-infrastruktur-in-terminalnähe",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:ladepark nord: neue e-infrastruktur in t",
+       "role": "link",
+       "text": "ladepark nord: neue e-infrastruktur in terminalnähe",
+       "edsText": "ladepark nord: neue e-infrastruktur in terminalnähe",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1471,
+       "w": 360,
+       "h": 189
+      },
+      "eds": {
+       "x": 0,
+       "y": 1471,
+       "w": 360,
+       "h": 189
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 7,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:check-in, services, parken, 2025, gepäck",
+       "role": "text",
+       "text": "check-in, services, parken, 2025, gepäck, sicherheitskontrol",
+       "edsText": "check-in, services, parken, 2025, gepäck, sicherheitskontrol",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 287,
+        "h": 69
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 287,
+        "h": 69,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:28.03.2025",
+       "role": "text",
+       "text": "28.03.2025",
+       "edsText": "28.03.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 74,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:countdown in den urlaub: tipps für den p",
+       "role": "heading",
+       "text": "countdown in den urlaub: tipps für den perfekten start vom f",
+       "edsText": "countdown in den urlaub: tipps für den perfekten start vom f",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#countdown-in-den-urlaub-tipps-für-den-perfekten-start-vom-flughafen-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:countdown in den urlaub: tipps für den p",
+       "role": "link",
+       "text": "countdown in den urlaub: tipps für den perfekten start vom f",
+       "edsText": "countdown in den urlaub: tipps für den perfekten start vom f",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 105,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1660,
+       "w": 360,
+       "h": 215
+      },
+      "eds": {
+       "x": 0,
+       "y": 1660,
+       "w": 360,
+       "h": 215
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 8,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:services, 2025, besucher, terminal 1, pr",
+       "role": "text",
+       "text": "services, 2025, besucher, terminal 1, pressearchiv",
+       "edsText": "services, 2025, besucher, terminal 1, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 254,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 254,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:13.03.2025",
+       "role": "text",
+       "text": "13.03.2025",
+       "edsText": "13.03.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:apron control: spielend rollverkehr diri",
+       "role": "heading",
+       "text": "apron control: spielend rollverkehr dirigieren",
+       "edsText": "apron control: spielend rollverkehr dirigieren",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#apron-control-spielend-rollverkehr-dirigieren",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:apron control: spielend rollverkehr diri",
+       "role": "link",
+       "text": "apron control: spielend rollverkehr dirigieren",
+       "edsText": "apron control: spielend rollverkehr dirigieren",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 1875,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 1875,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 9,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, fluggäste, 2025, retail, pressea",
+       "role": "text",
+       "text": "presse, fluggäste, 2025, retail, pressearchiv",
+       "edsText": "presse, fluggäste, 2025, retail, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 307,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 307,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:20.02.2025",
+       "role": "text",
+       "text": "20.02.2025",
+       "edsText": "20.02.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 42,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:rewe to go: snacks und getränke rund um ",
+       "role": "heading",
+       "text": "rewe to go: snacks und getränke rund um die uhr",
+       "edsText": "rewe to go: snacks und getränke rund um die uhr",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#rewe-to-go-snacks-und-getränke-rund-um-die-uhr",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:rewe to go: snacks und getränke rund um ",
+       "role": "link",
+       "text": "rewe to go: snacks und getränke rund um die uhr",
+       "edsText": "rewe to go: snacks und getränke rund um die uhr",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2040,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 2040,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 10,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, fluggäste, 2025, retail, pressea",
+       "role": "text",
+       "text": "presse, fluggäste, 2025, retail, pressearchiv",
+       "edsText": "presse, fluggäste, 2025, retail, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 307,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 307,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:18.02.2025",
+       "role": "text",
+       "text": "18.02.2025",
+       "edsText": "18.02.2025",
+       "byPosition": false,
+       "origin": {
+        "x": 42,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 42,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:spannende aussichten: restaurants wechse",
+       "role": "heading",
+       "text": "spannende aussichten: restaurants wechseln, vorfeldblick ble",
+       "edsText": "spannende aussichten: restaurants wechseln, vorfeldblick ble",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "h2#spannende-aussichten-restaurants-wechseln-vorfeldblick-bleibt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:spannende aussichten: restaurants wechse",
+       "role": "link",
+       "text": "spannende aussichten: restaurants wechseln, vorfeldblick ble",
+       "edsText": "spannende aussichten: restaurants wechseln, vorfeldblick ble",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 52,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2205,
+       "w": 360,
+       "h": 165
+      },
+      "eds": {
+       "x": 0,
+       "y": 2205,
+       "w": 360,
+       "h": 165
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 11,
+     "origin": {
+      "path": "frach-m-search-results#searchResults-379e5c05c1-results > div.frach-m-search-results__results-container > div.frach-e-search-result"
+     },
+     "eds": {
+      "path": "div.news-list.block > ul.news-list-items.news-list-rail > li.news-list-item"
+     },
+     "rows": [
+      {
+       "key": "text:presse, fluggäste, 2024, passagiere, pre",
+       "role": "text",
+       "text": "presse, fluggäste, 2024, passagiere, pressearchiv",
+       "edsText": "presse, fluggäste, 2024, passagiere, pressearchiv",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 26,
+        "w": 251,
+        "h": 45
+       },
+       "eds": {
+        "x": 16,
+        "y": 26,
+        "w": 251,
+        "h": 45,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "text:16.12.2024",
+       "role": "text",
+       "text": "16.12.2024",
+       "edsText": "16.12.2024",
+       "byPosition": false,
+       "origin": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21
+       },
+       "eds": {
+        "x": 132,
+        "y": 50,
+        "w": 81,
+        "h": 21,
+        "sel": "p",
+        "role": "text"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "16/24/400",
+        "eds": "16/24/400"
+       }
+      },
+      {
+       "key": "heading:es weihnachtet sehr: reise- und servicet",
+       "role": "heading",
+       "text": "es weihnachtet sehr: reise- und servicetipps für den urlaubs",
+       "edsText": "es weihnachtet sehr: reise- und servicetipps für den urlaubs",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78,
+        "sel": "h2#es-weihnachtet-sehr-reise--und-servicetipps-für-den-urlaubsstart-vom-flughafen-frankfurt",
+        "role": "heading"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      },
+      {
+       "key": "link:es weihnachtet sehr: reise- und servicet",
+       "role": "link",
+       "text": "es weihnachtet sehr: reise- und servicetipps für den urlaubs",
+       "edsText": "es weihnachtet sehr: reise- und servicetipps für den urlaubs",
+       "byPosition": false,
+       "origin": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78
+       },
+       "eds": {
+        "x": 16,
+        "y": 81,
+        "w": 328,
+        "h": 78,
+        "sel": "a",
+        "role": "link"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "18/26/400",
+        "eds": "18/26/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 0,
+       "y": 2370,
+       "w": 360,
+       "h": 192
+      },
+      "eds": {
+       "x": 0,
+       "y": 2370,
+       "w": 360,
+       "h": 192
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 4,
+      "within": 4,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  },
+  {
+   "sel": ".frach-m-search-results__tags .frach-e-tag=.news-list .news-list-tags li",
+   "family": null,
+   "required": true,
+   "originMatches": 39,
+   "edsMatches": 39,
+   "units": [
+    {
+     "index": 0,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fparken"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:parken",
+       "role": "button",
+       "text": "parken",
+       "edsText": "parken",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 52,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 52,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 16,
+       "y": 279,
+       "w": 54,
+       "h": 36
+      },
+      "eds": {
+       "x": 16,
+       "y": 279,
+       "w": 54,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 1,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups~2Fvisitors~2Fpassagiere"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:passagiere",
+       "role": "button",
+       "text": "passagiere",
+       "edsText": "passagiere",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 73,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 73,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 86,
+       "y": 279,
+       "w": 75,
+       "h": 36
+      },
+      "eds": {
+       "x": 86,
+       "y": 279,
+       "w": 75,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 2,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:target-groups"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:zielgruppen",
+       "role": "button",
+       "text": "zielgruppen",
+       "edsText": "zielgruppen",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 81,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 81,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 177,
+       "y": 279,
+       "w": 83,
+       "h": 36
+      },
+      "eds": {
+       "x": 177,
+       "y": 279,
+       "w": 83,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    },
+    {
+     "index": 3,
+     "origin": {
+      "path": "div.frach-m-search-results__tag-filter > div.frach-m-search-results__tags > frach-e-tag#fraport-company:topics~2Fresponsibility"
+     },
+     "eds": {
+      "path": "div.news-list-tags.news-list-rail > ul > li"
+     },
+     "rows": [
+      {
+       "key": "button:verantwortung",
+       "role": "button",
+       "text": "verantwortung",
+       "edsText": "verantwortung",
+       "byPosition": false,
+       "origin": {
+        "x": 1,
+        "y": 1,
+        "w": 96,
+        "h": 34
+       },
+       "eds": {
+        "x": 1,
+        "y": 1,
+        "w": 96,
+        "h": 34,
+        "sel": "span.news-list-tag-label",
+        "role": "button"
+       },
+       "dx": 0,
+       "dy": 0,
+       "dw": 0,
+       "dh": 0,
+       "off": false,
+       "hidden": false,
+       "type": {
+        "origin": "12/18/400",
+        "eds": "12/18/400"
+       }
+      }
+     ],
+     "missing": [],
+     "extra": [],
+     "unit": {
+      "origin": {
+       "x": 275,
+       "y": 279,
+       "w": 98,
+       "h": 36
+      },
+      "eds": {
+       "x": 275,
+       "y": 279,
+       "w": 98,
+       "h": 36
+      },
+      "dx": 0,
+      "dy": 0,
+      "dw": 0,
+      "dh": 0
+     },
+     "summary": {
+      "elements": 1,
+      "within": 1,
+      "off": 0,
+      "hidden": 0,
+      "missing": 0,
+      "extra": 0,
+      "unitOff": false
+     }
+    }
+   ]
+  }
+ ],
+ "verdict": {
+  "units": 16,
+  "within": 52,
+  "off": 0,
+  "hidden": 0,
+  "missing": 0,
+  "errors": 0,
+  "requiredOff": 0
+ }
+}

@@ -1,0 +1,95 @@
+/* cta (frach-m-cta): ruled band — headline + line of copy left (8 cols at >= 1440), button(s)
+   bottom-right (4 cols) */
+.cta .cta-line {
+  height: 1px;
+  background-color: var(--rule-color);
+}
+
+.cta .cta-text {
+  color: var(--grey-600);
+}
+
+.cta .cta-headline {
+  margin: 24px 0 0;
+}
+
+.cta .cta-headline :is(h1, h2, h3, h4, h5, h6),
+.cta .cta-copy p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.cta .cta-copy {
+  margin: 24px 0 0;
+  padding: 0;
+}
+
+.cta .cta-actions {
+  margin-top: 24px;
+}
+
+.cta .cta-action {
+  align-items: center;
+  min-width: 50px;
+  margin-top: 16px;
+}
+
+.cta .cta-action p {
+  display: contents;
+}
+
+.cta .cta-action .button {
+  width: 100%;
+}
+
+.cta .cta-action a.button:is(.primary, .secondary)::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+@media (width >= 720px) {
+  .cta .cta-actions {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .cta .cta-action {
+    display: flex;
+    margin-top: 0;
+    min-height: 52px;
+  }
+
+  .cta .cta-action + .cta-action {
+    margin: 0 0 0 24px;
+  }
+
+  .cta .cta-action .button {
+    width: auto;
+  }
+}
+
+@media (width >= 1440px) {
+  .cta .row > .cta-text {
+    flex-basis: calc(66.6667% - var(--gutter));
+    max-width: calc(66.6667% - var(--gutter));
+  }
+
+  .cta .row > .cta-actions {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+
+  .cta .cta-action + .cta-action {
+    margin-left: 32px;
+  }
+}

@@ -1,0 +1,423 @@
+[live-session] waiting to pace live navigations to www.fraport.com (15000 ms apart, 1 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 171 text nodes — 29 headings, 0 eyebrows, 56 CTAs, 86 body; 0 img
+  build: 172 text nodes — 29 headings, 0 eyebrows, 56 CTAs, 87 body; 19 img
+  editable texts (outermost h*/p/ul/ol): source 111 / build 118
+  attributes (placeholder/aria-label/title): source 16 / build 14; icons: source 8 / build 14
+  accepted (invisible, nothing lost): 4 SAME ICON — "glyph ↔ mask:frach-icon-sticky-pin.svg", "glyph ↔ mask:frach-icon-arrow-right.svg", "glyph ↔ mask:frach-icon-arrow-right.svg", "glyph ↔ mask:frach-icon-arrow-right.svg"
+root "header" — source: absent (no <header> / [role="banner"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 265 text nodes — 0 headings, 0 eyebrows, 165 CTAs, 100 body; 10 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 3
+  attributes (placeholder/aria-label/title): source 0 / build 1; icons: source 0 / build 47
+root "footer" — source: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  source: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  build: 41 text nodes — 3 headings, 0 eyebrows, 23 CTAs, 15 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 0 / build 17
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 0 / build 16
+
+Findings: 399 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 6 · accepted 🟢 6 (owner 2, auto 4) · advisory 393
+  🟠 EXTRA [header]: build cta "Bulgarien" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Brasilien (Flughafen Fortaleza)" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Brasilien (Flughafen Porto Alegre)" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Hong Kong (China)" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Griechenland" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Peru" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Slowenien" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Türkei" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "USA" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Karriere bei Fraport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "English" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Startseite" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzern" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Konzern" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Über uns" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Über uns" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Vorstand" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Aufsichtsrat" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Compliance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Diversity" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Zahlen, Daten und Fakten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "100 Jahre wie im Flug" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Historie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzernstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Unsere internationalen Flughäfen und Beteiligung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Managementsysteme" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Managementsysteme" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Arbeitsschutzmanagement" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Qualitätsmanagement" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Safety Management System" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Aktiv für die Region" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Aktiv für die Region" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Kultur" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bildung und Soziales" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sponsoring und Spenden" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "J. P. Morgan Lauf Results" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Rundfahrten für Vereine & Institutionen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fraport Politikbrief" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Digitalisierung und Digital Factory" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Digitalisierung und Digital Factory" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Open Pitch Day" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "AI@Fraport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Robotikstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Karriere" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flughäfen und Beteiligungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzernstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Geschäftsfelder" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Geschäftsfelder" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Betrieb" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Betrieb" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flug- und Terminalbetrieb" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ground Handling" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flughafenlieferungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flughafenfeuerwehr" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ground Services Equipment" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Unternehmenssicherheit" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flughafenentgelte" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Medical Center" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Frankfurt CargoHub" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "International Activities" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Service" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Service" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flughafenausweise" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fahrerausbildung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Parken & Mobilität" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Personalbuslinien" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Geschäftspartner" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Real Estate" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Retailing and Advertising" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "VIP-Services" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "IT-Services" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Schließanlagenverwaltung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Energiemanagement" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "FRA Locations" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bau" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Bau" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flughafenausbau" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wirtschaftsfaktor Flughafen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Hessens Tor zur Welt" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "International Activities" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Betrieb" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Investoren" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Investoren" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Fraport Aktie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Publikationen & Termine" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Verkehrszahlen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Hauptversammlung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Creditor Relations" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Corporate Governance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ansprechpartner" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Newsletter Bestellservice" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Indizes und Ratings" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ansprechpartner" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Publikationen & Termine" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nachhaltigkeit" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Nachhaltigkeit" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Umwelt und Klimaschutz" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Unternehmensführung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Unternehmensführung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Corporate Governance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzernstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Compliance" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Verantwortung in Lieferketten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Wertschaffung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Wertschaffung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzernstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Stakeholder-Dialog" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Selbstverpflichtungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Managementsysteme" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Indizes und Ratings" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mobilitätsstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Gesellschaft" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Gesellschaft" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzernstrategie" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Regionales Engagement" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Beschäftigte" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Beschäftigte" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Arbeitsmedizin, Prävention und Gesundheitsmanage" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Konzernarbeitsschutz" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Arbeitsschutzmanagement" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bildung und Soziales" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Diversity" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Karriere" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nachbarschaftsdialog" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Nachbarschaftsdialog" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Aktuelles" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Interaktive Karten" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Mein Anliegen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lärm und Luft" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Umwelt und Klimaschutz" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nachbarschaftsdialog" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Newsroom" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Newsroom" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Ansprechpartner Presse" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pressemitteilungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Service News" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Retail News" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pressemappen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Bilddatenbank" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Bilddatenbank" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Desktop Wallpapers" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Smartphone Wallpapers" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nutzungsbedingungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Infofilme" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Infofilme" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Flugzeugabfertigung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Sicherer Flugbetrieb" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Infografiken FRAFacts" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Videomaterial" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Überblick Videomaterial" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Nutzungsbedingungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Publikationen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Filmen & Fotografieren am Flughafen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Infofilme" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Pressemitteilungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [header]: build cta "Lesen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Anfahrtsbeschreibung" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "01806 372-4636" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontaktformular" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "E-Mail" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "E-Mail" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontaktformulare zum Themenbereich" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Kontakt zum Medical Center" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Konzern" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Geschäftsfelder" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Investoren" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Nachhaltigkeit" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Newsroom" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Frankfurt Airport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Karriere bei Fraport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Datenschutz" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Impressum" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Disclaimer" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Richtlinien und Zahlungsbedingungen" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build heading "Social Media" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build heading "Frankfurt Airport" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Facebook" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "Instagram" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "YouTube" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "LinkedIn" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build heading "Frankfurt CargoHub" has no source source — Unexpected node with no source.
+  🟠 EXTRA [footer]: build cta "LinkedIn" has no source source — Unexpected node with no source.
+  🟡 EXTRA [#main-content]: build body "75 Jahre Flughafenfeuerwehr" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <frach-e-icon> aria-label="Pause" has no build <frach-e-icon> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <frach-e-icon> aria-label="Change volume" has no build <frach-e-icon> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <iframe> aria-label="YouTube Video" has no build <iframe> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <iframe> title="Terminal 3 startet – mehr Platz, mehr Flüge, meh" has no build <iframe> with that title (build <iframe> titles: "walls.io Social Wall Fraport AG", "youtube video", "youtube video"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <iframe> aria-label="YouTube Video" has no build <iframe> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <iframe> title="100 Jahre Lufthansa - Propeller, Piloten und Pil" has no build <iframe> with that title (build <iframe> titles: "walls.io Social Wall Fraport AG", "youtube video", "youtube video"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <iframe> aria-label="YouTube Video" has no build <iframe> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <iframe> title="Drohnen am Flughafen - DFS testet spezielle Rada" has no build <iframe> with that title (build <iframe> titles: "walls.io Social Wall Fraport AG", "youtube video", "youtube video"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <iframe> aria-label="YouTube Video" has no build <iframe> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING TITLE [#main-content]: source <iframe> title="Feuerwehralarm am Flughafen - Im Einsatz mit Wac" has no build <iframe> with that title (build <iframe> titles: "walls.io Social Wall Fraport AG", "youtube video", "youtube video"). Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <aside> aria-label="75 Jahre Flughafenfeuerwehr" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <nav> aria-label="Auf dieser Seite" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-content]: build <iframe> title="walls.io Social Wall Fraport AG" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <input> aria-label="Position" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-content]: build <iframe> title="youtube video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-content]: build <iframe> title="youtube video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-content]: build <iframe> title="youtube video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA TITLE [#main-content]: build <iframe> title="youtube video" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 ICON KIND [#main-content]: source empty icon box (0×0) vs build css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: source empty icon box (0×0) vs build css icon mask:frach-icon-chevron-down.svg (0×0) at "06 ansprechpartner". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: source empty icon box (24×24) vs build css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 ICON KIND [#main-content]: source empty icon box (0×0) vs build css icon mask:frach-icon-arrow-left.svg (0×0) at "previous slide". Same anchor, different technique (icon-font glyph vs inline svg vs image) — the pixel probe judges equivalence; confirm, never assume.
+  🟡 EXTRA ICON [#main-content]: build css icon mask:frach-icon-arrow-right.svg (68×68) at "66,00 € xetra (fraport ag)" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build css icon mask:frach-icon-play.svg (24×24) at "play" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build css icon mask:frach-icon-volume.svg (24×24) at "0:00 8:11" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build css icon mask:frach-icon-download.svg (24×24) at "download audio" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build css icon mask:frach-icon-mail.svg (16×24) at "fraport-fototeam" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [#main-content]: build css icon mask:frach-icon-mail.svg (16×24) at "uns" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [header]: build body "0" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Meldung" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Suche" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "International" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Deutsch" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Menü" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Menü" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Konzern" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Über uns" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Fraport AG zählt zu den weltweit führenden U" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Konzernstrategie" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "„Connecting the world with tomorrow“ – Fraport A" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Unsere internationalen Flughäfen und Beteiligung" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Fraport AG ist an 30 internationalen Flughäf" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Konzern" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Managementsysteme" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Fraport AG setzt zahlreiche Managementsystem" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Konzern" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Aktiv für die Region" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Fraport engagiert sich auch außerhalb des Flugha" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Konzern" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Digitalisierung und Digital Factory" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Digitalisierung bei Fraport: Effizienz, Innovati" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Karriere" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Weiteres zum Thema Konzern" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Menü" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Geschäftsfelder" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Betrieb" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ob im Terminal oder auf dem Vorfeld: Fraport org" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "International Activities" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Der Geschäftsbereich "Akquisitionen und Beteilig" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Geschäftsfelder" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Service" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Vielseitige Shops, Restaurants und Bars: Der Flu" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Geschäftsfelder" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Bau" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Erfahren Sie mehr über die vielfältigen Bauproje" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Weiteres zum Thema Geschäftsfelder" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Menü" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Fraport Aktie" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Entdecken Sie alle wichtigen Informationen zur F" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Publikationen & Termine" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Gesammelt können hier für Investoren relevante P" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Verkehrszahlen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Entdecken Sie die aktuellen Verkehrszahlen des F" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Hauptversammlung" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Alle Informationen, Unterlagen und Links zur akt" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Creditor Relations" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Alle Informationen zu Finanzierungsstrategie, -P" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Corporate Governance" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Der Begriff „Corporate Governance“ steht bei Fra" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ansprechpartner" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body ": Wir unterstützen unsere auf nachhaltige Wertst" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Newsletter Bestellservice" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Indizes und Ratings" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Fraport AG wird in zahlreichen Indizes und R" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Weiteres zum Thema Investoren" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Menü" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Umwelt und Klimaschutz" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Fraport verfolgt das Ziel, bis spätestens 2045 a" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Nachhaltigkeit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Unternehmensführung" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Unternehmensführung ist geprägt von einem we" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Nachhaltigkeit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Wertschaffung" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Fraport AG versteht Wertschaffung als ganzhe" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Nachhaltigkeit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Gesellschaft" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Fraport AG setzt sich aktiv zur Gestaltung e" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Nachhaltigkeit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Beschäftigte" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Mitarbeitenden stehen im Mittelpunkt der Nac" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Nachhaltigkeit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Nachbarschaftsdialog" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Der Austausch zwischen Flughafenbetreiber und Re" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Weiteres zum Thema Nachhaltigkeit" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Menü" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Ansprechpartner Presse" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Pressekontakte der Fraport AG: Finden Sie Anspre" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Pressemitteilungen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Entdecken Sie alle aktuellen Pressemitteilungen " has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Service News" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Retail News" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Pressemappen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Hier können Pressemappen mit Informationen zu di" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Newsroom" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Bilddatenbank" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Unsere Bilddatenbank bietet Bildvorlagen in geei" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Newsroom" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Infofilme" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Erleben Sie, wie zehntausende Menschen täglich a" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Infografiken FRAFacts" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Die Infografiken der Fraport AG erklären mit Bil" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Newsroom" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Videomaterial" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Hier sehen Sie eine Auswahl an TV-Aufnahmen zu v" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Publikationen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Filmen & Fotografieren am Flughafen" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Weiteres zum Thema Newsroom" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Suche" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ARIA-LABEL [header]: build <nav> aria-label="Hauptnavigation" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 EXTRA ICON [header]: build inline svg 0 0 458 198 / 1 shape(s) (91×39) at "startseite" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 24 / 1 shape(s) (0×0) at "suche" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 24 / 1 shape(s) (16×16) at "international" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 24 / 1 shape(s) (24×24) at "deutsch" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 24 / 1 shape(s) (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 24 / 1 shape(s) (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "konzern" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "über uns" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "managementsysteme" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "aktiv für die region" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "digitalisierung und digital factory" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "konzern" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "geschäftsfelder" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "betrieb" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "geschäftsfelder" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "service" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "geschäftsfelder" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "bau" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "geschäftsfelder" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "investoren" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "nachhaltigkeit" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "unternehmensführung" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "wertschaffung" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "gesellschaft" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "beschäftigte" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "nachbarschaftsdialog" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "nachhaltigkeit" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "newsroom" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "menü" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "bilddatenbank" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "newsroom" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "infofilme" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "newsroom" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-right.svg (0×0) at "videomaterial" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build css icon mask:frach-icon-chevron-left.svg (0×0) at "newsroom" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [header]: build inline svg 0 0 24 24 / 1 shape(s) (24×24) at "suche" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA [footer]: build body "Ansprechpartner" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Fraport AG Frankfurt Airport Services Worldwide" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "60547 Frankfurt am Main" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "*" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Fragen, Lob, Kritik und Anregungen:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "*20 Cent pro Anruf aus dem deutschen Festnetz, m" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Mailadresse für Feedback:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Mailadresse für Passagier-Informationen:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Fluglärm und Maßnahmenprogramme:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "(für Reisende und Beschäftige)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Medizinische Anfragen:" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Fraport Sites" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Aktuell" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "Service" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [footer]: build body "©2004-2026 Fraport AG Frankfurt Airport Services" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-chevron-down.svg (24×24) at "ansprechpartner" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-download.svg (16×24) at "anfahrtsbeschreibung" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-phone.svg (16×24) at "01806 372-4636" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-arrow-right.svg (16×24) at "kontaktformular" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-mail.svg (16×24) at "e-mail" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-mail.svg (16×24) at "e-mail" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-arrow-right.svg (16×24) at "kontaktformulare zum themenbereich" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-mail.svg (16×24) at "kontakt zum medical center" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-chevron-down.svg (0×0) at "fraport sites" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-chevron-down.svg (0×0) at "aktuell" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-chevron-down.svg (0×0) at "service" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-social-facebook.svg (28×28) at "facebook" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-social-instagram.svg (28×28) at "instagram" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-social-youtube.svg (28×28) at "youtube" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-social-linkedin.svg (28×28) at "linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟡 EXTRA ICON [footer]: build css icon mask:frach-icon-social-linkedin.svg (28×28) at "linkedin" has no source source. Build-only icon — confirm it is intended.
+  🟢 MISSING BODY [#main-content] accepted (stardust/replica/accepted.json): de: live XETRA quote (key-figures stock, fetched from /chartjson/ and counted up at runtime) — value differs per capture; build shows the captured 66,00 € (captureState)
+  🟢 EXTRA [#main-content] accepted (stardust/replica/accepted.json): de: captured XETRA quote 66,00 € vs the live runtime quote (dynamic data, captureState)
