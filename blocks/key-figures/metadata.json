@@ -1,0 +1,61 @@
+{
+  "variantName": "key-figures",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Highlighted key numbers with captions that count up on scroll",
+    "layout": "Centred row of large aubergine figures with captions, optionally beside a text column",
+    "notable": [
+      "Count-up animation runs on a presentational overlay",
+      "stock variant shows the live XETRA share price with trend indicator",
+      "text variant uses a first heading row as a text column"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one row per figure: value cell as displayed, then caption cell; text variant adds a first one-cell row with heading and copy",
+    "rows": "1 row per figure, 2 cells each"
+  },
+  "options": [
+    {
+      "class": "stock",
+      "label": "Stock"
+    },
+    {
+      "class": "text",
+      "label": "Text"
+    },
+    {
+      "class": "with-text",
+      "label": "With Text"
+    },
+    {
+      "class": "with-text-2",
+      "label": "With Text 2"
+    },
+    {
+      "class": "with-text-3",
+      "label": "With Text 3"
+    },
+    {
+      "class": "with-text-4",
+      "label": "With Text 4"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_b88e6935cd65",
+    "v_8434447dbdbc-2",
+    "v_ce983755f738-1",
+    "v_ce983755f738-2",
+    "v_09d53b227f6e",
+    "v_6fc9ee549b20-3",
+    "v_77617951ecf1",
+    "v_8434447dbdbc-5",
+    "v_b88e6935cd65-1"
+  ],
+  "usage": "Use to highlight a few headline numbers or the current share price.",
+  "reuseGuidance": "Fits short numeric values with brief captions; not for tables of data or long text."
+}

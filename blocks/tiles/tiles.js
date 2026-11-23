@@ -5,6 +5,8 @@
  * Authoring: one row, one cell per tile — a picture (alone in its paragraph, optionally wrapped
  * in a link), a theme paragraph, a heading link (the arrow is drawn in CSS), a text paragraph;
  * CTA paragraphs (<strong>/<em> links) become the button row. Several rows add more tiles.
+ *
+ * @variants block class: alt — the same tiles on a tinted band
  */
 
 function el(tag, className) {

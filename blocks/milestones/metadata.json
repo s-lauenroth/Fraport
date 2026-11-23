@@ -1,0 +1,27 @@
+{
+  "variantName": "milestones",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "One-at-a-time slider of text-media panels steered by a marker timeline",
+    "layout": "Ruled timeline with coloured ring markers and labels plus prev/next arrows; timeline above slides below 960px, below them from 960px",
+    "notable": [
+      "Panels alternate media left (33/66) and right (66/33)",
+      "Marker colour per slide (aubergine, orange, green; default blue)",
+      "grey variant gives a grey slide band and timeline"
+    ]
+  },
+  "contentPattern": {
+    "structure": "Each row has a label cell (heading plus optional marker colour word) and a panel cell (heading, picture, rich text, CTA links)",
+    "rows": "One row per slide, two cells"
+  },
+  "options": [
+    {
+      "class": "grey",
+      "label": "Grey"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use for a timeline or tabbed sequence of rich text-media panels",
+  "reuseGuidance": "Fits several labelled panels each with heading, image and text; not for simple image carousels or single items"
+}

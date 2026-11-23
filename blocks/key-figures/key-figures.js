@@ -9,6 +9,12 @@
  * @variants block class: stock (default none) — live XETRA quote + trend indicator;
  *   text — a first one-cell row holding a heading is the text column (headline + copy) beside
  *   the numbers (source frach-m-key-figures--has-text)
+ *   with-text, with-text-2, with-text-3, with-text-4 — as `text`, but the first one-cell row is
+ *   the text column even without a heading (copy + links beside one figure or a figure grid;
+ *   with-text-4 sets the figures as a 2-column grid)
+ *   light — tinted band, figures two per row
+ *   A row whose first cell holds only a picture uses it as the figure icon
+ *   (icon | value | caption).
  * @ew-exempt <p> stock value (cell 1 of the stock variant) — API-driven, the authored value is
  *   the no-JS fallback
  *
@@ -122,19 +128,43 @@ export default function decorate(block) {
 
   const rows = [...block.children];
   let text = null;
-  if (block.classList.contains('text') && rows[0] && rows[0].querySelector('h1, h2, h3, h4, h5, h6')) {
+  const withText = [...block.classList].some((c) => /^with-text(-\d+)?$/.test(c));
+  if (withText && rows.length > 1 && rows[0].children.length === 1
+    && !rows[0].querySelector('h1, h2, h3, h4, h5, h6')) {
+    text = el('div', 'key-figures-text');
+    text.append(...rows.shift().firstElementChild.children);
+    block.classList.add('text');
+  }
+  if (!text && (block.classList.contains('text') || withText)
+    && rows[0] && rows[0].querySelector('h1, h2, h3, h4, h5, h6')) {
+    block.classList.add('text');
     text = el('div', 'key-figures-text');
     text.append(...rows.shift().firstElementChild.children);
     const h = text.querySelector('h1, h2, h3, h4, h5, h6');
-    if (h) h.classList.add('h3');
+    if (h && !withText) h.classList.add('h3');
+  }
+  if (text && withText) {
+    // with-text copy is a source rich-text column (frach-m-text): rte headings/links, and a
+    // paragraph holding only a link reads as an arrow link, not an auto-decorated button
+    text.classList.add('rte');
+    text.querySelectorAll('p > a, p > strong > a').forEach((a) => {
+      const p = a.closest('p');
+      if (p.textContent.trim() === a.textContent.trim()) a.classList.add('key-figures-link');
+    });
   }
 
   const figures = rows.map((row) => {
     const cells = [...row.children];
+    let icon = null;
+    if (cells.length > 2 && cells[0].querySelector('picture, img') && !cells[0].textContent.trim()) {
+      icon = el('div', 'key-figures-icon');
+      icon.append(...cells.shift().childNodes);
+    }
     const valueCell = cells[0];
     const captionCell = cells.length > 1 ? cells[cells.length - 1] : null;
     if (!valueCell || !valueCell.textContent.trim()) return null;
     const fig = el('div', 'key-figures-number');
+    if (icon) fig.append(icon);
     const valueWrap = el('div', 'key-figures-value');
     const valueP = valueCell.querySelector('p') || valueCell;
     valueWrap.append(...(valueP === valueCell ? [...valueCell.childNodes] : [valueP]));

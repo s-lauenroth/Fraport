@@ -1,0 +1,153 @@
+/* video-player: 16:9 poster with a centred play button, replaced by the player on click.
+   autoplay-background: muted looping video with an overlay graphic / text. Structural only. */
+.video-player .video-player-poster,
+.video-player .video-player-frame,
+.video-player .video-player-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.video-player .video-player-poster p {
+  height: 100%;
+  margin: 0;
+}
+
+.video-player .video-player-poster picture {
+  display: block;
+  height: 100%;
+}
+
+.video-player .video-player-poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.video-player .video-player-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+/* source frach-icon-play: blue disc with a white triangle, drawn full size in the 64px link */
+.video-player .video-player-play::before {
+  content: "";
+  position: absolute;
+  inset: 34%;
+  border-radius: 50%;
+  background-color: var(--white, #fff);
+}
+
+.video-player .video-player-play::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--primary-500);
+  mask: url("/icons/play.svg") center / contain no-repeat;
+}
+
+.video-player .video-player-play:focus-visible {
+  outline: 2px solid var(--white, #fff);
+  outline-offset: 2px;
+}
+
+.video-player .video-player-toggle::after {
+  content: "";
+  position: absolute;
+  inset: 25%;
+  background-color: var(--white, #fff);
+  mask: url("/icons/play.svg") center / contain no-repeat;
+}
+
+.video-player .video-player-frame :is(iframe, video) {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-player .video-player-caption {
+  margin-top: 8px;
+}
+
+.video-player .video-player-caption > * {
+  margin: 0;
+}
+
+/* stage (source frach-m-hero--21-9 centered-video, a video alone in its section): 21:9 box.
+   From 720 (grid mq3) it sits in the column offset by 2 and runs to the right edge:
+   x 267 / w 1173 / h 503 at 1440. Offset in % of the wrapper width, same grid tokens as text. */
+.video-player-wrapper:only-child > .video-player:not(.autoplay-background) :is(.video-player-poster, .video-player-frame) {
+  aspect-ratio: 21 / 9;
+}
+
+@media (width >= 720px) {
+  /* topicwall tile (source frach-m-topicwall-first-row 16:9 tile, 6 of 8): 1080 x 608 at 1440 */
+  .video-player:not(.autoplay-background) {
+    width: 75%;
+  }
+
+  .video-player-wrapper:only-child > .video-player:not(.autoplay-background) {
+    --vp-grid: min(100% - var(--grid-outer), var(--grid-max));
+
+    width: auto;
+    margin-left: calc((100% - var(--vp-grid)) / 2 + var(--grid-pad) + (var(--vp-grid) - 2 * var(--grid-pad) + var(--gutter)) / 6);
+  }
+}
+
+/* autoplay-background */
+.video-player .video-player-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-player .video-player-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  text-align: center;
+  pointer-events: none;
+}
+
+.video-player .video-player-overlay img {
+  max-width: 100%;
+  height: auto;
+}
+
+.video-player .video-player-toggle {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 50%);
+  cursor: pointer;
+}
+
+.video-player .video-player-toggle:not(.is-paused)::after {
+  mask-image: url("/icons/pause.svg");
+}

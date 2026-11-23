@@ -1,0 +1,25 @@
+{
+  "variantName": "operating-direction",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Live runway operating direction widget with status panel and explanation",
+    "layout": "Runway graphic, coloured status panel and text column side by side from 960px; stacked below",
+    "colorScheme": "mixed",
+    "notable": [
+      "Status items: operating direction, active runway, weather category, with a 'Stand' timestamp",
+      "Optional JSON source re-renders the panel; authored values are the snapshot",
+      "A lone widget-page link is embedded as an iframe"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row: graphic cell (picture), status cell (heading per status item followed by value lines, last 'Stand …' paragraph), text cell (copy and details link); optional config row source | url",
+    "rows": "1 row, up to 3 cells"
+  },
+  "usage": "Use on airport operations pages to show the current runway operating direction.",
+  "reuseGuidance": "Built for the operating-direction feed only; use key-figures for static numbers.",
+  "options": [],
+  "memberVariantIds": [
+    "v_34f6f12817a9-13"
+  ]
+}

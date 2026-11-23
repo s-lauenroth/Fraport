@@ -1,0 +1,24 @@
+{
+  "variantName": "article-footer",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Closing bar of an article: back-to-overview link plus topic tag pills",
+    "layout": "Back link left, tag pills right-aligned in one row from 960px, ruled below; stacked on mobile",
+    "colorScheme": "light",
+    "notable": [
+      "Left arrow drawn before the back link",
+      "Tags are bordered pills"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row: a cell with the single back link, a cell with the tag links (list or paragraphs); either cell may be omitted",
+    "rows": "1 row, 1-2 cells"
+  },
+  "usage": "Use at the foot of articles and press releases to return to the overview and show the topics.",
+  "reuseGuidance": "Fits one back link plus a handful of tags; use tag-list alone when there is no back link.",
+  "options": [],
+  "memberVariantIds": [
+    "v_284fe71058fe"
+  ]
+}

@@ -85,21 +85,24 @@ export default async function decorate(block) {
   trail.forEach((crumb, i) => {
     const item = el('li', 'breadcrumb-item');
     const current = i === trail.length - 1;
-    const link = el(current ? 'span' : 'a', 'breadcrumb-link');
+    // a crumb without a target (e.g. a press release's year/quarter level) is a plain label
+    const linked = !current && !!crumb.href;
+    const link = el(linked ? 'a' : 'span', 'breadcrumb-link');
     if (current) link.setAttribute('aria-current', 'page');
-    else link.href = crumb.href;
+    else if (linked) link.href = crumb.href;
     link.append(labelOf(crumb));
     if (!current) link.append(chevron(CHEVRON_RIGHT));
     item.append(link);
     list.append(item);
   });
-  const parent = trail.length > 1 ? trail[trail.length - 2] : null;
-  if (parent) {
+  // the back link goes to the nearest ancestor crumb that has a target
+  let parentIndex = trail.length - 2;
+  while (parentIndex >= 0 && !trail[parentIndex].href) parentIndex -= 1;
+  if (parentIndex >= 0) {
     const back = el('a', 'breadcrumb-back');
-    back.href = parent.href;
+    back.href = trail[parentIndex].href;
     const label = el('span', 'breadcrumb-label');
-    label.textContent = list.querySelector('.breadcrumb-item:nth-last-child(2) .breadcrumb-label')
-      .textContent;
+    label.textContent = list.children[parentIndex].querySelector('.breadcrumb-label').textContent;
     back.append(chevron(CHEVRON_LEFT), label);
     nav.append(back);
   }

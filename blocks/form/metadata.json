@@ -1,0 +1,25 @@
+{
+  "variantName": "form",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Contact / registration form with inputs, choice groups and submit",
+    "layout": "Stacked full-width fields with floating labels, radio groups, consent text, submit bottom right; 8 of 12 columns centred from 960px",
+    "colorScheme": "light",
+    "notable": [
+      "Required marked with *",
+      "Short radio lists sit in one row",
+      "POSTs JSON to a configured action, otherwise shows the confirmation only"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row per field: Label | Type (text, email, tel, number, date, textarea, select, radio, checkbox, plaintext, submit) | Options (comma-separated) | Required; config rows action, thank-you, error",
+    "rows": "One row per field, 1-4 cells"
+  },
+  "usage": "Use for contact, order and registration forms.",
+  "reuseGuidance": "Fits forms up to ~20 fields posting to one endpoint; multi-step or conditional forms need a dedicated form solution.",
+  "options": [],
+  "memberVariantIds": [
+    "v_ef83eb842e60-1"
+  ]
+}

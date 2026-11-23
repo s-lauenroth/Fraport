@@ -1,0 +1,29 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/investoren/verkehrszahlen.html",
+  "path": "de/investoren/verkehrszahlen",
+  "timestamp": "2026-11-21T01:27:15.551Z",
+  "title": "Verkehrszahlen",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "tabs-topic",
+    "embed",
+    "cta",
+    "sticky-patch",
+    "hero",
+    "embed",
+    "embed",
+    "downloads",
+    "downloads",
+    "downloads",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/investoren/verkehrszahlen/verkehrszahlen-konzern",
+    "fragments/de/investoren/verkehrszahlen/verkehrsbericht-monat-fra",
+    "fragments/de/investoren/verkehrszahlen/statistischer-jahresbericht-engl",
+    "fragments/de/investoren/verkehrszahlen/downloads"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

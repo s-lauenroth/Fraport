@@ -1,0 +1,37 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/newsroom/videomaterial.html",
+  "path": "de/newsroom/videomaterial",
+  "timestamp": "2026-11-21T01:15:38.162Z",
+  "title": "Videomaterial",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "hero",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "tabs-topic",
+    "cta",
+    "sticky-patch",
+    "anchor-list",
+    "accordion",
+    "accordion",
+    "accordion",
+    "section-title",
+    "section-title",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/newsroom/videomaterial/luftaufnahmen",
+    "fragments/de/newsroom/videomaterial/flugzeugabfertigung",
+    "fragments/de/newsroom/videomaterial/sicherer-flugbetrieb",
+    "fragments/de/newsroom/videomaterial/flugbetrieb",
+    "fragments/de/newsroom/videomaterial/infrastruktur-terminal-3",
+    "fragments/de/newsroom/videomaterial/passagiere-intermodalitat",
+    "fragments/de/newsroom/videomaterial/nachhaltigkeit"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

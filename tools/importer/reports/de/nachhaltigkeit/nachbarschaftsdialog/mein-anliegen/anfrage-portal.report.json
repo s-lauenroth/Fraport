@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal.html",
+  "path": "de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal",
+  "timestamp": "2026-11-21T01:35:39.861Z",
+  "title": "Anfrage-Portal",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "tabs-topic",
+    "form",
+    "sticky-patch",
+    "hero",
+    "form",
+    "form",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal/fluglarm",
+    "fragments/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal/anfrage-dachsicherung",
+    "fragments/de/nachhaltigkeit/nachbarschaftsdialog/mein-anliegen/anfrage-portal/schadensmelder-wirbelschleppen"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

@@ -1,0 +1,30 @@
+{
+  "variantName": "tiles",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Linked image teaser tiles with a theme line and arrow headline",
+    "layout": "Three tiles at 4 columns each (>= 720), stacked below",
+    "notable": [
+      "Image zooms on hover and may be linked",
+      "Arrow icon drawn before the heading link",
+      "CTA paragraphs become a button row"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one cell per tile: linked picture, theme paragraph, linked heading and text paragraph",
+    "rows": "1 row with 1 cell per tile; more rows add tiles"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_34f6f12817a9-5",
+    "v_2bf997ccbd5a"
+  ],
+  "usage": "Use for a grid of three image teasers linking to topic pages.",
+  "reuseGuidance": "Fits image plus short linked headline and text per tile; not for text-only links or more than a few items per row."
+}

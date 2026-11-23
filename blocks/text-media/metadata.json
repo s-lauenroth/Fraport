@@ -1,0 +1,106 @@
+{
+  "variantName": "text-media",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Rich-text content with an optional image or gradient highlight box",
+    "layout": "Media row above the text by default; media floated left or right beside the text with left/right, at 50% (half) or 33% (third) width",
+    "notable": [
+      "Text-only media cell becomes a gradient highlight box",
+      "Leading h2/h3 becomes the row headline in floated variants",
+      "CTA paragraphs become a button row",
+      "third variant adds inline arrows to rich-text links"
+    ]
+  },
+  "contentPattern": {
+    "structure": "optional media cell (picture or short statement), then a text cell with headings, paragraphs, lists and optional CTA links",
+    "rows": "1 row with 1 or 2 cells"
+  },
+  "options": [
+    {
+      "class": "left",
+      "label": "Left"
+    },
+    {
+      "class": "right",
+      "label": "Right"
+    },
+    {
+      "class": "half",
+      "label": "Half"
+    },
+    {
+      "class": "third",
+      "label": "Third"
+    },
+    {
+      "class": "image-left",
+      "label": "Image Left"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "image-left-2",
+      "label": "Image Left 2"
+    },
+    {
+      "class": "image-left-3",
+      "label": "Image Left 3"
+    },
+    {
+      "class": "image-left-4",
+      "label": "Image Left 4"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "wide-media",
+      "label": "Wide Media"
+    },
+    {
+      "class": "quote-overlay",
+      "label": "Quote Overlay"
+    },
+    {
+      "class": "quote-overlay-2",
+      "label": "Quote Overlay 2"
+    },
+    {
+      "class": "quote-overlay-3",
+      "label": "Quote Overlay 3"
+    },
+    {
+      "class": "blue",
+      "label": "Blue"
+    },
+    {
+      "class": "quote-overlay-4",
+      "label": "Quote Overlay 4"
+    }
+  ],
+  "memberVariantIds": [
+    "v_8434447dbdbc",
+    "v_34f6f12817a9-3",
+    "v_97d9cb24dad6",
+    "v_ff86a7206b61",
+    "v_1f74b2bc013e",
+    "v_8434447dbdbc-1",
+    "v_e2a6a73a6daa",
+    "v_6fc9ee549b20-2",
+    "v_a78ecf1eeff2",
+    "v_69a1a6fda681-1",
+    "v_7a7945928d7e",
+    "v_8434447dbdbc-3",
+    "v_8434447dbdbc-6",
+    "v_8434447dbdbc-7",
+    "v_9979ff4b68de",
+    "v_de02a6934999",
+    "v_de02a6934999-1"
+  ],
+  "usage": "Use for a body text section, optionally paired with an image or highlighted statement.",
+  "reuseGuidance": "Fits one text column with at most one media item; not for multiple equal columns or repeating cards."
+}

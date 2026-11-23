@@ -1,0 +1,49 @@
+{
+  "variantName": "accordion",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Ruled expandable rows with a label and chevron toggle",
+    "layout": "Full-width ruled rows; panel content expands below the label",
+    "notable": [
+      "CSS-only toggle via a visually hidden checkbox",
+      "Blocks following the accordion in the same section form the panel of its last item, up to the next accordion",
+      "Optional anchor id per item",
+      "open variant starts items expanded"
+    ]
+  },
+  "contentPattern": {
+    "structure": "Each row has a label cell and an optional id cell (anchor id); the panel content is the blocks and default content that follow in the same section",
+    "rows": "One row per item, usually one item per block"
+  },
+  "options": [
+    {
+      "class": "open",
+      "label": "Open"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    },
+    {
+      "class": "shadow",
+      "label": "Shadow"
+    }
+  ],
+  "memberVariantIds": [
+    "v_c3d04bd63c3a",
+    "v_3eb3f2497da5",
+    "v_23351bf672d8",
+    "v_b775a130fc23",
+    "v_fdc3c64e018f",
+    "v_28f5aa28ed71",
+    "v_8a0eb41d23de",
+    "v_8d5328abdb15",
+    "v_9a458ba2f26b",
+    "v_b720813fa5ef",
+    "v_bb155e034f8f",
+    "v_fcfc14e0239c"
+  ],
+  "usage": "Use to collapse long sections of content under labelled toggles",
+  "reuseGuidance": "Fits FAQ-like or long reference content grouped under short labels; not for content that must be visible at all times"
+}

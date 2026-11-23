@@ -1,0 +1,102 @@
+/* tabs-topic (frach-m-tabbed-content + frach-m-tab-navigation): a ruled, horizontally scrolling
+   tab bar in the 10-col frame (>= 960); the active tab carries a 4px bar. The alt look on the
+   source differs only in content (fewer tabs, no overflow), so both looks share these rules. */
+.tabs-topic {
+  width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+  max-width: calc(var(--grid-max) - 2 * var(--grid-pad));
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--black);
+}
+
+.tabs-topic .tabs-topic-list {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none;
+  border-bottom: 1px solid var(--rule-color);
+}
+
+.tabs-topic .tabs-topic-list::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs-topic .tabs-topic-tab {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0 1px 0 0;
+  padding: 0 16px 12px;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--primary-500);
+  font-family: var(--ff-semibold);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: start;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.tabs-topic .tabs-topic-tab:focus-visible {
+  outline: 2px solid currentcolor;
+  outline-offset: -2px;
+}
+
+.tabs-topic .tabs-topic-tab:hover:not([aria-selected="true"]) {
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--primary-700);
+  color: var(--primary-700);
+}
+
+.tabs-topic .tabs-topic-tab[aria-selected="true"] {
+  padding-bottom: 8px;
+  border-bottom: 4px solid var(--primary-800);
+  color: var(--primary-800);
+}
+
+.tabs-topic .tabs-topic-panel {
+  padding-top: 24px;
+}
+
+.tabs-topic .tabs-topic-panel[hidden] {
+  display: none;
+}
+
+.tabs-topic .tabs-topic-panel:focus-visible {
+  outline: 2px solid var(--primary-500);
+}
+
+.tabs-topic .tabs-topic-panel > :first-child {
+  margin-top: 0;
+}
+
+/* a fragment panel brings its own sections: lay them out in the panel frame, not the page grid */
+.tabs-topic .tabs-topic-panel > .section > .default-content-wrapper {
+  width: 100%;
+  padding: 0;
+}
+
+.tabs-topic .tabs-topic-panel > .section:last-child > div:last-child {
+  margin-bottom: 0;
+}
+
+@media (width >= 960px) {
+  .tabs-topic {
+    width: calc((min(100% - var(--grid-outer), var(--grid-max)) - 2 * var(--grid-pad) + var(--gutter)) * 5 / 6 - var(--gutter));
+    max-width: none;
+  }
+
+  /* source panel: the 10-col tab column widened by 24 / 32 px a side */
+  .tabs-topic .tabs-topic-panels {
+    margin: 0 -24px;
+  }
+}
+
+@media (width >= 1280px) {
+  .tabs-topic .tabs-topic-panels {
+    margin: 0 -32px;
+  }
+}

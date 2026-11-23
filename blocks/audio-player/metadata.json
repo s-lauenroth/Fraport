@@ -1,0 +1,22 @@
+{
+  "variantName": "audio-player",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Podcast teaser with portrait image and custom audio player bar",
+    "layout": "Portrait image beside a grey panel with headline, teaser, meta line and player",
+    "notable": [
+      "Play/pause, elapsed time with scrubber, duration, mute toggle and download",
+      "Square picture for 720px and up, wide picture below; one picture serves both",
+      "Plays the linked audio file"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell: one or two pictures, a heading, a teaser heading or paragraph, a meta paragraph, and a paragraph with a link to the audio file",
+    "rows": "Single row, single cell"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use to present a single podcast or audio episode with playback controls",
+  "reuseGuidance": "Fits one audio file with image and short description; not for playlists or video"
+}

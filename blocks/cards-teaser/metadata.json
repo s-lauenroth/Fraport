@@ -1,0 +1,25 @@
+{
+  "variantName": "cards-teaser",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Teaser grid with a featured image card and text-only cards",
+    "layout": "Ruled grid, 3 columns from 960px: image cards span two rows, text cards stack two per column; sideways scrolling with arrows when the cards overflow",
+    "colorScheme": "light",
+    "notable": [
+      "Cell rules between cards",
+      "Each card ends with a 'Lesen' arrow link",
+      "Prev / next arrows only when the grid overflows"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row per card: optional picture, heading, teaser paragraph(s), a link paragraph",
+    "rows": "One row per card"
+  },
+  "usage": "Use for an overview of related topics where one teaser is featured with an image.",
+  "reuseGuidance": "Fits 3-9 short teasers; use cards for uniform image cards and tiles for equal image tiles.",
+  "options": [],
+  "memberVariantIds": [
+    "v_05abe961c10b"
+  ]
+}

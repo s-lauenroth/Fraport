@@ -1,0 +1,218 @@
+{
+  "producer": "excat-replica-adapter",
+  "source": {
+    "tool": "stardust",
+    "version": "0.41.0",
+    "flow": "replica",
+    "mode": "rollout"
+  },
+  "originUrl": "https://www.fraport.com",
+  "previewBase": "https://main--340a2135--aemcoder.aem.page/de",
+  "convertedAt": "2026-11-20T08:40:47.465Z",
+  "counts": {
+    "pages": 25,
+    "templates": 10,
+    "blockVariants": 22
+  },
+  "templateNames": {
+    "de": {
+      "name": "homepage-de",
+      "description": "German homepage with hero, teaser sliders, key figures and tiles"
+    },
+    "home": {
+      "name": "homepage-root",
+      "description": "Root homepage at the site entry URL"
+    },
+    "section-landing": {
+      "name": "section-landing",
+      "description": "Top-level section landing pages introducing a business area"
+    },
+    "feature-hub": {
+      "name": "feature-hub",
+      "description": "Topic hub pages showcasing a feature area with rich media"
+    },
+    "content-page": {
+      "name": "content-page",
+      "description": "Standard editorial content pages with text, media and related content"
+    },
+    "de-konzern": {
+      "name": "konzern-landing",
+      "description": "Group (Konzern) landing page with cards, testimonials and image gallery"
+    },
+    "de-konzern-konzernstrategie": {
+      "name": "strategy-page",
+      "description": "Corporate strategy page with text-media, accordions and CTAs"
+    },
+    "de-newsroom": {
+      "name": "newsroom-hub",
+      "description": "Newsroom hub with news feed, media embeds, audio and milestones"
+    },
+    "de-newsroom-pressemitteilung": {
+      "name": "press-release-listing",
+      "description": "Press release listing with filterable news list"
+    },
+    "news-listing": {
+      "name": "service-news-listing",
+      "description": "Service news listing page"
+    }
+  },
+  "screenshots": {
+    "capturedAt": "2026-11-20T08:42:43.634Z",
+    "pages": [
+      {
+        "slug": "www_fraport_com--0ae9e015",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/"
+      },
+      {
+        "slug": "www_fraport_com_de_geschaeftsfelder_betrieb_html--8e3c7692",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/geschaeftsfelder/betrieb"
+      },
+      {
+        "slug": "www_fraport_com_de_geschaeftsfelder_html--0cdda7f6",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/geschaeftsfelder"
+      },
+      {
+        "slug": "www_fraport_com_de_geschaeftsfelder_international-activities_html--65acd7d8",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/geschaeftsfelder/international-activities"
+      },
+      {
+        "slug": "www_fraport_com_de_geschaeftsfelder_service_html--e50cd47d",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/geschaeftsfelder/service"
+      },
+      {
+        "slug": "www_fraport_com_de_html--94fc85c3",
+        "captured": 9,
+        "total": 10,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de"
+      },
+      {
+        "slug": "www_fraport_com_de_investoren_fraport-aktie_html--c2580150",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/investoren/fraport-aktie"
+      },
+      {
+        "slug": "www_fraport_com_de_investoren_html--a359d826",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/investoren"
+      },
+      {
+        "slug": "www_fraport_com_de_investoren_publikationen-termine_html--85b3b2af",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/investoren/publikationen-termine"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_digitalisierung_html--7e98ca36",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/digitalisierung"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_html--91575ea9",
+        "captured": 5,
+        "total": 10,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_konzernstrategie_html--85f9304b",
+        "captured": 1,
+        "total": 10,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/konzernstrategie"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_managementsysteme_html--8c9eb412",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/managementsysteme"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_regionales-engagement_html--29c18dc1",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/regionales-engagement"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_ueber-uns_100jahrewieimflug_herzensmomente--fra_html--8d731139",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente-fra"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_ueber-uns_html--457617c2",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/ueber-uns"
+      },
+      {
+        "slug": "www_fraport_com_de_konzern_unsere-internationalen-flughaefen-und-beteiligungen_html--92b416b7",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen"
+      },
+      {
+        "slug": "www_fraport_com_de_nachhaltigkeit_html--0dd27a27",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/nachhaltigkeit"
+      },
+      {
+        "slug": "www_fraport_com_de_nachhaltigkeit_umwelt-und-klimaschutz_html--98df414f",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/nachhaltigkeit/umwelt-und-klimaschutz"
+      },
+      {
+        "slug": "www_fraport_com_de_nachhaltigkeit_unternehmensfuehrung_html--62e4488d",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/nachhaltigkeit/unternehmensfuehrung"
+      },
+      {
+        "slug": "www_fraport_com_de_nachhaltigkeit_wertschaffung_html--f126c759",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/nachhaltigkeit/wertschaffung"
+      },
+      {
+        "slug": "www_fraport_com_de_newsroom_ansprechpartner_html--135d3e8f",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/newsroom/ansprechpartner"
+      },
+      {
+        "slug": "www_fraport_com_de_newsroom_html--12e412d5",
+        "captured": 3,
+        "total": 17,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/newsroom"
+      },
+      {
+        "slug": "www_fraport_com_de_newsroom_pressemitteilung_html--1acd914a",
+        "captured": 1,
+        "total": 2,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/newsroom/pressemitteilung"
+      },
+      {
+        "slug": "www_fraport_com_de_newsroom_servicenews_html--b6098457",
+        "captured": 0,
+        "total": 0,
+        "url": "https://aem-20261120--fraport--s-lauenroth.aem.page/de/newsroom/servicenews"
+      }
+    ],
+    "variants": {
+      "total": 22,
+      "cropped": 19
+    }
+  }
+}

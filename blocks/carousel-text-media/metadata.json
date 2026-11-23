@@ -1,0 +1,48 @@
+{
+  "variantName": "carousel-text-media",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "One-at-a-time slider of text plus media slides (quotes with portraits, history entries, vehicles)",
+    "layout": "Image beside text in each slide, arrows at the block edges, dots below; options flip the image side, set text over a full-width photo, or show text only",
+    "colorScheme": "light",
+    "notable": [
+      "Scroll-snap track with prev / next and dots",
+      "Arrow keys switch slides",
+      "Optional heading row as carousel title"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row per slide: a media cell with a picture and a text cell (heading, quote, paragraphs, links); a first heading-only row is the title",
+    "rows": "One row per slide, 1-2 cells"
+  },
+  "usage": "Use for a sequence of quotes, history milestones or showcase items viewed one at a time.",
+  "reuseGuidance": "Fits 2-10 slides of comparable text + image; use teaser-slider for teaser cards and testimonial for a single quote.",
+  "options": [
+    {
+      "class": "full-width-photo",
+      "label": "Full Width Photo"
+    },
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "image-right",
+      "label": "Image Right"
+    },
+    {
+      "class": "image-right-2",
+      "label": "Image Right 2"
+    }
+  ],
+  "memberVariantIds": [
+    "v_ee708b959764",
+    "v_ee708b959764-1",
+    "v_1a247708433c",
+    "v_1e384a546a0a",
+    "v_de84f361bddc",
+    "v_e135b9711fde",
+    "v_fd649df992f1"
+  ]
+}

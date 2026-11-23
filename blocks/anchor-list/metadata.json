@@ -1,0 +1,32 @@
+{
+  "variantName": "anchor-list",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "In-page navigation to the sections of the current page",
+    "layout": "One ruled row of anchors (>= 960); accordion with scroll-spy label row (< 960); collapses when pinned",
+    "notable": [
+      "Targets are section ids set via Section Metadata",
+      "Scroll spy highlights the current section",
+      "rule variant adds a horizontal rule band above",
+      "numbered variant adds running numbers and scroll arrows"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one cell holding a bulleted list of in-page links to section ids",
+    "rows": "1 row, 1 cell"
+  },
+  "options": [
+    {
+      "class": "rule",
+      "label": "Rule"
+    },
+    {
+      "class": "numbered",
+      "label": "Numbered"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use on long pages to let readers jump to sections.",
+  "reuseGuidance": "Fits a list of #anchor links to sections on the same page; not for links to other pages."
+}

@@ -1,0 +1,24 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/konzern/ueber-uns/aufsichtsrat.html",
+  "path": "de/konzern/ueber-uns/aufsichtsrat",
+  "timestamp": "2026-11-21T01:32:00.466Z",
+  "title": "Aufsichtsrat",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "tabs-topic",
+    "table-data",
+    "cta",
+    "sticky-patch",
+    "hero",
+    "table-data",
+    "section-title",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/konzern/ueber-uns/aufsichtsrat/vorsitz",
+    "fragments/de/konzern/ueber-uns/aufsichtsrat/mitglieder"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

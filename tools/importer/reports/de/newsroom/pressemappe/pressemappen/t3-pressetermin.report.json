@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/newsroom/pressemappe/pressemappen/t3-pressetermin.html",
+  "path": "de/newsroom/pressemappe/pressemappen/t3-pressetermin",
+  "timestamp": "2026-11-21T01:38:57.467Z",
+  "title": "T3-Pressetermin",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "accordion",
+    "tabs-topic",
+    "cta",
+    "sticky-patch",
+    "hero",
+    "accordion",
+    "accordion",
+    "image-gallery-tiles",
+    "downloads",
+    "cards",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/newsroom/pressemappe/pressemappen/t3-pressetermin/pressemeldung",
+    "fragments/de/newsroom/pressemappe/pressemappen/t3-pressetermin/bildmaterial",
+    "fragments/de/newsroom/pressemappe/pressemappen/t3-pressetermin/videomaterial",
+    "fragments/de/newsroom/pressemappe/pressemappen/t3-pressetermin/zitate",
+    "fragments/de/newsroom/pressemappe/pressemappen/t3-pressetermin/ansprechpersonen"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

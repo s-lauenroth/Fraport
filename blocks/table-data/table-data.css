@@ -1,0 +1,71 @@
+/* table-data (frach-e-table): bordered data table in the grid column, grey-200 header row,
+   alternate row shading (every 2nd row of the table, the header row counting as the 1st);
+   scrolls sideways when wider than its column. The block spans the section; the table sits in
+   the .frach-grid container (outer width less padding), as the source. */
+.table-data .table-data-scroll {
+  width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+  max-width: calc(var(--grid-max) - 2 * var(--grid-pad));
+  margin: 0 auto;
+  overflow-x: auto;
+}
+
+.table-data .table-data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-data .table-data-table :is(th, td) {
+  padding: 16px;
+  border: 1px solid var(--grey-300);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--text-color);
+  text-align: left;
+  vertical-align: top;
+}
+
+.table-data .table-data-table th {
+  background: var(--grey-200);
+  font-family: var(--ff-semibold);
+  color: var(--grey-800);
+}
+
+.table-data .table-data-table thead + tbody tr:nth-child(odd),
+.table-data .table-data-table tbody:first-child tr:nth-child(even) {
+  background: var(--grey-050);
+}
+
+/* source cells set bold as the regular face at weight 700 */
+.table-data .table-data-table td :is(strong, b) {
+  font-family: var(--ff-regular);
+  font-weight: 700;
+}
+
+.table-data .table-data-table :is(th, td) p {
+  margin: 0;
+}
+
+/* side-by-side: a .frach-grid row of 6/12 columns (stacked below 720), each holding its own
+   nested .frach-grid with the table and the component margin below it */
+.table-data .table-data-group {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+  max-width: calc(var(--grid-max) - 2 * var(--grid-pad));
+  margin: 0 auto;
+}
+
+.table-data .table-data-group > .table-data-scroll {
+  width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+  max-width: none;
+  margin-bottom: var(--component-margin);
+}
+
+@media (width >= 720px) {
+  .table-data .table-data-group {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--gutter);
+  }
+}

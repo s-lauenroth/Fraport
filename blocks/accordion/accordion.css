@@ -5,6 +5,20 @@ main > .section > .accordion-wrapper:has(+ .accordion-wrapper) {
   margin-bottom: 0;
 }
 
+/* an accordion without items (empty label rows only) renders nothing */
+main > .section > .accordion-wrapper:has(> .accordion:empty) {
+  display: none;
+}
+
+/* the block is the grid column (source .frach-m-accordion__section in frach-grid-col-mq1-12
+   mq4-10 offset-mq4-1): the .container width less its padding, 10 of 12 cols centred >= 960 */
+.accordion {
+  width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+  max-width: calc(var(--grid-max) - 2 * var(--grid-pad));
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .accordion .accordion-list {
   display: flex;
   flex-direction: column;
@@ -105,6 +119,15 @@ main > .section > .accordion-wrapper:has(+ .accordion-wrapper) {
   margin-bottom: var(--component-margin);
 }
 
+/* adopted default content: the .container geometry it has at section level, so its text lines
+   up with the label column inside the bleeding panel */
+.accordion .accordion-inner > .default-content-wrapper {
+  width: calc(100% - var(--grid-outer));
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 var(--grid-pad);
+}
+
 .accordion .accordion-inner > :first-child > :first-child {
   padding-top: 8px;
 }
@@ -121,10 +144,9 @@ main > .section > .accordion-wrapper:has(+ .accordion-wrapper) {
 }
 
 @media (width >= 960px) {
-  .accordion .row > .accordion-col {
-    flex-basis: calc(83.3333% - var(--gutter));
-    max-width: calc(83.3333% - var(--gutter));
-    margin-left: calc(8.3333% + var(--gutter) / 2);
+  .accordion {
+    width: calc((min(100% - var(--grid-outer), var(--grid-max)) - 2 * var(--grid-pad) + var(--gutter)) * 5 / 6 - var(--gutter));
+    max-width: none;
   }
 }
 
@@ -143,4 +165,24 @@ main > .section > .accordion-wrapper:has(+ .accordion-wrapper) {
     max-width: 83.3333%;
     margin-left: 8.3333%;
   }
+}
+
+/* option: grey — panel holding a downloads list; panel content sits on a grey band */
+.accordion.grey .accordion-inner {
+  background: var(--grey-050);
+}
+
+.accordion.grey .accordion-inner > * {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* option: shadow — panel holding contact cards; adopted cards are raised */
+.accordion.shadow .accordion-inner {
+  padding: 8px 16px 16px;
+}
+
+.accordion.shadow .accordion-inner :is(.contact-list, .cards) > div > div,
+.accordion.shadow .accordion-inner :is(.contact-list, .cards) li {
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
 }

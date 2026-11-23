@@ -1,0 +1,27 @@
+{
+  "variantName": "embed",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Third-party iframe players such as YouTube videos or a walls.io social wall",
+    "layout": "One row of columns; 2 cells become halves, 3 become thirds; wall is full width",
+    "notable": [
+      "A cell with only a link becomes an iframe (href is the src, link text is the title)",
+      "Other cells render as rich text with buttons",
+      "wall variant renders an 800px tall scrolling social wall"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row with one cell per column; a cell holding only a link becomes a player, any other cell stays rich text",
+    "rows": "Single row, one or more cells"
+  },
+  "options": [
+    {
+      "class": "wall",
+      "label": "Wall"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to embed YouTube videos or a social wall from an external URL",
+  "reuseGuidance": "Fits iframe-embeddable third-party URLs; not for self-hosted media files or audio"
+}

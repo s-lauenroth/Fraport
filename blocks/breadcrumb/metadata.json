@@ -1,0 +1,23 @@
+{
+  "variantName": "breadcrumb",
+  "baseBlock": "breadcrumb",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Breadcrumb trail showing the current page position in the site hierarchy",
+    "layout": "White bar between header and main; full trail with chevrons (>= 720), single back link (< 720)",
+    "notable": [
+      "Trail generated from URL ancestors using fetched page titles",
+      "Authored list of links replaces the generated trail",
+      "Moved outside main above the content",
+      "Current page grey and inert"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one placeholder cell, or optionally a list of links whose last item is the current page",
+    "rows": "1 row, 1 cell"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use at the top of every subpage to show the hierarchy path.",
+  "reuseGuidance": "Fits pages within the site hierarchy; not for the homepage or in-page navigation."
+}

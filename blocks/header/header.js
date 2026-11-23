@@ -1,15 +1,14 @@
-import { getMetadata } from '../../scripts/aem.js';
-import { loadFragment } from '../fragment/fragment.js';
-
 /*
- * Fraport header (frach-m-sticky-page-header-container), template-slotted.
- * /nav document contract (default content, three sections):
- *   1. brand: one paragraph with the home link (logo slot)
- *   2. main navigation: optional home paragraph, then one nested list
- *      (level 1 > level 2 > level 3; a level-2 item may carry a description paragraph)
- *   3. tools: one list, in order: search link, International (label + list),
- *      career link, language (label + list)
- * Authored nodes are MOVED into the template's empty slots, never copied.
+ * Header: sticky two-row header with click megamenus (desktop >= 1280px) and a
+ * slide-in drill-down drawer (mobile). All copy, links and images come from the nav
+ * fragment (content/nav.plain.html locally, /nav.plain.html on DA/EDS). Sections:
+ *   1. brand: one paragraph with the home link + logo image
+ *   2. main navigation: optional home-link paragraph, then a nested list
+ *      (level 1 > level 2 > level 3); a level-2 parent may carry description paragraphs
+ *   3. teasers: one heading + list of cards (image, headline link, more link) per
+ *      level-1 item, in the same order as the main navigation
+ *   4. tools: one list of search link, dropdowns (label + list) and direct links
+ * This file only builds controls (buttons, form) and behaviour around that content.
  */
 
 const DESKTOP = window.matchMedia('(width >= 1280px)');
@@ -22,7 +21,13 @@ const I18N = {
     menu: 'Menu', close: 'Close', search: 'Search', reset: 'Clear input', nav: 'Main navigation',
   },
 };
-const t = (key) => (I18N[document.documentElement.lang] || I18N.de)[key];
+const t = (key) => (I18N[(document.documentElement.lang || 'de').slice(0, 2)] || I18N.de)[key];
+
+let uid = 0;
+const nextId = (prefix) => {
+  uid += 1;
+  return `${prefix}-${uid}`;
+};
 
 function el(tag, attrs = {}, ...children) {
   const e = document.createElement(tag);
@@ -32,308 +37,438 @@ function el(tag, attrs = {}, ...children) {
 }
 
 const icon = (name) => el('span', { class: `icon icon-${name}`, 'aria-hidden': 'true' });
-const linkOf = (li) => li.querySelector(':scope > a, :scope > p > a');
-const listOf = (li) => li.querySelector(':scope > ul');
-const labelOf = (li) => li.querySelector(':scope > p') || li.firstChild;
 
-let uid = 0;
-const nextId = (prefix) => {
-  uid += 1;
-  return `${prefix}-${uid}`;
-};
-
-function lockScroll(on) {
-  document.body.classList.toggle('header-scroll-lock', on);
+/** fetches the nav fragment: /content first (local preview), then the site root (DA/EDS) */
+async function fetchNav() {
+  let resp = await fetch('/content/nav.plain.html');
+  if (!resp.ok) resp = await fetch('/nav.plain.html');
+  if (!resp.ok) return null;
+  const frag = document.createElement('div');
+  frag.innerHTML = await resp.text();
+  // relative image paths are relative to the fragment, not to the current page
+  frag.querySelectorAll('img[src]').forEach((img) => {
+    const src = img.getAttribute('src');
+    if (!/^([a-z]+:|\/)/i.test(src)) img.src = new URL(src, resp.url).href;
+  });
+  return frag;
 }
 
-/** closes every open control inside the header except `except` */
-function closeAll(host, except) {
-  host.querySelectorAll('[aria-expanded="true"]').forEach((b) => {
-    if (b === except) return;
-    const li = b.closest('li');
-    if (except && li && li.contains(except)) return;
-    b.setAttribute('aria-expanded', 'false');
-  });
-  host.querySelectorAll('[data-active]').forEach((li) => {
-    if (!except || !li.contains(except)) li.removeAttribute('data-active');
-  });
-  host.classList.remove('is-searching');
-  const lock = host.querySelector('.header-menu-btn[aria-expanded="true"], .header-menu > ul > li > a[aria-expanded="true"]');
-  lockScroll(!!lock);
+/* ------------------------------------------------------------------ state helpers */
+
+function setExpanded(btn, open) {
+  if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
 }
 
-/** level-2 items: move descriptions into a panel, wire level-3 toggles */
-function decorateLevel2(li) {
-  const link = linkOf(li);
-  if (!link) return;
-  const descs = [...li.querySelectorAll(':scope > p')].filter((p) => !p.contains(link));
-  if (descs.length) {
-    const panel = el('div', { class: 'header-panel' });
-    panel.dataset.title = link.textContent.trim();
-    panel.append(...descs);
-    li.append(panel);
-  }
-  const sub = listOf(li);
-  if (sub) {
-    sub.id = nextId('header-sub');
-    link.setAttribute('aria-expanded', 'false');
-    link.setAttribute('aria-controls', sub.id);
+function closeMeta(nav, except) {
+  nav.querySelectorAll('.nav-meta-toggle[aria-expanded="true"]').forEach((b) => {
+    if (b !== except) setExpanded(b, false);
+  });
+}
+
+function closeL2(panel) {
+  panel.querySelectorAll('.nav-l2 > li > a[aria-expanded="true"]').forEach((a) => setExpanded(a, false));
+  panel.classList.remove('has-l3');
+}
+
+function closeMegamenus(nav, except) {
+  nav.querySelectorAll('.nav-l1 > li > a[aria-expanded="true"]').forEach((a) => {
+    if (a === except) return;
+    setExpanded(a, false);
+    const panel = a.parentElement.querySelector('.nav-panel');
+    if (panel) closeL2(panel);
+  });
+  if (!except) nav.classList.remove('is-megamenu-open');
+}
+
+function closeSearch(nav) {
+  nav.classList.remove('is-searching');
+  setExpanded(nav.querySelector('.nav-search-toggle'), false);
+}
+
+function closeAll(nav) {
+  closeMegamenus(nav);
+  closeMeta(nav);
+  closeSearch(nav);
+}
+
+/* ------------------------------------------------------------------ builders */
+
+/**
+ * level-2 / level-3 lists: a back button (labelled with the list one level up, as on the
+ * source), parents get a chevron, their child list and a description box
+ */
+function decorateSubList(ul, level, backLabel, ownerLabel) {
+  ul.classList.add(`nav-l${level}`);
+  const back = el('li', { class: 'nav-back' });
+  const backBtn = el('button', { type: 'button', class: 'nav-back-btn' }, icon('chevron-left'), backLabel);
+  back.append(backBtn);
+  ul.prepend(back);
+  [...ul.children].forEach((li, i) => {
+    if (li === back) return;
+    const link = li.querySelector(':scope > a');
+    if (!link) return;
+    if (i === 1) link.classList.add('nav-overview');
+    const sub = li.querySelector(':scope > ul');
+    if (!sub) return;
+    li.classList.add('has-children');
+    const id = nextId('nav-sub');
     link.setAttribute('role', 'button');
+    link.setAttribute('aria-expanded', 'false');
+    link.setAttribute('aria-controls', id);
     link.append(icon('chevron-right'));
+    sub.id = id;
+    decorateSubList(sub, level + 1, ownerLabel, link.textContent.trim());
+    const paras = [...li.querySelectorAll(':scope > p')];
+    if (paras.length) {
+      const desc = el('div', { class: 'nav-desc' }, el('p', { class: 'nav-desc-title' }, link.textContent.trim()));
+      paras.forEach((p) => desc.append(p));
+      li.append(desc);
+    }
+  });
+}
+
+/** teaser cards: p(img) + p(headline link) + p(more link) per list item */
+function decorateTeasers(ul) {
+  ul.classList.add('nav-teasers');
+  [...ul.children].forEach((li) => {
+    li.classList.add('nav-teaser');
+    const [media, headline, more] = li.querySelectorAll(':scope > p');
+    media?.classList.add('nav-teaser-media');
+    media?.querySelectorAll('img').forEach((img) => {
+      img.loading = 'lazy';
+      img.width = 960;
+      img.height = 540;
+    });
+    headline?.classList.add('nav-teaser-headline');
+    if (more) {
+      more.classList.add('nav-teaser-more');
+      more.querySelector('a')?.append(icon('arrow-right'));
+    }
+    // the image is a link target too (as on the source card)
+    const href = headline?.querySelector('a')?.getAttribute('href');
+    if (media && href && !media.querySelector('a')) {
+      const a = el('a', { href, tabindex: '-1', 'aria-hidden': 'true' });
+      a.append(...media.childNodes);
+      media.append(a);
+    }
+  });
+}
+
+function buildMegamenu(nav, li, teaserGroup) {
+  const trigger = li.querySelector(':scope > a');
+  const l2 = li.querySelector(':scope > ul');
+  if (!trigger || !l2) return;
+  li.classList.add('nav-l1-parent');
+  const panelId = nextId('nav-panel');
+  trigger.setAttribute('role', 'button');
+  trigger.setAttribute('aria-expanded', 'false');
+  trigger.setAttribute('aria-controls', panelId);
+  trigger.append(icon('chevron-right'));
+
+  decorateSubList(l2, 2, t('menu'), trigger.textContent.trim());
+  const panel = el('div', { class: 'nav-panel', id: panelId });
+  const content = el('div', { class: 'nav-panel-content' });
+  if (teaserGroup) {
+    const { heading, list } = teaserGroup;
+    heading.classList.add('nav-panel-title');
+    content.append(heading);
+    if (list) {
+      decorateTeasers(list);
+      content.append(list);
+    }
   }
+  const close = el('button', { type: 'button', class: 'nav-panel-close' }, icon('close'), t('close'));
+  close.addEventListener('click', () => closeAll(nav));
+  panel.append(el('span', { class: 'nav-panel-bg', 'aria-hidden': 'true' }), l2, content, close);
+  li.append(panel);
+
+  trigger.addEventListener('click', (e) => {
+    e.preventDefault();
+    const open = trigger.getAttribute('aria-expanded') !== 'true';
+    closeMeta(nav);
+    closeSearch(nav);
+    closeMegamenus(nav, trigger);
+    setExpanded(trigger, open);
+    if (!open) closeL2(panel);
+    nav.classList.toggle('is-megamenu-open', open);
+  });
+
+  // level-2/3 parents toggle their child list (desktop: next column; mobile: slide-in)
+  panel.querySelectorAll('li.has-children > a').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const open = a.getAttribute('aria-expanded') !== 'true';
+      a.closest('ul').querySelectorAll(':scope > li > a[aria-expanded="true"]').forEach((x) => setExpanded(x, false));
+      setExpanded(a, open);
+      panel.classList.toggle('has-l3', !!panel.querySelector('.nav-l2 > li > a[aria-expanded="true"]'));
+    });
+  });
+
+  // back buttons close the list they belong to (mobile drill-down)
+  panel.querySelectorAll('.nav-back-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const ul = btn.closest('ul');
+      const owner = ul.parentElement.closest('li');
+      const ownerLink = owner?.querySelector(':scope > a');
+      setExpanded(ownerLink, false);
+      if (ul.classList.contains('nav-l2')) {
+        nav.classList.remove('is-megamenu-open');
+        closeL2(panel);
+      } else {
+        panel.classList.toggle('has-l3', !!panel.querySelector('.nav-l2 > li > a[aria-expanded="true"]'));
+      }
+    });
+  });
 }
 
-/** level-1 items: flyout template around the authored level-2 list */
-function decorateLevel1(li, host) {
-  const link = linkOf(li);
-  const sub = listOf(li);
-  if (!link || !sub) return;
-  const flyout = el('div', { class: 'header-flyout', id: nextId('header-flyout') });
-  const inner = el('div', { class: 'header-flyout-inner' });
-  const close = el('button', { type: 'button', class: 'header-flyout-close' }, icon('close'), t('close'));
-  close.addEventListener('click', () => {
-    closeAll(host);
-    link.focus();
-  });
-  inner.append(sub, close);
-  flyout.append(inner);
-  li.append(flyout);
-  link.setAttribute('aria-expanded', 'false');
-  link.setAttribute('aria-controls', flyout.id);
-  link.setAttribute('role', 'button');
-  link.append(icon('chevron-right'));
-  [...sub.children].forEach((child) => decorateLevel2(child));
-}
-
-/** a tools-list item with a label + list becomes a meta dropdown */
-function metaDropdown(li, modifier, iconName) {
-  if (!li) return null;
-  const list = listOf(li);
-  const label = labelOf(li);
-  if (!list) return null;
-  const wrap = el('div', { class: `header-meta-wrap header-meta-wrap-${modifier}` });
-  const btn = el('button', {
-    type: 'button',
-    class: `header-meta-btn header-meta-btn-${modifier}`,
-    'aria-expanded': 'false',
-  });
-  const text = el('span', { class: 'header-meta-label' });
-  if (label) text.append(label);
-  if (modifier === 'language') btn.append(icon(iconName), icon('close'), text);
-  else btn.append(text, icon(iconName));
-  list.id = nextId('header-dd');
-  btn.setAttribute('aria-controls', list.id);
-  const dd = el('div', { class: 'header-dropdown' });
-  dd.append(list);
-  wrap.append(btn, dd);
+function buildMain(nav, section, teaserSection) {
+  const wrap = el('div', { class: 'nav-sections' });
+  const home = section.querySelector(':scope > p');
+  if (home) {
+    home.classList.add('nav-home');
+    wrap.append(home);
+  }
+  const ul = section.querySelector(':scope > ul');
+  if (!ul) return wrap;
+  ul.classList.add('nav-l1');
+  const groups = [];
+  if (teaserSection) {
+    [...teaserSection.querySelectorAll(':scope > h1, :scope > h2, :scope > h3')].forEach((h) => {
+      const next = h.nextElementSibling;
+      groups.push({ heading: h, list: next && next.tagName === 'UL' ? next : null });
+    });
+  }
+  [...ul.children].forEach((li, i) => buildMegamenu(nav, li, groups[i]));
+  wrap.append(ul);
   return wrap;
 }
 
-/** header scroll morph: same states/thresholds as the source (100 ms throttle) */
-function initScroll(host) {
-  let last = window.scrollY;
-  let busy = false;
-  const add = (c) => host.classList.add(c);
-  const rm = (c) => host.classList.remove(c);
-  const onScroll = () => {
-    if (document.body.classList.contains('header-scroll-lock')) return;
-    const y = window.scrollY;
-    if (last < y) {
-      rm('is-visible');
-      if (y > host.offsetHeight) {
-        add('is-sticky');
-        setTimeout(() => add('is-animating'), 50);
-      } else rm('is-sticky');
-    } else {
-      add('is-collapsed');
-      add('is-visible');
-      add('is-sticky');
-      if (y <= host.offsetHeight) rm('is-animating');
-      if (last < 10) rm('is-collapsed');
+/** tools list: search link -> search toggle + form; label + list -> dropdown; link -> direct */
+function buildTools(nav, section) {
+  const meta = el('div', { class: 'nav-meta' });
+  let search = null;
+  const ul = section?.querySelector('ul');
+  if (!ul) return { meta, search };
+  [...ul.children].forEach((li) => {
+    const sub = li.querySelector(':scope > ul');
+    const link = li.querySelector(':scope > a');
+    if (!sub && link && /search|suche/i.test(`${link.getAttribute('href')} ${link.textContent}`)) {
+      search = { href: link.getAttribute('href'), label: link.textContent.trim() };
+      return;
     }
-    last = y;
-  };
-  window.addEventListener('scroll', () => {
-    if (busy) return;
-    busy = true;
-    setTimeout(() => {
-      busy = false;
-      onScroll();
-    }, 100);
-  }, { passive: true });
+    const item = el('div', { class: 'nav-meta-item' });
+    if (sub) {
+      const label = (li.querySelector(':scope > p') || li.firstChild)?.textContent.trim() || '';
+      const isLanguage = [...sub.querySelectorAll('a')].every((a) => {
+        try {
+          return /^\/[a-z]{2}(\.html)?\/?$/.test(new URL(a.href, window.location.href).pathname);
+        } catch (e) {
+          return false;
+        }
+      });
+      const id = nextId('nav-meta');
+      const btn = el('button', {
+        type: 'button', class: 'nav-meta-toggle', 'aria-expanded': 'false', 'aria-controls': id,
+      });
+      btn.append(el('span', { class: 'nav-meta-label' }, label));
+      if (isLanguage) {
+        item.classList.add('nav-meta-language');
+        btn.prepend(icon('globe'));
+        btn.append(icon('close'));
+      } else {
+        btn.append(icon('chevron-down'));
+      }
+      // as on the source, each dropdown list is its own navigation landmark
+      const menu = el('nav', { class: 'nav-meta-list', id, 'aria-label': label });
+      menu.append(sub);
+      btn.addEventListener('click', () => {
+        const open = btn.getAttribute('aria-expanded') !== 'true';
+        closeMegamenus(nav);
+        closeSearch(nav);
+        closeMeta(nav, btn);
+        setExpanded(btn, open);
+      });
+      if (!isLanguage) {
+        // mobile: the dropdown is a drill-down panel with a back button
+        const back = el('li', { class: 'nav-back' });
+        const backBtn = el('button', { type: 'button', class: 'nav-back-btn' }, icon('chevron-left'), t('menu'));
+        backBtn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          setExpanded(btn, false);
+        });
+        back.append(backBtn);
+        sub.prepend(back);
+      }
+      item.append(btn, menu);
+    } else if (link) {
+      item.classList.add('nav-meta-direct');
+      if (/karriere|career|jobs/i.test(`${link.textContent} ${link.href}`)) link.prepend(icon('career'));
+      item.append(link);
+    }
+    meta.append(item);
+  });
+  return { meta, search };
 }
 
-function buildSearch(searchLink, host) {
-  const action = searchLink ? searchLink.href : '/search';
-  const label = searchLink ? searchLink.textContent.trim() : t('search');
-  const form = el('form', {
-    class: 'header-search-form', action, method: 'get', role: 'search', id: nextId('header-search'),
-  });
+function buildSearch(nav, search) {
+  const toggle = el('button', {
+    type: 'button', class: 'nav-search-toggle', 'aria-expanded': 'false', 'aria-label': search.label,
+  }, icon('search'));
+  const id = nextId('nav-search');
   const input = el('input', {
-    type: 'search', name: 'q', autocomplete: 'off', 'aria-label': label,
+    type: 'search', name: 'q', id, autocomplete: 'off', 'aria-label': search.label,
   });
-  const reset = el('button', { type: 'button', class: 'header-search-reset', 'aria-label': t('reset') }, icon('close'));
-  const submit = el('button', { type: 'submit', class: 'header-search-submit', 'aria-label': label }, icon('search'));
+  const reset = el('button', { type: 'button', class: 'nav-search-reset', 'aria-label': t('reset') }, icon('close'));
+  const submit = el('button', { type: 'submit', class: 'nav-search-submit', 'aria-label': search.label }, icon('search'));
+  const form = el('form', {
+    class: 'nav-search', action: search.href, method: 'get', role: 'search',
+  }, input, reset, submit);
+  toggle.setAttribute('aria-controls', id);
+  toggle.addEventListener('click', () => {
+    const open = !nav.classList.contains('is-searching');
+    closeMegamenus(nav);
+    closeMeta(nav);
+    nav.classList.toggle('is-searching', open);
+    setExpanded(toggle, open);
+    if (open) input.focus();
+  });
   reset.addEventListener('click', () => {
     if (input.value) {
       input.value = '';
       input.focus();
-    } else closeAll(host);
+    } else {
+      closeSearch(nav);
+      toggle.focus();
+    }
   });
-  form.append(input, reset, submit);
-  return form;
+  return { toggle, form };
 }
+
+/* ------------------------------------------------------------------ sticky header */
+
+function initSticky(block, nav) {
+  let lastY = window.scrollY;
+  let ticking = false;
+  const update = () => {
+    ticking = false;
+    const y = window.scrollY;
+    const threshold = block.offsetHeight || 153;
+    const busy = nav.classList.contains('is-megamenu-open') || nav.classList.contains('is-searching')
+      || nav.getAttribute('aria-expanded') === 'true'
+      || !!nav.querySelector('.nav-meta-toggle[aria-expanded="true"]');
+    if (y <= 0) {
+      block.classList.remove('is-hidden', 'is-collapsed');
+    } else if (!busy && y > lastY && y > threshold) {
+      block.classList.add('is-hidden');
+    } else if (y < lastY) {
+      block.classList.remove('is-hidden');
+      block.classList.toggle('is-collapsed', y > threshold);
+    }
+    lastY = y;
+  };
+  window.addEventListener('scroll', () => {
+    if (!ticking) {
+      ticking = true;
+      window.requestAnimationFrame(update);
+    }
+  }, { passive: true });
+}
+
+/* ------------------------------------------------------------------ block */
 
 /**
  * loads and decorates the header
  * @param {Element} block The header block element
  */
 export default async function decorate(block) {
-  const navMeta = getMetadata('nav');
-  const navPath = navMeta ? new URL(navMeta, window.location).pathname : '/nav';
-  const fragment = await loadFragment(navPath);
-  if (!fragment) return;
-  const host = block.closest('header') || block;
-  const sections = [...fragment.querySelectorAll(':scope > .section')];
-  const [brandSec, navSec, toolsSec] = sections;
-
-  // template: empty slots
-  const logo = el('div', { class: 'header-logo' });
-  const meta = el('div', { class: 'header-meta' });
-  const menuBtn = el('button', {
-    type: 'button', class: 'header-menu-btn', 'aria-expanded': 'false', 'aria-label': t('menu'),
-  }, icon('burger'), icon('close'));
-  const menu = el('nav', { class: 'header-menu', 'aria-label': t('nav'), id: nextId('header-menu') });
-  menuBtn.setAttribute('aria-controls', menu.id);
-  const home = el('div', { class: 'header-home' });
-  const drawerMeta = el('div', { class: 'header-drawer-meta' });
-  const searchSlot = el('div', { class: 'header-search-slot' });
-  const nav = el('div', { class: 'header-nav' }, menuBtn, menu, searchSlot);
-  const inner = el('div', { class: 'header-inner' }, logo, meta, nav);
-  const bar = el('div', { class: 'header-bar' }, el('div', { class: 'container' }, inner));
-
-  // 1. brand
-  const brandLink = brandSec?.querySelector('a');
-  if (brandLink) logo.append(brandLink.closest('p') || brandLink);
-
-  // 2. main navigation
-  const mainList = navSec?.querySelector('ul');
-  const homeP = navSec?.querySelector('.default-content-wrapper > p');
-  if (homeP) home.append(homeP);
-  menu.append(home);
-  if (mainList) {
-    menu.append(mainList);
-    [...mainList.children].forEach((li) => decorateLevel1(li, host));
-  }
-  menu.append(drawerMeta);
-
-  // 3. tools: search, international, career, language
-  const toolItems = [...(toolsSec?.querySelector('ul')?.children || [])];
-  const searchLi = toolItems.find((li) => !listOf(li) && toolItems.indexOf(li) === 0);
-  const searchLink = searchLi ? linkOf(searchLi) : null;
-  const dropdownItems = toolItems.filter((li) => listOf(li));
-  const careerLi = toolItems.find((li) => li !== searchLi && !listOf(li));
-  const international = metaDropdown(dropdownItems[0], 'international', 'chevron-down');
-  const language = metaDropdown(dropdownItems[1], 'language', 'globe');
-  const career = el('div', { class: 'header-career' });
-  const careerLink = careerLi ? linkOf(careerLi) : null;
-  if (careerLink) {
-    careerLink.prepend(icon('career'));
-    career.append(careerLink.closest('p') || careerLink);
-  }
-
-  const searchMetaBtn = el('button', {
-    type: 'button', class: 'header-meta-btn header-search-btn header-search-btn-meta', 'aria-expanded': 'false',
-  }, icon('search'));
-  if (searchLink) {
-    searchLink.classList.add('header-search-btn');
-    searchLink.setAttribute('aria-expanded', 'false');
-    searchLink.setAttribute('role', 'button');
-    searchLink.prepend(icon('search'));
-    searchSlot.append(searchLink.closest('p') || searchLink);
-    searchMetaBtn.setAttribute('aria-label', searchLink.textContent.trim());
-  } else searchMetaBtn.setAttribute('aria-label', t('search'));
-  const form = buildSearch(searchLink, host);
-  searchMetaBtn.setAttribute('aria-controls', form.id);
-  if (searchLink) searchLink.setAttribute('aria-controls', form.id);
-  inner.append(form);
-
-  meta.append(el('div', { class: 'header-notifications', 'aria-hidden': 'true' }), searchMetaBtn);
-  if (language) language.dataset.slot = 'language';
-
-  // International + career live in the meta bar on desktop, in the drawer below 1280
-  const placeMeta = () => {
-    const target = DESKTOP.matches ? meta : drawerMeta;
-    [international, career].forEach((node) => {
-      if (node) target.append(node);
-    });
-    if (language) meta.append(language);
-    closeAll(host);
-  };
-  placeMeta();
-  DESKTOP.addEventListener('change', placeMeta);
-
+  const frag = await fetchNav();
   block.textContent = '';
-  block.append(bar);
+  if (!frag) return;
+  const sections = [...frag.children].filter((c) => c.tagName === 'DIV');
+  const [brandSection, mainSection, teaserSection, toolsSection] = sections;
 
-  // interactions
-  const toggle = (btn) => {
-    const open = btn.getAttribute('aria-expanded') !== 'true';
-    const isMenuBtn = btn === menuBtn;
-    const inDrawer = !DESKTOP.matches && menu.contains(btn);
-    if (!isMenuBtn && !inDrawer) closeAll(host, btn);
-    if (inDrawer && !isMenuBtn) {
-      // accordion inside the mobile drawer: close siblings only
-      btn.closest('ul').querySelectorAll(':scope > li > a[aria-expanded="true"], :scope > li > p > a[aria-expanded="true"]')
-        .forEach((b) => { if (b !== btn) b.setAttribute('aria-expanded', 'false'); });
-    }
-    if (isMenuBtn && !open) closeAll(host);
-    btn.setAttribute('aria-expanded', String(open));
-    return open;
-  };
+  const nav = el('nav', { id: 'nav', 'aria-label': t('nav'), 'aria-expanded': 'false' });
 
-  block.addEventListener('click', (e) => {
-    const btn = e.target.closest('.header-menu-btn, .header-meta-wrap > button, .header-search-btn, .header-menu a[aria-expanded]');
-    if (!btn || !block.contains(btn)) return;
-    e.preventDefault();
-    const open = toggle(btn);
-    if (btn.classList.contains('header-search-btn')) {
-      host.classList.toggle('is-searching', open);
-      if (open) form.querySelector('input').focus();
-      return;
+  const brand = el('div', { class: 'nav-brand' });
+  const brandLink = brandSection?.querySelector('a');
+  if (brandLink) {
+    brandLink.classList.add('nav-logo');
+    const img = brandLink.querySelector('img');
+    if (img) {
+      img.loading = 'eager';
+      img.width = 160;
+      img.height = 69;
+      // the home label is announced by a visually hidden text (source: "Startseite")
+      const home = mainSection?.querySelector(':scope > p a');
+      if (home) brandLink.append(el('span', { class: 'nav-visually-hidden' }, home.textContent.trim()));
     }
-    const li = btn.closest('li');
-    if (li && menu.contains(li)) {
-      if (open) li.dataset.active = '';
-      else li.removeAttribute('data-active');
-    }
-    const level1Open = menu.querySelector(':scope > ul > li > a[aria-expanded="true"], :scope > ul > li > p > a[aria-expanded="true"]');
-    const drawerOpen = menuBtn.getAttribute('aria-expanded') === 'true';
-    const langOpen = !DESKTOP.matches && language?.querySelector('button[aria-expanded="true"]');
-    lockScroll(!!(drawerOpen || (DESKTOP.matches && level1Open) || langOpen));
+    brand.append(brandLink);
+  }
+
+  const { meta, search } = buildTools(nav, toolsSection);
+  const sectionsEl = buildMain(nav, mainSection || el('div'), teaserSection);
+
+  const tools = el('div', { class: 'nav-tools' });
+  let searchForm = null;
+  if (search) {
+    const s = buildSearch(nav, search);
+    tools.append(s.toggle);
+    searchForm = s.form;
+  }
+  const hamburger = el('button', {
+    type: 'button', class: 'nav-hamburger', 'aria-controls': 'nav', 'aria-label': t('menu'),
+  }, icon('burger'), icon('close'));
+  hamburger.addEventListener('click', () => {
+    const open = nav.getAttribute('aria-expanded') !== 'true';
+    closeAll(nav);
+    nav.setAttribute('aria-expanded', open ? 'true' : 'false');
+    hamburger.setAttribute('aria-label', open ? t('close') : t('menu'));
+    document.body.classList.toggle('nav-scroll-lock', open && !DESKTOP.matches);
   });
+  tools.append(hamburger);
 
-  // desktop: hovering a level-2 leaf previews its description panel
-  menu.addEventListener('mouseover', (e) => {
-    if (!DESKTOP.matches) return;
-    const li = e.target.closest('.header-flyout-inner > ul > li');
-    if (!li) return;
-    li.parentElement.querySelectorAll(':scope > li[data-preview]').forEach((x) => x.removeAttribute('data-preview'));
-    li.dataset.preview = '';
-  });
+  const drawer = el('div', { class: 'nav-drawer' }, sectionsEl, meta);
+  nav.append(brand, drawer, tools);
+  if (searchForm) nav.append(searchForm);
 
+  const overlay = el('div', { class: 'nav-overlay', 'aria-hidden': 'true' });
+  overlay.addEventListener('click', () => closeAll(nav));
+
+  const wrapper = el('div', { class: 'nav-wrapper' }, nav, overlay);
+  block.append(wrapper);
+
+  // outside click closes dropdowns / megamenus
   document.addEventListener('click', (e) => {
-    if (!host.contains(e.target)) closeAll(host);
+    if (!nav.contains(e.target)) {
+      closeMeta(nav);
+      if (DESKTOP.matches) closeMegamenus(nav);
+    } else if (!e.target.closest('.nav-meta-item')) {
+      closeMeta(nav);
+    }
   });
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
-    const open = host.querySelector('[aria-expanded="true"]');
-    const searching = host.classList.contains('is-searching');
-    if (!open && !searching) return;
-    closeAll(host);
-    if (open) open.focus();
+    closeAll(nav);
+    if (!DESKTOP.matches && nav.getAttribute('aria-expanded') === 'true') hamburger.click();
   });
 
-  if (host !== block) initScroll(host);
-  host.classList.add('is-ready');
+  // the language dropdown sits in the meta row on desktop and in the bar (globe) on mobile
+  const langItem = meta.querySelector('.nav-meta-language');
+  const placeLanguage = () => {
+    if (!langItem) return;
+    if (DESKTOP.matches) meta.append(langItem);
+    else tools.insertBefore(langItem, hamburger);
+  };
+  placeLanguage();
+
+  // crossing the breakpoint resets every open state (no page reload needed)
+  DESKTOP.addEventListener('change', () => {
+    closeAll(nav);
+    nav.setAttribute('aria-expanded', 'false');
+    hamburger.setAttribute('aria-label', t('menu'));
+    document.body.classList.remove('nav-scroll-lock');
+    placeLanguage();
+  });
+
+  initSticky(block, nav);
 }

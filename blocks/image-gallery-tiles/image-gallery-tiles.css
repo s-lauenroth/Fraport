@@ -272,3 +272,53 @@
     min-width: calc(33.3333% - 32px);
   }
 }
+
+/* option: alt — every tile visible, 3 per row from 1280 */
+@media (width >= 1280px) {
+  .image-gallery-tiles.alt .image-gallery-tiles-item {
+    width: calc(33.3333% - 32px);
+  }
+}
+
+/* option: cover (frach-m-image-gallery, single): one 16:9 cover image as a plain grid column
+   (12 cols, 10 cols offset 1 from 1440) opening the lightbox; files icon + image count badge */
+.image-gallery-tiles.cover .image-gallery-tiles-item.is-loaded {
+  width: 100%;
+  margin: 0;
+}
+
+.image-gallery-tiles.cover .image-gallery-tiles-item:not(:first-child) {
+  display: none;
+}
+
+.image-gallery-tiles.cover .image-gallery-tiles-zoom.is-files {
+  flex-direction: column;
+}
+
+.image-gallery-tiles.cover .image-gallery-tiles-count {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  padding-top: 2px;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  pointer-events: none;
+}
+
+@media (width >= 720px) {
+  .image-gallery-tiles.cover .row > .image-gallery-tiles-grid {
+    flex-basis: calc(100% - var(--gutter));
+    max-width: calc(100% - var(--gutter));
+    margin: 0 calc(var(--gutter) / 2);
+  }
+}
+
+@media (width >= 1440px) {
+  .image-gallery-tiles.cover .row > .image-gallery-tiles-grid {
+    flex-basis: calc(83.3333% - var(--gutter));
+    max-width: calc(83.3333% - var(--gutter));
+    margin: 0 calc(var(--gutter) / 2) 0 calc(8.3333% + var(--gutter) / 2);
+  }
+}

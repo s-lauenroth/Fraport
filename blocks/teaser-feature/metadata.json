@@ -1,0 +1,30 @@
+{
+  "variantName": "teaser-feature",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Single featured image teaser with an overlapping text panel and link",
+    "layout": "Square image with a translucent panel over its lower right half (heading, copy, arrow link); panel below the image on mobile",
+    "colorScheme": "light",
+    "notable": [
+      "Whole teaser is one link",
+      "square-text-over-image sets the headline graphic and link text over the image without a panel"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row: picture, heading, copy paragraph(s), a link paragraph (the target); one or two cells",
+    "rows": "1 row, 1-2 cells"
+  },
+  "usage": "Use to feature one topic or service with a strong image.",
+  "reuseGuidance": "Fits one teaser; use cards or tiles for several teasers side by side.",
+  "options": [
+    {
+      "class": "square-text-over-image",
+      "label": "Square Text Over Image"
+    }
+  ],
+  "memberVariantIds": [
+    "v_57e4ea286876",
+    "v_47dcac72eba7"
+  ]
+}

@@ -1,0 +1,59 @@
+/* tag-list: wrapping row of bordered topic pills (source: frach-m-page-meta-data__tags) */
+.tag-list {
+  color: var(--grey-600);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+
+  /* source mobile: 351px wide in a 375px viewport */
+  margin: 0 12px;
+}
+
+.tag-list .tag-list-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* source: inline-block tags, 16px top margin, 58px line per row */
+.tag-list .tag-list-item {
+  margin: 16px 0 6px;
+  padding: 0;
+}
+
+.tag-list .tag-list-tag {
+  display: block;
+  padding: 8px;
+  border: 1px solid var(--primary-500);
+  border-radius: 2px;
+  color: var(--primary-500);
+  font-family: var(--ff-regular);
+  font-size: 12px;
+  line-height: 18px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.tag-list a.tag-list-tag:hover,
+.tag-list a.tag-list-tag:focus-visible {
+  text-decoration: underline;
+}
+
+/* source desktop: shrink-wrapped tags, right-aligned to the grid content edge */
+@media (width >= 900px) {
+  .tag-list {
+    width: fit-content;
+    max-width: calc(min(100% - var(--grid-outer), var(--grid-max)) - 2 * var(--grid-pad));
+    margin-left: auto;
+    margin-right: calc((100% - min(100% - var(--grid-outer), var(--grid-max))) / 2 + var(--grid-pad));
+  }
+
+  .tag-list .tag-list-items {
+    justify-content: flex-end;
+  }
+}
+
+/* option: alt — no visual difference found on the source; same pills */

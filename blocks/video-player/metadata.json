@@ -1,0 +1,30 @@
+{
+  "variantName": "video-player",
+  "baseBlock": "video",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Hosted video player with poster image and play button",
+    "layout": "16:9 poster with a centred play button; the player replaces the poster on click; optional caption below",
+    "colorScheme": "dark",
+    "notable": [
+      "mp4 / webm play in an HTML5 video, YouTube / Vimeo in a privacy-friendly iframe",
+      "autoplay-background: muted looping background video with overlay graphic and a pause toggle; respects prefers-reduced-motion"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row: video link (file, YouTube or Vimeo), optional poster picture, optional caption paragraphs; autoplay-background: a second picture is the overlay graphic",
+    "rows": "1 row, 1 cell"
+  },
+  "usage": "Use to embed one video with a poster image, or a decorative background video.",
+  "reuseGuidance": "Fits a single video; embed covers generic third-party embeds, text-media (wide-media) a video beside text.",
+  "options": [
+    {
+      "class": "autoplay-background",
+      "label": "Autoplay Background"
+    }
+  ],
+  "memberVariantIds": [
+    "v_11f0e11e3060",
+    "v_0cb1ec1db1b8"
+  ]
+}

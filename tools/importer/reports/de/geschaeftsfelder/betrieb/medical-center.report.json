@@ -1,0 +1,35 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/geschaeftsfelder/betrieb/medical-center.html",
+  "path": "de/geschaeftsfelder/betrieb/medical-center",
+  "timestamp": "2026-11-21T01:15:05.971Z",
+  "title": "Medical Center",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "hero",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "tabs-topic",
+    "cards-teaser",
+    "text-media",
+    "sticky-patch",
+    "accordion",
+    "accordion",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/geschaeftsfelder/betrieb/medical-center/notfallambulanz",
+    "fragments/de/geschaeftsfelder/betrieb/medical-center/rettungs-und-notarztdienst",
+    "fragments/de/geschaeftsfelder/betrieb/medical-center/kompetenzen",
+    "fragments/de/geschaeftsfelder/betrieb/medical-center/influenza-impfung",
+    "fragments/de/geschaeftsfelder/betrieb/medical-center/stretcher-service",
+    "fragments/de/geschaeftsfelder/betrieb/medical-center/notfall"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

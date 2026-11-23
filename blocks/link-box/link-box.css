@@ -119,13 +119,75 @@
     margin-top: 32px;
   }
 
+  /* source keeps the 12px side bleed when stacked: CTAs are 24px wider than the text column */
   .link-box .link-box-ctas {
     flex-direction: column;
-    margin: 32px 0 0;
+    margin: 32px -12px 0;
   }
 
   .link-box .link-box-ctas p {
     margin: 0 0 16px;
     width: 100%;
+  }
+}
+
+/* option: light (source .frach-grid-row): image (8 cols) beside the shadowed panel (4 cols)
+   >= 960, stacked below with the component margin between. The block is the grid container;
+   the grey band is the section's (section-metadata Style: grey), not the block's. */
+.link-box.light {
+  display: flex;
+  flex-direction: column;
+  gap: var(--component-margin);
+  width: calc(100% - var(--grid-outer));
+  max-width: var(--grid-max);
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+/* columns carry the half-gutter like .row > * (source cols inside a -gutter/2 row) */
+.link-box.light > div {
+  margin: 0 calc(var(--gutter) / 2);
+}
+
+.link-box.light .link-box-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.link-box.light .link-box-media p {
+  margin: 0;
+}
+
+.link-box.light .link-box-panel {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px 24px;
+  background: var(--white);
+  box-shadow: 0 0 16px 0 var(--grey-300);
+}
+
+@media (width >= 960px) {
+  .link-box.light {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .link-box.light .link-box-media {
+    flex: 0 0 calc(66.6667% - var(--gutter));
+  }
+
+  .link-box.light .link-box-panel {
+    flex: 0 0 calc(33.3333% - var(--gutter));
+    min-width: 0;
+  }
+}
+
+@media (width >= 1280px) {
+  .link-box.light .link-box-panel {
+    padding: 0 32px 32px;
   }
 }

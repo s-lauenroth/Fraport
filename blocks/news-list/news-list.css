@@ -12,6 +12,7 @@
   position: relative;
   display: flex;
   justify-content: flex-end;
+  margin: 0;
   background: var(--white);
   border-radius: 4px;
 }
@@ -45,7 +46,10 @@
   height: 40px;
   padding: 8px;
   border: 0;
+  border-radius: 100%;
   background: none;
+  font-family: var(--ff-semibold);
+  letter-spacing: 0.5px;
   cursor: pointer;
 }
 
@@ -481,4 +485,15 @@
   .news-list .news-list-rail {
     max-width: var(--grid-max);
   }
+}
+
+/* option: light — standalone tag filter strip (no search band) */
+.news-list.light .news-list-filter {
+  margin: 0;
+  padding: 16px 0;
+  background: transparent;
+}
+
+.news-list.light .news-list-items:empty {
+  display: none;
 }

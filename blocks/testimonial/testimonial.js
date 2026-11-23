@@ -1,7 +1,8 @@
 /**
- * testimonial — frach-m-testimonial: a 16:9 (optionally linked) image with a shadowed meta caption
- * overlapping its foot, and the quote (body headline + semibold-italic blockquote) below it;
- * >= 1280 the quote floats over the image's left half on a lilac veil.
+ * testimonial — default look: the source grey band with a frach-e-pull-quote (purple
+ * semibold-italic quote + author line) in 8 of 12 columns beside a 4-column 16:9 image with its
+ * figcaption. Options no-caption / text-over-image keep the frach-m-testimonial look: a 16:9 image
+ * with the quote floated over its left half on a lilac veil.
  *
  * Authoring: one cell — a picture paragraph (optionally wrapped in a link), the caption paragraph,
  * the headline paragraph, the quote (a blockquote; else the last paragraph). Decoded by role.
@@ -10,6 +11,8 @@
  *
  * @variants block class: no-caption — no meta caption: every paragraph before the quote is the
  *   headline (international-activities testimonial)
+ *   text-over-image — executive quote set over the portrait photo from 720 up: the caption
+ *   (name, role) sits above the quote inside the overlay, no shadowed caption box
  */
 
 function el(tag, className) {
@@ -63,9 +66,25 @@ export default function decorate(block) {
   texts.slice(noCaption ? 0 : 1).forEach((t) => headline.append(t));
   const text = el('div', 'testimonial-text');
   if (quoteNode) text.append(quoteNode);
+  if (block.classList.contains('text-over-image') && caption.children.length) {
+    const byline = el('div', 'testimonial-byline meta');
+    byline.append(...caption.childNodes);
+    caption.remove();
+    quote.append(byline);
+  }
   if (headline.children.length) quote.append(headline);
   quote.append(text);
 
-  block.replaceChildren(figure, quote);
+  // default look (source pull quote beside an image column): the quote comes first and repeats
+  // the caption as its author line, the image + figcaption sit in the right-hand column
+  const pullQuote = !noCaption && !block.classList.contains('text-over-image');
+  if (pullQuote && caption.textContent.trim()) {
+    const author = el('p', 'testimonial-author');
+    author.textContent = caption.textContent.trim();
+    author.setAttribute('aria-hidden', 'true');
+    text.append(author);
+  }
+  if (pullQuote) block.replaceChildren(quote, figure);
+  else block.replaceChildren(figure, quote);
   adopt(block);
 }

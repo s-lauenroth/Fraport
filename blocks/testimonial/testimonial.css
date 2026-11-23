@@ -1,19 +1,136 @@
-/* testimonial (frach-m-testimonial) in a half-width column: 16:9 linked image filling the column,
-   shadowed meta caption overlapping its foot, quote (body headline + semibold-italic blockquote)
-   below; >= 1280 the quote floats over the image's left half on a lilac veil. */
-.testimonial {
+/* testimonial, default look (source .frach-h-bg--grey section: frach-e-pull-quote in mq3-8
+   beside a frach-m-image in mq3-4): full-bleed #edeeef band, grid content box, purple
+   semibold-italic quote + author line, 16:9 image with a 12px figcaption; stacked below 720. */
+.testimonial:not(.no-caption, .text-over-image) {
+  /* .container inset (outer gap + padding) as outer grid tracks, so the band stays full-bleed */
+  --testimonial-inset: max(calc((100% - var(--grid-max)) / 2 + var(--grid-pad)), calc(var(--grid-outer) / 2 + var(--grid-pad)));
+
+  display: grid;
+  grid-template-columns: var(--testimonial-inset) minmax(0, 1fr) var(--testimonial-inset);
+  align-items: start;
+  padding: var(--component-padding) 0 0;
+  background-color: var(--grey-050);
+  color: rgb(0 0 0);
+}
+
+.testimonial:not(.no-caption, .text-over-image) > * {
+  grid-column: 2;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-quote {
+  margin: 0 0 var(--component-margin);
+
+  /* the source text-media column under the pull quote (an empty rte paragraph) */
+  padding: 0 56px 98px;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-headline {
+  margin: 0;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-headline p {
+  margin: 14px 0 0;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--secondary-500);
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-text blockquote {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-text :where(blockquote) p {
+  margin: 20px 0 0;
+  padding: 20px 0 0;
+  font-family: var(--ff-semibold-italic);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+  color: var(--secondary-500);
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-author {
+  margin: 14px 0 0;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--secondary-500);
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-media {
+  margin: 0 0 var(--component-margin);
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-overlay {
+  display: none;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-image p {
+  margin: 0;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-image a {
+  display: block;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-meta {
+  margin: 8px 0 0;
+  color: var(--grey-700);
+}
+
+.testimonial:not(.no-caption, .text-over-image) .testimonial-meta p {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+@media (width >= 720px) {
+  /* 12 columns between the inset tracks; the gutter also separates them from the insets */
+  .testimonial:not(.no-caption, .text-over-image) {
+    grid-template-columns:
+      max(0px, calc(var(--testimonial-inset) - var(--gutter)))
+      repeat(12, minmax(0, 1fr))
+      max(0px, calc(var(--testimonial-inset) - var(--gutter)));
+    column-gap: var(--gutter);
+  }
+
+  .testimonial:not(.no-caption, .text-over-image) > .testimonial-quote {
+    grid-area: 1 / 2 / 2 / 10;
+    padding-left: 16%;
+    padding-right: 16%;
+  }
+
+  .testimonial:not(.no-caption, .text-over-image) > .testimonial-media {
+    grid-area: 1 / 10 / 2 / 14;
+  }
+}
+
+/* options no-caption / text-over-image (source frach-m-testimonial): 16:9 linked image filling
+   the column, shadowed meta caption overlapping its foot, quote (body headline + semibold-italic
+   blockquote) below; >= 1280 the quote floats over the image's left half on a lilac veil. */
+.testimonial:is(.no-caption, .text-over-image) {
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
 
-.testimonial .testimonial-media {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-media {
   position: relative;
   flex: 1 1 100%;
   margin: 0;
 }
 
-.testimonial .testimonial-overlay {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-overlay {
   display: none;
   position: absolute;
   top: 0;
@@ -25,21 +142,21 @@
   pointer-events: none;
 }
 
-.testimonial .testimonial-image {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-image {
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
 }
 
-.testimonial .testimonial-image p {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-image p {
   margin: 0;
 }
 
-.testimonial .testimonial-image a {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-image a {
   display: block;
 }
 
-.testimonial .testimonial-image img {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-image img {
   position: absolute;
   top: 0;
   left: 0;
@@ -47,7 +164,7 @@
   height: auto;
 }
 
-.testimonial .testimonial-meta {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-meta {
   position: absolute;
   left: 16px;
   bottom: -25px;
@@ -62,13 +179,13 @@
   white-space: nowrap;
 }
 
-.testimonial .testimonial-meta p {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-meta p {
   display: inline;
   margin: 0;
   font: inherit;
 }
 
-.testimonial .testimonial-quote {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-quote {
   position: relative;
   z-index: 3;
   flex: 1 1 100%;
@@ -76,17 +193,17 @@
   color: var(--grey-800);
 }
 
-.testimonial .testimonial-headline {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-headline {
   margin: 0 0 16px;
 }
 
-.testimonial .testimonial-headline p {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-headline p {
   margin: 0;
   font: inherit;
   color: inherit;
 }
 
-.testimonial .testimonial-text :is(blockquote, p) {
+.testimonial:is(.no-caption, .text-over-image) .testimonial-text :is(blockquote, p) {
   margin: 0;
   padding: 0;
   border: 0;
@@ -98,7 +215,7 @@
 }
 
 @media (width >= 1280px) {
-  .testimonial .testimonial-overlay {
+  .testimonial:is(.no-caption, .text-over-image) .testimonial-overlay {
     display: flex;
     background-image:
       linear-gradient(
@@ -109,12 +226,12 @@
       );
   }
 
-  .testimonial .testimonial-meta {
+  .testimonial:is(.no-caption, .text-over-image) .testimonial-meta {
     left: 30px;
     max-width: calc(100% - 60px);
   }
 
-  .testimonial .testimonial-quote {
+  .testimonial:is(.no-caption, .text-over-image) .testimonial-quote {
     position: absolute;
     top: 47%;
     left: 0;
@@ -125,11 +242,11 @@
     text-shadow: 0 0 10px var(--primary-050);
   }
 
-  .testimonial.has-link .testimonial-quote {
+  .testimonial:is(.no-caption, .text-over-image).has-link .testimonial-quote {
     pointer-events: none;
   }
 
-  .testimonial .testimonial-text {
+  .testimonial:is(.no-caption, .text-over-image) .testimonial-text {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 7;
@@ -161,5 +278,32 @@
     -webkit-line-clamp: unset;
     line-clamp: none;
     overflow: visible;
+  }
+}
+
+/* option: text-over-image — byline + quote over the left half of the photo from 720 */
+.testimonial.text-over-image .testimonial-byline p {
+  margin: 0 0 16px;
+}
+
+@media (width >= 720px) {
+  .testimonial.text-over-image {
+    display: grid;
+  }
+
+  .testimonial.text-over-image > .testimonial-media,
+  .testimonial.text-over-image > .testimonial-quote {
+    grid-area: 1 / 1;
+  }
+
+  .testimonial.text-over-image > .testimonial-quote {
+    position: relative;
+    z-index: 1;
+    align-self: center;
+    width: 50%;
+    margin: 0;
+    padding: 32px;
+    background: none;
+    box-shadow: none;
   }
 }

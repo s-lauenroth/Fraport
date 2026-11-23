@@ -1,0 +1,31 @@
+{
+  "variantName": "tag-list",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Row of topic tag pills linking to related content",
+    "layout": "Wrapping row of small bordered pills",
+    "colorScheme": "light",
+    "notable": [
+      "Each pill is one link",
+      "Plain-text items render as non-interactive pills",
+      "alt option: compact pills"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell holding the tag links as a list or as link paragraphs",
+    "rows": "1 row, 1 cell"
+  },
+  "usage": "Use at the end of an article or press release to list its topics.",
+  "reuseGuidance": "Fits short topic labels that link to filtered overviews; not for navigation menus or long link lists.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_a325e1ab339a",
+    "v_a325e1ab339a-1"
+  ]
+}

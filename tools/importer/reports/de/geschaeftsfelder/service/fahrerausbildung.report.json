@@ -1,0 +1,40 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/geschaeftsfelder/service/fahrerausbildung.html",
+  "path": "de/geschaeftsfelder/service/fahrerausbildung",
+  "timestamp": "2026-11-21T01:13:37.203Z",
+  "title": "Fahrerausbildung",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "hero",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "tabs-topic",
+    "cards-teaser",
+    "table-data",
+    "columns-sidebar",
+    "text-media",
+    "sticky-patch",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "section-title",
+    "section-title",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/geschaeftsfelder/service/fahrerausbildung/vorfeldfuhrerschein",
+    "fragments/de/geschaeftsfelder/service/fahrerausbildung/apron-driver-license",
+    "fragments/de/geschaeftsfelder/service/fahrerausbildung/rollfeldfuhrerschein",
+    "fragments/de/geschaeftsfelder/service/fahrerausbildung/gabelstaplerschein",
+    "fragments/de/geschaeftsfelder/service/fahrerausbildung/weitere-lehrgange"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

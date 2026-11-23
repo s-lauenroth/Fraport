@@ -1,0 +1,29 @@
+{
+  "variantName": "teaser-slider",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Paged rail of teasers linking to other pages",
+    "layout": "Three teasers per page with prev/next arrows and dots (>= 720); stacked first three plus load-more button (< 720)",
+    "notable": [
+      "A row may hold several teasers, segmented on headings",
+      "Theme line above the heading",
+      "Heading link is the teaser link",
+      "Optional tertiary arrow CTA",
+      "appear variant slides in on scroll"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one row per slide: optional picture, theme paragraph, linked heading, optional text paragraph and optional CTA paragraph",
+    "rows": "1 row per slide, 1 cell each"
+  },
+  "options": [
+    {
+      "class": "appear",
+      "label": "Appear"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use to present a set of related or quick-link teasers that page horizontally.",
+  "reuseGuidance": "Fits many short linked teasers with a theme line; not for a few static cards or long content."
+}

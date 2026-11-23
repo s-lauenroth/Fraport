@@ -1,0 +1,30 @@
+{
+  "variantName": "newsroom-feed",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Shadowed panel listing dated headline links with CTA buttons",
+    "layout": "Single panel; becomes the aside column of a directly preceding cards block",
+    "notable": [
+      "Each feed item row is one link with date and time",
+      "Bold links are primary, italic links secondary buttons",
+      "Authored snapshot of a CMS news list"
+    ]
+  },
+  "contentPattern": {
+    "structure": "A heading row for the title, then item rows with date, time and a headline link paragraph, then a row of CTA link paragraphs",
+    "rows": "Title row, one row per feed item, CTA row"
+  },
+  "options": [
+    {
+      "class": "thumbnails",
+      "label": "Thumbnails"
+    }
+  ],
+  "memberVariantIds": [
+    "v_02c5576baa1a",
+    "v_13cf17c99b96"
+  ],
+  "usage": "Use for a short list of latest news headlines beside a news cards grid",
+  "reuseGuidance": "Fits dated headline links with a few CTAs; not for items with images or teaser text"
+}

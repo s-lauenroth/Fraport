@@ -1,0 +1,31 @@
+{
+  "variantName": "table-data",
+  "baseBlock": "table",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Label / value data table",
+    "layout": "Full-width bordered table with a shaded header row and alternate row shading; side-by-side places several tables two per row",
+    "colorScheme": "light",
+    "notable": [
+      "First row is the header",
+      "Short rows span the remaining columns",
+      "Horizontal scroll on overflow"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One block row per table row, one cell per table cell; side-by-side: each one-cell row starts a new table",
+    "rows": "One row per table row"
+  },
+  "usage": "Use for schedules, results and other tabular data.",
+  "reuseGuidance": "Fits plain tabular data; the project table block covers tables without a forced header row.",
+  "options": [
+    {
+      "class": "side-by-side",
+      "label": "Side By Side"
+    }
+  ],
+  "memberVariantIds": [
+    "v_ed30fa86a9eb",
+    "v_2bf997ccbd5a-2"
+  ]
+}

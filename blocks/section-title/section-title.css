@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-.section-title .section-title-heading + .section-title-body {
+.section-title .section-title-heading + .section-title-body > p:first-child {
   margin-top: 24px;
 }
 
@@ -46,7 +46,7 @@
     max-width: 50%;
   }
 
-  .section-title .section-title-heading + .section-title-body {
+  .section-title .section-title-heading + .section-title-body > p:first-child {
     margin-top: 32px;
   }
 }

@@ -1,157 +1,220 @@
-/* stylelint-disable no-descending-specificity -- chrome/foundation rules are grouped by component, not specificity */
+/* stylelint-disable no-descending-specificity -- rules are grouped by component, not specificity */
 
 /*
- * Footer (frach-m-page-footer): gradient band, contact accordion, link-list
- * columns (accordions below 960), social links, copyright.
+ * Footer (frach-m-page-footer): brand gradient band, collapsible contact panel,
+ * link columns (accordions below 960px, static columns from 960px), social column,
+ * copyright row. Breakpoints follow the source grid (720 / 960 / 1280 / 1440),
+ * the same values styles/styles.css uses for the site grid tokens.
  */
 footer .footer {
+  --footer-inset: 16px;
+
   display: block;
   padding: 32px 0;
   background: var(--gradient-brand);
   color: var(--white);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
 }
 
 footer .footer a {
   color: var(--white);
+  text-decoration: none;
 }
 
-footer .footer :is(h1, h2, h3, h4, h5, h6, p, ul) {
+footer .footer a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-inner {
+  max-width: var(--grid-max);
+  margin: 0 auto;
+  padding: 0 var(--footer-inset);
+}
+
+/* ---- shared toggle (contact panel + link-column accordions) ---- */
+footer .footer :is(.footer-panel-heading, .footer-links-heading) {
   margin: 0;
+  font: inherit;
 }
 
-/* accordion primitive (details/summary) */
-footer .footer-acc {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid var(--rule-color);
-}
-
-footer .footer-acc > summary {
+footer .footer :is(.footer-panel-toggle, .footer-links-toggle) {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  width: 100%;
+  margin: 0;
   padding: 24px 8px 24px 0;
-  cursor: pointer;
-  list-style: none;
-  user-select: none;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--white);
   font-family: var(--ff-semibold);
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
-  color: var(--white);
+  text-align: left;
+  cursor: pointer;
 }
 
-footer .footer-acc > summary::-webkit-details-marker {
-  display: none;
-}
-
-footer .footer-acc-label,
-footer .footer-acc-label :is(h1, h2, h3, h4, h5, h6) {
+footer .footer :is(.footer-panel-label, .footer-links-label) {
   font-family: var(--ff-regular);
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
   overflow-wrap: break-word;
 }
 
-footer .footer-acc-icon {
+footer .footer .footer-panel-toggle:hover .footer-panel-label {
+  text-decoration: underline;
+}
+
+footer .footer .footer-chevron {
+  flex: 0 0 24px;
   width: 24px;
-  min-width: 24px;
   height: 24px;
   margin-left: 19px;
+  background-color: currentcolor;
+  mask: url("/icons/chevron-down.svg") center / contain no-repeat;
   transition: transform 0.3s;
 }
 
-footer .footer-acc[open] .footer-acc-icon {
+footer .footer .is-open > * > * > .footer-chevron {
   transform: rotate(180deg);
 }
 
-/* contact */
-footer .footer-contact {
-  margin-bottom: 0;
+footer .footer :is(.footer-panel-content, .footer-links-content) {
+  display: grid;
+  grid-template-rows: 0fr;
+  visibility: hidden;
+  transition: grid-template-rows 0.3s ease-in-out, visibility 0s 0.3s;
 }
 
-footer .footer-contact-cols {
+footer .footer .is-open > :is(.footer-panel-content, .footer-links-content) {
+  grid-template-rows: 1fr;
+  visibility: visible;
+  transition: grid-template-rows 0.3s ease-in-out, visibility 0s;
+}
+
+footer .footer :is(.footer-panel-inner, .footer-links-inner) {
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ---- contact panel ---- */
+footer .footer-panel {
+  border-bottom: 1px solid var(--rule-color);
+}
+
+footer .footer-panel-cols {
   display: flex;
   flex-wrap: wrap;
   margin: 0 calc(var(--gutter) / -2) 32px;
-  color: var(--white);
 }
 
-footer .footer-contact-col {
+footer .footer-panel-col {
   flex: 0 0 calc(100% - var(--gutter));
   max-width: calc(100% - var(--gutter));
   margin: 28px calc(var(--gutter) / 2) 32px;
 }
 
-footer .footer-contact-col:last-child {
+footer .footer-panel-col:last-child {
   margin-bottom: 24px;
 }
 
-footer .footer-contact-col p {
+footer .footer-panel-col p {
   margin: 0 0 10px;
 }
 
-footer .footer-contact-col p:last-child {
-  margin-bottom: 0;
+/* a new labelled entry after another one keeps the source's blank-line gap */
+footer .footer-panel-col p:has(> strong:first-child) + p:has(> strong:first-child) {
+  margin-top: 44px;
 }
 
-footer .footer-contact-col a {
-  display: inline-flex;
-  align-items: baseline;
+footer .footer-panel-col strong {
+  font-family: var(--ff-bold);
+  font-weight: 400;
 }
 
-footer .footer-contact-col a > .icon {
-  align-self: flex-start;
+footer .footer-panel-col em {
+  font-family: var(--ff-italic);
+  font-style: italic;
+}
+
+footer .footer-icon-link::before {
+  content: "";
+  display: inline-block;
   width: 16px;
   height: 24px;
-  margin: 0 8px -2px 0;
-  color: var(--white);
+  margin-right: 8px;
+  vertical-align: top;
+  background-color: currentcolor;
+  mask: var(--footer-icon) center / 16px 16px no-repeat;
 }
 
-/* link lists + social */
+footer .footer-icon-arrow {
+  --footer-icon: url("/icons/arrow-right.svg");
+}
+
+footer .footer-icon-phone {
+  --footer-icon: url("/icons/phone.svg");
+}
+
+footer .footer-icon-mail {
+  --footer-icon: url("/icons/mail.svg");
+}
+
+footer .footer-icon-download {
+  --footer-icon: url("/icons/download.svg");
+}
+
+/* ---- link columns + social ---- */
 footer .footer-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
+  display: grid;
+  grid-template-columns: 100%;
 }
 
-footer .footer-col {
-  flex: 0 0 100%;
-  max-width: 100%;
-  width: 100%;
-  margin: 0;
+footer .footer-links {
+  border-bottom: 1px solid var(--rule-color);
 }
 
 footer .footer-links ul {
-  list-style: none;
   margin: 24px 0 56px;
   padding: 0;
+  list-style: none;
 }
 
 footer .footer-links li {
   margin: 0;
 }
 
-footer .footer-links a {
+footer .footer-links li a {
   display: inline-flex;
   padding: 16px 0 0;
 }
 
-footer .footer-social {
-  overflow: hidden;
-}
-
 footer .footer-social-title {
   display: none;
+  margin: 0;
 }
 
-footer .footer-social-inner {
-  margin: 48px -32px 28px 0;
+footer .footer-social {
+  margin: 48px 0 28px;
+  overflow: hidden;
 }
 
 footer .footer-social-group {
   margin-bottom: 8px;
+}
+
+footer .footer-social-group:last-child {
+  margin-bottom: 0;
+}
+
+footer .footer-social-group :is(h3, h4, h5, h6) {
+  margin: 0 0 10px;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 footer .footer-social-group p {
@@ -159,45 +222,37 @@ footer .footer-social-group p {
   line-height: 0;
 }
 
-footer .footer-social-group :is(h3, h4, h5, h6) {
-  font-family: var(--ff-regular);
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 500;
-  margin: 0 0 10px;
-}
-
-footer .footer-social-group a {
+footer .footer-social-link {
   display: inline-flex;
   width: 28px;
   height: 28px;
-  margin: 0 32px 16px 0;
-  overflow: hidden;
-  font-size: 0;
-  line-height: 0;
+  margin: 0 36px 16px 0;
   vertical-align: top;
 }
 
-footer .footer-social-group a .icon {
+footer .footer .footer-social-link:hover {
+  text-decoration: none;
+}
+
+footer .footer-social-link img {
+  display: block;
   width: 28px;
   height: 28px;
-  color: var(--white);
 }
 
-footer .footer-copyright {
-  display: flex;
-  margin: 0 calc(var(--gutter) / -2);
-}
-
-footer .footer-copyright p {
-  margin: 0 calc(var(--gutter) / 2);
-  font-family: var(--ff-regular);
+footer .footer-bottom p {
+  margin: 0;
   font-size: 12px;
   line-height: 18px;
 }
 
+/* breakpoint-exception: the source grid widens its outer margin and shows two contact columns at 720px (styles.css --grid-outer) */
 @media (width >= 720px) {
-  footer .footer-contact-col {
+  footer .footer {
+    --footer-inset: 24px;
+  }
+
+  footer .footer-panel-col {
     flex-basis: calc(50% - var(--gutter));
     max-width: calc(50% - var(--gutter));
     margin-top: 40px;
@@ -205,113 +260,118 @@ footer .footer-copyright p {
   }
 }
 
+/* breakpoint-exception: the source switches the link lists from accordions to static columns at exactly 960px */
 @media (width >= 960px) {
-  footer .footer-row {
-    margin: 0 calc(var(--gutter) / -2);
-  }
-
-  footer .footer-col {
-    flex: 0 0 calc(25% - var(--gutter));
-    max-width: calc(25% - var(--gutter));
-    margin: 0 calc(var(--gutter) / 2);
-  }
-
-  footer .footer-contact {
+  footer .footer-panel {
     margin-bottom: 64px;
   }
 
-  footer .footer-contact-col {
+  footer .footer-panel-cols {
+    margin-bottom: 32px;
+  }
+
+  footer .footer-panel-col {
     flex-basis: calc(25% - var(--gutter));
     max-width: calc(25% - var(--gutter));
     margin-top: 28px;
     margin-bottom: 0;
   }
 
-  footer .footer-contact-col:last-child {
+  footer .footer-panel-col:last-child {
     margin-bottom: 0;
   }
 
-  footer .footer-col .footer-acc {
-    border: 0;
+  footer .footer-row {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: var(--gutter);
   }
 
-  footer .footer-col .footer-acc > summary {
+  footer .footer-links {
+    border-bottom: 0;
+  }
+
+  footer .footer .footer-links-toggle {
     padding: 0;
-    pointer-events: none;
   }
 
-  footer .footer-col .footer-acc-label,
-  footer .footer-col .footer-acc-label :is(h1, h2, h3, h4, h5, h6) {
+  footer .footer .footer-links-label {
     font-family: var(--ff-semibold);
     font-size: 24px;
     line-height: 34px;
-    letter-spacing: normal;
+    letter-spacing: 0.5px;
   }
 
-  footer .footer-col .footer-acc-icon {
+  footer .footer .footer-links .footer-chevron {
     display: none;
+  }
+
+  footer .footer .footer-links > .footer-links-content {
+    grid-template-rows: 1fr;
+    visibility: visible;
+    transition: none;
   }
 
   footer .footer-links ul {
     margin: 0 0 2px;
   }
 
-  footer .footer-links a {
+  footer .footer-links li a {
     padding-top: 20px;
+  }
+
+  footer .footer-social {
+    margin: 0;
+    overflow: visible;
   }
 
   footer .footer-social-title {
     display: block;
     margin: 0 0 16px;
-  }
-
-  footer .footer-social-title h2 {
     font-family: var(--ff-semibold);
     font-size: 24px;
     line-height: 34px;
-  }
-
-  footer .footer-social-inner {
-    margin: 0 -12px -6px 0;
   }
 
   footer .footer-social-group {
     margin-bottom: 18px;
   }
 
-  footer .footer-social-group a {
-    margin: 0 12px 6px 0;
+  footer .footer-social-link {
+    margin: 0 16px 6px 0;
   }
 
-  footer .footer-copyright p {
+  footer .footer-bottom p {
     margin-top: 70px;
   }
 }
 
+/* breakpoint-exception: the source grid moves to 32px gutters and margins at 1280px (styles.css --gutter) */
 @media (width >= 1280px) {
-  footer .footer-social-inner {
-    margin: 0 -24px -12px 0;
+  footer .footer {
+    --footer-inset: 32px;
   }
 
   footer .footer-social-group {
     margin-bottom: 12px;
   }
 
-  footer .footer-social-group a {
-    margin: 0 24px 12px 0;
+  footer .footer-social-link {
+    margin: 0 28px 12px 0;
   }
 }
 
+/* breakpoint-exception: the source social icon spacing steps up again at 1440px */
 @media (width >= 1440px) {
-  footer .footer-social-inner {
-    margin: 0 -32px -16px 0;
-  }
-
   footer .footer-social-group {
     margin-bottom: 8px;
   }
 
-  footer .footer-social-group a {
-    margin: 0 32px 16px 0;
+  footer .footer-social-link {
+    margin: 0 36px 16px 0;
+  }
+
+  /* the source social column overflows its row by 2px here; keep the row height of the link lists */
+  footer .footer-social {
+    margin-bottom: -2px;
   }
 }

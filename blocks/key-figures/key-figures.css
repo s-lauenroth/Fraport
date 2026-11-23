@@ -149,17 +149,17 @@ main .section.grey .key-figures {
 
 /* variant text (source frach-m-key-figures--has-text): grey headline + copy column beside the
    numbers — full width < 720, 9/12 from 720, 3/12 offset 1 beside 6/12 numbers offset 1 >= 1280 */
-.key-figures.text .key-figures-text {
+.key-figures.text .key-figures-text:not(.rte) {
   margin-bottom: 48px;
   color: var(--grey-600);
 }
 
-.key-figures.text .key-figures-text :is(h2, h3, h4) {
+.key-figures.text .key-figures-text:not(.rte) :is(h2, h3, h4) {
   margin: 0 0 16px;
   color: inherit;
 }
 
-.key-figures.text .key-figures-text p {
+.key-figures.text .key-figures-text:not(.rte) p {
   margin: 0;
 }
 
@@ -184,7 +184,7 @@ main .section.grey .key-figures {
 }
 
 @media (width >= 960px) {
-  .key-figures.text .key-figures-text :is(h2, h3, h4) {
+  .key-figures.text .key-figures-text:not(.rte) :is(h2, h3, h4) {
     margin-bottom: 32px;
   }
 }
@@ -204,5 +204,296 @@ main .section.grey .key-figures {
     flex-basis: calc(50% - var(--gutter));
     max-width: calc(50% - var(--gutter));
     margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+}
+
+
+/* option: with-text-4 (source frach-m-key-figures--has-text--has-many): key-figures headline +
+   copy (no rte heading offset, 48px below the copy), figures stacked with 24px + rule between
+   them < 720, two per row (6/12 of the numbers column) from 720 */
+.key-figures.with-text-4 .key-figures-text.rte {
+  margin-bottom: 48px;
+}
+
+.key-figures.with-text-4 .key-figures-text > :first-child {
+  margin-top: 0;
+}
+
+.key-figures.with-text-4 .key-figures-text > :last-child {
+  margin-bottom: 0;
+}
+
+.key-figures.with-text-4 .key-figures-numbers > .row {
+  margin: 0 calc(var(--gutter) / -2);
+}
+
+.key-figures.with-text-4 .key-figures-number:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+@media (width >= 720px) {
+  .key-figures.with-text-4 .key-figures-number:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+/* option: light — tinted band, figures two per row */
+.key-figures.light {
+  background: var(--grey-050);
+  padding: var(--component-padding) 0;
+}
+
+@media (width >= 720px) {
+  .key-figures.light .key-figures-numbers > .row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px var(--gutter);
+  }
+}
+
+/* pictogram figures (source frach-m-pictogram-key-figures: icon | value | caption rows) —
+   full-width grid, 200x146 pictogram, centred value over a rule, left-aligned caption;
+   1 column < 960, 3 columns (64px apart, 32px inset) from 960 */
+.key-figures:has(.key-figures-icon) .key-figures-numbers > .row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  row-gap: 32px;
+  width: 100%;
+  margin: 0;
+  padding: 0 16px;
+}
+
+/* the rule under the value spans the column: drawn at 16 + 146 + 16 + value line + 16px */
+.key-figures .key-figures-numbers > .row > .key-figures-number:has(.key-figures-icon) {
+  max-width: none;
+  margin: 0;
+  padding: 16px 0 44px;
+  background: linear-gradient(var(--rule-color), var(--rule-color)) 0 250px / 100% 1px no-repeat;
+}
+
+.key-figures .key-figures-number:has(.key-figures-icon)::before {
+  content: none;
+}
+
+.key-figures .key-figures-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.key-figures .key-figures-icon img {
+  width: 200px;
+  height: 146px;
+  padding: 14px;
+}
+
+.key-figures .key-figures-number:has(.key-figures-icon) .key-figures-value {
+  display: table;
+  margin: 0 auto 33px;
+}
+
+.key-figures .key-figures-number:has(.key-figures-icon) .key-figures-value p {
+  display: inline;
+}
+
+.key-figures .key-figures-number:has(.key-figures-icon) .key-figures-caption {
+  margin-bottom: 16px;
+  text-align: start;
+}
+
+@media (width >= 960px) {
+  .key-figures:has(.key-figures-icon) .key-figures-numbers > .row {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 64px;
+    padding: 0 32px;
+  }
+
+  .key-figures .key-figures-numbers > .row > .key-figures-number:has(.key-figures-icon) {
+    padding-bottom: 38px;
+    background-position-y: 266px;
+  }
+}
+
+@media (width >= 1280px) {
+  .key-figures:has(.key-figures-icon) .container > .row > .key-figures-numbers {
+    flex-basis: calc(100% - var(--gutter));
+    max-width: calc(100% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+  }
+}
+
+/* with-text (source frach-m-text beside/above the figures): rich-text column (.rte headings,
+   10px paragraph rhythm, link colour) at full width; without figures it is the source's
+   two-column text (6/12 + 6/12), the second column starting at the second heading */
+.key-figures.with-text .key-figures-numbers:not(:has(.key-figures-number)) {
+  display: none;
+}
+
+main .key-figures .key-figures-text a.key-figures-link:any-link {
+  display: inline;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: none;
+  color: var(--link-color);
+  font-family: inherit;
+  letter-spacing: normal;
+  text-align: start;
+  text-decoration: none;
+}
+
+main .key-figures .key-figures-text strong > a.key-figures-link:any-link,
+main .key-figures .key-figures-text a.key-figures-link.primary:any-link {
+  font-family: var(--ff-bold);
+}
+
+main .key-figures .key-figures-text a.key-figures-link::before {
+  content: "";
+  display: inline-block;
+  vertical-align: -2px;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+@media (hover: hover) {
+  main .key-figures .key-figures-text a.key-figures-link:any-link:hover {
+    background: none;
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }
+}
+
+/* a later heading opens the next source text component: component margin above it */
+.key-figures.with-text .key-figures-text > :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+  margin-top: calc(var(--component-margin) + 10px);
+}
+
+@media (width >= 720px) {
+  .key-figures.text:is(:not(:has(.key-figures-number)), :has(.key-figures-icon))
+    .container > .row > .key-figures-text {
+    flex-basis: calc(100% - var(--gutter));
+    max-width: calc(100% - var(--gutter));
+  }
+}
+
+@media (width >= 960px) {
+  .key-figures.with-text:not(:has(.key-figures-number)) .key-figures-text {
+    column-count: 2;
+    column-gap: var(--gutter);
+  }
+
+  .key-figures.with-text:not(:has(.key-figures-number))
+    .key-figures-text > :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+    break-before: column;
+    margin-top: 16px;
+  }
+
+  .key-figures.with-text:not(:has(.key-figures-number))
+    .key-figures-text > :is(h1, h2, h3, h4, h5, h6):not(:first-child)
+    ~ :is(h1, h2, h3, h4, h5, h6) {
+    break-before: auto;
+    margin-top: calc(var(--component-margin) + 10px);
+  }
+
+  /* text + pictograms with two copy lines (one label per figure group): labels side by side
+     (6/12 + 6/12), the figures in matching columns below, filled top to bottom */
+  .key-figures.text:has(.key-figures-icon) .key-figures-text:has(> :nth-child(2):last-child) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: var(--gutter);
+  }
+
+  .key-figures.text:has(.key-figures-text > :nth-child(2):last-child):has(.key-figures-icon)
+    .key-figures-numbers > .row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: repeat(2, auto);
+    grid-auto-flow: column;
+    column-gap: var(--gutter);
+    padding: 0;
+  }
+}
+
+@media (width >= 1280px) {
+  .key-figures.text:is(:not(:has(.key-figures-number)), :has(.key-figures-icon))
+    .container > .row > .key-figures-text {
+    flex-basis: calc(100% - var(--gutter));
+    max-width: calc(100% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+  }
+}
+
+/* option: with-text-3 (source frach-m-text + frach-m-pictogram-key-figures in 6/12 columns):
+   copy (10px paragraph rhythm) a component margin above the pictograms; pictogram items
+   inset 33px < 960 and 246px wide, 69px into their column from 960; one copy group sits
+   beside its figures, two copy lines head one figure column each (interleaved < 960) */
+.key-figures.with-text-3:has(.key-figures-icon) .key-figures-text.rte {
+  margin-bottom: var(--component-margin);
+}
+
+.key-figures.with-text-3:has(.key-figures-icon) .key-figures-numbers > .row {
+  padding: 0;
+}
+
+.key-figures.with-text-3 .key-figures-numbers > .row > .key-figures-number:has(.key-figures-icon) {
+  margin: 0 33px;
+  padding: 0 0 32px;
+  background-position-y: 234px;
+}
+
+@media (width < 960px) {
+  .key-figures.with-text-3:has(.key-figures-icon):has(.key-figures-text > :nth-child(2):last-child)
+    .container > .row {
+    row-gap: 32px;
+  }
+
+  .key-figures.with-text-3:has(.key-figures-icon):has(.key-figures-text > :nth-child(2):last-child)
+    :is(.key-figures-text, .key-figures-numbers, .key-figures-numbers > .row) {
+    display: contents;
+  }
+
+  .key-figures.with-text-3:has(.key-figures-icon):has(.key-figures-text > :nth-child(2):last-child)
+    .key-figures-text > * {
+    flex: 0 0 calc(100% - var(--gutter));
+    margin: 0 calc(var(--gutter) / 2) 10px;
+  }
+
+  .key-figures.with-text-3:has(.key-figures-text > :nth-child(2):last-child)
+    .key-figures-numbers > .row > .key-figures-number:has(.key-figures-icon) {
+    flex: 0 0 calc(100% - var(--gutter) - 66px);
+    order: 1;
+    margin: 0 calc(var(--gutter) / 2 + 33px);
+  }
+
+  .key-figures.with-text-3:has(.key-figures-icon):has(.key-figures-text > :nth-child(2):last-child)
+    .key-figures-text > :last-child {
+    order: 2;
+  }
+
+  .key-figures.with-text-3:has(.key-figures-text > :nth-child(2):last-child)
+    .key-figures-numbers > .row > .key-figures-number:has(.key-figures-icon):nth-child(n + 3) {
+    order: 3;
+  }
+}
+
+@media (width >= 960px) {
+  .key-figures.with-text-3 .key-figures-numbers > .row > .key-figures-number:has(.key-figures-icon) {
+    width: 246px;
+    margin: 0 0 0 69px;
+    background-position-y: 250px;
+  }
+
+  .key-figures.with-text-3:has(.key-figures-icon):not(:has(.key-figures-text > :nth-child(2):last-child))
+    .container > .row > :is(.key-figures-text, .key-figures-numbers) {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+    margin-left: calc(var(--gutter) / 2);
+  }
+
+  .key-figures.with-text-3:has(.key-figures-icon):not(:has(.key-figures-text > :nth-child(2):last-child))
+    .key-figures-numbers > .row {
+    grid-template-columns: minmax(0, 1fr);
   }
 }

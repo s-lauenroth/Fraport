@@ -17,6 +17,9 @@
  * Search and tag filter work over the authored first result page (the news corpus is not
  * migrated — dynamic-features rows 35/40/45).
  *
+ * @variants block class: light — the tag filter strip on its own (no search band): a single list
+ *   row of topic tags with the slider controls; tags filter any results authored in the block
+ *
  * @ew-exempt search / reset / slider button labels are presentational chrome (sr-only, from the
  * source's i18n keys), not authored content.
  */
@@ -196,7 +199,8 @@ export default function decorate(block) {
   if (empty) empty.classList.add('news-list-state-empty');
   if (error) error.classList.add('news-list-state-error');
 
-  const parts = [title, band];
+  const light = block.classList.contains('light');
+  const parts = light ? [title] : [title, band];
   if (tabs.children.length) {
     types.append(tabs);
     parts.push(types);

@@ -1,0 +1,25 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten/flugrouten.html",
+  "path": "de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten/flugrouten",
+  "timestamp": "2026-11-21T01:34:03.933Z",
+  "title": "Flugrouten",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "accordion",
+    "accordion",
+    "tabs-topic",
+    "sticky-patch",
+    "hero",
+    "accordion",
+    "downloads",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten/flugrouten/anflugstrecken",
+    "fragments/de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten/flugrouten/abflugstrecken",
+    "fragments/de/nachhaltigkeit/nachbarschaftsdialog/interaktive-karten/flugrouten/routenkarten"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

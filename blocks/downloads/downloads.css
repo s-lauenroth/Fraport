@@ -1,0 +1,135 @@
+/* downloads: titled groups; files as bordered boxes (name + meta line), other links as an arrow
+   list. Source: .frach-m-download-list + .frach-m-text inside a half-width grid column. */
+.downloads {
+  margin: 0 -16px;
+  padding: 16px 0 0;
+  color: rgb(0 0 0);
+}
+
+/* the source panel bleeds to the viewport edge with a 16px (32px desktop) grid gutter */
+.downloads .downloads-group {
+  padding-inline: 16px;
+}
+
+.downloads .downloads-group:first-child {
+  padding-top: 8px;
+}
+
+.downloads .downloads-group:last-child {
+  padding-bottom: var(--section-margin, 32px);
+}
+
+.downloads .downloads-group + .downloads-group {
+  margin-top: var(--section-margin, 32px);
+}
+
+/* headline: download-list headline keeps its padding, rich-text headline its margin */
+.downloads .downloads-title :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 16px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+  color: var(--grey-600);
+}
+
+.downloads .downloads-title:has(+ .downloads-files) :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  padding-bottom: 16px;
+}
+
+.downloads :is(.downloads-files, .downloads-links) {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.downloads .downloads-files {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.downloads .downloads-file {
+  padding: 8px;
+  border: 1px solid var(--grey-200);
+  background-color: var(--white, #fff);
+}
+
+.downloads a:any-link {
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.downloads .downloads-file-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloads .downloads-name {
+  font-family: var(--ff-semibold);
+}
+
+.downloads .downloads-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* the file-type icon only shows from 960px, as the source */
+.downloads .downloads-icon {
+  display: none;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  background-color: currentcolor;
+  mask: url("/icons/document-pdf.svg") center / contain no-repeat;
+}
+
+.downloads .downloads-links li {
+  margin: 0 0 10px;
+  line-height: 24px;
+}
+
+.downloads .downloads-links a::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+@media (width >= 960px) {
+  .downloads {
+    margin: 0;
+  }
+
+  .downloads .downloads-group {
+    padding-inline: 32px;
+  }
+
+  .downloads .downloads-group > * {
+    max-width: calc(50% - 16px);
+  }
+
+  .downloads .downloads-file {
+    padding: 8px 16px;
+  }
+
+  .downloads .downloads-meta {
+    margin-top: 7px;
+  }
+
+  .downloads .downloads-icon {
+    display: block;
+  }
+}

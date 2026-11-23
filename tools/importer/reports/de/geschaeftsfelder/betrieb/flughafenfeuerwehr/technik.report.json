@@ -1,0 +1,32 @@
+{
+  "status": "success",
+  "url": "https://www.fraport.com/de/geschaeftsfelder/betrieb/flughafenfeuerwehr/technik.html",
+  "path": "de/geschaeftsfelder/betrieb/flughafenfeuerwehr/technik",
+  "timestamp": "2026-11-21T01:21:08.581Z",
+  "title": "Technik",
+  "template": "content-page-2",
+  "blocks": [
+    "breadcrumb",
+    "accordion",
+    "accordion",
+    "accordion",
+    "accordion",
+    "tabs-topic",
+    "cards-teaser",
+    "cards-teaser",
+    "text-media",
+    "sticky-patch",
+    "hero",
+    "accordion",
+    "accordion",
+    "section-title",
+    "section-title",
+    "section-title"
+  ],
+  "fragments": [
+    "fragments/de/geschaeftsfelder/betrieb/flughafenfeuerwehr/technik/luftfahrzeugbrandschutz",
+    "fragments/de/geschaeftsfelder/betrieb/flughafenfeuerwehr/technik/gebaudebrandschutz",
+    "fragments/de/geschaeftsfelder/betrieb/flughafenfeuerwehr/technik/sonderfahrzeuge"
+  ],
+  "importScript": "da2be5f8e3f6"
+}

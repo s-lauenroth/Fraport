@@ -1,0 +1,159 @@
+/* share-price (source frach-m-key-figures--has-text, stock figure): grey headline + copy
+   column beside the centred aubergine price with a trend arrow and exchange caption.
+   Grid as the source .frach-grid: full width < 720, text 9/12 from 720, text 3/12 offset 1
+   beside the quote 6/12 offset 1 from 1280; the figure is 12/12 < 720, 6/12 from 720. */
+.share-price .share-price-row {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - var(--grid-outer));
+  max-width: var(--grid-max);
+  margin: 0 auto;
+}
+
+.share-price .share-price-row > * {
+  flex: 0 0 calc(100% - var(--gutter));
+  max-width: calc(100% - var(--gutter));
+  margin: 0 calc(var(--gutter) / 2);
+}
+
+.share-price .share-price-row > .share-price-text {
+  margin-bottom: 48px;
+  color: var(--grey-600);
+}
+
+.share-price .share-price-text :is(h2, h3, h4) {
+  margin: 0 0 16px;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-l);
+  line-height: var(--heading-line-height-l);
+  color: inherit;
+}
+
+.share-price .share-price-text p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.share-price .share-price-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--secondary-500);
+  text-align: center;
+}
+
+.share-price .share-price-figure,
+.share-price .share-price-caption {
+  width: calc(100% - var(--gutter));
+  margin-left: calc(var(--gutter) / 2);
+}
+
+.share-price .share-price-figure {
+  margin-top: 24px;
+  font-family: var(--ff-regular);
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.share-price .share-price-value {
+  display: inline;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.share-price .share-price-trend {
+  width: 32px;
+  height: 32px;
+  color: var(--grey-400);
+  vertical-align: baseline;
+  transform: translateY(2px);
+}
+
+.share-price .share-price-trend:not([hidden]) {
+  display: inline-block;
+}
+
+.share-price.is-down .share-price-trend {
+  color: var(--negative);
+  transform: rotate(45deg) translateY(2px);
+}
+
+.share-price.is-up .share-price-trend {
+  color: #9bbf5b;
+  transform: rotate(-45deg) translateY(2px);
+}
+
+.share-price .share-price-caption {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.share-price .share-price-caption p {
+  margin: 0;
+  color: inherit;
+}
+
+@media (width >= 720px) {
+  .share-price .share-price-row > .share-price-text {
+    flex-basis: calc(75% - var(--gutter));
+    max-width: calc(75% - var(--gutter));
+  }
+
+  .share-price .share-price-figure,
+  .share-price .share-price-caption {
+    width: calc(50% - var(--gutter));
+  }
+}
+
+@media (width >= 960px) {
+  .share-price .share-price-text :is(h2, h3, h4) {
+    margin-bottom: 32px;
+  }
+
+  .share-price .share-price-figure {
+    font-size: 56px;
+    line-height: 72px;
+  }
+
+  .share-price .share-price-trend {
+    width: 48px;
+    height: 48px;
+    transform: translateY(5px);
+  }
+
+  .share-price.is-down .share-price-trend {
+    transform: rotate(45deg) translateY(5px);
+  }
+
+  .share-price.is-up .share-price-trend {
+    transform: rotate(-45deg) translateY(5px);
+  }
+}
+
+@media (width >= 1280px) {
+  .share-price .share-price-row {
+    align-items: stretch;
+  }
+
+  .share-price .share-price-row > .share-price-text {
+    flex-basis: calc(25% - var(--gutter));
+    max-width: calc(25% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+
+  .share-price .share-price-row > .share-price-quote {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+    margin-left: calc(8.3333% + var(--gutter) / 2);
+  }
+
+  .share-price.is-down .share-price-trend {
+    transform: rotate(45deg) translateY(8px);
+  }
+
+  .share-price.is-up .share-price-trend {
+    transform: rotate(-45deg) translateY(8px);
+  }
+}

@@ -1,0 +1,157 @@
+/* operating-direction: the source betriebsrichtungsanzeige widget (runway graphic 66% + purple
+   status panel 33%, Arial) in an 8-of-12 grid column, beside a 4-of-12 text-media copy column
+   (text 2/3 of its nested grid, 1/6 offset). Stacked below 960px; graphic and panel stacked
+   below 768px, the panel then in two columns (one below 368px). */
+.operating-direction .operating-direction-row {
+  width: calc(100% - var(--grid-outer));
+  max-width: var(--grid-max);
+  margin: 0 auto;
+  padding: 0 var(--grid-pad);
+}
+
+/* the source columns are separate components: their bottom margins stay inside the block */
+.operating-direction .operating-direction-row,
+.operating-direction .operating-direction-text {
+  display: flow-root;
+}
+
+/* widget (.betriebsrichtungsanzeige): purple ground, the graphic on white */
+.operating-direction .operating-direction-widget {
+  overflow: hidden;
+  margin-bottom: var(--component-margin);
+  background: var(--secondary-400);
+  color: var(--white);
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* the source svg sits inline on a 14px/24px Arial line: the 7px strut descent below it is
+   restated as padding (a local preview without doctype drops the strut in quirks mode) */
+.operating-direction .operating-direction-graphic {
+  padding-bottom: 7px;
+  background: var(--white);
+}
+
+.operating-direction .operating-direction-graphic p {
+  margin: 0;
+}
+
+.operating-direction .operating-direction-graphic img {
+  width: 100%;
+  height: auto;
+}
+
+.operating-direction .operating-direction-items {
+  margin: 0;
+}
+
+.operating-direction .operating-direction-label {
+  margin: 0;
+  padding: 12.75px 0 0 12.75px;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.operating-direction .operating-direction-value {
+  margin: 0;
+  padding: 0 10.5px;
+}
+
+.operating-direction .operating-direction-stamp {
+  margin: 24px 0 0;
+  padding: 0 8.75px;
+  font-size: 11.6667px;
+  line-height: 24px;
+}
+
+@media (width >= 368px) and (width < 768px) {
+  .operating-direction .operating-direction-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (width >= 768px) {
+  .operating-direction .operating-direction-widget {
+    display: flex;
+  }
+
+  .operating-direction .operating-direction-graphic {
+    flex: 0 0 66%;
+  }
+
+  .operating-direction .operating-direction-panel {
+    flex: 0 0 33%;
+    margin: 0 -1px 0 auto;
+  }
+}
+
+/* copy column (frach-m-text-media--100 nested grid; the embed's p padding leaks into it) */
+.operating-direction .operating-direction-text {
+  --od-col: 100%;
+  --od-offset: 0;
+  --od-span: 1;
+  --od-nested: calc(var(--od-col) - var(--grid-outer) - 2 * var(--grid-pad) + var(--gutter));
+
+  width: calc(var(--od-nested) * var(--od-span) - var(--gutter));
+  margin: 0 0 var(--component-margin) calc(var(--grid-outer) / 2 + var(--grid-pad) + var(--od-nested) * var(--od-offset));
+}
+
+.operating-direction .operating-direction-text p {
+  padding: 0 12px;
+}
+
+.operating-direction .operating-direction-text a:any-link:not(.button)::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+.operating-direction .operating-direction-embed {
+  position: relative;
+  min-height: 400px;
+}
+
+.operating-direction .operating-direction-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (width >= 720px) {
+  .operating-direction .operating-direction-text {
+    --od-offset: 0.1667;
+    --od-span: 0.6667;
+  }
+}
+
+@media (width >= 960px) {
+  .operating-direction .operating-direction-row {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .operating-direction .operating-direction-widget,
+  .operating-direction .operating-direction-embed {
+    flex: 0 0 calc(66.6667% - var(--gutter) / 3);
+  }
+
+  .operating-direction .operating-direction-text {
+    --od-col: calc(33.3333% - var(--gutter) * 2 / 3);
+
+    flex: 0 0 auto;
+    margin-left: calc(var(--gutter) + var(--grid-outer) / 2 + var(--grid-pad) + var(--od-nested) * var(--od-offset));
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Responsive grid of columns stacking images and rich text",
+    "layout": "Halves for two cells, thirds for three; one-third/two-thirds split 4/8 or 8/4; thirds forces 4 of 12",
+    "notable": [
+      "Picture alone in a paragraph becomes a figure, optionally linked",
+      "CTA paragraphs become a button row",
+      "captions variant moves the paragraph after a picture into its figure",
+      "components variant splits text components on empty paragraphs"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one cell per column: optional picture, then rich text with optional CTA links",
+    "rows": "1 row, 1 cell per column"
+  },
+  "options": [
+    {
+      "class": "one-third",
+      "label": "One Third"
+    },
+    {
+      "class": "two-thirds",
+      "label": "Two Thirds"
+    },
+    {
+      "class": "thirds",
+      "label": "Thirds"
+    },
+    {
+      "class": "captions",
+      "label": "Captions"
+    },
+    {
+      "class": "components",
+      "label": "Components"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "grey",
+      "label": "Grey"
+    }
+  ],
+  "memberVariantIds": [
+    "v_69a1a6fda681",
+    "v_8434447dbdbc-4",
+    "v_b6be0bd607ba-2",
+    "v_ed30fa86a9eb-1"
+  ],
+  "usage": "Use to place two or three pieces of text and media side by side.",
+  "reuseGuidance": "Fits side-by-side text and image content; not for linked teaser tiles or sliders."
+}

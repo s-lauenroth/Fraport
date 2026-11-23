@@ -1,0 +1,71 @@
+{
+  "variantName": "columns-sidebar",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Article or press release body beside a narrow sidebar with contact cards and downloads",
+    "layout": "Main text column 8 of 12 beside a 4-column sidebar from 960px; stacked on smaller screens",
+    "colorScheme": "light",
+    "notable": [
+      "Sidebar picture + name + phone / e-mail becomes a raised contact card",
+      "File links become bordered download boxes with a meta line",
+      "Tables in the body scroll sideways",
+      "light / light-2 sit on a tinted band"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row, two cells: main body (headings, text, lists, tables, images) and sidebar (contact card picture + text + links, download links with file meta, further-information text); the sidebar cell may be a fragment link",
+    "rows": "1 row, 2 cells"
+  },
+  "usage": "Use for the body of articles and press releases that carry a contact and downloads sidebar.",
+  "reuseGuidance": "Fits long text beside short supporting material; use columns for equal columns and text-media for text beside a single image.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "alt-2",
+      "label": "Alt 2"
+    },
+    {
+      "class": "alt-3",
+      "label": "Alt 3"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    },
+    {
+      "class": "light-2",
+      "label": "Light 2"
+    },
+    {
+      "class": "image-blue",
+      "label": "Image Blue"
+    }
+  ],
+  "memberVariantIds": [
+    "v_ef83eb842e60",
+    "v_34f6f12817a9",
+    "v_6fc9ee549b20",
+    "v_ef83eb842e60-2",
+    "v_ef83eb842e60-3",
+    "v_34f6f12817a9-4",
+    "v_ef83eb842e60-4",
+    "v_6fc9ee549b20-1",
+    "v_141ef91e3cc1",
+    "v_34f6f12817a9-6",
+    "v_34f6f12817a9-7",
+    "v_34f6f12817a9-10",
+    "v_34f6f12817a9-11",
+    "v_34f6f12817a9-12",
+    "v_34f6f12817a9-2",
+    "v_34f6f12817a9-8",
+    "v_34f6f12817a9-9",
+    "v_6fc9ee549b20-4",
+    "v_6fc9ee549b20-5",
+    "v_9bca3c088b32",
+    "v_caf5b15a90c8"
+  ]
+}

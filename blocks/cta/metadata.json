@@ -1,0 +1,35 @@
+{
+  "variantName": "cta",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Ruled call-to-action band with a headline, copy and buttons",
+    "layout": "Headline and copy on the left, button(s) bottom right below a rule",
+    "notable": [
+      "Strong links become primary, em links secondary buttons",
+      "Always renders two action slots",
+      "small variant sets the headline in the h6 ramp"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one cell with a heading, copy paragraph(s) and CTA link paragraphs",
+    "rows": "1 row, 1 cell"
+  },
+  "options": [
+    {
+      "class": "small",
+      "label": "Small"
+    },
+    {
+      "class": "light",
+      "label": "Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_0162af7d4403",
+    "v_866ade7d4e4d",
+    "v_7f97ea68e32c"
+  ],
+  "usage": "Use to prompt a single action such as visiting the job portal or newsroom archive.",
+  "reuseGuidance": "Fits a short headline, one line of copy and one or two buttons; not for long text or images."
+}

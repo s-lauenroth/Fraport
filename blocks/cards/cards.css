@@ -1,6 +1,9 @@
 /* cards (frach-m-card grid): 1:1 image cards (gradient veil, theme meta, h5 title), 12 / 6 / 4
    cols. with-link-box: the last column (.cards-col-aside) holds a link-box — full width
    720-1279, 4 cols >= 1280. */
+
+/* stylelint-disable no-descending-specificity -- rules are grouped by look (frach-m-card, teaser,
+   dated, contact); the looks never style the same element */
 .cards .row {
   align-items: flex-start;
 }
@@ -161,4 +164,173 @@
 
 .cards.dated .cards-card-date p {
   margin: 0;
+}
+
+/* image + text teasers (source frach-m-image--hover-fx + frach-m-text, 12 / 4 cols): image and
+   text each carry the component margin; the text keeps its paragraph margin (no collapse) */
+.cards .cards-col-simple > .cards-card-simple {
+  margin-bottom: 0;
+}
+
+.cards .cards-card-simple > * {
+  margin-bottom: var(--component-margin);
+}
+
+.cards .cards-card-simple .cards-card-image::before {
+  content: none;
+}
+
+.cards .cards-card-simple .cards-card-image a {
+  display: block;
+  overflow: hidden;
+}
+
+.cards .cards-card-simple .cards-card-image img {
+  aspect-ratio: 16 / 9;
+}
+
+.cards .cards-card-simple .cards-card-image a:hover img {
+  transform: scale(1.2);
+}
+
+.cards .cards-card-simple .cards-card-text {
+  display: flow-root;
+  color: var(--text-color);
+}
+
+.cards .cards-card-simple :is(h1, h2, h3, h4, h5, h6) {
+  margin: 16px 0;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+  color: var(--heading-color);
+}
+
+.cards .cards-card-simple .cards-card-text > :first-child {
+  margin-top: 0;
+}
+
+.cards .cards-card-simple .cards-card-text p {
+  margin: 0 0 10px;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.cards .cards-card-simple a:any-link {
+  color: var(--link-color);
+}
+
+.cards .cards-card-simple :is(h1, h2, h3, h4, h5, h6) a:any-link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* headline arrow: inline in the inline link, as on the source */
+.cards .cards-card-simple .cards-arrow {
+  position: relative;
+  display: inline-block;
+  width: 16px;
+  height: 24px;
+  margin: 0 8px -7px 0;
+  fill: currentcolor;
+}
+
+@media (width >= 720px) {
+  .cards .row > .cards-col-simple {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+/* option: contact — department contact cards (source frach-m-contact: white, shadowed, 16:9 image,
+   16 / 24px info padding; 12 / 6 / 4 cols, 24px below each card) */
+.cards.contact .row {
+  align-items: stretch;
+}
+
+.cards.contact .cards-col > .cards-contact {
+  height: calc(100% - 24px);
+  margin-bottom: 24px;
+  background-color: var(--white);
+  box-shadow: 0 0 6px 0 var(--grey-300);
+}
+
+.cards.contact .cards-card-image::before {
+  content: none;
+}
+
+.cards.contact .cards-card-image img {
+  aspect-ratio: 16 / 9;
+}
+
+.cards.contact .cards-card-text {
+  padding: 16px;
+  font-style: normal;
+  color: var(--text-color);
+}
+
+.cards.contact .cards-card-text :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 12px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+  color: var(--heading-color);
+}
+
+.cards.contact .cards-card-text p {
+  margin: 16px 0;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+  white-space: pre-line;
+}
+
+.cards.contact .cards-card-text > :first-child,
+.cards.contact .cards-card-text > :is(h1, h2, h3, h4, h5, h6) + p {
+  margin-top: 0;
+}
+
+.cards.contact .cards-card-text .cards-contact-link {
+  display: table;
+  margin: 4px 0;
+  overflow-wrap: anywhere;
+}
+
+.cards.contact .cards-card-text a:any-link {
+  color: var(--link-color);
+}
+
+.cards.contact .cards-card-text a:any-link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+.cards.contact .cards-contact-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  fill: currentcolor;
+}
+
+@media (width >= 720px) {
+  .cards.contact .row > .cards-col {
+    flex-basis: calc(50% - var(--gutter));
+    max-width: calc(50% - var(--gutter));
+  }
+}
+
+@media (width >= 1280px) {
+  .cards.contact .row > .cards-col {
+    flex-basis: calc(33.3333% - var(--gutter));
+    max-width: calc(33.3333% - var(--gutter));
+  }
+}
+
+@media (width >= 1440px) {
+  .cards.contact .cards-card-text {
+    padding: 24px;
+  }
 }

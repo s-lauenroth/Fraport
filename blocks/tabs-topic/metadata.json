@@ -1,0 +1,32 @@
+{
+  "variantName": "tabs-topic",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Tab bar switching topic content panels",
+    "layout": "Ruled, horizontally scrolling tab bar with an underlined active tab; one panel below at a time",
+    "colorScheme": "light",
+    "notable": [
+      "URL hash selects the tab",
+      "Keyboard navigation per WAI-ARIA tabs",
+      "A panel can be a fragment or page link, loaded with loadFragment on first open"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row per tab: label cell and panel cell (rich content, or a single link to a fragment / page whose blocks form the panel)",
+    "rows": "One row per tab, 2 cells"
+  },
+  "usage": "Use to group parallel topics (e.g. licences, locations) on one page.",
+  "reuseGuidance": "Fits 2-8 tabs with short labels; tabbed-content covers tabs driven by section metadata.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    }
+  ],
+  "memberVariantIds": [
+    "v_e24a25f72eff",
+    "v_7d596c606fe0",
+    "v_e24a25f72eff-1"
+  ]
+}

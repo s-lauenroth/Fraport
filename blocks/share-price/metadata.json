@@ -1,0 +1,25 @@
+{
+  "variantName": "share-price",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Live share price widget beside an explanatory text",
+    "layout": "Text column (4 of 12) beside the centred big price with trend arrow and exchange caption; stacked on mobile",
+    "colorScheme": "light",
+    "notable": [
+      "Fetches the live XETRA quote on scroll-in",
+      "Authored price is the fallback",
+      "Trend arrow rotates up / down"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row: text cell (heading, copy) and price cell (price as displayed, caption); optional config row source | url",
+    "rows": "1 row, 1-2 cells"
+  },
+  "usage": "Use on investor pages to show today's share price next to context text.",
+  "reuseGuidance": "Fits one live quote; key-figures (stock) covers a price among other figures.",
+  "options": [],
+  "memberVariantIds": [
+    "v_b6be0bd607ba-1"
+  ]
+}

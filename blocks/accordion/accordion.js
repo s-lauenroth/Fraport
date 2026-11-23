@@ -61,6 +61,8 @@ export default function decorate(block) {
     const [labelCell, idCell] = row.children;
     if (!labelCell) return;
     const labelText = labelCell.textContent.replace(/\s+/g, ' ').trim();
+    // an empty label row is an import artefact (e.g. a mis-mapped player): no item, no panel
+    if (!labelText) return;
     const id = slug((idCell && idCell.textContent) || labelText) || 'item';
     const item = el('div', 'accordion-item');
     const input = el('input', 'accordion-input');
@@ -86,11 +88,7 @@ export default function decorate(block) {
     lastInner = inner;
   });
   if (lastInner) adopt(block, lastInner);
-  const container = el('div', 'container');
-  const gridRow = el('div', 'row');
-  const col = el('div', 'accordion-col');
-  col.append(list);
-  gridRow.append(col);
-  container.append(gridRow);
-  block.replaceChildren(container);
+  // the block itself is the grid column (10 of 12, offset 1 from 960, as the source
+  // .frach-m-accordion__section): no inner container/row wrappers
+  block.replaceChildren(...(lastInner ? [list] : []));
 }

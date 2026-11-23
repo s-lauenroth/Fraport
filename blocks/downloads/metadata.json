@@ -1,0 +1,24 @@
+{
+  "variantName": "downloads",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Stacked bordered download boxes with file type and size, grouped under headings",
+    "layout": "Titled groups; download boxes stacked at half width from 960px; plain links as an arrow list",
+    "colorScheme": "light",
+    "notable": [
+      "Meta line (e.g. PDF, 879 KB) with a file icon",
+      "Non-file links in the same group render as arrow links"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell: headings start groups; list items or paragraphs with one link each; text after the link is the file meta line",
+    "rows": "1 row, 1 cell"
+  },
+  "usage": "Use for a list of downloadable documents, optionally followed by related links.",
+  "reuseGuidance": "Fits documents with type and size meta; download-list covers the project's existing 10-column list layout.",
+  "options": [],
+  "memberVariantIds": [
+    "v_3d0ff6bfb838"
+  ]
+}

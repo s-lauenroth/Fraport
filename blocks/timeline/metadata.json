@@ -1,0 +1,31 @@
+{
+  "variantName": "timeline",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Vertical history timeline with year markers and image cards",
+    "layout": "Dotted vertical line with a ring marker per entry; year left of the line, card (image, caption) right; line centred from 960px",
+    "colorScheme": "light",
+    "notable": [
+      "Year label beside each marker",
+      "Cards on a tinted background",
+      "shadow option is not a timeline: text column beside raised contact cards"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row per entry: year cell and content cell (picture, caption heading / paragraph, text); shadow: cells become a text column and contact cards",
+    "rows": "One row per entry, 1-2 cells"
+  },
+  "usage": "Use for history pages listing milestones by year.",
+  "reuseGuidance": "Fits dated entries with one image each; milestones and carousel-text-media cover sliding history views. The shadow option is a catalog placement for text + contact cards and may move to columns or cards (contact) later.",
+  "options": [
+    {
+      "class": "shadow",
+      "label": "Shadow"
+    }
+  ],
+  "memberVariantIds": [
+    "v_b7645322c258",
+    "v_c988b827a7ff"
+  ]
+}

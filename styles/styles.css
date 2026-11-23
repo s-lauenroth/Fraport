@@ -1,3 +1,5 @@
+@import url('brand.css');
+
 /* stylelint-disable no-descending-specificity -- chrome/foundation rules are grouped by component, not specificity */
 
 /*
@@ -11,68 +13,17 @@
  */
 
 :root {
-  /* palette (source custom properties) */
-  --primary-900: #00001d;
-  --primary-800: #00003a;
-  --primary-700: #000057;
-  --primary-600: #000074;
-  --primary-500: #000091;
-  --primary-400: #3333a7;
-  --primary-300: #6666bd;
-  --primary-200: #8c96c8;
-  --primary-100: #cccce9;
-  --primary-050: #d9d9ef;
-  --secondary-900: #160416;
-  --secondary-800: #2c082c;
-  --secondary-700: #420c42;
-  --secondary-600: #581058;
-  --secondary-500: #6e156e;
-  --secondary-400: #8c448c;
-  --secondary-300: #a873a8;
-  --secondary-200: #c5a2c5;
-  --secondary-100: #e2d0e2;
-  --secondary-050: #eadcea;
-  --grey-900: #1a1c1d;
-  --grey-800: #34383a;
-  --grey-700: #4f5457;
-  --grey-600: #697074;
-  --grey-500: #848c91;
-  --grey-400: #9ca3a7;
-  --grey-300: #b5babd;
-  --grey-200: #ced1d3;
-  --grey-100: #e6e8e9;
-  --grey-050: #edeeef;
-  --white: #fff;
-  --negative: #df4961;
-  --text-color: var(--grey-600);
-  --link-color: var(--primary-500);
-  --rule-color: var(--grey-200);
-  --gradient-brand: linear-gradient(135deg, var(--primary-500) 0, var(--secondary-500) 100%);
-  --gradient-brand-90: linear-gradient(90deg, var(--primary-500) 0, var(--secondary-500) 100%);
-
-  /* type families (one family per cut, as on source); metric-matched fallback second */
-  --font-fallback: "Liberation Sans", arial, sans-serif;
-  --ff-regular: fraport-sans-regular, fraport-sans-fallback, var(--font-fallback);
-  --ff-italic: fraport-sans-italic, fraport-sans-fallback, var(--font-fallback);
-  --ff-semibold: fraport-sans-semi-bold, fraport-sans-strong-fallback, var(--font-fallback);
-  --ff-semibold-italic:
-    fraport-sans-semi-bold-italic, fraport-sans-strong-fallback, var(--font-fallback);
-  --ff-bold: fraport-sans-bold, fraport-sans-strong-fallback, var(--font-fallback);
-  --ff-bold-italic: fraport-sans-bold-italic, fraport-sans-strong-fallback, var(--font-fallback);
-  --body-font-family: var(--ff-regular);
+  /* palette, semantic colours, type families, heading sizes, nav height: brand.css */
 
   /* grid model (.frach-grid): outer width, padding, gutter */
-  --grid-max: 1648px;
+  --grid-max: var(--content-max-width);
   --max-width: var(--grid-max);
   --grid-outer: 8px;
   --grid-pad: 12px;
   --gutter: 24px;
-  --component-margin: 32px;
-  --component-padding: 32px;
+  --component-margin: var(--section-margin);
+  --component-padding: var(--section-padding);
   --header-height: 86px;
-
-  /* chrome reservation: header bar 85px + 1px rule; 152px + 1px expanded at >= 1280 */
-  --nav-height: 86px;
 }
 
 /* metric-matched local fallbacks (available at first paint; fonts.css loads later) */
@@ -102,8 +53,6 @@
 
 @media (width >= 960px) {
   :root {
-    --component-margin: 64px;
-    --component-padding: 64px;
     --header-height: 79px;
   }
 }
@@ -113,7 +62,6 @@
     --grid-outer: 32px;
     --grid-pad: 16px;
     --gutter: 32px;
-    --nav-height: 153px;
   }
 }
 
@@ -131,11 +79,14 @@ html {
 body {
   display: none;
   margin: 0;
-  background: var(--grey-100);
-  color: #000;
-  font-family: var(--ff-regular);
-  font-size: 16px;
-  line-height: 24px;
+
+  /* the source page is white end to end: a grey body showed as rules under the breadcrumb
+     and above the footer */
+  background: var(--background-color);
+  color: var(--body-text-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
 }
@@ -162,7 +113,7 @@ footer .footer[data-block-status="loaded"] {
 
 main {
   display: block;
-  background: var(--white);
+  background: var(--background-color);
 }
 
 /* no clipping ancestor on main (the source has none): only the anchor-list section clips the
@@ -261,87 +212,55 @@ pre {
   white-space: nowrap;
 }
 
-/* ---- type ramp (frach-h1..h6, body, meta) ---- */
+/* ---- type ramp (frach-h1..h6, body, meta); sizes are brand.css tokens ---- */
 .h1 {
-  font-family: var(--ff-semibold-italic);
+  font-family: var(--heading-font-family);
   font-style: italic;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: var(--heading-font-size-xxl);
+  line-height: var(--heading-line-height-xxl);
 }
 
 .h2 {
   font-family: var(--ff-regular);
-  font-size: 40px;
-  line-height: 56px;
+  font-size: var(--heading-font-size-xl);
+  line-height: var(--heading-line-height-xl);
 }
 
 .h3 {
-  font-family: var(--ff-semibold-italic);
+  font-family: var(--heading-font-family);
   font-style: italic;
-  font-size: 28px;
-  line-height: 44px;
+  font-size: var(--heading-font-size-l);
+  line-height: var(--heading-line-height-l);
 }
 
 .h4 {
   font-family: var(--ff-semibold);
-  font-size: 24px;
-  line-height: 34px;
+  font-size: var(--heading-font-size-m);
+  line-height: var(--heading-line-height-m);
 }
 
 .h5 {
   font-family: var(--ff-semibold);
-  font-size: 20px;
-  line-height: 30px;
+  font-size: var(--heading-font-size-s);
+  line-height: var(--heading-line-height-s);
 }
 
 .h6 {
   font-family: var(--ff-semibold);
-  font-size: 18px;
-  line-height: 26px;
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
 }
 
 .body {
-  font-family: var(--ff-regular);
-  font-size: 16px;
-  line-height: 24px;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
 }
 
 .meta {
-  font-family: var(--ff-regular);
+  font-family: var(--body-font-family);
   font-size: 12px;
   line-height: 18px;
-}
-
-@media (width >= 960px) {
-  .h1 {
-    font-size: 56px;
-    line-height: 72px;
-  }
-
-  .h2 {
-    font-size: 56px;
-    line-height: 72px;
-  }
-
-  .h3 {
-    font-size: 40px;
-    line-height: 56px;
-  }
-
-  .h4 {
-    font-size: 28px;
-    line-height: 40px;
-  }
-
-  .h5 {
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  .h6 {
-    font-size: 20px;
-    line-height: 30px;
-  }
 }
 
 /* ---- grid (.frach-grid / -row / -col) ---- */
@@ -352,6 +271,14 @@ main > .section > .default-content-wrapper {
   margin-left: auto;
   margin-right: auto;
   padding: 0 var(--grid-pad);
+}
+
+/* source text components sit in the 8-of-12 column offset by 2 from mq4 (1280px):
+   x 267 / w 907 at 1440px. Margins in % of the wrapper's content width. */
+@media (width >= 1280px) {
+  main > .section > .default-content-wrapper > * {
+    margin-inline: calc((100% + var(--gutter)) * 2 / 12);
+  }
 }
 
 .row {
@@ -382,15 +309,32 @@ main .section:empty {
   display: none;
 }
 
-/* section style vocabulary (default-content sections only; closed set) */
+/* section style vocabulary (section-metadata Style; closed set). Source .frach-h-bg--grey +
+   .frach-h-component-padding/-margin: #edeeef, 32/64px top padding, the last component's
+   margin stays inside the grey (flow-root stops it collapsing out), 32/64px white gap after */
 main > .section.grey {
-  background: var(--grey-050);
+  display: flow-root;
+  background: var(--light-color);
   padding-top: var(--component-padding);
+  margin-bottom: var(--component-margin);
+}
+
+/* brand gradient band (source .frach-h-bg--gradient, e.g. the error page stage): white text */
+main > .section.brand-gradient {
+  display: flow-root;
+  background: var(--gradient-brand);
+  color: var(--white);
+  padding-top: var(--component-padding);
+  margin-bottom: var(--component-margin);
+}
+
+main > .section.brand-gradient :is(h1, h2, h3, h4, h5, h6, p, a:not(.button)) {
+  color: inherit;
 }
 
 /* tight grey: padding-top only, the component margin sits outside the grey */
 main > .section.grey-tight {
-  background: var(--grey-050);
+  background: var(--light-color);
   padding-top: var(--component-padding);
   margin-bottom: var(--component-margin);
 }
@@ -399,16 +343,35 @@ main > .section.grey-tight > div:last-child {
   margin-bottom: 0;
 }
 
-/* ---- links ---- */
+/* ---- links (.frach-e-link): no underline at rest; hover underline + primary-700;
+   focus 2px bar under the text, no underline; active primary-800 + underline ---- */
 .link {
   display: inline-flex;
   align-items: baseline;
   color: var(--link-color);
 }
 
-.link:focus-visible {
+:is(.link, :is(.rte, main .default-content-wrapper) a:not(.button)):any-link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+:is(.link, :is(.rte, main .default-content-wrapper) a:not(.button)):focus-visible {
   outline: none;
-  box-shadow: 0 2px 0 0 var(--primary-500);
+  color: var(--link-color);
+  text-decoration: none;
+  box-shadow: 0 2px 0 0 var(--link-color);
+}
+
+:is(.link, :is(.rte, main .default-content-wrapper) a:not(.button)):active {
+  color: var(--link-active-color);
+  text-decoration: underline;
+  box-shadow: none;
+}
+
+.link[aria-disabled="true"] {
+  color: var(--link-disabled-color);
+  pointer-events: none;
 }
 
 /* ---- icons: EDS span.icon (img from /icons/); brand icons repaint in currentcolor ---- */
@@ -473,6 +436,26 @@ main > .section.grey-tight > div:last-child {
 
 /* ---- buttons (.frach-e-button) — EDS: strong = primary, em = secondary,
    strong+em = accent (tertiary text button with arrow); canon class names kept for block JS ---- */
+
+/* EDS button reset: an a.button without a variant reads as a plain link. :where(main) keeps it
+   at (0,2,1) so the foundation button rules below (same specificity, later) still win. */
+main .button-container {
+  display: inline;
+}
+
+:where(main) a.button:any-link {
+  background: none;
+  border: none;
+  border-radius: 0;
+  color: var(--link-color);
+  font-size: inherit;
+  font-weight: inherit;
+  padding: 0;
+  margin: 0;
+  text-decoration: underline;
+  white-space: normal;
+}
+
 a.button:any-link,
 button.button,
 .button {
@@ -491,6 +474,10 @@ button.button,
   letter-spacing: 0.5px;
   text-align: center;
   text-decoration: none;
+  transition:
+    background-color var(--transition-fast),
+    border-color var(--transition-fast),
+    color var(--transition-fast);
 }
 
 a.button.primary,
@@ -541,16 +528,99 @@ a.button.accent::after,
   height: 24px;
 }
 
+/* button states (source .frach-e-button--primary/--secondary/--tertiary; hover is gated on
+   .frach-h-no-touch at source = hover-capable pointers here) */
+@media (hover: hover) {
+  :is(a.button.primary, button.button.primary, .button-primary):hover {
+    background-color: var(--primary-700);
+    border-color: var(--primary-700);
+    color: var(--white);
+  }
+
+  :is(a.button.secondary, button.button.secondary, .button-secondary):hover {
+    background-color: var(--primary-050);
+    border-color: var(--primary-700);
+    color: var(--primary-700);
+  }
+
+  :is(a.button.accent, button.button.accent, .button-tertiary):hover {
+    background: none;
+    color: var(--primary-700);
+    text-decoration: underline;
+  }
+}
+
+/* focus: no outline, a 2px bar inset 4px from the bottom/sides (source ::after; drawn as a
+   background line here because ::after carries the button arrow icons) */
 a.button:focus-visible,
 .button:focus-visible {
-  outline: 2px solid var(--primary-500);
-  outline-offset: 2px;
+  outline: none;
+}
+
+:is(a.button.primary, button.button.primary, .button-primary):focus-visible {
+  background-color: var(--primary-600);
+  color: var(--white);
+}
+
+:is(
+  a.button.primary, button.button.primary, .button-primary,
+  a.button.secondary, button.button.secondary, .button-secondary
+):focus-visible {
+  background-image: linear-gradient(currentcolor, currentcolor);
+  background-position: center bottom 4px;
+  background-repeat: no-repeat;
+  background-size: calc(100% - 8px) 2px;
+}
+
+:is(a.button.secondary, button.button.secondary, .button-secondary):focus-visible {
+  background-color: var(--white);
+  border-color: var(--primary-500);
+  color: var(--primary-500);
+}
+
+:is(a.button.accent, button.button.accent, .button-tertiary):focus-visible {
+  box-shadow: 0 2px 0 0 var(--primary-500);
+}
+
+:is(a.button.primary, button.button.primary, .button-primary):active {
+  background-color: var(--primary-800);
+  border-color: var(--primary-800);
+  color: var(--white);
+}
+
+:is(a.button.secondary, button.button.secondary, .button-secondary):active {
+  background-color: var(--primary-100);
+  border-color: var(--primary-800);
+  color: var(--primary-800);
+}
+
+:is(a.button.accent, button.button.accent, .button-tertiary):active {
+  background: none;
+  color: var(--primary-800);
+  text-decoration: underline;
 }
 
 a.button[aria-disabled="true"],
 button.button:disabled {
   cursor: not-allowed;
   pointer-events: none;
+}
+
+:is(a.button[aria-disabled="true"], button.button:disabled):is(.primary, .button-primary) {
+  background: var(--grey-200);
+  border-color: var(--grey-200);
+  color: var(--grey-400);
+}
+
+:is(a.button[aria-disabled="true"], button.button:disabled):is(.secondary, .button-secondary) {
+  background: rgb(255 255 255 / 40%);
+  border-color: var(--grey-200);
+  color: var(--grey-400);
+}
+
+:is(a.button[aria-disabled="true"], button.button:disabled):is(.accent, .button-tertiary) {
+  background: none;
+  color: var(--grey-200);
 }
 
 p.button-wrapper {
@@ -694,53 +764,58 @@ main .default-content-wrapper {
 }
 
 :is(.rte, main .default-content-wrapper) h1 {
-  font-family: var(--ff-semibold-italic);
+  font-family: var(--heading-font-family);
   font-style: italic;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: var(--heading-font-size-xxl);
+  line-height: var(--heading-line-height-xxl);
   margin: 16px 0;
   color: var(--primary-500);
 }
 
 :is(.rte, main .default-content-wrapper) h2 {
   font-family: var(--ff-regular);
-  font-size: 40px;
-  line-height: 56px;
+  font-size: var(--heading-font-size-xl);
+  line-height: var(--heading-line-height-xl);
   margin: 16px 0;
   color: var(--primary-500);
 }
 
 :is(.rte, main .default-content-wrapper) h3 {
-  font-family: var(--ff-semibold-italic);
+  font-family: var(--heading-font-family);
   font-style: italic;
-  font-size: 28px;
-  line-height: 44px;
+  font-size: var(--heading-font-size-l);
+  line-height: var(--heading-line-height-l);
   margin: 16px 0;
 }
 
 :is(.rte, main .default-content-wrapper) h4 {
   font-family: var(--ff-semibold);
-  font-size: 24px;
-  line-height: 34px;
+  font-size: var(--heading-font-size-m);
+  line-height: var(--heading-line-height-m);
   margin: 16px 0;
 }
 
 :is(.rte, main .default-content-wrapper) h5 {
   font-family: var(--ff-semibold);
-  font-size: 20px;
-  line-height: 30px;
+  font-size: var(--heading-font-size-s);
+  line-height: var(--heading-line-height-s);
   margin: 16px 0;
 }
 
 :is(.rte, main .default-content-wrapper) h6 {
   font-family: var(--ff-semibold);
-  font-size: 18px;
-  line-height: 26px;
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
   margin: 16px 0;
 }
 
 :is(.rte, main .default-content-wrapper) a:any-link {
   color: var(--link-color);
+}
+
+/* the rich-text link colour (0,2,2) outranks a.button.primary (0,2,1): restore the label */
+:is(.rte, main .default-content-wrapper) a.button.primary:any-link {
+  color: var(--white);
 }
 
 /* rich-text lists (canon request: .frach-m-text ul/ol, 6px grey-500 dot) */
@@ -781,36 +856,10 @@ main .default-content-wrapper {
   left: 8px;
 }
 
+/* source .frach-m-text h2, h3 { margin: 32px 0 } at >= 960 (sizes switch via brand.css) */
 @media (width >= 960px) {
-  :is(.rte, main .default-content-wrapper) h1 {
-    font-size: 56px;
-    line-height: 72px;
-  }
-
-  :is(.rte, main .default-content-wrapper) h2 {
-    font-size: 56px;
-    line-height: 72px;
-  }
-
-  :is(.rte, main .default-content-wrapper) h3 {
-    font-size: 40px;
-    line-height: 56px;
+  :is(.rte, main .default-content-wrapper) :is(h2, h3) {
     margin: 32px 0;
-  }
-
-  :is(.rte, main .default-content-wrapper) h4 {
-    font-size: 28px;
-    line-height: 40px;
-  }
-
-  :is(.rte, main .default-content-wrapper) h5 {
-    font-size: 24px;
-    line-height: 34px;
-  }
-
-  :is(.rte, main .default-content-wrapper) h6 {
-    font-size: 20px;
-    line-height: 30px;
   }
 }
 

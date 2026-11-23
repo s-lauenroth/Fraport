@@ -1,0 +1,268 @@
+/* timeline (source frach-m-timeline): the block box is the timeline column of the grid
+   content box (.container less its padding); below 960 it starts 30px in, the dotted line and
+   the ring marker sit on its left edge, the year beside the marker and the card below it.
+   From 960 the line is centred and the cards alternate right / left of it. */
+.timeline {
+  margin-left: calc(var(--grid-outer) / 2 + var(--grid-pad) + 30px);
+  margin-right: calc(var(--grid-outer) / 2 + var(--grid-pad));
+  color: var(--body-text-color);
+}
+
+.timeline .timeline-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timeline .timeline-entry {
+  position: relative;
+}
+
+/* dotted line: 5px squares every 21px (source grey-200 dots) */
+.timeline .timeline-entry::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1px;
+  width: 5px;
+  background: linear-gradient(var(--grey-200) 5px, transparent 0) 0 19px / 5px 21px repeat-y;
+}
+
+.timeline .timeline-dot {
+  position: absolute;
+  z-index: 1;
+  top: 6px;
+  left: -16px;
+  box-sizing: border-box;
+  width: 34px;
+  height: 34px;
+  border: 5px solid var(--primary-500);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--primary-500) 0 4px, var(--white) 4.5px);
+}
+
+.timeline .timeline-year {
+  width: fit-content;
+  margin-left: 36px;
+  padding-top: 9px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-s);
+  line-height: var(--heading-line-height-s);
+  color: var(--heading-color);
+}
+
+.timeline .timeline-year > * {
+  margin: 0;
+  font: inherit;
+}
+
+.timeline .timeline-card {
+  position: relative;
+  margin: 10px 36px 0 26px;
+  padding: 24px;
+  background: var(--grey-050);
+}
+
+.timeline .timeline-media p {
+  margin: 0;
+}
+
+.timeline .timeline-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.timeline .timeline-body {
+  color: var(--text-color);
+}
+
+.timeline .timeline-body > :first-child {
+  margin-top: 24px;
+}
+
+.timeline .timeline-body h6 {
+  margin: 0 0 16px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+  color: var(--heading-color);
+}
+
+.timeline .timeline-body p {
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media (width >= 960px) {
+  .timeline {
+    width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+    max-width: calc(var(--grid-max) - 2 * var(--grid-pad));
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 8px;
+  }
+
+  .timeline .timeline-entry:not(:last-child) {
+    padding-bottom: 8px;
+  }
+
+  .timeline .timeline-entry::before {
+    left: 50%;
+    background-position-y: 13px;
+  }
+
+  .timeline .timeline-dot {
+    left: calc(50% - 15px);
+  }
+
+  .timeline .timeline-year {
+    position: absolute;
+    top: 6px;
+    right: calc(50% + 36px);
+    margin: 0;
+    padding: 0;
+  }
+
+  .timeline .timeline-card {
+    width: min(390px, calc(50% - 36px));
+    margin: 0 0 0 calc(50% + 36px);
+  }
+
+  /* arrow pointing at the marker */
+  .timeline .timeline-card::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    border-style: solid;
+    border-width: 12px 10px 12px 0;
+    border-color: transparent var(--grey-050) transparent transparent;
+  }
+
+  /* even entries: card left of the line, year right of it */
+  .timeline .timeline-entry:nth-child(even) .timeline-year {
+    right: auto;
+    left: calc(50% + 36px);
+  }
+
+  .timeline .timeline-entry:nth-child(even) .timeline-card {
+    margin: 0 calc(50% + 36px) 0 auto;
+  }
+
+  .timeline .timeline-entry:nth-child(even) .timeline-card::before {
+    left: auto;
+    right: -10px;
+    border-width: 12px 0 12px 10px;
+    border-color: transparent transparent transparent var(--grey-050);
+  }
+}
+
+/* shadow: not a timeline (source frach-grid row: a text column beside contact cards,
+   frach-grid-col-mq1-12 mq3-4), the row in the grid content box */
+.timeline.shadow {
+  width: auto;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline .timeline-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  width: calc(100% - var(--grid-outer));
+  max-width: var(--grid-max);
+  margin: 0 auto;
+  padding: 0 var(--grid-pad);
+}
+
+/* text column: rich text (.rte), its component margin inside the column */
+.timeline .timeline-text {
+  margin-bottom: var(--component-margin);
+}
+
+.timeline .timeline-text p.button-wrapper {
+  display: flex;
+  margin: 0;
+}
+
+main .timeline .timeline-text a.button:any-link {
+  margin: 0 0 24px;
+}
+
+/* contact card (source frach-m-contact) */
+.timeline .timeline-contact {
+  margin-bottom: 24px;
+  background: var(--white);
+  box-shadow: 0 0 8px rgb(52 56 58 / 40%);
+}
+
+.timeline .timeline-contact .timeline-media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.timeline .timeline-contact .timeline-body {
+  padding: 16px;
+}
+
+.timeline .timeline-contact .timeline-body > :first-child {
+  margin-top: 0;
+}
+
+.timeline .timeline-contact .timeline-body h6 {
+  margin: 0 0 12px;
+}
+
+.timeline .timeline-contact .timeline-body p {
+  margin: 0 0 16px;
+}
+
+.timeline .timeline-contact .timeline-body p:has(> :is(.timeline-tel, .timeline-mail)) {
+  margin: 4px 0;
+}
+
+.timeline :is(.timeline-tel, .timeline-mail):any-link {
+  display: inline-flex;
+  align-items: flex-start;
+  color: var(--link-color);
+}
+
+.timeline :is(.timeline-tel, .timeline-mail)::before {
+  content: "";
+  flex-shrink: 0;
+  width: 16px;
+  height: 24px;
+  margin-right: 12px;
+  background-color: currentcolor;
+  mask: url("/icons/mail.svg") center / contain no-repeat;
+}
+
+.timeline .timeline-tel::before {
+  mask-image: url("/icons/phone.svg");
+}
+
+.timeline :is(.timeline-tel, .timeline-mail):any-link:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+@media (width >= 720px) {
+  .timeline .timeline-columns {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: var(--gutter);
+    align-items: start;
+  }
+
+  main .timeline .timeline-text a.button:any-link {
+    margin-top: 14px;
+  }
+}
+
+@media (width >= 960px) {
+  .timeline .timeline-contact .timeline-body {
+    padding: 24px;
+  }
+}

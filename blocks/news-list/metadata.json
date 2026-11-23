@@ -1,0 +1,31 @@
+{
+  "variantName": "news-list",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Newsroom search results page with search band, type tabs, tag filter and result rows",
+    "layout": "Gradient search band above tabs, scrollable tag filter, result count and bordered result rows with 16:9 thumbnails",
+    "notable": [
+      "Client-side search and tag filter over the authored results",
+      "Bold list item marks the active type tab",
+      "Hidden empty and error states",
+      "Static mehr anzeigen button"
+    ]
+  },
+  "contentPattern": {
+    "structure": "Rows classified by content: an h1 title row, a type tab list, a tag filter list, a result count paragraph, result rows (meta and date paragraphs, linked heading, teaser, picture), a load-more label and empty/error heading rows",
+    "rows": "Header rows, one row per result, trailing state rows"
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_a9062c04e0a3",
+    "v_8e2e93f40917"
+  ],
+  "usage": "Use for a newsroom listing page with searchable, filterable news results",
+  "reuseGuidance": "Fits lists of news items with meta, date, linked title, teaser and thumbnail; not for small teaser grids or non-news content"
+}

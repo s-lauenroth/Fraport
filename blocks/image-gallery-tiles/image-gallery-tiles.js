@@ -8,6 +8,10 @@
  * title shown in the lightbox). Decoded by role, never by index.
  * Control labels (Zoom, Mehr anzeigen, prev/next/close) are generated UI, not authored content.
  * Lightbox images are presentational clones of the tile images (EW4).
+ *
+ * @variants block class: alt — every tile shown at once (no "Mehr anzeigen"), 3 per row >= 1280;
+ *   cover — only the first image shows, full width, with an image-count badge; it opens the
+ *   lightbox on the whole set
  */
 
 const LABELS = {
@@ -32,6 +36,8 @@ const PATHS = {
   zoom: 'M10 2a8 8 0 0 1 6.32 12.9l5.39 5.39a1 1 0 0 1-1.42 1.42l-5.39-5.39A8 8 0 1 1 10 2zm0 2a6 6 0 1 0 '
     + '0 12 6 6 0 0 0 0-12zm0 2a1 1 0 0 1 1 1v2h2a1 1 0 0 1 0 2h-2v2a1 1 0 0 1-2 0v-2H7a1 1 0 0 1 0-2h2V7'
     + 'a1 1 0 0 1 1-1z',
+  files: 'M4 4h6l2 2h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zm0 2v12h16V8h-8.83'
+    + 'l-2-2H4z',
   image: 'M21 4a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h18zm-1 2H4v12h3.58l6.71-6.71'
     + 'a1 1 0 0 1 1.41 0L20 15.59V6zm-5 7.41L10.41 18h9.18L15 13.41zM8 8a2 2 0 1 1 0 4 2 2 0 0 1 0-4z',
   prev: 'M9.71 7.29a1 1 0 0 1 0 1.42L7.41 11H19a1 1 0 0 1 0 2H7.41l2.3 2.29a1 1 0 0 1-1.42 1.42l-4-4'
@@ -113,12 +119,22 @@ export default function decorate(block) {
     slides.append(slide);
   });
   const items = [...grid.children];
-  const initial = initialCount();
+  const cover = block.classList.contains('cover');
+  let initial = initialCount();
+  if (cover) initial = 1;
+  else if (block.classList.contains('alt')) initial = items.length;
+  if (cover && items[0]) {
+    const count = el('span', 'image-gallery-tiles-count');
+    count.textContent = String(items.length);
+    const badge = items[0].querySelector('.image-gallery-tiles-zoom');
+    badge.classList.add('is-files');
+    badge.replaceChildren(icon('files'), count);
+  }
   items.forEach((item, i) => item.classList.toggle('is-loaded', i < initial));
 
   const row = el('div', 'row');
   row.append(grid);
-  if (items.length > initial) {
+  if (!cover && items.length > initial) {
     const more = el('button', 'button secondary image-gallery-tiles-more');
     more.type = 'button';
     more.textContent = L.more;

@@ -1,0 +1,37 @@
+{
+  "variantName": "teaser-mosaic",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Anniversary photo mosaic with an overlay teaser panel, logo and colour tiles",
+    "layout": "Main tile 3/4 width (photo with text panel, or video) beside a right column with small logo / colour tiles on top and a tall photo below; stacked on mobile",
+    "colorScheme": "mixed",
+    "notable": [
+      "Tile with text gets a translucent panel and a whole-tile link",
+      "Video tile plays on click",
+      "Empty row = colour tile"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One row per tile in reading order, first row the main tile: picture + text, picture only, empty, or video link + poster",
+    "rows": "3-4 rows, 1 cell each"
+  },
+  "usage": "Use for campaign / anniversary entry points combining photos, a logo and one teaser.",
+  "reuseGuidance": "Built for 3-4 tiles; use cards or tiles for regular teaser grids.",
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "video",
+      "label": "Video"
+    }
+  ],
+  "memberVariantIds": [
+    "v_a8b12a975f48",
+    "v_358c48b1b251",
+    "v_379be33739be",
+    "v_e5416f51ef3f"
+  ]
+}

@@ -9,6 +9,10 @@
  *     (EW6: the href is read and the inner anchor unwrapped; its text stays in the paragraph)
  *   - CTA paragraphs (<strong> = primary, <em> = secondary link) → the button stack
  * Feed content is the authored snapshot of the source's CMS list (interim, see dynamics).
+ *
+ * @variants block class: thumbnails — latest press releases list: each item row holds a picture
+ *   (thumbnail), date / time paragraphs, a linked headline (heading or paragraph) and teaser
+ *   paragraphs; items are bordered rows, thumbnail left, the CTA below the list
  */
 
 function el(tag, className) {
@@ -30,6 +34,41 @@ function blockChildren(cell) {
     cell.append(p);
   }
   return [...cell.children];
+}
+
+const isMedia = (n) => !!n.querySelector('picture, img') && !n.textContent.trim();
+
+/** thumbnails option: thumb | date • time, linked headline, teaser */
+function buildThumbItem(nodes) {
+  const linkNode = nodes.find((n) => !isMedia(n) && n.querySelector('a') && !(n.tagName === 'P' && isCta(n)));
+  const anchor = linkNode.querySelector('a');
+  const link = el('a', 'newsroom-feed-link');
+  link.href = anchor.getAttribute('href');
+  anchor.replaceWith(...anchor.childNodes); // EW6
+  const thumb = el('div', 'newsroom-feed-thumb');
+  const text = el('div', 'newsroom-feed-text');
+  const date = el('div', 'newsroom-feed-date');
+  const headline = el('div', 'newsroom-feed-headline');
+  const teaser = el('div', 'newsroom-feed-teaser');
+  let seen = false;
+  nodes.forEach((n) => {
+    if (isMedia(n)) thumb.append(n);
+    else if (n === linkNode) {
+      headline.append(n);
+      seen = true;
+    } else (seen ? teaser : date).append(n);
+  });
+  [...date.children].slice(1).forEach((part) => {
+    const sep = el('span', 'newsroom-feed-sep');
+    sep.setAttribute('aria-hidden', 'true');
+    part.before(' ', sep, ' ');
+  });
+  text.append(...[date, headline, teaser].filter((b) => b.children.length));
+  if (thumb.children.length) link.append(thumb);
+  link.append(text);
+  const li = el('li', 'newsroom-feed-item');
+  li.append(link);
+  return li;
 }
 
 function buildItem(nodes) {
@@ -76,6 +115,13 @@ export default function decorate(block) {
   const list = el('ul', 'newsroom-feed-list');
   const ctas = el('div', 'newsroom-feed-ctas');
   const rest = el('div', 'newsroom-feed-body');
+  const thumbnails = block.classList.contains('thumbnails');
+  [...block.querySelectorAll(':scope > div')].forEach((row) => {
+    if (!thumbnails || !row.querySelector('picture, img') || !row.querySelector('a')) return;
+    const nodes = [...row.children].flatMap(blockChildren);
+    list.append(buildThumbItem(nodes));
+    row.remove();
+  });
   [...block.querySelectorAll(':scope > div > div')].forEach((cell) => {
     const nodes = blockChildren(cell);
     if (!nodes.length) return;

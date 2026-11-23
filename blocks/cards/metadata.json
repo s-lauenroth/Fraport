@@ -1,0 +1,35 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Grid of square image teaser cards, each card one link",
+    "layout": "12 / 6 / 4 column grid of 1:1 image cards with gradient veil, theme meta line and h5 title",
+    "notable": [
+      "Whole card is a single link taken from the heading link",
+      "Cards slide in from the right on scroll, staggered",
+      "Adopts a following link-box or newsroom-feed block as the last aside column",
+      "dated variant shows a dd.mm.yyyy date badge over the image edge"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell per card: a picture paragraph, an optional date paragraph (dated), an optional theme/meta paragraph, and a heading whose link is the card target",
+    "rows": "One row per card"
+  },
+  "options": [
+    {
+      "class": "dated",
+      "label": "Dated"
+    },
+    {
+      "class": "contact",
+      "label": "Contact"
+    }
+  ],
+  "memberVariantIds": [
+    "v_34477b3312d8",
+    "v_34f6f12817a9-1"
+  ],
+  "usage": "Use for a grid of linked image teasers such as topic pages or newsroom news items",
+  "reuseGuidance": "Fits short linked teasers with a square image and title; not for long body text, multiple CTAs per card or unlinked feature lists"
+}

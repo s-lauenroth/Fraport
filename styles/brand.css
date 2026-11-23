@@ -1,0 +1,121 @@
+/*
+ * Fraport brand tokens (design-migration marker). Values from the source www.fraport.com
+ * (migration-work/brand.json + computed styles / source custom properties --frach-color-*).
+ * styles.css imports this file first; components reference these variables.
+ */
+
+:root {
+  /* palette (source --frach-color-primary__*, --frach-color-secondary__*, greys) */
+  --primary-900: #00001d;
+  --primary-800: #00003a;
+  --primary-700: #000057;
+  --primary-600: #000074;
+  --primary-500: #000091;
+  --primary-400: #3333a7;
+  --primary-300: #6666bd;
+  --primary-200: #8c96c8;
+  --primary-100: #cccce9;
+  --primary-050: #d9d9ef;
+  --secondary-900: #160416;
+  --secondary-800: #2c082c;
+  --secondary-700: #420c42;
+  --secondary-600: #581058;
+  --secondary-500: #6e156e;
+  --secondary-400: #8c448c;
+  --secondary-300: #a873a8;
+  --secondary-200: #c5a2c5;
+  --secondary-100: #e2d0e2;
+  --secondary-050: #eadcea;
+  --grey-900: #1a1c1d;
+  --grey-800: #34383a;
+  --grey-700: #4f5457;
+  --grey-600: #697074;
+  --grey-500: #848c91;
+  --grey-400: #9ca3a7;
+  --grey-300: #b5babd;
+  --grey-200: #ced1d3;
+  --grey-100: #e6e8e9;
+  --grey-050: #edeeef;
+  --white: #fff;
+  --black: #000;
+  --negative: #df4961;
+  --gradient-brand: linear-gradient(135deg, var(--primary-500) 0, var(--secondary-500) 100%);
+  --gradient-brand-90: linear-gradient(90deg, var(--primary-500) 0, var(--secondary-500) 100%);
+
+  /* semantic colours */
+  --background-color: var(--white);
+  --body-text-color: var(--black);
+  --text-color: var(--grey-600);
+  --heading-color: var(--grey-600);
+  --link-color: var(--primary-500);
+  --link-hover-color: var(--primary-700);
+  --link-active-color: var(--primary-800);
+  --link-disabled-color: var(--grey-400);
+  --light-color: var(--grey-050);
+  --dark-color: var(--primary-500);
+  --rule-color: var(--grey-200);
+
+  /* type: self-hosted Fraport Sans, one family per cut (source declares each cut at 400) */
+  --font-fallback: "Liberation Sans", arial, sans-serif;
+  --ff-regular: fraport-sans-regular, fraport-sans-fallback, var(--font-fallback);
+  --ff-italic: fraport-sans-italic, fraport-sans-fallback, var(--font-fallback);
+  --ff-semibold: fraport-sans-semi-bold, fraport-sans-strong-fallback, var(--font-fallback);
+  --ff-semibold-italic:
+    fraport-sans-semi-bold-italic, fraport-sans-strong-fallback, var(--font-fallback);
+  --ff-bold: fraport-sans-bold, fraport-sans-strong-fallback, var(--font-fallback);
+  --ff-bold-italic: fraport-sans-bold-italic, fraport-sans-strong-fallback, var(--font-fallback);
+  --body-font-family: var(--ff-regular);
+  --heading-font-family: var(--ff-semibold-italic);
+  --body-font-size: 16px;
+  --body-line-height: 24px;
+
+  /* heading sizes, mobile (< 960px); desktop values below */
+  --heading-font-size-xxl: 32px;
+  --heading-line-height-xxl: 48px;
+  --heading-font-size-xl: 40px;
+  --heading-line-height-xl: 56px;
+  --heading-font-size-l: 28px;
+  --heading-line-height-l: 44px;
+  --heading-font-size-m: 24px;
+  --heading-line-height-m: 34px;
+  --heading-font-size-s: 20px;
+  --heading-line-height-s: 30px;
+  --heading-font-size-xs: 18px;
+  --heading-line-height-xs: 26px;
+
+  /* spacing (source .frach-h-component-margin / -padding) */
+  --section-padding: 32px;
+  --section-margin: 32px;
+  --content-max-width: 1648px;
+
+  /* header bar 85px + 1px rule; 152px + 1px expanded at >= 1280 */
+  --nav-height: 86px;
+
+  /* motion (source .frach-e-button transition: 0.2s) */
+  --transition-fast: 0.2s ease;
+}
+
+@media (width >= 960px) {
+  :root {
+    --heading-font-size-xxl: 56px;
+    --heading-line-height-xxl: 72px;
+    --heading-font-size-xl: 56px;
+    --heading-line-height-xl: 72px;
+    --heading-font-size-l: 40px;
+    --heading-line-height-l: 56px;
+    --heading-font-size-m: 28px;
+    --heading-line-height-m: 40px;
+    --heading-font-size-s: 24px;
+    --heading-line-height-s: 34px;
+    --heading-font-size-xs: 20px;
+    --heading-line-height-xs: 30px;
+    --section-padding: 64px;
+    --section-margin: 64px;
+  }
+}
+
+@media (width >= 1280px) {
+  :root {
+    --nav-height: 153px;
+  }
+}

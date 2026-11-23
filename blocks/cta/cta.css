@@ -93,3 +93,6 @@
     margin-left: 32px;
   }
 }
+
+/* option: light — same band as the default on the source (bottom-aligned buttons, 32px apart
+   at >= 1440, stacked 16px apart below 720px); it only drops the empty second slot (JS) */

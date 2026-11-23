@@ -113,8 +113,8 @@
   }
 }
 
-/* variant captions: figure caption (source frach-m-image__caption) */
-.columns.captions .columns-caption {
+/* figure caption (source frach-m-image__caption): variant captions and the text-media cell */
+.columns .columns-caption {
   margin-top: 8px;
   color: var(--grey-700);
   font-family: var(--ff-regular);
@@ -122,7 +122,7 @@
   line-height: 18px;
 }
 
-.columns.captions .columns-caption p {
+.columns .columns-caption p {
   margin: 0;
 }
 
@@ -150,4 +150,120 @@
   background-color: currentcolor;
   mask: url("/icons/mail.svg") center / contain no-repeat;
   vertical-align: -2px;
+}
+
+/* plain text-media cell (source frach-m-text-media--right--66-33 nested in a 6-col column):
+   media + caption first on mobile; from 720 the copy sits in the middle of the column and the
+   media floats right, overhanging the copy box (source geometry at 1440: 139 | 395 | 146) */
+.columns .columns-text-media {
+  display: flow-root;
+  margin: 0 16px var(--component-margin);
+}
+
+.columns .columns-text-media > .columns-figure {
+  margin-bottom: 24px;
+}
+
+.columns .columns-text-media img {
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.columns .columns-text-media > .columns-text {
+  margin: 0;
+}
+
+.columns .columns-text-media .rte > p {
+  margin: 0 0 10px;
+}
+
+@media (width >= 720px) {
+  .columns .columns-text-media {
+    margin-inline: 20.63% 20.59%;
+  }
+
+  .columns .columns-text-media > .columns-figure {
+    float: right;
+    width: 36.96%;
+    margin: 0 -13.42% 32px 16px;
+  }
+}
+
+/* option: light — tinted band (padding-top only, source frach-h-component-padding), the last
+   column (contact card / downloads box) raised */
+.columns.light {
+  background: var(--grey-050);
+  padding: var(--component-padding) 0 0;
+}
+
+.columns.light .columns-col:last-child:not(:first-child) > :last-child {
+  background: var(--white);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.columns.light .columns-col:last-child:not(:first-child) .rte {
+  padding: 16px;
+}
+
+/* contact card (source frach-m-contact): picture + text, the whole column is the card */
+.columns.light .columns-col:last-child:not(:first-child):has(> .columns-figure:first-child) {
+  margin-bottom: 24px;
+  background: var(--white);
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+}
+
+.columns.light .columns-col:last-child:not(:first-child):has(> .columns-figure:first-child) > * {
+  margin-bottom: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.columns.light .columns-col:last-child:not(:first-child):has(> .columns-figure:first-child) .rte > * {
+  margin: 0 0 16px;
+}
+
+.columns.light .columns-col:last-child:not(:first-child):has(> .columns-figure:first-child) .rte > :is(h1, h2, h3, h4, h5, h6) {
+  margin-bottom: 12px;
+}
+
+.columns.light .columns-col:last-child:not(:first-child):has(> .columns-figure:first-child) .rte > p:has(> a:only-child) {
+  margin: 4px 0;
+}
+
+/* light link lists (source frach-e-link + 16 px arrow / mail icon) */
+.columns.light .rte p > a:any-link:only-child {
+  display: inline-flex;
+  align-items: baseline;
+}
+
+.columns.light .rte p > a:any-link:only-child:not([href*=".pdf"], [href*="download"])::before {
+  content: "";
+  align-self: flex-start;
+  flex-shrink: 0;
+  width: 16px;
+  height: 24px;
+  margin: 0 8px -2px 0;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+.columns.light .rte p > a:any-link:only-child[href^="mailto:"]::before {
+  margin-right: 12px;
+  mask-image: url("/icons/mail.svg");
+}
+
+@media (width >= 720px) {
+  .columns.light .columns-col:last-child:not(:first-child) .rte {
+    padding: 24px;
+  }
+
+  .columns.light .columns-col:last-child:not(:first-child):has(> .columns-figure:first-child) {
+    margin-bottom: var(--component-margin);
+  }
+}
+
+/* option: grey — grey band behind the columns */
+.columns.grey {
+  background: var(--grey-050);
+  padding: var(--component-padding) 0 0;
 }

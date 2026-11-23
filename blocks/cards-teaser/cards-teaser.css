@@ -1,0 +1,196 @@
+/* cards-teaser (frach-m-slider of frach-m-teaser): ruled slides, each an image card or one / two
+   stacked text cards sharing the slide height. Stacked < 720, 2 per view from 720, 3 from 960.
+   Values from the source capture (newsroom "Noch mehr Fraport"). */
+
+/* the block is the .container content box (source slider sits in frach-grid) */
+.cards-teaser {
+  width: calc(100% - var(--grid-outer) - 2 * var(--grid-pad));
+  max-width: calc(var(--grid-max) - 2 * var(--grid-pad));
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--black);
+}
+
+.cards-teaser .cards-teaser-viewport {
+  position: relative;
+}
+
+.cards-teaser .cards-teaser-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cards-teaser .cards-teaser-card {
+  padding: 24px 0;
+  box-shadow: inset 0 -1px 0 var(--rule-color);
+}
+
+.cards-teaser .cards-teaser-image {
+  margin-bottom: 24px;
+}
+
+.cards-teaser .cards-teaser-image p {
+  margin: 0;
+}
+
+.cards-teaser .cards-teaser-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.cards-teaser .cards-teaser-body p {
+  margin: 8px 0;
+  font-family: var(--ff-regular);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+  color: var(--text-color);
+}
+
+.cards-teaser .cards-teaser-body > :first-child {
+  margin-top: 0;
+}
+
+.cards-teaser .cards-teaser-headline {
+  margin: 8px 0;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+  color: var(--link-color);
+}
+
+.cards-teaser .cards-teaser-headline a:any-link {
+  color: var(--link-color);
+}
+
+@media (hover: hover) {
+  .cards-teaser .cards-teaser-headline a:any-link:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+  }
+}
+
+.cards-teaser .cards-teaser-body .cards-teaser-text {
+  display: none;
+}
+
+.cards-teaser .cards-teaser-more p {
+  margin: 0;
+}
+
+main .cards-teaser .cards-teaser-more a.button:any-link {
+  margin-top: 16px;
+}
+
+.cards-teaser :is(.cards-teaser-prev, .cards-teaser-next) {
+  display: none;
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 48px;
+  height: 56px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: var(--primary-500);
+  color: var(--white);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.cards-teaser :is(.cards-teaser-prev, .cards-teaser-next)::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: auto;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+.cards-teaser .cards-teaser-prev::before {
+  mask-image: url("/icons/arrow-left.svg");
+}
+
+.cards-teaser .cards-teaser-prev {
+  left: -24px;
+}
+
+.cards-teaser .cards-teaser-next {
+  right: -24px;
+}
+
+@media (hover: hover) {
+  .cards-teaser :is(.cards-teaser-prev, .cards-teaser-next):hover {
+    background: var(--primary-700);
+  }
+}
+
+.cards-teaser.is-scrollable :is(.cards-teaser-prev, .cards-teaser-next):not([hidden]) {
+  display: block;
+}
+
+@media (width >= 720px) {
+  .cards-teaser .cards-teaser-list {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+  }
+
+  .cards-teaser .cards-teaser-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .cards-teaser .cards-teaser-slide {
+    display: flex;
+    flex: 0 0 50%;
+    flex-direction: column;
+    min-width: 0;
+    scroll-snap-align: start;
+  }
+
+  .cards-teaser .cards-teaser-slide + .cards-teaser-slide {
+    border-left: 1px solid var(--rule-color);
+  }
+
+  .cards-teaser .cards-teaser-card {
+    flex: 1 1 0;
+    padding: 32px;
+  }
+
+  /* source clamps the teaser text: 2 lines in a stacked pair, 3 in a slide of its own */
+  .cards-teaser .cards-teaser-body .cards-teaser-text {
+    display: -webkit-box;
+    margin: 15px 0;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+  }
+
+  .cards-teaser .cards-teaser-card:only-child .cards-teaser-text {
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+  }
+
+  main .cards-teaser .cards-teaser-more a.button:any-link {
+    margin-top: 20px;
+  }
+}
+
+@media (width >= 960px) {
+  .cards-teaser .cards-teaser-slide {
+    flex-basis: calc(100% / 3);
+  }
+
+  .cards-teaser .cards-teaser-card {
+    padding: 64px 32px;
+  }
+
+  .cards-teaser .cards-teaser-headline {
+    margin: 16px 0;
+  }
+}

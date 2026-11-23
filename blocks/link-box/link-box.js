@@ -5,7 +5,13 @@
  *
  * Authoring: one cell — a heading (title), a list of links, CTA paragraphs (<strong> links).
  * Decoded by role, never by index; extra paragraphs stay in the text flow.
+ *
+ * @variants block class: light — an image (a picture paragraph, or a separate first cell) sits
+ *   beside the panel (8 / 4 cols >= 960) on a tinted band; the shadowed panel moves to
+ *   .link-box-panel
  */
+
+const isMedia = (n) => !!n.querySelector('picture, img') && !n.textContent.trim();
 
 function el(tag, className) {
   const e = document.createElement(tag);
@@ -38,9 +44,12 @@ export default function decorate(block) {
   const list = el('div', 'link-box-list');
   const ctas = el('div', 'link-box-ctas');
   const body = el('div', 'link-box-body');
+  const light = block.classList.contains('light');
+  const media = el('div', 'link-box-media');
   [...block.querySelectorAll(':scope > div > div')].forEach((cell) => {
     [...cell.children].forEach((n) => {
-      if (/^H[1-6]$/.test(n.tagName) && !title.children.length) title.append(n);
+      if (light && isMedia(n)) media.append(n);
+      else if (/^H[1-6]$/.test(n.tagName) && !title.children.length) title.append(n);
       else if (n.tagName === 'UL' || n.tagName === 'OL') {
         n.querySelectorAll(':scope > li > a').forEach((a) => {
           if (!a.querySelector('svg')) a.prepend(arrowIcon());
@@ -52,5 +61,12 @@ export default function decorate(block) {
       } else body.append(n);
     });
   });
-  block.replaceChildren(...[title, body, list, ctas].filter((b) => b.children.length));
+  const parts = [title, body, list, ctas].filter((b) => b.children.length);
+  if (light) {
+    const panel = el('div', 'link-box-panel');
+    panel.append(...parts);
+    block.replaceChildren(...(media.children.length ? [media] : []), panel);
+    return;
+  }
+  block.replaceChildren(...parts);
 }

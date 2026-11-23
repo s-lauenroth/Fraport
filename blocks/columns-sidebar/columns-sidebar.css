@@ -1,0 +1,358 @@
+/* columns-sidebar: source .frach-grid row of a text column (frach-grid-col-mq3-8) beside a
+   sidebar (mq3-4), stacked below 720. Both columns are rich text (.rte from styles.css); each
+   column ends with the source component margin. Sidebar: contact card (frach-m-contact),
+   download boxes (frach-m-download-list), rich text. */
+
+/* grid: the block spans the section; the row is the .frach-grid container */
+.columns-sidebar .columns-sidebar-row {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - var(--grid-outer));
+  max-width: var(--grid-max);
+  margin: 0 auto;
+  padding: 0 var(--grid-pad);
+}
+
+.columns-sidebar .columns-sidebar-main,
+.columns-sidebar .columns-sidebar-aside {
+  min-width: 0;
+  padding-bottom: var(--component-margin);
+}
+
+/* images keep their own size up to the column width (source frach-m-image fills the column;
+   the embedded "Getting Greener" signet is a small rendition) */
+.columns-sidebar .columns-sidebar-main img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* source text components each end with the component margin: the title + subtitle pair
+   (h3 + h4) stands apart from the body text */
+.columns-sidebar .columns-sidebar-main > h3 + h4 {
+  margin-bottom: calc(16px + var(--component-margin));
+}
+
+/* headings in italic marks keep the heading face (source: semibold, slanted) */
+.columns-sidebar :is(h1, h2, h3, h4, h5, h6) em {
+  font-family: inherit;
+}
+
+/* tables (source frach-e-table in its own .frach-grid, alternate rows): inset by the nested grid
+   gutter, a component margin above, scroll sideways when wider than the column */
+.columns-sidebar .columns-sidebar-table {
+  margin: 0 calc(var(--grid-outer) / 2 + var(--grid-pad));
+  padding-top: var(--component-margin);
+  overflow-x: auto;
+}
+
+.columns-sidebar .columns-sidebar-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.columns-sidebar .columns-sidebar-table :is(td, th) {
+  padding: 16px;
+  border: 1px solid var(--grey-300);
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.columns-sidebar .columns-sidebar-table tr:nth-child(even) {
+  background-color: var(--grey-050);
+}
+
+/* authored buttons (EDS strong / em links): source .frach-m-text__buttons — full-width rows
+   below 720, then side by side, 14px below the text and 24px apart */
+.columns-sidebar p.button-wrapper {
+  display: flex;
+  margin: 0 24px 24px 0;
+}
+
+.columns-sidebar p.button-wrapper > a.button {
+  flex: 1 1 100%;
+}
+
+.columns-sidebar a.button:is(.primary, .secondary)::after {
+  content: "";
+  display: flex;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+/* link icons (source frach-icon-mail / -phone / -download / -globe / -arrow-right inside the
+   link) */
+.columns-sidebar :is(
+  .columns-sidebar-mail,
+  .columns-sidebar-tel,
+  .columns-sidebar-file,
+  .columns-sidebar-web,
+  .columns-sidebar-link
+)::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  vertical-align: -2px;
+  background-color: currentcolor;
+  mask: url("/icons/mail.svg") center / contain no-repeat;
+}
+
+.columns-sidebar .columns-sidebar-tel::before {
+  mask-image: url("/icons/phone.svg");
+}
+
+.columns-sidebar .columns-sidebar-file::before {
+  mask-image: url("/icons/download.svg");
+}
+
+.columns-sidebar .columns-sidebar-web::before {
+  mask-image: url("/icons/globe.svg");
+}
+
+.columns-sidebar .columns-sidebar-link::before {
+  mask-image: url("/icons/arrow-right.svg");
+}
+
+/* contact card (frach-m-contact): 16:9 image over the address, raised white box */
+.columns-sidebar .columns-sidebar-card {
+  margin-bottom: 24px;
+  background-color: var(--white);
+  box-shadow: 0 0 6px 0 var(--grey-300);
+}
+
+.columns-sidebar .columns-sidebar-card-image p {
+  margin: 0;
+}
+
+.columns-sidebar .columns-sidebar-card-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.columns-sidebar .columns-sidebar-card-body {
+  padding: 16px;
+  font-style: normal;
+}
+
+.columns-sidebar .columns-sidebar-card-body :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 12px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+}
+
+.columns-sidebar .columns-sidebar-card-body p {
+  margin: 0 0 16px;
+}
+
+/* contact links: one per line, 4px apart (source: icon links in one address paragraph) */
+.columns-sidebar .columns-sidebar-card-body p:has(> a:only-child) {
+  margin: 0;
+}
+
+.columns-sidebar .columns-sidebar-card-body :is(
+  .columns-sidebar-mail,
+  .columns-sidebar-tel,
+  .columns-sidebar-web
+) {
+  display: table;
+  margin: 4px 0;
+  line-height: 24px;
+  overflow-wrap: anywhere;
+}
+
+/* an image alone in the main column (source frach-m-image / embed) is its own component */
+.columns-sidebar .columns-sidebar-main > picture,
+.columns-sidebar .columns-sidebar-main > p:has(> picture:only-child) {
+  display: block;
+  margin: 0;
+}
+
+.columns-sidebar .columns-sidebar-main > :is(picture, p:has(> picture:only-child)):not(:last-child) {
+  margin-bottom: var(--component-margin);
+}
+
+/* a sidebar heading is its own text component before a contact card */
+.columns-sidebar .columns-sidebar-aside > :is(h1, h2, h3, h4, h5, h6):has(+ .columns-sidebar-card) {
+  margin-bottom: calc(16px + var(--component-margin));
+}
+
+/* the contact component carries no component margin, only its own 24px */
+.columns-sidebar .columns-sidebar-aside:has(> .columns-sidebar-card:last-child) {
+  padding-bottom: 0;
+}
+
+/* download list (frach-m-download-list): title + bordered items, the whole item one link */
+.columns-sidebar .columns-sidebar-aside > :is(h1, h2, h3, h4, h5, h6):has(+ .columns-sidebar-downloads) {
+  margin: 0;
+  padding: 0 0 16px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  line-height: var(--heading-line-height-xs);
+}
+
+.columns-sidebar .columns-sidebar-downloads {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* each download list is its own component */
+.columns-sidebar .columns-sidebar-downloads:not(:last-child) {
+  margin-bottom: var(--component-margin);
+}
+
+.columns-sidebar .columns-sidebar-download {
+  position: relative;
+  padding: 8px;
+  border: 1px solid var(--grey-200);
+  background-color: var(--white);
+}
+
+.columns-sidebar .columns-sidebar-download::after {
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: var(--primary-500);
+  mask: url("/icons/download.svg") center / contain no-repeat;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.columns-sidebar .columns-sidebar-download:hover {
+  box-shadow: 0 0 16px 0 var(--grey-300);
+}
+
+.columns-sidebar .columns-sidebar-download:hover::after {
+  opacity: 1;
+}
+
+.columns-sidebar a.columns-sidebar-download-link:any-link {
+  display: block;
+  color: var(--primary-500);
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.columns-sidebar a.columns-sidebar-download-link:any-link:hover {
+  color: var(--primary-700);
+}
+
+/* the whole item is the link's hit area; its text wraps clear of the 24 + 20px download icon */
+.columns-sidebar a.columns-sidebar-download-link:any-link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.columns-sidebar .columns-sidebar-download-name {
+  display: block;
+  padding: 0 44px 4px 0;
+  font-family: var(--ff-semibold);
+}
+
+.columns-sidebar .columns-sidebar-download-meta {
+  display: block;
+  padding-right: 44px;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+/* paragraphs in table cells end flush with the cell padding */
+.columns-sidebar .columns-sidebar-table :is(td, th) > p:last-child {
+  margin-bottom: 0;
+}
+
+/* text after the links (e.g. the postal address) starts 16px below them */
+.columns-sidebar .columns-sidebar-card-body p:has(> a:only-child) + p:not(:has(> a:only-child)) {
+  margin-top: 16px;
+}
+
+@media (width >= 720px) {
+  .columns-sidebar .columns-sidebar-row {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: var(--gutter);
+  }
+
+  .columns-sidebar .columns-sidebar-main {
+    flex: 0 0 calc((100% + var(--gutter)) * 2 / 3 - var(--gutter));
+  }
+
+  .columns-sidebar .columns-sidebar-aside {
+    flex: 0 0 calc((100% + var(--gutter)) / 3 - var(--gutter));
+  }
+
+  .columns-sidebar.no-sidebar .columns-sidebar-main {
+    flex-basis: 100%;
+  }
+
+  /* side by side, centred on each other (source: one flex row, items stretched) */
+  .columns-sidebar p.button-wrapper {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-top: 14px;
+  }
+
+  .columns-sidebar p.button-wrapper > a.button {
+    flex: 0 1 auto;
+  }
+
+  .columns-sidebar .columns-sidebar-download {
+    padding: 8px 16px;
+  }
+
+  .columns-sidebar .columns-sidebar-download::after {
+    top: 18px;
+    right: 16px;
+  }
+
+  /* file type icon before the meta line (source frach-icon-document-pdf, hidden < 720) */
+  .columns-sidebar .columns-sidebar-download-meta::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    margin-right: 13px;
+    background-color: currentcolor;
+    mask: url("/icons/document-pdf.svg") center / contain no-repeat;
+  }
+}
+
+@media (width >= 960px) {
+  .columns-sidebar .columns-sidebar-aside > :is(h2, h3):has(+ .columns-sidebar-card) {
+    margin-bottom: calc(32px + var(--component-margin));
+  }
+}
+
+@media (width >= 1440px) {
+  .columns-sidebar .columns-sidebar-card-body {
+    padding: 24px;
+  }
+}
+
+/* light-2: grey band behind the block (source frach-h-bg--grey + component padding-top; the
+   columns' component margins stay inside the band). light and image-blue have no band. */
+.columns-sidebar.light-2 {
+  padding-top: var(--component-padding);
+  background-color: var(--light-color);
+}

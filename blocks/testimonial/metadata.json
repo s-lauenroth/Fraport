@@ -1,0 +1,34 @@
+{
+  "variantName": "testimonial",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "16:9 image with overlapping meta caption and a quote headline plus blockquote",
+    "layout": "Image with caption overlapping its foot, quote below; from 1280px the quote floats over the image's left half on a lilac veil",
+    "notable": [
+      "Image may be wrapped in a link",
+      "Placed after a one-cell columns block it becomes that grid's second column",
+      "no-caption variant treats all text before the quote as headline"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell: a picture paragraph (optionally linked), a caption paragraph, a headline paragraph, and a blockquote",
+    "rows": "Single row, single cell"
+  },
+  "options": [
+    {
+      "class": "no-caption",
+      "label": "No Caption"
+    },
+    {
+      "class": "text-over-image",
+      "label": "Text Over Image"
+    }
+  ],
+  "memberVariantIds": [
+    "v_f4db64fbec16",
+    "v_40264ac9a44f"
+  ],
+  "usage": "Use to feature a single quote or statement paired with a large image",
+  "reuseGuidance": "Fits one image plus one short quote with optional caption; not for multiple quotes or carousels of testimonials"
+}

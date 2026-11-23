@@ -1,0 +1,161 @@
+/* teaser-feature: image filling the teaser, translucent text panel over its lower half
+   (lower right quarter on desktop); the link stretches over the whole teaser. */
+.teaser-feature {
+  background-color: var(--primary-500);
+  color: var(--black);
+}
+
+.teaser-feature .teaser-feature-inner {
+  position: relative;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr;
+  aspect-ratio: 9 / 16;
+}
+
+.teaser-feature .teaser-feature-image {
+  grid-area: 1 / 1 / 3 / 2;
+  min-height: 0;
+}
+
+.teaser-feature .teaser-feature-image p,
+.teaser-feature .teaser-feature-image picture {
+  display: block;
+  height: 100%;
+  margin: 0;
+}
+
+.teaser-feature .teaser-feature-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teaser-feature .teaser-feature-panel {
+  grid-area: 2 / 1 / 3 / 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 18px;
+  background: rgb(255 255 255 / 85%);
+}
+
+.teaser-feature .teaser-feature-panel :is(h1, h2, h3, h4, h5, h6) {
+  margin: 0 0 16px;
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-xs);
+  font-weight: 400;
+  line-height: var(--heading-line-height-xs);
+  color: var(--black);
+}
+
+.teaser-feature .teaser-feature-panel p {
+  margin: 0;
+  font-family: var(--ff-regular);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--black);
+}
+
+.teaser-feature .teaser-feature-panel .teaser-feature-cta {
+  margin-top: 16px;
+}
+
+.teaser-feature .teaser-feature-panel > :first-child {
+  margin-top: 0;
+}
+
+.teaser-feature a.teaser-feature-link:any-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 5px;
+  font-family: var(--ff-semibold);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-500);
+  text-decoration: none;
+}
+
+/* stretched link: the whole teaser is clickable */
+.teaser-feature a.teaser-feature-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.teaser-feature a.teaser-feature-link::after {
+  content: "";
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  background-color: currentcolor;
+  mask: url("/icons/arrow-right.svg") center / contain no-repeat;
+}
+
+.teaser-feature a.teaser-feature-link:hover {
+  text-decoration: underline;
+}
+
+.teaser-feature a.teaser-feature-link:focus-visible {
+  outline: 2px solid currentcolor;
+  outline-offset: 2px;
+}
+
+.teaser-feature .teaser-feature-graphic img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* square-text-over-image: link text directly over a square image, no panel */
+.teaser-feature.square-text-over-image {
+  background-color: transparent;
+}
+
+.teaser-feature.square-text-over-image .teaser-feature-inner {
+  aspect-ratio: 1;
+}
+
+.teaser-feature.square-text-over-image .teaser-feature-panel {
+  grid-area: 1 / 1 / 3 / 2;
+  background: none;
+}
+
+.teaser-feature.square-text-over-image a.teaser-feature-link:any-link {
+  color: var(--white);
+}
+
+@media (width >= 900px) {
+  .teaser-feature {
+    max-width: 720px;
+  }
+
+  .teaser-feature .teaser-feature-inner {
+    grid-template-columns: 1fr 1fr;
+    aspect-ratio: 1;
+  }
+
+  .teaser-feature .teaser-feature-image {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+
+  .teaser-feature .teaser-feature-panel {
+    grid-area: 2 / 2 / 3 / 3;
+    padding: 24px 24px 18px;
+  }
+
+  .teaser-feature .teaser-feature-panel .teaser-feature-cta {
+    margin-top: 48px;
+  }
+
+  .teaser-feature.square-text-over-image {
+    max-width: 360px;
+  }
+
+  .teaser-feature.square-text-over-image .teaser-feature-panel {
+    grid-area: 1 / 1 / 3 / 3;
+  }
+}

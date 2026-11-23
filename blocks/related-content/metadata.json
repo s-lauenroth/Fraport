@@ -1,0 +1,22 @@
+{
+  "variantName": "related-content",
+  "baseBlock": "carousel",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Paged rail of related-page teasers at the foot of a page",
+    "layout": "Three teasers per page with prev/next arrows and dots (>= 720); stacked first three plus load-more button (< 720)",
+    "notable": [
+      "Image teasers with theme line, linked heading, text and Lesen arrow CTA",
+      "A slide may stack two text-only teasers when two headings are authored",
+      "Control labels are generated"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one row per slide: optional picture, theme paragraph, linked heading, text paragraph and a Lesen CTA paragraph; two headings in one row stack two text-only teasers",
+    "rows": "1 row per slide, 1 cell each"
+  },
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Use near the end of a page to point readers to related pages.",
+  "reuseGuidance": "Fits image or text teasers linking to other pages; not for in-page navigation or a fixed grid of cards."
+}

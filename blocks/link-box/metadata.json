@@ -1,0 +1,31 @@
+{
+  "variantName": "link-box",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Shadowed white panel with a title, arrow link list and stacked CTA buttons",
+    "layout": "Single panel; standalone or adopted as the aside column of a preceding cards block",
+    "notable": [
+      "Grey h6-style title",
+      "Links in the list get arrow icons",
+      "Bold links become stacked primary buttons"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell with a heading, a bulleted list of links, and CTA paragraphs with bold links",
+    "rows": "Single row, single cell"
+  },
+  "options": [
+    {
+      "class": "light",
+      "label": "Light"
+    }
+  ],
+  "memberVariantIds": [
+    "v_25d059703f28",
+    "v_229b3a15a184",
+    "v_284fd84f0356"
+  ],
+  "usage": "Use for a compact box of related links and calls to action, typically beside a cards grid",
+  "reuseGuidance": "Fits a short titled list of navigation links plus a few CTAs; not for images or long text"
+}

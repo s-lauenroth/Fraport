@@ -75,3 +75,11 @@
     margin-top: 14px;
   }
 }
+
+/* option: alt — the same tiles on a tinted band (source .frach-h-bg--grey: top padding only,
+   the tiles' bottom margins close the band) */
+.tiles.alt {
+  display: flow-root;
+  background: var(--grey-050);
+  padding-top: var(--component-padding);
+}

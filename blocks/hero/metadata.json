@@ -1,0 +1,44 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "purpose": "Page-opening key visual with the page headline set as coloured ribbon bands",
+    "layout": "16:9 image offset two columns and bleeding right, ribbon headline over it (>= 720) or overlapping its foot (< 720)",
+    "notable": [
+      "Each <br> in the heading starts a new ribbon band",
+      "Ribbon colour primary, secondary or gradient (default gradient)",
+      "Image loaded eagerly with high fetch priority",
+      "Cells decoded by query, not by position"
+    ]
+  },
+  "contentPattern": {
+    "structure": "one cell with the key visual picture and the page h1 heading (line breaks split ribbon bands)",
+    "rows": "1 row, picture and heading in any cell"
+  },
+  "options": [
+    {
+      "class": "primary",
+      "label": "Primary"
+    },
+    {
+      "class": "secondary",
+      "label": "Secondary"
+    },
+    {
+      "class": "gradient",
+      "label": "Gradient"
+    },
+    {
+      "class": "ratio-21-9",
+      "label": "Ratio 21:9"
+    },
+    {
+      "class": "full-width",
+      "label": "Full Width"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Use once at the top of a page to show the key visual and the page title.",
+  "reuseGuidance": "Fits a single image plus a short one- to three-line headline; not for body copy, CTAs or multiple slides."
+}

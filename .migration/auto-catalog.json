@@ -1,0 +1,249 @@
+{
+  "version": 1,
+  "producer": "excat-replica-adapter",
+  "savedAt": "2026-11-20T08:47:45.650Z",
+  "siteUrl": "https://www.fraport.com",
+  "templates": [
+    {
+      "name": "homepage-de",
+      "description": "German homepage with hero, teaser sliders, key figures and tiles",
+      "urls": [
+        "https://www.fraport.com/de.html"
+      ]
+    },
+    {
+      "name": "section-landing",
+      "description": "Top-level section landing pages introducing a business area",
+      "urls": [
+        "https://www.fraport.com/de/geschaeftsfelder.html",
+        "https://www.fraport.com/de/geschaeftsfelder/betrieb.html",
+        "https://www.fraport.com/de/geschaeftsfelder/service.html",
+        "https://www.fraport.com/de/investoren.html",
+        "https://www.fraport.com/de/konzern/managementsysteme.html",
+        "https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html"
+      ]
+    },
+    {
+      "name": "feature-hub",
+      "description": "Topic hub pages showcasing a feature area with rich media",
+      "urls": [
+        "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+        "https://www.fraport.com/de/konzern/digitalisierung.html"
+      ]
+    },
+    {
+      "name": "content-page",
+      "description": "Standard editorial content pages with text, media and related content",
+      "urls": [
+        "https://www.fraport.com/de/investoren/fraport-aktie.html",
+        "https://www.fraport.com/de/investoren/publikationen-termine.html",
+        "https://www.fraport.com/de/konzern/regionales-engagement.html",
+        "https://www.fraport.com/de/konzern/ueber-uns.html",
+        "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+        "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html",
+        "https://www.fraport.com/de/nachhaltigkeit.html",
+        "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+        "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+        "https://www.fraport.com/de/newsroom/ansprechpartner.html"
+      ]
+    },
+    {
+      "name": "konzern-landing",
+      "description": "Group (Konzern) landing page with cards, testimonials and image gallery",
+      "urls": [
+        "https://www.fraport.com/de/konzern.html"
+      ]
+    },
+    {
+      "name": "strategy-page",
+      "description": "Corporate strategy page with text-media, accordions and CTAs",
+      "urls": [
+        "https://www.fraport.com/de/konzern/konzernstrategie.html"
+      ]
+    },
+    {
+      "name": "newsroom-hub",
+      "description": "Newsroom hub with news feed, media embeds, audio and milestones",
+      "urls": [
+        "https://www.fraport.com/de/newsroom.html"
+      ]
+    },
+    {
+      "name": "press-release-listing",
+      "description": "Press release listing with filterable news list",
+      "urls": [
+        "https://www.fraport.com/de/newsroom/pressemitteilung.html"
+      ]
+    },
+    {
+      "name": "service-news-listing",
+      "description": "Service news listing page",
+      "urls": [
+        "https://www.fraport.com/de/newsroom/servicenews.html"
+      ]
+    },
+    {
+      "name": "homepage-root",
+      "description": "Root homepage at the site entry URL",
+      "urls": [
+        "https://www.fraport.com/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.fraport.com/de.html",
+      "blocks": [
+        "anchor-list",
+        "columns",
+        "cta",
+        "hero",
+        "key-figures",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "text-media",
+        "tiles"
+      ]
+    },
+    {
+      "url": "https://www.fraport.com/de/geschaeftsfelder.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/geschaeftsfelder/betrieb.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/geschaeftsfelder/service.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/investoren.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/managementsysteme.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/nachhaltigkeit/wertschaffung.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/geschaeftsfelder/international-activities.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/digitalisierung.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/investoren/fraport-aktie.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/investoren/publikationen-termine.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/regionales-engagement.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/ueber-uns.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/ueber-uns/100jahrewieimflug/herzensmomente--fra.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/unsere-internationalen-flughaefen-und-beteiligungen.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/nachhaltigkeit.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/nachhaltigkeit/umwelt-und-klimaschutz.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/nachhaltigkeit/unternehmensfuehrung.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/newsroom/ansprechpartner.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern.html",
+      "blocks": [
+        "breadcrumb",
+        "cards",
+        "columns",
+        "hero",
+        "image-gallery-tiles",
+        "link-box",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "testimonial"
+      ]
+    },
+    {
+      "url": "https://www.fraport.com/de/konzern/konzernstrategie.html",
+      "blocks": [
+        "accordion",
+        "breadcrumb",
+        "columns",
+        "cta",
+        "hero",
+        "image",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "text-media"
+      ]
+    },
+    {
+      "url": "https://www.fraport.com/de/newsroom.html",
+      "blocks": [
+        "anchor-list",
+        "audio-player",
+        "breadcrumb",
+        "cards",
+        "columns",
+        "cta",
+        "embed",
+        "hero",
+        "image",
+        "key-figures",
+        "link-box",
+        "milestones",
+        "newsroom-feed",
+        "related-content",
+        "teaser",
+        "teaser-slider",
+        "text-media"
+      ]
+    },
+    {
+      "url": "https://www.fraport.com/de/newsroom/pressemitteilung.html",
+      "blocks": [
+        "cta",
+        "news-list"
+      ]
+    },
+    {
+      "url": "https://www.fraport.com/de/newsroom/servicenews.html",
+      "blocks": []
+    },
+    {
+      "url": "https://www.fraport.com/",
+      "blocks": []
+    }
+  ]
+}

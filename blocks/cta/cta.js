@@ -4,7 +4,9 @@
  *
  * Authoring: one cell (or several, read as one): a heading, copy paragraph(s), CTA paragraphs
  * (<strong> = primary, <em> = secondary link).
- * Variant `small`: the headline set in the h6 ramp (newsroom archive band) instead of h3.
+ * The headline takes the type ramp of its authored level (source: frach-hN follows the tag).
+ * Variant `small`: force the h6 ramp (newsroom archive band).
+ * Variant `light`: the buttons side by side in one row, no empty second slot.
  */
 
 function el(tag, className) {
@@ -19,9 +21,11 @@ export default function decorate(block) {
   const nodes = [...block.querySelectorAll(':scope > div > div > *')];
   const text = el('div', 'cta-text');
   const actions = el('div', 'cta-actions');
-  const ramp = block.classList.contains('small') ? 'h6' : 'h3';
+  const light = block.classList.contains('light');
+  const small = block.classList.contains('small');
   nodes.forEach((n) => {
     if (/^H[1-6]$/.test(n.tagName)) {
+      const ramp = small ? 'h6' : n.tagName.toLowerCase();
       const h = el('div', `cta-headline ${ramp}`);
       h.append(n);
       text.append(h);
@@ -36,7 +40,7 @@ export default function decorate(block) {
     }
   });
   // the source template always renders two action slots (the second may stay empty)
-  while (actions.children.length && actions.children.length < 2) actions.append(el('div', 'cta-action'));
+  while (!light && actions.children.length && actions.children.length < 2) actions.append(el('div', 'cta-action'));
   const row = el('div', 'row');
   row.append(el('div', 'cta-line'), text);
   if (actions.children.length) row.append(actions);

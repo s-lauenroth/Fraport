@@ -1,0 +1,38 @@
+{
+  "variantName": "image-gallery-tiles",
+  "baseBlock": "custom",
+  "canonicalModel": "collection",
+  "visualCharacteristics": {
+    "purpose": "Grid of zoomable 16:9 image tiles opening a lightbox slider",
+    "layout": "1 / 2 / 4 tiles per row in a 10-column frame",
+    "notable": [
+      "Shows 8 tiles initially (4 below 720px) with a Mehr anzeigen button for the rest",
+      "Lightbox with prev/next, close, backdrop click and Escape",
+      "Image title shown below the image in the lightbox"
+    ]
+  },
+  "contentPattern": {
+    "structure": "One cell per image: a picture paragraph and a heading used as the image title",
+    "rows": "One row per image"
+  },
+  "options": [
+    {
+      "class": "alt",
+      "label": "Alt"
+    },
+    {
+      "class": "cover",
+      "label": "Cover"
+    }
+  ],
+  "memberVariantIds": [
+    "v_b047667af4a4",
+    "v_65f89af4d976",
+    "v_ce983755f738",
+    "v_2bf997ccbd5a-1",
+    "v_4af5329b28b9",
+    "v_5348091e6871"
+  ],
+  "usage": "Use for a photo gallery where visitors can enlarge and browse images",
+  "reuseGuidance": "Fits sets of standalone photos with short titles; not for linked teasers or images needing body text"
+}

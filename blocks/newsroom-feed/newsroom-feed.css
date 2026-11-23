@@ -13,12 +13,12 @@
 }
 
 .newsroom-feed .newsroom-feed-title {
-  margin: 32px 24px 8px;
   color: var(--grey-600);
 }
 
+/* the source h6 carries the 32/8px margins itself */
 .newsroom-feed .newsroom-feed-title :is(h1, h2, h3, h4, h5, h6) {
-  margin: 0;
+  margin: 32px 24px 8px;
   font: inherit;
   color: inherit;
 }
@@ -105,11 +105,6 @@
   mask: url("/icons/arrow-right.svg") center / contain no-repeat;
 }
 
-.newsroom-feed a.newsroom-feed-link:hover .newsroom-feed-headline p {
-  color: var(--primary-700);
-  text-decoration: underline;
-}
-
 @media (width >= 720px) {
   .newsroom-feed .newsroom-feed-ctas {
     margin: 0 12px;
@@ -130,4 +125,108 @@
   .newsroom-feed .newsroom-feed-ctas {
     margin: 0;
   }
+}
+
+/* option: thumbnails — standalone press release list (source frach-m-teaser-collection
+   card-view in an 8/12 column, inset 16px): its own grid frame; the shadowed white panel holds the bordered
+   rows only (thumbnail left of date • time, h5 headline, teaser), the CTA sits below it on the
+   section background (full width < 960, right-aligned to the panel >= 960) */
+.newsroom-feed.thumbnails {
+  width: calc(100% - var(--grid-outer));
+  max-width: var(--grid-max);
+  margin: 0 auto;
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-list,
+.newsroom-feed.thumbnails .newsroom-feed-ctas {
+  margin: 0 calc(var(--grid-pad) + 16px);
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-list {
+  background: var(--white);
+  box-shadow: 0 0 16px 0 var(--grey-300);
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-item + .newsroom-feed-item {
+  border-top: 1px solid var(--grey-300);
+}
+
+.newsroom-feed.thumbnails a.newsroom-feed-link:any-link {
+  display: flex;
+  padding: 24px 32px;
+  border-bottom: 0;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-thumb {
+  flex: 0 0 134px;
+  margin-right: 32px;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-thumb > * {
+  margin: 0;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-thumb img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-text {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-headline {
+  margin-bottom: 16px;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-headline :is(p, h1, h2, h3, h4, h5, h6) {
+  margin: 0;
+  color: var(--primary-500);
+  font-family: var(--ff-semibold);
+  font-size: var(--heading-font-size-s);
+  line-height: var(--heading-line-height-s);
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-teaser {
+  color: var(--grey-600);
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-ctas {
+  padding: 32px 0 0;
+}
+
+.newsroom-feed.thumbnails .newsroom-feed-ctas a.button:any-link {
+  margin-bottom: 16px;
+}
+
+@media (width < 720px) {
+  .newsroom-feed.thumbnails .newsroom-feed-thumb {
+    display: none;
+  }
+}
+
+@media (width >= 960px) {
+  .newsroom-feed.thumbnails .newsroom-feed-list,
+  .newsroom-feed.thumbnails .newsroom-feed-ctas {
+    width: calc(100% * 2 / 3 - var(--gutter) - 32px);
+  }
+
+  .newsroom-feed.thumbnails .newsroom-feed-ctas {
+    align-items: flex-end;
+  }
+
+  .newsroom-feed.thumbnails .newsroom-feed-ctas a.button:any-link {
+    width: auto;
+  }
+}
+
+.newsroom-feed a.newsroom-feed-link:hover .newsroom-feed-headline :is(p, h1, h2, h3, h4, h5, h6) {
+  color: var(--primary-700);
+  text-decoration: underline;
 }
